@@ -1,43 +1,543 @@
-<header>
-    <h1>Nordic Riser AB</h1>
-    <p><strong>International Business &amp; Migration Advisory</strong></p>
-  </header>
-
-  <section>
-    <p>Nordic Riser AB is a Stockholm-based advisory firm supporting international investors, entrepreneurs, and families seeking structured and compliant pathways to establish businesses and relocate within Europe.</p>
-  </section>
-
-  <section>
-    <h2>What We Do</h2>
-    <ul>
-      <li>Business establishment and company structuring in Sweden and Europe</li>
-      <li>Investment-based residence and mobility planning</li>
-      <li>Coordination with legal, accounting, and immigration professionals</li>
-      <li>Student-route support for higher education in Europe</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Our Approach</h2>
-    <p>We operate with a compliance-first philosophy.</p>
-    <p>We do not promise outcomes; we build lawful, defensible processes aligned with institutional requirements.</p>
-  </section>
-
-  <section>
-    <h2>Location</h2>
-    <p>Stockholm, Sweden</p>
-  </section>
-
-  <section>
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:info@nordicriser.com">info@nordicriser.com</a><br>
-    Website: <a href="https://www.nordicriser.com">www.nordicriser.com</a></p>
-  </section>
-
-  <hr>
-
-  <footer>
-    <p><strong>Disclaimer</strong></p>
-    <p>The information provided by Nordic Riser AB is for general advisory purposes only and does not constitute legal or immigration representation. All outcomes are subject to the decisions of competent authorities and third parties.</p>
-    <p>&copy; Nordic Riser AB – Stockholm, Sweden</p>
-  </footer>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nordic Riser AB - International Business & Migration Advisory</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.7;
+      color: #1e293b;
+      background: #ffffff;
+    }
+    
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #60a5fa 100%);
+      color: white;
+      padding: 5rem 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+      opacity: 0.3;
+    }
+    
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+      letter-spacing: -1px;
+    }
+    
+    .hero .subtitle {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      font-weight: 300;
+      opacity: 0.95;
+    }
+    
+    .hero .tagline {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    
+    /* Navigation breadcrumb */
+    .breadcrumb {
+      background: #f8fafc;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    
+    .breadcrumb-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+    
+    .breadcrumb a {
+      color: #3b82f6;
+      text-decoration: none;
+    }
+    
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
+    
+    /* Main Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+    
+    /* Section Styling */
+    .section {
+      margin-bottom: 4rem;
+    }
+    
+    .section-title {
+      font-size: 2rem;
+      color: #1e3a8a;
+      margin-bottom: 2rem;
+      font-weight: 600;
+      text-align: center;
+    }
+    
+    .intro-text {
+      font-size: 1.15rem;
+      color: #475569;
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto 3rem;
+      line-height: 1.8;
+    }
+    
+    /* Services Grid */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+    
+    .service-card {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 2rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 24px rgba(59, 130, 246, 0.15);
+      border-color: #3b82f6;
+    }
+    
+    .service-card h3 {
+      color: #1e3a8a;
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+    
+    .service-card ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .service-card li {
+      padding: 0.5rem 0;
+      padding-left: 1.5rem;
+      position: relative;
+      color: #64748b;
+    }
+    
+    .service-card li:before {
+      content: "✓";
+      color: #3b82f6;
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+    }
+    
+    /* FAQ Section */
+    .faq-container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    
+    .faq-item {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+    
+    .faq-item:hover {
+      border-color: #3b82f6;
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
+    }
+    
+    .faq-question {
+      background: linear-gradient(to right, #f8fafc, white);
+      padding: 1.5rem;
+      cursor: pointer;
+      font-weight: 600;
+      color: #1e3a8a;
+      font-size: 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .faq-question:hover {
+      background: linear-gradient(to right, #eff6ff, #f8fafc);
+    }
+    
+    .faq-answer {
+      padding: 0 1.5rem 1.5rem;
+      color: #475569;
+      line-height: 1.8;
+    }
+    
+    .faq-answer ul {
+      list-style: none;
+      padding: 1rem 0 0 0;
+    }
+    
+    .faq-answer li {
+      padding: 0.5rem 0;
+      padding-left: 2rem;
+      position: relative;
+    }
+    
+    .faq-answer li:before {
+      content: "→";
+      color: #3b82f6;
+      font-weight: bold;
+      position: absolute;
+      left: 0.5rem;
+    }
+    
+    /* CTA Section */
+    .cta-section {
+      background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+      margin: 4rem -2rem -4rem;
+      border-radius: 16px 16px 0 0;
+    }
+    
+    .cta-section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: white;
+    }
+    
+    .cta-section p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      opacity: 0.95;
+    }
+    
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+    
+    .contact-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .contact-item strong {
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+      opacity: 0.9;
+    }
+    
+    .contact-item a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+      border-bottom: 2px solid rgba(255,255,255,0.3);
+      padding-bottom: 2px;
+      transition: all 0.3s ease;
+    }
+    
+    .contact-item a:hover {
+      border-bottom-color: white;
+    }
+    
+    /* Footer */
+    .footer {
+      background: #0f172a;
+      color: #94a3b8;
+      padding: 3rem 2rem 2rem;
+      text-align: center;
+    }
+    
+    .footer-content {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    
+    .disclaimer {
+      background: rgba(255,255,255,0.05);
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+    
+    .disclaimer strong {
+      color: #cbd5e1;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    
+    .copyright {
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      font-size: 0.9rem;
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      
+      .hero .subtitle {
+        font-size: 1.2rem;
+      }
+      
+      .hero .tagline {
+        font-size: 1rem;
+      }
+      
+      .container {
+        padding: 2rem 1rem;
+      }
+      
+      .section-title {
+        font-size: 1.6rem;
+      }
+      
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .contact-info {
+        gap: 2rem;
+      }
+      
+      .cta-section {
+        margin: 2rem -1rem -2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero-content">
+      <h1>Nordic Riser AB</h1>
+      <div class="subtitle">International Business & Migration Advisory</div>
+      <div class="tagline">Strategic services for compliant business establishment and relocation in Europe</div>
+    </div>
+  </div>
+  
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <div class="breadcrumb-content">
+      <a href="#">Home</a> / <span>Advisory Services</span>
+    </div>
+  </div>
+  
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Introduction -->
+    <section class="section">
+      <p class="intro-text">
+        Nordic Riser AB is a Stockholm-based advisory firm supporting international investors, entrepreneurs, 
+        and families seeking structured and compliant pathways to establish businesses and relocate within Europe.
+      </p>
+    </section>
+    
+    <!-- Services Overview -->
+    <section class="section">
+      <h2 class="section-title">Our Advisory Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Business Establishment</h3>
+          <ul>
+            <li>Company structuring in Sweden and Europe</li>
+            <li>Legal entity selection and registration</li>
+            <li>Regulatory compliance guidance</li>
+            <li>Banking and financial setup</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <h3>Investment & Residence</h3>
+          <ul>
+            <li>Investment-based residence planning</li>
+            <li>Mobility strategy development</li>
+            <li>Documentation coordination</li>
+            <li>Application process management</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <h3>Professional Coordination</h3>
+          <ul>
+            <li>Legal counsel coordination</li>
+            <li>Accounting service liaison</li>
+            <li>Immigration specialist referrals</li>
+            <li>Multi-jurisdictional planning</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <h3>Education Pathways</h3>
+          <ul>
+            <li>Student-route support for Europe</li>
+            <li>University application guidance</li>
+            <li>Study permit coordination</li>
+            <li>Post-graduation planning</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section class="section">
+      <h2 class="section-title">Common Questions About Our Services</h2>
+      <div class="faq-container">
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            How do I start the business establishment process in Sweden?
+          </div>
+          <div class="faq-answer">
+            <p>Establishing a business in Sweden requires careful planning and compliance with local regulations. We guide you through each step of the process.</p>
+            <p><strong>This is how we can help:</strong></p>
+            <ul>
+              <li>Evaluate the most suitable business structure for your needs</li>
+              <li>Navigate Swedish company registration requirements</li>
+              <li>Coordinate with legal and accounting professionals</li>
+              <li>Ensure compliance with tax and regulatory frameworks</li>
+              <li>Establish banking relationships and financial infrastructure</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            What are the investment-based residence options in Europe?
+          </div>
+          <div class="faq-answer">
+            <p>Various European countries offer residence pathways for investors and entrepreneurs. Each jurisdiction has specific requirements and timelines.</p>
+            <p><strong>This is how we can help:</strong></p>
+            <ul>
+              <li>Assess your eligibility for different residence programs</li>
+              <li>Compare investment requirements across jurisdictions</li>
+              <li>Develop a compliant investment and residence strategy</li>
+              <li>Coordinate documentation and application processes</li>
+              <li>Connect you with specialized immigration counsel</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            Can you help with relocation planning for my family?
+          </div>
+          <div class="faq-answer">
+            <p>Family relocation requires comprehensive planning across multiple areas including residence permits, education, and practical settlement matters.</p>
+            <p><strong>This is how we can help:</strong></p>
+            <ul>
+              <li>Coordinate family residence permit applications</li>
+              <li>Provide guidance on education options for children</li>
+              <li>Assist with practical settlement considerations</li>
+              <li>Connect you with relevant service providers</li>
+              <li>Ensure compliance with family immigration requirements</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            What is your approach to advisory services?
+          </div>
+          <div class="faq-answer">
+            <p>We operate with a compliance-first philosophy. We do not promise outcomes; we build lawful, defensible processes aligned with institutional requirements.</p>
+            <p><strong>Our methodology includes:</strong></p>
+            <ul>
+              <li>Thorough assessment of your specific situation</li>
+              <li>Clear communication of requirements and timelines</li>
+              <li>Coordination with qualified specialists as needed</li>
+              <li>Documentation of all processes and decisions</li>
+              <li>Ongoing support throughout your journey</li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <div class="cta-section">
+      <h2>Ready to Begin Your Journey?</h2>
+      <p>Contact us to discuss how we can support your business establishment or relocation plans.</p>
+      <div class="contact-info">
+        <div class="contact-item">
+          <strong>Email</strong>
+          <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
+        </div>
+        <div class="contact-item">
+          <strong>Website</strong>
+          <a href="https://www.nordicriser.com" target="_blank">www.nordicriser.com</a>
+        </div>
+        <div class="contact-item">
+          <strong>Location</strong>
+          <span style="color: white; font-size: 1.1rem;">Stockholm, Sweden</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <div class="footer">
+    <div class="footer-content">
+      <div class="disclaimer">
+        <strong>Disclaimer</strong>
+        The information provided by Nordic Riser AB is for general advisory purposes only and does not constitute 
+        legal or immigration representation. All outcomes are subject to the decisions of competent authorities 
+        and third parties.
+      </div>
+      <div class="copyright">
+        © Nordic Riser AB – Stockholm, Sweden
+      </div>
+    </div>
+  </div>
+</body>
+</html>
