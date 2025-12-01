@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - Nordic Riser AB</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.7;
+      color: #1e293b;
+      background: #ffffff;
+    }
+    
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #60a5fa 100%);
+      color: white;
+      padding: 5rem 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+      opacity: 0.3;
+    }
+    
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+      letter-spacing: -1px;
+    }
+    
+    .hero p {
+      font-size: 1.3rem;
+      opacity: 0.95;
+      max-width: 700px;
+      margin: 0 auto;
+      font-weight: 300;
+    }
+    
+    /* Breadcrumb */
+    .breadcrumb {
+      background: #f8fafc;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    
+    .breadcrumb-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+    
+    .breadcrumb a {
+      color: #3b82f6;
+      text-decoration: none;
+    }
+    
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
+    
+    /* Main Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+    
+    /* Mission Section */
+    .mission-section {
+      text-align: center;
+      margin-bottom: 5rem;
+      padding: 3rem 2rem;
+      background: linear-gradient(to bottom, #f8fafc, white);
+      border-radius: 16px;
+    }
+    
+    .mission-section h2 {
+      font-size: 2.5rem;
+      color: #1e3a8a;
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+    }
+    
+    .mission-text {
+      font-size: 1.2rem;
+      color: #475569;
+      max-width: 900px;
+      margin: 0 auto;
+      line-height: 1.9;
+    }
+    
+    .mission-text strong {
+      color: #1e3a8a;
+    }
+    
+    /* Values Section */
+    .values-section {
+      margin-bottom: 5rem;
+    }
+    
+    .section-title {
+      font-size: 2.2rem;
+      color: #1e3a8a;
+      margin-bottom: 3rem;
+      font-weight: 600;
+      text-align: center;
+    }
+    
+    .values-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2.5rem;
+      margin-top: 2rem;
+    }
+    
+    .value-card {
+      background: white;
+      border: 2px solid #e2e8f0;
+      border-radius: 16px;
+      padding: 2.5rem;
+      text-align: center;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .value-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background: linear-gradient(to right, #3b82f6, #60a5fa);
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+    
+    .value-card:hover::before {
+      transform: scaleX(1);
+    }
+    
+    .value-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 28px rgba(59, 130, 246, 0.2);
+      border-color: #3b82f6;
+    }
+    
+    .value-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    
+    .value-card h3 {
+      color: #1e3a8a;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+    
+    .value-card p {
+      color: #64748b;
+      line-height: 1.7;
+    }
+    
+    /* What We Do Section */
+    .services-section {
+      background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%);
+      padding: 4rem 2rem;
+      margin: 0 -2rem;
+      border-radius: 16px;
+      margin-bottom: 5rem;
+    }
+    
+    .services-content {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    
+    .service-item {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: all 0.3s ease;
+    }
+    
+    .service-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(59, 130, 246, 0.15);
+    }
+    
+    .service-item h3 {
+      color: #1e3a8a;
+      font-size: 1.2rem;
+      margin-bottom: 0.8rem;
+      font-weight: 600;
+    }
+    
+    .service-item p {
+      color: #64748b;
+      font-size: 0.95rem;
+    }
+    
+    /* Team Section */
+    .team-section {
+      margin-bottom: 5rem;
+    }
+    
+    .team-intro {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto 3rem;
+      font-size: 1.1rem;
+      color: #475569;
+      line-height: 1.8;
+    }
+    
+    .team-values {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+    
+    .team-value {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    
+    .team-value-icon {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(135deg, #3b82f6, #60a5fa);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1rem;
+      font-size: 2rem;
+    }
+    
+    .team-value h4 {
+      color: #1e3a8a;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    
+    .team-value p {
+      color: #64748b;
+      font-size: 0.95rem;
+    }
+    
+    /* Approach Section */
+    .approach-section {
+      background: white;
+      border: 2px solid #e2e8f0;
+      border-radius: 16px;
+      padding: 3rem;
+      margin-bottom: 5rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    
+    .approach-section h2 {
+      color: #1e3a8a;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    
+    .approach-content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .approach-content p {
+      color: #475569;
+      font-size: 1.1rem;
+      line-height: 1.9;
+      margin-bottom: 1.5rem;
+    }
+    
+    .approach-highlight {
+      background: linear-gradient(135deg, #eff6ff, #f8fafc);
+      padding: 2rem;
+      border-left: 4px solid #3b82f6;
+      border-radius: 8px;
+      margin-top: 2rem;
+    }
+    
+    .approach-highlight p {
+      margin: 0;
+      font-style: italic;
+      color: #1e3a8a;
+      font-weight: 500;
+    }
+    
+    /* CTA Section */
+    .cta-section {
+      background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+      margin: 4rem -2rem -4rem;
+      border-radius: 16px 16px 0 0;
+    }
+    
+    .cta-section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: white;
+    }
+    
+    .cta-section p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      opacity: 0.95;
+    }
+    
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+    
+    .contact-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .contact-item strong {
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+      opacity: 0.9;
+    }
+    
+    .contact-item a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+      border-bottom: 2px solid rgba(255,255,255,0.3);
+      padding-bottom: 2px;
+      transition: all 0.3s ease;
+    }
+    
+    .contact-item a:hover {
+      border-bottom-color: white;
+    }
+    
+    /* Footer */
+    .footer {
+      background: #0f172a;
+      color: #94a3b8;
+      padding: 3rem 2rem 2rem;
+      text-align: center;
+    }
+    
+    .footer-content {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    
+    .disclaimer {
+      background: rgba(255,255,255,0.05);
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+    
+    .disclaimer strong {
+      color: #cbd5e1;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    
+    .copyright {
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      font-size: 0.9rem;
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      
+      .hero p {
+        font-size: 1.1rem;
+      }
+      
+      .container {
+        padding: 2rem 1rem;
+      }
+      
+      .mission-section h2,
+      .section-title {
+        font-size: 1.8rem;
+      }
+      
+      .values-grid,
+      .services-grid,
+      .team-values {
+        grid-template-columns: 1fr;
+      }
+      
+      .contact-info {
+        gap: 2rem;
+      }
+      
+      .cta-section {
+        margin: 2rem -1rem -2rem;
+      }
+      
+      .services-section {
+        margin: 0 -1rem;
+        margin-bottom: 3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero-content">
+      <h1>About Nordic Riser AB</h1>
+      <p>Building compliant pathways for international business and relocation in Europe</p>
+    </div>
+  </div>
+  
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <div class="breadcrumb-content">
+      <a href="#">Home</a> / <span>About Us</span>
+    </div>
+  </div>
+  
+  <!-- Main Content -->
+  <div class="container">
+    
+    <!-- Mission Section -->
+    <section class="mission-section">
+      <h2>Who We Are</h2>
+      <div class="mission-text">
+        <p>
+          Nordic Riser AB is a Stockholm-based advisory firm providing strategic guidance to international 
+          investors, entrepreneurs, and families seeking structured and compliant pathways to establish businesses 
+          and relocate within Europe.
+        </p>
+        <p style="margin-top: 1.5rem;">
+          From initial planning to final execution, we guide our clients through the complexities of European 
+          business establishment and immigration processes. Our mission is to help build <strong>sustainable, 
+          compliant, and defensible pathways</strong> that align with institutional requirements and regulatory frameworks.
+        </p>
+      </div>
+    </section>
+    
+    <!-- Values Section -->
+    <section class="values-section">
+      <h2 class="section-title">Our Core Values</h2>
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon">⚖️</div>
+          <h3>Compliance First</h3>
+          <p>
+            We prioritize lawful, defensible processes above all else. Every recommendation aligns with 
+            current regulations and institutional requirements.
+          </p>
+        </div>
+        
+        <div class="value-card">
+          <div class="value-icon">🎯</div>
+          <h3>Transparency</h3>
+          <p>
+            We provide honest, realistic assessments. No false promises or guaranteed outcomes—only 
+            clear guidance on what is required and achievable.
+          </p>
+        </div>
+        
+        <div class="value-card">
+          <div class="value-icon">🤝</div>
+          <h3>Professional Network</h3>
+          <p>
+            We coordinate with qualified legal, accounting, and immigration professionals to ensure 
+            comprehensive support for our clients.
+          </p>
+        </div>
+        
+        <div class="value-card">
+          <div class="value-icon">📋</div>
+          <h3>Structured Process</h3>
+          <p>
+            We build systematic approaches to complex challenges, ensuring all documentation and 
+            requirements are properly addressed.
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- What We Do -->
+    <section class="services-section">
+      <div class="services-content">
+        <h2 class="section-title">What We Do</h2>
+        <div class="services-grid">
+          <div class="service-item">
+            <h3>Business Establishment</h3>
+            <p>Company structuring, legal entity selection, and registration support in Sweden and across Europe.</p>
+          </div>
+          
+          <div class="service-item">
+            <h3>Investment Planning</h3>
+            <p>Investment-based residence strategies and mobility planning for international entrepreneurs.</p>
+          </div>
+          
+          <div class="service-item">
+            <h3>Professional Coordination</h3>
+            <p>Liaison with legal counsel, accountants, and immigration specialists across jurisdictions.</p>
+          </div>
+          
+          <div class="service-item">
+            <h3>Education Pathways</h3>
+            <p>Student-route support for higher education in Europe, including application and permit coordination.</p>
+          </div>
+          
+          <div class="service-item">
+            <h3>Regulatory Guidance</h3>
+            <p>Navigation of European regulatory frameworks and compliance requirements.</p>
+          </div>
+          
+          <div class="service-item">
+            <h3>Documentation Support</h3>
+            <p>Comprehensive documentation coordination for business and immigration processes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Approach Section -->
+    <section class="approach-section">
+      <h2>Our Approach</h2>
+      <div class="approach-content">
+        <p>
+          We operate with a <strong>compliance-first philosophy</strong>. Unlike firms that promise specific outcomes, 
+          we focus on building lawful, defensible processes that align with institutional requirements.
+        </p>
+        <p>
+          Our clients understand that all decisions ultimately rest with competent authorities and third parties. 
+          Our role is to ensure that every application, every document, and every strategic decision is structured 
+          to withstand scrutiny and meet regulatory standards.
+        </p>
+        <div class="approach-highlight">
+          <p>
+            "We do not promise outcomes; we build lawful, defensible processes aligned with institutional requirements."
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Team Section -->
+    <section class="team-section">
+      <h2 class="section-title">How We Work</h2>
+      <div class="team-intro">
+        <p>
+          Nordic Riser AB brings together expertise in European business law, immigration processes, and 
+          cross-border advisory services. We maintain a network of qualified professionals across multiple 
+          jurisdictions to provide comprehensive support.
+        </p>
+      </div>
+      
+      <div class="team-values">
+        <div class="team-value">
+          <div class="team-value-icon">🌍</div>
+          <h4>European Focus</h4>
+          <p>Deep knowledge of Nordic and European business and immigration frameworks</p>
+        </div>
+        
+        <div class="team-value">
+          <div class="team-value-icon">📚</div>
+          <h4>Expert Network</h4>
+          <p>Coordination with specialized legal, tax, and immigration professionals</p>
+        </div>
+        
+        <div class="team-value">
+          <div class="team-value-icon">🔍</div>
+          <h4>Detail-Oriented</h4>
+          <p>Meticulous attention to documentation and regulatory compliance</p>
+        </div>
+        
+        <div class="team-value">
+          <div class="team-value-icon">💼</div>
+          <h4>Client-Centered</h4>
+          <p>Tailored strategies based on individual circumstances and goals</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <div class="cta-section">
+      <h2>Work With Us</h2>
+      <p>Ready to explore compliant pathways for your business or family in Europe?</p>
+      <div class="contact-info">
+        <div class="contact-item">
+          <strong>Email</strong>
+          <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
+        </div>
+        <div class="contact-item">
+          <strong>Website</strong>
+          <a href="https://www.nordicriser.com" target="_blank">www.nordicriser.com</a>
+        </div>
+        <div class="contact-item">
+          <strong>Location</strong>
+          <span style="color: white; font-size: 1.1rem;">Stockholm, Sweden</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <div class="footer">
+    <div class="footer-content">
+      <div class="disclaimer">
+        <strong>Disclaimer</strong>
+        The information provided by Nordic Riser AB is for general advisory purposes only and does not constitute 
+        legal or immigration representation. All outcomes are subject to the decisions of competent authorities 
+        and third parties.
+      </div>
+      <div class="copyright">
+        © Nordic Riser AB – Stockholm, Sweden
+      </div>
+    </div>
+  </div>
+</body>
+</html>
