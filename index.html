@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Nordic Riser AB - International Business & Migration Advisory</title>
+  <title>About Us - Nordic Riser AB</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     * {
@@ -53,21 +53,15 @@
       letter-spacing: -1px;
     }
     
-    .hero .subtitle {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-      font-weight: 300;
+    .hero p {
+      font-size: 1.3rem;
       opacity: 0.95;
-    }
-    
-    .hero .tagline {
-      font-size: 1.1rem;
-      opacity: 0.9;
       max-width: 700px;
       margin: 0 auto;
+      font-weight: 300;
     }
     
-    /* Navigation breadcrumb */
+    /* Breadcrumb */
     .breadcrumb {
       background: #f8fafc;
       padding: 1rem 2rem;
@@ -97,137 +91,242 @@
       padding: 4rem 2rem;
     }
     
-    /* Section Styling */
-    .section {
-      margin-bottom: 4rem;
+    /* Mission Section */
+    .mission-section {
+      text-align: center;
+      margin-bottom: 5rem;
+      padding: 3rem 2rem;
+      background: linear-gradient(to bottom, #f8fafc, white);
+      border-radius: 16px;
+    }
+    
+    .mission-section h2 {
+      font-size: 2.5rem;
+      color: #1e3a8a;
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+    }
+    
+    .mission-text {
+      font-size: 1.2rem;
+      color: #475569;
+      max-width: 900px;
+      margin: 0 auto;
+      line-height: 1.9;
+    }
+    
+    .mission-text strong {
+      color: #1e3a8a;
+    }
+    
+    /* Values Section */
+    .values-section {
+      margin-bottom: 5rem;
     }
     
     .section-title {
-      font-size: 2rem;
+      font-size: 2.2rem;
       color: #1e3a8a;
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
       font-weight: 600;
       text-align: center;
     }
     
-    .intro-text {
-      font-size: 1.15rem;
-      color: #475569;
-      text-align: center;
-      max-width: 800px;
-      margin: 0 auto 3rem;
-      line-height: 1.8;
-    }
-    
-    /* Services Grid */
-    .services-grid {
+    .values-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 2rem;
-      margin-top: 3rem;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2.5rem;
+      margin-top: 2rem;
     }
     
-    .service-card {
+    .value-card {
       background: white;
-      border: 1px solid #e2e8f0;
-      border-radius: 12px;
-      padding: 2rem;
+      border: 2px solid #e2e8f0;
+      border-radius: 16px;
+      padding: 2.5rem;
+      text-align: center;
       transition: all 0.3s ease;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      position: relative;
+      overflow: hidden;
     }
     
-    .service-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 12px 24px rgba(59, 130, 246, 0.15);
+    .value-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background: linear-gradient(to right, #3b82f6, #60a5fa);
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+    
+    .value-card:hover::before {
+      transform: scaleX(1);
+    }
+    
+    .value-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 28px rgba(59, 130, 246, 0.2);
       border-color: #3b82f6;
     }
     
-    .service-card h3 {
+    .value-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    
+    .value-card h3 {
       color: #1e3a8a;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       margin-bottom: 1rem;
       font-weight: 600;
     }
     
-    .service-card ul {
-      list-style: none;
-      padding: 0;
-    }
-    
-    .service-card li {
-      padding: 0.5rem 0;
-      padding-left: 1.5rem;
-      position: relative;
+    .value-card p {
       color: #64748b;
+      line-height: 1.7;
     }
     
-    .service-card li:before {
-      content: "✓";
-      color: #3b82f6;
-      font-weight: bold;
-      position: absolute;
-      left: 0;
+    /* What We Do Section */
+    .services-section {
+      background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%);
+      padding: 4rem 2rem;
+      margin: 0 -2rem;
+      border-radius: 16px;
+      margin-bottom: 5rem;
     }
     
-    /* FAQ Section */
-    .faq-container {
-      max-width: 900px;
+    .services-content {
+      max-width: 1200px;
       margin: 0 auto;
     }
     
-    .faq-item {
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    
+    .service-item {
       background: white;
-      border: 1px solid #e2e8f0;
+      padding: 2rem;
       border-radius: 12px;
-      margin-bottom: 1.5rem;
-      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
       transition: all 0.3s ease;
     }
     
-    .faq-item:hover {
-      border-color: #3b82f6;
-      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
+    .service-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(59, 130, 246, 0.15);
     }
     
-    .faq-question {
-      background: linear-gradient(to right, #f8fafc, white);
-      padding: 1.5rem;
-      cursor: pointer;
-      font-weight: 600;
+    .service-item h3 {
       color: #1e3a8a;
+      font-size: 1.2rem;
+      margin-bottom: 0.8rem;
+      font-weight: 600;
+    }
+    
+    .service-item p {
+      color: #64748b;
+      font-size: 0.95rem;
+    }
+    
+    /* Team Section */
+    .team-section {
+      margin-bottom: 5rem;
+    }
+    
+    .team-intro {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto 3rem;
       font-size: 1.1rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    
-    .faq-question:hover {
-      background: linear-gradient(to right, #eff6ff, #f8fafc);
-    }
-    
-    .faq-answer {
-      padding: 0 1.5rem 1.5rem;
       color: #475569;
       line-height: 1.8;
     }
     
-    .faq-answer ul {
-      list-style: none;
-      padding: 1rem 0 0 0;
+    .team-values {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
     }
     
-    .faq-answer li {
-      padding: 0.5rem 0;
-      padding-left: 2rem;
-      position: relative;
+    .team-value {
+      text-align: center;
+      padding: 2rem 1rem;
     }
     
-    .faq-answer li:before {
-      content: "→";
-      color: #3b82f6;
-      font-weight: bold;
-      position: absolute;
-      left: 0.5rem;
+    .team-value-icon {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(135deg, #3b82f6, #60a5fa);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1rem;
+      font-size: 2rem;
+    }
+    
+    .team-value h4 {
+      color: #1e3a8a;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    
+    .team-value p {
+      color: #64748b;
+      font-size: 0.95rem;
+    }
+    
+    /* Approach Section */
+    .approach-section {
+      background: white;
+      border: 2px solid #e2e8f0;
+      border-radius: 16px;
+      padding: 3rem;
+      margin-bottom: 5rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    
+    .approach-section h2 {
+      color: #1e3a8a;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    
+    .approach-content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .approach-content p {
+      color: #475569;
+      font-size: 1.1rem;
+      line-height: 1.9;
+      margin-bottom: 1.5rem;
+    }
+    
+    .approach-highlight {
+      background: linear-gradient(135deg, #eff6ff, #f8fafc);
+      padding: 2rem;
+      border-left: 4px solid #3b82f6;
+      border-radius: 8px;
+      margin-top: 2rem;
+    }
+    
+    .approach-highlight p {
+      margin: 0;
+      font-style: italic;
+      color: #1e3a8a;
+      font-weight: 500;
     }
     
     /* CTA Section */
@@ -325,23 +424,22 @@
         font-size: 2rem;
       }
       
-      .hero .subtitle {
-        font-size: 1.2rem;
-      }
-      
-      .hero .tagline {
-        font-size: 1rem;
+      .hero p {
+        font-size: 1.1rem;
       }
       
       .container {
         padding: 2rem 1rem;
       }
       
+      .mission-section h2,
       .section-title {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
       }
       
-      .services-grid {
+      .values-grid,
+      .services-grid,
+      .team-values {
         grid-template-columns: 1fr;
       }
       
@@ -352,6 +450,11 @@
       .cta-section {
         margin: 2rem -1rem -2rem;
       }
+      
+      .services-section {
+        margin: 0 -1rem;
+        margin-bottom: 3rem;
+      }
     }
   </style>
 </head>
@@ -359,155 +462,181 @@
   <!-- Hero Section -->
   <div class="hero">
     <div class="hero-content">
-      <h1>Nordic Riser AB</h1>
-      <div class="subtitle">International Business & Migration Advisory</div>
-      <div class="tagline">Strategic services for compliant business establishment and relocation in Europe</div>
+      <h1>About Nordic Riser AB</h1>
+      <p>Building compliant pathways for international business and relocation in Europe</p>
     </div>
   </div>
   
   <!-- Breadcrumb -->
   <div class="breadcrumb">
     <div class="breadcrumb-content">
-      <a href="#">Home</a> / <span>Advisory Services</span>
+      <a href="#">Home</a> / <span>About Us</span>
     </div>
   </div>
   
   <!-- Main Content -->
   <div class="container">
-    <!-- Introduction -->
-    <section class="section">
-      <p class="intro-text">
-        Nordic Riser AB is a Stockholm-based advisory firm supporting international investors, entrepreneurs, 
-        and families seeking structured and compliant pathways to establish businesses and relocate within Europe.
-      </p>
+    
+    <!-- Mission Section -->
+    <section class="mission-section">
+      <h2>Who We Are</h2>
+      <div class="mission-text">
+        <p>
+          Nordic Riser AB is a Stockholm-based advisory firm providing strategic guidance to international 
+          investors, entrepreneurs, and families seeking structured and compliant pathways to establish businesses 
+          and relocate within Europe.
+        </p>
+        <p style="margin-top: 1.5rem;">
+          From initial planning to final execution, we guide our clients through the complexities of European 
+          business establishment and immigration processes. Our mission is to help build <strong>sustainable, 
+          compliant, and defensible pathways</strong> that align with institutional requirements and regulatory frameworks.
+        </p>
+      </div>
     </section>
     
-    <!-- Services Overview -->
-    <section class="section">
-      <h2 class="section-title">Our Advisory Services</h2>
-      <div class="services-grid">
-        <div class="service-card">
-          <h3>Business Establishment</h3>
-          <ul>
-            <li>Company structuring in Sweden and Europe</li>
-            <li>Legal entity selection and registration</li>
-            <li>Regulatory compliance guidance</li>
-            <li>Banking and financial setup</li>
-          </ul>
+    <!-- Values Section -->
+    <section class="values-section">
+      <h2 class="section-title">Our Core Values</h2>
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon">⚖️</div>
+          <h3>Compliance First</h3>
+          <p>
+            We prioritize lawful, defensible processes above all else. Every recommendation aligns with 
+            current regulations and institutional requirements.
+          </p>
         </div>
         
-        <div class="service-card">
-          <h3>Investment & Residence</h3>
-          <ul>
-            <li>Investment-based residence planning</li>
-            <li>Mobility strategy development</li>
-            <li>Documentation coordination</li>
-            <li>Application process management</li>
-          </ul>
+        <div class="value-card">
+          <div class="value-icon">🎯</div>
+          <h3>Transparency</h3>
+          <p>
+            We provide honest, realistic assessments. No false promises or guaranteed outcomes—only 
+            clear guidance on what is required and achievable.
+          </p>
         </div>
         
-        <div class="service-card">
-          <h3>Professional Coordination</h3>
-          <ul>
-            <li>Legal counsel coordination</li>
-            <li>Accounting service liaison</li>
-            <li>Immigration specialist referrals</li>
-            <li>Multi-jurisdictional planning</li>
-          </ul>
+        <div class="value-card">
+          <div class="value-icon">🤝</div>
+          <h3>Professional Network</h3>
+          <p>
+            We coordinate with qualified legal, accounting, and immigration professionals to ensure 
+            comprehensive support for our clients.
+          </p>
         </div>
         
-        <div class="service-card">
-          <h3>Education Pathways</h3>
-          <ul>
-            <li>Student-route support for Europe</li>
-            <li>University application guidance</li>
-            <li>Study permit coordination</li>
-            <li>Post-graduation planning</li>
-          </ul>
+        <div class="value-card">
+          <div class="value-icon">📋</div>
+          <h3>Structured Process</h3>
+          <p>
+            We build systematic approaches to complex challenges, ensuring all documentation and 
+            requirements are properly addressed.
+          </p>
         </div>
       </div>
     </section>
     
-    <!-- FAQ Section -->
-    <section class="section">
-      <h2 class="section-title">Common Questions About Our Services</h2>
-      <div class="faq-container">
-        
-        <div class="faq-item">
-          <div class="faq-question">
-            How do I start the business establishment process in Sweden?
+    <!-- What We Do -->
+    <section class="services-section">
+      <div class="services-content">
+        <h2 class="section-title">What We Do</h2>
+        <div class="services-grid">
+          <div class="service-item">
+            <h3>Business Establishment</h3>
+            <p>Company structuring, legal entity selection, and registration support in Sweden and across Europe.</p>
           </div>
-          <div class="faq-answer">
-            <p>Establishing a business in Sweden requires careful planning and compliance with local regulations. We guide you through each step of the process.</p>
-            <p><strong>This is how we can help:</strong></p>
-            <ul>
-              <li>Evaluate the most suitable business structure for your needs</li>
-              <li>Navigate Swedish company registration requirements</li>
-              <li>Coordinate with legal and accounting professionals</li>
-              <li>Ensure compliance with tax and regulatory frameworks</li>
-              <li>Establish banking relationships and financial infrastructure</li>
-            </ul>
+          
+          <div class="service-item">
+            <h3>Investment Planning</h3>
+            <p>Investment-based residence strategies and mobility planning for international entrepreneurs.</p>
           </div>
-        </div>
-        
-        <div class="faq-item">
-          <div class="faq-question">
-            What are the investment-based residence options in Europe?
+          
+          <div class="service-item">
+            <h3>Professional Coordination</h3>
+            <p>Liaison with legal counsel, accountants, and immigration specialists across jurisdictions.</p>
           </div>
-          <div class="faq-answer">
-            <p>Various European countries offer residence pathways for investors and entrepreneurs. Each jurisdiction has specific requirements and timelines.</p>
-            <p><strong>This is how we can help:</strong></p>
-            <ul>
-              <li>Assess your eligibility for different residence programs</li>
-              <li>Compare investment requirements across jurisdictions</li>
-              <li>Develop a compliant investment and residence strategy</li>
-              <li>Coordinate documentation and application processes</li>
-              <li>Connect you with specialized immigration counsel</li>
-            </ul>
+          
+          <div class="service-item">
+            <h3>Education Pathways</h3>
+            <p>Student-route support for higher education in Europe, including application and permit coordination.</p>
+          </div>
+          
+          <div class="service-item">
+            <h3>Regulatory Guidance</h3>
+            <p>Navigation of European regulatory frameworks and compliance requirements.</p>
+          </div>
+          
+          <div class="service-item">
+            <h3>Documentation Support</h3>
+            <p>Comprehensive documentation coordination for business and immigration processes.</p>
           </div>
         </div>
-        
-        <div class="faq-item">
-          <div class="faq-question">
-            Can you help with relocation planning for my family?
-          </div>
-          <div class="faq-answer">
-            <p>Family relocation requires comprehensive planning across multiple areas including residence permits, education, and practical settlement matters.</p>
-            <p><strong>This is how we can help:</strong></p>
-            <ul>
-              <li>Coordinate family residence permit applications</li>
-              <li>Provide guidance on education options for children</li>
-              <li>Assist with practical settlement considerations</li>
-              <li>Connect you with relevant service providers</li>
-              <li>Ensure compliance with family immigration requirements</li>
-            </ul>
-          </div>
+      </div>
+    </section>
+    
+    <!-- Approach Section -->
+    <section class="approach-section">
+      <h2>Our Approach</h2>
+      <div class="approach-content">
+        <p>
+          We operate with a <strong>compliance-first philosophy</strong>. Unlike firms that promise specific outcomes, 
+          we focus on building lawful, defensible processes that align with institutional requirements.
+        </p>
+        <p>
+          Our clients understand that all decisions ultimately rest with competent authorities and third parties. 
+          Our role is to ensure that every application, every document, and every strategic decision is structured 
+          to withstand scrutiny and meet regulatory standards.
+        </p>
+        <div class="approach-highlight">
+          <p>
+            "We do not promise outcomes; we build lawful, defensible processes aligned with institutional requirements."
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Team Section -->
+    <section class="team-section">
+      <h2 class="section-title">How We Work</h2>
+      <div class="team-intro">
+        <p>
+          Nordic Riser AB brings together expertise in European business law, immigration processes, and 
+          cross-border advisory services. We maintain a network of qualified professionals across multiple 
+          jurisdictions to provide comprehensive support.
+        </p>
+      </div>
+      
+      <div class="team-values">
+        <div class="team-value">
+          <div class="team-value-icon">🌍</div>
+          <h4>European Focus</h4>
+          <p>Deep knowledge of Nordic and European business and immigration frameworks</p>
         </div>
         
-        <div class="faq-item">
-          <div class="faq-question">
-            What is your approach to advisory services?
-          </div>
-          <div class="faq-answer">
-            <p>We operate with a compliance-first philosophy. We do not promise outcomes; we build lawful, defensible processes aligned with institutional requirements.</p>
-            <p><strong>Our methodology includes:</strong></p>
-            <ul>
-              <li>Thorough assessment of your specific situation</li>
-              <li>Clear communication of requirements and timelines</li>
-              <li>Coordination with qualified specialists as needed</li>
-              <li>Documentation of all processes and decisions</li>
-              <li>Ongoing support throughout your journey</li>
-            </ul>
-          </div>
+        <div class="team-value">
+          <div class="team-value-icon">📚</div>
+          <h4>Expert Network</h4>
+          <p>Coordination with specialized legal, tax, and immigration professionals</p>
         </div>
         
+        <div class="team-value">
+          <div class="team-value-icon">🔍</div>
+          <h4>Detail-Oriented</h4>
+          <p>Meticulous attention to documentation and regulatory compliance</p>
+        </div>
+        
+        <div class="team-value">
+          <div class="team-value-icon">💼</div>
+          <h4>Client-Centered</h4>
+          <p>Tailored strategies based on individual circumstances and goals</p>
+        </div>
       </div>
     </section>
     
     <!-- CTA Section -->
     <div class="cta-section">
-      <h2>Ready to Begin Your Journey?</h2>
-      <p>Contact us to discuss how we can support your business establishment or relocation plans.</p>
+      <h2>Work With Us</h2>
+      <p>Ready to explore compliant pathways for your business or family in Europe?</p>
       <div class="contact-info">
         <div class="contact-item">
           <strong>Email</strong>
