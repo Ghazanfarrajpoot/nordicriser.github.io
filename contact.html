@@ -2,32 +2,403 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Contact – Nordic Riser</title>
+  <title>Contact - Nordic Riser AB</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.7;
+      color: #1e293b;
+      background: #ffffff;
+    }
+    
+    /* Navigation Bar */
+    .navbar {
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    
+    .nav-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+    
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #1e3a8a;
+      text-decoration: none;
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+    
+    .nav-links a {
+      color: #475569;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+    }
+    
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: #1e3a8a;
+      background: #eff6ff;
+    }
+    
+    .mobile-menu-btn {
+      display: none;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      color: #1e3a8a;
+      cursor: pointer;
+    }
+    
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #60a5fa 100%);
+      color: white;
+      padding: 5rem 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+      opacity: 0.3;
+    }
+    
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+      letter-spacing: -1px;
+    }
+    
+    .hero p {
+      font-size: 1.3rem;
+      opacity: 0.95;
+      max-width: 700px;
+      margin: 0 auto;
+      font-weight: 300;
+    }
+    
+    /* Main Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+    
+    /* Contact Info Section */
+    .contact-section {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 3rem;
+      margin: 3rem 0;
+    }
+    
+    .contact-card {
+      background: white;
+      border: 2px solid #e2e8f0;
+      border-radius: 16px;
+      padding: 3rem;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+    
+    .contact-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 28px rgba(59, 130, 246, 0.15);
+      border-color: #3b82f6;
+    }
+    
+    .contact-icon {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .contact-card h3 {
+      color: #1e3a8a;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+    
+    .contact-card p {
+      color: #64748b;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+    
+    .contact-card a {
+      color: #3b82f6;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 2px;
+      transition: all 0.3s ease;
+    }
+    
+    .contact-card a:hover {
+      border-bottom-color: #3b82f6;
+    }
+    
+    /* Info Box */
+    .info-box {
+      background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%);
+      border-left: 4px solid #3b82f6;
+      padding: 2rem;
+      border-radius: 12px;
+      margin: 3rem 0;
+    }
+    
+    .info-box h3 {
+      color: #1e3a8a;
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+    
+    .info-box p {
+      color: #475569;
+      line-height: 1.8;
+      margin-bottom: 0.5rem;
+    }
+    
+    /* Response Info */
+    .response-info {
+      text-align: center;
+      max-width: 700px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: white;
+      border: 2px solid #e2e8f0;
+      border-radius: 12px;
+    }
+    
+    .response-info h3 {
+      color: #1e3a8a;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    .response-info p {
+      color: #64748b;
+      line-height: 1.8;
+    }
+    
+    /* Footer */
+    .footer {
+      background: #0f172a;
+      color: #94a3b8;
+      padding: 3rem 2rem 2rem;
+      text-align: center;
+      margin-top: 4rem;
+    }
+    
+    .footer-content {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    
+    .disclaimer {
+      background: rgba(255,255,255,0.05);
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+    
+    .disclaimer strong {
+      color: #cbd5e1;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    
+    .copyright {
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      font-size: 0.9rem;
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        flex-direction: column;
+        gap: 0;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      }
+      
+      .nav-links.active {
+        display: flex;
+      }
+      
+      .nav-links a {
+        padding: 1rem 2rem;
+        border-radius: 0;
+      }
+      
+      .mobile-menu-btn {
+        display: block;
+      }
+      
+      .hero h1 {
+        font-size: 2rem;
+      }
+      
+      .hero p {
+        font-size: 1.1rem;
+      }
+      
+      .container {
+        padding: 2rem 1rem;
+      }
+      
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-content">
+      <a href="index.html" class="logo">Nordic Riser AB</a>
+      <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-  <h1>Contact Us</h1>
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero-content">
+      <h1>Contact Us</h1>
+      <p>Get in touch to discuss your business establishment or relocation needs</p>
+    </div>
+  </div>
+  
+  <!-- Main Content -->
+  <div class="container">
+    <section class="contact-section">
+      
+      <!-- Contact Cards -->
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon">📧</div>
+          <h3>Email</h3>
+          <p>For inquiries and consultation requests</p>
+          <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
+        </div>
+        
+        <div class="contact-card">
+          <div class="contact-icon">🌐</div>
+          <h3>Website</h3>
+          <p>Visit our main website</p>
+          <a href="https://www.nordicriser.com" target="_blank">www.nordicriser.com</a>
+        </div>
+        
+        <div class="contact-card">
+          <div class="contact-icon">📍</div>
+          <h3>Location</h3>
+          <p>Based in Stockholm, Sweden</p>
+          <span style="color: #1e3a8a; font-weight: 500;">Stockholm, Sweden</span>
+        </div>
+      </div>
+      
+      <!-- Info Box -->
+      <div class="info-box">
+        <h3>What to Include in Your Inquiry</h3>
+        <p>To help us provide the most relevant guidance, please include:</p>
+        <p>• A brief description of your business or relocation goals</p>
+        <p>• Your country of origin and target jurisdiction</p>
+        <p>• Your timeline and any specific questions</p>
+        <p>• Whether you require coordination with legal or immigration specialists</p>
+      </div>
+      
+      <!-- Response Info -->
+      <div class="response-info">
+        <h3>Response Time</h3>
+        <p>
+          We respond to serious business inquiries and advisory requests within 1-2 business days. 
+          All inquiries are reviewed to ensure we can provide appropriate guidance for your specific situation.
+        </p>
+      </div>
+      
+    </section>
+  </div>
+  
+  <!-- Footer -->
+  <div class="footer">
+    <div class="footer-content">
+      <div class="disclaimer">
+        <strong>Disclaimer</strong>
+        The information provided by Nordic Riser AB is for general advisory purposes only and does not constitute 
+        legal or immigration representation. All outcomes are subject to the decisions of competent authorities 
+        and third parties.
+      </div>
+      <div class="copyright">
+        © Nordic Riser AB – Stockholm, Sweden
+      </div>
+    </div>
+  </div>
 
-  <p>
-    Nordic Riser<br>
-    Stockholm, Sweden
-  </p>
-
-  <p>
-    Email:
-    <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
-  </p>
-
-  <p>
-    We respond to serious business inquiries and advisory requests.
-  </p>
-
-  <p>
-    <a href="index.html">Home</a> |
-    <a href="about.html">About</a> |
-    <a href="services.html">Services</a>
-  </p>
-
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById('navLinks');
+      navLinks.classList.toggle('active');
+    }
+  </script>
 </body>
 </html>
