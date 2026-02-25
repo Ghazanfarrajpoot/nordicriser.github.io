@@ -279,27 +279,57 @@
     @media (max-width: 768px) {
       .nav-links {
         display: none;
-        position: absolute;
-        top: 100%;
+        position: fixed;
+        top: 0;
         left: 0;
         right: 0;
         background: white;
         flex-direction: column;
         gap: 0;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        z-index: 999;
+        border-top: 2px solid #3b82f6;
       }
-      
+
       .nav-links.active {
         display: flex;
       }
-      
-      .nav-links a {
-        padding: 1rem 2rem;
-        border-radius: 0;
+
+      .nav-links li {
+        border-bottom: 1px solid #f1f5f9;
       }
-      
-      .mobile-menu-btn {
+
+      .nav-links a {
+        padding: 1rem 1.5rem;
+        border-radius: 0;
         display: block;
+      }
+
+      .nav-links li:last-child {
+        padding: 0.75rem 1rem;
+        border-bottom: none;
+      }
+
+      .nav-links a.login-btn {
+        border-radius: 8px;
+        text-align: center;
+      }
+
+      .nav-links a.login-btn:hover {
+        transform: none;
+      }
+
+      .mobile-menu-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 6px 10px;
+        border-radius: 6px;
+        border: 1px solid #e2e8f0;
+      }
+
+      .mobile-menu-btn:hover {
+        background: #f1f5f9;
       }
       
       .hero h1 {
@@ -419,8 +449,18 @@
   <script>
     function toggleMenu() {
       const navLinks = document.getElementById('navLinks');
-      navLinks.classList.toggle('active');
+      const navbar = document.querySelector('.navbar');
+      const isOpen = navLinks.classList.toggle('active');
+      if (isOpen) {
+        navLinks.style.top = navbar.getBoundingClientRect().bottom + 'px';
+      }
     }
+
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('.navbar')) {
+        document.getElementById('navLinks').classList.remove('active');
+      }
+    });
   </script>
 </body>
 </html>
