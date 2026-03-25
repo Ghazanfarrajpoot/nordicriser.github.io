@@ -2,687 +2,883 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Privacy Policy - Nordic Riser AB</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Nordic Riser AB</title>
+  <meta name="description" content="Privacy Policy for Nordic Riser AB. Learn how we collect, use, and protect your personal information in accordance with GDPR.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nordicriser.com/privacy.html">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --navy: #0f2557;
+      --blue: #1d4ed8;
+      --blue-light: #3b82f6;
+      --sky: #eff6ff;
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --white: #ffffff;
     }
-    
+
+    html { scroll-behavior: smooth; }
+
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      color: var(--text);
+      background: var(--white);
       line-height: 1.7;
-      color: #1e293b;
-      background: #ffffff;
+      font-size: 16px;
     }
-    
-    /* Navigation Bar */
+
+    /* ── NAVBAR ── */
     .navbar {
-      background: white;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
       position: sticky;
       top: 0;
-      z-index: 1000;
+      z-index: 100;
     }
-    
-    .nav-content {
+
+    .nav-inner {
       max-width: 1200px;
       margin: 0 auto;
+      padding: 0 2rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1rem 2rem;
-    }
-    
-    .logo {
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: #1e3a8a;
-      text-decoration: none;
-    }
-    
-    .nav-links {
-      display: flex;
-      gap: 2rem;
-      list-style: none;
-    }
-    
-    .nav-links a {
-      color: #475569;
-      text-decoration: none;
-      font-weight: 500;
-      transition: color 0.3s ease;
-      padding: 0.5rem 1rem;
-      border-radius: 6px;
-    }
-    
-    .nav-links a:hover,
-    .nav-links a.active {
-      color: #1e3a8a;
-      background: #eff6ff;
+      height: 68px;
     }
 
-    .nav-links a.login-btn {
-      background: linear-gradient(135deg, #3b82f6, #2563eb);
-      color: white;
+    .logo {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--navy);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 0.25rem;
+      align-items: center;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding: 0.5rem 0.9rem;
+      border-radius: 6px;
+      transition: color 0.2s, background 0.2s;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active { color: var(--navy); background: var(--sky); }
+
+    .nav-links .btn-login {
+      background: var(--navy);
+      color: var(--white);
       font-weight: 600;
-      box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
+      padding: 0.5rem 1.2rem;
     }
-    
-    .nav-links a.login-btn:hover {
-      background: linear-gradient(135deg, #2563eb, #1d4ed8);
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
-    }
-    
-    .mobile-menu-btn {
+
+    .nav-links .btn-login:hover { background: var(--blue); color: var(--white); }
+
+    .mobile-toggle {
       display: none;
       background: none;
-      border: none;
-      font-size: 1.5rem;
-      color: #1e3a8a;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 6px 10px;
+      font-size: 1.25rem;
+      color: var(--navy);
       cursor: pointer;
     }
-    
-    /* Hero Section */
-    .hero {
-      background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #60a5fa 100%);
-      color: white;
-      padding: 4rem 2rem;
+
+    /* ── PAGE HERO ── */
+    .page-hero {
+      background: linear-gradient(160deg, var(--navy) 0%, #1e3a8a 55%, #1d4ed8 100%);
+      color: var(--white);
+      padding: 4.5rem 2rem 4rem;
       text-align: center;
       position: relative;
       overflow: hidden;
     }
-    
-    .hero::before {
+
+    .page-hero::after {
       content: '';
       position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
-      opacity: 0.3;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M60 0H0v60' fill='none' stroke='rgba(255,255,255,0.04)' stroke-width='1'/%3E%3C/svg%3E");
     }
-    
-    .hero-content {
+
+    .page-hero-inner {
       position: relative;
       z-index: 1;
-      max-width: 900px;
+      max-width: 680px;
       margin: 0 auto;
     }
-    
-    .hero h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
+
+    .page-hero-label {
+      display: inline-block;
+      font-size: 0.75rem;
       font-weight: 700;
-      letter-spacing: -1px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.55);
+      margin-bottom: 1.25rem;
     }
-    
-    .hero p {
-      font-size: 1.1rem;
-      opacity: 0.95;
-      font-weight: 300;
+
+    .page-hero h1 {
+      font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      line-height: 1.2;
+      margin-bottom: 0.85rem;
     }
-    
-    /* Main Container */
-    .container {
-      max-width: 900px;
+
+    .page-hero p {
+      font-size: 1rem;
+      color: rgba(255,255,255,0.72);
+      line-height: 1.7;
+    }
+
+    /* ── BREADCRUMB ── */
+    .breadcrumb {
+      background: #f8fafc;
+      border-bottom: 1px solid var(--border);
+      padding: 0.85rem 2rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .breadcrumb-inner { max-width: 1200px; margin: 0 auto; }
+    .breadcrumb a { color: var(--blue-light); text-decoration: none; }
+    .breadcrumb a:hover { text-decoration: underline; }
+
+    /* ── LAYOUT ── */
+    .content-wrap {
+      max-width: 1100px;
       margin: 0 auto;
-      padding: 4rem 2rem;
+      padding: 4rem 2rem 5rem;
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 4rem;
+      align-items: start;
     }
-    
-    /* Last Updated */
-    .last-updated {
-      background: #eff6ff;
-      border-left: 4px solid #3b82f6;
-      padding: 1rem 1.5rem;
-      margin-bottom: 3rem;
-      border-radius: 8px;
-      color: #1e3a8a;
-      font-weight: 500;
+
+    /* ── SIDEBAR TOC ── */
+    .toc {
+      position: sticky;
+      top: 88px;
     }
-    
-    /* Section Styling */
-    .section {
-      margin-bottom: 3rem;
+
+    .toc-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.85rem;
+      display: block;
     }
-    
-    .section h2 {
-      color: #1e3a8a;
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
+
+    .toc-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+
+    .toc-list a {
+      display: block;
+      font-size: 0.825rem;
+      color: var(--muted);
+      text-decoration: none;
+      padding: 0.35rem 0.75rem;
+      border-radius: 6px;
+      border-left: 2px solid transparent;
+      transition: color 0.2s, background 0.2s, border-color 0.2s;
+      line-height: 1.5;
+    }
+
+    .toc-list a:hover {
+      color: var(--navy);
+      background: var(--sky);
+      border-left-color: var(--blue-light);
+    }
+
+    /* ── DOCUMENT BODY ── */
+    .doc-body { min-width: 0; }
+
+    .updated-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--sky);
+      border: 1px solid #bfdbfe;
+      border-radius: 6px;
+      padding: 0.5rem 1rem;
+      font-size: 0.825rem;
       font-weight: 600;
-      padding-bottom: 0.5rem;
-      border-bottom: 2px solid #e2e8f0;
+      color: var(--navy);
+      margin-bottom: 2.5rem;
     }
-    
-    .section h3 {
-      color: #1e3a8a;
-      font-size: 1.3rem;
-      margin-top: 1.5rem;
-      margin-bottom: 0.75rem;
-      font-weight: 600;
+
+    .doc-section {
+      margin-bottom: 3rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid var(--border);
     }
-    
-    .section p {
-      color: #475569;
+
+    .doc-section:last-of-type {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .doc-section h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--navy);
       margin-bottom: 1rem;
+      letter-spacing: -0.2px;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .doc-section h2 .sec-num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      background: var(--navy);
+      color: var(--white);
+      font-size: 0.75rem;
+      font-weight: 700;
+      border-radius: 6px;
+      flex-shrink: 0;
+    }
+
+    .doc-section h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text);
+      margin: 1.5rem 0 0.6rem;
+    }
+
+    .doc-section p {
+      font-size: 0.95rem;
+      color: var(--muted);
+      line-height: 1.85;
+      margin-bottom: 0.9rem;
+    }
+
+    .doc-section p:last-child { margin-bottom: 0; }
+
+    .doc-section ul, .doc-section ol {
+      padding-left: 1.5rem;
+      margin-bottom: 0.9rem;
+    }
+
+    .doc-section li {
+      font-size: 0.95rem;
+      color: var(--muted);
       line-height: 1.8;
+      margin-bottom: 0.35rem;
     }
-    
-    .section ul {
-      margin-left: 2rem;
-      margin-bottom: 1rem;
+
+    .doc-section a {
+      color: var(--blue-light);
+      text-decoration: none;
     }
-    
-    .section li {
-      color: #475569;
-      margin-bottom: 0.5rem;
-      line-height: 1.8;
-    }
-    
-    /* Highlight Box */
-    .highlight-box {
-      background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%);
-      border: 2px solid #3b82f6;
-      padding: 1.5rem;
-      border-radius: 12px;
-      margin: 2rem 0;
-    }
-    
-    .highlight-box h3 {
-      color: #1e3a8a;
-      font-size: 1.2rem;
-      margin-bottom: 1rem;
-      margin-top: 0;
-    }
-    
-    .highlight-box p {
-      color: #475569;
-      margin-bottom: 0.5rem;
-    }
-    
+
+    .doc-section a:hover { text-decoration: underline; }
+
+    .doc-section strong { color: var(--text); }
+
     /* Table */
     .data-table {
       width: 100%;
       border-collapse: collapse;
-      margin: 1.5rem 0;
-      background: white;
-      border: 1px solid #e2e8f0;
-      border-radius: 8px;
+      margin: 1.25rem 0;
+      font-size: 0.9rem;
+      border: 1px solid var(--border);
+      border-radius: 10px;
       overflow: hidden;
     }
-    
+
+    .data-table thead tr { background: var(--navy); }
+
     .data-table th {
-      background: #1e3a8a;
-      color: white;
-      padding: 1rem;
+      padding: 0.9rem 1.1rem;
       text-align: left;
-      font-weight: 600;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: var(--white);
     }
-    
+
     .data-table td {
-      padding: 1rem;
-      border-bottom: 1px solid #e2e8f0;
-      color: #475569;
+      padding: 0.875rem 1.1rem;
+      border-bottom: 1px solid var(--border);
+      color: var(--muted);
+      vertical-align: top;
     }
-    
-    .data-table tr:last-child td {
-      border-bottom: none;
+
+    .data-table tr:last-child td { border-bottom: none; }
+    .data-table tbody tr:nth-child(even) { background: #fafbff; }
+
+    /* Rights grid */
+    .rights-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin: 1.25rem 0;
     }
-    
-    /* Contact Box */
-    .contact-box {
-      background: white;
-      border: 2px solid #e2e8f0;
-      padding: 2rem;
-      border-radius: 12px;
-      margin: 2rem 0;
-      text-align: center;
+
+    .right-card {
+      background: var(--sky);
+      border: 1px solid #dbeafe;
+      border-radius: 10px;
+      padding: 1.1rem 1.25rem;
     }
-    
-    .contact-box h3 {
-      color: #1e3a8a;
-      margin-bottom: 1rem;
+
+    .right-card h4 {
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 0.3rem;
     }
-    
-    .contact-box a {
-      color: #3b82f6;
-      text-decoration: none;
+
+    .right-card p {
+      font-size: 0.825rem;
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+
+    /* Info box */
+    .info-box {
+      background: var(--sky);
+      border-left: 3px solid var(--blue-light);
+      border-radius: 0 8px 8px 0;
+      padding: 1.25rem 1.5rem;
+      margin: 1.25rem 0;
+    }
+
+    .info-box p {
+      font-size: 0.9rem;
+      color: var(--navy);
+      margin-bottom: 0;
       font-weight: 500;
-      font-size: 1.1rem;
     }
-    
-    .contact-box a:hover {
-      text-decoration: underline;
+
+    /* Contact box */
+    .contact-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 1.25rem;
     }
-    
-    /* Footer */
+
+    .contact-card h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 0.3rem;
+    }
+
+    .contact-card p {
+      font-size: 0.875rem;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+
+    .contact-card a {
+      display: inline-block;
+      background: var(--navy);
+      color: var(--white);
+      font-weight: 700;
+      font-size: 0.875rem;
+      padding: 0.65rem 1.5rem;
+      border-radius: 7px;
+      text-decoration: none;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+
+    .contact-card a:hover { background: var(--blue); }
+
+    /* ── FOOTER ── */
     .footer {
-      background: #0f172a;
-      color: #94a3b8;
-      padding: 3rem 2rem 2rem;
+      background: #0b1426;
+      color: #64748b;
+      padding: 2.5rem 2rem;
       text-align: center;
-      margin-top: 4rem;
+      font-size: 0.875rem;
     }
-    
-    .footer-content {
-      max-width: 900px;
-      margin: 0 auto;
+
+    .footer-inner { max-width: 900px; margin: 0 auto; }
+
+    .footer-disclaimer {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 8px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.75rem;
+      line-height: 1.7;
+      color: #94a3b8;
     }
-    
-    .footer-links {
+
+    .footer-disclaimer strong {
+      color: #cbd5e1;
+      display: block;
+      margin-bottom: 0.4rem;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.07);
+      padding-top: 1.5rem;
       display: flex;
       justify-content: center;
-      gap: 2rem;
-      margin-bottom: 2rem;
+      align-items: center;
       flex-wrap: wrap;
+      gap: 1.5rem;
     }
-    
+
+    .footer-links {
+      display: flex;
+      gap: 1.25rem;
+      list-style: none;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     .footer-links a {
-      color: #94a3b8;
+      color: #64748b;
       text-decoration: none;
-      transition: color 0.3s ease;
+      font-size: 0.85rem;
+      transition: color 0.2s;
     }
-    
-    .footer-links a:hover {
-      color: #cbd5e1;
+
+    .footer-links a:hover { color: #94a3b8; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .content-wrap {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .toc {
+        position: static;
+        background: var(--sky);
+        border: 1px solid #dbeafe;
+        border-radius: 10px;
+        padding: 1.25rem 1.5rem;
+      }
+
+      .toc-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.35rem;
+      }
+
+      .toc-list a {
+        border-left: none;
+        border: 1px solid var(--border);
+        background: var(--white);
+        border-radius: 20px;
+        padding: 0.3rem 0.75rem;
+      }
     }
-    
-    .copyright {
-      padding-top: 2rem;
-      border-top: 1px solid rgba(255,255,255,0.1);
-      font-size: 0.9rem;
-    }
-    
-    /* Responsive */
+
     @media (max-width: 768px) {
       .nav-links {
         display: none;
         position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        background: white;
+        top: 68px;
+        left: 0; right: 0;
+        background: var(--white);
         flex-direction: column;
         gap: 0;
-        box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-        z-index: 999;
-        border-top: 2px solid #3b82f6;
+        border-top: 2px solid var(--blue-light);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        z-index: 99;
       }
 
-      .nav-links.active {
-        display: flex;
-      }
-
-      .nav-links li {
-        border-bottom: 1px solid #f1f5f9;
-      }
+      .nav-links.open { display: flex; }
+      .nav-links li { border-bottom: 1px solid var(--border); }
 
       .nav-links a {
-        padding: 1rem 1.5rem;
-        border-radius: 0;
         display: block;
+        padding: 0.9rem 1.5rem;
+        border-radius: 0;
       }
 
-      .nav-links li:last-child {
-        padding: 0.75rem 1rem;
-        border-bottom: none;
-      }
-
-      .nav-links a.login-btn {
+      .nav-links .btn-login {
+        margin: 0.75rem 1rem;
         border-radius: 8px;
         text-align: center;
       }
 
-      .nav-links a.login-btn:hover {
-        transform: none;
-      }
+      .mobile-toggle { display: block; }
 
-      .mobile-menu-btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 6px 10px;
-        border-radius: 6px;
-        border: 1px solid #e2e8f0;
-      }
+      .content-wrap { padding: 2.5rem 1.25rem 4rem; }
+      .page-hero { padding: 3.5rem 1.25rem 3rem; }
 
-      .mobile-menu-btn:hover {
-        background: #f1f5f9;
-      }
-      
-      .hero h1 {
-        font-size: 1.8rem;
-      }
-      
-      .container {
-        padding: 2rem 1rem;
-      }
-      
-      .section h2 {
-        font-size: 1.5rem;
-      }
-      
-      .data-table {
-        font-size: 0.9rem;
-      }
-      
-      .data-table th,
-      .data-table td {
-        padding: 0.75rem;
-      }
+      .data-table { font-size: 0.82rem; }
+      .data-table th, .data-table td { padding: 0.7rem 0.85rem; }
     }
   </style>
 </head>
 <body>
-  <!-- Navigation -->
+
+  <!-- NAVBAR -->
   <nav class="navbar">
-    <div class="nav-content">
+    <div class="nav-inner">
       <a href="index.html" class="logo">Nordic Riser AB</a>
-      <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+      <button class="mobile-toggle" onclick="toggleMenu()" aria-label="Toggle menu">☰</button>
       <ul class="nav-links" id="navLinks">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="who-we-help.html">Who We Help</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="privacy.html" class="active">Privacy Policy</a></li>
-        <li><a href="https://portal.nordicriser.com" class="login-btn">Member Login</a></li>
+        <li><a href="https://portal.nordicriser.com" class="btn-login">Member Login</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <div class="hero">
-    <div class="hero-content">
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <span class="page-hero-label">Legal</span>
       <h1>Privacy Policy</h1>
-      <p>How we collect, use, and protect your personal information</p>
+      <p>How Nordic Riser AB collects, uses, and protects your personal information in accordance with the EU General Data Protection Regulation (GDPR).</p>
+    </div>
+  </section>
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb">
+    <div class="breadcrumb-inner">
+      <a href="index.html">Home</a> &rsaquo; <span>Privacy Policy</span>
     </div>
   </div>
-  
-  <!-- Main Content -->
-  <div class="container">
-    
-    <div class="last-updated">
-      <strong>Last Updated:</strong> December 3, 2025
-    </div>
 
-    <!-- Introduction -->
-    <div class="section">
-      <h2>1. Introduction</h2>
-      <p>
-        Nordic Riser AB ("we", "our", or "us") is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our advisory services.
-      </p>
-      <p>
-        This policy is designed to comply with the EU General Data Protection Regulation (GDPR) and Swedish data protection laws.
-      </p>
-    </div>
+  <!-- CONTENT -->
+  <div class="content-wrap">
 
-    <!-- Data Controller -->
-    <div class="section">
-      <h2>2. Data Controller</h2>
-      <p><strong>Nordic Riser AB</strong><br>
-      Stockholm, Sweden<br>
-      Email: info@nordicriser.com</p>
-      <p>
-        Nordic Riser AB is the data controller responsible for your personal information collected through our website and services.
-      </p>
-    </div>
-
-    <!-- Information We Collect -->
-    <div class="section">
-      <h2>3. Information We Collect</h2>
-      
-      <h3>3.1 Information You Provide Directly</h3>
-      <p>We collect information that you voluntarily provide to us, including:</p>
-      <ul>
-        <li><strong>Contact Information:</strong> Name, email address, phone number, postal address</li>
-        <li><strong>Business Information:</strong> Company name, position, business objectives, investment plans</li>
-        <li><strong>Communication Data:</strong> Information contained in emails, forms, and other correspondence</li>
-        <li><strong>Advisory Request Information:</strong> Details about your business establishment or relocation needs</li>
+    <!-- TABLE OF CONTENTS -->
+    <aside class="toc">
+      <span class="toc-label">Contents</span>
+      <ul class="toc-list">
+        <li><a href="#s1">1. Introduction</a></li>
+        <li><a href="#s2">2. Data Controller</a></li>
+        <li><a href="#s3">3. Information We Collect</a></li>
+        <li><a href="#s4">4. How We Use Your Data</a></li>
+        <li><a href="#s5">5. Data Sharing</a></li>
+        <li><a href="#s6">6. Data Security</a></li>
+        <li><a href="#s7">7. Data Retention</a></li>
+        <li><a href="#s8">8. Your Rights (GDPR)</a></li>
+        <li><a href="#s9">9. Cookies</a></li>
+        <li><a href="#s10">10. Children's Privacy</a></li>
+        <li><a href="#s11">11. Policy Changes</a></li>
+        <li><a href="#s12">12. Supervisory Authority</a></li>
+        <li><a href="#s13">13. Contact</a></li>
       </ul>
+    </aside>
 
-      <h3>3.2 Information Collected Automatically</h3>
-      <p>When you visit our website, we may automatically collect:</p>
-      <ul>
-        <li><strong>Technical Data:</strong> IP address, browser type, operating system, device information</li>
-        <li><strong>Usage Data:</strong> Pages visited, time spent on pages, navigation paths</li>
-        <li><strong>Cookies:</strong> Small data files stored on your device (see our Cookie Policy below)</li>
-      </ul>
-    </div>
+    <!-- DOCUMENT -->
+    <div class="doc-body">
 
-    <!-- How We Use Your Information -->
-    <div class="section">
-      <h2>4. How We Use Your Information</h2>
-      <p>We process your personal data for the following purposes:</p>
-
-      <table class="data-table">
-        <thead>
-          <tr>
-            <th>Purpose</th>
-            <th>Legal Basis (GDPR)</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Providing advisory services and responding to inquiries</td>
-            <td>Contract performance / Legitimate interest</td>
-          </tr>
-          <tr>
-            <td>Communicating with you about our services</td>
-            <td>Contract performance / Consent</td>
-          </tr>
-          <tr>
-            <td>Improving our website and services</td>
-            <td>Legitimate interest</td>
-          </tr>
-          <tr>
-            <td>Compliance with legal obligations</td>
-            <td>Legal obligation</td>
-          </tr>
-          <tr>
-            <td>Coordinating with third-party professionals (legal, accounting, immigration)</td>
-            <td>Contract performance / Legitimate interest</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <p><strong>We will NOT:</strong></p>
-      <ul>
-        <li>Sell or rent your personal information to third parties</li>
-        <li>Use your information for purposes incompatible with those stated</li>
-        <li>Process your data without a lawful basis under GDPR</li>
-      </ul>
-    </div>
-
-    <!-- Data Sharing -->
-    <div class="section">
-      <h2>5. Data Sharing and Disclosure</h2>
-      <p>We may share your information with:</p>
-
-      <h3>5.1 Service Providers and Professional Partners</h3>
-      <ul>
-        <li><strong>Legal Counsel:</strong> Lawyers and immigration specialists as needed for your case</li>
-        <li><strong>Accounting Firms:</strong> For business establishment and tax compliance matters</li>
-        <li><strong>Technology Providers:</strong> Email hosting, website hosting, and communication tools</li>
-      </ul>
-      <p>
-        All third parties are required to maintain appropriate security measures and process your data only as instructed by us.
-      </p>
-
-      <h3>5.2 Legal Requirements</h3>
-      <p>We may disclose your information when required by law, regulation, legal process, or governmental request.</p>
-
-      <h3>5.3 International Transfers</h3>
-      <p>
-        We primarily process data within the EU/EEA. If data is transferred outside the EU/EEA, we ensure appropriate safeguards are in place, such as Standard Contractual Clauses or adequacy decisions.
-      </p>
-    </div>
-
-    <!-- Data Security -->
-    <div class="section">
-      <h2>6. Data Security</h2>
-      <p>
-        We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. These measures include:
-      </p>
-      <ul>
-        <li>Encrypted email communication for sensitive information</li>
-        <li>Secure servers and data storage systems</li>
-        <li>Access controls and authentication procedures</li>
-        <li>Regular security assessments and updates</li>
-        <li>Employee training on data protection</li>
-      </ul>
-    </div>
-
-    <!-- Data Retention -->
-    <div class="section">
-      <h2>7. Data Retention</h2>
-      <p>
-        We retain your personal information only for as long as necessary to fulfill the purposes outlined in this policy and to comply with legal obligations:
-      </p>
-      <ul>
-        <li><strong>Client Data:</strong> Duration of engagement plus 7 years (Swedish accounting law requirements)</li>
-        <li><strong>Inquiry Data:</strong> 2 years from last contact (unless engagement proceeds)</li>
-        <li><strong>Website Analytics:</strong> 26 months maximum</li>
-        <li><strong>Marketing Consent:</strong> Until consent is withdrawn</li>
-      </ul>
-    </div>
-
-    <!-- Your Rights -->
-    <div class="section">
-      <h2>8. Your Rights Under GDPR</h2>
-      <p>As a data subject under GDPR, you have the following rights:</p>
-
-      <div class="highlight-box">
-        <h3>Right of Access</h3>
-        <p>Request copies of your personal data</p>
-        
-        <h3>Right to Rectification</h3>
-        <p>Request correction of inaccurate or incomplete data</p>
-        
-        <h3>Right to Erasure ("Right to be Forgotten")</h3>
-        <p>Request deletion of your data in certain circumstances</p>
-        
-        <h3>Right to Restrict Processing</h3>
-        <p>Request limitation on how we use your data</p>
-        
-        <h3>Right to Data Portability</h3>
-        <p>Receive your data in a structured, machine-readable format</p>
-        
-        <h3>Right to Object</h3>
-        <p>Object to processing based on legitimate interests or direct marketing</p>
-        
-        <h3>Right to Withdraw Consent</h3>
-        <p>Withdraw consent for processing at any time (where consent is the legal basis)</p>
-        
-        <h3>Right to Lodge a Complaint</h3>
-        <p>File a complaint with the Swedish Data Protection Authority (Integritetsskyddsmyndigheten - IMY)</p>
+      <div class="updated-badge">
+        📅 Last Updated: 25 March 2026
       </div>
 
-      <p>
-        To exercise any of these rights, please contact us at: <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
-      </p>
-      <p>
-        We will respond to your request within one month, as required by GDPR.
-      </p>
-    </div>
+      <!-- 1 -->
+      <div class="doc-section" id="s1">
+        <h2><span class="sec-num">1</span> Introduction</h2>
+        <p>Nordic Riser AB ("we", "our", or "us") is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or engage with our advisory services.</p>
+        <p>This policy is designed to comply with the EU General Data Protection Regulation (GDPR) and applicable data protection legislation. By using our website or submitting an inquiry, you acknowledge that you have read and understood this policy.</p>
+      </div>
 
-    <!-- Cookies -->
-    <div class="section">
-      <h2>9. Cookies and Tracking Technologies</h2>
-      <p>
-        Our website may use cookies and similar tracking technologies. Currently, our website is a static information site with minimal tracking. If we implement analytics or other tracking in the future, we will:
-      </p>
-      <ul>
-        <li>Obtain your consent before setting non-essential cookies</li>
-        <li>Provide detailed information about cookie types and purposes</li>
-        <li>Allow you to manage your cookie preferences</li>
-      </ul>
-      <p>
-        You can control cookies through your browser settings and delete cookies at any time.
-      </p>
-    </div>
+      <!-- 2 -->
+      <div class="doc-section" id="s2">
+        <h2><span class="sec-num">2</span> Data Controller</h2>
+        <p>Nordic Riser AB is the data controller responsible for your personal information collected through our website and services.</p>
+        <p>
+          <strong>Nordic Riser AB</strong><br>
+          Email: <a href="mailto:info@nordicriser.com">info@nordicriser.com</a><br>
+          Website: <a href="https://www.nordicriser.com">www.nordicriser.com</a>
+        </p>
+        <p>For all data protection matters, please contact us using the details above with the subject line "Data Protection Inquiry".</p>
+      </div>
 
-    <!-- Children's Privacy -->
-    <div class="section">
-      <h2>10. Children's Privacy</h2>
-      <p>
-        Our services are not directed to individuals under 18 years of age. We do not knowingly collect personal information from children. If you believe we have collected data from a child, please contact us immediately.
-      </p>
-    </div>
+      <!-- 3 -->
+      <div class="doc-section" id="s3">
+        <h2><span class="sec-num">3</span> Information We Collect</h2>
 
-    <!-- Changes to Policy -->
-    <div class="section">
-      <h2>11. Changes to This Privacy Policy</h2>
-      <p>
-        We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or other factors. We will notify you of any material changes by:
-      </p>
-      <ul>
-        <li>Updating the "Last Updated" date at the top of this policy</li>
-        <li>Sending an email notification (for significant changes)</li>
-        <li>Posting a notice on our website</li>
-      </ul>
-    </div>
+        <h3>3.1 Information You Provide Directly</h3>
+        <p>We collect information that you voluntarily provide to us, including:</p>
+        <ul>
+          <li><strong>Contact Information:</strong> Name, email address, phone number</li>
+          <li><strong>Professional Information:</strong> Business type, professional background, business objectives</li>
+          <li><strong>Consultation Request Data:</strong> Purpose of consultation and description of your situation as submitted via our contact form</li>
+          <li><strong>Communication Data:</strong> Information contained in emails and other correspondence with our team</li>
+        </ul>
 
-    <!-- Supervisory Authority -->
-    <div class="section">
-      <h2>12. Supervisory Authority</h2>
-      <p>
-        If you have concerns about how we handle your personal data, you have the right to lodge a complaint with the Swedish Data Protection Authority:
-      </p>
-      <p>
-        <strong>Integritetsskyddsmyndigheten (IMY)</strong><br>
-        Box 8114<br>
-        104 20 Stockholm, Sweden<br>
-        Phone: +46 8 657 61 00<br>
-        Website: <a href="https://www.imy.se" target="_blank">www.imy.se</a>
-      </p>
-    </div>
+        <h3>3.2 Information Collected Automatically</h3>
+        <p>When you visit our website, we may automatically collect:</p>
+        <ul>
+          <li><strong>Technical Data:</strong> IP address, browser type, operating system, device information</li>
+          <li><strong>Usage Data:</strong> Pages visited, time spent on pages, navigation paths</li>
+          <li><strong>Cookies:</strong> Small data files stored on your device (see Section 9)</li>
+        </ul>
+      </div>
 
-    <!-- Contact Us -->
-    <div class="contact-box">
-      <h3>Questions About This Privacy Policy?</h3>
-      <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us:</p>
-      <p style="margin-top: 1rem;">
-        <strong>Email:</strong> <a href="mailto:info@nordicriser.com">info@nordicriser.com</a><br>
-        <strong>Subject Line:</strong> "Privacy Policy Inquiry"
-      </p>
-    </div>
+      <!-- 4 -->
+      <div class="doc-section" id="s4">
+        <h2><span class="sec-num">4</span> How We Use Your Information</h2>
+        <p>We process your personal data only for the purposes outlined below, each supported by a lawful basis under GDPR:</p>
 
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Purpose</th>
+              <th>Legal Basis (GDPR)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Responding to consultation requests and inquiries</td>
+              <td>Contract performance / Legitimate interest</td>
+            </tr>
+            <tr>
+              <td>Providing strategic advisory services</td>
+              <td>Contract performance</td>
+            </tr>
+            <tr>
+              <td>Communicating about our services and engagement progress</td>
+              <td>Contract performance / Consent</td>
+            </tr>
+            <tr>
+              <td>Improving our website and service quality</td>
+              <td>Legitimate interest</td>
+            </tr>
+            <tr>
+              <td>Coordinating with third-party professionals (legal, accounting)</td>
+              <td>Contract performance / Legitimate interest</td>
+            </tr>
+            <tr>
+              <td>Compliance with legal and regulatory obligations</td>
+              <td>Legal obligation</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="info-box">
+          <p>We will not sell, rent, or trade your personal information to third parties. We will not use your data for purposes incompatible with those stated above.</p>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="doc-section" id="s5">
+        <h2><span class="sec-num">5</span> Data Sharing and Disclosure</h2>
+
+        <h3>5.1 Professional Service Partners</h3>
+        <p>Where required to deliver our services, we may share relevant information with qualified third-party professionals, including:</p>
+        <ul>
+          <li>Legal counsel and specialist advisors engaged in connection with your matter</li>
+          <li>Accounting and tax professionals involved in business formation or compliance</li>
+          <li>Technology providers supporting our website hosting and communications infrastructure</li>
+        </ul>
+        <p>All third parties are required to maintain appropriate security measures and are permitted to process your data only as directed by us and within the scope of their professional obligations.</p>
+
+        <h3>5.2 Legal Requirements</h3>
+        <p>We may disclose your personal information when required to do so by law, regulation, legal process, or a legitimate governmental request.</p>
+
+        <h3>5.3 International Data Transfers</h3>
+        <p>We primarily process data within the EU/EEA. In the event that data is transferred outside the EU/EEA, we ensure that appropriate safeguards are in place — such as Standard Contractual Clauses or applicable adequacy decisions — prior to any such transfer.</p>
+      </div>
+
+      <!-- 6 -->
+      <div class="doc-section" id="s6">
+        <h2><span class="sec-num">6</span> Data Security</h2>
+        <p>We implement appropriate technical and organisational measures to protect your personal information against unauthorised access, alteration, disclosure, or destruction. These measures include:</p>
+        <ul>
+          <li>Encrypted communication channels for the transmission of sensitive information</li>
+          <li>Secure server infrastructure and data storage systems</li>
+          <li>Access controls and authentication procedures for internal systems</li>
+          <li>Regular review and updating of security practices</li>
+          <li>Staff awareness of data protection obligations</li>
+        </ul>
+        <p>While we take all reasonable precautions, no method of electronic transmission or storage is entirely secure. We cannot guarantee absolute security, but we are committed to protecting your data to the highest practicable standard.</p>
+      </div>
+
+      <!-- 7 -->
+      <div class="doc-section" id="s7">
+        <h2><span class="sec-num">7</span> Data Retention</h2>
+        <p>We retain your personal information only for as long as is necessary to fulfil the purposes outlined in this policy and to comply with our legal obligations:</p>
+        <ul>
+          <li><strong>Active Client Data:</strong> Duration of the engagement plus 7 years (in accordance with applicable accounting and record-keeping legislation)</li>
+          <li><strong>Inquiry Data (non-converted):</strong> 2 years from the date of last contact</li>
+          <li><strong>Website Analytics Data:</strong> Maximum 26 months</li>
+          <li><strong>Consent Records:</strong> Until consent is withdrawn, plus a reasonable period thereafter for record-keeping purposes</li>
+        </ul>
+        <p>Upon expiry of the applicable retention period, personal data is securely deleted or anonymised.</p>
+      </div>
+
+      <!-- 8 -->
+      <div class="doc-section" id="s8">
+        <h2><span class="sec-num">8</span> Your Rights Under GDPR</h2>
+        <p>As a data subject under the GDPR, you have the following rights in relation to your personal data:</p>
+
+        <div class="rights-grid">
+          <div class="right-card">
+            <h4>Right of Access</h4>
+            <p>Request a copy of the personal data we hold about you.</p>
+          </div>
+          <div class="right-card">
+            <h4>Right to Rectification</h4>
+            <p>Request correction of inaccurate or incomplete data.</p>
+          </div>
+          <div class="right-card">
+            <h4>Right to Erasure</h4>
+            <p>Request deletion of your data in certain circumstances ("right to be forgotten").</p>
+          </div>
+          <div class="right-card">
+            <h4>Right to Restrict Processing</h4>
+            <p>Request that we limit how we use your data in specified circumstances.</p>
+          </div>
+          <div class="right-card">
+            <h4>Right to Data Portability</h4>
+            <p>Receive your data in a structured, machine-readable format where applicable.</p>
+          </div>
+          <div class="right-card">
+            <h4>Right to Object</h4>
+            <p>Object to processing based on legitimate interests or for direct marketing purposes.</p>
+          </div>
+          <div class="right-card">
+            <h4>Right to Withdraw Consent</h4>
+            <p>Withdraw any consent given at any time, without affecting prior processing.</p>
+          </div>
+          <div class="right-card">
+            <h4>Right to Complain</h4>
+            <p>Lodge a complaint with the relevant supervisory authority (see Section 12).</p>
+          </div>
+        </div>
+
+        <p>To exercise any of the above rights, please contact us at <a href="mailto:info@nordicriser.com">info@nordicriser.com</a> with the subject line "Data Subject Request". We will respond within one calendar month as required by GDPR.</p>
+      </div>
+
+      <!-- 9 -->
+      <div class="doc-section" id="s9">
+        <h2><span class="sec-num">9</span> Cookies and Tracking Technologies</h2>
+        <p>Our website is a static informational site with minimal tracking. We may use essential cookies required for the basic operation of the site. We do not currently use third-party advertising or behavioural tracking cookies.</p>
+        <p>If we implement analytics or additional tracking technologies in the future, we will:</p>
+        <ul>
+          <li>Obtain your prior consent before setting any non-essential cookies</li>
+          <li>Provide clear information about each cookie's purpose and duration</li>
+          <li>Offer straightforward mechanisms to manage or withdraw your cookie preferences</li>
+        </ul>
+        <p>You may control and delete cookies through your browser settings at any time. Please note that disabling certain cookies may affect the functionality of the website.</p>
+      </div>
+
+      <!-- 10 -->
+      <div class="doc-section" id="s10">
+        <h2><span class="sec-num">10</span> Children's Privacy</h2>
+        <p>Our services are directed exclusively at adults conducting professional and business activities. We do not knowingly collect personal data from individuals under the age of 18. If you believe we have inadvertently collected data from a minor, please contact us immediately and we will take appropriate steps to delete that information.</p>
+      </div>
+
+      <!-- 11 -->
+      <div class="doc-section" id="s11">
+        <h2><span class="sec-num">11</span> Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy periodically to reflect changes in our practices, applicable legislation, or operational procedures. Material changes will be communicated by:</p>
+        <ul>
+          <li>Updating the "Last Updated" date at the top of this page</li>
+          <li>Where appropriate, notifying active clients by email</li>
+          <li>Posting a notice on our website</li>
+        </ul>
+        <p>We encourage you to review this policy periodically. Your continued use of our website following any update constitutes acceptance of the revised policy.</p>
+      </div>
+
+      <!-- 12 -->
+      <div class="doc-section" id="s12">
+        <h2><span class="sec-num">12</span> Supervisory Authority</h2>
+        <p>If you have concerns about how we handle your personal data and you are not satisfied with our response, you have the right to lodge a complaint with the relevant supervisory authority:</p>
+        <p>
+          <strong>Integritetsskyddsmyndigheten (IMY)</strong><br>
+          Swedish Authority for Privacy Protection<br>
+          Box 8114, 104 20 Stockholm<br>
+          Phone: +46 8 657 61 00<br>
+          Website: <a href="https://www.imy.se" target="_blank" rel="noopener">www.imy.se</a>
+        </p>
+      </div>
+
+      <!-- 13 -->
+      <div class="doc-section" id="s13">
+        <h2><span class="sec-num">13</span> Contact Us Regarding This Policy</h2>
+        <p>If you have any questions, concerns, or requests relating to this Privacy Policy or our data practices, please contact us directly:</p>
+        <div class="contact-card">
+          <div>
+            <h4>Data Protection Enquiries</h4>
+            <p>Email us with the subject line "Privacy Policy Inquiry" and we will respond promptly.</p>
+          </div>
+          <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
+        </div>
+      </div>
+
+    </div>
   </div>
-  
-  <!-- Footer -->
-  <div class="footer">
-    <div class="footer-content">
-      <div class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact</a>
-        <a href="privacy.html">Privacy Policy</a>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-disclaimer">
+        <strong>Disclaimer</strong>
+        The information provided by Nordic Riser AB is for general advisory purposes only and does not constitute legal or immigration representation. All outcomes are subject to the decisions of competent authorities and third parties. Nordic Riser AB does not guarantee any specific result.
       </div>
-      <div class="copyright">
-        © Nordic Riser AB – Stockholm, Sweden
+      <div class="footer-bottom">
+        <span>© Nordic Riser AB. All rights reserved.</span>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="who-we-help.html">Who We Help</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="https://portal.nordicriser.com">Member Portal</a></li>
+        </ul>
       </div>
     </div>
-  </div>
+  </footer>
 
   <script>
     function toggleMenu() {
-      const navLinks = document.getElementById('navLinks');
-      const navbar = document.querySelector('.navbar');
-      const isOpen = navLinks.classList.toggle('active');
-      if (isOpen) {
-        navLinks.style.top = navbar.getBoundingClientRect().bottom + 'px';
-      }
+      document.getElementById('navLinks').classList.toggle('open');
     }
-
     document.addEventListener('click', function(e) {
       if (!e.target.closest('.navbar')) {
-        document.getElementById('navLinks').classList.remove('active');
+        document.getElementById('navLinks').classList.remove('open');
       }
     });
   </script>
+
 </body>
 </html>
