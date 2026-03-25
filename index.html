@@ -3,718 +3,763 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" type="image/png" href="C:\Users\hp\Downloads\LogoNR...png">
-  
-  <title>Nordic Riser AB - International Business & Migration Advisory | Sweden</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="Nordic Riser AB is a Stockholm-based advisory firm supporting international investors, entrepreneurs, and families with business establishment and relocation in Europe. Compliance-first approach.">
-  <meta name="keywords" content="business establishment Sweden, company registration Sweden, investment visa Europe, business immigration Sweden, Nordic business advisory, relocation Sweden, Swedish company formation">
-  <meta name="author" content="Nordic Riser AB">
-  <meta name="robots" content="index, follow">
-  
-  <!-- Open Graph / Social Media -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://nordicriser.com/">
-  <meta property="og:title" content="Nordic Riser AB - International Business & Migration Advisory">
-  <meta property="og:description" content="Stockholm-based advisory firm for business establishment and relocation in Europe. Compliance-first approach for international investors and entrepreneurs.">
-  <meta property="og:site_name" content="Nordic Riser AB">
-  
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://nordicriser.com/">
-  
+  <title>Nordic Riser AB — International Business & Relocation Consulting</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --navy: #0f2557;
+      --blue: #1d4ed8;
+      --blue-light: #3b82f6;
+      --sky: #eff6ff;
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --white: #ffffff;
     }
-    
+
+    html { scroll-behavior: smooth; }
+
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      color: var(--text);
+      background: var(--white);
       line-height: 1.7;
-      color: #1e293b;
-      background: #ffffff;
+      font-size: 16px;
     }
-    
-    /* Navigation Bar */
+
+    /* ── NAVBAR ── */
     .navbar {
-      background: white;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
       position: sticky;
       top: 0;
-      z-index: 1000;
+      z-index: 100;
     }
-    
-    .nav-content {
+
+    .nav-inner {
       max-width: 1200px;
       margin: 0 auto;
+      padding: 0 2rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1rem 2rem;
+      height: 68px;
     }
-    
+
     .logo {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
       font-weight: 700;
-      color: #1e3a8a;
+      color: var(--navy);
       text-decoration: none;
+      letter-spacing: -0.3px;
     }
-    
+
     .nav-links {
       display: flex;
-      gap: 2rem;
       list-style: none;
+      gap: 0.25rem;
+      align-items: center;
     }
-    
+
     .nav-links a {
-      color: #475569;
+      color: var(--muted);
       text-decoration: none;
+      font-size: 0.9rem;
       font-weight: 500;
-      transition: color 0.3s ease;
-      padding: 0.5rem 1rem;
+      padding: 0.5rem 0.9rem;
       border-radius: 6px;
+      transition: color 0.2s, background 0.2s;
     }
-    
-    .nav-links a:hover,
-    .nav-links a.active {
-      color: #1e3a8a;
-      background: #eff6ff;
-    }
-    
-    .nav-links a.login-btn {
-      background: linear-gradient(135deg, #3b82f6, #2563eb);
-      color: white;
+
+    .nav-links a:hover { color: var(--navy); background: var(--sky); }
+
+    .nav-links .btn-login {
+      background: var(--navy);
+      color: var(--white);
       font-weight: 600;
-      box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
+      padding: 0.5rem 1.2rem;
     }
-    
-    .nav-links a.login-btn:hover {
-      background: linear-gradient(135deg, #2563eb, #1d4ed8);
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
-    }
-    
-    .mobile-menu-btn {
+
+    .nav-links .btn-login:hover { background: var(--blue); color: var(--white); }
+
+    .mobile-toggle {
       display: none;
       background: none;
-      border: none;
-      font-size: 1.5rem;
-      color: #1e3a8a;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 6px 10px;
+      font-size: 1.25rem;
+      color: var(--navy);
       cursor: pointer;
     }
-    
-    /* Hero Section */
+
+    /* ── HERO ── */
     .hero {
-      background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #60a5fa 100%);
-      color: white;
-      padding: 5rem 2rem;
+      background: linear-gradient(160deg, var(--navy) 0%, #1e3a8a 55%, #1d4ed8 100%);
+      color: var(--white);
+      padding: 7rem 2rem 6rem;
       text-align: center;
       position: relative;
       overflow: hidden;
     }
-    
-    .hero::before {
+
+    .hero::after {
       content: '';
       position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
-      opacity: 0.3;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M60 0H0v60' fill='none' stroke='rgba(255,255,255,0.04)' stroke-width='1'/%3E%3C/svg%3E");
     }
-    
-    .hero-content {
+
+    .hero-inner {
       position: relative;
       z-index: 1;
-      max-width: 900px;
+      max-width: 820px;
       margin: 0 auto;
     }
-    
+
+    .hero-label {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.6);
+      margin-bottom: 1.5rem;
+    }
+
     .hero h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
+      font-size: clamp(2rem, 5vw, 3.25rem);
       font-weight: 700;
+      line-height: 1.2;
       letter-spacing: -1px;
+      margin-bottom: 1.5rem;
     }
-    
-    .hero .subtitle {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-      font-weight: 300;
-      opacity: 0.95;
+
+    .hero p {
+      font-size: 1.15rem;
+      color: rgba(255,255,255,0.82);
+      max-width: 640px;
+      margin: 0 auto 2.5rem;
+      line-height: 1.8;
     }
-    
-    .hero .tagline {
-      font-size: 1.1rem;
-      opacity: 0.9;
-      max-width: 700px;
-      margin: 0 auto;
+
+    .btn-primary {
+      display: inline-block;
+      background: var(--white);
+      color: var(--navy);
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 0.9rem 2.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
     }
-    
-    /* Main Container */
-    .container {
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(0,0,0,0.25);
+    }
+
+    /* ── SHARED SECTION STYLES ── */
+    .section {
+      padding: 5.5rem 2rem;
+    }
+
+    .section-inner {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 4rem 2rem;
     }
-    
-    /* Section Styling */
-    .section {
-      margin-bottom: 4rem;
+
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--blue-light);
+      margin-bottom: 0.75rem;
+      display: block;
+      text-align: center;
     }
-    
+
     .section-title {
-      font-size: 2rem;
-      color: #1e3a8a;
-      margin-bottom: 2rem;
-      font-weight: 600;
+      font-size: clamp(1.6rem, 3vw, 2.25rem);
+      font-weight: 700;
+      color: var(--navy);
       text-align: center;
+      letter-spacing: -0.5px;
+      margin-bottom: 1rem;
     }
-    
-    .intro-text {
-      font-size: 1.15rem;
-      color: #475569;
+
+    .section-sub {
       text-align: center;
-      max-width: 800px;
-      margin: 0 auto 3rem;
+      color: var(--muted);
+      font-size: 1.05rem;
+      max-width: 620px;
+      margin: 0 auto 3.5rem;
       line-height: 1.8;
     }
-    
-    /* Services Grid */
+
+    /* ── WHAT WE DO ── */
     .services-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 2rem;
-      margin-top: 3rem;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
     }
-    
+
     .service-card {
-      background: white;
-      border: 1px solid #e2e8f0;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2rem 1.75rem;
+      transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+    }
+
+    .service-card:hover {
+      border-color: var(--blue-light);
+      box-shadow: 0 8px 24px rgba(29, 78, 216, 0.1);
+      transform: translateY(-3px);
+    }
+
+    .service-icon {
+      width: 44px;
+      height: 44px;
+      background: var(--sky);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.25rem;
+      font-size: 1.3rem;
+    }
+
+    .service-card h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 0.6rem;
+    }
+
+    .service-card p {
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    /* ── WHO WE WORK WITH ── */
+    .audience-section { background: var(--sky); }
+
+    .audience-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .audience-card {
+      background: var(--white);
       border-radius: 12px;
       padding: 2rem;
-      transition: all 0.3s ease;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      border: 1px solid var(--border);
     }
-    
-    .service-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 12px 24px rgba(59, 130, 246, 0.15);
-      border-color: #3b82f6;
-    }
-    
-    .service-card h3 {
-      color: #1e3a8a;
-      font-size: 1.3rem;
+
+    .audience-card .tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--blue);
+      background: var(--sky);
+      padding: 0.3rem 0.7rem;
+      border-radius: 4px;
       margin-bottom: 1rem;
-      font-weight: 600;
     }
-    
-    .service-card ul {
-      list-style: none;
-      padding: 0;
+
+    .audience-card h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 0.6rem;
     }
-    
-    .service-card li {
-      padding: 0.5rem 0;
-      padding-left: 1.5rem;
+
+    .audience-card p {
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    /* ── HOW IT WORKS ── */
+    .steps-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 2rem;
+      counter-reset: steps;
+    }
+
+    .step {
       position: relative;
-      color: #64748b;
+      padding-left: 1rem;
     }
-    
-    .service-card li:before {
-      content: "✓";
-      color: #3b82f6;
-      font-weight: bold;
-      position: absolute;
-      left: 0;
+
+    .step-number {
+      width: 48px;
+      height: 48px;
+      background: var(--navy);
+      color: var(--white);
+      font-size: 1.1rem;
+      font-weight: 700;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.25rem;
+      flex-shrink: 0;
     }
-    
-    /* FAQ Section */
-    .faq-container {
-      max-width: 900px;
+
+    .step h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 0.5rem;
+    }
+
+    .step p {
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    /* ── WHY CHOOSE US ── */
+    .why-section { background: var(--navy); }
+
+    .why-section .section-label { color: rgba(255,255,255,0.5); }
+    .why-section .section-title { color: var(--white); }
+    .why-section .section-sub { color: rgba(255,255,255,0.65); }
+
+    .why-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .why-card {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 2rem;
+      transition: background 0.2s;
+    }
+
+    .why-card:hover { background: rgba(255,255,255,0.1); }
+
+    .why-card .check {
+      width: 36px;
+      height: 36px;
+      background: rgba(59,130,246,0.25);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.1rem;
+      color: #93c5fd;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .why-card h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 0.5rem;
+    }
+
+    .why-card p {
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.6);
+      line-height: 1.7;
+    }
+
+    /* ── FINAL CTA ── */
+    .cta-section {
+      text-align: center;
+      padding: 6rem 2rem;
+      background: var(--white);
+    }
+
+    .cta-box {
+      max-width: 680px;
       margin: 0 auto;
     }
-    
-    .faq-item {
-      background: white;
-      border: 1px solid #e2e8f0;
-      border-radius: 12px;
-      margin-bottom: 1.5rem;
-      overflow: hidden;
-      transition: all 0.3s ease;
+
+    .cta-box h2 {
+      font-size: clamp(1.75rem, 3vw, 2.5rem);
+      font-weight: 700;
+      color: var(--navy);
+      letter-spacing: -0.5px;
+      margin-bottom: 1rem;
     }
-    
-    .faq-item:hover {
-      border-color: #3b82f6;
-      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
-    }
-    
-    .faq-question {
-      background: linear-gradient(to right, #f8fafc, white);
-      padding: 1.5rem;
-      cursor: pointer;
-      font-weight: 600;
-      color: #1e3a8a;
-      font-size: 1.1rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    
-    .faq-question:hover {
-      background: linear-gradient(to right, #eff6ff, #f8fafc);
-    }
-    
-    .faq-answer {
-      padding: 0 1.5rem 1.5rem;
-      color: #475569;
+
+    .cta-box p {
+      font-size: 1.05rem;
+      color: var(--muted);
+      margin-bottom: 2.5rem;
       line-height: 1.8;
     }
-    
-    .faq-answer ul {
-      list-style: none;
-      padding: 1rem 0 0 0;
+
+    .btn-cta {
+      display: inline-block;
+      background: var(--navy);
+      color: var(--white);
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 1rem 2.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.2s;
     }
-    
-    .faq-answer li {
-      padding: 0.5rem 0;
-      padding-left: 2rem;
-      position: relative;
-    }
-    
-    .faq-answer li:before {
-      content: "→";
-      color: #3b82f6;
-      font-weight: bold;
-      position: absolute;
-      left: 0.5rem;
-    }
-    
-    /* CTA Section */
-    .cta-section {
-      background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
-      color: white;
-      padding: 4rem 2rem;
-      text-align: center;
-      margin: 4rem -2rem 0;
-      border-radius: 16px 16px 0 0;
-    }
-    
-    .cta-section h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-      color: white;
-    }
-    
-    .cta-section p {
-      font-size: 1.1rem;
-      margin-bottom: 2rem;
-      opacity: 0.95;
-    }
-    
-    .contact-info {
+
+    .btn-cta:hover { background: var(--blue); transform: translateY(-2px); }
+
+    .contact-strip {
       display: flex;
       justify-content: center;
-      gap: 3rem;
       flex-wrap: wrap;
-      margin-top: 2rem;
+      gap: 2.5rem;
+      margin-top: 3rem;
+      padding-top: 3rem;
+      border-top: 1px solid var(--border);
     }
-    
-    .contact-item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+
+    .contact-item { text-align: center; }
+
+    .contact-item span {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
     }
-    
-    .contact-item strong {
-      font-size: 0.9rem;
-      margin-bottom: 0.5rem;
-      opacity: 0.9;
-    }
-    
+
     .contact-item a {
-      color: white;
+      color: var(--navy);
       text-decoration: none;
-      font-size: 1.1rem;
-      border-bottom: 2px solid rgba(255,255,255,0.3);
-      padding-bottom: 2px;
-      transition: all 0.3s ease;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: color 0.2s;
     }
-    
-    .contact-item a:hover {
-      border-bottom-color: white;
-    }
-    
-    /* Footer */
+
+    .contact-item a:hover { color: var(--blue); }
+
+    /* ── FOOTER ── */
     .footer {
-      background: #0f172a;
-      color: #94a3b8;
-      padding: 3rem 2rem 2rem;
+      background: #0b1426;
+      color: #64748b;
+      padding: 2.5rem 2rem;
       text-align: center;
+      font-size: 0.875rem;
     }
-    
-    .footer-content {
+
+    .footer-inner {
       max-width: 900px;
       margin: 0 auto;
     }
-    
-    .disclaimer {
-      background: rgba(255,255,255,0.05);
-      padding: 1.5rem;
+
+    .footer-disclaimer {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.06);
       border-radius: 8px;
-      margin-bottom: 2rem;
-      font-size: 0.9rem;
-      line-height: 1.6;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.75rem;
+      line-height: 1.7;
+      color: #94a3b8;
     }
-    
-    .disclaimer strong {
+
+    .footer-disclaimer strong {
       color: #cbd5e1;
       display: block;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.4rem;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
     }
-    
-    .copyright {
-      padding-top: 2rem;
-      border-top: 1px solid rgba(255,255,255,0.1);
-      font-size: 0.9rem;
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.07);
+      padding-top: 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
     }
-    
-    /* Responsive */
+
+    .footer-links {
+      display: flex;
+      gap: 1.25rem;
+      list-style: none;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .footer-links a {
+      color: #64748b;
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover { color: #94a3b8; }
+
+    /* ── RESPONSIVE ── */
     @media (max-width: 768px) {
-      /* Use position:fixed so the dropdown is always anchored to the
-         viewport bottom of the navbar, avoiding a known mobile Safari bug
-         where position:sticky parents mis-anchor absolutely-positioned children */
       .nav-links {
         display: none;
         position: fixed;
-        top: 0; /* overridden at runtime by toggleMenu() */
-        left: 0;
-        right: 0;
-        background: white;
+        top: 68px;
+        left: 0; right: 0;
+        background: var(--white);
         flex-direction: column;
         gap: 0;
-        box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-        z-index: 999;
-        border-top: 2px solid #3b82f6;
+        border-top: 2px solid var(--blue-light);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        z-index: 99;
       }
 
-      .nav-links.active {
-        display: flex;
-      }
+      .nav-links.open { display: flex; }
 
-      .nav-links li {
-        border-bottom: 1px solid #f1f5f9;
-      }
+      .nav-links li { border-bottom: 1px solid var(--border); }
 
       .nav-links a {
-        padding: 1rem 1.5rem;
-        border-radius: 0;
         display: block;
+        padding: 0.9rem 1.5rem;
+        border-radius: 0;
       }
 
-      /* Give the login button some breathing room in the vertical list */
-      .nav-links li:last-child {
-        padding: 0.75rem 1rem;
-        border-bottom: none;
-      }
-
-      .nav-links a.login-btn {
+      .nav-links .btn-login {
+        margin: 0.75rem 1rem;
         border-radius: 8px;
         text-align: center;
       }
 
-      /* Disable the lift effect that looks glitchy in a vertical list */
-      .nav-links a.login-btn:hover {
-        transform: none;
-      }
+      .mobile-toggle { display: block; }
 
-      .mobile-menu-btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 6px 10px;
-        border-radius: 6px;
-        border: 1px solid #e2e8f0;
-      }
+      .section { padding: 4rem 1.25rem; }
 
-      .mobile-menu-btn:hover {
-        background: #f1f5f9;
-      }
-      
-      .hero h1 {
-        font-size: 2rem;
-      }
-      
-      .hero .subtitle {
-        font-size: 1.2rem;
-      }
-      
-      .hero .tagline {
-        font-size: 1rem;
-      }
-      
-      .container {
-        padding: 2rem 1rem;
-      }
-      
-      .section-title {
-        font-size: 1.6rem;
-      }
-      
-      .services-grid {
-        grid-template-columns: 1fr;
-      }
-      
-      .contact-info {
-        gap: 2rem;
-      }
-      
-      .cta-section {
-        margin: 2rem -1rem 0;
-      }
+      .hero { padding: 5rem 1.25rem 4rem; }
     }
   </style>
 </head>
 <body>
-  <!-- Navigation -->
+
+  <!-- NAVBAR -->
   <nav class="navbar">
-    <div class="nav-content">
+    <div class="nav-inner">
       <a href="index.html" class="logo">Nordic Riser AB</a>
-      <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+      <button class="mobile-toggle" onclick="toggleMenu()" aria-label="Toggle menu">☰</button>
       <ul class="nav-links" id="navLinks">
-        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="privacy.html">Privacy Policy</a></li>
-        <li><a href="https://portal.nordicriser.com" class="login-btn">Member Login</a></li>
+        <li><a href="https://portal.nordicriser.com" class="btn-login">Member Login</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <div class="hero">
-    <div class="hero-content">
-      <h1>Nordic Riser AB</h1>
-      <div class="subtitle">International Business & Migration Advisory</div>
-      <div class="tagline">Strategic services for compliant business establishment and relocation in Europe</div>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">International Business Consulting</span>
+      <h1>Strategic Business &amp; Relocation Consulting for International Entrepreneurs</h1>
+      <p>We help entrepreneurs, professionals, and business owners build a structured, legally compliant path to establishing and growing their business presence in Europe.</p>
+      <a href="contact.html" class="btn-primary">Book a Consultation</a>
     </div>
-  </div>
-  
-  <!-- Main Content -->
-  <div class="container">
-    <!-- Introduction -->
-    <section class="section">
-      <p class="intro-text">
-        Nordic Riser AB is a Stockholm-based advisory firm supporting international investors, entrepreneurs, 
-        and families seeking structured and compliant pathways to establish businesses and relocate within Europe.
-      </p>
-    </section>
-    
-    <!-- Services Overview -->
-    <section class="section">
-      <h2 class="section-title">Our Advisory Services</h2>
+  </section>
+
+  <!-- WHAT WE DO -->
+  <section class="section">
+    <div class="section-inner">
+      <span class="section-label">What We Do</span>
+      <h2 class="section-title">Strategic Consulting Across Five Core Areas</h2>
+      <p class="section-sub">We provide structured advisory across the full spectrum of international business establishment and professional relocation — without generic advice.</p>
       <div class="services-grid">
         <div class="service-card">
+          <div class="service-icon">🏢</div>
           <h3>Business Establishment</h3>
-          <ul>
-            <li>Company structuring in Sweden and Europe</li>
-            <li>Legal entity selection and registration</li>
-            <li>Regulatory compliance guidance</li>
-            <li>Banking and financial setup</li>
-          </ul>
+          <p>Structured guidance on legal entity selection, registration procedures, and operational compliance for international business owners entering European markets.</p>
         </div>
-        
         <div class="service-card">
-          <h3>Investment & Residence</h3>
-          <ul>
-            <li>Investment-based residence planning</li>
-            <li>Mobility strategy development</li>
-            <li>Documentation coordination</li>
-            <li>Application process management</li>
-          </ul>
+          <div class="service-icon">📋</div>
+          <h3>Company Formation Strategy</h3>
+          <p>Strategic planning for the right corporate structure based on your business model, ownership requirements, and long-term objectives.</p>
         </div>
-        
         <div class="service-card">
-          <h3>Professional Coordination</h3>
-          <ul>
-            <li>Legal counsel coordination</li>
-            <li>Accounting service liaison</li>
-            <li>Immigration specialist referrals</li>
-            <li>Multi-jurisdictional planning</li>
-          </ul>
+          <div class="service-icon">🌍</div>
+          <h3>Relocation Through Business</h3>
+          <p>Advisory on legitimate business-based relocation pathways, aligned with regulatory frameworks and designed for sustainable residency outcomes.</p>
         </div>
-        
         <div class="service-card">
-          <h3>Education Pathways</h3>
-          <ul>
-            <li>Student-route support for Europe</li>
-            <li>University application guidance</li>
-            <li>Study permit coordination</li>
-            <li>Post-graduation planning</li>
-          </ul>
+          <div class="service-icon">🔗</div>
+          <h3>Cross-Border Advisory</h3>
+          <p>Coordination of multi-jurisdictional considerations including tax, compliance, and legal structures for internationally active professionals and companies.</p>
         </div>
-
         <div class="service-card">
-          <h3>Relocation & Integration</h3>
-          <ul>
-            <li>Housing search coordination</li>
-            <li>Local registration and ID setup</li>
-            <li>BankID and banking integration</li>
-            <li>Family and school enrollment support</li>
-          </ul>
-        </div>
-
-        <div class="service-card">
-          <h3>Market Expansion</h3>
-          <ul>
-            <li>Nordic market entry strategies</li>
-            <li>Strategic networking and partnerships</li>
-            <li>Cross-border tax considerations</li>
-            <li>Business development consulting</li>
-          </ul>
+          <div class="service-icon">📊</div>
+          <h3>Business Planning for Entrepreneurs</h3>
+          <p>Development of structured business plans and documentation packages tailored to meet the requirements of European authorities and institutions.</p>
         </div>
       </div>
-    </section>
-    
-    <!-- FAQ Section -->
-    <section class="section">
-      <h2 class="section-title">Common Questions About Our Services</h2>
-      <div class="faq-container">
-        
-        <div class="faq-item">
-          <div class="faq-question">
-            How do I start the business establishment process in Sweden?
-          </div>
-          <div class="faq-answer">
-            <p>Establishing a business in Sweden requires careful planning and compliance with local regulations. We guide you through each step of the process.</p>
-            <p><strong>This is how we can help:</strong></p>
-            <ul>
-              <li>Evaluate the most suitable business structure for your needs</li>
-              <li>Navigate Swedish company registration requirements</li>
-              <li>Coordinate with legal and accounting professionals</li>
-              <li>Ensure compliance with tax and regulatory frameworks</li>
-              <li>Establish banking relationships and financial infrastructure</li>
-            </ul>
-          </div>
+    </div>
+  </section>
+
+  <!-- WHO WE WORK WITH -->
+  <section class="section audience-section">
+    <div class="section-inner">
+      <span class="section-label">Who We Work With</span>
+      <h2 class="section-title">Built for Internationally Focused Professionals</h2>
+      <p class="section-sub">Our clients come from diverse professional backgrounds and geographies. What they share is a structured ambition to establish a credible business presence in Europe.</p>
+      <div class="audience-grid">
+        <div class="audience-card">
+          <span class="tag">Entrepreneurs</span>
+          <h3>Business Founders Planning for Europe</h3>
+          <p>Individuals with established or early-stage ventures who are exploring European market entry through a compliant business structure.</p>
         </div>
-        
-        <div class="faq-item">
-          <div class="faq-question">
-            What are the investment-based residence options in Europe?
-          </div>
-          <div class="faq-answer">
-            <p>Various European countries offer residence pathways for investors and entrepreneurs. Each jurisdiction has specific requirements and timelines.</p>
-            <p><strong>This is how we can help:</strong></p>
-            <ul>
-              <li>Assess your eligibility for different residence programs</li>
-              <li>Compare investment requirements across jurisdictions</li>
-              <li>Develop a compliant investment and residence strategy</li>
-              <li>Coordinate documentation and application processes</li>
-              <li>Connect you with specialized immigration counsel</li>
-            </ul>
-          </div>
+        <div class="audience-card">
+          <span class="tag">Freelancers</span>
+          <h3>Independent Professionals Working Globally</h3>
+          <p>Skilled professionals providing services internationally who require a legally sound business entity and structured residency approach.</p>
         </div>
-        
-        <div class="faq-item">
-          <div class="faq-question">
-            Can you help with relocation planning for my family?
-          </div>
-          <div class="faq-answer">
-            <p>Family relocation requires comprehensive planning across multiple areas including residence permits, education, and practical settlement matters.</p>
-            <p><strong>This is how we can help:</strong></p>
-            <ul>
-              <li>Coordinate family residence permit applications</li>
-              <li>Provide guidance on education options for children</li>
-              <li>Assist with practical settlement considerations</li>
-              <li>Connect you with relevant service providers</li>
-              <li>Ensure compliance with family immigration requirements</li>
-            </ul>
-          </div>
+        <div class="audience-card">
+          <span class="tag">Professionals</span>
+          <h3>Internationally Mobile Executives</h3>
+          <p>Senior professionals transitioning between markets who need a clear, structured framework for their professional and personal relocation.</p>
         </div>
-        
-        <div class="faq-item">
-          <div class="faq-question">
-            What is your approach to advisory services?
-          </div>
-          <div class="faq-answer">
-            <p>We operate with a compliance-first philosophy. We do not promise outcomes; we build lawful, defensible processes aligned with institutional requirements.</p>
-            <p><strong>Our methodology includes:</strong></p>
-            <ul>
-              <li>Thorough assessment of your specific situation</li>
-              <li>Clear communication of requirements and timelines</li>
-              <li>Coordination with qualified specialists as needed</li>
-              <li>Documentation of all processes and decisions</li>
-              <li>Ongoing support throughout your journey</li>
-            </ul>
-          </div>
+        <div class="audience-card">
+          <span class="tag">SME Owners</span>
+          <h3>Small Business Owners Expanding to Europe</h3>
+          <p>Business owners seeking to establish a European operational base, access new markets, or restructure their international corporate footprint.</p>
         </div>
-        
       </div>
-    </section>
-    
-    <!-- CTA Section -->
-    <div class="cta-section">
-      <h2>Ready to Begin Your Journey?</h2>
-      <p>Contact us to discuss how we can support your business establishment or relocation plans.</p>
-      <div class="contact-info">
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section">
+    <div class="section-inner">
+      <span class="section-label">Our Process</span>
+      <h2 class="section-title">A Clear, Four-Step Engagement Model</h2>
+      <p class="section-sub">Every engagement follows a structured methodology designed to deliver clarity, compliance, and actionable outcomes at each stage.</p>
+      <div class="steps-grid">
+        <div class="step">
+          <div class="step-number">01</div>
+          <h3>Strategic Consultation</h3>
+          <p>We conduct a structured assessment of your background, objectives, and constraints to identify the most viable and compliant pathway forward.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">02</div>
+          <h3>Business Structure Planning</h3>
+          <p>Based on your goals, we design a tailored corporate and operational framework — including entity type, jurisdiction, and compliance requirements.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">03</div>
+          <h3>Relocation Strategy Development</h3>
+          <p>We develop a documented relocation and residency strategy aligned with your business plan, ensuring institutional requirements are fully addressed.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">04</div>
+          <h3>Implementation with Professional Partners</h3>
+          <p>We coordinate execution alongside qualified legal, accounting, and specialist professionals — ensuring accuracy, compliance, and clear communication throughout.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="section why-section">
+    <div class="section-inner">
+      <span class="section-label">Why Clients Choose Us</span>
+      <h2 class="section-title">A Consulting Firm Built on Professional Standards</h2>
+      <p class="section-sub">We operate with a compliance-first approach. Our value lies in the quality of our strategic guidance, not in promises about outcomes.</p>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="check">✓</div>
+          <h3>Professional Consulting Approach</h3>
+          <p>Every engagement is structured, documented, and managed with the rigour of a professional consulting practice — not a generic advisory service.</p>
+        </div>
+        <div class="why-card">
+          <div class="check">✓</div>
+          <h3>Legal and Compliant Structures Only</h3>
+          <p>We work exclusively within established legal frameworks. Our strategies are defensible, transparent, and aligned with institutional standards.</p>
+        </div>
+        <div class="why-card">
+          <div class="check">✓</div>
+          <h3>Strategic Guidance, Not Generic Advice</h3>
+          <p>Our recommendations are specific to your situation. We do not offer template solutions or one-size-fits-all programmes.</p>
+        </div>
+        <div class="why-card">
+          <div class="check">✓</div>
+          <h3>Long-Term Business-Focused Support</h3>
+          <p>We take a long-term view of client relationships. Our focus is on sustainable outcomes that serve your professional and business interests over time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="cta-section">
+    <div class="cta-box">
+      <h2>Ready to Build Your European Business Presence?</h2>
+      <p>Speak with a consultant and receive a structured strategy based on your specific situation, objectives, and background.</p>
+      <a href="contact.html" class="btn-cta">Book a Consultation</a>
+      <div class="contact-strip">
         <div class="contact-item">
-          <strong>Email</strong>
+          <span>Email</span>
           <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
         </div>
         <div class="contact-item">
-          <strong>Website</strong>
-          <a href="https://www.nordicriser.com" target="_blank">www.nordicriser.com</a>
+          <span>Phone</span>
+          <a href="tel:+46722663883">+46 72 266 3883</a>
         </div>
         <div class="contact-item">
-          <strong>Call</strong>
-          <a href="callto:+46722663883" target="_blank">+467 22 663 883</a>
-        </div>
-        <div class="contact-item">
-          <strong>Location</strong>
-          <span style="color: white; font-size: 1.1rem;">Stockholm, Sweden</span>
+          <span>Website</span>
+          <a href="https://www.nordicriser.com">www.nordicriser.com</a>
         </div>
       </div>
     </div>
-  </div>
-  
-  <!-- Footer -->
-  <div class="footer">
-    <div class="footer-content">
-      <div class="disclaimer">
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-disclaimer">
         <strong>Disclaimer</strong>
-        The information provided by Nordic Riser AB is for general advisory purposes only and does not constitute 
-        legal or immigration representation. All outcomes are subject to the decisions of competent authorities 
-        and third parties.
+        The information provided by Nordic Riser AB is for general advisory purposes only and does not constitute legal or immigration representation. All outcomes are subject to the decisions of competent authorities and third parties. Nordic Riser AB does not guarantee any specific result.
       </div>
-      <div class="copyright">
-        © Nordic Riser AB – Stockholm, Sweden
+      <div class="footer-bottom">
+        <span>© Nordic Riser AB. All rights reserved.</span>
+        <ul class="footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="https://portal.nordicriser.com">Member Portal</a></li>
+        </ul>
       </div>
     </div>
-  </div>
+  </footer>
 
   <script>
     function toggleMenu() {
-      const navLinks = document.getElementById('navLinks');
-      const navbar = document.querySelector('.navbar');
-      const isOpen = navLinks.classList.toggle('active');
-      if (isOpen) {
-        // Position dropdown exactly below the navbar regardless of scroll position
-        navLinks.style.top = navbar.getBoundingClientRect().bottom + 'px';
-      }
+      document.getElementById('navLinks').classList.toggle('open');
     }
-
-    // Close menu when clicking anywhere outside the navbar
     document.addEventListener('click', function(e) {
       if (!e.target.closest('.navbar')) {
-        document.getElementById('navLinks').classList.remove('active');
+        document.getElementById('navLinks').classList.remove('open');
       }
     });
   </script>
+
 </body>
 </html>
