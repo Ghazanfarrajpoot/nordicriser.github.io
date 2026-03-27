@@ -20,62 +20,178 @@
       --white: #ffffff;
     }
 
-    html { height: 100%; }
+    html { scroll-behavior: smooth; }
 
     body {
       font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-      background: linear-gradient(160deg, var(--navy) 0%, #1e3a8a 55%, #1d4ed8 100%);
-      min-height: 100vh;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.7;
+      font-size: 16px;
       display: flex;
       flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* ── NAVBAR ── */
+    .navbar {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      justify-content: space-between;
       align-items: center;
-      justify-content: center;
-      padding: 2rem;
+      height: 68px;
+    }
+
+    .logo {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--navy);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 0.25rem;
+      align-items: center;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding: 0.5rem 0.9rem;
+      border-radius: 6px;
+      transition: color 0.2s, background 0.2s;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active { color: var(--navy); background: var(--sky); }
+
+    .nav-links .btn-login {
+      background: var(--navy);
+      color: var(--white);
+      font-weight: 600;
+      padding: 0.5rem 1.2rem;
+    }
+
+    .nav-links .btn-login:hover { background: var(--blue); color: var(--white); }
+
+    .mobile-toggle {
+      display: none;
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 6px 10px;
+      font-size: 1.25rem;
+      color: var(--navy);
+      cursor: pointer;
+    }
+
+    /* ── PAGE HERO ── */
+    .page-hero {
+      background: linear-gradient(160deg, var(--navy) 0%, #1e3a8a 55%, #1d4ed8 100%);
+      color: var(--white);
+      padding: 4rem 2rem 3.5rem;
+      text-align: center;
       position: relative;
       overflow: hidden;
     }
 
-    body::before {
+    .page-hero::after {
       content: '';
       position: absolute;
       inset: 0;
       background: url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M60 0H0v60' fill='none' stroke='rgba(255,255,255,0.04)' stroke-width='1'/%3E%3C/svg%3E");
     }
 
-    /* ── CARD ── */
-    .card {
+    .page-hero-inner {
       position: relative;
       z-index: 1;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .page-hero-label {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.55);
+      margin-bottom: 1rem;
+    }
+
+    .page-hero h1 {
+      font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+    }
+
+    .page-hero p {
+      font-size: 1rem;
+      color: rgba(255,255,255,0.72);
+      line-height: 1.7;
+    }
+
+    /* ── MAIN CONTENT ── */
+    .main {
+      flex: 1;
+      background: var(--sky);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem 2rem;
+    }
+
+    /* ── CARD ── */
+    .card {
       width: 100%;
       max-width: 460px;
       background: var(--white);
       border-radius: 16px;
-      padding: 2.75rem 2.5rem;
-      box-shadow: 0 24px 64px rgba(0,0,0,0.3);
+      border: 1px solid var(--border);
+      padding: 2.5rem;
+      box-shadow: 0 4px 24px rgba(15, 37, 87, 0.1);
     }
 
-    /* ── HEADER ── */
     .card-header {
-      text-align: center;
-      margin-bottom: 2rem;
-      padding-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding-bottom: 1.75rem;
+      margin-bottom: 1.75rem;
       border-bottom: 1px solid var(--border);
     }
 
     .brand-mark {
-      width: 52px;
-      height: 52px;
+      width: 46px;
+      height: 46px;
       background: var(--navy);
-      border-radius: 12px;
+      border-radius: 10px;
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 0 auto 1.1rem;
+      flex-shrink: 0;
     }
 
     .brand-mark svg {
-      width: 26px;
-      height: 26px;
+      width: 22px;
+      height: 22px;
       fill: none;
       stroke: white;
       stroke-width: 2;
@@ -83,36 +199,31 @@
       stroke-linejoin: round;
     }
 
-    .card-header h1 {
-      font-size: 1.35rem;
+    .card-header-text h2 {
+      font-size: 1.1rem;
       font-weight: 700;
       color: var(--navy);
-      letter-spacing: -0.3px;
-      margin-bottom: 0.3rem;
+      letter-spacing: -0.2px;
+      margin-bottom: 0.15rem;
     }
 
-    .card-header p {
-      font-size: 0.875rem;
+    .card-header-text p {
+      font-size: 0.825rem;
       color: var(--muted);
     }
 
-    /* ── PORTAL INFO ── */
-    .portal-info {
+    /* Feature list */
+    .portal-features {
       margin-bottom: 1.75rem;
     }
 
-    .portal-info h2 {
-      font-size: 1rem;
+    .portal-features h3 {
+      font-size: 0.825rem;
       font-weight: 700;
-      color: var(--text);
-      margin-bottom: 0.5rem;
-    }
-
-    .portal-info p {
-      font-size: 0.9rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
       color: var(--muted);
-      line-height: 1.7;
-      margin-bottom: 1.1rem;
+      margin-bottom: 0.85rem;
     }
 
     .feature-list {
@@ -126,7 +237,7 @@
       align-items: center;
       gap: 0.75rem;
       font-size: 0.875rem;
-      color: var(--muted);
+      color: var(--text);
     }
 
     .feature-dot {
@@ -137,7 +248,7 @@
       flex-shrink: 0;
     }
 
-    /* ── BUTTONS ── */
+    /* Buttons */
     .btn-group {
       display: flex;
       flex-direction: column;
@@ -168,7 +279,7 @@
     .btn-primary:hover {
       background: var(--blue);
       transform: translateY(-1px);
-      box-shadow: 0 6px 20px rgba(29, 78, 216, 0.3);
+      box-shadow: 0 6px 20px rgba(29, 78, 216, 0.25);
     }
 
     .btn-secondary {
@@ -182,96 +293,224 @@
       border-color: #bfdbfe;
     }
 
-    /* ── FOOTER NOTE ── */
-    .card-footer {
+    /* Card footer note */
+    .card-note {
       padding-top: 1.5rem;
       border-top: 1px solid var(--border);
-      text-align: center;
     }
 
-    .card-footer p {
+    .card-note p {
       font-size: 0.825rem;
       color: var(--muted);
-      line-height: 1.6;
-      margin-bottom: 0.5rem;
+      line-height: 1.65;
+      margin-bottom: 0.4rem;
     }
 
-    .card-footer p:last-child { margin-bottom: 0; }
+    .card-note p:last-child { margin-bottom: 0; }
 
-    .card-footer a {
+    .card-note a {
       color: var(--blue-light);
       text-decoration: none;
       font-weight: 500;
       transition: color 0.2s;
     }
 
-    .card-footer a:hover { color: var(--blue); }
+    .card-note a:hover { color: var(--blue); }
 
-    /* ── BACK LINK ── */
-    .back-link {
-      position: relative;
-      z-index: 1;
-      margin-top: 1.5rem;
-      font-size: 0.825rem;
-      color: rgba(255,255,255,0.55);
-      text-decoration: none;
-      display: inline-flex;
+    /* ── FOOTER ── */
+    .footer {
+      background: #0b1426;
+      color: #64748b;
+      padding: 2.5rem 2rem;
+      text-align: center;
+      font-size: 0.875rem;
+    }
+
+    .footer-inner { max-width: 900px; margin: 0 auto; }
+
+    .footer-disclaimer {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 8px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.75rem;
+      line-height: 1.7;
+      color: #94a3b8;
+    }
+
+    .footer-disclaimer strong {
+      color: #cbd5e1;
+      display: block;
+      margin-bottom: 0.4rem;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.07);
+      padding-top: 1.5rem;
+      display: flex;
+      justify-content: center;
       align-items: center;
-      gap: 0.4rem;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 1.25rem;
+      list-style: none;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .footer-links a {
+      color: #64748b;
+      text-decoration: none;
+      font-size: 0.85rem;
       transition: color 0.2s;
     }
 
-    .back-link:hover { color: rgba(255,255,255,0.9); }
+    .footer-links a:hover { color: #94a3b8; }
 
     /* ── RESPONSIVE ── */
-    @media (max-width: 480px) {
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        position: fixed;
+        top: 68px;
+        left: 0; right: 0;
+        background: var(--white);
+        flex-direction: column;
+        gap: 0;
+        border-top: 2px solid var(--blue-light);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        z-index: 99;
+      }
+
+      .nav-links.open { display: flex; }
+      .nav-links li { border-bottom: 1px solid var(--border); }
+
+      .nav-links a {
+        display: block;
+        padding: 0.9rem 1.5rem;
+        border-radius: 0;
+      }
+
+      .nav-links .btn-login {
+        margin: 0.75rem 1rem;
+        border-radius: 8px;
+        text-align: center;
+      }
+
+      .mobile-toggle { display: block; }
+
+      .main { padding: 3rem 1.25rem; }
+      .page-hero { padding: 3rem 1.25rem 2.5rem; }
       .card { padding: 2rem 1.5rem; }
     }
   </style>
 </head>
 <body>
 
-  <div class="card">
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">Nordic Riser AB</a>
+      <button class="mobile-toggle" onclick="toggleMenu()" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="who-we-help.html">Who We Help</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="portal.html" class="btn-login active">Member Login</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <!-- HEADER -->
-    <div class="card-header">
-      <div class="brand-mark">
-        <svg viewBox="0 0 24 24">
-          <rect x="3" y="11" width="18" height="11" rx="2"/>
-          <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
-        </svg>
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <span class="page-hero-label">Client Access</span>
+      <h1>Member Portal</h1>
+      <p>Secure access for registered Nordic Riser AB clients to manage their engagement, documents, and communications.</p>
+    </div>
+  </section>
+
+  <!-- MAIN -->
+  <main class="main">
+    <div class="card">
+
+      <div class="card-header">
+        <div class="brand-mark">
+          <svg viewBox="0 0 24 24">
+            <rect x="3" y="11" width="18" height="11" rx="2"/>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+          </svg>
+        </div>
+        <div class="card-header-text">
+          <h2>Nordic Riser AB</h2>
+          <p>Secure Member Portal</p>
+        </div>
       </div>
-      <h1>Nordic Riser AB</h1>
-      <p>Secure Member Portal</p>
-    </div>
 
-    <!-- PORTAL INFO -->
-    <div class="portal-info">
-      <h2>Client Portal Access</h2>
-      <p>The member portal provides registered clients with a secure environment to manage their engagement with Nordic Riser AB.</p>
-      <div class="feature-list">
-        <div class="feature-item"><div class="feature-dot"></div>Case tracking and status updates</div>
-        <div class="feature-item"><div class="feature-dot"></div>Document upload and management</div>
-        <div class="feature-item"><div class="feature-dot"></div>Secure messaging with your advisor</div>
-        <div class="feature-item"><div class="feature-dot"></div>Invoice and payment management</div>
+      <div class="portal-features">
+        <h3>Portal Features</h3>
+        <div class="feature-list">
+          <div class="feature-item"><div class="feature-dot"></div>Case tracking and status updates</div>
+          <div class="feature-item"><div class="feature-dot"></div>Document upload and management</div>
+          <div class="feature-item"><div class="feature-dot"></div>Secure messaging with your advisor</div>
+          <div class="feature-item"><div class="feature-dot"></div>Invoice and payment management</div>
+        </div>
+      </div>
+
+      <div class="btn-group">
+        <a href="https://portal.nordicriser.com" class="btn btn-primary">Access Member Portal</a>
+        <a href="contact.html" class="btn btn-secondary">Contact Support</a>
+      </div>
+
+      <div class="card-note">
+        <p>Access is available to registered clients only. If you have not yet received your portal credentials, please <a href="mailto:info@nordicriser.com">contact us</a>.</p>
+        <p>Not yet a client? <a href="contact.html">Book a consultation</a> to get started.</p>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-disclaimer">
+        <strong>Disclaimer</strong>
+        The information provided by Nordic Riser AB is for general advisory purposes only and does not constitute legal or immigration representation. All outcomes are subject to the decisions of competent authorities and third parties. Nordic Riser AB does not guarantee any specific result.
+      </div>
+      <div class="footer-bottom">
+        <span>© Nordic Riser AB. All rights reserved.</span>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="who-we-help.html">Who We Help</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
       </div>
     </div>
+  </footer>
 
-    <!-- BUTTONS -->
-    <div class="btn-group">
-      <a href="https://portal.nordicriser.com" class="btn btn-primary">Access Member Portal</a>
-      <a href="contact.html" class="btn btn-secondary">Contact Support</a>
-    </div>
-
-    <!-- FOOTER NOTE -->
-    <div class="card-footer">
-      <p>Access is available to registered clients only. If you have not yet received your portal credentials, please <a href="mailto:info@nordicriser.com">contact us</a>.</p>
-      <p>Not yet a client? <a href="contact.html">Book a consultation</a> to get started.</p>
-    </div>
-
-  </div>
-
-  <a href="index.html" class="back-link">&#8592; Back to Website</a>
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('.navbar')) {
+        document.getElementById('navLinks').classList.remove('open');
+      }
+    });
+  </script>
 
 </body>
 </html>
