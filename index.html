@@ -211,16 +211,34 @@
     .service-card {
       background: var(--white);
       border: 1px solid var(--border);
+      border-top: 3px solid transparent;
       border-radius: 12px;
       padding: 2rem 1.75rem;
-      transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+                  box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+                  border-color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .service-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,0.6) 0%, rgba(239,246,255,0.3) 100%);
+      opacity: 0;
+      transition: opacity 0.4s ease;
+      pointer-events: none;
     }
 
     .service-card:hover {
-      border-color: var(--blue-light);
-      box-shadow: 0 8px 24px rgba(29, 78, 216, 0.1);
-      transform: translateY(-3px);
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      border-color: var(--navy);
+      border-top-color: var(--blue-light);
     }
+
+    .service-card:hover::before { opacity: 1; }
 
     .service-icon {
       width: 44px;
@@ -261,6 +279,19 @@
       border-radius: 12px;
       padding: 2rem;
       border: 1px solid var(--border);
+      border-top: 3px solid transparent;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+                  box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+                  border-color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .audience-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      border-color: var(--navy);
+      border-top-color: var(--blue-light);
     }
 
     .audience-card .tag {
@@ -395,12 +426,22 @@
     .why-card {
       background: rgba(255,255,255,0.06);
       border: 1px solid rgba(255,255,255,0.1);
+      border-top: 3px solid transparent;
       border-radius: 12px;
       padding: 2rem;
-      transition: background 0.2s;
+      transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+                  box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+                  background 0.4s ease,
+                  border-color 0.4s ease;
     }
 
-    .why-card:hover { background: rgba(255,255,255,0.1); }
+    .why-card:hover {
+      transform: translateY(-8px);
+      background: rgba(255,255,255,0.12);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+      border-color: rgba(255,255,255,0.25);
+      border-top-color: var(--blue-light);
+    }
 
     .why-card .check {
       width: 36px;

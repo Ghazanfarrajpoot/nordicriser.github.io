@@ -213,33 +213,59 @@
     .service-card {
       background: var(--white);
       border: 1px solid var(--border);
+      border-left: 4px solid transparent;
       border-radius: 14px;
       padding: 2.5rem;
       display: grid;
       grid-template-columns: 72px 1fr;
       gap: 2rem;
       align-items: start;
-      transition: border-color 0.2s, box-shadow 0.2s;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+                  box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+                  border-color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .service-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,0.6) 0%, rgba(239,246,255,0.3) 100%);
+      opacity: 0;
+      transition: opacity 0.4s ease;
+      pointer-events: none;
     }
 
     .service-card:hover {
-      border-color: var(--blue-light);
-      box-shadow: 0 8px 32px rgba(29, 78, 216, 0.09);
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      border-color: var(--navy);
+      border-left-color: var(--blue-light);
+    }
+
+    .service-card:hover::before { opacity: 1; }
+
+    .service-card:hover .service-number {
+      background: var(--navy);
+      color: var(--white);
     }
 
     .service-number {
       width: 56px;
       height: 56px;
-      background: var(--sky);
+      background: rgba(15, 37, 87, 0.07);
+      color: rgba(15, 37, 87, 0.4);
       border-radius: 12px;
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 1.15rem;
       font-weight: 800;
-      color: var(--navy);
       flex-shrink: 0;
       letter-spacing: -0.5px;
+      transition: background 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+                  color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     }
 
     .service-body h2 {
@@ -314,6 +340,13 @@
     .approach-item {
       background: var(--white);
       padding: 2rem 1.75rem;
+      transition: background 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+                  transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .approach-item:hover {
+      background: var(--sky);
+      transform: translateY(-4px);
     }
 
     .approach-item .icon {
@@ -345,12 +378,26 @@
     .engagement-card {
       background: rgba(255,255,255,0.06);
       border: 1px solid rgba(255,255,255,0.1);
+      border-top: 3px solid transparent;
       border-radius: 12px;
       padding: 2rem;
-      transition: background 0.2s;
+      transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+                  box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+                  background 0.4s ease,
+                  border-color 0.4s ease;
     }
 
-    .engagement-card:hover { background: rgba(255,255,255,0.1); }
+    .engagement-card:hover {
+      transform: translateY(-8px);
+      background: rgba(255,255,255,0.12);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+      border-color: rgba(255,255,255,0.25);
+      border-top-color: var(--blue-light);
+    }
+
+    .engagement-card:hover .engagement-num {
+      color: rgba(255,255,255,0.25);
+    }
 
     .engagement-num {
       font-size: 2.5rem;
