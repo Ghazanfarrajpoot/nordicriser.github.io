@@ -293,55 +293,90 @@
     .steps-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 2rem;
-      counter-reset: steps;
+      gap: 1.75rem;
     }
 
     .step {
       position: relative;
-      padding: 1.5rem 1.25rem;
-      border-radius: 12px;
-      border: 1px solid transparent;
-      transition: background 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+      padding: 2rem 1.75rem 2rem;
+      border-radius: 8px;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-top: 3px solid transparent;
+      box-shadow: 0 2px 8px rgba(15, 37, 87, 0.04);
+      transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+                  box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+                  border-color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+                  backdrop-filter 0.4s ease;
+      overflow: hidden;
+    }
+
+
+    .step::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,0.6) 0%, rgba(239,246,255,0.3) 100%);
+      backdrop-filter: blur(0px);
+      transition: backdrop-filter 0.4s ease, opacity 0.4s ease;
+      opacity: 0;
+      pointer-events: none;
+      border-radius: 8px;
     }
 
     .step:hover {
-      background: var(--white);
-      border-color: #bfdbfe;
-      box-shadow: 0 6px 24px rgba(15, 37, 87, 0.09);
-      transform: translateY(-4px);
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      border-color: var(--navy);
+      border-top-color: var(--blue-light);
     }
 
-    .step:hover .step-number {
-      background: var(--blue);
+    .step:hover::before {
+      opacity: 1;
+      backdrop-filter: blur(4px);
     }
 
     .step-number {
-      width: 48px;
-      height: 48px;
-      background: var(--navy);
-      color: var(--white);
-      font-size: 1.1rem;
-      font-weight: 700;
-      border-radius: 12px;
-      display: flex;
+      display: inline-flex;
       align-items: center;
       justify-content: center;
-      margin-bottom: 1.25rem;
+      width: 52px;
+      height: 52px;
+      border-radius: 12px;
+      background: rgba(15, 37, 87, 0.07);
+      color: rgba(15, 37, 87, 0.35);
+      font-size: 1.25rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 1.4rem;
       flex-shrink: 0;
+      transition: background 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+                  color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .step:hover .step-number {
+      background: var(--navy);
+      color: var(--white);
+    }
+
+    .step-connector {
+      display: none;
     }
 
     .step h3 {
-      font-size: 1rem;
+      font-size: 1.0rem;
       font-weight: 700;
       color: var(--navy);
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.6rem;
+      letter-spacing: -0.2px;
+      position: relative;
     }
 
     .step p {
-      font-size: 0.9rem;
+      font-size: 0.875rem;
       color: var(--muted);
-      line-height: 1.7;
+      line-height: 1.75;
+      position: relative;
     }
 
     /* ── WHY CHOOSE US ── */
@@ -689,6 +724,7 @@
           <h3>Implementation with Professional Partners</h3>
           <p>We coordinate execution alongside qualified legal, accounting, and specialist professionals — ensuring accuracy, compliance, and clear communication throughout.</p>
         </div>
+      </div>
       </div>
     </div>
   </section>
