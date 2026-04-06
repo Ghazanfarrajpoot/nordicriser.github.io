@@ -4,202 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nordic Riser AB — International Business & Relocation Consulting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
   <style>
-    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-
-    :root {
-      --navy: #0f2557;
-      --blue: #1d4ed8;
-      --blue-light: #3b82f6;
-      --sky: #eff6ff;
-      --text: #1e293b;
-      --muted: #64748b;
-      --border: #e2e8f0;
-      --white: #ffffff;
-    }
-
-    html { scroll-behavior: smooth; }
-
-    body {
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-      color: var(--text);
-      background: var(--white);
-      line-height: 1.7;
-      font-size: 16px;
-    }
-
-    /* ── NAVBAR ── */
-    .navbar {
-      background: var(--white);
-      border-bottom: 1px solid var(--border);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-
-    .nav-inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 68px;
-    }
-
-    .logo {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: var(--navy);
-      text-decoration: none;
-      letter-spacing: -0.3px;
-    }
-
-    .nav-links {
-      display: flex;
-      list-style: none;
-      gap: 0.25rem;
-      align-items: center;
-    }
-
-    .nav-links a {
-      color: var(--muted);
-      text-decoration: none;
-      font-size: 0.9rem;
-      font-weight: 500;
-      padding: 0.5rem 0.9rem;
-      border-radius: 6px;
-      transition: color 0.2s, background 0.2s;
-    }
-
-    .nav-links a:hover { color: var(--navy); background: var(--sky); }
-
-    .nav-links .btn-login {
-      background: var(--navy);
-      color: var(--white);
-      font-weight: 600;
-      padding: 0.5rem 1.2rem;
-    }
-
-    .nav-links .btn-login:hover { background: var(--blue); color: var(--white); }
-
-    .mobile-toggle {
-      display: none;
-      background: none;
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 6px 10px;
-      font-size: 1.25rem;
-      color: var(--navy);
-      cursor: pointer;
-    }
+    /* PAGE-SPECIFIC STYLES ONLY */
 
     /* ── HERO ── */
-    .hero {
-      background: linear-gradient(160deg, var(--navy) 0%, #1e3a8a 55%, #1d4ed8 100%);
-      color: var(--white);
-      padding: 7rem 2rem 6rem;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .hero::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M60 0H0v60' fill='none' stroke='rgba(255,255,255,0.04)' stroke-width='1'/%3E%3C/svg%3E");
-    }
-
-    .hero-inner {
-      position: relative;
-      z-index: 1;
-      max-width: 820px;
-      margin: 0 auto;
-    }
-
-    .hero-label {
-      display: inline-block;
-      font-size: 0.8rem;
-      font-weight: 600;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      color: rgba(255,255,255,0.6);
-      margin-bottom: 1.5rem;
-    }
-
-    .hero h1 {
-      font-size: clamp(2rem, 5vw, 3.25rem);
-      font-weight: 700;
-      line-height: 1.2;
-      letter-spacing: -1px;
-      margin-bottom: 1.5rem;
-    }
-
-    .hero p {
-      font-size: 1.15rem;
-      color: rgba(255,255,255,0.82);
-      max-width: 640px;
-      margin: 0 auto 2.5rem;
-      line-height: 1.8;
-    }
-
-    .btn-primary {
-      display: inline-block;
-      background: var(--white);
-      color: var(--navy);
-      font-weight: 700;
-      font-size: 0.95rem;
-      padding: 0.9rem 2.2rem;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: transform 0.2s, box-shadow 0.2s;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-    }
-
-    .btn-primary:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 28px rgba(0,0,0,0.25);
-    }
-
-    /* ── SHARED SECTION STYLES ── */
-    .section {
-      padding: 5.5rem 2rem;
-    }
-
-    .section-inner {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .section-label {
-      font-size: 0.75rem;
-      font-weight: 700;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: var(--blue-light);
-      margin-bottom: 0.75rem;
-      display: block;
-      text-align: center;
-    }
-
-    .section-title {
-      font-size: clamp(1.6rem, 3vw, 2.25rem);
-      font-weight: 700;
-      color: var(--navy);
-      text-align: center;
-      letter-spacing: -0.5px;
-      margin-bottom: 1rem;
-    }
-
-    .section-sub {
-      text-align: center;
-      color: var(--muted);
-      font-size: 1.05rem;
-      max-width: 620px;
-      margin: 0 auto 3.5rem;
-      line-height: 1.8;
-    }
+    .hero-label { color: var(--gold); }
 
     /* ── WHAT WE DO ── */
     .services-grid {
@@ -207,463 +20,186 @@
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       gap: 1.5rem;
     }
-
     .service-card {
       background: var(--white);
       border: 1px solid var(--border);
       border-top: 3px solid transparent;
-      border-radius: 12px;
+      border-radius: 8px;
       padding: 2rem 1.75rem;
-      position: relative;
-      overflow: hidden;
-      transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
-                  box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
-                  border-color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-    }
-
-    .service-card::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(135deg, rgba(255,255,255,0.6) 0%, rgba(239,246,255,0.3) 100%);
-      opacity: 0;
-      transition: opacity 0.4s ease;
-      pointer-events: none;
-    }
-
-    .service-card:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-      border-color: var(--navy);
-      border-top-color: var(--blue-light);
-    }
-
-    .service-card:hover::before { opacity: 1; }
-
-    .service-icon {
-      width: 44px;
-      height: 44px;
-      background: var(--sky);
-      border-radius: 10px;
       display: flex;
-      align-items: center;
-      justify-content: center;
+      flex-direction: column;
+      filter: none;
+      transition: background 0.3s ease,
+                  box-shadow 0.3s ease,
+                  border-color 0.3s ease;
+    }
+    .service-card:hover {
+      background: #f4f7ff;
+      box-shadow: 0 4px 24px rgba(0, 35, 75, 0.12);
+      border-top-color: var(--gold);
+      border-color: rgba(0, 35, 75, 0.2);
+      filter: none;
+    }
+    .service-card *,
+    .service-card:hover * { filter: none; }
+    .service-icon {
+      width: 44px; height: 44px;
+      background: var(--sky);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
       margin-bottom: 1.25rem;
       font-size: 1.3rem;
+      flex-shrink: 0;
     }
-
-    .service-card h3 {
-      font-size: 1rem;
+    .service-card h3 { font-size: 1.05rem; font-weight: 800; color: var(--navy); margin-bottom: 0.5rem; }
+    .service-card p  { font-size: 0.9rem; color: var(--muted); line-height: 1.7; margin-bottom: 1.25rem; flex-grow: 1; }
+    .service-card .investor-note {
+      font-size: 0.78rem; font-style: italic;
+      color: var(--gold); font-weight: 500;
+      margin-bottom: 1.25rem; line-height: 1.5;
+    }
+    .service-btn {
+      display: inline-block;
+      background: var(--navy);
+      color: var(--white);
+      font-size: 0.75rem;
       font-weight: 700;
-      color: var(--navy);
-      margin-bottom: 0.6rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.6rem 1.2rem;
+      border-radius: 4px;
+      text-decoration: none;
+      align-self: flex-start;
+      transition: background 0.2s ease;
     }
-
-    .service-card p {
-      font-size: 0.9rem;
-      color: var(--muted);
-      line-height: 1.7;
-    }
+    .service-btn:hover { background: #001d3d; color: var(--white); }
 
     /* ── WHO WE WORK WITH ── */
     .audience-section { background: var(--sky); }
-
     .audience-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
       gap: 1.5rem;
     }
-
     .audience-card {
       background: var(--white);
-      border-radius: 12px;
+      border-radius: 8px;
       padding: 2rem;
       border: 1px solid var(--border);
       border-top: 3px solid transparent;
-      position: relative;
-      overflow: hidden;
-      transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
-                  box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
-                  border-color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     }
-
     .audience-card:hover {
       transform: translateY(-8px);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.09);
       border-color: var(--navy);
-      border-top-color: var(--blue-light);
+      border-top-color: var(--gold);
     }
-
     .audience-card .tag {
       display: inline-block;
-      font-size: 0.75rem;
-      font-weight: 700;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      color: var(--blue);
-      background: var(--sky);
-      padding: 0.3rem 0.7rem;
-      border-radius: 4px;
+      font-size: 0.7rem; font-weight: 700;
+      letter-spacing: 1.5px; text-transform: uppercase;
+      color: var(--navy); background: var(--sky);
+      padding: 0.3rem 0.7rem; border-radius: 3px;
       margin-bottom: 1rem;
     }
+    .audience-card h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.6rem; }
+    .audience-card p  { font-size: 0.9rem; color: var(--muted); line-height: 1.7; }
 
-    .audience-card h3 {
-      font-size: 1.05rem;
-      font-weight: 700;
-      color: var(--navy);
-      margin-bottom: 0.6rem;
-    }
-
-    .audience-card p {
-      font-size: 0.9rem;
-      color: var(--muted);
-      line-height: 1.7;
-    }
-
-    /* ── HOW IT WORKS ── */
+    /* ── PROCESS STEPS ── */
     .steps-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
       gap: 1.75rem;
     }
-
     .step {
-      position: relative;
-      padding: 2rem 1.75rem 2rem;
+      padding: 2rem 1.75rem;
       border-radius: 8px;
       background: var(--white);
       border: 1px solid var(--border);
       border-top: 3px solid transparent;
-      box-shadow: 0 2px 8px rgba(15, 37, 87, 0.04);
-      transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
-                  box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
-                  border-color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
-                  backdrop-filter 0.4s ease;
-      overflow: hidden;
+      filter: none;
+      transition: background 0.3s ease,
+                  box-shadow 0.3s ease,
+                  border-color 0.3s ease;
     }
-
-
-    .step::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(135deg, rgba(255,255,255,0.6) 0%, rgba(239,246,255,0.3) 100%);
-      backdrop-filter: blur(0px);
-      transition: backdrop-filter 0.4s ease, opacity 0.4s ease;
-      opacity: 0;
-      pointer-events: none;
-      border-radius: 8px;
-    }
-
     .step:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-      border-color: var(--navy);
-      border-top-color: var(--blue-light);
+      background: #f4f7ff;
+      box-shadow: 0 4px 24px rgba(0, 35, 75, 0.12);
+      border-color: rgba(0, 35, 75, 0.2);
+      border-top-color: var(--gold);
+      filter: none;
     }
-
-    .step:hover::before {
-      opacity: 1;
-      backdrop-filter: blur(4px);
-    }
-
     .step-number {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 52px;
-      height: 52px;
-      border-radius: 12px;
-      background: rgba(15, 37, 87, 0.07);
-      color: rgba(15, 37, 87, 0.35);
-      font-size: 1.25rem;
-      font-weight: 800;
-      letter-spacing: -0.5px;
-      margin-bottom: 1.4rem;
-      flex-shrink: 0;
-      transition: background 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
-                  color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 52px; height: 52px;
+      border-radius: 10px;
+      background: rgba(0,35,75,0.07);
+      color: rgba(0,35,75,0.35);
+      font-size: 1.2rem; font-weight: 800; letter-spacing: -0.5px;
+      margin-bottom: 1.4rem; flex-shrink: 0;
+      transition: background 0.3s ease, color 0.3s ease;
     }
+    .step:hover .step-number { background: var(--navy); color: var(--white); }
+    .step h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.6rem; letter-spacing: -0.2px; position: relative; }
+    .step p  { font-size: 0.875rem; color: var(--muted); line-height: 1.75; position: relative; }
 
-    .step:hover .step-number {
-      background: var(--navy);
-      color: var(--white);
-    }
-
-    .step-connector {
-      display: none;
-    }
-
-    .step h3 {
-      font-size: 1.0rem;
-      font-weight: 700;
-      color: var(--navy);
-      margin-bottom: 0.6rem;
-      letter-spacing: -0.2px;
-      position: relative;
-    }
-
-    .step p {
-      font-size: 0.875rem;
-      color: var(--muted);
-      line-height: 1.75;
-      position: relative;
-    }
-
-    /* ── WHY CHOOSE US ── */
+    /* ── WHY CHOOSE US (dark) ── */
     .why-section { background: var(--navy); }
-
-    .why-section .section-label { color: rgba(255,255,255,0.5); }
+    .why-section .section-label { color: rgba(201,169,110,0.65); }
     .why-section .section-title { color: var(--white); }
-    .why-section .section-sub { color: rgba(255,255,255,0.65); }
-
+    .why-section .section-sub   { color: rgba(255,255,255,0.62); }
     .why-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       gap: 1.5rem;
     }
-
     .why-card {
       background: rgba(255,255,255,0.06);
       border: 1px solid rgba(255,255,255,0.1);
       border-top: 3px solid transparent;
-      border-radius: 12px;
+      border-radius: 8px;
       padding: 2rem;
-      transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
-                  box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
-                  background 0.4s ease,
-                  border-color 0.4s ease;
     }
-
     .why-card:hover {
       transform: translateY(-8px);
-      background: rgba(255,255,255,0.12);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-      border-color: rgba(255,255,255,0.25);
-      border-top-color: var(--blue-light);
+      background: rgba(255,255,255,0.11);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.28);
+      border-color: rgba(255,255,255,0.22);
+      border-top-color: var(--gold);
     }
-
     .why-card .check {
-      width: 36px;
-      height: 36px;
-      background: rgba(59,130,246,0.25);
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      width: 36px; height: 36px;
+      background: rgba(201,169,110,0.2);
+      border-radius: 7px;
+      display: flex; align-items: center; justify-content: center;
       margin-bottom: 1.1rem;
-      color: #93c5fd;
-      font-size: 1rem;
-      font-weight: 700;
+      color: var(--gold);
+      font-size: 1rem; font-weight: 700;
     }
-
-    .why-card h3 {
-      font-size: 1rem;
-      font-weight: 700;
-      color: var(--white);
-      margin-bottom: 0.5rem;
-    }
-
-    .why-card p {
-      font-size: 0.9rem;
-      color: rgba(255,255,255,0.6);
-      line-height: 1.7;
-    }
-
-    /* ── FINAL CTA ── */
-    .cta-section {
-      text-align: center;
-      padding: 6rem 2rem;
-      background: var(--white);
-    }
-
-    .cta-box {
-      max-width: 680px;
-      margin: 0 auto;
-    }
-
-    .cta-box h2 {
-      font-size: clamp(1.75rem, 3vw, 2.5rem);
-      font-weight: 700;
-      color: var(--navy);
-      letter-spacing: -0.5px;
-      margin-bottom: 1rem;
-    }
-
-    .cta-box p {
-      font-size: 1.05rem;
-      color: var(--muted);
-      margin-bottom: 2.5rem;
-      line-height: 1.8;
-    }
-
-    .btn-cta {
-      display: inline-block;
-      background: var(--navy);
-      color: var(--white);
-      font-weight: 700;
-      font-size: 0.95rem;
-      padding: 1rem 2.5rem;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: background 0.2s, transform 0.2s;
-    }
-
-    .btn-cta:hover { background: var(--blue); transform: translateY(-2px); }
-
-    .contact-strip {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 2.5rem;
-      margin-top: 3rem;
-      padding-top: 3rem;
-      border-top: 1px solid var(--border);
-    }
-
-    .contact-item { text-align: center; }
-
-    .contact-item span {
-      display: block;
-      font-size: 0.75rem;
-      font-weight: 700;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 0.4rem;
-    }
-
-    .contact-item a {
-      color: var(--navy);
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 0.95rem;
-      transition: color 0.2s;
-    }
-
-    .contact-item a:hover { color: var(--blue); }
-
-    /* ── FOOTER ── */
-    .footer {
-      background: #0b1426;
-      color: #64748b;
-      padding: 2.5rem 2rem;
-      text-align: center;
-      font-size: 0.875rem;
-    }
-
-    .footer-inner {
-      max-width: 900px;
-      margin: 0 auto;
-    }
-
-    .footer-disclaimer {
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.06);
-      border-radius: 8px;
-      padding: 1.25rem 1.5rem;
-      margin-bottom: 1.75rem;
-      line-height: 1.7;
-      color: #94a3b8;
-    }
-
-    .footer-disclaimer strong {
-      color: #cbd5e1;
-      display: block;
-      margin-bottom: 0.4rem;
-      font-size: 0.8rem;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-    }
-
-    .footer-bottom {
-      border-top: 1px solid rgba(255,255,255,0.07);
-      padding-top: 1.5rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-    }
-
-    .footer-links {
-      display: flex;
-      gap: 1.25rem;
-      list-style: none;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-    .footer-links a {
-      color: #64748b;
-      text-decoration: none;
-      font-size: 0.85rem;
-      transition: color 0.2s;
-    }
-
-    .footer-links a:hover { color: #94a3b8; }
-
-    /* ── RESPONSIVE ── */
-    @media (max-width: 768px) {
-      .nav-links {
-        display: none;
-        position: fixed;
-        top: 68px;
-        left: 0; right: 0;
-        background: var(--white);
-        flex-direction: column;
-        gap: 0;
-        border-top: 2px solid var(--blue-light);
-        box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-        z-index: 99;
-      }
-
-      .nav-links.open { display: flex; }
-
-      .nav-links li { border-bottom: 1px solid var(--border); }
-
-      .nav-links a {
-        display: block;
-        padding: 0.9rem 1.5rem;
-        border-radius: 0;
-      }
-
-      .nav-links .btn-login {
-        margin: 0.75rem 1rem;
-        border-radius: 8px;
-        text-align: center;
-      }
-
-      .mobile-toggle { display: block; }
-
-      .section { padding: 4rem 1.25rem; }
-
-      .hero { padding: 5rem 1.25rem 4rem; }
-    }
+    .why-card h3 { font-size: 1rem; font-weight: 700; color: var(--white); margin-bottom: 0.5rem; }
+    .why-card p  { font-size: 0.9rem; color: rgba(255,255,255,0.58); line-height: 1.7; }
   </style>
 </head>
 <body>
 
   <!-- NAVBAR -->
-  <nav class="navbar">
+  <nav class="navbar" id="navbar">
     <div class="nav-inner">
-      <a href="index.html" class="logo">Nordic Riser AB</a>
+      <a href="index.html" class="logo">Nordic Riser <span>AB</span></a>
       <button class="mobile-toggle" onclick="toggleMenu()" aria-label="Toggle menu">☰</button>
       <ul class="nav-links" id="navLinks">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="who-we-help.html">Who We Help</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="privacy.html">Privacy Policy</a></li>
-        <li><a href="https://portal.nordicriser.com" class="btn-login">Member Login</a></li>
+        <li><a href="services.html">Expertise</a></li>
+        <li><a href="services.html">Malta Structure</a></li>
+        <li><a href="who-we-help.html">Relocation</a></li>
+        <li><a href="about.html">Insights</a></li>
+        <li><a href="contact.html" class="btn-login">Private Consultation</a></li>
       </ul>
     </div>
   </nav>
 
   <!-- HERO -->
   <section class="hero">
-    <div class="hero-inner">
+    <div class="hero-inner" data-animate>
       <span class="hero-label">International Business Consulting</span>
       <h1>Strategic Business &amp; Relocation Consulting for International Entrepreneurs</h1>
       <p>We help entrepreneurs, professionals, and business owners build a structured, legally compliant path to establishing and growing their business presence in Europe.</p>
@@ -673,7 +209,7 @@
 
   <!-- WHAT WE DO -->
   <section class="section">
-    <div class="section-inner">
+    <div class="section-inner" data-animate>
       <span class="section-label">What We Do</span>
       <h2 class="section-title">Strategic Consulting Across Five Core Areas</h2>
       <p class="section-sub">We provide structured advisory across the full spectrum of international business establishment and professional relocation — without generic advice.</p>
@@ -682,26 +218,33 @@
           <div class="service-icon">🏢</div>
           <h3>Business Establishment</h3>
           <p>Structured guidance on legal entity selection, registration procedures, and operational compliance for international business owners entering European markets.</p>
+          <p class="investor-note">Specialized for non-EU investors seeking a secure gateway to European markets.</p>
+          <a href="contact.html" class="service-btn">Inquire Now</a>
         </div>
         <div class="service-card">
           <div class="service-icon">📋</div>
           <h3>Company Formation Strategy</h3>
           <p>Strategic planning for the right corporate structure based on your business model, ownership requirements, and long-term objectives.</p>
+          <a href="contact.html" class="service-btn">Inquire Now</a>
         </div>
         <div class="service-card">
           <div class="service-icon">🌍</div>
-          <h3>Relocation Through Business</h3>
-          <p>Advisory on legitimate business-based relocation pathways, aligned with regulatory frameworks and designed for sustainable residency outcomes.</p>
+          <h3>Business-Based Residency &amp; Family Relocation Strategy</h3>
+          <p>Advisory on legitimate business-based relocation pathways for you and your family, aligned with regulatory frameworks and designed for sustainable residency outcomes.</p>
+          <a href="contact.html" class="service-btn">Inquire Now</a>
         </div>
         <div class="service-card">
           <div class="service-icon">🔗</div>
           <h3>Cross-Border Advisory</h3>
           <p>Coordination of multi-jurisdictional considerations including tax, compliance, and legal structures for internationally active professionals and companies.</p>
+          <p class="investor-note">Strategic assistance with European banking compliance and international capital structuring.</p>
+          <a href="contact.html" class="service-btn">Inquire Now</a>
         </div>
         <div class="service-card">
           <div class="service-icon">📊</div>
           <h3>Business Planning for Entrepreneurs</h3>
           <p>Development of structured business plans and documentation packages tailored to meet the requirements of European authorities and institutions.</p>
+          <a href="contact.html" class="service-btn">Inquire Now</a>
         </div>
       </div>
     </div>
@@ -709,7 +252,7 @@
 
   <!-- WHO WE WORK WITH -->
   <section class="section audience-section">
-    <div class="section-inner">
+    <div class="section-inner" data-animate>
       <span class="section-label">Who We Work With</span>
       <h2 class="section-title">Built for Internationally Focused Professionals</h2>
       <p class="section-sub">Our clients come from diverse professional backgrounds and geographies. What they share is a structured ambition to establish a credible business presence in Europe.</p>
@@ -740,7 +283,7 @@
 
   <!-- HOW IT WORKS -->
   <section class="section">
-    <div class="section-inner">
+    <div class="section-inner" data-animate>
       <span class="section-label">Our Process</span>
       <h2 class="section-title">A Clear, Four-Step Engagement Model</h2>
       <p class="section-sub">Every engagement follows a structured methodology designed to deliver clarity, compliance, and actionable outcomes at each stage.</p>
@@ -766,13 +309,12 @@
           <p>We coordinate execution alongside qualified legal, accounting, and specialist professionals — ensuring accuracy, compliance, and clear communication throughout.</p>
         </div>
       </div>
-      </div>
     </div>
   </section>
 
   <!-- WHY CHOOSE US -->
   <section class="section why-section">
-    <div class="section-inner">
+    <div class="section-inner" data-animate>
       <span class="section-label">Why Clients Choose Us</span>
       <h2 class="section-title">A Consulting Firm Built on Professional Standards</h2>
       <p class="section-sub">We operate with a compliance-first approach. Our value lies in the quality of our strategic guidance, not in promises about outcomes.</p>
@@ -803,7 +345,7 @@
 
   <!-- FINAL CTA -->
   <section class="cta-section">
-    <div class="cta-box">
+    <div class="cta-box" data-animate>
       <h2>Ready to Build Your European Business Presence?</h2>
       <p>Speak with a consultant and receive a structured strategy based on your specific situation, objectives, and background.</p>
       <a href="contact.html" class="btn-cta">Book a Consultation</a>
@@ -826,20 +368,53 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-disclaimer">
-        <strong>Disclaimer</strong>
-        The information provided by Nordic Riser AB is for general advisory purposes only and does not constitute legal or immigration representation. All outcomes are subject to the decisions of competent authorities and third parties. Nordic Riser AB does not guarantee any specific result.
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo">Nordic Riser <span>AB</span></a>
+        <p>An international advisory firm providing structured consulting for entrepreneurs and professionals establishing a legally compliant business presence in Europe.</p>
+        <div class="footer-address">
+          <strong>Registered Office</strong>
+          Nordic Riser AB<br>
+          Stockholm, Sweden<br>
+          <a href="mailto:info@nordicriser.com">info@nordicriser.com</a><br>
+          <a href="tel:+46722663883">+46 72 266 3883</a>
+        </div>
       </div>
-      <div class="footer-bottom">
-        <span>© Nordic Riser AB. All rights reserved.</span>
-        <ul class="footer-links">
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Business Establishment</a></li>
+          <li><a href="services.html">Company Formation</a></li>
+          <li><a href="services.html">Business Planning</a></li>
+          <li><a href="services.html">Relocation Strategy</a></li>
+          <li><a href="services.html">Cross-Border Advisory</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Firm</h4>
+        <ul>
           <li><a href="about.html">About Us</a></li>
+          <li><a href="who-we-help.html">Who We Help</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="privacy.html">Privacy Policy</a></li>
           <li><a href="https://portal.nordicriser.com">Member Portal</a></li>
         </ul>
       </div>
+      <div class="footer-col">
+        <h4>Compliance</h4>
+        <div class="footer-disclaimer-box">
+          <strong>Disclaimer</strong>
+          <p>Nordic Riser AB provides strategic consulting services only. We do not provide legal representation, immigration advice, or outcome guarantees. All decisions rest with competent authorities. Compliance-first in everything we do.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Nordic Riser AB. All rights reserved. Stockholm, Sweden.</span>
+      <ul class="footer-bottom-links">
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://portal.nordicriser.com">Member Portal</a></li>
+      </ul>
     </div>
   </footer>
 
@@ -852,6 +427,20 @@
         document.getElementById('navLinks').classList.remove('open');
       }
     });
+    // Navbar scroll shadow
+    const navbar = document.getElementById('navbar');
+    if (navbar) {
+      window.addEventListener('scroll', () => {
+        navbar.classList.toggle('scrolled', window.scrollY > 20);
+      });
+    }
+    // Fade-in on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('[data-animate]').forEach(el => observer.observe(el));
   </script>
 
 </body>
