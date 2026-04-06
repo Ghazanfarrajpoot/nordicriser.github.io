@@ -14,7 +14,7 @@
   <style>
     /* PAGE-SPECIFIC STYLES ONLY */
 
-    /* ── SERVICE CARDS (detail layout) ── */
+    /* ── SERVICE CARDS ── */
     .services-list {
       display: flex;
       flex-direction: column;
@@ -30,38 +30,19 @@
       grid-template-columns: 72px 1fr;
       gap: 2rem;
       align-items: start;
-      position: relative;
-      overflow: hidden;
-      transition: transform 0.4s var(--ease-premium),
-                  box-shadow 0.4s var(--ease-premium),
-                  border-color 0.4s var(--ease-premium),
-                  background 0.4s ease,
-                  opacity 0.4s ease;
-    }
-    .services-list:hover .service-card:not(:hover) {
-      background: #f9f9f9;
-      opacity: 0.7;
-    }
-    .service-card::before {
-      content: '';
-      position: absolute; inset: 0;
-      background: linear-gradient(135deg, rgba(255,255,255,0.6) 0%, rgba(239,246,255,0.3) 100%);
-      opacity: 0; transition: opacity 0.4s ease;
-      pointer-events: none;
+      transition: background 0.3s ease,
+                  box-shadow 0.3s ease,
+                  border-color 0.3s ease;
     }
     .service-card:hover {
-      transform: translateY(-8px);
-      box-shadow: var(--shadow-lg);
-      border-color: var(--navy);
+      background: #f8faff;
+      box-shadow: 0 4px 24px rgba(0, 35, 75, 0.10);
       border-left-color: var(--gold);
     }
-    .service-card:hover::before { opacity: 1; }
-    .service-card:hover .service-number { background: var(--navy); color: var(--white); }
-    .service-card:hover .service-body h2,
-    .service-card:hover .service-body p,
-    .service-card:hover .service-body .service-tagline,
-    .service-card:hover .service-includes h4,
-    .service-card:hover .includes-list span { color: #111111; }
+    .service-card:hover .service-number {
+      background: var(--navy);
+      color: var(--white);
+    }
     .service-number {
       width: 56px; height: 56px;
       background: rgba(0,35,75,0.07);
@@ -70,24 +51,21 @@
       display: flex; align-items: center; justify-content: center;
       font-size: 1.15rem; font-weight: 800; flex-shrink: 0;
       letter-spacing: -0.5px;
-      transition: background 0.4s var(--ease-premium), color 0.4s var(--ease-premium);
+      transition: background 0.3s ease, color 0.3s ease;
     }
     .service-body h2 {
       font-family: var(--font-serif);
-      font-size: 1.3rem; font-weight: 700;
+      font-size: 1.35rem; font-weight: 800;
       color: var(--navy); margin-bottom: 0.75rem; letter-spacing: -0.3px;
-      transition: color 0.3s ease;
     }
     .service-body .service-tagline {
       font-size: 0.7rem; font-weight: 700;
       letter-spacing: 3px; text-transform: uppercase;
       color: var(--gold); margin-bottom: 1rem; display: block;
-      transition: color 0.3s ease;
     }
     .service-body p {
       font-size: 0.975rem; color: var(--muted);
       line-height: 1.85; margin-bottom: 1.1rem;
-      transition: color 0.3s ease;
     }
     .service-body p:last-of-type { margin-bottom: 0; }
     .service-includes {
@@ -118,17 +96,11 @@
     .approach-item {
       background: var(--white);
       padding: 2rem 1.75rem;
-      transition: background 0.4s var(--ease-premium),
-                  transform 0.4s var(--ease-premium),
-                  opacity 0.4s ease;
+      transition: background 0.3s ease, box-shadow 0.3s ease;
     }
-    .approach-item:hover { background: var(--sky); transform: translateY(-4px); }
-    .approach-item:hover h4,
-    .approach-item:hover p { color: #111111; }
-    .approach-item h4, .approach-item p { transition: color 0.3s ease; }
-    .approach-strip:hover .approach-item:not(:hover) {
-      background: #f9f9f9;
-      opacity: 0.7;
+    .approach-item:hover {
+      background: #f8faff;
+      box-shadow: inset 0 0 0 1px rgba(0,35,75,0.08);
     }
     .approach-item .icon { font-size: 1.5rem; margin-bottom: 0.85rem; display: block; }
     .approach-item h4 { font-size: 0.95rem; font-weight: 700; color: var(--navy); margin-bottom: 0.4rem; }
@@ -145,21 +117,13 @@
       border: 1px solid rgba(255,255,255,0.1);
       border-top: 3px solid transparent;
       border-radius: 8px; padding: 2rem;
-      transition: transform 0.4s var(--ease-premium),
-                  box-shadow 0.4s var(--ease-premium),
-                  background 0.4s ease,
-                  border-color 0.4s ease,
-                  opacity 0.4s ease;
-    }
-    .engagement-grid:hover .engagement-card:not(:hover) {
-      background: rgba(255,255,255,0.03);
-      opacity: 0.6;
+      transition: background 0.3s ease,
+                  box-shadow 0.3s ease,
+                  border-color 0.3s ease;
     }
     .engagement-card:hover {
-      transform: translateY(-8px);
       background: rgba(255,255,255,0.12);
-      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-      border-color: rgba(255,255,255,0.25);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.25);
       border-top-color: var(--gold);
     }
     .engagement-num {
@@ -167,10 +131,11 @@
       color: rgba(255,255,255,0.1);
       line-height: 1; margin-bottom: 0.75rem; letter-spacing: -1px;
     }
-    .engagement-card h3 { font-size: 1rem; font-weight: 700; color: var(--white); margin-bottom: 0.5rem; transition: color 0.3s ease; }
-    .engagement-card p  { font-size: 0.9rem; color: rgba(255,255,255,0.58); line-height: 1.7; transition: color 0.3s ease; }
-    .engagement-card:hover h3,
-    .engagement-card:hover p { color: #ffffff; }
+    .engagement-card h3 { font-size: 1rem; font-weight: 800; color: var(--white); margin-bottom: 0.5rem; }
+    .engagement-card p  { font-size: 0.9rem; color: rgba(255,255,255,0.7); line-height: 1.7; }
+
+    /* ── SECTION TITLE WEIGHT ── */
+    .section-title { font-weight: 800; }
 
     /* ── RESPONSIVE ── */
     @media (max-width: 768px) {
