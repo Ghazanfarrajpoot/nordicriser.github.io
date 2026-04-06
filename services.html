@@ -57,6 +57,11 @@
     }
     .service-card:hover::before { opacity: 1; }
     .service-card:hover .service-number { background: var(--navy); color: var(--white); }
+    .service-card:hover .service-body h2,
+    .service-card:hover .service-body p,
+    .service-card:hover .service-body .service-tagline,
+    .service-card:hover .service-includes h4,
+    .service-card:hover .includes-list span { color: #111111; }
     .service-number {
       width: 56px; height: 56px;
       background: rgba(0,35,75,0.07);
@@ -71,15 +76,18 @@
       font-family: var(--font-serif);
       font-size: 1.3rem; font-weight: 700;
       color: var(--navy); margin-bottom: 0.75rem; letter-spacing: -0.3px;
+      transition: color 0.3s ease;
     }
     .service-body .service-tagline {
       font-size: 0.7rem; font-weight: 700;
       letter-spacing: 3px; text-transform: uppercase;
       color: var(--gold); margin-bottom: 1rem; display: block;
+      transition: color 0.3s ease;
     }
     .service-body p {
       font-size: 0.975rem; color: var(--muted);
       line-height: 1.85; margin-bottom: 1.1rem;
+      transition: color 0.3s ease;
     }
     .service-body p:last-of-type { margin-bottom: 0; }
     .service-includes {
@@ -115,6 +123,9 @@
                   opacity 0.4s ease;
     }
     .approach-item:hover { background: var(--sky); transform: translateY(-4px); }
+    .approach-item:hover h4,
+    .approach-item:hover p { color: #111111; }
+    .approach-item h4, .approach-item p { transition: color 0.3s ease; }
     .approach-strip:hover .approach-item:not(:hover) {
       background: #f9f9f9;
       opacity: 0.7;
@@ -156,8 +167,10 @@
       color: rgba(255,255,255,0.1);
       line-height: 1; margin-bottom: 0.75rem; letter-spacing: -1px;
     }
-    .engagement-card h3 { font-size: 1rem; font-weight: 700; color: var(--white); margin-bottom: 0.5rem; }
-    .engagement-card p  { font-size: 0.9rem; color: rgba(255,255,255,0.58); line-height: 1.7; }
+    .engagement-card h3 { font-size: 1rem; font-weight: 700; color: var(--white); margin-bottom: 0.5rem; transition: color 0.3s ease; }
+    .engagement-card p  { font-size: 0.9rem; color: rgba(255,255,255,0.58); line-height: 1.7; transition: color 0.3s ease; }
+    .engagement-card:hover h3,
+    .engagement-card:hover p { color: #ffffff; }
 
     /* ── RESPONSIVE ── */
     @media (max-width: 768px) {
