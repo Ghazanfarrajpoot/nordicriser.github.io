@@ -30,6 +30,7 @@
       grid-template-columns: 72px 1fr;
       gap: 2rem;
       align-items: start;
+      filter: none;
       transition: background 0.3s ease,
                   box-shadow 0.3s ease,
                   border-color 0.3s ease;
@@ -38,6 +39,11 @@
       background: #f8faff;
       box-shadow: 0 4px 24px rgba(0, 35, 75, 0.10);
       border-left-color: var(--gold);
+      filter: none;
+    }
+    .service-card *,
+    .service-card:hover * {
+      filter: none;
     }
     .service-card:hover .service-number {
       background: var(--navy);
@@ -96,11 +102,13 @@
     .approach-item {
       background: var(--white);
       padding: 2rem 1.75rem;
+      filter: none;
       transition: background 0.3s ease, box-shadow 0.3s ease;
     }
     .approach-item:hover {
       background: #f8faff;
       box-shadow: inset 0 0 0 1px rgba(0,35,75,0.08);
+      filter: none;
     }
     .approach-item .icon { font-size: 1.5rem; margin-bottom: 0.85rem; display: block; }
     .approach-item h4 { font-size: 0.95rem; font-weight: 700; color: var(--navy); margin-bottom: 0.4rem; }
@@ -117,6 +125,7 @@
       border: 1px solid rgba(255,255,255,0.1);
       border-top: 3px solid transparent;
       border-radius: 8px; padding: 2rem;
+      filter: none;
       transition: background 0.3s ease,
                   box-shadow 0.3s ease,
                   border-color 0.3s ease;
@@ -125,6 +134,7 @@
       background: rgba(255,255,255,0.12);
       box-shadow: 0 8px 32px rgba(0,0,0,0.25);
       border-top-color: var(--gold);
+      filter: none;
     }
     .engagement-num {
       font-size: 2.5rem; font-weight: 800;
