@@ -161,6 +161,51 @@ img { display: block; max-width: 100%; }
   cursor: pointer;
 }
 
+/* ── SERVICES DROPDOWN ── */
+.nav-links .has-dropdown {
+  position: relative;
+}
+.nav-links .has-dropdown > a::after {
+  content: ' ▾';
+  font-size: 0.6rem;
+  vertical-align: middle;
+}
+.nav-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  background: rgba(249, 247, 242, 0.98);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--border);
+  border-top: 2px solid var(--gold);
+  border-radius: 6px;
+  box-shadow: 0 12px 32px rgba(0, 35, 75, 0.12);
+  min-width: 210px;
+  list-style: none;
+  z-index: 200;
+  padding: 0.4rem 0;
+}
+.nav-links .has-dropdown:hover .nav-dropdown {
+  display: block;
+}
+.nav-dropdown li a {
+  display: block;
+  padding: 0.6rem 1.1rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  border-radius: 0;
+  white-space: nowrap;
+  transition: color 0.2s, background 0.2s;
+}
+.nav-dropdown li a:hover {
+  color: var(--navy);
+  background: rgba(201, 169, 110, 0.10);
+}
+
 /* ── HERO / PAGE-HERO ── */
 .hero,
 .page-hero {
@@ -599,6 +644,22 @@ img { display: block; max-width: 100%; }
     text-align: center;
     border: 1.5px solid var(--navy);
   }
+
+  /* Dropdown becomes inline in mobile menu */
+  .nav-dropdown {
+    display: block;
+    position: static;
+    background: rgba(0, 35, 75, 0.04);
+    border: none;
+    border-top: none;
+    border-radius: 0;
+    box-shadow: none;
+    backdrop-filter: none;
+    padding: 0;
+  }
+  .nav-dropdown li { border-bottom: 1px solid var(--border); }
+  .nav-dropdown li a { padding-left: 2.5rem; }
+  .nav-links .has-dropdown > a::after { content: ''; }
 
   .mobile-toggle { display: block; }
 

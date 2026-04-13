@@ -6,149 +6,14 @@
   <title>Member Portal — Nordic Riser AB</title>
   <meta name="description" content="Access the Nordic Riser AB member portal to manage your case, documents, and communications.">
   <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
   <style>
-    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    /* PAGE-SPECIFIC STYLES ONLY */
 
-    :root {
-      --navy: #0f2557;
-      --blue: #1d4ed8;
-      --blue-light: #3b82f6;
-      --sky: #eff6ff;
-      --text: #1e293b;
-      --muted: #64748b;
-      --border: #e2e8f0;
-      --white: #ffffff;
-    }
-
-    html { scroll-behavior: smooth; }
-
-    body {
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-      color: var(--text);
-      background: var(--white);
-      line-height: 1.7;
-      font-size: 16px;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-
-    /* ── NAVBAR ── */
-    .navbar {
-      background: var(--white);
-      border-bottom: 1px solid var(--border);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-
-    .nav-inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 68px;
-    }
-
-    .logo {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: var(--navy);
-      text-decoration: none;
-      letter-spacing: -0.3px;
-    }
-
-    .nav-links {
-      display: flex;
-      list-style: none;
-      gap: 0.25rem;
-      align-items: center;
-    }
-
-    .nav-links a {
-      color: var(--muted);
-      text-decoration: none;
-      font-size: 0.9rem;
-      font-weight: 500;
-      padding: 0.5rem 0.9rem;
-      border-radius: 6px;
-      transition: color 0.2s, background 0.2s;
-    }
-
-    .nav-links a:hover,
-    .nav-links a.active { color: var(--navy); background: var(--sky); }
-
-    .nav-links .btn-login {
-      background: var(--navy);
-      color: var(--white);
-      font-weight: 600;
-      padding: 0.5rem 1.2rem;
-    }
-
-    .nav-links .btn-login:hover { background: var(--blue); color: var(--white); }
-
-    .mobile-toggle {
-      display: none;
-      background: none;
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 6px 10px;
-      font-size: 1.25rem;
-      color: var(--navy);
-      cursor: pointer;
-    }
-
-    /* ── PAGE HERO ── */
-    .page-hero {
-      background: linear-gradient(160deg, var(--navy) 0%, #1e3a8a 55%, #1d4ed8 100%);
-      color: var(--white);
-      padding: 4rem 2rem 3.5rem;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .page-hero::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M60 0H0v60' fill='none' stroke='rgba(255,255,255,0.04)' stroke-width='1'/%3E%3C/svg%3E");
-    }
-
-    .page-hero-inner {
-      position: relative;
-      z-index: 1;
-      max-width: 600px;
-      margin: 0 auto;
-    }
-
-    .page-hero-label {
-      display: inline-block;
-      font-size: 0.75rem;
-      font-weight: 700;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: rgba(255,255,255,0.55);
-      margin-bottom: 1rem;
-    }
-
-    .page-hero h1 {
-      font-size: clamp(1.75rem, 3.5vw, 2.5rem);
-      font-weight: 700;
-      letter-spacing: -0.5px;
-      line-height: 1.2;
-      margin-bottom: 0.75rem;
-    }
-
-    .page-hero p {
-      font-size: 1rem;
-      color: rgba(255,255,255,0.72);
-      line-height: 1.7;
-    }
-
-    /* ── MAIN CONTENT ── */
+    /* ── MAIN AREA ── */
     .main {
       flex: 1;
       background: var(--sky);
@@ -163,251 +28,85 @@
       width: 100%;
       max-width: 460px;
       background: var(--white);
-      border-radius: 16px;
+      border-radius: 8px;
       border: 1px solid var(--border);
       padding: 2.5rem;
-      box-shadow: 0 4px 24px rgba(15, 37, 87, 0.1);
+      box-shadow: var(--shadow-md);
     }
-
     .card-header {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      padding-bottom: 1.75rem;
-      margin-bottom: 1.75rem;
+      display: flex; align-items: center; gap: 1rem;
+      padding-bottom: 1.75rem; margin-bottom: 1.75rem;
       border-bottom: 1px solid var(--border);
     }
-
     .brand-mark {
-      width: 46px;
-      height: 46px;
-      background: var(--navy);
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      width: 46px; height: 46px;
+      background: var(--navy); border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
       flex-shrink: 0;
     }
-
     .brand-mark svg {
-      width: 22px;
-      height: 22px;
-      fill: none;
-      stroke: white;
-      stroke-width: 2;
-      stroke-linecap: round;
-      stroke-linejoin: round;
+      width: 22px; height: 22px;
+      fill: none; stroke: white; stroke-width: 2;
+      stroke-linecap: round; stroke-linejoin: round;
     }
-
     .card-header-text h2 {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: var(--navy);
-      letter-spacing: -0.2px;
-      margin-bottom: 0.15rem;
+      font-family: var(--font-serif);
+      font-size: 1.1rem; font-weight: 700; color: var(--navy);
+      letter-spacing: -0.2px; margin-bottom: 0.15rem;
     }
-
-    .card-header-text p {
-      font-size: 0.825rem;
-      color: var(--muted);
-    }
+    .card-header-text p { font-size: 0.825rem; color: var(--muted); }
 
     /* Feature list */
-    .portal-features {
-      margin-bottom: 1.75rem;
-    }
-
+    .portal-features { margin-bottom: 1.75rem; }
     .portal-features h3 {
-      font-size: 0.825rem;
-      font-weight: 700;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 0.85rem;
+      font-size: 0.68rem; font-weight: 700;
+      letter-spacing: 2.5px; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 0.85rem;
     }
-
-    .feature-list {
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-
+    .feature-list { display: flex; flex-direction: column; gap: 0.5rem; }
     .feature-item {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-      font-size: 0.875rem;
-      color: var(--text);
+      display: flex; align-items: center; gap: 0.75rem;
+      font-size: 0.875rem; color: var(--text);
     }
-
     .feature-dot {
-      width: 6px;
-      height: 6px;
-      background: var(--blue-light);
-      border-radius: 50%;
-      flex-shrink: 0;
+      width: 6px; height: 6px;
+      background: var(--gold); border-radius: 50%; flex-shrink: 0;
     }
 
     /* Buttons */
-    .btn-group {
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-      margin-bottom: 1.75rem;
+    .btn-group { display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1.75rem; }
+    .portal-btn {
+      display: block; width: 100%;
+      padding: 0.875rem 1.5rem; border-radius: 4px;
+      font-family: var(--font-sans); font-size: 0.78rem; font-weight: 600;
+      letter-spacing: 0.07em; text-transform: uppercase;
+      text-align: center; text-decoration: none;
+      cursor: pointer; transition: background 0.35s var(--ease-premium), color 0.35s var(--ease-premium), transform 0.25s var(--ease-premium);
+      border: 1.5px solid var(--navy);
     }
-
-    .btn {
-      display: block;
-      width: 100%;
-      padding: 0.875rem 1.5rem;
-      border-radius: 8px;
-      font-size: 0.925rem;
-      font-weight: 700;
-      text-align: center;
-      text-decoration: none;
-      cursor: pointer;
-      transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
-      border: none;
-      font-family: inherit;
+    .portal-btn-primary {
+      background: var(--navy); color: var(--white);
     }
-
-    .btn-primary {
-      background: var(--navy);
-      color: var(--white);
+    .portal-btn-primary:hover {
+      background: var(--blue); color: var(--white); transform: translateY(-1px);
     }
-
-    .btn-primary:hover {
-      background: var(--blue);
-      transform: translateY(-1px);
-      box-shadow: 0 6px 20px rgba(29, 78, 216, 0.25);
+    .portal-btn-secondary {
+      background: transparent; color: var(--navy);
     }
-
-    .btn-secondary {
-      background: var(--white);
-      color: var(--navy);
-      border: 1.5px solid var(--border);
-    }
-
-    .btn-secondary:hover {
-      background: var(--sky);
-      border-color: #bfdbfe;
+    .portal-btn-secondary:hover {
+      background: var(--navy); color: var(--white);
     }
 
     /* Card footer note */
-    .card-note {
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--border);
-    }
-
-    .card-note p {
-      font-size: 0.825rem;
-      color: var(--muted);
-      line-height: 1.65;
-      margin-bottom: 0.4rem;
-    }
-
+    .card-note { padding-top: 1.5rem; border-top: 1px solid var(--border); }
+    .card-note p { font-size: 0.825rem; color: var(--muted); line-height: 1.65; margin-bottom: 0.4rem; }
     .card-note p:last-child { margin-bottom: 0; }
-
-    .card-note a {
-      color: var(--blue-light);
-      text-decoration: none;
-      font-weight: 500;
-      transition: color 0.2s;
-    }
-
-    .card-note a:hover { color: var(--blue); }
-
-    /* ── FOOTER ── */
-    .footer {
-      background: #0b1426;
-      color: #64748b;
-      padding: 2.5rem 2rem;
-      text-align: center;
-      font-size: 0.875rem;
-    }
-
-    .footer-inner { max-width: 900px; margin: 0 auto; }
-
-    .footer-disclaimer {
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.06);
-      border-radius: 8px;
-      padding: 1.25rem 1.5rem;
-      margin-bottom: 1.75rem;
-      line-height: 1.7;
-      color: #94a3b8;
-    }
-
-    .footer-disclaimer strong {
-      color: #cbd5e1;
-      display: block;
-      margin-bottom: 0.4rem;
-      font-size: 0.8rem;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-    }
-
-    .footer-bottom {
-      border-top: 1px solid rgba(255,255,255,0.07);
-      padding-top: 1.5rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-    }
-
-    .footer-links {
-      display: flex;
-      gap: 1.25rem;
-      list-style: none;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-    .footer-links a {
-      color: #64748b;
-      text-decoration: none;
-      font-size: 0.85rem;
-      transition: color 0.2s;
-    }
-
-    .footer-links a:hover { color: #94a3b8; }
+    .card-note a { color: var(--gold); text-decoration: none; font-weight: 500; transition: color 0.2s; }
+    .card-note a:hover { color: var(--navy); }
 
     /* ── RESPONSIVE ── */
     @media (max-width: 768px) {
-      .nav-links {
-        display: none;
-        position: fixed;
-        top: 68px;
-        left: 0; right: 0;
-        background: var(--white);
-        flex-direction: column;
-        gap: 0;
-        border-top: 2px solid var(--blue-light);
-        box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-        z-index: 99;
-      }
-
-      .nav-links.open { display: flex; }
-      .nav-links li { border-bottom: 1px solid var(--border); }
-
-      .nav-links a {
-        display: block;
-        padding: 0.9rem 1.5rem;
-        border-radius: 0;
-      }
-
-      .nav-links .btn-login {
-        margin: 0.75rem 1rem;
-        border-radius: 8px;
-        text-align: center;
-      }
-
-      .mobile-toggle { display: block; }
-
       .main { padding: 3rem 1.25rem; }
-      .page-hero { padding: 3rem 1.25rem 2.5rem; }
       .card { padding: 2rem 1.5rem; }
     }
   </style>
@@ -415,25 +114,34 @@
 <body>
 
   <!-- NAVBAR -->
-  <nav class="navbar">
+  <nav class="navbar" id="navbar">
     <div class="nav-inner">
-      <a href="index.html" class="logo">Nordic Riser AB</a>
+      <a href="index.html" class="logo">Nordic Riser <span>AB</span></a>
       <button class="mobile-toggle" onclick="toggleMenu()" aria-label="Toggle menu">☰</button>
-      <ul class="nav-links" id="navLinks">
+            <ul class="nav-links" id="navLinks">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
-        <li><a href="services.html">Services</a></li>
+        <li class="has-dropdown">
+          <a href="services.html">Services</a>
+          <ul class="nav-dropdown">
+            <li><a href="services.html">Expertise</a></li>
+            <li><a href="services.html">Malta Structure</a></li>
+            <li><a href="who-we-help.html">Relocation</a></li>
+            <li><a href="about.html">Insights</a></li>
+            <li><a href="contact.html">Private Consultation</a></li>
+          </ul>
+        </li>
         <li><a href="who-we-help.html">Who We Help</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="privacy.html">Privacy Policy</a></li>
-        <li><a href="portal.html" class="btn-login active">Member Login</a></li>
+        <li><a href="https://portal.nordicriser.com" class="btn-login">Member Login</a></li>
       </ul>
     </div>
   </nav>
 
   <!-- PAGE HERO -->
   <section class="page-hero">
-    <div class="page-hero-inner">
+    <div class="page-hero-inner" data-animate>
       <span class="page-hero-label">Client Access</span>
       <h1>Member Portal</h1>
       <p>Secure access for registered Nordic Riser AB clients to manage their engagement, documents, and communications.</p>
@@ -442,7 +150,7 @@
 
   <!-- MAIN -->
   <main class="main">
-    <div class="card">
+    <div class="card" data-animate>
 
       <div class="card-header">
         <div class="brand-mark">
@@ -468,8 +176,8 @@
       </div>
 
       <div class="btn-group">
-        <a href="https://portal.nordicriser.com" class="btn btn-primary">Access Member Portal</a>
-        <a href="contact.html" class="btn btn-secondary">Contact Support</a>
+        <a href="https://portal.nordicriser.com" class="portal-btn portal-btn-primary">Access Member Portal</a>
+        <a href="contact.html" class="portal-btn portal-btn-secondary">Contact Support</a>
       </div>
 
       <div class="card-note">
@@ -482,22 +190,53 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-disclaimer">
-        <strong>Disclaimer</strong>
-        The information provided by Nordic Riser AB is for general advisory purposes only and does not constitute legal or immigration representation. All outcomes are subject to the decisions of competent authorities and third parties. Nordic Riser AB does not guarantee any specific result.
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo">Nordic Riser <span>AB</span></a>
+        <p>An international advisory firm providing structured consulting for entrepreneurs and professionals establishing a legally compliant business presence in Europe.</p>
+        <div class="footer-address">
+          <strong>Registered Office</strong>
+          Nordic Riser AB<br>
+          Stockholm, Sweden<br>
+          <a href="mailto:info@nordicriser.com">info@nordicriser.com</a><br>
+          <a href="tel:+46722663883">+46 72 266 3883</a>
+        </div>
       </div>
-      <div class="footer-bottom">
-        <span>© Nordic Riser AB. All rights reserved.</span>
-        <ul class="footer-links">
-          <li><a href="index.html">Home</a></li>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Business Establishment</a></li>
+          <li><a href="services.html">Company Formation</a></li>
+          <li><a href="services.html">Business Planning</a></li>
+          <li><a href="services.html">Relocation Strategy</a></li>
+          <li><a href="services.html">Cross-Border Advisory</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Firm</h4>
+        <ul>
           <li><a href="about.html">About Us</a></li>
-          <li><a href="services.html">Services</a></li>
           <li><a href="who-we-help.html">Who We Help</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="https://portal.nordicriser.com">Member Portal</a></li>
         </ul>
       </div>
+      <div class="footer-col">
+        <h4>Compliance</h4>
+        <div class="footer-disclaimer-box">
+          <strong>Disclaimer</strong>
+          <p>Nordic Riser AB provides strategic consulting services only. We do not provide legal representation, immigration advice, or outcome guarantees. All decisions rest with competent authorities. Compliance-first in everything we do.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Nordic Riser AB. All rights reserved. Stockholm, Sweden.</span>
+      <ul class="footer-bottom-links">
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://portal.nordicriser.com">Member Portal</a></li>
+      </ul>
     </div>
   </footer>
 
@@ -510,6 +249,18 @@
         document.getElementById('navLinks').classList.remove('open');
       }
     });
+    const navbar = document.getElementById('navbar');
+    if (navbar) {
+      window.addEventListener('scroll', () => {
+        navbar.classList.toggle('scrolled', window.scrollY > 20);
+      });
+    }
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('[data-animate]').forEach(el => observer.observe(el));
   </script>
 
 </body>
