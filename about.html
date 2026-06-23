@@ -189,24 +189,33 @@
   <!-- NAVBAR -->
   <nav class="navbar" id="navbar">
     <div class="nav-inner">
-      <a href="index.html" class="logo">Nordic Riser <span>AB</span></a>
-      <button class="mobile-toggle" onclick="toggleMenu()" aria-label="Toggle menu">☰</button>
+      <a href="index.html" class="logo">
+        <svg class="logo-mark" width="32" height="36" viewBox="0 0 32 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M16 0.8L30.5 6.4V17.2C30.5 25.9 24.3 32.1 16 35.2C7.7 32.1 1.5 25.9 1.5 17.2V6.4L16 0.8Z" style="fill:var(--navy);stroke:var(--gold);stroke-width:0.75"/>
+          <text x="16" y="14.5" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="700" style="fill:var(--gold)" text-anchor="middle" dominant-baseline="central">NR</text>
+        </svg>
+        Nordic Riser <span>AB</span>
+      </a>
+      <button class="mobile-toggle" onclick="toggleMenu()" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
             <ul class="nav-links" id="navLinks">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html" class="active">About Us</a></li>
         <li class="has-dropdown">
           <a href="services.html">Services</a>
           <ul class="nav-dropdown">
-            <li><a href="services.html">Expertise</a></li>
-            <li><a href="services.html">Malta Structure</a></li>
-            <li><a href="who-we-help.html">Relocation</a></li>
-            <li><a href="about.html">Insights</a></li>
+            <li><a href="services.html#establishment">Business Establishment</a></li>
+            <li><a href="services.html#formation">Company Formation</a></li>
+            <li><a href="services.html#documentation">Business Planning</a></li>
+            <li><a href="services.html#relocation">Relocation Strategy</a></li>
+            <li><a href="services.html#international">Cross-Border Advisory</a></li>
             <li><a href="contact.html">Private Consultation</a></li>
           </ul>
         </li>
         <li><a href="who-we-help.html">Who We Help</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="index.html#free-guide" class="nav-guide-link">Download Guide</a></li>
         <li><a href="https://portal.nordicriser.com" class="btn-login">Member Login</a></li>
       </ul>
     </div>
@@ -463,11 +472,17 @@
 
   <script>
     function toggleMenu() {
-      document.getElementById('navLinks').classList.toggle('open');
+      const navLinks = document.getElementById('navLinks');
+      const toggle = document.querySelector('.mobile-toggle');
+      const isOpen = navLinks.classList.toggle('open');
+      if (toggle) toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
     }
     document.addEventListener('click', function(e) {
       if (!e.target.closest('.navbar')) {
-        document.getElementById('navLinks').classList.remove('open');
+        const navLinks = document.getElementById('navLinks');
+        const toggle = document.querySelector('.mobile-toggle');
+        navLinks.classList.remove('open');
+        if (toggle) toggle.setAttribute('aria-expanded', 'false');
       }
     });
     const navbar = document.getElementById('navbar');
