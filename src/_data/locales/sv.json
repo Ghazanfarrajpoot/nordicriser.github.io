@@ -1,0 +1,579 @@
+{
+  "meta": { "code": "sv", "name": "Svenska", "dir": "ltr", "status": "MACHINE_TRANSLATED_NEEDS_REVIEW" },
+  "common": {
+    "bookConsultation": "Boka en konsultation",
+    "learnMore": "Läs mer →",
+    "readMore": "Läs mer →",
+    "requestQuote": "Begär en offert",
+    "signUp": "Registrera dig",
+    "emailLabel": "E-post",
+    "websiteLabel": "Webbplats",
+    "home": "Hem",
+    "pricingOnRequest": "Pris på förfrågan"
+  },
+  "nav": {
+    "home": "Hem",
+    "consulting": "Konsulttjänster",
+    "itServices": "IT-tjänster",
+    "globalReach": "Global Reach",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "memberLogin": "Medlemsinloggning",
+    "languageLabel": "Språk"
+  },
+  "footer": {
+    "brandBlurb": "En internationell rådgivningsbyrå som erbjuder strukturerad konsultverksamhet, teknik och global samverkan för entreprenörer och yrkesutövare som bygger en juridiskt korrekt verksamhet i Europa.",
+    "addressHeading": "Registrerat säte",
+    "servicesHeading": "Konsulttjänster",
+    "firmHeading": "Företaget",
+    "complianceHeading": "Regelefterlevnad",
+    "disclaimerHeading": "Ansvarsfriskrivning",
+    "disclaimer": "Nordic Riser AB tillhandahåller enbart strategisk rådgivning. Vi erbjuder inte juridiskt ombud, migrationsrådgivning eller garantier för utfall. Alla beslut fattas av behöriga myndigheter. Regelefterlevnad genomsyrar allt vi gör.",
+    "copyright": "© 2026 Nordic Riser AB. Alla rättigheter förbehållna. Stockholm, Sweden.",
+    "servicesLinks": [
+      { "label": "Företagsetablering", "anchor": "establishment" },
+      { "label": "Bolagsbildning", "anchor": "formation" },
+      { "label": "Affärsplanering", "anchor": "documentation" },
+      { "label": "Flyttstrategi", "anchor": "relocation" },
+      { "label": "Gränsöverskridande rådgivning", "anchor": "international" }
+    ],
+    "firmLinks": {
+      "about": "Om oss",
+      "contact": "Kontakt",
+      "privacy": "Integritetspolicy",
+      "memberPortal": "Medlemsportal"
+    }
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "label": "En plattform, tre pelare",
+        "h1": "Din inkörsport till Sverige — och världen",
+        "body": "Strukturerad konsultverksamhet, teknik och global samverkan under ett och samma tak — utformat för internationella entreprenörer, yrkesutövare och de företag de etablerar.",
+        "cta": "Boka en konsultation"
+      },
+      "pillars": {
+        "label": "Vad vi erbjuder",
+        "title": "Tre pelare. En plattform.",
+        "sub": "Oavsett var du befinner dig — i etableringen av ett företag, i uppbyggnaden av tekniken bakom det, eller i kontakten med rådgivare och andra i samma situation — finns det en pelare byggd för det.",
+        "consulting": {
+          "icon": "🏢",
+          "title": "Konsulttjänster",
+          "promise": "Strukturerad, regelefterlevande rådgivning kring företag och flytt för internationella entreprenörer.",
+          "bullets": [
+            "Strategi för företagsetablering och bolagsbildning",
+            "Planering av flytt och uppehållstillstånd genom näringsverksamhet",
+            "Gränsöverskridande rådgivning för verksamhet i flera jurisdiktioner"
+          ]
+        },
+        "itServices": {
+          "icon": "💻",
+          "title": "IT-tjänster",
+          "promise": "Webbplattformar och affärssystem byggda för de företag vi hjälper att etablera.",
+          "bullets": [
+            "Företagswebbplatser och kundportaler",
+            "Automatisering av arbetsflöden och integrationer",
+            "Löpande support och underhåll"
+          ]
+        },
+        "globalReach": {
+          "icon": "🌐",
+          "title": "Global Reach",
+          "promise": "Direktsända, strukturerade sessioner som kopplar samman dig med rådgivare och andra medlemmar — var du än befinner dig.",
+          "bullets": [
+            "Direktsända studie- och konsultationsrum",
+            "Direkt tillgång till specialister",
+            "Flexibla abonnemang"
+          ]
+        },
+        "learnMore": "Läs mer →"
+      },
+      "whatWeDo": {
+        "label": "Vad vi gör",
+        "title": "Strategisk rådgivning inom fem kärnområden",
+        "sub": "Vi erbjuder strukturerad rådgivning inom hela spektrumet av internationell företagsetablering och yrkesmässig flytt — utan generella råd.",
+        "services": [
+          { "icon": "🏢", "title": "Företagsetablering", "body": "Strukturerad vägledning kring val av juridisk associationsform, registreringsförfaranden och operativ regelefterlevnad för internationella företagare som etablerar sig på europeiska marknader.", "note": "Särskilt anpassat för investerare utanför EU som söker en säker inkörsport till europeiska marknader.", "anchor": "establishment" },
+          { "icon": "📋", "title": "Strategi för bolagsbildning", "body": "Strategisk planering av rätt bolagsstruktur utifrån din affärsmodell, ägarkrav och långsiktiga mål.", "anchor": "formation" },
+          { "icon": "🌍", "title": "Strategi för näringsbaserat uppehållstillstånd och familjeflytt", "body": "Rådgivning om legitima, näringsbaserade vägar till flytt för dig och din familj, i linje med gällande regelverk och utformade för hållbara resultat kring uppehållstillstånd.", "anchor": "relocation" },
+          { "icon": "🔗", "title": "Gränsöverskridande rådgivning", "body": "Samordning av frågor som rör flera jurisdiktioner, inklusive skatt, regelefterlevnad och juridiska strukturer, för internationellt verksamma yrkesutövare och företag.", "note": "Strategiskt stöd kring europeisk bankregelefterlevnad och internationell kapitalstrukturering.", "anchor": "international" },
+          { "icon": "📊", "title": "Affärsplanering för entreprenörer", "body": "Utveckling av strukturerade affärsplaner och dokumentationspaket anpassade för att uppfylla kraven från europeiska myndigheter och institutioner.", "anchor": "documentation" }
+        ]
+      },
+      "leadCapture": {
+        "title": "Inte redo att boka en konsultation än? Börja med vår kostnadsfria guide.",
+        "bodyPrefix": "Ladda ner:",
+        "guideTitle": "Europeisk företagsetablering — en strukturerad översikt för internationella entreprenörer",
+        "placeholder": "Din e-postadress",
+        "button": "Skicka guiden till mig"
+      },
+      "whoWeWorkWith": {
+        "label": "Vilka vi arbetar med",
+        "title": "Byggt för internationellt inriktade yrkesutövare",
+        "sub": "Våra kunder kommer från olika yrkesbakgrunder och geografiska platser. Det de har gemensamt är en strukturerad ambition att etablera en trovärdig verksamhet i Europa.",
+        "audiences": [
+          { "tag": "Entreprenörer", "title": "Företagsgrundare som planerar för Europa", "body": "Personer med etablerade eller tidiga verksamheter som utforskar inträde på den europeiska marknaden genom en regelefterlevande bolagsstruktur." },
+          { "tag": "Frilansare", "title": "Oberoende yrkesutövare verksamma globalt", "body": "Kvalificerade yrkesutövare som tillhandahåller tjänster internationellt och som behöver en juridiskt hållbar bolagsform och en strukturerad väg till uppehållstillstånd." },
+          { "tag": "Yrkesverksamma", "title": "Internationellt rörliga chefer och specialister", "body": "Seniora yrkesutövare som byter marknad och som behöver ett tydligt, strukturerat ramverk för sin yrkesmässiga och personliga flytt." },
+          { "tag": "SME-ägare", "title": "Småföretagare som expanderar till Europa", "body": "Företagare som vill etablera en europeisk verksamhetsbas, nå nya marknader eller omstrukturera sitt internationella bolagsfotavtryck." }
+        ]
+      },
+      "process": {
+        "label": "Vår process",
+        "title": "En tydlig fyrstegsmodell för samarbete",
+        "sub": "Varje uppdrag följer en strukturerad metodik utformad för att leverera tydlighet, regelefterlevnad och konkreta resultat i varje steg.",
+        "steps": [
+          { "title": "Strategisk konsultation", "body": "Vi genomför en strukturerad bedömning av din bakgrund, dina mål och dina förutsättningar för att identifiera den mest genomförbara och regelefterlevande vägen framåt." },
+          { "title": "Planering av bolagsstruktur", "body": "Utifrån dina mål utformar vi ett skräddarsytt bolags- och verksamhetsramverk — inklusive bolagsform, jurisdiktion och krav på regelefterlevnad." },
+          { "title": "Utveckling av flyttstrategi", "body": "Vi tar fram en dokumenterad flytt- och uppehållstillståndsstrategi i linje med din affärsplan, och säkerställer att institutionella krav hanteras fullt ut." },
+          { "title": "Genomförande med professionella partners", "body": "Vi samordnar genomförandet tillsammans med kvalificerade jurister, revisorer och andra specialister — och säkerställer noggrannhet, regelefterlevnad och tydlig kommunikation genomgående." }
+        ]
+      },
+      "whyChooseUs": {
+        "label": "Varför kunder väljer oss",
+        "title": "En konsultbyrå byggd på professionella standarder",
+        "sub": "Vi arbetar med regelefterlevnad som grund. Vårt värde ligger i kvaliteten på vår strategiska rådgivning, inte i löften om utfall.",
+        "cards": [
+          { "title": "Professionellt konsultativt arbetssätt", "body": "Varje uppdrag struktureras, dokumenteras och hanteras med samma noggrannhet som i en professionell konsultverksamhet — inte som en generisk rådgivningstjänst." },
+          { "title": "Endast legala och regelefterlevande strukturer", "body": "Vi arbetar uteslutande inom etablerade juridiska ramverk. Våra strategier är försvarbara, transparenta och i linje med institutionella standarder." },
+          { "title": "Strategisk vägledning, inte generella råd", "body": "Våra rekommendationer är specifika för din situation. Vi erbjuder inga mallösningar eller standardiserade program." },
+          { "title": "Långsiktigt, verksamhetsfokuserat stöd", "body": "Vi ser långsiktigt på våra kundrelationer. Vårt fokus ligger på hållbara resultat som gynnar dina yrkesmässiga och affärsmässiga intressen över tid." }
+        ]
+      },
+      "trust": {
+        "label": "Betrodda av internationella entreprenörer",
+        "title": "En meritlista byggd på struktur och regelefterlevnad",
+        "sub": "En konsultverksamhet byggd för gränsöverskridande trovärdighet, strukturerade uppdrag och regelefterlevnad.",
+        "stats": [
+          { "number": "12+ länder", "label": "Kunder över hela Europa" },
+          { "number": "3 tjänstepelare", "label": "Konsulttjänster, IT och Global Reach" },
+          { "number": "Stockholm, Sweden", "label": "EU-baserade och reglerade" },
+          { "number": "Regelefterlevnad först", "label": "I varje uppdrag" }
+        ],
+        "testimonials": [
+          { "quote": "Nordic Riser gav oss en tydlig, strukturerad plan när vi inte visste var vi skulle börja. Vårt svenska bolag etablerades inom den tidsram de angav.", "author": "Entreprenör, Pakistan", "meta": "Företag etablerat i Sverige, 2025" },
+          { "quote": "Nivån av professionalism och dokumentation de tillhandahöll gjorde våra bankmöten betydligt enklare. Jag hade inte klarat den här processen utan deras vägledning.", "author": "Oberoende yrkesutövare, Förenade Arabemiraten", "meta": "Flyttade till Europa, 2024" }
+        ]
+      },
+      "finalCta": {
+        "title": "Redo att bygga upp din verksamhet i Europa?",
+        "body": "Prata med en konsult och få en strukturerad strategi baserad på din specifika situation, dina mål och din bakgrund."
+      }
+    },
+    "about": {
+      "hero": { "label": "Om företaget", "h1": "En internationell konsultbyrå byggd på strategi och regelefterlevnad", "body": "Vi hjälper entreprenörer och yrkesutövare att etablera juridiskt strukturerad, hållbar verksamhet i Europa — genom ett metodiskt arbetssätt med regelefterlevnad i fokus." },
+      "breadcrumb": "Om oss",
+      "whoWeAre": {
+        "label": "Vilka vi är",
+        "title": "En professionell konsultverksamhet för internationella företag",
+        "intro1": "Nordic Riser AB är en internationell konsultbyrå specialiserad på strategisk företagsetablering och strukturerad yrkesmässig flytt i Europa. Vi arbetar med entreprenörer, oberoende yrkesutövare och företagare som bygger upp en trovärdig, juridiskt korrekt verksamhet på europeiska marknader.",
+        "intro2": "Vårt arbete är av rådgivande karaktär. Vi tillhandahåller inte juridiskt ombud eller migrationstjänster. Istället erbjuder vi strukturerad strategisk vägledning — i kombination med samordning av kvalificerade yrkesutövare inom juridik, redovisning och andra regelverksområden — för att säkerställa att varje process våra kunder genomför vilar på en solid och försvarbar grund.",
+        "mission": "”Att erbjuda strategiska konsulttjänster som hjälper internationella entreprenörer att etablera juridiskt strukturerad och hållbar verksamhet i Europa.”"
+      },
+      "whyWeExist": {
+        "label": "Varför vi skapades",
+        "title": "Byggda för att fylla ett verkligt behov inom internationell rådgivning",
+        "sub": "Vi insåg att alltför många internationellt inriktade yrkesutövare navigerade komplexa europeiska företags- och flyttprocesser utan tillgång till strukturerat, professionellt stöd.",
+        "problemTitle": "Problemet vi löser",
+        "problemParagraphs": [
+          "Internationella entreprenörer och yrkesutövare möter ofta fragmenterade råd — generell information som inte tar hänsyn till deras specifika affärsmodell, yrkesbakgrund eller långsiktiga mål. Resultatet blir bristfällig planering, undvikbara förseningar och strukturer som inte klarar institutionell granskning.",
+          "Nordic Riser AB grundades för att förändra detta. Vi tillför en konsultbyrås noggrannhet till det som ofta är en ostrukturerad process — och levererar tydlighet, dokumentation och professionell samordning i varje steg.",
+          "Vårt fokus ligger alltid på långsiktig strategi och hållbara resultat, inte kortsiktig bekvämlighet."
+        ],
+        "pillars": [
+          { "icon": "📐", "title": "Långsiktig strategi", "body": "Vi utformar strukturer som tjänar dina affärsmål över tid, inte bara omedelbara behov." },
+          { "icon": "⚖️", "title": "Full regelefterlevnad", "body": "Varje rekommendation grundas i gällande regelverk och institutionella standarder." },
+          { "icon": "🗂️", "title": "Strukturerade affärslösningar", "body": "Vi erbjuder dokumenterade, systematiska processer — inte informell vägledning eller allmän information." },
+          { "icon": "🤝", "title": "Professionella konsultstandarder", "body": "Våra uppdrag hanteras med samma disciplin och ansvarsskyldighet som i en professionell tjänsteverksamhet." }
+        ]
+      },
+      "approach": {
+        "label": "Vårt arbetssätt",
+        "title": "Strategi först. Struktur alltid. Regelefterlevnad genomgående.",
+        "sub": "Vår metod är konsekvent i varje uppdrag. Vi börjar med strategi, bygger upp rätt juridisk och operativ struktur, och samordnar genomförandet med licensierade yrkesutövare.",
+        "items": [
+          { "title": "Strategi före handling", "body": "Vi bedömer din specifika situation noggrant innan vi ger några rekommendationer. Strategisk tydlighet är grunden för varje framgångsrikt uppdrag." },
+          { "title": "Juridisk struktur genom design", "body": "Vi identifierar rätt juridiskt och bolagsmässigt ramverk för dina förhållanden — bolagsform, jurisdiktion och krav på regelefterlevnad fastställs systematiskt." },
+          { "title": "Enbart professionell vägledning", "body": "Vi erbjuder inte generell information. Varje rekommendation är specifik, dokumenterad och grundad i professionell konsultpraxis." },
+          { "title": "Genomförande med licensierade partners", "body": "Genomförandet samordnas med kvalificerade jurister, revisorer och andra specialister — vilket säkerställer teknisk noggrannhet och regelefterlevnad i varje steg." },
+          { "title": "Långsiktigt affärsfokus", "body": "Vi mäter framgång utifrån hållbarheten i de strukturer vi hjälper till att skapa — inte utifrån antalet uppdrag vi hanterar." },
+          { "title": "Transparent kommunikation", "body": "Vi ger ärliga, realistiska bedömningar. Vi överdriver inte vad som är möjligt att uppnå, och vi kommunicerar krav tydligt i varje steg." }
+        ]
+      },
+      "values": {
+        "label": "Våra värderingar",
+        "title": "Principerna som styr vårt arbete",
+        "sub": "Det här är inga visionära uttalanden. Det är de operativa standarder som varje uppdrag hanteras enligt.",
+        "items": [
+          { "icon": "⚖️", "title": "Regelefterlevnad först", "body": "Varje process vi utformar är byggd för att klara institutionell granskning. Laglighet är inte förhandlingsbart — det är utgångspunkten för alla strategier vi utvecklar." },
+          { "icon": "🎯", "title": "Transparens", "body": "Vi kommunicerar ärligt — om krav, tidsramar och realistiska utfall. Vi ger inga löften om beslut som fattas av tredje part eller myndigheter." },
+          { "icon": "📋", "title": "Strukturerad process", "body": "Varje uppdrag dokumenteras och hanteras systematiskt. Vi ger inte ad hoc-råd — vi tillämpar strukturerad metodik." },
+          { "icon": "🤝", "title": "Professionella partnerskap", "body": "Vi upprätthåller samarbeten med kvalificerade jurister, skatterådgivare och andra specialister — för att säkerställa att tekniska och regelmässiga aspekter hanteras med rätt expertis." },
+          { "icon": "🛡️", "title": "Konfidentialitet", "body": "Kundinformation hanteras enligt stränga sekretessstandarder. Personlig och kommersiell information behandlas som strikt konfidentiell genom hela uppdraget." },
+          { "icon": "📐", "title": "Skräddarsydd rådgivning", "body": "Vi tillämpar inga mallösningar. Varje uppdrag bedöms individuellt, och strategin utformas specifikt utifrån kundens förhållanden och mål." }
+        ]
+      },
+      "missionBlock": { "label": "Vårt uppdrag", "missionLabel": "Uppdragsbeskrivning", "statement": "Att erbjuda strategiska konsulttjänster som hjälper internationella entreprenörer och yrkesutövare att etablera juridiskt strukturerad, regelefterlevande och hållbar verksamhet i Europa — med stöd av professionell vägledning, dokumenterade processer och långsiktigt strategiskt tänkande." },
+      "cta": { "title": "Prata med en konsult", "body": "Om du överväger att etablera en verksamhet i Europa bjuder vi in dig till en inledande konsultation. Vi kommer att bedöma din situation och ge dig en strukturerad översikt över vägen framåt." }
+    },
+    "contact": {
+      "hero": { "label": "Kontakta oss", "h1": "Boka en konsultation med vårt rådgivningsteam", "body": "Våra konsultationer är strukturerade och fokuserar på att förstå din specifika situation innan någon strategisk rådgivning ges. Vänligen fyll i formuläret nedan för att begära en inledande konsultation." },
+      "breadcrumb": "Kontakt",
+      "form": {
+        "title": "Formulär för konsultationsförfrågan",
+        "intro": "Vänligen ange korrekt information om din situation och dina mål. Detta gör det möjligt för oss att bedöma om våra tjänster är relevanta för dina behov och att förbereda en produktiv inledande konsultation.",
+        "firstName": "Förnamn",
+        "firstNamePlaceholder": "Ditt förnamn",
+        "lastName": "Efternamn",
+        "lastNamePlaceholder": "Ditt efternamn",
+        "email": "E-postadress",
+        "emailPlaceholder": "din@epost.com",
+        "businessType": "Typ av verksamhet",
+        "businessTypeOptions": [
+          { "value": "", "label": "Välj din typ av verksamhet" },
+          { "value": "entrepreneur", "label": "Entreprenör / Företagsgrundare" },
+          { "value": "freelancer", "label": "Frilansare / Oberoende yrkesutövare" },
+          { "value": "professional", "label": "Anställd yrkesutövare / Chef" },
+          { "value": "sme", "label": "Småföretagare" },
+          { "value": "other", "label": "Annat" }
+        ],
+        "purpose": "Syfte med konsultationen",
+        "purposeOptions": [
+          { "value": "", "label": "Välj huvudsyfte" },
+          { "value": "relocation", "label": "Strategi för företagsflytt" },
+          { "value": "formation", "label": "Planering av bolagsbildning" },
+          { "value": "businessplan", "label": "Utarbetande av affärsplan" },
+          { "value": "itservices", "label": "Förfrågan om IT-tjänster" },
+          { "value": "globalreach", "label": "Global Reach-abonnemang" },
+          { "value": "general", "label": "Allmän förfrågan" }
+        ],
+        "message": "Kort beskrivning av din situation",
+        "messagePlaceholder": "Vänligen beskriv din nuvarande situation, dina mål och eventuella specifika frågor du har. Ju mer specifik du är, desto mer produktiv blir vår inledande konsultation.",
+        "messageHint": "Denna information behandlas som strikt konfidentiell och används enbart för att förbereda din konsultation.",
+        "consent": "Genom att skicka in detta formulär bekräftar du att den information som lämnats är korrekt och att du samtycker till att Nordic Riser AB sparar dina kontaktuppgifter i syfte att besvara din förfrågan. Vi delar inte kundinformation med tredje part.",
+        "submit": "Skicka konsultationsförfrågan →"
+      },
+      "success": { "title": "Förfrågan mottagen", "body": "Tack för att du skickade in din konsultationsförfrågan. En medlem av vårt rådgivningsteam kommer att granska din information och återkomma inom 1–2 arbetsdagar." },
+      "sidebar": {
+        "directContactHeading": "Direktkontakt",
+        "hoursLabel": "Kontorstider",
+        "hoursValue": "Måndag – fredag, 09:00 – 17:00 CET",
+        "nextHeading": "Vad händer sedan",
+        "steps": [
+          { "title": "Granskning av formulär", "body": "Vi granskar din inlämning för att bedöma relevansen och omfattningen av dina behov." },
+          { "title": "Inledande svar", "body": "Vi svarar inom 1–2 arbetsdagar för att bekräfta konsultationen eller begära eventuell ytterligare information som behövs." },
+          { "title": "Strukturerad konsultation", "body": "Konsultationen genomförs med en tydlig agenda med fokus på din situation, dina mål och den mest lämpliga vägen framåt." },
+          { "title": "Strategiskt förslag", "body": "Efter konsultationen ger vi en skriftlig sammanfattning av den rekommenderade metoden och relevanta tjänster." }
+        ],
+        "noteHeading": "Observera",
+        "noteBody": "Vi granskar alla inlämningar innan vi bekräftar konsultationer. Vi arbetar med kunder vars situationer passar våra tjänster — om så inte är fallet för dig kommer vi att informera om detta och vid behov föreslå en mer lämplig resurs."
+      },
+      "closing": {
+        "label": "Varför en strukturerad konsultation",
+        "title": "Vi ger inte generella råd",
+        "paragraphs": [
+          "Varje konsultation hos Nordic Riser AB inleds med en grundlig bedömning av din specifika situation. Vi tillhandahåller inte mallsvar eller standardiserad vägledning. Innan någon strategisk rekommendation ges tar vi oss tid att förstå din yrkesbakgrund, din affärsmodell och dina långsiktiga mål.",
+          "Om du seriöst överväger att bygga upp en juridiskt strukturerad verksamhet i Europa och är beredd att engagera dig professionellt i processen, välkomnar vi din förfrågan. Våra konsultationer är arbetsmöten — inte säljsamtal."
+        ]
+      }
+    },
+    "privacy": {
+      "hero": { "label": "Juridiskt", "h1": "Integritetspolicy", "body": "Hur Nordic Riser AB samlar in, använder och skyddar din personliga information i enlighet med EU:s allmänna dataskyddsförordning (GDPR)." },
+      "breadcrumb": "Integritetspolicy",
+      "updatedBadge": "📅 Senast uppdaterad: 23 juni 2026",
+      "translationNotice": "Den här sidan har maskinöversatts. Vid eventuella avvikelser är den engelska versionen gällande. Kontakta oss om du har frågor.",
+      "tocLabel": "Innehåll",
+      "toc": [
+        "1. Inledning", "2. Personuppgiftsansvarig", "3. Information vi samlar in", "4. Hur vi använder din data",
+        "5. Delning av data", "6. Datasäkerhet", "7. Lagringstid", "8. Dina rättigheter (GDPR)",
+        "9. Cookies", "10. Barns integritet", "11. Ändringar av policyn", "12. Tillsynsmyndighet", "13. Kontakt"
+      ],
+      "sections": {
+        "s1": { "title": "Inledning", "body": [
+          "Nordic Riser AB (”vi”, ”oss” eller ”vår/vårt”) värnar om att skydda din integritet och säkerställa säkerheten för din personliga information. Denna integritetspolicy förklarar hur vi samlar in, använder, lämnar ut och skyddar din information när du besöker vår webbplats eller anlitar våra rådgivningstjänster.",
+          "Denna policy är utformad för att uppfylla EU:s allmänna dataskyddsförordning (GDPR) och tillämplig dataskyddslagstiftning. Genom att använda vår webbplats eller skicka in en förfrågan bekräftar du att du har läst och förstått denna policy."
+        ]},
+        "s2": { "title": "Personuppgiftsansvarig", "body": [
+          "Nordic Riser AB är personuppgiftsansvarig för din personliga information som samlas in via vår webbplats och våra tjänster.",
+          "Nordic Riser AB — E-post: info@nordicriser.com — Webbplats: www.nordicriser.com",
+          "För alla frågor som rör dataskydd, vänligen kontakta oss via ovanstående uppgifter med ämnesraden ”Dataskyddsförfrågan”."
+        ]},
+        "s3": { "title": "Information vi samlar in", "subheadings": [
+          { "title": "3.1 Information du lämnar direkt", "intro": "Vi samlar in information som du frivilligt lämnar till oss, inklusive:", "list": [
+            "Kontaktinformation: Namn, e-postadress, telefonnummer",
+            "Yrkesinformation: Typ av verksamhet, yrkesbakgrund, affärsmål",
+            "Uppgifter från konsultationsförfrågan: Syftet med konsultationen och en beskrivning av din situation, enligt vad som lämnats via vårt kontaktformulär",
+            "Kommunikationsdata: Information i e-post och annan korrespondens med vårt team"
+          ]},
+          { "title": "3.2 Information som samlas in automatiskt", "intro": "När du besöker vår webbplats kan vi automatiskt samla in:", "list": [
+            "Teknisk data: IP-adress, webbläsartyp, operativsystem, enhetsinformation",
+            "Användningsdata: Besökta sidor, tid som spenderas på sidor, navigeringsmönster",
+            "Cookies: Små datafiler som lagras på din enhet (se avsnitt 9)"
+          ]}
+        ]},
+        "s4": { "title": "Hur vi använder din information", "intro": "Vi behandlar dina personuppgifter endast för de ändamål som anges nedan, var och en med stöd av en rättslig grund enligt GDPR:",
+          "table": { "headers": ["Ändamål", "Rättslig grund (GDPR)"], "rows": [
+            ["Besvara konsultationsförfrågningar och andra förfrågningar", "Fullgörande av avtal / Berättigat intresse"],
+            ["Tillhandahålla strategisk rådgivning, teknik och global samverkan", "Fullgörande av avtal"],
+            ["Kommunicera om våra tjänster och uppdragets framsteg", "Fullgörande av avtal / Samtycke"],
+            ["Förbättra vår webbplats och tjänstekvalitet", "Berättigat intresse"],
+            ["Samordning med utomstående yrkesutövare (jurister, revisorer)", "Fullgörande av avtal / Berättigat intresse"],
+            ["Efterlevnad av rättsliga och regulatoriska skyldigheter", "Rättslig förpliktelse"]
+          ]},
+          "note": "Vi kommer inte att sälja, hyra ut eller på annat sätt handla med din personliga information till tredje part. Vi kommer inte att använda dina uppgifter för ändamål som är oförenliga med de som anges ovan."
+        },
+        "s5": { "title": "Delning och utlämnande av data", "subheadings": [
+          { "title": "5.1 Professionella samarbetspartners", "intro": "När det krävs för att leverera våra tjänster kan vi dela relevant information med kvalificerade utomstående yrkesutövare, inklusive:", "list": [
+            "Jurister och specialistrådgivare som anlitas i samband med ditt ärende",
+            "Revisorer och skatterådgivare involverade i bolagsbildning eller regelefterlevnad",
+            "Teknikleverantörer som stödjer vår webbhotell- och kommunikationsinfrastruktur"
+          ], "outro": "Alla utomstående parter är skyldiga att upprätthålla lämpliga säkerhetsåtgärder och får endast behandla dina uppgifter enligt våra instruktioner och inom ramen för sina yrkesmässiga skyldigheter." },
+          { "title": "5.2 Rättsliga krav", "intro": "Vi kan komma att lämna ut din personliga information när det krävs enligt lag, förordning, rättsligt förfarande eller en legitim begäran från en myndighet." },
+          { "title": "5.3 Internationella dataöverföringar", "intro": "Vi behandlar i första hand data inom EU/EES. Om data i något fall överförs utanför EU/EES säkerställer vi att lämpliga skyddsåtgärder finns på plats — såsom standardavtalsklausuler eller tillämpliga beslut om adekvat skyddsnivå — innan en sådan överföring sker." }
+        ]},
+        "s6": { "title": "Datasäkerhet", "intro": "Vi vidtar lämpliga tekniska och organisatoriska åtgärder för att skydda din personliga information mot obehörig åtkomst, ändring, utlämnande eller förstörelse. Dessa åtgärder inkluderar:", "list": [
+          "Krypterade kommunikationskanaler för överföring av känslig information",
+          "Säker serverinfrastruktur och datalagringssystem",
+          "Åtkomstkontroller och autentiseringsrutiner för interna system",
+          "Regelbunden granskning och uppdatering av säkerhetsrutiner",
+          "Medarbetarnas medvetenhet om dataskyddsskyldigheter"
+        ], "outro": "Även om vi vidtar alla rimliga försiktighetsåtgärder är ingen metod för elektronisk överföring eller lagring helt säker. Vi kan inte garantera absolut säkerhet, men vi arbetar för att skydda dina uppgifter enligt högsta praktiskt möjliga standard." },
+        "s7": { "title": "Lagringstid", "intro": "Vi behåller din personliga information endast så länge som är nödvändigt för att uppfylla de ändamål som anges i denna policy och för att uppfylla våra rättsliga skyldigheter:", "list": [
+          "Aktiva kunduppgifter: Uppdragets löptid plus 7 år (i enlighet med tillämplig bokförings- och arkiveringslagstiftning)",
+          "Förfrågningsdata (ej konverterade): 2 år från datumet för senaste kontakt",
+          "Webbanalysdata: Högst 26 månader",
+          "Samtyckesregister: Fram till dess att samtycket återkallas, plus en rimlig period därefter för arkiveringsändamål"
+        ], "outro": "När den tillämpliga lagringstiden har löpt ut raderas eller anonymiseras personuppgifterna på ett säkert sätt." },
+        "s8": { "title": "Dina rättigheter enligt GDPR", "intro": "Som registrerad enligt GDPR har du följande rättigheter avseende dina personuppgifter:",
+          "rights": [
+            { "title": "Rätt till tillgång", "body": "Begära en kopia av de personuppgifter vi har om dig." },
+            { "title": "Rätt till rättelse", "body": "Begära rättelse av felaktiga eller ofullständiga uppgifter." },
+            { "title": "Rätt till radering", "body": "Begära radering av dina uppgifter under vissa omständigheter (”rätten att bli bortglömd”)." },
+            { "title": "Rätt till begränsning av behandling", "body": "Begära att vi begränsar hur vi använder dina uppgifter under specifika omständigheter." },
+            { "title": "Rätt till dataportabilitet", "body": "Få dina uppgifter i ett strukturerat, maskinläsbart format där tillämpligt." },
+            { "title": "Rätt att invända", "body": "Invända mot behandling som grundas på berättigat intresse eller för direktmarknadsföring." },
+            { "title": "Rätt att återkalla samtycke", "body": "Återkalla ett lämnat samtycke när som helst, utan att det påverkar tidigare behandling." },
+            { "title": "Rätt att klaga", "body": "Lämna in ett klagomål till relevant tillsynsmyndighet (se avsnitt 12)." }
+          ],
+          "outro": "För att utöva någon av ovanstående rättigheter, vänligen kontakta oss på info@nordicriser.com med ämnesraden ”Begäran från registrerad”. Vi kommer att svara inom en kalendermånad enligt vad som krävs enligt GDPR."
+        },
+        "s9": { "title": "Cookies och spårningsteknik", "body": [
+          "Vår webbplats är en statisk informationswebbplats med minimal spårning. Vi kan använda nödvändiga cookies som krävs för webbplatsens grundläggande funktion, inklusive att komma ihåg ditt valda språk. Vi använder för närvarande inte cookies för tredjepartsannonsering eller beteendespårning.",
+          "Om vi i framtiden inför analysverktyg eller ytterligare spårningsteknik kommer vi att inhämta ditt förhandssamtycke innan vi sätter några icke nödvändiga cookies, tillhandahålla tydlig information om varje cookies syfte och varaktighet, samt erbjuda enkla sätt att hantera eller återkalla dina cookie-inställningar.",
+          "Du kan kontrollera och radera cookies via dina webbläsarinställningar när som helst. Observera att inaktivering av vissa cookies kan påverka webbplatsens funktionalitet."
+        ]},
+        "s10": { "title": "Barns integritet", "body": [
+          "Våra tjänster riktar sig uteslutande till vuxna som bedriver yrkes- och näringsverksamhet. Vi samlar inte medvetet in personuppgifter från personer under 18 år. Om du tror att vi av misstag har samlat in uppgifter från en minderårig, vänligen kontakta oss omedelbart så vidtar vi lämpliga åtgärder för att radera den informationen."
+        ]},
+        "s11": { "title": "Ändringar av denna integritetspolicy", "intro": "Vi kan komma att uppdatera denna integritetspolicy regelbundet för att återspegla förändringar i vår praxis, tillämplig lagstiftning eller våra rutiner. Väsentliga ändringar kommer att kommuniceras genom att:", "list": [
+          "Uppdatera datumet ”Senast uppdaterad” högst upp på denna sida",
+          "Där det är lämpligt, meddela aktiva kunder via e-post",
+          "Publicera ett meddelande på vår webbplats"
+        ], "outro": "Vi uppmuntrar dig att regelbundet granska denna policy. Din fortsatta användning av vår webbplats efter en uppdatering innebär att du accepterar den reviderade policyn." },
+        "s12": { "title": "Tillsynsmyndighet", "intro": "Om du har synpunkter på hur vi hanterar dina personuppgifter och du inte är nöjd med vårt svar har du rätt att lämna in ett klagomål till relevant tillsynsmyndighet:", "body": [
+          "Integritetsskyddsmyndigheten (IMY) — svensk tillsynsmyndighet för dataskydd",
+          "Box 8114, 104 20 Stockholm — Telefon: +46 8 657 61 00 — Webbplats: www.imy.se"
+        ]},
+        "s13": { "title": "Kontakta oss angående denna policy", "intro": "Om du har frågor, synpunkter eller önskemål avseende denna integritetspolicy eller vår hantering av data, vänligen kontakta oss direkt:", "cardTitle": "Frågor om dataskydd", "cardBody": "Skicka e-post med ämnesraden ”Fråga om integritetspolicy” så återkommer vi omgående." }
+      }
+    },
+    "consulting": {
+      "hero": { "label": "Konsulttjänster", "h1": "Strategisk rådgivning för internationell företagsetablering", "body": "Vi erbjuder strukturerad, professionell rådgivning inom fem kärnområden — var och en utformad för att stödja entreprenörer och yrkesutövare som bygger en regelefterlevande verksamhet i Europa." },
+      "breadcrumb": "Konsulttjänster",
+      "servicesLabel": "Vad vi erbjuder",
+      "servicesTitle": "Fem kärnområden",
+      "servicesSub": "Varje tjänst vi levererar sker genom en strukturerad konsultmetodik — bedömd individuellt, formellt dokumenterad och samordnad med kvalificerade professionella partners när så krävs.",
+      "services": [
+        {
+          "number": "01", "anchor": "relocation", "tagline": "Flyttstrategi", "title": "Rådgivning kring strategi för företagsflytt",
+          "body": [
+            "För entreprenörer och yrkesutövare som avser att flytta till Europa genom en strukturerad näringsverksamhet erbjuder denna tjänst strategisk planering som utgår från din affärssituation och arbetar sig framåt genom kraven för en juridiskt korrekt och institutionellt försvarbar flyttprocess.",
+            "Vi bedömer din yrkesbakgrund, din affärsmodell och dina mål, och utvecklar en dokumenterad flyttstrategi som integrerar bolagsstruktur, verksamhetskrav och långsiktig positionering. Vår roll är att säkerställa att varje del av din plan är sammanhängande, realistisk och i linje med gällande regelverk — innan några åtgärder vidtas.",
+            "Vi tillhandahåller inte migrationsrådgivning eller juridiskt ombud. Vi tillhandahåller det strategiska konsultramverk från vilket kvalificerade specialister kan arbeta effektivt."
+          ],
+          "includesHeading": "Denna tjänst omfattar",
+          "includes": ["Bedömning av flyttväg", "Planering av näringsverksamhet", "Granskning av regelefterlevnad", "Dokumentationsstrategi", "Samordning med professionella partners", "Tidsplanering och milstolpar"]
+        },
+        {
+          "number": "02", "anchor": "formation", "tagline": "Bolagsbildning", "title": "Strategi för bolagsbildning",
+          "body": [
+            "Att etablera en juridisk enhet i Europa kräver noggrann strategisk planering innan några formella steg tas. Val av juridisk struktur, jurisdiktionsöverväganden, ägarförhållanden och operativ uppbyggnad har alla långsiktiga konsekvenser — och misstag i detta skede är svåra och kostsamma att korrigera.",
+            "Denna tjänst erbjuder strukturerad rådgivning kring hur man strategiskt bör angripa bolagsbildning. Vi hjälper dig att förstå de tillgängliga strukturerna, utvärdera det mest lämpliga alternativet för din situation, och utveckla en bildningsplan som stödjer både dina omedelbara operativa behov och dina långsiktiga affärsmål.",
+            "Genomförandet samordnas med kvalificerade jurister och revisorer som hanterar den formella registreringen och regelefterlevnaden inom ramen för sina licenser."
+          ],
+          "includesHeading": "Denna tjänst omfattar",
+          "includes": ["Utvärdering av juridisk associationsform", "Strukturplanering och val", "Utformning av ägarstruktur och styrning", "Kartläggning av regelefterlevnadsramverk", "Vägledning kring bank- och finansuppsättning", "Långsiktig positioneringsstrategi"]
+        },
+        {
+          "number": "03", "anchor": "documentation", "tagline": "Affärsdokumentation", "title": "Professionell utarbetning av affärsplan",
+          "body": [
+            "En affärsplan som tas fram för flytt- eller etableringsändamål är ett formellt dokument som måste uppfylla förväntningarna från europeiska tillsynsmyndigheter, finansinstitut och professionella granskare. Det är inte ett marknadsföringsdokument — det är en strukturerad, evidensbaserad presentation av en genomförbar affärsmodell.",
+            "Vi arbetar med kunder för att ta fram affärsplaner som korrekt återspeglar deras verksamhet, visar operativ genomförbarhet och är strukturerade i linje med institutionella krav. Processen är metodisk: vi bedömer din affärsmodell, identifierar de dokumentationskrav som är relevanta för din situation, och producerar en plan som är sammanhängande, trovärdig och professionellt presenterad.",
+            "Alla affärsplaner som tas fram genom denna tjänst utvecklas för att stödja formella processer — de är inga generiska mallar, och de tas inte fram utan en fullständig förståelse för kundens specifika förhållanden."
+          ],
+          "includesHeading": "Denna tjänst omfattar",
+          "includes": ["Bedömning av affärsmodell", "Utformning av sammanfattning (executive summary)", "Marknads- och verksamhetsanalys", "Ramverk för finansiella prognoser", "Dokumentation av operativ struktur", "Institutionell formatering och granskning"]
+        },
+        {
+          "number": "04", "anchor": "freelancer", "tagline": "Rådgivning för frilansare och entreprenörer", "title": "Rådgivning kring flytt för frilansare och entreprenörer",
+          "body": [
+            "Oberoende yrkesutövare, distansarbetare och småföretagare möter en särskild uppsättning utmaningar när de planerar att etablera en juridisk verksamhet i Europa. Standardramverk är ofta utformade med större bolag i åtanke, och vägen för en enskild näringsidkare eller ett mikroföretag kräver ett mer skräddarsytt strategiskt angreppssätt.",
+            "Denna tjänst är särskilt utformad för frilansare, distansarbetande yrkesutövare och tidiga entreprenörer som bygger — eller planerar att bygga — en juridisk och hållbar verksamhetsbas i Europa. Vi hjälper dig att förstå hur en regelefterlevande struktur ser ut för din yrkesprofil, vilken dokumentation och planering som krävs, och hur du kan positionera din verksamhet trovärdigt inom gällande regelverk.",
+            "Vi bedömer varje kund individuellt. Det som är lämpligt för en mjukvarukonsult skiljer sig avsevärt från det som är lämpligt för en kreativ yrkesutövare eller en produktbaserad entreprenör — och vår rådgivning återspeglar detta."
+          ],
+          "includesHeading": "Denna tjänst omfattar",
+          "includes": ["Bedömning av yrkesprofil", "Formalisering av affärsmodell", "Utformning av regelefterlevande struktur", "Dokumentation av verksamhet och intäkter", "Planering av uppehållstillstånd genom näringsverksamhet", "Granskning av långsiktig hållbarhet"]
+        },
+        {
+          "number": "05", "anchor": "international", "tagline": "Internationell rådgivning", "title": "Gränsöverskridande affärsrådgivning",
+          "body": [
+            "Entreprenörer som verkar i flera länder möter en mer komplex uppsättning strategiska och strukturella överväganden. Frågor om var man ska registrera bolag, hur man hanterar gränsöverskridande transaktioner, hur man strukturerar ägande, och hur man förblir regelefterlevande i olika jurisdiktioner kräver noggrann och välgrundad analys — inte generella svar.",
+            "Denna tjänst erbjuder rådgivning för internationellt verksamma företagare som behöver tänka sammanhängande kring sitt fotavtryck i flera jurisdiktioner. Vi hjälper dig att kartlägga relevanta överväganden, identifiera potentiella strukturella konflikter eller möjligheter, och utveckla ett ramverk för att hantera din gränsöverskridande verksamhet på ett sätt som är både operativt praktiskt och regelefterlevande.",
+            "Där juridisk, skattemässig eller regulatorisk specialistkompetens krävs — vilket ofta är fallet i gränsöverskridande frågor — samordnar vi engagemang med kvalificerade yrkesutövare i respektive jurisdiktion."
+          ],
+          "includesHeading": "Denna tjänst omfattar",
+          "includes": ["Granskning av struktur i flera jurisdiktioner", "Kartläggning av gränsöverskridande regelefterlevnad", "Utformning av holding- och driftbolag", "Dokumentation av internationell verksamhet", "Identifiering av skattemässiga överväganden", "Samordning med specialistpartners"]
+        }
+      ],
+      "whoThisIsFor": {
+        "label": "Vår kundprofil",
+        "title": "Vi arbetar med fyra distinkta kundgrupper",
+        "sub": "Våra tjänster är utformade för yrkesutövare som behöver strukturerad, regelefterlevande rådgivning — och som förstår att uppbyggnaden av en verksamhet i Europa är en process som kräver planering, dokumentation och professionell samordning.",
+        "groups": [
+          {
+            "num": "01", "tag": "Entreprenörer", "title": "Entreprenörer som planerar att flytta till Europa",
+            "body": [
+              "Denna grupp består av företagsgrundare och ägarledare som har beslutat — eller på allvar överväger — att flytta till Europa genom en strukturerad näringsverksamhet. De har vanligtvis en befintlig affärsmodell eller yrkesverksamhet, och förstår att en trovärdig och institutionellt sund flyttstrategi måste bygga på en korrekt etablerad verksamhetsgrund.",
+              "Utmaningen för de flesta entreprenörer i denna grupp är inte ambition — det är struktur. Vår roll är att bygga upp den strukturen tillsammans med dem."
+            ],
+            "challengesHeading": "Vanliga rådgivningsbehov i denna grupp",
+            "challenges": ["Utveckla en affärsplan som uppfyller institutionella standarder för flyttprocesser", "Välja den mest lämpliga juridiska associationsformen och bolagsstrukturen för sin situation", "Förstå det regelverk och den regelefterlevnad som är relevant för deras näringsverksamhet", "Samordna krav på juridik, redovisning och dokumentation i en strukturerad ordning", "Bygga upp en långsiktig operativ strategi för sin europeiska verksamhet"]
+          },
+          {
+            "num": "02", "tag": "Frilansare", "title": "Frilansare med internationell verksamhet",
+            "body": [
+              "Oberoende yrkesutövare — konsulter, designers, utvecklare, författare och andra kunskapsintensiva yrkesutövare — verkar i allt högre grad över gränserna. Många i denna grupp genererar en jämn yrkesinkomst och arbetar med internationella kunder, men saknar den juridiska bolagsstruktur som en europeisk närvaro kräver.",
+              "Vi arbetar med frilansare för att formalisera deras yrkesverksamhet till ett strukturerat affärsramverk — ett som korrekt återspeglar hur de arbetar och uppfyller förväntningarna i europeiska regelverk."
+            ],
+            "challengesHeading": "Vanliga rådgivningsbehov i denna grupp",
+            "challenges": ["Omvandla frilansverksamhet till en formellt strukturerad, dokumenterbar affärsmodell", "Förstå vilken juridisk struktur som är lämplig för en enskild näringsidkare eller ett mikroföretag", "Förbereda professionell dokumentation som visar genomförbar och jämn affärsverksamhet", "Planera en regelefterlevande och hållbar väg till att etablera en juridisk verksamhetsbas i Europa", "Samordna med relevanta jurister och revisorer för formella registreringssteg"]
+          },
+          {
+            "num": "03", "tag": "Yrkesverksamma", "title": "Internationella yrkesutövare",
+            "body": [
+              "Denna grupp omfattar seniora yrkesutövare, chefer och specialister som planerar att etablera långsiktig verksamhet i Europa — antingen som en fortsättning på sin befintliga yrkeskarriär eller som grunden för en ny fas i sitt arbetsliv.",
+              "Det de behöver är ett strukturerat rådgivningsramverk som omvandlar deras yrkesbakgrund till en genomförbar och regelefterlevande europeisk affärsmodell."
+            ],
+            "challengesHeading": "Vanliga rådgivningsbehov i denna grupp",
+            "challenges": ["Strukturera yrkeserfarenhet och kompetens till en formellt genomförbar europeisk affärsmodell", "Planera en bolagsstruktur anpassad för långsiktig yrkesverksamhet i Europa", "Navigera gränsöverskridande regelefterlevnadsfrågor relevanta för deras yrkesverksamhet", "Samordna den dokumentation och planering som krävs för en strukturerad yrkesmässig flytt", "Etablera en verksamhet som positionerar dem trovärdigt inom sin bransch"]
+          },
+          {
+            "num": "04", "tag": "SME-ägare", "title": "Småföretagare som expanderar till europeiska marknader",
+            "body": [
+              "Ägare av små och medelstora företag som vill expandera sin verksamhet till europeiska marknader möter en särskild uppsättning strategiska och strukturella utmaningar, skilda från de som en start-up eller enskild näringsidkare möter.",
+              "Vi hjälper småföretagare att strategiskt tänka igenom sin europeiska expansion — genom att bedöma rätt inträdesstrategi, strukturera det juridiska och operativa ramverket, och samordna det professionella stöd som krävs."
+            ],
+            "challengesHeading": "Vanliga rådgivningsbehov i denna grupp",
+            "challenges": ["Utveckla en strukturerad strategi för inträde på den europeiska marknaden anpassad till deras affärsmodell", "Välja och utforma rätt juridisk associationsform för europeisk verksamhet", "Integrera en ny europeisk struktur med sin befintliga verksamhet och ägarstruktur", "Hantera gränsöverskridande regelefterlevnad och regulatoriska krav i olika jurisdiktioner", "Samordna jurister, skatterådgivare och revisorer genom hela bildnings- och uppsättningsprocessen"]
+          }
+        ]
+      },
+      "engagementModel": {
+        "label": "Samarbetsmodell",
+        "title": "Vad du kan förvänta dig när du arbetar med oss",
+        "sub": "Våra uppdrag följer en strukturerad fyrstegsprocess som gäller för alla tjänsteområden.",
+        "steps": [
+          { "title": "Inledande konsultation", "body": "Vi genomför en strukturerad bedömning av din bakgrund, dina mål och dina förutsättningar. Inga generiska intagsformulär — ett genuint professionellt samtal för att förstå din situation." },
+          { "title": "Strategiutveckling", "body": "Utifrån bedömningen tar vi fram ett dokumenterat strategiskt ramverk specifikt för dina förhållanden — som omfattar struktur, process, tidsplan och professionella krav." },
+          { "title": "Dokumentation och planering", "body": "Vi förbereder den dokumentation, de affärsplaner eller de rådgivningsunderlag som krävs, i ett format lämpat för institutionellt och professionellt bruk." },
+          { "title": "Samordning av genomförande", "body": "Vi samordnar genomförandefasen med kvalificerade jurister, revisorer och andra specialister — och säkerställer att strategin genomförs med noggrannhet och regelefterlevnad." }
+        ]
+      },
+      "packages": {
+        "label": "Samarbetsalternativ",
+        "title": "Sätt att arbeta med oss",
+        "sub": "Varje uppdrag omfångsbestäms individuellt. Nivåerna nedan beskriver formen på ett typiskt uppdrag — slutligt omfång och arvode bekräftas efter din inledande konsultation.",
+        "tiers": [
+          { "name": "Inledande konsultation", "body": "En strukturerad bedömning av din situation, dina mål och den mest genomförbara vägen framåt, med en skriftlig sammanfattning av rekommendationer." },
+          { "name": "Fullständigt uppdrag", "body": "Heltäckande strategiskt stöd inom bolagsstruktur, dokumentation och flyttplanering, samordnat med professionella partners." },
+          { "name": "Löpande rådgivning", "body": "Fortsatt strategiskt stöd efter din inledande etablering — för föränderliga affärsbehov, gränsöverskridande frågor eller expansionsplanering." }
+        ]
+      },
+      "cta": { "title": "Diskutera dina behov", "body": "Om du planerar att etablera en verksamhet i Europa bjuder vi in dig till en konsultation. Vi kommer att bedöma din situation och ge dig en tydlig, strukturerad översikt över vägen framåt och de tjänster som är relevanta för dina mål." }
+    },
+    "itServices": {
+      "hero": { "label": "IT-tjänster", "h1": "Teknik byggd för internationella företag", "body": "Vi designar och bygger de webbplattformar, portaler och automationslösningar som de företag vi hjälper att etablera förlitar sig på — med samma strukturerade, regelefterlevande arbetssätt som i vår konsultverksamhet." },
+      "breadcrumb": "IT-tjänster",
+      "offeringsLabel": "Vad vi bygger",
+      "offeringsTitle": "Fyra kärnerbjudanden",
+      "offeringsSub": "Från en första företagswebbplats till de system som driver den dagliga verksamheten — vi bygger teknik som matchar skalan och skedet i din verksamhet.",
+      "offerings": [
+        { "icon": "🌐", "title": "Webbplattformar och företagswebbplatser", "body": "Professionellt designade, flerspråkiga webbplatser som ger din verksamhet en trovärdig, strukturerad närvaro online från dag ett." },
+        { "icon": "🔐", "title": "Kund- och företagsportaler", "body": "Säkra medlems- och kundportaler för hantering av dokument, kommunikation och ärende- eller projektstatus på ett och samma ställe." },
+        { "icon": "⚙️", "title": "Automatisering av arbetsflöden och integrationer", "body": "Automatisering av repetitivt operativt arbete och integration mellan de verktyg din verksamhet redan använder." },
+        { "icon": "🛠️", "title": "Löpande underhåll och support", "body": "Fortsatt teknisk support, uppdateringar och övervakning efter lansering, så att din plattform förblir pålitlig i takt med att din verksamhet växer." }
+      ],
+      "howWeWorkLabel": "Hur vi arbetar",
+      "howWeWorkTitle": "En strukturerad väg från idé till lansering",
+      "howWeWorkSub": "Samma disciplin som vi tillämpar i konsultuppdrag följer med i hur vi planerar och bygger teknik.",
+      "howWeWork": [
+        { "title": "Omfång", "body": "Vi bedömer dina affärsbehov och definierar ett tydligt, skriftligt omfång innan någon utveckling påbörjas." },
+        { "title": "Offert", "body": "Du får en transparent offert kopplad direkt till det överenskomna omfånget — ingen öppen fakturering." },
+        { "title": "Bygga", "body": "Vi bygger i strukturerade etapper med regelbundna avstämningar, så att du alltid vet var projektet står." },
+        { "title": "Support", "body": "Efter lansering finns vi tillgängliga för underhåll, uppdateringar och framtida förbättringar." }
+      ],
+      "capabilitiesLabel": "Vad vi kan bygga",
+      "capabilitiesTitle": "Förmågor, inte löften",
+      "capabilitiesSub": "Istället för fallstudier vi ännu inte kan dela, ger vi här en direkt och ärlig bild av vad vårt tekniska team är rustat att bygga åt dig.",
+      "capabilities": [
+        "Flerspråkiga marknadsförings- och företagswebbplatser med strukturerad innehållshantering",
+        "Säkra kundportaler med autentisering, dokumentlagring och meddelandefunktion",
+        "Företagsdashboards för att följa ärenden, projekt eller abonnemang",
+        "Integrationer mellan webbplattformar och de verktyg ni redan använder för redovisning, CRM eller kommunikation",
+        "Automatisering av återkommande administrativa eller operativa arbetsflöden",
+        "Löpande hosting, övervakning och tekniska supportavtal"
+      ],
+      "cta": { "title": "Begär en offert", "body": "Berätta för oss om din verksamhet och vad du vill bygga. Vi bedömer omfånget och ger dig en tydlig, strukturerad offert — på samma sätt som vi angriper varje konsultuppdrag." }
+    },
+    "globalReach": {
+      "hero": { "label": "Global Reach", "h1": "Direktsänd samverkan, var du än befinner dig", "body": "Delta i direktsända rum för att koppla samman med rådgivare, specialister och andra medlemmar — med chatt som översätts i realtid mellan de språk din grupp talar.", "mockCaption": "Illustrativ förhandsvisning" },
+      "breadcrumb": "Global Reach",
+      "howItWorksLabel": "Så fungerar det",
+      "howItWorksTitle": "Tre steg för att komma i kontakt",
+      "howItWorksSub": "Global Reach gör ett abonnemang till direkt, direktsänd tillgång — utan fram- och tillbaka-schemaläggning.",
+      "howItWorks": [
+        { "title": "Gå med i ett rum", "body": "Skapa eller gå med i ett direktsänt rum byggt kring ditt ämne — en uppföljning av en konsultation, en studiesession eller en öppen diskussion." },
+        { "title": "Koppla samman med rådgivare och andra medlemmar", "body": "Samarbeta i realtid med rådgivare, specialister eller andra medlemmar som hanterar liknande situationer." },
+        { "title": "Få strukturerad uppföljning", "body": "Lämna varje session med en tydlig sammanfattning av vad som diskuterades och vad som händer härnäst." }
+      ],
+      "useCasesLabel": "Vem det är till för",
+      "useCasesTitle": "Byggt för flera typer av sessioner",
+      "useCases": [
+        { "title": "Blivande entreprenörer", "body": "Tidiga samtal innan man förbinder sig till ett fullständigt konsultuppdrag." },
+        { "title": "Kunder mitt i ett uppdrag", "body": "Direktsända uppföljningar med ditt konsult- eller IT-team mellan schemalagda möten." },
+        { "title": "Studiegrupper med andra medlemmar", "body": "Strukturerade sessioner med andra medlemmar som navigerar liknande flytt- eller affärsresor." },
+        { "title": "Gränsöverskridande frågestund", "body": "Öppna sessioner där medlemmar från olika länder och språk kan ställa frågor tillsammans." }
+      ],
+      "plansLabel": "Abonnemang",
+      "plansTitle": "Välj din tillgångsnivå",
+      "plansSub": "Abonnemang hanteras via medlemsportalen och granskas av vårt team innan aktivering.",
+      "plans": [
+        { "name": "Basic", "price": "29", "period": "/ månad", "features": ["100 meddelanden / månad", "2 timmars direktsända sessioner / månad", "Tillgång till dokumentvalv", "Ärendespårning"], "popular": false },
+        { "name": "Pro", "price": "79", "period": "/ månad", "features": ["500 meddelanden / månad", "10 timmars direktsända sessioner / månad", "Prioriterad support", "Alla funktioner i Basic"], "popular": true }
+      ],
+      "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
+      "cta": { "title": "Registrera dig", "body": "Skapa ditt konto i medlemsportalen för att välja ett abonnemang och börja gå med i rum." }
+    },
+    "portal": {
+      "hero": { "label": "Kundåtkomst", "h1": "Medlemsportal", "body": "Säker åtkomst för registrerade kunder hos Nordic Riser AB för att hantera sitt uppdrag, sina dokument och sin kommunikation." },
+      "cardTitle": "Nordic Riser AB",
+      "cardSubtitle": "Säker medlemsportal",
+      "featuresHeading": "Portalfunktioner",
+      "features": ["Ärendespårning och statusuppdateringar", "Uppladdning och hantering av dokument", "Säker meddelandefunktion med din rådgivare", "Hantering av fakturor och betalningar"],
+      "primaryButton": "Gå till medlemsportalen",
+      "secondaryButton": "Kontakta support",
+      "noteAccess": "Åtkomst är endast tillgänglig för registrerade kunder. Om du ännu inte har fått dina portaluppgifter, vänligen kontakta oss.",
+      "noteSignup": "Ännu inte kund? Boka en konsultation för att komma igång."
+    }
+  }
+}

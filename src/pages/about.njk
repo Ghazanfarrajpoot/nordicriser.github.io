@@ -1,0 +1,130 @@
+---
+pagination:
+  data: site.locales
+  size: 1
+  alias: loc
+permalink: "{{ 'about' | localePath(loc.code) }}index.html"
+eleventyComputed:
+  locale: "{{ loc.code }}"
+  dir: "{{ loc.dir }}"
+layout: layouts/page.njk
+pageKey: about
+pageSlug: about
+---
+{%- set t = locales[locale] -%}
+{%- set p = t.pages.about -%}
+
+<section class="page-hero">
+  <div class="page-hero-inner" data-animate>
+    <span class="page-hero-label">{{ p.hero.label }}</span>
+    <h1>{{ p.hero.h1 }}</h1>
+    <p>{{ p.hero.body }}</p>
+  </div>
+</section>
+
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="{{ '' | localeUrl(locale) }}">{{ t.common.home }}</a> &rsaquo; <span>{{ p.breadcrumb }}</span>
+  </div>
+</div>
+
+<section class="section">
+  <div class="section-inner-narrow" data-animate>
+    <span class="section-label">{{ p.whoWeAre.label }}</span>
+    <h2 class="section-title">{{ p.whoWeAre.title }}</h2>
+    <p class="intro-body">{{ p.whoWeAre.intro1 }}</p>
+    <p class="intro-body">{{ p.whoWeAre.intro2 }}</p>
+    <div class="mission-statement">
+      <p>{{ p.whoWeAre.mission }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.whyWeExist.label }}</span>
+    <h2 class="section-title">{{ p.whyWeExist.title }}</h2>
+    <p class="section-sub">{{ p.whyWeExist.sub }}</p>
+    <div class="origin-grid">
+      <div class="origin-text">
+        <h3>{{ p.whyWeExist.problemTitle }}</h3>
+        {%- for para in p.whyWeExist.problemParagraphs %}
+        <p>{{ para }}</p>
+        {%- endfor %}
+      </div>
+      <div class="origin-pillars">
+        {%- for item in p.whyWeExist.pillars %}
+        <div class="pillar">
+          <div class="pillar-icon">{{ item.icon }}</div>
+          <div>
+            <h4>{{ item.title }}</h4>
+            <p>{{ item.body }}</p>
+          </div>
+        </div>
+        {%- endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.approach.label }}</span>
+    <h2 class="section-title">{{ p.approach.title }}</h2>
+    <p class="section-sub">{{ p.approach.sub }}</p>
+    <div class="approach-grid">
+      {%- for item in p.approach.items %}
+      <div class="approach-card">
+        <div class="approach-num">{% if loop.index < 10 %}0{% endif %}{{ loop.index }}</div>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.values.label }}</span>
+    <h2 class="section-title">{{ p.values.title }}</h2>
+    <p class="section-sub">{{ p.values.sub }}</p>
+    <div class="values-grid">
+      {%- for item in p.values.items %}
+      <div class="value-card">
+        <span class="value-icon">{{ item.icon }}</span>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner-narrow" data-animate>
+    <span class="section-label">{{ p.missionBlock.label }}</span>
+    <div class="mission-block">
+      <span class="mission-label">{{ p.missionBlock.missionLabel }}</span>
+      <h2>{{ p.missionBlock.statement }}</h2>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="cta-box" data-animate>
+    <h2>{{ p.cta.title }}</h2>
+    <p>{{ p.cta.body }}</p>
+    <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-cta">{{ t.common.bookConsultation }}</a>
+    <div class="contact-strip">
+      <div class="contact-item">
+        <span>{{ t.common.emailLabel }}</span>
+        <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
+      </div>
+      <div class="contact-item">
+        <span>{{ t.common.websiteLabel }}</span>
+        <a href="https://www.nordicriser.com">www.nordicriser.com</a>
+      </div>
+    </div>
+  </div>
+</section>

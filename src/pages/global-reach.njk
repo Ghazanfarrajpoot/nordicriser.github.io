@@ -1,0 +1,101 @@
+---
+pagination:
+  data: site.locales
+  size: 1
+  alias: loc
+permalink: "{{ 'global-reach' | localePath(loc.code) }}index.html"
+eleventyComputed:
+  locale: "{{ loc.code }}"
+  dir: "{{ loc.dir }}"
+layout: layouts/page.njk
+pageKey: globalReach
+pageSlug: global-reach
+---
+{%- set t = locales[locale] -%}
+{%- set p = t.pages.globalReach -%}
+
+<section class="page-hero">
+  <div class="page-hero-inner" data-animate>
+    <span class="page-hero-label">{{ p.hero.label }}</span>
+    <h1>{{ p.hero.h1 }}</h1>
+    <p>{{ p.hero.body }}</p>
+    <div class="gr-mock" aria-hidden="true">
+      <div class="gr-mock-toolbar">
+        <span class="gr-mock-dot"></span><span class="gr-mock-dot"></span><span class="gr-mock-dot"></span>
+      </div>
+      <div class="gr-mock-zones">
+        <div class="gr-mock-zone">🧑‍💼</div>
+        <div class="gr-mock-zone">🗂️</div>
+        <div class="gr-mock-zone">🧑‍🎓</div>
+      </div>
+    </div>
+    <p class="gr-mock-caption">{{ p.hero.mockCaption }}</p>
+  </div>
+</section>
+
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="{{ '' | localeUrl(locale) }}">{{ t.common.home }}</a> &rsaquo; <span>{{ p.breadcrumb }}</span>
+  </div>
+</div>
+
+<section class="section">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.howItWorksLabel }}</span>
+    <h2 class="section-title">{{ p.howItWorksTitle }}</h2>
+    <p class="section-sub">{{ p.howItWorksSub }}</p>
+    <div class="steps-grid">
+      {%- for step in p.howItWorks %}
+      <div class="step">
+        <div class="step-number">{{ loop.index }}</div>
+        <h3>{{ step.title }}</h3>
+        <p>{{ step.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.useCasesLabel }}</span>
+    <h2 class="section-title">{{ p.useCasesTitle }}</h2>
+    <div class="audience-grid">
+      {%- for uc in p.useCases %}
+      <div class="audience-card">
+        <h3>{{ uc.title }}</h3>
+        <p>{{ uc.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.plansLabel }}</span>
+    <h2 class="section-title">{{ p.plansTitle }}</h2>
+    <p class="section-sub">{{ p.plansSub }}</p>
+    <div class="gr-plans-grid">
+      {%- for plan in p.plans %}
+      <div class="gr-plan-card{% if plan.popular %} popular{% endif %}">
+        {%- if plan.popular %}<span class="gr-plan-badge">★</span>{% endif %}
+        <div class="gr-plan-name">{{ plan.name }}</div>
+        <div class="gr-plan-price">${{ plan.price }} <span>{{ plan.period }}</span></div>
+        <ul class="gr-plan-features">
+          {%- for f in plan.features %}<li>{{ f }}</li>{% endfor %}
+        </ul>
+      </div>
+      {%- endfor %}
+    </div>
+    {#- p._syncNote is an internal reminder for whoever maintains this page — not rendered to visitors. #}
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="cta-box" data-animate>
+    <h2>{{ p.cta.title }}</h2>
+    <p>{{ p.cta.body }}</p>
+    <a href="https://portal.nordicriser.com" class="btn-cta">{{ t.common.signUp }}</a>
+  </div>
+</section>

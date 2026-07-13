@@ -1,0 +1,146 @@
+---
+pagination:
+  data: site.locales
+  size: 1
+  alias: loc
+permalink: "{{ 'contact' | localePath(loc.code) }}index.html"
+eleventyComputed:
+  locale: "{{ loc.code }}"
+  dir: "{{ loc.dir }}"
+layout: layouts/page.njk
+pageKey: contact
+pageSlug: contact
+---
+{%- set t = locales[locale] -%}
+{%- set p = t.pages.contact -%}
+{%- set f = p.form -%}
+
+<section class="page-hero">
+  <div class="page-hero-inner" data-animate>
+    <span class="page-hero-label">{{ p.hero.label }}</span>
+    <h1>{{ p.hero.h1 }}</h1>
+    <p>{{ p.hero.body }}</p>
+  </div>
+</section>
+
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="{{ '' | localeUrl(locale) }}">{{ t.common.home }}</a> &rsaquo; <span>{{ p.breadcrumb }}</span>
+  </div>
+</div>
+
+<section class="contact-section">
+  <div class="contact-inner" data-animate>
+
+    <div class="form-block">
+      <h2>{{ f.title }}</h2>
+      <p class="form-intro">{{ f.intro }}</p>
+
+      <form class="consultation-form" id="consultationForm">
+        <div class="form-row">
+          <div class="field">
+            <label for="firstName">{{ f.firstName }} <span class="required">*</span></label>
+            <input type="text" id="firstName" name="firstName" placeholder="{{ f.firstNamePlaceholder }}" required autocomplete="given-name">
+          </div>
+          <div class="field">
+            <label for="lastName">{{ f.lastName }} <span class="required">*</span></label>
+            <input type="text" id="lastName" name="lastName" placeholder="{{ f.lastNamePlaceholder }}" required autocomplete="family-name">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="email">{{ f.email }} <span class="required">*</span></label>
+          <input type="email" id="email" name="email" placeholder="{{ f.emailPlaceholder }}" required autocomplete="email">
+        </div>
+
+        <div class="field">
+          <label for="businessType">{{ f.businessType }} <span class="required">*</span></label>
+          <select id="businessType" name="businessType" required>
+            {%- for opt in f.businessTypeOptions %}
+            <option value="{{ opt.value }}"{% if loop.first %} disabled selected{% endif %}>{{ opt.label }}</option>
+            {%- endfor %}
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="purpose">{{ f.purpose }} <span class="required">*</span></label>
+          <select id="purpose" name="purpose" required>
+            {%- for opt in f.purposeOptions %}
+            <option value="{{ opt.value }}"{% if loop.first %} disabled selected{% endif %}>{{ opt.label }}</option>
+            {%- endfor %}
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="message">{{ f.message }} <span class="required">*</span></label>
+          <textarea id="message" name="message" placeholder="{{ f.messagePlaceholder }}" required></textarea>
+          <span class="hint">{{ f.messageHint }}</span>
+        </div>
+
+        <p class="form-consent">{{ f.consent }}</p>
+
+        <button type="submit" class="btn-submit">{{ f.submit }}</button>
+      </form>
+
+      <div class="form-success" id="formSuccess">
+        <h3>{{ p.success.title }}</h3>
+        <p>{{ p.success.body }}</p>
+      </div>
+    </div>
+
+    <div class="contact-sidebar">
+      <div class="sidebar-card">
+        <h3>{{ p.sidebar.directContactHeading }}</h3>
+        <div class="contact-detail">
+          <div class="contact-detail-item">
+            <div class="detail-icon">✉</div>
+            <div class="detail-text">
+              <span>{{ t.common.emailLabel }}</span>
+              <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
+            </div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="detail-icon">🕐</div>
+            <div class="detail-text">
+              <span>{{ p.sidebar.hoursLabel }}</span>
+              <p>{{ p.sidebar.hoursValue }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-process">
+        <h3>{{ p.sidebar.nextHeading }}</h3>
+        <div class="process-steps">
+          {%- for step in p.sidebar.steps %}
+          <div class="process-step">
+            <div class="process-step-num">{{ loop.index }}</div>
+            <div>
+              <strong>{{ step.title }}</strong>
+              <p>{{ step.body }}</p>
+            </div>
+          </div>
+          {%- endfor %}
+        </div>
+      </div>
+
+      <div class="response-note">
+        <div class="note-icon">📋</div>
+        <div>
+          <strong>{{ p.sidebar.noteHeading }}</strong>
+          <p>{{ p.sidebar.noteBody }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="closing-section">
+  <div class="closing-inner" data-animate>
+    <span class="section-label">{{ p.closing.label }}</span>
+    <h2>{{ p.closing.title }}</h2>
+    {%- for para in p.closing.paragraphs %}
+    <p>{{ para }}</p>
+    {%- endfor %}
+  </div>
+</section>

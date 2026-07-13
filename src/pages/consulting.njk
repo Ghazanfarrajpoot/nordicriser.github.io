@@ -1,0 +1,136 @@
+---
+pagination:
+  data: site.locales
+  size: 1
+  alias: loc
+permalink: "{{ 'consulting' | localePath(loc.code) }}index.html"
+eleventyComputed:
+  locale: "{{ loc.code }}"
+  dir: "{{ loc.dir }}"
+layout: layouts/page.njk
+pageKey: consulting
+pageSlug: consulting
+---
+{%- set t = locales[locale] -%}
+{%- set p = t.pages.consulting -%}
+
+<section class="page-hero">
+  <div class="page-hero-inner" data-animate>
+    <span class="page-hero-label">{{ p.hero.label }}</span>
+    <h1>{{ p.hero.h1 }}</h1>
+    <p>{{ p.hero.body }}</p>
+  </div>
+</section>
+
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="{{ '' | localeUrl(locale) }}">{{ t.common.home }}</a> &rsaquo; <span>{{ p.breadcrumb }}</span>
+  </div>
+</div>
+
+<section class="section">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.servicesLabel }}</span>
+    <h2 class="section-title" id="establishment">{{ p.servicesTitle }}</h2>
+    <p class="section-sub">{{ p.servicesSub }}</p>
+
+    <div class="services-list">
+      {%- for svc in p.services %}
+      <div class="service-card" id="{{ svc.anchor }}">
+        <div class="service-number">{{ svc.number }}</div>
+        <div class="service-body">
+          <span class="service-tagline">{{ svc.tagline }}</span>
+          <h2>{{ svc.title }}</h2>
+          {%- for para in svc.body %}<p>{{ para }}</p>{% endfor %}
+          <div class="service-includes">
+            <h4>{{ svc.includesHeading }}</h4>
+            <div class="includes-list">
+              {%- for inc in svc.includes %}<span>{{ inc }}</span>{% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.whoThisIsFor.label }}</span>
+    <h2 class="section-title">{{ p.whoThisIsFor.title }}</h2>
+    <p class="section-sub">{{ p.whoThisIsFor.sub }}</p>
+    <div class="groups-list">
+      {%- for g in p.whoThisIsFor.groups %}
+      <div class="group-card">
+        <div class="group-sidebar">
+          <div class="group-num">{{ g.num }}</div>
+          <span class="group-tag">{{ g.tag }}</span>
+          <h2>{{ g.title }}</h2>
+        </div>
+        <div class="group-content">
+          {%- for para in g.body %}<p>{{ para }}</p>{% endfor %}
+          <div class="group-challenges">
+            <h4>{{ g.challengesHeading }}</h4>
+            <div class="challenge-list">
+              {%- for c in g.challenges %}<div class="challenge-item">{{ c }}</div>{% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.engagementModel.label }}</span>
+    <h2 class="section-title">{{ p.engagementModel.title }}</h2>
+    <p class="section-sub">{{ p.engagementModel.sub }}</p>
+    <div class="engagement-grid">
+      {%- for step in p.engagementModel.steps %}
+      <div class="engagement-card">
+        <div class="engagement-num">{% if loop.index < 10 %}0{% endif %}{{ loop.index }}</div>
+        <h3>{{ step.title }}</h3>
+        <p>{{ step.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.packages.label }}</span>
+    <h2 class="section-title">{{ p.packages.title }}</h2>
+    <p class="section-sub">{{ p.packages.sub }}</p>
+    <div class="packages-grid">
+      {%- for tier in p.packages.tiers %}
+      <div class="package-card">
+        <h3>{{ tier.name }}</h3>
+        <p>{{ tier.body }}</p>
+        <span>{{ t.common.pricingOnRequest }}</span>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="cta-box" data-animate>
+    <h2>{{ p.cta.title }}</h2>
+    <p>{{ p.cta.body }}</p>
+    <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-cta">{{ t.common.bookConsultation }}</a>
+    <div class="contact-strip">
+      <div class="contact-item">
+        <span>{{ t.common.emailLabel }}</span>
+        <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
+      </div>
+      <div class="contact-item">
+        <span>{{ t.common.websiteLabel }}</span>
+        <a href="https://www.nordicriser.com">www.nordicriser.com</a>
+      </div>
+    </div>
+  </div>
+</section>

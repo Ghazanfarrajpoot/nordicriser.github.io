@@ -1,0 +1,169 @@
+/* ═══════════════════════════════════════════════════════════════
+   PILLAR COMPONENTS — three-pillar homepage section, IT Services,
+   Global Reach. Written with logical properties throughout (no RTL
+   override block needed for anything in this file).
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── HOMEPAGE THREE-PILLAR SECTION ── */
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.75rem;
+}
+
+.pillar-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-top: 4px solid transparent;
+  border-radius: 10px;
+  padding: 2.25rem 2rem;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: var(--shadow-sm);
+}
+
+.pillar-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-lg); }
+
+.pillar-card-consulting { border-top-color: var(--gold); }
+.pillar-card-it         { border-top-color: var(--pillar-it); }
+.pillar-card-global     { border-top-color: var(--pillar-global); }
+
+.pillar-card-icon {
+  width: 48px; height: 48px;
+  background: var(--sky);
+  border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.5rem;
+  margin-block-end: 1.25rem;
+}
+
+.pillar-card h3 { font-size: 1.15rem; font-weight: 700; margin-block-end: 0.6rem; }
+
+.pillar-card-promise {
+  font-size: 0.95rem; color: var(--muted);
+  line-height: 1.7; margin-block-end: 1.1rem;
+}
+
+.pillar-card-bullets {
+  list-style: none;
+  display: flex; flex-direction: column; gap: 0.5rem;
+  margin-block-end: 1.5rem;
+  flex-grow: 1;
+}
+
+.pillar-card-bullets li {
+  font-size: 0.85rem; color: var(--text);
+  padding-inline-start: 1.1rem;
+  position: relative;
+}
+
+.pillar-card-bullets li::before {
+  content: '';
+  position: absolute; inset-inline-start: 0; top: 0.55em;
+  width: 5px; height: 5px; border-radius: 50%;
+  background: var(--gold);
+}
+
+.pillar-card-it .pillar-card-bullets li::before     { background: var(--pillar-it); }
+.pillar-card-global .pillar-card-bullets li::before { background: var(--pillar-global); }
+
+.pillar-card-link {
+  font-size: 0.82rem; font-weight: 700; color: var(--navy);
+  letter-spacing: 0.03em; align-self: flex-start; margin-block-start: auto;
+}
+
+.pillar-card:hover .pillar-card-link { color: var(--gold); }
+.pillar-card-it:hover .pillar-card-link     { color: var(--pillar-it); }
+.pillar-card-global:hover .pillar-card-link { color: var(--pillar-global); }
+
+/* ── IT SERVICES: CAPABILITIES LIST ── */
+.capabilities-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.capability-item {
+  display: flex; align-items: flex-start; gap: 0.75rem;
+  background: var(--white); border: 1px solid var(--border);
+  border-radius: 8px; padding: 1.25rem 1.5rem;
+  font-size: 0.9rem; color: var(--text); line-height: 1.6;
+}
+
+.capability-item::before { content: '✓'; color: var(--pillar-it); font-weight: 700; flex-shrink: 0; }
+
+/* ── GLOBAL REACH: ILLUSTRATIVE MOCKUP ── */
+.gr-mock {
+  max-width: 560px; margin-inline: auto; margin-block-end: 1rem;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.16);
+  border-radius: 12px; padding: 1.5rem;
+}
+
+.gr-mock-toolbar { display: flex; gap: 0.4rem; margin-block-end: 1rem; }
+.gr-mock-dot { width: 10px; height: 10px; border-radius: 50%; background: rgba(255,255,255,0.25); }
+
+.gr-mock-zones {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem;
+}
+
+.gr-mock-zone {
+  aspect-ratio: 1; border-radius: 8px;
+  background: rgba(255,255,255,0.1);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.4rem;
+}
+
+.gr-mock-caption {
+  text-align: center; font-size: 0.75rem; color: rgba(255,255,255,0.5);
+  margin-block-start: 1rem; letter-spacing: 0.05em;
+}
+
+/* ── GLOBAL REACH: SUBSCRIPTION PLANS ── */
+.gr-plans-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem; max-width: 760px; margin-inline: auto;
+}
+
+.gr-plan-card {
+  background: var(--white); border: 1px solid var(--border);
+  border-radius: 10px; padding: 2rem; position: relative;
+}
+
+.gr-plan-card.popular { border-color: var(--gold); box-shadow: var(--shadow-md); }
+
+.gr-plan-badge {
+  position: absolute; top: -12px; inset-inline-start: 2rem;
+  background: var(--gold); color: var(--navy);
+  font-size: 0.65rem; font-weight: 700; letter-spacing: 0.08em;
+  padding: 0.3rem 0.75rem; border-radius: 20px;
+}
+
+.gr-plan-name  { font-family: var(--font-serif); font-size: 1.2rem; font-weight: 700; color: var(--navy); margin-block-end: 0.5rem; }
+.gr-plan-price { font-size: 2rem; font-weight: 800; color: var(--navy); margin-block-end: 1.25rem; }
+.gr-plan-price span { font-size: 0.85rem; font-weight: 500; color: var(--muted); }
+
+.gr-plan-features {
+  list-style: none; display: flex; flex-direction: column; gap: 0.6rem;
+  margin-block-end: 1.75rem;
+}
+
+.gr-plan-features li {
+  font-size: 0.875rem; color: var(--text);
+  padding-inline-start: 1.2rem; position: relative;
+}
+
+.gr-plan-features li::before { content: '✓'; position: absolute; inset-inline-start: 0; color: var(--gold); font-weight: 700; }
+
+.gr-sync-note {
+  text-align: center; font-size: 0.78rem; color: var(--muted);
+  max-width: 620px; margin: 1.5rem auto 0;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 480px) {
+  .gr-mock-zones { grid-template-columns: repeat(2, 1fr); }
+}

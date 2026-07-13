@@ -1,0 +1,94 @@
+---
+pagination:
+  data: site.locales
+  size: 1
+  alias: loc
+permalink: "{{ 'it-services' | localePath(loc.code) }}index.html"
+eleventyComputed:
+  locale: "{{ loc.code }}"
+  dir: "{{ loc.dir }}"
+layout: layouts/page.njk
+pageKey: itServices
+pageSlug: it-services
+---
+{%- set t = locales[locale] -%}
+{%- set p = t.pages.itServices -%}
+
+<section class="page-hero">
+  <div class="page-hero-inner" data-animate>
+    <span class="page-hero-label">{{ p.hero.label }}</span>
+    <h1>{{ p.hero.h1 }}</h1>
+    <p>{{ p.hero.body }}</p>
+  </div>
+</section>
+
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="{{ '' | localeUrl(locale) }}">{{ t.common.home }}</a> &rsaquo; <span>{{ p.breadcrumb }}</span>
+  </div>
+</div>
+
+<section class="section">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.offeringsLabel }}</span>
+    <h2 class="section-title">{{ p.offeringsTitle }}</h2>
+    <p class="section-sub">{{ p.offeringsSub }}</p>
+    <div class="services-grid">
+      {%- for o in p.offerings %}
+      <div class="service-card">
+        <div class="service-icon">{{ o.icon }}</div>
+        <h3>{{ o.title }}</h3>
+        <p>{{ o.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.howWeWorkLabel }}</span>
+    <h2 class="section-title">{{ p.howWeWorkTitle }}</h2>
+    <p class="section-sub">{{ p.howWeWorkSub }}</p>
+    <div class="approach-strip">
+      {%- for step in p.howWeWork %}
+      <div class="approach-item">
+        <span class="icon">{% if loop.index == 1 %}📝{% elif loop.index == 2 %}💬{% elif loop.index == 3 %}🛠️{% else %}✅{% endif %}</span>
+        <h4>{{ step.title }}</h4>
+        <p>{{ step.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.capabilitiesLabel }}</span>
+    <h2 class="section-title">{{ p.capabilitiesTitle }}</h2>
+    <p class="section-sub">{{ p.capabilitiesSub }}</p>
+    <div class="capabilities-list">
+      {%- for cap in p.capabilities %}
+      <div class="capability-item">{{ cap }}</div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="cta-box" data-animate>
+    <h2>{{ p.cta.title }}</h2>
+    <p>{{ p.cta.body }}</p>
+    <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-cta">{{ t.common.requestQuote }}</a>
+    <div class="contact-strip">
+      <div class="contact-item">
+        <span>{{ t.common.emailLabel }}</span>
+        <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
+      </div>
+      <div class="contact-item">
+        <span>{{ t.common.websiteLabel }}</span>
+        <a href="https://www.nordicriser.com">www.nordicriser.com</a>
+      </div>
+    </div>
+  </div>
+</section>

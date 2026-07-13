@@ -1,0 +1,12 @@
+{%- set t = locales[locale] -%}
+<div class="nr-lang-switch" id="langSwitch">
+  <button type="button" class="nr-lang-btn" onclick="toggleLangMenu()" aria-haspopup="true" aria-expanded="false" aria-label="{{ t.nav.languageLabel }}">
+    <span class="nr-lang-globe" aria-hidden="true">🌐</span>
+    <span class="nr-lang-code">{{ locale | upper }}</span>
+  </button>
+  <ul class="nr-lang-menu" id="langMenu">
+    {%- for l in site.locales %}
+    <li><a href="{{ pageSlug | localeUrl(l.code) }}" data-lang="{{ l.code }}"{% if l.code == locale %} class="current"{% endif %}>{{ l.name }}</a></li>
+    {%- endfor %}
+  </ul>
+</div>

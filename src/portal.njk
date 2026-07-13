@@ -1,0 +1,56 @@
+---
+permalink: "portal.html"
+layout: layouts/page.njk
+locale: en
+dir: ltr
+pageKey: portal
+pageSlug: portal
+singleLocale: true
+robots: "noindex, nofollow"
+---
+{%- set t = locales[locale] -%}
+{%- set p = t.pages.portal -%}
+
+<section class="page-hero">
+  <div class="page-hero-inner" data-animate>
+    <span class="page-hero-label">{{ p.hero.label }}</span>
+    <h1>{{ p.hero.h1 }}</h1>
+    <p>{{ p.hero.body }}</p>
+  </div>
+</section>
+
+<main class="main">
+  <div class="card" data-animate>
+    <div class="card-header">
+      <div class="brand-mark">
+        <svg viewBox="0 0 24 24">
+          <rect x="3" y="11" width="18" height="11" rx="2"/>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+        </svg>
+      </div>
+      <div class="card-header-text">
+        <h2>{{ p.cardTitle }}</h2>
+        <p>{{ p.cardSubtitle }}</p>
+      </div>
+    </div>
+
+    <div class="portal-features">
+      <h3>{{ p.featuresHeading }}</h3>
+      <div class="feature-list">
+        {%- for f in p.features %}
+        <div class="feature-item"><div class="feature-dot"></div>{{ f }}</div>
+        {%- endfor %}
+      </div>
+    </div>
+
+    <div class="btn-group">
+      <a href="https://portal.nordicriser.com" class="portal-btn portal-btn-primary">{{ p.primaryButton }}</a>
+      <a href="{{ 'contact' | localeUrl(locale) }}" class="portal-btn portal-btn-secondary">{{ p.secondaryButton }}</a>
+    </div>
+
+    <div class="card-note">
+      <p>{{ p.noteAccess }}</p>
+      <p>{{ p.noteSignup }}</p>
+    </div>
+  </div>
+</main>

@@ -1,0 +1,30 @@
+{%- set t = locales[locale] -%}
+<!DOCTYPE html>
+<html lang="{{ locale }}" dir="{{ dir }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ t.pages[pageKey].hero.h1 }} — Nordic Riser AB</title>
+  <meta name="description" content="{{ t.pages[pageKey].hero.body }}">
+  <meta name="robots" content="{{ robots | default('index, follow') }}">
+  <link rel="canonical" href="{{ site.baseUrl }}{{ pageSlug | localeUrl(locale) }}">
+  {%- if not singleLocale %}
+  {%- for l in site.locales %}
+  <link rel="alternate" hreflang="{{ l.code }}" href="{{ site.baseUrl }}{{ pageSlug | localeUrl(l.code) }}">
+  {%- endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.baseUrl }}{{ pageSlug | localeUrl('en') }}">
+  {%- endif %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  {%- if dir == "rtl" %}
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  {%- endif %}
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/pillars.css">
+  <link rel="stylesheet" href="/assets/css/pages.css">
+</head>
+<body>
+{{ content | safe }}
+</body>
+</html>

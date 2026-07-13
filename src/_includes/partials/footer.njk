@@ -1,0 +1,47 @@
+{%- set t = locales[locale] -%}
+<footer class="footer">
+  <div class="footer-main">
+    <div class="footer-brand">
+      <a href="{{ '' | localeUrl(locale) }}" class="footer-logo">Nordic Riser <span>AB</span></a>
+      <p>{{ t.footer.brandBlurb }}</p>
+      <div class="footer-address">
+        <strong>{{ t.footer.addressHeading }}</strong>
+        Nordic Riser AB<br>
+        Stockholm, Sweden<br>
+        <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>{{ t.footer.servicesHeading }}</h4>
+      <ul>
+        {%- for link in t.footer.servicesLinks %}
+        <li><a href="{{ 'consulting' | localeUrl(locale) }}#{{ link.anchor }}">{{ link.label }}</a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>{{ t.footer.firmHeading }}</h4>
+      <ul>
+        <li><a href="{{ 'about' | localeUrl(locale) }}">{{ t.footer.firmLinks.about }}</a></li>
+        <li><a href="{{ 'contact' | localeUrl(locale) }}">{{ t.footer.firmLinks.contact }}</a></li>
+        <li><a href="{{ 'privacy' | localeUrl(locale) }}">{{ t.footer.firmLinks.privacy }}</a></li>
+        <li><a href="https://portal.nordicriser.com">{{ t.footer.firmLinks.memberPortal }}</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>{{ t.footer.complianceHeading }}</h4>
+      <div class="footer-disclaimer-box">
+        <strong>{{ t.footer.disclaimerHeading }}</strong>
+        <p>{{ t.footer.disclaimer }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>{{ t.footer.copyright }}</span>
+    <ul class="footer-bottom-links">
+      <li><a href="{{ 'privacy' | localeUrl(locale) }}">{{ t.footer.firmLinks.privacy }}</a></li>
+      <li><a href="{{ 'contact' | localeUrl(locale) }}">{{ t.footer.firmLinks.contact }}</a></li>
+      <li><a href="https://portal.nordicriser.com">{{ t.footer.firmLinks.memberPortal }}</a></li>
+    </ul>
+  </div>
+</footer>

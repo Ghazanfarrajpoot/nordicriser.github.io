@@ -1,0 +1,579 @@
+{
+  "meta": { "code": "pt", "name": "Português", "dir": "ltr", "status": "MACHINE_TRANSLATED_NEEDS_REVIEW" },
+  "common": {
+    "bookConsultation": "Marcar uma Consulta",
+    "learnMore": "Saiba mais →",
+    "readMore": "Ler mais →",
+    "requestQuote": "Solicitar Orçamento",
+    "signUp": "Registar-se",
+    "emailLabel": "Email",
+    "websiteLabel": "Website",
+    "home": "Início",
+    "pricingOnRequest": "Preços sob consulta"
+  },
+  "nav": {
+    "home": "Início",
+    "consulting": "Consultoria",
+    "itServices": "Serviços de TI",
+    "globalReach": "Alcance Global",
+    "about": "Sobre Nós",
+    "contact": "Contacto",
+    "memberLogin": "Acesso de Membros",
+    "languageLabel": "Idioma"
+  },
+  "footer": {
+    "brandBlurb": "Uma consultoria internacional que presta serviços estruturados de consultoria, tecnologia e colaboração global a empreendedores e profissionais que constroem uma presença legalmente conforme na Europa.",
+    "addressHeading": "Sede Registada",
+    "servicesHeading": "Serviços de Consultoria",
+    "firmHeading": "A Empresa",
+    "complianceHeading": "Conformidade",
+    "disclaimerHeading": "Aviso Legal",
+    "disclaimer": "A Nordic Riser AB presta exclusivamente serviços de consultoria estratégica. Não prestamos representação legal, aconselhamento em matéria de imigração, nem garantias de resultado. Todas as decisões cabem às autoridades competentes. Conformidade em primeiro lugar em tudo o que fazemos.",
+    "copyright": "© 2026 Nordic Riser AB. Todos os direitos reservados. Stockholm, Sweden.",
+    "servicesLinks": [
+      { "label": "Estabelecimento de Negócios", "anchor": "establishment" },
+      { "label": "Constituição de Empresas", "anchor": "formation" },
+      { "label": "Planeamento de Negócios", "anchor": "documentation" },
+      { "label": "Estratégia de Relocalização", "anchor": "relocation" },
+      { "label": "Consultoria Transfronteiriça", "anchor": "international" }
+    ],
+    "firmLinks": {
+      "about": "Sobre Nós",
+      "contact": "Contacto",
+      "privacy": "Política de Privacidade",
+      "memberPortal": "Portal de Membros"
+    }
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "label": "Uma Plataforma, Três Pilares",
+        "h1": "A Sua Porta de Entrada para a Suécia — e para o Mundo",
+        "body": "Consultoria estruturada, tecnologia e colaboração global sob o mesmo teto — concebidas para empreendedores internacionais, profissionais e as empresas que estabelecem.",
+        "cta": "Marcar uma Consulta"
+      },
+      "pillars": {
+        "label": "O Que Oferecemos",
+        "title": "Três Pilares. Uma Plataforma.",
+        "sub": "Seja qual for a fase em que se encontra — a estabelecer um negócio, a construir a tecnologia que o sustenta, ou a ligar-se a consultores e pares — existe um pilar concebido para isso.",
+        "consulting": {
+          "icon": "🏢",
+          "title": "Consultoria",
+          "promise": "Consultoria estruturada e conforme em negócios e relocalização para empreendedores internacionais.",
+          "bullets": [
+            "Estratégia de estabelecimento de negócios e constituição de empresas",
+            "Planeamento de relocalização e residência através de atividade empresarial",
+            "Consultoria transfronteiriça para operações multijurisdicionais"
+          ]
+        },
+        "itServices": {
+          "icon": "💻",
+          "title": "Serviços de TI",
+          "promise": "Plataformas web e sistemas de negócio construídos para as empresas que ajudamos a estabelecer.",
+          "bullets": [
+            "Sites empresariais e portais de clientes",
+            "Automação de fluxos de trabalho e integrações",
+            "Suporte e manutenção contínuos"
+          ]
+        },
+        "globalReach": {
+          "icon": "🌐",
+          "title": "Alcance Global",
+          "promise": "Sessões estruturadas e ao vivo que o ligam a consultores e pares — de qualquer lugar.",
+          "bullets": [
+            "Salas de estudo e consulta ao vivo",
+            "Acesso direto a especialistas",
+            "Planos de subscrição flexíveis"
+          ]
+        },
+        "learnMore": "Saiba mais →"
+      },
+      "whatWeDo": {
+        "label": "O Que Fazemos",
+        "title": "Consultoria Estratégica em Cinco Áreas Fundamentais",
+        "sub": "Prestamos consultoria estruturada em todo o espetro do estabelecimento de negócios internacionais e da relocalização profissional — sem conselhos genéricos.",
+        "services": [
+          { "icon": "🏢", "title": "Estabelecimento de Negócios", "body": "Orientação estruturada sobre a escolha da estrutura jurídica, os procedimentos de registo e a conformidade operacional para empresários internacionais que entram nos mercados europeus.", "note": "Especializado para investidores de fora da UE que procuram uma porta de entrada segura para os mercados europeus.", "anchor": "establishment" },
+          { "icon": "📋", "title": "Estratégia de Constituição de Empresas", "body": "Planeamento estratégico da estrutura societária adequada, com base no seu modelo de negócio, nos requisitos de titularidade e nos objetivos de longo prazo.", "anchor": "formation" },
+          { "icon": "🌍", "title": "Estratégia de Residência através de Negócio e Relocalização Familiar", "body": "Aconselhamento sobre vias legítimas de relocalização baseadas em atividade empresarial, para si e para a sua família, alinhadas com os quadros regulamentares e concebidas para resultados de residência sustentáveis.", "anchor": "relocation" },
+          { "icon": "🔗", "title": "Consultoria Transfronteiriça", "body": "Coordenação de considerações multijurisdicionais, incluindo fiscalidade, conformidade e estruturas jurídicas, para profissionais e empresas com atividade internacional.", "note": "Apoio estratégico em matéria de conformidade bancária europeia e estruturação de capital internacional.", "anchor": "international" },
+          { "icon": "📊", "title": "Planeamento de Negócios para Empreendedores", "body": "Desenvolvimento de planos de negócios estruturados e pacotes de documentação adaptados aos requisitos das autoridades e instituições europeias.", "anchor": "documentation" }
+        ]
+      },
+      "leadCapture": {
+        "title": "Ainda não está pronto para uma consulta? Comece pelo nosso guia gratuito.",
+        "bodyPrefix": "Transferir:",
+        "guideTitle": "Estabelecimento de Negócios na Europa — Uma Visão Estruturada para Empreendedores Internacionais",
+        "placeholder": "O seu endereço de email",
+        "button": "Enviar-me o Guia"
+      },
+      "whoWeWorkWith": {
+        "label": "Com Quem Trabalhamos",
+        "title": "Concebido para Profissionais com Visão Internacional",
+        "sub": "Os nossos clientes provêm de diversas origens profissionais e geografias. O que têm em comum é a ambição estruturada de estabelecer uma presença empresarial credível na Europa.",
+        "audiences": [
+          { "tag": "Empreendedores", "title": "Fundadores de Negócios a Planear a Europa", "body": "Indivíduos com projetos empresariais estabelecidos ou em fase inicial que exploram a entrada no mercado europeu através de uma estrutura empresarial em conformidade." },
+          { "tag": "Freelancers", "title": "Profissionais Independentes com Atividade Global", "body": "Profissionais qualificados que prestam serviços a nível internacional e que necessitam de uma entidade empresarial juridicamente sólida e de uma abordagem estruturada de residência." },
+          { "tag": "Profissionais", "title": "Executivos com Mobilidade Internacional", "body": "Profissionais séniores em transição entre mercados que necessitam de um enquadramento claro e estruturado para a sua relocalização profissional e pessoal." },
+          { "tag": "Proprietários de PME", "title": "Pequenos Empresários em Expansão para a Europa", "body": "Empresários que procuram estabelecer uma base operacional europeia, aceder a novos mercados ou reestruturar a sua presença empresarial internacional." }
+        ]
+      },
+      "process": {
+        "label": "O Nosso Processo",
+        "title": "Um Modelo de Colaboração Claro em Quatro Etapas",
+        "sub": "Cada colaboração segue uma metodologia estruturada, concebida para gerar clareza, conformidade e resultados práticos em cada fase.",
+        "steps": [
+          { "title": "Consulta Estratégica", "body": "Realizamos uma avaliação estruturada do seu percurso, objetivos e limitações, para identificar o caminho mais viável e conforme a seguir." },
+          { "title": "Planeamento da Estrutura Empresarial", "body": "Com base nos seus objetivos, concebemos um enquadramento societário e operacional à medida — incluindo o tipo de entidade, a jurisdição e os requisitos de conformidade." },
+          { "title": "Desenvolvimento da Estratégia de Relocalização", "body": "Desenvolvemos uma estratégia documentada de relocalização e residência alinhada com o seu plano de negócios, assegurando que todos os requisitos institucionais são cumpridos." },
+          { "title": "Implementação com Parceiros Profissionais", "body": "Coordenamos a execução em conjunto com profissionais jurídicos, contabilísticos e especialistas qualificados — garantindo rigor, conformidade e comunicação clara em todas as etapas." }
+        ]
+      },
+      "whyChooseUs": {
+        "label": "Por Que os Clientes Nos Escolhem",
+        "title": "Uma Consultoria Assente em Padrões Profissionais",
+        "sub": "Atuamos com uma abordagem de conformidade em primeiro lugar. O nosso valor reside na qualidade da nossa orientação estratégica, não em promessas de resultados.",
+        "cards": [
+          { "title": "Abordagem de Consultoria Profissional", "body": "Cada colaboração é estruturada, documentada e gerida com o rigor de uma prática de consultoria profissional — e não um serviço de aconselhamento genérico." },
+          { "title": "Apenas Estruturas Legais e Conformes", "body": "Trabalhamos exclusivamente dentro de enquadramentos jurídicos estabelecidos. As nossas estratégias são defensáveis, transparentes e alinhadas com os padrões institucionais." },
+          { "title": "Orientação Estratégica, Não Conselhos Genéricos", "body": "As nossas recomendações são específicas à sua situação. Não oferecemos soluções-modelo nem programas genéricos." },
+          { "title": "Apoio de Longo Prazo Centrado no Negócio", "body": "Adotamos uma visão de longo prazo nas relações com os clientes. O nosso foco são resultados sustentáveis que sirvam os seus interesses profissionais e empresariais ao longo do tempo." }
+        ]
+      },
+      "trust": {
+        "label": "A Confiança de Empreendedores Internacionais",
+        "title": "Um Historial Assente em Estrutura e Conformidade",
+        "sub": "Uma prática de consultoria construída para a credibilidade transfronteiriça, colaborações estruturadas e conformidade regulamentar.",
+        "stats": [
+          { "number": "12+ Países", "label": "Clientes Atendidos em Toda a Europa" },
+          { "number": "3 Pilares de Serviço", "label": "Consultoria, TI e Alcance Global" },
+          { "number": "Stockholm, Sweden", "label": "Sediada e Regulada na UE" },
+          { "number": "Conformidade em Primeiro Lugar", "label": "Em Cada Colaboração" }
+        ],
+        "testimonials": [
+          { "quote": "A Nordic Riser deu-nos um roteiro claro e estruturado quando não sabíamos por onde começar. A nossa empresa sueca foi estabelecida dentro do prazo que delinearam.", "author": "Empreendedor, Paquistão", "meta": "Empresa estabelecida na Suécia, 2025" },
+          { "quote": "O nível de profissionalismo e de documentação que nos forneceram tornou as nossas reuniões bancárias significativamente mais fáceis. Não teria conseguido gerir este processo sem a sua orientação.", "author": "Profissional Independente, EAU", "meta": "Relocalizado para a Europa, 2024" }
+        ]
+      },
+      "finalCta": {
+        "title": "Pronto para Construir a Sua Presença Empresarial na Europa?",
+        "body": "Fale com um consultor e receba uma estratégia estruturada baseada na sua situação, objetivos e percurso específicos."
+      }
+    },
+    "about": {
+      "hero": { "label": "Sobre a Empresa", "h1": "Uma Consultoria Internacional Assente em Estratégia e Conformidade", "body": "Ajudamos empreendedores e profissionais a estabelecer operações empresariais legalmente estruturadas e sustentáveis na Europa — através de uma abordagem metódica e centrada na conformidade." },
+      "breadcrumb": "Sobre Nós",
+      "whoWeAre": {
+        "label": "Quem Somos",
+        "title": "Uma Prática de Consultoria Profissional para Negócios Internacionais",
+        "intro1": "A Nordic Riser AB é uma consultoria internacional especializada no estabelecimento estratégico de negócios e na relocalização profissional estruturada na Europa. Trabalhamos com empreendedores, profissionais independentes e empresários que constroem uma presença credível e legalmente conforme nos mercados europeus.",
+        "intro2": "O nosso trabalho é de natureza consultiva. Não prestamos representação legal nem serviços de imigração. Em vez disso, oferecemos orientação estratégica estruturada — associada à coordenação de profissionais qualificados nas áreas jurídica, contabilística e regulamentar — para garantir que cada processo empreendido pelos nossos clientes assenta em bases sólidas e defensáveis.",
+        "mission": "“Prestar serviços de consultoria estratégica que ajudem empreendedores internacionais a estabelecer operações empresariais legalmente estruturadas e sustentáveis na Europa.”"
+      },
+      "whyWeExist": {
+        "label": "Por Que Fomos Criados",
+        "title": "Criados para Colmatar uma Lacuna Real na Consultoria Internacional",
+        "sub": "Reconhecemos que demasiados profissionais com visão internacional navegavam processos complexos de negócios e relocalização na Europa sem acesso a apoio estratégico estruturado e de nível profissional.",
+        "problemTitle": "O Problema Que Resolvemos",
+        "problemParagraphs": [
+          "Empreendedores e profissionais internacionais deparam-se frequentemente com aconselhamento fragmentado — informação genérica que não tem em conta o seu modelo de negócio específico, o seu percurso profissional ou os seus objetivos de longo prazo. O resultado é um planeamento deficiente, atrasos evitáveis e estruturas que não resistem ao escrutínio institucional.",
+          "A Nordic Riser AB foi criada para mudar esta realidade. Trazemos o rigor de uma consultoria para um processo que é frequentemente desestruturado — proporcionando clareza, documentação e coordenação profissional em cada etapa.",
+          "O nosso foco está sempre na estratégia de longo prazo e em resultados sustentáveis, não na conveniência de curto prazo."
+        ],
+        "pillars": [
+          { "icon": "📐", "title": "Estratégia de Longo Prazo", "body": "Concebemos estruturas que servem os seus objetivos empresariais ao longo do tempo, não apenas as necessidades imediatas." },
+          { "icon": "⚖️", "title": "Plena Conformidade Legal", "body": "Cada recomendação assenta nos quadros regulamentares e nos padrões institucionais em vigor." },
+          { "icon": "🗂️", "title": "Soluções Empresariais Estruturadas", "body": "Fornecemos processos documentados e sistemáticos — não orientação informal nem informação genérica." },
+          { "icon": "🤝", "title": "Padrões Profissionais de Consultoria", "body": "As nossas colaborações são geridas com a disciplina e a responsabilização de uma empresa de serviços profissionais." }
+        ]
+      },
+      "approach": {
+        "label": "A Nossa Abordagem",
+        "title": "Estratégia em Primeiro Lugar. Estrutura Sempre. Conformidade em Todo o Processo.",
+        "sub": "A nossa metodologia é consistente em todas as colaborações. Começamos pela estratégia, construímos a estrutura jurídica e operacional adequada, e coordenamos a execução com profissionais licenciados.",
+        "items": [
+          { "title": "Estratégia Antes da Ação", "body": "Avaliamos exaustivamente a sua situação específica antes de fazer qualquer recomendação. A clareza estratégica é a base de toda colaboração bem-sucedida." },
+          { "title": "Estrutura Jurídica por Design", "body": "Identificamos o enquadramento jurídico e societário adequado às suas circunstâncias — o tipo de entidade, a jurisdição e as obrigações de conformidade são determinados de forma sistemática." },
+          { "title": "Apenas Orientação Profissional", "body": "Não oferecemos informação genérica. Cada recomendação é específica, documentada e fundamentada na prática profissional de consultoria." },
+          { "title": "Execução com Parceiros Licenciados", "body": "A implementação é coordenada com profissionais jurídicos, contabilísticos e especialistas qualificados — garantindo rigor técnico e conformidade regulamentar em cada etapa." },
+          { "title": "Foco Empresarial de Longo Prazo", "body": "Medimos o sucesso pela sustentabilidade das estruturas que ajudamos a criar — não pelo volume de colaborações que processamos." },
+          { "title": "Comunicação Transparente", "body": "Fornecemos avaliações honestas e realistas. Não exageramos o que é exequível, e comunicamos os requisitos com clareza em cada etapa." }
+        ]
+      },
+      "values": {
+        "label": "Os Nossos Valores",
+        "title": "Os Princípios Que Orientam o Nosso Trabalho",
+        "sub": "Estas não são declarações aspiracionais. São os padrões operacionais pelos quais cada colaboração é gerida.",
+        "items": [
+          { "icon": "⚖️", "title": "Conformidade em Primeiro Lugar", "body": "Cada processo que concebemos é construído para resistir ao escrutínio institucional. A legalidade não é negociável — é a base a partir da qual todas as estratégias são desenvolvidas." },
+          { "icon": "🎯", "title": "Transparência", "body": "Comunicamos com honestidade — sobre requisitos, prazos e resultados realistas. Não fazemos promessas sobre decisões que cabem a terceiros ou a autoridades." },
+          { "icon": "📋", "title": "Processo Estruturado", "body": "Cada colaboração é documentada e gerida de forma sistemática. Não prestamos aconselhamento pontual — praticamos uma metodologia estruturada." },
+          { "icon": "🤝", "title": "Parcerias Profissionais", "body": "Mantemos relações de trabalho com profissionais qualificados nas áreas jurídica, fiscal e especializada — garantindo que os aspetos técnicos e regulamentares são tratados com a devida competência." },
+          { "icon": "🛡️", "title": "Confidencialidade", "body": "A informação dos clientes é tratada com padrões rigorosos de discrição. Os dados pessoais e comerciais são tratados como estritamente confidenciais em todas as colaborações." },
+          { "icon": "📐", "title": "Aconselhamento Personalizado", "body": "Não aplicamos soluções-modelo. Cada colaboração é avaliada individualmente, e a estratégia é desenvolvida de acordo com as circunstâncias e objetivos específicos do cliente." }
+        ]
+      },
+      "missionBlock": { "label": "A Nossa Missão", "missionLabel": "Declaração de Missão", "statement": "Prestar serviços de consultoria estratégica que ajudem empreendedores e profissionais internacionais a estabelecer operações empresariais legalmente estruturadas, conformes e sustentáveis na Europa — apoiadas por orientação profissional, processos documentados e pensamento estratégico de longo prazo." },
+      "cta": { "title": "Fale com um Consultor", "body": "Se está a considerar estabelecer uma presença empresarial na Europa, convidamo-lo a marcar uma consulta inicial. Iremos avaliar a sua situação e fornecer uma visão estruturada do caminho a seguir." }
+    },
+    "contact": {
+      "hero": { "label": "Entre em Contacto", "h1": "Marque uma Consulta com a Nossa Equipa de Consultoria", "body": "As nossas consultas são estruturadas e centram-se na compreensão da sua situação específica antes de ser prestado qualquer aconselhamento estratégico. Preencha o formulário abaixo para solicitar uma consulta inicial." },
+      "breadcrumb": "Contacto",
+      "form": {
+        "title": "Formulário de Pedido de Consulta",
+        "intro": "Forneça informação exata sobre a sua situação e objetivos. Isto permite-nos avaliar se os nossos serviços são relevantes para as suas necessidades e preparar uma consulta inicial produtiva.",
+        "firstName": "Primeiro Nome",
+        "firstNamePlaceholder": "O seu primeiro nome",
+        "lastName": "Apelido",
+        "lastNamePlaceholder": "O seu apelido",
+        "email": "Endereço de Email",
+        "emailPlaceholder": "seu@email.com",
+        "businessType": "Tipo de Negócio",
+        "businessTypeOptions": [
+          { "value": "", "label": "Selecione o seu tipo de negócio" },
+          { "value": "entrepreneur", "label": "Empreendedor / Fundador de Empresa" },
+          { "value": "freelancer", "label": "Freelancer / Profissional Independente" },
+          { "value": "professional", "label": "Profissional Empregado / Executivo" },
+          { "value": "sme", "label": "Pequeno Empresário" },
+          { "value": "other", "label": "Outro" }
+        ],
+        "purpose": "Finalidade da Consulta",
+        "purposeOptions": [
+          { "value": "", "label": "Selecione a finalidade principal" },
+          { "value": "relocation", "label": "Estratégia de Relocalização Empresarial" },
+          { "value": "formation", "label": "Planeamento da Constituição de Empresa" },
+          { "value": "businessplan", "label": "Preparação de Plano de Negócios" },
+          { "value": "itservices", "label": "Consulta sobre Serviços de TI" },
+          { "value": "globalreach", "label": "Subscrição Alcance Global" },
+          { "value": "general", "label": "Consulta Geral" }
+        ],
+        "message": "Breve Descrição da Sua Situação",
+        "messagePlaceholder": "Descreva a sua situação atual, os seus objetivos e quaisquer questões específicas que tenha. Quanto mais específico for, mais produtiva será a nossa consulta inicial.",
+        "messageHint": "Esta informação é tratada como estritamente confidencial e é utilizada exclusivamente para preparar a sua consulta.",
+        "consent": "Ao submeter este formulário, confirma que a informação fornecida é exata e que consente que a Nordic Riser AB conserve os seus dados de contacto com a finalidade de responder à sua consulta. Não partilhamos informação dos clientes com terceiros.",
+        "submit": "Submeter Pedido de Consulta →"
+      },
+      "success": { "title": "Pedido Recebido", "body": "Obrigado por submeter o seu pedido de consulta. Um membro da nossa equipa de consultoria irá analisar a sua informação e responder no prazo de 1 a 2 dias úteis." },
+      "sidebar": {
+        "directContactHeading": "Contacto Direto",
+        "hoursLabel": "Horário de Funcionamento",
+        "hoursValue": "Segunda a Sexta, 09:00 – 17:00 CET",
+        "nextHeading": "O Que Acontece a Seguir",
+        "steps": [
+          { "title": "Análise do Formulário", "body": "Analisamos a sua submissão para avaliar a relevância e o âmbito dos seus requisitos." },
+          { "title": "Resposta Inicial", "body": "Respondemos no prazo de 1 a 2 dias úteis para confirmar a consulta ou solicitar qualquer informação adicional necessária." },
+          { "title": "Consulta Estruturada", "body": "A consulta é conduzida com uma agenda clara, centrada na sua situação, nos seus objetivos e no caminho mais adequado a seguir." },
+          { "title": "Proposta Estratégica", "body": "Após a consulta, fornecemos um resumo escrito da abordagem recomendada e dos serviços relevantes." }
+        ],
+        "noteHeading": "Nota Importante",
+        "noteBody": "Analisamos todas as submissões antes de confirmar as consultas. Trabalhamos com clientes cujas situações se adequam aos nossos serviços — se a sua não se adequar, iremos informá-lo em conformidade e, sempre que possível, sugerir um recurso mais adequado."
+      },
+      "closing": {
+        "label": "Por Que uma Consulta Estruturada",
+        "title": "Não Oferecemos Aconselhamento Genérico",
+        "paragraphs": [
+          "Cada consulta na Nordic Riser AB começa com uma avaliação exaustiva da sua situação específica. Não fornecemos respostas-modelo nem orientação pré-definida. Antes de qualquer recomendação estratégica, dedicamos tempo a compreender o seu percurso profissional, o seu modelo de negócio e os seus objetivos de longo prazo.",
+          "Se está determinado a construir uma presença empresarial legalmente estruturada na Europa e está preparado para se envolver no processo de forma profissional, damos as boas-vindas à sua consulta. As nossas consultas são uma sessão de trabalho — não uma chamada de vendas."
+        ]
+      }
+    },
+    "privacy": {
+      "hero": { "label": "Legal", "h1": "Política de Privacidade", "body": "Como a Nordic Riser AB recolhe, utiliza e protege as suas informações pessoais em conformidade com o Regulamento Geral sobre a Proteção de Dados (RGPD) da UE." },
+      "breadcrumb": "Política de Privacidade",
+      "updatedBadge": "📅 Última Atualização: 23 de junho de 2026",
+      "translationNotice": "Esta página foi traduzida automaticamente. Em caso de discrepância, a versão em inglês prevalece. Contacte-nos com quaisquer questões.",
+      "tocLabel": "Índice",
+      "toc": [
+        "1. Introdução", "2. Responsável pelo Tratamento de Dados", "3. Informação que Recolhemos", "4. Como Utilizamos os Seus Dados",
+        "5. Partilha de Dados", "6. Segurança dos Dados", "7. Retenção de Dados", "8. Os Seus Direitos (RGPD)",
+        "9. Cookies", "10. Privacidade de Menores", "11. Alterações à Política", "12. Autoridade de Controlo", "13. Contacto"
+      ],
+      "sections": {
+        "s1": { "title": "Introdução", "body": [
+          "A Nordic Riser AB (“nós”, “a nossa empresa” ou “nos”) compromete-se a proteger a sua privacidade e a garantir a segurança das suas informações pessoais. Esta Política de Privacidade explica como recolhemos, utilizamos, divulgamos e protegemos as suas informações quando visita o nosso website ou recorre aos nossos serviços de consultoria.",
+          "Esta política foi concebida para cumprir o Regulamento Geral sobre a Proteção de Dados (RGPD) da UE e a legislação de proteção de dados aplicável. Ao utilizar o nosso website ou submeter uma consulta, reconhece que leu e compreendeu esta política."
+        ]},
+        "s2": { "title": "Responsável pelo Tratamento de Dados", "body": [
+          "A Nordic Riser AB é o responsável pelo tratamento das suas informações pessoais recolhidas através do nosso website e serviços.",
+          "Nordic Riser AB — Email: info@nordicriser.com — Website: www.nordicriser.com",
+          "Para todas as questões relacionadas com a proteção de dados, contacte-nos utilizando os dados acima, com a linha de assunto “Consulta sobre Proteção de Dados”."
+        ]},
+        "s3": { "title": "Informação que Recolhemos", "subheadings": [
+          { "title": "3.1 Informação que Fornece Diretamente", "intro": "Recolhemos informação que nos fornece voluntariamente, incluindo:", "list": [
+            "Informação de Contacto: Nome, endereço de email, número de telefone",
+            "Informação Profissional: Tipo de negócio, percurso profissional, objetivos empresariais",
+            "Dados do Pedido de Consulta: Finalidade da consulta e descrição da sua situação, tal como submetidas através do nosso formulário de contacto",
+            "Dados de Comunicação: Informação contida em emails e outra correspondência com a nossa equipa"
+          ]},
+          { "title": "3.2 Informação Recolhida Automaticamente", "intro": "Quando visita o nosso website, podemos recolher automaticamente:", "list": [
+            "Dados Técnicos: Endereço IP, tipo de navegador, sistema operativo, informação do dispositivo",
+            "Dados de Utilização: Páginas visitadas, tempo despendido nas páginas, percursos de navegação",
+            "Cookies: Pequenos ficheiros de dados armazenados no seu dispositivo (ver Secção 9)"
+          ]}
+        ]},
+        "s4": { "title": "Como Utilizamos a Sua Informação", "intro": "Tratamos os seus dados pessoais apenas para as finalidades a seguir indicadas, cada uma sustentada por um fundamento jurídico ao abrigo do RGPD:",
+          "table": { "headers": ["Finalidade", "Fundamento Jurídico (RGPD)"], "rows": [
+            ["Responder a pedidos de consulta e questões", "Execução de contrato / Interesse legítimo"],
+            ["Prestar serviços estratégicos de consultoria, tecnologia e colaboração global", "Execução de contrato"],
+            ["Comunicar sobre os nossos serviços e o progresso da colaboração", "Execução de contrato / Consentimento"],
+            ["Melhorar o nosso website e a qualidade dos serviços", "Interesse legítimo"],
+            ["Coordenar com profissionais terceiros (jurídicos, contabilísticos)", "Execução de contrato / Interesse legítimo"],
+            ["Cumprimento de obrigações legais e regulamentares", "Obrigação legal"]
+          ]},
+          "note": "Não venderemos, alugaremos ou trocaremos as suas informações pessoais com terceiros. Não utilizaremos os seus dados para finalidades incompatíveis com as acima indicadas."
+        },
+        "s5": { "title": "Partilha e Divulgação de Dados", "subheadings": [
+          { "title": "5.1 Parceiros de Serviços Profissionais", "intro": "Sempre que necessário para prestar os nossos serviços, podemos partilhar informação relevante com profissionais terceiros qualificados, incluindo:", "list": [
+            "Advogados e consultores especialistas envolvidos no seu processo",
+            "Profissionais de contabilidade e fiscalidade envolvidos na constituição de empresas ou na conformidade",
+            "Fornecedores de tecnologia que apoiam o alojamento do nosso website e a infraestrutura de comunicações"
+          ], "outro": "Todos os terceiros são obrigados a manter medidas de segurança adequadas e apenas podem tratar os seus dados conforme as nossas instruções e dentro do âmbito das suas obrigações profissionais." },
+          { "title": "5.2 Requisitos Legais", "intro": "Podemos divulgar as suas informações pessoais quando tal for exigido por lei, regulamento, processo judicial ou por um pedido legítimo de uma autoridade governamental." },
+          { "title": "5.3 Transferências Internacionais de Dados", "intro": "Tratamos os dados essencialmente dentro da UE/EEE. Caso os dados sejam transferidos para fora da UE/EEE, asseguramos que existem salvaguardas adequadas — tais como Cláusulas Contratuais-Tipo ou decisões de adequação aplicáveis — antes de qualquer transferência dessa natureza." }
+        ]},
+        "s6": { "title": "Segurança dos Dados", "intro": "Implementamos medidas técnicas e organizativas adequadas para proteger as suas informações pessoais contra acesso não autorizado, alteração, divulgação ou destruição. Estas medidas incluem:", "list": [
+          "Canais de comunicação encriptados para a transmissão de informação sensível",
+          "Infraestrutura de servidores segura e sistemas de armazenamento de dados",
+          "Controlos de acesso e procedimentos de autenticação para sistemas internos",
+          "Revisão e atualização regulares das práticas de segurança",
+          "Sensibilização da equipa para as obrigações de proteção de dados"
+        ], "outro": "Embora tomemos todas as precauções razoáveis, nenhum método de transmissão ou armazenamento eletrónico é totalmente seguro. Não podemos garantir segurança absoluta, mas comprometemo-nos a proteger os seus dados ao mais alto nível praticável." },
+        "s7": { "title": "Retenção de Dados", "intro": "Conservamos as suas informações pessoais apenas durante o período necessário para cumprir as finalidades descritas nesta política e para cumprir as nossas obrigações legais:", "list": [
+          "Dados de Clientes Ativos: Duração da colaboração mais 7 anos (em conformidade com a legislação contabilística e de manutenção de registos aplicável)",
+          "Dados de Consultas (não convertidas): 2 anos a partir da data do último contacto",
+          "Dados de Análise do Website: Máximo de 26 meses",
+          "Registos de Consentimento: Até o consentimento ser retirado, mais um período razoável subsequente para efeitos de manutenção de registos"
+        ], "outro": "Após o termo do período de retenção aplicável, os dados pessoais são eliminados de forma segura ou anonimizados." },
+        "s8": { "title": "Os Seus Direitos ao Abrigo do RGPD", "intro": "Enquanto titular de dados ao abrigo do RGPD, tem os seguintes direitos relativamente aos seus dados pessoais:",
+          "rights": [
+            { "title": "Direito de Acesso", "body": "Solicitar uma cópia dos dados pessoais que detemos sobre si." },
+            { "title": "Direito de Retificação", "body": "Solicitar a correção de dados inexatos ou incompletos." },
+            { "title": "Direito ao Apagamento", "body": "Solicitar a eliminação dos seus dados em determinadas circunstâncias (“direito ao esquecimento”)." },
+            { "title": "Direito à Limitação do Tratamento", "body": "Solicitar que limitemos a forma como utilizamos os seus dados em circunstâncias específicas." },
+            { "title": "Direito à Portabilidade dos Dados", "body": "Receber os seus dados num formato estruturado e de leitura automática, sempre que aplicável." },
+            { "title": "Direito de Oposição", "body": "Opor-se ao tratamento baseado em interesses legítimos ou para fins de marketing direto." },
+            { "title": "Direito de Retirar o Consentimento", "body": "Retirar, a qualquer momento, qualquer consentimento dado, sem afetar o tratamento anterior." },
+            { "title": "Direito de Reclamação", "body": "Apresentar uma reclamação junto da autoridade de controlo competente (ver Secção 12)." }
+          ],
+          "outro": "Para exercer qualquer um dos direitos acima, contacte-nos através de info@nordicriser.com com a linha de assunto “Pedido do Titular dos Dados”. Responderemos no prazo de um mês de calendário, conforme exigido pelo RGPD."
+        },
+        "s9": { "title": "Cookies e Tecnologias de Rastreio", "body": [
+          "O nosso website é um site informativo estático com rastreio mínimo. Podemos utilizar cookies essenciais necessários para o funcionamento básico do site, incluindo a memorização do idioma selecionado. Atualmente, não utilizamos cookies de publicidade de terceiros ou de rastreio comportamental.",
+          "Se, no futuro, implementarmos análises ou tecnologias de rastreio adicionais, obteremos o seu consentimento prévio antes de definir quaisquer cookies não essenciais, forneceremos informação clara sobre a finalidade e a duração de cada cookie, e disponibilizaremos mecanismos simples para gerir ou retirar as suas preferências de cookies.",
+          "Pode controlar e eliminar cookies através das definições do seu navegador a qualquer momento. Note que a desativação de determinados cookies pode afetar a funcionalidade do website."
+        ]},
+        "s10": { "title": "Privacidade de Menores", "body": [
+          "Os nossos serviços destinam-se exclusivamente a adultos que exercem atividades profissionais e empresariais. Não recolhemos, conscientemente, dados pessoais de indivíduos com menos de 18 anos. Se acredita que recolhemos inadvertidamente dados de um menor, contacte-nos de imediato e tomaremos as medidas adequadas para eliminar essa informação."
+        ]},
+        "s11": { "title": "Alterações a Esta Política de Privacidade", "intro": "Podemos atualizar esta Política de Privacidade periodicamente, para refletir alterações nas nossas práticas, na legislação aplicável ou nos procedimentos operacionais. As alterações materiais serão comunicadas através de:", "list": [
+          "Atualização da data de “Última Atualização” no topo desta página",
+          "Sempre que apropriado, notificação dos clientes ativos por email",
+          "Publicação de um aviso no nosso website"
+        ], "outro": "Recomendamos que reveja esta política periodicamente. A utilização continuada do nosso website após qualquer atualização constitui aceitação da política revista." },
+        "s12": { "title": "Autoridade de Controlo", "intro": "Se tiver preocupações sobre a forma como tratamos os seus dados pessoais e não estiver satisfeito com a nossa resposta, tem o direito de apresentar uma reclamação junto da autoridade de controlo competente:", "body": [
+          "Integritetsskyddsmyndigheten (IMY) — Autoridade Sueca de Proteção da Privacidade",
+          "Box 8114, 104 20 Stockholm — Telefone: +46 8 657 61 00 — Website: www.imy.se"
+        ]},
+        "s13": { "title": "Contacte-nos Relativamente a Esta Política", "intro": "Se tiver quaisquer questões, preocupações ou pedidos relacionados com esta Política de Privacidade ou com as nossas práticas de dados, contacte-nos diretamente:", "cardTitle": "Consultas sobre Proteção de Dados", "cardBody": "Envie-nos um email com a linha de assunto “Consulta sobre Política de Privacidade” e responderemos prontamente." }
+      }
+    },
+    "consulting": {
+      "hero": { "label": "Consultoria", "h1": "Consultoria Estratégica para o Estabelecimento de Negócios Internacionais", "body": "Prestamos consultoria estruturada e profissional em cinco áreas de serviço fundamentais — cada uma concebida para apoiar empreendedores e profissionais que constroem uma presença empresarial conforme na Europa." },
+      "breadcrumb": "Consultoria",
+      "servicesLabel": "O Que Oferecemos",
+      "servicesTitle": "Cinco Áreas de Serviço Fundamentais",
+      "servicesSub": "Cada serviço que prestamos é entregue através de uma metodologia de consultoria estruturada — avaliado individualmente, documentado formalmente e coordenado com parceiros profissionais qualificados sempre que necessário.",
+      "services": [
+        {
+          "number": "01", "anchor": "relocation", "tagline": "Estratégia de Relocalização", "title": "Consultoria em Estratégia de Relocalização Empresarial",
+          "body": [
+            "Para empreendedores e profissionais que pretendem relocalizar-se para a Europa através de uma atividade empresarial estruturada, este serviço proporciona um planeamento estratégico que parte da sua situação empresarial e avança através dos requisitos de um processo de relocalização legalmente conforme e institucionalmente defensável.",
+            "Avaliamos o seu percurso profissional, o seu modelo de negócio e os seus objetivos, e desenvolvemos uma estratégia de relocalização documentada que integra a estrutura empresarial, os requisitos de atividade e o posicionamento de longo prazo. O nosso papel é garantir que cada elemento do seu plano é coerente, realista e alinhado com os quadros regulamentares — antes de qualquer passo ser dado.",
+            "Não prestamos aconselhamento em matéria de imigração nem representação legal. Fornecemos o enquadramento de consultoria estratégica a partir do qual especialistas qualificados podem atuar eficazmente."
+          ],
+          "includesHeading": "Este serviço inclui",
+          "includes": ["Avaliação da via de relocalização", "Planeamento da atividade empresarial", "Revisão de alinhamento regulamentar", "Estratégia de documentação", "Coordenação de parceiros profissionais", "Planeamento de calendário e marcos"]
+        },
+        {
+          "number": "02", "anchor": "formation", "tagline": "Constituição de Empresas", "title": "Estratégia de Constituição de Empresas",
+          "body": [
+            "Estabelecer uma entidade empresarial na Europa exige um planeamento estratégico cuidadoso antes de serem dados quaisquer passos formais. A escolha da estrutura jurídica, as considerações jurisdicionais, os acordos de titularidade e a configuração operacional têm todos implicações de longo prazo — e os erros nesta fase são difíceis e dispendiosos de corrigir.",
+            "Este serviço fornece consultoria estruturada sobre como abordar estrategicamente a constituição de empresas. Ajudamo-lo a compreender o panorama das estruturas disponíveis, a avaliar a opção mais adequada à sua situação e a desenvolver um plano de constituição que apoia tanto as suas necessidades operacionais imediatas como os seus objetivos empresariais de longo prazo.",
+            "A execução é coordenada com profissionais jurídicos e contabilísticos qualificados, que tratam do registo formal e do trabalho de conformidade dentro da sua capacidade licenciada."
+          ],
+          "includesHeading": "Este serviço inclui",
+          "includes": ["Avaliação da entidade jurídica", "Planeamento e seleção da estrutura", "Conceção da titularidade e governação", "Mapeamento do quadro de conformidade", "Orientação sobre configuração bancária e financeira", "Estratégia de posicionamento de longo prazo"]
+        },
+        {
+          "number": "03", "anchor": "documentation", "tagline": "Documentação Empresarial", "title": "Preparação Profissional de Planos de Negócios",
+          "body": [
+            "Um plano de negócios preparado para efeitos de relocalização ou estabelecimento empresarial é um documento formal que deve corresponder às expectativas das autoridades regulamentares europeias, das instituições financeiras e dos revisores profissionais. Não é um documento de marketing — é uma apresentação estruturada e fundamentada em evidências de um modelo de negócio viável.",
+            "Trabalhamos com os clientes para desenvolver planos de negócios que representem com exatidão a sua atividade, demonstrem viabilidade operacional e estejam estruturados de acordo com os requisitos institucionais. O processo é metódico: avaliamos o seu modelo de negócio, identificamos os requisitos de documentação relevantes para a sua situação e produzimos um plano coerente, credível e apresentado com profissionalismo.",
+            "Todos os planos de negócios preparados através deste serviço são desenvolvidos para apoiar processos formais — não são modelos genéricos, e não são produzidos sem uma compreensão completa das circunstâncias específicas do cliente."
+          ],
+          "includesHeading": "Este serviço inclui",
+          "includes": ["Avaliação do modelo de negócio", "Redação do resumo executivo", "Análise de mercado e de atividade", "Enquadramento de projeções financeiras", "Documentação da estrutura operacional", "Formatação e revisão institucional"]
+        },
+        {
+          "number": "04", "anchor": "freelancer", "tagline": "Consultoria para Freelancers e Empreendedores", "title": "Consultoria de Relocalização para Freelancers e Empreendedores",
+          "body": [
+            "Profissionais independentes, trabalhadores remotos e pequenos empresários enfrentam um conjunto distinto de desafios ao planear o estabelecimento de uma presença empresarial legal na Europa. Os enquadramentos padrão são frequentemente concebidos a pensar em entidades de maior dimensão, e a via para um trabalhador independente ou uma micro-empresa exige uma abordagem estratégica mais personalizada.",
+            "Este serviço foi concebido especificamente para freelancers, profissionais remotos e empreendedores em fase inicial que estão a construir — ou planeiam construir — uma base empresarial legal e sustentável na Europa. Ajudamo-lo a compreender o que constitui uma estrutura conforme para o seu perfil profissional, que documentação e planeamento são necessários, e como posicionar credivelmente a sua atividade dentro dos quadros regulamentares.",
+            "Avaliamos cada cliente individualmente. O que é adequado para um consultor de software difere significativamente do que é adequado para um profissional criativo ou um empreendedor de produtos — e a nossa consultoria reflete isso."
+          ],
+          "includesHeading": "Este serviço inclui",
+          "includes": ["Avaliação do perfil profissional", "Formalização do modelo de negócio", "Conceção de estrutura conforme", "Documentação de atividade e receitas", "Planeamento de residência através de atividade empresarial", "Revisão de sustentabilidade de longo prazo"]
+        },
+        {
+          "number": "05", "anchor": "international", "tagline": "Consultoria Internacional", "title": "Consultoria Empresarial Transfronteiriça",
+          "body": [
+            "Empreendedores que operam em vários países enfrentam um conjunto mais complexo de considerações estratégicas e estruturais. Questões sobre onde constituir a empresa, como gerir transações transfronteiriças, como estruturar a titularidade e como manter a conformidade em diferentes jurisdições exigem uma análise cuidadosa e informada — não respostas genéricas.",
+            "Este serviço presta consultoria a empresários com atividade internacional que precisam de pensar de forma coerente sobre a sua presença multijurisdicional. Ajudamo-lo a mapear as considerações relevantes, a identificar potenciais conflitos ou oportunidades estruturais, e a desenvolver um enquadramento para gerir as suas atividades empresariais transfronteiriças de uma forma operacionalmente prática e conforme.",
+            "Sempre que seja necessária a intervenção de especialistas jurídicos, fiscais ou regulamentares — como frequentemente acontece em questões transfronteiriças — coordenamos a colaboração com profissionais qualificados nas jurisdições relevantes."
+          ],
+          "includesHeading": "Este serviço inclui",
+          "includes": ["Revisão de estrutura multijurisdicional", "Mapeamento de conformidade transfronteiriça", "Conceção de entidades holding e operacionais", "Documentação de atividade internacional", "Sinalização de considerações fiscais", "Coordenação de parceiros especialistas"]
+        }
+      ],
+      "whoThisIsFor": {
+        "label": "O Perfil dos Nossos Clientes",
+        "title": "Trabalhamos com Quatro Grupos Distintos de Clientes",
+        "sub": "Os nossos serviços são concebidos para profissionais que necessitam de consultoria estruturada e fundamentada em conformidade — e que compreendem que construir uma presença empresarial na Europa é um processo que exige planeamento, documentação e coordenação profissional.",
+        "groups": [
+          {
+            "num": "01", "tag": "Empreendedores", "title": "Empreendedores a Planear a Relocalização para a Europa",
+            "body": [
+              "Este grupo é composto por fundadores de empresas e proprietários-gestores que decidiram — ou estão seriamente a considerar — relocalizar-se para a Europa através de uma via empresarial estruturada. Têm normalmente um modelo de negócio ou atividade profissional já existente, e compreendem que uma estratégia de relocalização credível e institucionalmente sólida deve ser construída sobre uma base empresarial devidamente estabelecida.",
+              "O desafio para a maioria dos empreendedores deste grupo não é a ambição — é a estrutura. O nosso papel é construir essa estrutura com eles."
+            ],
+            "challengesHeading": "Necessidades de consultoria comuns neste grupo",
+            "challenges": ["Desenvolver um plano de negócios que cumpra os padrões institucionais exigidos nos processos de relocalização", "Selecionar a entidade jurídica e a estrutura empresarial mais adequadas à sua situação", "Compreender o quadro regulamentar e de conformidade relevante para a sua atividade empresarial", "Coordenar os requisitos jurídicos, contabilísticos e documentais numa sequência estruturada", "Construir uma estratégia operacional de longo prazo para a sua presença empresarial na Europa"]
+          },
+          {
+            "num": "02", "tag": "Freelancers", "title": "Freelancers com Atividade Internacional",
+            "body": [
+              "Profissionais independentes — consultores, designers, programadores, escritores e outros trabalhadores da economia do conhecimento — operam cada vez mais além-fronteiras. Muitos neste grupo geram rendimentos profissionais consistentes e trabalham com clientes internacionais, mas operam sem a estrutura empresarial legal que uma presença europeia exige.",
+              "Trabalhamos com freelancers para formalizar a sua atividade profissional num enquadramento empresarial estruturado — um que reflita com exatidão a forma como trabalham e cumpra as expectativas dos quadros regulamentares europeus."
+            ],
+            "challengesHeading": "Necessidades de consultoria comuns neste grupo",
+            "challenges": ["Traduzir a atividade freelance num modelo de negócio formalmente estruturado e documentável", "Compreender qual a estrutura jurídica adequada para um trabalhador independente ou micro-empresa", "Preparar documentação profissional que demonstre uma atividade empresarial viável e consistente", "Planear um caminho conforme e sustentável para estabelecer uma base empresarial legal na Europa", "Coordenar com os profissionais jurídicos e contabilísticos relevantes para os passos formais de registo"]
+          },
+          {
+            "num": "03", "tag": "Profissionais", "title": "Profissionais Internacionais",
+            "body": [
+              "Este grupo inclui profissionais séniores, executivos e especialistas que planeiam estabelecer operações empresariais de longo prazo na Europa — quer como continuação da sua carreira profissional existente, quer como base para uma nova fase da sua vida profissional.",
+              "O que necessitam é de um enquadramento de consultoria estruturado que traduza o seu percurso profissional num modelo de negócio europeu viável e conforme."
+            ],
+            "challengesHeading": "Necessidades de consultoria comuns neste grupo",
+            "challenges": ["Estruturar a experiência e as credenciais profissionais num modelo de negócio europeu formalmente viável", "Planear uma estrutura societária adequada a operações profissionais de longo prazo na Europa", "Navegar as considerações de conformidade transfronteiriça relevantes para a sua atividade profissional", "Coordenar a documentação e o planeamento necessários para uma relocalização profissional estruturada", "Estabelecer uma presença empresarial que os posicione com credibilidade no seu setor profissional"]
+          },
+          {
+            "num": "04", "tag": "Proprietários de PME", "title": "Pequenos Empresários em Expansão para os Mercados Europeus",
+            "body": [
+              "Os proprietários de pequenas e médias empresas que procuram expandir as suas operações para os mercados europeus enfrentam um conjunto de desafios estratégicos e estruturais distintos dos de uma startup ou de um trabalhador independente.",
+              "Ajudamos os pequenos empresários a pensar estrategicamente na sua expansão europeia — avaliando a abordagem de entrada correta, estruturando o enquadramento jurídico e operacional, e coordenando o apoio profissional necessário."
+            ],
+            "challengesHeading": "Necessidades de consultoria comuns neste grupo",
+            "challenges": ["Desenvolver uma estratégia estruturada de entrada no mercado europeu adequada ao seu modelo de negócio", "Selecionar e conceber a entidade jurídica adequada para operações europeias", "Integrar uma nova estrutura europeia com as suas operações e titularidade empresarial existentes", "Gerir a conformidade transfronteiriça e os requisitos regulamentares entre jurisdições", "Coordenar profissionais jurídicos, fiscais e contabilísticos ao longo do processo de constituição e configuração"]
+          }
+        ]
+      },
+      "engagementModel": {
+        "label": "Modelo de Colaboração",
+        "title": "O Que Esperar ao Trabalhar Connosco",
+        "sub": "As nossas colaborações seguem um processo estruturado de quatro fases, aplicável a todas as áreas de serviço.",
+        "steps": [
+          { "title": "Consulta Inicial", "body": "Realizamos uma avaliação estruturada do seu percurso, objetivos e limitações. Sem formulários genéricos de admissão — uma conversa profissional genuína para compreender a sua situação." },
+          { "title": "Desenvolvimento da Estratégia", "body": "Com base na avaliação, desenvolvemos um enquadramento estratégico documentado e específico às suas circunstâncias — abrangendo estrutura, processo, calendário e requisitos profissionais." },
+          { "title": "Documentação e Planeamento", "body": "Preparamos a documentação necessária, os planos de negócios ou os resultados de consultoria num formato adequado para uso institucional e profissional." },
+          { "title": "Coordenação da Implementação", "body": "Coordenamos a fase de implementação com parceiros jurídicos, contabilísticos e especialistas qualificados — garantindo que a estratégia é executada com rigor e conformidade." }
+        ]
+      },
+      "packages": {
+        "label": "Opções de Colaboração",
+        "title": "Formas de Trabalhar Connosco",
+        "sub": "Cada colaboração é definida individualmente. Os níveis abaixo descrevem a forma de uma colaboração típica — o âmbito final e os honorários são confirmados após a sua consulta inicial.",
+        "tiers": [
+          { "name": "Consulta Inicial", "body": "Uma avaliação estruturada da sua situação, dos seus objetivos e do caminho mais viável a seguir, com um resumo escrito de recomendações." },
+          { "name": "Colaboração Completa", "body": "Apoio estratégico integral em estrutura empresarial, documentação e planeamento de relocalização, coordenado com parceiros profissionais." },
+          { "name": "Consultoria Contínua", "body": "Apoio estratégico continuado após o seu estabelecimento inicial — para necessidades empresariais em evolução, questões transfronteiriças ou planeamento de expansão." }
+        ]
+      },
+      "cta": { "title": "Discuta os Seus Requisitos", "body": "Se planeia estabelecer uma presença empresarial na Europa, convidamo-lo a marcar uma consulta. Iremos avaliar a sua situação e fornecer uma visão clara e estruturada do caminho e dos serviços relevantes para os seus objetivos." }
+    },
+    "itServices": {
+      "hero": { "label": "Serviços de TI", "h1": "Tecnologia Construída para Negócios Internacionais", "body": "Concebemos e construímos as plataformas web, portais e automações de que dependem as empresas que ajudamos a estabelecer — com a mesma abordagem estruturada e atenta à conformidade da nossa prática de consultoria." },
+      "breadcrumb": "Serviços de TI",
+      "offeringsLabel": "O Que Construímos",
+      "offeringsTitle": "Quatro Ofertas Principais",
+      "offeringsSub": "Desde o primeiro website empresarial até aos sistemas que gerem as operações diárias, construímos tecnologia à medida da escala e da fase do seu negócio.",
+      "offerings": [
+        { "icon": "🌐", "title": "Plataformas Web e Sites Empresariais", "body": "Websites concebidos profissionalmente, prontos para multilinguismo, que conferem ao seu negócio uma presença online credível e estruturada desde o primeiro dia." },
+        { "icon": "🔐", "title": "Portais de Clientes e de Negócio", "body": "Portais seguros para membros e clientes, para gerir documentos, comunicação e o estado de casos ou projetos num único local." },
+        { "icon": "⚙️", "title": "Automação de Fluxos de Trabalho e Integrações", "body": "Automação de trabalho operacional repetitivo e integração entre as ferramentas que o seu negócio já utiliza." },
+        { "icon": "🛠️", "title": "Manutenção e Suporte Contínuos", "body": "Suporte técnico contínuo, atualizações e monitorização após o lançamento, para que a sua plataforma se mantenha fiável à medida que o seu negócio cresce." }
+      ],
+      "howWeWorkLabel": "Como Trabalhamos",
+      "howWeWorkTitle": "Um Percurso Estruturado da Ideia ao Lançamento",
+      "howWeWorkSub": "A mesma disciplina que aplicamos às colaborações de consultoria estende-se à forma como planeamos e construímos tecnologia.",
+      "howWeWork": [
+        { "title": "Âmbito", "body": "Avaliamos as necessidades do seu negócio e definimos um âmbito claro e escrito antes de iniciar qualquer desenvolvimento." },
+        { "title": "Orçamento", "body": "Recebe um orçamento transparente diretamente associado ao âmbito acordado — sem faturação em aberto." },
+        { "title": "Construção", "body": "Construímos em fases estruturadas, com pontos de situação regulares, para que saiba sempre em que ponto se encontra o projeto." },
+        { "title": "Suporte", "body": "Após o lançamento, permanecemos disponíveis para manutenção, atualizações e melhorias futuras." }
+      ],
+      "capabilitiesLabel": "O Que Podemos Construir",
+      "capabilitiesTitle": "Capacidades, Não Promessas",
+      "capabilitiesSub": "Em vez de casos de estudo que ainda não podemos partilhar, aqui fica uma visão direta e honesta daquilo que a nossa equipa de tecnologia está preparada para construir para si.",
+      "capabilities": [
+        "Websites multilingues de marketing e negócio, com gestão estruturada de conteúdos",
+        "Portais de clientes seguros com autenticação, armazenamento de documentos e mensagens",
+        "Painéis empresariais para acompanhamento de casos, projetos ou subscrições",
+        "Integrações entre plataformas web e as ferramentas que já utiliza para contabilidade, CRM ou comunicação",
+        "Automação de fluxos de trabalho administrativos ou operacionais recorrentes",
+        "Acordos contínuos de alojamento, monitorização e suporte técnico"
+      ],
+      "cta": { "title": "Solicitar Orçamento", "body": "Conte-nos sobre o seu negócio e o que pretende construir. Iremos avaliar o âmbito e fornecer um orçamento claro e estruturado — da mesma forma que abordamos cada colaboração de consultoria." }
+    },
+    "globalReach": {
+      "hero": { "label": "Alcance Global", "h1": "Colaboração ao Vivo, Onde Quer que Esteja", "body": "Participe em salas ao vivo para se ligar a consultores, especialistas e pares — com chat que traduz em tempo real entre os idiomas falados pela sua comunidade.", "mockCaption": "Pré-visualização ilustrativa" },
+      "breadcrumb": "Alcance Global",
+      "howItWorksLabel": "Como Funciona",
+      "howItWorksTitle": "Três Passos para se Ligar",
+      "howItWorksSub": "O Alcance Global transforma uma subscrição em acesso direto e ao vivo — sem trocas de agenda de um lado para o outro.",
+      "howItWorks": [
+        { "title": "Entre numa Sala", "body": "Crie ou entre numa sala ao vivo construída em torno do seu tema — um acompanhamento de consultoria, uma sessão de estudo ou uma discussão aberta." },
+        { "title": "Ligue-se a Consultores e Pares", "body": "Colabore em tempo real com consultores, especialistas ou pares que enfrentam situações semelhantes." },
+        { "title": "Obtenha um Acompanhamento Estruturado", "body": "Termine cada sessão com um registo claro do que foi discutido e do que acontece a seguir." }
+      ],
+      "useCasesLabel": "Para Quem É",
+      "useCasesTitle": "Concebido para Vários Tipos de Sessões",
+      "useCases": [
+        { "title": "Potenciais Empreendedores", "body": "Conversas iniciais antes de se comprometer com uma colaboração de consultoria completa." },
+        { "title": "Clientes a Meio da Colaboração", "body": "Acompanhamentos ao vivo com a sua equipa de consultoria ou de serviços de TI entre reuniões agendadas." },
+        { "title": "Grupos de Estudo entre Pares", "body": "Sessões estruturadas com outros membros a navegar por percursos semelhantes de relocalização ou de negócio." },
+        { "title": "Perguntas e Respostas Transfronteiriças", "body": "Sessões abertas onde membros de diferentes países e idiomas podem colocar questões em conjunto." }
+      ],
+      "plansLabel": "Planos de Subscrição",
+      "plansTitle": "Escolha o Seu Nível de Acesso",
+      "plansSub": "Os planos são geridos através do portal de membros e revistos pela nossa equipa antes da ativação.",
+      "plans": [
+        { "name": "Basic", "price": "29", "period": "/ mês", "features": ["100 mensagens / mês", "2 horas de sessões ao vivo / mês", "Acesso ao cofre de documentos", "Acompanhamento de casos"], "popular": false },
+        { "name": "Pro", "price": "79", "period": "/ mês", "features": ["500 mensagens / mês", "10 horas de sessões ao vivo / mês", "Suporte prioritário", "Todas as funcionalidades do Basic"], "popular": true }
+      ],
+      "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
+      "cta": { "title": "Registar-se", "body": "Crie a sua conta no portal de membros para escolher um plano e começar a participar em salas." }
+    },
+    "portal": {
+      "hero": { "label": "Acesso de Clientes", "h1": "Portal de Membros", "body": "Acesso seguro para clientes registados da Nordic Riser AB, para gerir a sua colaboração, documentos e comunicações." },
+      "cardTitle": "Nordic Riser AB",
+      "cardSubtitle": "Portal Seguro de Membros",
+      "featuresHeading": "Funcionalidades do Portal",
+      "features": ["Acompanhamento de casos e atualizações de estado", "Carregamento e gestão de documentos", "Mensagens seguras com o seu consultor", "Gestão de faturas e pagamentos"],
+      "primaryButton": "Aceder ao Portal de Membros",
+      "secondaryButton": "Contactar Suporte",
+      "noteAccess": "O acesso está disponível apenas para clientes registados. Se ainda não recebeu as suas credenciais de acesso ao portal, contacte-nos.",
+      "noteSignup": "Ainda não é cliente? Marque uma consulta para começar."
+    }
+  }
+}

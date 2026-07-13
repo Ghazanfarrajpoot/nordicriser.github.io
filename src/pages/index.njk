@@ -1,0 +1,154 @@
+---
+pagination:
+  data: site.locales
+  size: 1
+  alias: loc
+permalink: "{{ '' | localePath(loc.code) }}index.html"
+eleventyComputed:
+  locale: "{{ loc.code }}"
+  dir: "{{ loc.dir }}"
+layout: layouts/page.njk
+pageKey: home
+pageSlug: ""
+---
+{%- set t = locales[locale] -%}
+{%- set home = t.pages.home -%}
+
+<section class="hero">
+  <div class="hero-inner" data-animate>
+    <span class="hero-label">{{ home.hero.label }}</span>
+    <h1>{{ home.hero.h1 }}</h1>
+    <p>{{ home.hero.body }}</p>
+    <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-primary">{{ home.hero.cta }}</a>
+  </div>
+</section>
+
+{% include "partials/pillar-home-section.njk" %}
+
+<section class="section">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ home.whatWeDo.label }}</span>
+    <h2 class="section-title">{{ home.whatWeDo.title }}</h2>
+    <p class="section-sub">{{ home.whatWeDo.sub }}</p>
+    <div class="services-grid">
+      {%- for s in home.whatWeDo.services %}
+      <div class="service-card">
+        <div class="service-icon">{{ s.icon }}</div>
+        <h3>{{ s.title }}</h3>
+        <p>{{ s.body }}</p>
+        {%- if s.note %}
+        <p class="investor-note">{{ s.note }}</p>
+        {%- endif %}
+        <a href="{{ 'consulting' | localeUrl(locale) }}#{{ s.anchor }}" class="service-link">{{ t.common.learnMore }}</a>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="lead-strip" id="free-guide">
+  <div class="lead-strip-inner" data-animate>
+    <div class="lead-strip-text">
+      <h2>{{ home.leadCapture.title }}</h2>
+      <p>{{ home.leadCapture.bodyPrefix }} <em>{{ home.leadCapture.guideTitle }}</em></p>
+    </div>
+    <form class="lead-form" action="{{ 'contact' | localeUrl(locale) }}" method="get">
+      <input type="hidden" name="request" value="guide-request">
+      <input type="email" name="email" placeholder="{{ home.leadCapture.placeholder }}" required aria-label="{{ home.leadCapture.placeholder }}">
+      <button type="submit">{{ home.leadCapture.button }}</button>
+    </form>
+  </div>
+</section>
+
+<section class="section audience-section">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ home.whoWeWorkWith.label }}</span>
+    <h2 class="section-title">{{ home.whoWeWorkWith.title }}</h2>
+    <p class="section-sub">{{ home.whoWeWorkWith.sub }}</p>
+    <div class="audience-grid">
+      {%- for a in home.whoWeWorkWith.audiences %}
+      <div class="audience-card">
+        <span class="tag">{{ a.tag }}</span>
+        <h3>{{ a.title }}</h3>
+        <p>{{ a.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ home.process.label }}</span>
+    <h2 class="section-title">{{ home.process.title }}</h2>
+    <p class="section-sub">{{ home.process.sub }}</p>
+    <div class="steps-grid">
+      {%- for step in home.process.steps %}
+      <div class="step">
+        <div class="step-number">{{ loop.index }}</div>
+        <h3>{{ step.title }}</h3>
+        <p>{{ step.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section why-section">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ home.whyChooseUs.label }}</span>
+    <h2 class="section-title">{{ home.whyChooseUs.title }}</h2>
+    <p class="section-sub">{{ home.whyChooseUs.sub }}</p>
+    <div class="why-grid">
+      {%- for c in home.whyChooseUs.cards %}
+      <div class="why-card">
+        <div class="check">✓</div>
+        <h3>{{ c.title }}</h3>
+        <p>{{ c.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section trust-section">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ home.trust.label }}</span>
+    <h2 class="section-title">{{ home.trust.title }}</h2>
+    <p class="section-sub">{{ home.trust.sub }}</p>
+    <div class="stats-grid">
+      {%- for s in home.trust.stats %}
+      <div class="stat-card">
+        <div class="stat-number">{{ s.number }}</div>
+        <div class="stat-label">{{ s.label }}</div>
+      </div>
+      {%- endfor %}
+    </div>
+    <div class="testimonial-grid">
+      {%- for tm in home.trust.testimonials %}
+      <div class="testimonial-card">
+        <p>"{{ tm.quote }}"</p>
+        <span class="testimonial-author">— {{ tm.author }}<small>{{ tm.meta }}</small></span>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="cta-box" data-animate>
+    <h2>{{ home.finalCta.title }}</h2>
+    <p>{{ home.finalCta.body }}</p>
+    <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-cta">{{ t.common.bookConsultation }}</a>
+    <div class="contact-strip">
+      <div class="contact-item">
+        <span>{{ t.common.emailLabel }}</span>
+        <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
+      </div>
+      <div class="contact-item">
+        <span>{{ t.common.websiteLabel }}</span>
+        <a href="https://www.nordicriser.com">www.nordicriser.com</a>
+      </div>
+    </div>
+  </div>
+</section>

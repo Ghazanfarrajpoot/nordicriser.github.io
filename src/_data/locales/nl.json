@@ -1,0 +1,579 @@
+{
+  "meta": { "code": "nl", "name": "Nederlands", "dir": "ltr", "status": "MACHINE_TRANSLATED_NEEDS_REVIEW" },
+  "common": {
+    "bookConsultation": "Boek een Consult",
+    "learnMore": "Meer informatie →",
+    "readMore": "Lees meer →",
+    "requestQuote": "Vraag een Offerte Aan",
+    "signUp": "Aanmelden",
+    "emailLabel": "E-mail",
+    "websiteLabel": "Website",
+    "home": "Home",
+    "pricingOnRequest": "Prijzen op aanvraag"
+  },
+  "nav": {
+    "home": "Home",
+    "consulting": "Consulting",
+    "itServices": "IT-diensten",
+    "globalReach": "Global Reach",
+    "about": "Over Ons",
+    "contact": "Contact",
+    "memberLogin": "Ledenportaal",
+    "languageLabel": "Taal"
+  },
+  "footer": {
+    "brandBlurb": "Een internationaal adviesbureau dat gestructureerde consulting, technologie en wereldwijde samenwerking biedt aan ondernemers en professionals die een juridisch conforme aanwezigheid in Europa opbouwen.",
+    "addressHeading": "Statutaire Zetel",
+    "servicesHeading": "Consultingdiensten",
+    "firmHeading": "Kantoor",
+    "complianceHeading": "Compliance",
+    "disclaimerHeading": "Disclaimer",
+    "disclaimer": "Nordic Riser AB levert uitsluitend strategische adviesdiensten. Wij bieden geen juridische vertegenwoordiging, immigratieadvies of garanties op resultaat. Alle beslissingen liggen bij de bevoegde autoriteiten. Compliance staat voorop in alles wat wij doen.",
+    "copyright": "© 2026 Nordic Riser AB. Alle rechten voorbehouden. Stockholm, Sweden.",
+    "servicesLinks": [
+      { "label": "Bedrijfsvestiging", "anchor": "establishment" },
+      { "label": "Bedrijfsoprichting", "anchor": "formation" },
+      { "label": "Bedrijfsplanning", "anchor": "documentation" },
+      { "label": "Relocatiestrategie", "anchor": "relocation" },
+      { "label": "Grensoverschrijdend Advies", "anchor": "international" }
+    ],
+    "firmLinks": {
+      "about": "Over Ons",
+      "contact": "Contact",
+      "privacy": "Privacybeleid",
+      "memberPortal": "Ledenportaal"
+    }
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "label": "Eén Platform, Drie Pijlers",
+        "h1": "Uw Toegangspoort tot Zweden — en de Wereld",
+        "body": "Gestructureerde consulting, technologie en wereldwijde samenwerking onder één dak — ontworpen voor internationale ondernemers, professionals en de bedrijven die zij oprichten.",
+        "cta": "Boek een Consult"
+      },
+      "pillars": {
+        "label": "Wat Wij Bieden",
+        "title": "Drie Pijlers. Eén Platform.",
+        "sub": "In welke fase u zich ook bevindt — het opzetten van een bedrijf, het bouwen van de technologie erachter, of het contact leggen met adviseurs en gelijkgestemden — er is een pijler die daarbij past.",
+        "consulting": {
+          "icon": "🏢",
+          "title": "Consulting",
+          "promise": "Gestructureerd, compliant advies over bedrijfsvoering en relocatie voor internationale ondernemers.",
+          "bullets": [
+            "Strategie voor bedrijfsvestiging en -oprichting",
+            "Planning van relocatie en verblijf via ondernemerschap",
+            "Grensoverschrijdend advies voor activiteiten in meerdere jurisdicties"
+          ]
+        },
+        "itServices": {
+          "icon": "💻",
+          "title": "IT-diensten",
+          "promise": "Webplatforms en bedrijfssystemen gebouwd voor de ondernemingen die wij helpen opzetten.",
+          "bullets": [
+            "Bedrijfswebsites en klantportalen",
+            "Workflow-automatisering en integraties",
+            "Doorlopende ondersteuning en onderhoud"
+          ]
+        },
+        "globalReach": {
+          "icon": "🌐",
+          "title": "Global Reach",
+          "promise": "Live, gestructureerde sessies die u in contact brengen met adviseurs en gelijkgestemden — vanaf elke locatie.",
+          "bullets": [
+            "Live studie- en consultatieruimtes",
+            "Directe toegang tot specialisten",
+            "Flexibele abonnementen"
+          ]
+        },
+        "learnMore": "Meer informatie →"
+      },
+      "whatWeDo": {
+        "label": "Wat Wij Doen",
+        "title": "Strategische Consulting op Vijf Kerngebieden",
+        "sub": "Wij bieden gestructureerd advies over het volledige spectrum van internationale bedrijfsvestiging en professionele relocatie — zonder generieke adviezen.",
+        "services": [
+          { "icon": "🏢", "title": "Bedrijfsvestiging", "body": "Gestructureerde begeleiding bij de keuze van de juridische entiteit, registratieprocedures en operationele compliance voor internationale ondernemers die de Europese markt betreden.", "note": "Gespecialiseerd voor niet-EU-investeerders die op zoek zijn naar een veilige toegangspoort tot de Europese markt.", "anchor": "establishment" },
+          { "icon": "📋", "title": "Strategie voor Bedrijfsoprichting", "body": "Strategische planning van de juiste bedrijfsstructuur op basis van uw bedrijfsmodel, eigendomsvereisten en langetermijndoelstellingen.", "anchor": "formation" },
+          { "icon": "🌍", "title": "Strategie voor Verblijf via Ondernemerschap en Gezinshereniging", "body": "Advies over legitieme, op ondernemerschap gebaseerde relocatietrajecten voor u en uw gezin, afgestemd op de geldende regelgeving en gericht op duurzame verblijfsresultaten.", "anchor": "relocation" },
+          { "icon": "🔗", "title": "Grensoverschrijdend Advies", "body": "Coördinatie van overwegingen in meerdere jurisdicties, waaronder fiscaliteit, compliance en juridische structuren, voor internationaal actieve professionals en bedrijven.", "note": "Strategische ondersteuning bij Europese bancaire compliance en internationale kapitaalstructurering.", "anchor": "international" },
+          { "icon": "📊", "title": "Bedrijfsplanning voor Ondernemers", "body": "Ontwikkeling van gestructureerde businessplannen en documentatiepakketten die voldoen aan de eisen van Europese autoriteiten en instellingen.", "anchor": "documentation" }
+        ]
+      },
+      "leadCapture": {
+        "title": "Nog niet klaar voor een consult? Begin met onze gratis gids.",
+        "bodyPrefix": "Download:",
+        "guideTitle": "Bedrijfsvestiging in Europa — Een Gestructureerd Overzicht voor Internationale Ondernemers",
+        "placeholder": "Uw e-mailadres",
+        "button": "Stuur Mij de Gids"
+      },
+      "whoWeWorkWith": {
+        "label": "Met Wie Wij Werken",
+        "title": "Ontworpen voor Internationaal Georiënteerde Professionals",
+        "sub": "Onze klanten komen uit uiteenlopende professionele achtergronden en regio's. Wat zij gemeen hebben, is een gestructureerde ambitie om een geloofwaardige bedrijfsaanwezigheid in Europa op te bouwen.",
+        "audiences": [
+          { "tag": "Ondernemers", "title": "Bedrijfsoprichters met Plannen voor Europa", "body": "Personen met bestaande of prille ondernemingen die de toetreding tot de Europese markt onderzoeken via een compliant bedrijfsstructuur." },
+          { "tag": "Zelfstandigen", "title": "Onafhankelijke Professionals die Wereldwijd Werken", "body": "Vakbekwame professionals die internationaal diensten verlenen en die een juridisch solide bedrijfsentiteit en een gestructureerde verblijfsaanpak nodig hebben." },
+          { "tag": "Professionals", "title": "Internationaal Mobiele Executives", "body": "Senior professionals die overstappen tussen markten en die behoefte hebben aan een helder, gestructureerd kader voor hun professionele en persoonlijke relocatie." },
+          { "tag": "MKB-eigenaren", "title": "Eigenaren van Kleine Bedrijven die Uitbreiden naar Europa", "body": "Ondernemers die een operationele basis in Europa willen vestigen, nieuwe markten willen betreden of hun internationale bedrijfsstructuur willen herzien." }
+        ]
+      },
+      "process": {
+        "label": "Ons Proces",
+        "title": "Een Helder Vierstappenmodel",
+        "sub": "Elk traject volgt een gestructureerde methodologie, ontworpen om in elke fase duidelijkheid, compliance en concrete resultaten te leveren.",
+        "steps": [
+          { "title": "Strategisch Consult", "body": "Wij voeren een gestructureerde beoordeling uit van uw achtergrond, doelstellingen en beperkingen om het meest haalbare en compliant traject te bepalen." },
+          { "title": "Planning van de Bedrijfsstructuur", "body": "Op basis van uw doelen ontwerpen wij een op maat gemaakt bedrijfs- en operationeel kader — inclusief type entiteit, jurisdictie en compliance-eisen." },
+          { "title": "Ontwikkeling van de Relocatiestrategie", "body": "Wij ontwikkelen een gedocumenteerde relocatie- en verblijfsstrategie die aansluit op uw businessplan, zodat aan alle institutionele vereisten wordt voldaan." },
+          { "title": "Implementatie met Professionele Partners", "body": "Wij coördineren de uitvoering samen met gekwalificeerde juridische, boekhoudkundige en gespecialiseerde professionals — voor nauwkeurigheid, compliance en heldere communicatie gedurende het gehele traject." }
+        ]
+      },
+      "whyChooseUs": {
+        "label": "Waarom Klanten Voor Ons Kiezen",
+        "title": "Een Adviesbureau Gebouwd op Professionele Standaarden",
+        "sub": "Wij hanteren een compliance-first benadering. Onze waarde ligt in de kwaliteit van ons strategisch advies, niet in beloftes over de uitkomst.",
+        "cards": [
+          { "title": "Professionele Consultingaanpak", "body": "Elk traject wordt gestructureerd, gedocumenteerd en beheerd met de nauwkeurigheid van een professionele adviespraktijk — niet als generieke dienstverlening." },
+          { "title": "Uitsluitend Legale en Compliant Structuren", "body": "Wij werken uitsluitend binnen bestaande wettelijke kaders. Onze strategieën zijn verdedigbaar, transparant en afgestemd op institutionele normen." },
+          { "title": "Strategisch Advies, Geen Generiek Advies", "body": "Onze aanbevelingen zijn specifiek voor uw situatie. Wij bieden geen kant-en-klare oplossingen of one-size-fits-all-programma's." },
+          { "title": "Langdurige, Bedrijfsgerichte Ondersteuning", "body": "Wij kijken op lange termijn naar klantrelaties. Onze focus ligt op duurzame resultaten die uw professionele en zakelijke belangen op de lange termijn dienen." }
+        ]
+      },
+      "trust": {
+        "label": "Vertrouwd door Internationale Ondernemers",
+        "title": "Een Trackrecord Gebouwd op Structuur en Compliance",
+        "sub": "Een adviespraktijk ontworpen voor grensoverschrijdende geloofwaardigheid, gestructureerde trajecten en regelgevingscompliance.",
+        "stats": [
+          { "number": "12+ Landen", "label": "Klanten Bediend in Heel Europa" },
+          { "number": "3 Servicepijlers", "label": "Consulting, IT en Global Reach" },
+          { "number": "Stockholm, Sweden", "label": "Gevestigd en Gereguleerd in de EU" },
+          { "number": "Compliance-First", "label": "Bij Elk Traject" }
+        ],
+        "testimonials": [
+          { "quote": "Nordic Riser gaf ons een duidelijk, gestructureerd stappenplan toen we niet wisten waar te beginnen. Ons Zweedse bedrijf werd opgericht binnen de door hen geschetste termijn.", "author": "Ondernemer, Pakistan", "meta": "Bedrijf opgericht in Zweden, 2025" },
+          { "quote": "Het niveau van professionaliteit en documentatie dat zij leverden, maakte onze bankgesprekken aanzienlijk eenvoudiger. Zonder hun begeleiding was ik dit proces niet doorgekomen.", "author": "Zelfstandig Professional, VAE", "meta": "Verhuisd naar Europa, 2024" }
+        ]
+      },
+      "finalCta": {
+        "title": "Klaar om uw Europese Bedrijfsaanwezigheid Op te Bouwen?",
+        "body": "Spreek met een consultant en ontvang een gestructureerde strategie op basis van uw specifieke situatie, doelstellingen en achtergrond."
+      }
+    },
+    "about": {
+      "hero": { "label": "Over het Kantoor", "h1": "Een Internationaal Adviesbureau Gebouwd op Strategie en Compliance", "body": "Wij helpen ondernemers en professionals bij het opzetten van juridisch gestructureerde, duurzame bedrijfsactiviteiten in Europa — via een methodische, compliance-first aanpak." },
+      "breadcrumb": "Over Ons",
+      "whoWeAre": {
+        "label": "Wie Wij Zijn",
+        "title": "Een Professionele Adviespraktijk voor Internationale Bedrijven",
+        "intro1": "Nordic Riser AB is een internationaal adviesbureau gespecialiseerd in strategische bedrijfsvestiging en gestructureerde professionele relocatie in Europa. Wij werken met ondernemers, zelfstandige professionals en bedrijfseigenaren die een geloofwaardige, juridisch conforme aanwezigheid op de Europese markt opbouwen.",
+        "intro2": "Ons werk is adviserend van aard. Wij bieden geen juridische vertegenwoordiging of immigratiediensten. In plaats daarvan bieden wij gestructureerd strategisch advies — gecombineerd met de coördinatie van gekwalificeerde professionals op juridisch, boekhoudkundig en regelgevend gebied — om ervoor te zorgen dat elk proces van onze klanten op een solide, verdedigbare basis rust.",
+        "mission": "„Het leveren van strategische adviesdiensten die internationale ondernemers helpen bij het opzetten van juridisch gestructureerde en duurzame bedrijfsactiviteiten in Europa.”"
+      },
+      "whyWeExist": {
+        "label": "Waarom Wij Zijn Opgericht",
+        "title": "Ontworpen om een Reële Leemte in Internationaal Advies te Vullen",
+        "sub": "Wij zagen dat te veel internationaal georiënteerde professionals complexe Europese bedrijfs- en relocatieprocessen doorliepen zonder toegang tot gestructureerde, professionele strategische ondersteuning.",
+        "problemTitle": "Het Probleem dat Wij Oplossen",
+        "problemParagraphs": [
+          "Internationale ondernemers en professionals krijgen vaak te maken met versnipperd advies — generieke informatie die geen rekening houdt met hun specifieke bedrijfsmodel, professionele achtergrond of langetermijndoelstellingen. Het resultaat is gebrekkige planning, vermijdbare vertragingen en structuren die geen institutionele toetsing doorstaan.",
+          "Nordic Riser AB is opgericht om dit te veranderen. Wij brengen de nauwkeurigheid van een adviesbureau naar wat vaak een ongestructureerd proces is — met duidelijkheid, documentatie en professionele coördinatie in elke fase.",
+          "Onze focus ligt altijd op langetermijnstrategie en duurzame resultaten, niet op kortetermijngemak."
+        ],
+        "pillars": [
+          { "icon": "📐", "title": "Langetermijnstrategie", "body": "Wij ontwerpen structuren die uw bedrijfsdoelstellingen op de lange termijn dienen, niet alleen de directe vereisten." },
+          { "icon": "⚖️", "title": "Volledige Wettelijke Compliance", "body": "Elke aanbeveling is gebaseerd op actuele regelgeving en institutionele normen." },
+          { "icon": "🗂️", "title": "Gestructureerde Bedrijfsoplossingen", "body": "Wij bieden gedocumenteerde, systematische processen — geen informele begeleiding of algemene informatie." },
+          { "icon": "🤝", "title": "Professionele Consultingnormen", "body": "Onze trajecten worden beheerd met de discipline en verantwoordingsplicht van een professionele dienstverlener." }
+        ]
+      },
+      "approach": {
+        "label": "Onze Aanpak",
+        "title": "Eerst Strategie. Altijd Structuur. Doorlopend Compliance.",
+        "sub": "Onze methodologie is consistent bij elk traject. Wij beginnen met strategie, bouwen de juiste juridische en operationele structuur, en coördineren de uitvoering met erkende professionals.",
+        "items": [
+          { "title": "Strategie vóór Actie", "body": "Wij beoordelen uw specifieke situatie grondig voordat wij enige aanbeveling doen. Strategische helderheid is de basis van elk succesvol traject." },
+          { "title": "Juridische Structuur volgens Ontwerp", "body": "Wij bepalen het juiste juridische en bedrijfskader voor uw omstandigheden — type entiteit, jurisdictie en compliance-verplichtingen worden systematisch vastgesteld." },
+          { "title": "Uitsluitend Professioneel Advies", "body": "Wij bieden geen generieke informatie. Elke aanbeveling is specifiek, gedocumenteerd en gebaseerd op professionele consultingpraktijk." },
+          { "title": "Uitvoering met Erkende Partners", "body": "De implementatie wordt gecoördineerd met gekwalificeerde juridische, boekhoudkundige en gespecialiseerde professionals — voor technische nauwkeurigheid en regelgevingscompliance in elke stap." },
+          { "title": "Focus op Langetermijnbedrijfsvoering", "body": "Wij meten succes af aan de duurzaamheid van de structuren die wij helpen creëren — niet aan het aantal trajecten dat wij verwerken." },
+          { "title": "Transparante Communicatie", "body": "Wij geven eerlijke, realistische inschattingen. Wij overdrijven niet wat haalbaar is en communiceren vereisten in elke fase helder." }
+        ]
+      },
+      "values": {
+        "label": "Onze Waarden",
+        "title": "De Principes die Ons Werk Sturen",
+        "sub": "Dit zijn geen ambitieuze statements. Het zijn de operationele normen waarmee elk traject wordt beheerd.",
+        "items": [
+          { "icon": "⚖️", "title": "Compliance Voorop", "body": "Elk proces dat wij ontwerpen is bestand tegen institutionele toetsing. Wetmatigheid staat niet ter discussie — het is de basis van waaruit alle strategieën worden ontwikkeld." },
+          { "icon": "🎯", "title": "Transparantie", "body": "Wij communiceren eerlijk — over vereisten, tijdlijnen en realistische uitkomsten. Wij doen geen beloftes over beslissingen die bij derden of autoriteiten liggen." },
+          { "icon": "📋", "title": "Gestructureerd Proces", "body": "Elk traject wordt systematisch gedocumenteerd en beheerd. Ad-hocadvies is niet wat wij leveren — gestructureerde methodologie wel." },
+          { "icon": "🤝", "title": "Professionele Samenwerkingen", "body": "Wij onderhouden werkrelaties met gekwalificeerde juridische, fiscale en gespecialiseerde professionals — zodat technische en regelgevende aspecten met de juiste expertise worden behandeld." },
+          { "icon": "🛡️", "title": "Vertrouwelijkheid", "body": "Klantinformatie wordt behandeld met strikte discretie. Persoonlijke en zakelijke gegevens worden gedurende het gehele traject als strikt vertrouwelijk beschouwd." },
+          { "icon": "📐", "title": "Advies op Maat", "body": "Wij passen geen kant-en-klare oplossingen toe. Elk traject wordt individueel beoordeeld en de strategie wordt ontwikkeld op basis van de specifieke omstandigheden en doelstellingen van de klant." }
+        ]
+      },
+      "missionBlock": { "label": "Onze Missie", "missionLabel": "Missieverklaring", "statement": "Het leveren van strategische adviesdiensten die internationale ondernemers en professionals helpen bij het opzetten van juridisch gestructureerde, compliant en duurzame bedrijfsactiviteiten in Europa — ondersteund door professionele begeleiding, gedocumenteerde processen en langetermijnstrategisch denken." },
+      "cta": { "title": "Spreek met een Consultant", "body": "Als u overweegt een bedrijfsaanwezigheid in Europa op te zetten, nodigen wij u uit voor een eerste consult. Wij beoordelen uw situatie en bieden een gestructureerd overzicht van het traject dat voor u ligt." }
+    },
+    "contact": {
+      "hero": { "label": "Neem Contact Op", "h1": "Plan een Consult met Ons Adviesteam", "body": "Onze consulten zijn gestructureerd en gericht op het begrijpen van uw specifieke situatie voordat er strategisch advies wordt gegeven. Vul onderstaand formulier in om een eerste traject aan te vragen." },
+      "breadcrumb": "Contact",
+      "form": {
+        "title": "Aanvraagformulier voor Consult",
+        "intro": "Geef nauwkeurige informatie over uw situatie en doelstellingen. Zo kunnen wij beoordelen of onze diensten relevant zijn voor uw behoeften en ons voorbereiden op een productief eerste consult.",
+        "firstName": "Voornaam",
+        "firstNamePlaceholder": "Uw voornaam",
+        "lastName": "Achternaam",
+        "lastNamePlaceholder": "Uw achternaam",
+        "email": "E-mailadres",
+        "emailPlaceholder": "uw@email.com",
+        "businessType": "Type Onderneming",
+        "businessTypeOptions": [
+          { "value": "", "label": "Selecteer uw type onderneming" },
+          { "value": "entrepreneur", "label": "Ondernemer / Bedrijfsoprichter" },
+          { "value": "freelancer", "label": "Zelfstandige / Onafhankelijk Professional" },
+          { "value": "professional", "label": "Werknemer / Executive" },
+          { "value": "sme", "label": "Eigenaar van een Klein Bedrijf" },
+          { "value": "other", "label": "Anders" }
+        ],
+        "purpose": "Doel van het Consult",
+        "purposeOptions": [
+          { "value": "", "label": "Selecteer het voornaamste doel" },
+          { "value": "relocation", "label": "Strategie voor Bedrijfsrelocatie" },
+          { "value": "formation", "label": "Planning van Bedrijfsoprichting" },
+          { "value": "businessplan", "label": "Opstellen van een Businessplan" },
+          { "value": "itservices", "label": "Vraag over IT-diensten" },
+          { "value": "globalreach", "label": "Global Reach-abonnement" },
+          { "value": "general", "label": "Algemene Vraag" }
+        ],
+        "message": "Korte Beschrijving van Uw Situatie",
+        "messagePlaceholder": "Beschrijf uw huidige situatie, uw doelstellingen en eventuele specifieke vragen die u heeft. Hoe specifieker u bent, hoe productiever ons eerste consult zal zijn.",
+        "messageHint": "Deze informatie wordt als strikt vertrouwelijk behandeld en uitsluitend gebruikt om uw consult voor te bereiden.",
+        "consent": "Door dit formulier in te dienen bevestigt u dat de verstrekte informatie juist is en stemt u ermee in dat Nordic Riser AB uw contactgegevens bewaart met het oog op de behandeling van uw aanvraag. Wij delen klantgegevens niet met derden.",
+        "submit": "Verstuur Aanvraag voor Consult →"
+      },
+      "success": { "title": "Aanvraag Ontvangen", "body": "Hartelijk dank voor uw aanvraag voor een consult. Een lid van ons adviesteam beoordeelt uw gegevens en reageert binnen 1–2 werkdagen." },
+      "sidebar": {
+        "directContactHeading": "Rechtstreeks Contact",
+        "hoursLabel": "Openingstijden",
+        "hoursValue": "Maandag – vrijdag, 09:00 – 17:00 CET",
+        "nextHeading": "Wat Er Vervolgens Gebeurt",
+        "steps": [
+          { "title": "Beoordeling van het Formulier", "body": "Wij beoordelen uw aanvraag om de relevantie en omvang van uw behoeften vast te stellen." },
+          { "title": "Eerste Reactie", "body": "Wij reageren binnen 1–2 werkdagen om het consult te bevestigen of eventuele aanvullende informatie op te vragen." },
+          { "title": "Gestructureerd Consult", "body": "Het consult verloopt volgens een duidelijke agenda gericht op uw situatie, doelstellingen en het meest geschikte traject." },
+          { "title": "Strategisch Voorstel", "body": "Na het consult leveren wij een schriftelijk overzicht van de aanbevolen aanpak en de relevante diensten." }
+        ],
+        "noteHeading": "Let Op",
+        "noteBody": "Wij beoordelen alle aanvragen voordat consulten worden bevestigd. Wij werken met klanten wier situatie past bij onze dienstverlening — als dat bij u niet het geval is, laten wij dit weten en verwijzen wij, waar mogelijk, naar een geschiktere bron."
+      },
+      "closing": {
+        "label": "Waarom een Gestructureerd Consult",
+        "title": "Wij Bieden Geen Generiek Advies",
+        "paragraphs": [
+          "Elk consult bij Nordic Riser AB begint met een grondige beoordeling van uw specifieke situatie. Wij bieden geen standaardantwoorden of kant-en-klare begeleiding. Voordat er een strategische aanbeveling wordt gedaan, nemen wij de tijd om uw professionele achtergrond, uw bedrijfsmodel en uw langetermijndoelstellingen te begrijpen.",
+          "Als u serieus overweegt een juridisch gestructureerde bedrijfsaanwezigheid in Europa op te bouwen en bereid bent professioneel met dit proces om te gaan, nodigen wij u van harte uit om contact op te nemen. Onze consulten zijn een werksessie — geen verkoopgesprek."
+        ]
+      }
+    },
+    "privacy": {
+      "hero": { "label": "Juridisch", "h1": "Privacybeleid", "body": "Hoe Nordic Riser AB uw persoonsgegevens verzamelt, gebruikt en beschermt in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG/GDPR)." },
+      "breadcrumb": "Privacybeleid",
+      "updatedBadge": "📅 Laatst Bijgewerkt: 23 juni 2026",
+      "translationNotice": "Deze pagina is machinaal vertaald. Bij afwijkingen is de Engelse versie leidend. Neem bij vragen contact met ons op.",
+      "tocLabel": "Inhoud",
+      "toc": [
+        "1. Inleiding", "2. Verwerkingsverantwoordelijke", "3. Informatie die Wij Verzamelen", "4. Hoe Wij Uw Gegevens Gebruiken",
+        "5. Delen van Gegevens", "6. Gegevensbeveiliging", "7. Bewaartermijn van Gegevens", "8. Uw Rechten (AVG)",
+        "9. Cookies", "10. Privacy van Kinderen", "11. Wijzigingen in het Beleid", "12. Toezichthoudende Autoriteit", "13. Contact"
+      ],
+      "sections": {
+        "s1": { "title": "Inleiding", "body": [
+          "Nordic Riser AB (“wij”, “ons” of “onze”) zet zich in voor de bescherming van uw privacy en de beveiliging van uw persoonsgegevens. Dit privacybeleid legt uit hoe wij uw gegevens verzamelen, gebruiken, openbaar maken en beschermen wanneer u onze website bezoekt of gebruikmaakt van onze adviesdiensten.",
+          "Dit beleid is opgesteld om te voldoen aan de Algemene Verordening Gegevensbescherming (AVG/GDPR) en toepasselijke wetgeving inzake gegevensbescherming. Door onze website te gebruiken of een aanvraag in te dienen, erkent u dat u dit beleid heeft gelezen en begrepen."
+        ]},
+        "s2": { "title": "Verwerkingsverantwoordelijke", "body": [
+          "Nordic Riser AB is de verwerkingsverantwoordelijke voor uw persoonsgegevens die via onze website en diensten worden verzameld.",
+          "Nordic Riser AB — E-mail: info@nordicriser.com — Website: www.nordicriser.com",
+          "Neem voor alle vragen over gegevensbescherming contact met ons op via bovenstaande gegevens, met als onderwerp “Data Protection Inquiry”."
+        ]},
+        "s3": { "title": "Informatie die Wij Verzamelen", "subheadings": [
+          { "title": "3.1 Informatie die U Rechtstreeks Verstrekt", "intro": "Wij verzamelen informatie die u vrijwillig aan ons verstrekt, waaronder:", "list": [
+            "Contactgegevens: naam, e-mailadres, telefoonnummer",
+            "Professionele Informatie: type onderneming, professionele achtergrond, zakelijke doelstellingen",
+            "Gegevens over Aanvragen voor Consulten: doel van het consult en beschrijving van uw situatie zoals ingediend via ons contactformulier",
+            "Communicatiegegevens: informatie in e-mails en andere correspondentie met ons team"
+          ]},
+          { "title": "3.2 Automatisch Verzamelde Informatie", "intro": "Wanneer u onze website bezoekt, kunnen wij automatisch het volgende verzamelen:", "list": [
+            "Technische Gegevens: IP-adres, browsertype, besturingssysteem, apparaatgegevens",
+            "Gebruiksgegevens: bezochte pagina's, tijd doorgebracht op pagina's, navigatiepaden",
+            "Cookies: kleine gegevensbestanden opgeslagen op uw apparaat (zie Sectie 9)"
+          ]}
+        ]},
+        "s4": { "title": "Hoe Wij Uw Gegevens Gebruiken", "intro": "Wij verwerken uw persoonsgegevens uitsluitend voor de hieronder genoemde doeleinden, elk gebaseerd op een rechtsgrond onder de AVG:",
+          "table": { "headers": ["Doel", "Rechtsgrond (AVG)"], "rows": [
+            ["Reageren op aanvragen voor consulten en vragen", "Uitvoering van de overeenkomst / Gerechtvaardigd belang"],
+            ["Leveren van strategisch advies, technologie- en samenwerkingsdiensten", "Uitvoering van de overeenkomst"],
+            ["Communiceren over onze diensten en de voortgang van het traject", "Uitvoering van de overeenkomst / Toestemming"],
+            ["Verbeteren van onze website en dienstverlening", "Gerechtvaardigd belang"],
+            ["Coördineren met externe professionals (juridisch, boekhoudkundig)", "Uitvoering van de overeenkomst / Gerechtvaardigd belang"],
+            ["Naleving van wettelijke en regelgevende verplichtingen", "Wettelijke verplichting"]
+          ]},
+          "note": "Wij verkopen, verhuren of verhandelen uw persoonsgegevens niet aan derden. Wij gebruiken uw gegevens niet voor doeleinden die onverenigbaar zijn met de hierboven genoemde doeleinden."
+        },
+        "s5": { "title": "Delen en Openbaarmaking van Gegevens", "subheadings": [
+          { "title": "5.1 Professionele Dienstverleningspartners", "intro": "Waar nodig voor het leveren van onze diensten, kunnen wij relevante informatie delen met gekwalificeerde externe professionals, waaronder:", "list": [
+            "Juridische raadslieden en gespecialiseerde adviseurs betrokken bij uw zaak",
+            "Boekhoudkundige en fiscale professionals betrokken bij bedrijfsoprichting of compliance",
+            "Technologieleveranciers die onze websitehosting en communicatie-infrastructuur ondersteunen"
+          ], "outro": "Alle derde partijen zijn verplicht passende beveiligingsmaatregelen te handhaven en mogen uw gegevens uitsluitend verwerken volgens onze instructies en binnen de reikwijdte van hun professionele verplichtingen." },
+          { "title": "5.2 Wettelijke Vereisten", "intro": "Wij kunnen uw persoonsgegevens openbaar maken wanneer dit wettelijk vereist is, op grond van regelgeving, een gerechtelijke procedure of een rechtmatig verzoek van een overheidsinstantie." },
+          { "title": "5.3 Internationale Gegevensoverdrachten", "intro": "Wij verwerken gegevens hoofdzakelijk binnen de EU/EER. Indien gegevens buiten de EU/EER worden overgedragen, zorgen wij ervoor dat passende waarborgen aanwezig zijn — zoals standaardcontractbepalingen of toepasselijke adequaatheidsbesluiten — voorafgaand aan een dergelijke overdracht." }
+        ]},
+        "s6": { "title": "Gegevensbeveiliging", "intro": "Wij nemen passende technische en organisatorische maatregelen om uw persoonsgegevens te beschermen tegen ongeoorloofde toegang, wijziging, openbaarmaking of vernietiging. Deze maatregelen omvatten onder meer:", "list": [
+          "Versleutelde communicatiekanalen voor de verzending van gevoelige informatie",
+          "Beveiligde serverinfrastructuur en gegevensopslagsystemen",
+          "Toegangscontroles en authenticatieprocedures voor interne systemen",
+          "Regelmatige beoordeling en actualisering van beveiligingspraktijken",
+          "Bewustwording bij medewerkers omtrent verplichtingen inzake gegevensbescherming"
+        ], "outro": "Hoewel wij alle redelijke voorzorgsmaatregelen nemen, is geen enkele methode van elektronische verzending of opslag volledig veilig. Wij kunnen absolute veiligheid niet garanderen, maar zetten ons in om uw gegevens naar het hoogst haalbare niveau te beschermen." },
+        "s7": { "title": "Bewaartermijn van Gegevens", "intro": "Wij bewaren uw persoonsgegevens alleen zolang als nodig is om de in dit beleid genoemde doeleinden te vervullen en om te voldoen aan onze wettelijke verplichtingen:", "list": [
+          "Gegevens van Actieve Klanten: duur van het traject plus 7 jaar (conform de toepasselijke boekhoudkundige en archiveringswetgeving)",
+          "Aanvraaggegevens (niet omgezet in klantrelatie): 2 jaar vanaf de datum van laatste contact",
+          "Gegevens van Websiteanalyse: maximaal 26 maanden",
+          "Toestemmingsregistraties: totdat de toestemming wordt ingetrokken, plus een redelijke periode daarna ten behoeve van archivering"
+        ], "outro": "Na afloop van de toepasselijke bewaartermijn worden persoonsgegevens veilig verwijderd of geanonimiseerd." },
+        "s8": { "title": "Uw Rechten Onder de AVG", "intro": "Als betrokkene onder de AVG heeft u de volgende rechten met betrekking tot uw persoonsgegevens:",
+          "rights": [
+            { "title": "Recht van Inzage", "body": "Een kopie opvragen van de persoonsgegevens die wij over u bewaren." },
+            { "title": "Recht op Rectificatie", "body": "Correctie van onjuiste of onvolledige gegevens vragen." },
+            { "title": "Recht op Verwijdering", "body": "Verwijdering van uw gegevens vragen in bepaalde omstandigheden (“recht om vergeten te worden”)." },
+            { "title": "Recht op Beperking van de Verwerking", "body": "Vragen dat wij het gebruik van uw gegevens beperken in specifieke omstandigheden." },
+            { "title": "Recht op Overdraagbaarheid van Gegevens", "body": "Uw gegevens ontvangen in een gestructureerd, machineleesbaar formaat, indien van toepassing." },
+            { "title": "Recht van Bezwaar", "body": "Bezwaar maken tegen verwerking op basis van gerechtvaardigd belang of voor directmarketingdoeleinden." },
+            { "title": "Recht om Toestemming In te Trekken", "body": "Elke gegeven toestemming op elk moment intrekken, zonder invloed op eerdere verwerking." },
+            { "title": "Recht om een Klacht In te Dienen", "body": "Een klacht indienen bij de bevoegde toezichthoudende autoriteit (zie Sectie 12)." }
+          ],
+          "outro": "Om een van bovenstaande rechten uit te oefenen, neemt u contact met ons op via info@nordicriser.com met als onderwerp “Data Subject Request”. Wij reageren binnen één kalendermaand, zoals vereist onder de AVG."
+        },
+        "s9": { "title": "Cookies en Trackingtechnologieën", "body": [
+          "Onze website is een statische informatieve site met minimale tracking. Wij kunnen essentiële cookies gebruiken die nodig zijn voor de basiswerking van de site, waaronder het onthouden van uw gekozen taal. Wij gebruiken momenteel geen advertentie- of gedragstrackingcookies van derden.",
+          "Indien wij in de toekomst analysetools of aanvullende trackingtechnologieën implementeren, vragen wij vooraf uw toestemming voordat niet-essentiële cookies worden geplaatst, geven wij duidelijke informatie over het doel en de duur van elke cookie, en bieden wij eenvoudige mogelijkheden om uw cookievoorkeuren te beheren of in te trekken.",
+          "U kunt cookies op elk moment beheren en verwijderen via uw browserinstellingen. Let op dat het uitschakelen van bepaalde cookies de werking van de website kan beïnvloeden."
+        ]},
+        "s10": { "title": "Privacy van Kinderen", "body": [
+          "Onze diensten zijn uitsluitend gericht op volwassenen die professionele en zakelijke activiteiten uitvoeren. Wij verzamelen niet bewust persoonsgegevens van personen jonger dan 18 jaar. Als u van mening bent dat wij onbedoeld gegevens van een minderjarige hebben verzameld, neem dan onmiddellijk contact met ons op, zodat wij passende stappen kunnen nemen om die informatie te verwijderen."
+        ]},
+        "s11": { "title": "Wijzigingen in dit Privacybeleid", "intro": "Wij kunnen dit privacybeleid periodiek bijwerken om wijzigingen in onze praktijken, toepasselijke wetgeving of operationele procedures weer te geven. Materiële wijzigingen worden gecommuniceerd door:", "list": [
+          "Het bijwerken van de datum “Laatst Bijgewerkt” bovenaan deze pagina",
+          "Waar passend, actieve klanten per e-mail te informeren",
+          "Een kennisgeving op onze website te plaatsen"
+        ], "outro": "Wij raden u aan dit beleid periodiek te raadplegen. Uw voortgezette gebruik van onze website na een update geldt als aanvaarding van het herziene beleid." },
+        "s12": { "title": "Toezichthoudende Autoriteit", "intro": "Indien u zich zorgen maakt over de manier waarop wij uw persoonsgegevens verwerken en u niet tevreden bent met ons antwoord, heeft u het recht een klacht in te dienen bij de bevoegde toezichthoudende autoriteit:", "body": [
+          "Integritetsskyddsmyndigheten (IMY) — Swedish Authority for Privacy Protection",
+          "Box 8114, 104 20 Stockholm — Telefoon: +46 8 657 61 00 — Website: www.imy.se"
+        ]},
+        "s13": { "title": "Neem Contact met Ons Op over Dit Beleid", "intro": "Als u vragen, zorgen of verzoeken heeft met betrekking tot dit privacybeleid of onze omgang met gegevens, neem dan rechtstreeks contact met ons op:", "cardTitle": "Vragen over Gegevensbescherming", "cardBody": "Mail ons met als onderwerp “Privacy Policy Inquiry” en wij reageren zo snel mogelijk." }
+      }
+    },
+    "consulting": {
+      "hero": { "label": "Consulting", "h1": "Strategisch Advies voor Internationale Bedrijfsvestiging", "body": "Wij bieden gestructureerd, professioneel advies op vijf kerngebieden — elk ontworpen om ondernemers en professionals te ondersteunen bij het opbouwen van een compliant bedrijfsaanwezigheid in Europa." },
+      "breadcrumb": "Consulting",
+      "servicesLabel": "Wat Wij Bieden",
+      "servicesTitle": "Vijf Kerngebieden van Dienstverlening",
+      "servicesSub": "Elke dienst die wij leveren, wordt uitgevoerd volgens een gestructureerde consultingmethodologie — individueel beoordeeld, formeel gedocumenteerd en waar nodig gecoördineerd met gekwalificeerde professionele partners.",
+      "services": [
+        {
+          "number": "01", "anchor": "relocation", "tagline": "Relocatiestrategie", "title": "Consulting voor Strategie bij Bedrijfsrelocatie",
+          "body": [
+            "Voor ondernemers en professionals die via een gestructureerde bedrijfsactiviteit naar Europa willen verhuizen, biedt deze dienst strategische planning die begint bij uw zakelijke situatie en vervolgens ingaat op de vereisten van een juridisch conform en institutioneel verdedigbaar relocatieproces.",
+            "Wij beoordelen uw professionele achtergrond, bedrijfsmodel en doelstellingen, en ontwikkelen een gedocumenteerde relocatiestrategie die bedrijfsstructuur, activiteitsvereisten en langetermijnpositionering integreert. Onze rol is ervoor te zorgen dat elk onderdeel van uw plan coherent, realistisch en afgestemd op de geldende regelgeving is — voordat er stappen worden ondernomen.",
+            "Wij bieden geen immigratieadvies of juridische vertegenwoordiging. Wij bieden het strategisch consultingkader van waaruit gekwalificeerde specialisten effectief kunnen opereren."
+          ],
+          "includesHeading": "Deze dienst omvat",
+          "includes": ["Beoordeling van relocatietrajecten", "Planning van bedrijfsactiviteiten", "Toetsing aan regelgeving", "Documentatiestrategie", "Coördinatie van professionele partners", "Planning van tijdlijn en mijlpalen"]
+        },
+        {
+          "number": "02", "anchor": "formation", "tagline": "Bedrijfsoprichting", "title": "Strategie voor Bedrijfsoprichting",
+          "body": [
+            "Het opzetten van een bedrijfsentiteit in Europa vereist zorgvuldige strategische planning voordat er formele stappen worden ondernomen. De keuze van de juridische structuur, jurisdictionele overwegingen, eigendomsregelingen en operationele inrichting hebben allemaal langetermijngevolgen — en fouten in dit stadium zijn moeilijk en kostbaar om te herstellen.",
+            "Deze dienst biedt gestructureerd advies over een strategische aanpak van bedrijfsoprichting. Wij helpen u het landschap van beschikbare structuren te begrijpen, de meest geschikte optie voor uw situatie te beoordelen en een oprichtingsplan te ontwikkelen dat zowel uw directe operationele behoeften als uw langetermijndoelstellingen ondersteunt.",
+            "De uitvoering wordt gecoördineerd met gekwalificeerde juridische en boekhoudkundige professionals die de formele registratie en compliancewerkzaamheden binnen hun erkende bevoegdheid afhandelen."
+          ],
+          "includesHeading": "Deze dienst omvat",
+          "includes": ["Beoordeling van de juridische entiteit", "Structuurplanning en -selectie", "Ontwerp van eigendom en bestuur", "In kaart brengen van het compliancekader", "Begeleiding bij bancaire en financiële inrichting", "Langetermijnpositioneringsstrategie"]
+        },
+        {
+          "number": "03", "anchor": "documentation", "tagline": "Bedrijfsdocumentatie", "title": "Professionele Voorbereiding van Businessplannen",
+          "body": [
+            "Een businessplan dat wordt opgesteld voor relocatie- of bedrijfsvestigingsdoeleinden is een formeel document dat moet voldoen aan de verwachtingen van Europese toezichthouders, financiële instellingen en professionele beoordelaars. Het is geen marketingdocument — het is een gestructureerde, op bewijs gebaseerde presentatie van een levensvatbaar bedrijfsmodel.",
+            "Wij werken met klanten om businessplannen te ontwikkelen die hun activiteit nauwkeurig weergeven, operationele levensvatbaarheid aantonen en zijn gestructureerd volgens institutionele vereisten. Het proces is methodisch: wij beoordelen uw bedrijfsmodel, bepalen de documentatievereisten die relevant zijn voor uw situatie, en stellen een plan op dat coherent, geloofwaardig en professioneel gepresenteerd is.",
+            "Alle businessplannen die via deze dienst worden opgesteld, zijn ontwikkeld ter ondersteuning van formele processen — het zijn geen generieke sjablonen en worden niet opgesteld zonder volledig inzicht in de specifieke omstandigheden van de klant."
+          ],
+          "includesHeading": "Deze dienst omvat",
+          "includes": ["Beoordeling van het bedrijfsmodel", "Opstellen van de managementsamenvatting", "Analyse van markt en activiteit", "Kader voor financiële prognoses", "Documentatie van de operationele structuur", "Institutionele opmaak en beoordeling"]
+        },
+        {
+          "number": "04", "anchor": "freelancer", "tagline": "Advies voor Zelfstandigen en Ondernemers", "title": "Consulting bij Relocatie voor Zelfstandigen en Ondernemers",
+          "body": [
+            "Zelfstandige professionals, thuiswerkers en kleine ondernemers worden geconfronteerd met een specifieke reeks uitdagingen bij het plannen van een juridische bedrijfsaanwezigheid in Europa. Standaardkaders zijn vaak ontworpen met grotere entiteiten in gedachten, en het traject voor een eenmanszaak of micro-onderneming vereist een meer op maat gemaakte strategische aanpak.",
+            "Deze dienst is specifiek ontworpen voor zelfstandigen, professionals op afstand en beginnende ondernemers die een juridische en duurzame bedrijfsbasis in Europa opbouwen — of van plan zijn dit te doen. Wij helpen u begrijpen hoe een compliant structuur eruitziet voor uw professionele profiel, welke documentatie en planning vereist zijn, en hoe u uw activiteit geloofwaardig kunt positioneren binnen de geldende regelgeving.",
+            "Wij beoordelen elke klant individueel. Wat geschikt is voor een softwareconsultant verschilt aanzienlijk van wat geschikt is voor een creatief professional of een productgerichte ondernemer — en ons advies weerspiegelt dat."
+          ],
+          "includesHeading": "Deze dienst omvat",
+          "includes": ["Beoordeling van het professionele profiel", "Formalisering van het bedrijfsmodel", "Ontwerp van een compliant structuur", "Documentatie van activiteit en inkomsten", "Planning van verblijf via ondernemerschap", "Beoordeling van langetermijnduurzaamheid"]
+        },
+        {
+          "number": "05", "anchor": "international", "tagline": "Internationaal Advies", "title": "Grensoverschrijdend Bedrijfsadvies",
+          "body": [
+            "Ondernemers die actief zijn in meerdere landen worden geconfronteerd met een complexere reeks strategische en structurele overwegingen. Vragen over waar te incorporeren, hoe grensoverschrijdende transacties te beheren, hoe eigendom te structureren en hoe compliant te blijven in verschillende jurisdicties vereisen zorgvuldige en goed onderbouwde analyse — geen generieke antwoorden.",
+            "Deze dienst biedt advies voor internationaal actieve ondernemers die coherent moeten nadenken over hun aanwezigheid in meerdere jurisdicties. Wij helpen u de relevante overwegingen in kaart te brengen, mogelijke structurele conflicten of kansen te identificeren, en een kader te ontwikkelen voor het beheren van uw grensoverschrijdende bedrijfsactiviteiten op een manier die zowel operationeel praktisch als compliant is.",
+            "Waar juridische, fiscale of gespecialiseerde input vereist is — wat bij grensoverschrijdende kwesties vaak het geval is — coördineren wij de betrokkenheid van gekwalificeerde professionals in de relevante jurisdicties."
+          ],
+          "includesHeading": "Deze dienst omvat",
+          "includes": ["Beoordeling van structuren in meerdere jurisdicties", "In kaart brengen van grensoverschrijdende compliance", "Ontwerp van holding- en werkmaatschappijen", "Documentatie van internationale activiteiten", "Signalering van fiscale aandachtspunten", "Coördinatie van gespecialiseerde partners"]
+        }
+      ],
+      "whoThisIsFor": {
+        "label": "Ons Klantprofiel",
+        "title": "Wij Werken met Vier Verschillende Klantgroepen",
+        "sub": "Onze diensten zijn ontworpen voor professionals die behoefte hebben aan gestructureerd, op compliance gebaseerd advies — en die begrijpen dat het opbouwen van een bedrijfsaanwezigheid in Europa een proces is dat planning, documentatie en professionele coördinatie vereist.",
+        "groups": [
+          {
+            "num": "01", "tag": "Ondernemers", "title": "Ondernemers met Plannen om naar Europa te Verhuizen",
+            "body": [
+              "Deze groep bestaat uit bedrijfsoprichters en eigenaar-exploitanten die hebben besloten — of serieus overwegen — om via een gestructureerd bedrijfstraject naar Europa te verhuizen. Zij hebben doorgaans een bestaand bedrijfsmodel of professionele activiteit en begrijpen dat een geloofwaardige, institutioneel solide relocatiestrategie moet worden gebouwd op een correct opgezette bedrijfsbasis.",
+              "De uitdaging voor de meeste ondernemers in deze groep is niet ambitie — het is structuur. Onze rol is om die structuur samen met hen op te bouwen."
+            ],
+            "challengesHeading": "Veelvoorkomende adviesbehoeften in deze groep",
+            "challenges": ["Ontwikkelen van een businessplan dat voldoet aan institutionele normen voor relocatieprocessen", "Selecteren van de meest geschikte juridische entiteit en bedrijfsstructuur voor hun situatie", "Begrijpen van het regelgevend en compliancekader dat relevant is voor hun bedrijfsactiviteit", "Coördineren van juridische, boekhoudkundige en documentatievereisten in een gestructureerde volgorde", "Opbouwen van een langetermijn operationele strategie voor hun Europese bedrijfsaanwezigheid"]
+          },
+          {
+            "num": "02", "tag": "Zelfstandigen", "title": "Zelfstandigen die Internationaal Werken",
+            "body": [
+              "Zelfstandige professionals — consultants, ontwerpers, ontwikkelaars, schrijvers en andere kenniswerkers — opereren steeds vaker over landsgrenzen heen. Velen in deze groep genereren een consistent professioneel inkomen en werken met internationale klanten, maar opereren zonder de juridische bedrijfsstructuur die een Europese aanwezigheid vereist.",
+              "Wij werken met zelfstandigen om hun professionele activiteit te formaliseren tot een gestructureerd bedrijfskader — een kader dat nauwkeurig weergeeft hoe zij werken en voldoet aan de verwachtingen van de Europese regelgeving."
+            ],
+            "challengesHeading": "Veelvoorkomende adviesbehoeften in deze groep",
+            "challenges": ["Omzetten van freelance-activiteit in een formeel gestructureerd, documenteerbaar bedrijfsmodel", "Begrijpen welke juridische structuur geschikt is voor een eenmanszaak of micro-onderneming", "Opstellen van professionele documentatie die een levensvatbare en consistente bedrijfsactiviteit aantoont", "Plannen van een compliant en duurzaam traject naar een juridische bedrijfsbasis in Europa", "Coördineren met relevante juridische en boekhoudkundige professionals voor formele registratiestappen"]
+          },
+          {
+            "num": "03", "tag": "Professionals", "title": "Internationale Professionals",
+            "body": [
+              "Deze groep omvat senior professionals, executives en specialisten die van plan zijn langdurige bedrijfsactiviteiten in Europa op te zetten — hetzij als voortzetting van hun bestaande professionele carrière, hetzij als basis voor een nieuwe fase in hun werkzame leven.",
+              "Wat zij nodig hebben, is een gestructureerd consultingkader dat hun professionele achtergrond vertaalt naar een levensvatbaar en compliant Europees bedrijfsmodel."
+            ],
+            "challengesHeading": "Veelvoorkomende adviesbehoeften in deze groep",
+            "challenges": ["Structureren van professionele ervaring en kwalificaties tot een formeel levensvatbaar Europees bedrijfsmodel", "Plannen van een bedrijfsstructuur die geschikt is voor langdurige professionele activiteiten in Europa", "Navigeren van grensoverschrijdende compliance-overwegingen die relevant zijn voor hun professionele activiteit", "Coördineren van de documentatie en planning die vereist zijn voor een gestructureerde professionele relocatie", "Opzetten van een bedrijfsaanwezigheid die hen geloofwaardig positioneert binnen hun professionele sector"]
+          },
+          {
+            "num": "04", "tag": "MKB-eigenaren", "title": "Eigenaren van Kleine Bedrijven die Uitbreiden naar de Europese Markt",
+            "body": [
+              "Eigenaren van kleine en middelgrote ondernemingen die hun activiteiten willen uitbreiden naar de Europese markt, worden geconfronteerd met een reeks strategische en structurele uitdagingen die verschillen van die van een startup of eenmanszaak.",
+              "Wij helpen kleine ondernemers hun Europese expansie strategisch te doordenken — door de juiste toetredingsbenadering te beoordelen, het juridische en operationele kader te structureren en de benodigde professionele ondersteuning te coördineren."
+            ],
+            "challengesHeading": "Veelvoorkomende adviesbehoeften in deze groep",
+            "challenges": ["Ontwikkelen van een gestructureerde strategie voor markttoetreding in Europa die past bij hun bedrijfsmodel", "Selecteren en ontwerpen van de juiste juridische entiteit voor Europese activiteiten", "Integreren van een nieuwe Europese structuur met hun bestaande bedrijfsvoering en eigendom", "Beheren van grensoverschrijdende compliance en regelgevende vereisten in verschillende jurisdicties", "Coördineren van juridische, fiscale en boekhoudkundige professionals gedurende het oprichtings- en inrichtingsproces"]
+          }
+        ]
+      },
+      "engagementModel": {
+        "label": "Samenwerkingsmodel",
+        "title": "Wat U Kunt Verwachten Wanneer U Met Ons Samenwerkt",
+        "sub": "Onze trajecten volgen een gestructureerd vierfasenproces dat van toepassing is op alle dienstengebieden.",
+        "steps": [
+          { "title": "Eerste Consult", "body": "Wij voeren een gestructureerde beoordeling uit van uw achtergrond, doelstellingen en beperkingen. Geen generieke intakeformulieren — een oprecht professioneel gesprek om uw situatie te begrijpen." },
+          { "title": "Strategieontwikkeling", "body": "Op basis van de beoordeling ontwikkelen wij een gedocumenteerd strategisch kader dat specifiek is voor uw omstandigheden — met betrekking tot structuur, proces, tijdlijn en professionele vereisten." },
+          { "title": "Documentatie en Planning", "body": "Wij bereiden de vereiste documentatie, businessplannen of adviesrapporten voor in een formaat dat geschikt is voor institutioneel en professioneel gebruik." },
+          { "title": "Coördinatie van de Implementatie", "body": "Wij coördineren de implementatiefase met gekwalificeerde juridische, boekhoudkundige en gespecialiseerde partners — zodat de strategie nauwkeurig en compliant wordt uitgevoerd." }
+        ]
+      },
+      "packages": {
+        "label": "Samenwerkingsopties",
+        "title": "Manieren om Met Ons Samen te Werken",
+        "sub": "Elk traject wordt individueel afgebakend. De onderstaande niveaus beschrijven de vorm van een typisch traject — de uiteindelijke reikwijdte en kosten worden na uw eerste consult bevestigd.",
+        "tiers": [
+          { "name": "Eerste Consult", "body": "Een gestructureerde beoordeling van uw situatie, doelstellingen en het meest haalbare traject, met een schriftelijke samenvatting van de aanbevelingen." },
+          { "name": "Volledig Traject", "body": "End-to-end strategische ondersteuning op het gebied van bedrijfsstructuur, documentatie en relocatieplanning, gecoördineerd met professionele partners." },
+          { "name": "Doorlopend Advies", "body": "Voortgezette strategische ondersteuning na uw eerste vestiging — voor evoluerende bedrijfsbehoeften, grensoverschrijdende vraagstukken of expansieplanning." }
+        ]
+      },
+      "cta": { "title": "Bespreek Uw Behoeften", "body": "Als u van plan bent een bedrijfsaanwezigheid in Europa op te zetten, nodigen wij u uit voor een consult. Wij beoordelen uw situatie en bieden een helder, gestructureerd overzicht van het traject en de diensten die relevant zijn voor uw doelstellingen." }
+    },
+    "itServices": {
+      "hero": { "label": "IT-diensten", "h1": "Technologie voor Internationale Bedrijven", "body": "Wij ontwerpen en bouwen de webplatforms, portalen en automatisering waar de bedrijven die wij helpen opzetten op vertrouwen — met dezelfde gestructureerde, compliance-bewuste aanpak als onze adviespraktijk." },
+      "breadcrumb": "IT-diensten",
+      "offeringsLabel": "Wat Wij Bouwen",
+      "offeringsTitle": "Vier Kernaanbiedingen",
+      "offeringsSub": "Van een eerste bedrijfswebsite tot de systemen die de dagelijkse bedrijfsvoering draaiende houden — wij bouwen technologie die past bij de schaal en fase van uw onderneming.",
+      "offerings": [
+        { "icon": "🌐", "title": "Webplatforms en Bedrijfswebsites", "body": "Professioneel ontworpen, meertalige websites die uw bedrijf vanaf dag één een geloofwaardige, gestructureerde online aanwezigheid geven." },
+        { "icon": "🔐", "title": "Klant- en Bedrijfsportalen", "body": "Beveiligde ledenmodules en klantportalen voor het beheren van documenten, communicatie en de status van zaken of projecten, allemaal op één plek." },
+        { "icon": "⚙️", "title": "Workflow-automatisering en Integraties", "body": "Automatisering van repetitief operationeel werk en integratie tussen de tools die uw bedrijf al gebruikt." },
+        { "icon": "🛠️", "title": "Doorlopend Onderhoud en Ondersteuning", "body": "Voortdurende technische ondersteuning, updates en monitoring na de lancering, zodat uw platform betrouwbaar blijft naarmate uw bedrijf groeit." }
+      ],
+      "howWeWorkLabel": "Hoe Wij Werken",
+      "howWeWorkTitle": "Een Gestructureerd Traject van Idee tot Lancering",
+      "howWeWorkSub": "Dezelfde discipline die wij toepassen op consultingtrajecten, passen wij ook toe op de manier waarop wij technologie plannen en bouwen.",
+      "howWeWork": [
+        { "title": "Scope", "body": "Wij beoordelen uw bedrijfsbehoeften en bepalen een duidelijke, schriftelijke scope voordat de ontwikkeling begint." },
+        { "title": "Offerte", "body": "U ontvangt een transparante offerte die rechtstreeks is gekoppeld aan de overeengekomen scope — geen open-einde facturering." },
+        { "title": "Bouw", "body": "Wij bouwen in gestructureerde fasen met regelmatige check-ins, zodat u altijd weet hoe het project ervoor staat." },
+        { "title": "Ondersteuning", "body": "Na de lancering blijven wij beschikbaar voor onderhoud, updates en toekomstige verbeteringen." }
+      ],
+      "capabilitiesLabel": "Wat Wij Kunnen Bouwen",
+      "capabilitiesTitle": "Mogelijkheden, Geen Beloftes",
+      "capabilitiesSub": "In plaats van casestudies die wij nog niet kunnen delen, vindt u hier een direct en eerlijk overzicht van wat ons technologieteam voor u kan bouwen.",
+      "capabilities": [
+        "Meertalige marketing- en bedrijfswebsites met gestructureerd contentbeheer",
+        "Beveiligde klantportalen met authenticatie, documentopslag en berichtenverkeer",
+        "Bedrijfsdashboards voor het volgen van zaken, projecten of abonnementen",
+        "Integraties tussen webplatforms en de tools die u al gebruikt voor boekhouding, CRM of communicatie",
+        "Automatisering van terugkerende administratieve of operationele workflows",
+        "Doorlopende hosting-, monitoring- en technische ondersteuningsregelingen"
+      ],
+      "cta": { "title": "Vraag een Offerte Aan", "body": "Vertel ons over uw bedrijf en wat u wilt bouwen. Wij beoordelen de scope en leveren een duidelijke, gestructureerde offerte — op dezelfde manier waarop wij elk consultingtraject benaderen." }
+    },
+    "globalReach": {
+      "hero": { "label": "Global Reach", "h1": "Live Samenwerking, Waar U Ook Bent", "body": "Neem deel aan live ruimtes om in contact te komen met adviseurs, specialisten en gelijkgestemden — met chat die in realtime vertaalt tussen de talen die uw community spreekt.", "mockCaption": "Illustratieve voorbeeldweergave" },
+      "breadcrumb": "Global Reach",
+      "howItWorksLabel": "Hoe Het Werkt",
+      "howItWorksTitle": "Drie Stappen om Verbonden Te Raken",
+      "howItWorksSub": "Global Reach zet een abonnement om in directe, live toegang — zonder heen-en-weer geplande afspraken.",
+      "howItWorks": [
+        { "title": "Sluit U Aan bij een Ruimte", "body": "Maak of sluit u aan bij een live ruimte rond uw onderwerp — een vervolg op een consult, een studiesessie of een open discussie." },
+        { "title": "Kom in Contact met Adviseurs en Gelijkgestemden", "body": "Werk in realtime samen met adviseurs, specialisten of gelijkgestemden die vergelijkbare situaties doorlopen." },
+        { "title": "Ontvang Gestructureerde Follow-up", "body": "Verlaat elke sessie met een duidelijk verslag van wat er is besproken en wat de volgende stap is." }
+      ],
+      "useCasesLabel": "Voor Wie Het Is",
+      "useCasesTitle": "Ontworpen voor Verschillende Soorten Sessies",
+      "useCases": [
+        { "title": "Aspirant-ondernemers", "body": "Eerste gesprekken voordat u zich vastlegt op een volledig consultingtraject." },
+        { "title": "Klanten Midden in een Traject", "body": "Live vervolgsessies met uw consulting- of IT-team tussen geplande afspraken door." },
+        { "title": "Peer-studiegroepen", "body": "Gestructureerde sessies met andere leden die vergelijkbare relocatie- of bedrijfstrajecten doorlopen." },
+        { "title": "Grensoverschrijdende Vraag & Antwoord", "body": "Open sessies waarin leden uit verschillende landen en met verschillende talen samen vragen kunnen stellen." }
+      ],
+      "plansLabel": "Abonnementen",
+      "plansTitle": "Kies Uw Toegangsniveau",
+      "plansSub": "Abonnementen worden beheerd via het ledenportaal en door ons team beoordeeld voordat ze worden geactiveerd.",
+      "plans": [
+        { "name": "Basic", "price": "29", "period": "/ maand", "features": ["100 berichten / maand", "2 uur live sessies / maand", "Toegang tot documentenkluis", "Zaakvolging"], "popular": false },
+        { "name": "Pro", "price": "79", "period": "/ maand", "features": ["500 berichten / maand", "10 uur live sessies / maand", "Prioriteitsondersteuning", "Alle Basic-functies"], "popular": true }
+      ],
+      "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
+      "cta": { "title": "Aanmelden", "body": "Maak uw account aan in het ledenportaal om een abonnement te kiezen en deel te nemen aan ruimtes." }
+    },
+    "portal": {
+      "hero": { "label": "Klanttoegang", "h1": "Ledenportaal", "body": "Beveiligde toegang voor geregistreerde klanten van Nordic Riser AB om hun traject, documenten en communicatie te beheren." },
+      "cardTitle": "Nordic Riser AB",
+      "cardSubtitle": "Beveiligd Ledenportaal",
+      "featuresHeading": "Portaalfuncties",
+      "features": ["Zaakvolging en statusupdates", "Uploaden en beheren van documenten", "Beveiligd berichtenverkeer met uw adviseur", "Beheer van facturen en betalingen"],
+      "primaryButton": "Naar het Ledenportaal",
+      "secondaryButton": "Neem Contact op met Support",
+      "noteAccess": "Toegang is uitsluitend beschikbaar voor geregistreerde klanten. Als u nog geen portaalgegevens heeft ontvangen, neem dan contact met ons op.",
+      "noteSignup": "Nog geen klant? Boek een consult om te beginnen."
+    }
+  }
+}

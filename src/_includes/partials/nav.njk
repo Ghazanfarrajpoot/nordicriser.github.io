@@ -1,0 +1,26 @@
+{%- set t = locales[locale] -%}
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="{{ '' | localeUrl(locale) }}" class="logo">
+      <svg class="logo-mark" width="32" height="36" viewBox="0 0 32 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M16 0.8L30.5 6.4V17.2C30.5 25.9 24.3 32.1 16 35.2C7.7 32.1 1.5 25.9 1.5 17.2V6.4L16 0.8Z" style="fill:var(--navy);stroke:var(--gold);stroke-width:0.75"/>
+        <text x="16" y="14.5" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="700" style="fill:var(--gold)" text-anchor="middle" dominant-baseline="central">NR</text>
+      </svg>
+      Nordic Riser <span>AB</span>
+    </a>
+    <button class="mobile-toggle" onclick="toggleMenu()" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="{{ '' | localeUrl(locale) }}"{% if pageKey == 'home' %} class="active"{% endif %}>{{ t.nav.home }}</a></li>
+      <li><a href="{{ 'consulting' | localeUrl(locale) }}"{% if pageKey == 'consulting' %} class="active"{% endif %}>{{ t.nav.consulting }}</a></li>
+      <li><a href="{{ 'it-services' | localeUrl(locale) }}"{% if pageKey == 'itServices' %} class="active"{% endif %}>{{ t.nav.itServices }}</a></li>
+      <li><a href="{{ 'global-reach' | localeUrl(locale) }}"{% if pageKey == 'globalReach' %} class="active"{% endif %}>{{ t.nav.globalReach }}</a></li>
+      <li><a href="{{ 'about' | localeUrl(locale) }}"{% if pageKey == 'about' %} class="active"{% endif %}>{{ t.nav.about }}</a></li>
+      <li><a href="{{ 'contact' | localeUrl(locale) }}"{% if pageKey == 'contact' %} class="active"{% endif %}>{{ t.nav.contact }}</a></li>
+      <li class="nr-lang-mobile">{% include "partials/language-switcher.njk" %}</li>
+      <li><a href="https://portal.nordicriser.com" class="btn-login">{{ t.nav.memberLogin }}</a></li>
+    </ul>
+    <div class="nr-lang-desktop">{% include "partials/language-switcher.njk" %}</div>
+  </div>
+</nav>
