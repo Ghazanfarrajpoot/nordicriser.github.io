@@ -46,6 +46,24 @@ pageSlug: ""
   </div>
 </section>
 
+<section class="section section-alt">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ t.pages.itServices.offeringsLabel }}</span>
+    <h2 class="section-title">{{ t.pages.itServices.offeringsTitle }}</h2>
+    <p class="section-sub">{{ t.pages.itServices.offeringsSub }}</p>
+    <div class="services-grid">
+      {%- for o in t.pages.itServices.offerings %}
+      <div class="service-card">
+        <div class="service-icon">{{ o.icon }}</div>
+        <h3>{{ o.title }}</h3>
+        <p>{{ o.body }}</p>
+        <a href="{{ 'it-services' | localeUrl(locale) }}" class="service-link">{{ t.common.learnMore }}</a>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
 <section class="lead-strip" id="free-guide">
   <div class="lead-strip-inner" data-animate>
     <div class="lead-strip-text">
