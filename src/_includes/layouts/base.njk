@@ -8,6 +8,15 @@
   <meta name="description" content="{{ t.pages[pageKey].hero.body }}">
   <meta name="robots" content="{{ robots | default('index, follow') }}">
   <link rel="canonical" href="{{ site.baseUrl }}{{ pageSlug | localeUrl(locale) }}">
+  <meta property="og:site_name" content="Nordic Riser AB">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{ locale }}">
+  <meta property="og:url" content="{{ site.baseUrl }}{{ pageSlug | localeUrl(locale) }}">
+  <meta property="og:title" content="{{ t.pages[pageKey].hero.h1 }} — Nordic Riser AB">
+  <meta property="og:description" content="{{ t.pages[pageKey].hero.body }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ t.pages[pageKey].hero.h1 }} — Nordic Riser AB">
+  <meta name="twitter:description" content="{{ t.pages[pageKey].hero.body }}">
   {%- if not singleLocale %}
   {%- for l in site.locales %}
   <link rel="alternate" hreflang="{{ l.code }}" href="{{ site.baseUrl }}{{ pageSlug | localeUrl(l.code) }}">
@@ -24,7 +33,7 @@
   <link rel="stylesheet" href="/assets/css/pillars.css">
   <link rel="stylesheet" href="/assets/css/pages.css">
 </head>
-<body>
+<body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
 {{ content | safe }}
 </body>
 </html>

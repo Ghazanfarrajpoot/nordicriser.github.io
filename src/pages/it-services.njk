@@ -13,6 +13,8 @@ pageSlug: it-services
 ---
 {%- set t = locales[locale] -%}
 {%- set p = t.pages.itServices -%}
+{% import "partials/icons.njk" as icons %}
+{%- set howWeWorkIcons = ["pencil", "chat", "wrench", "check"] -%}
 
 <section class="page-hero">
   <div class="page-hero-inner" data-animate>
@@ -36,7 +38,7 @@ pageSlug: it-services
     <div class="services-grid">
       {%- for o in p.offerings %}
       <div class="service-card">
-        <div class="service-icon">{{ o.icon }}</div>
+        <div class="service-icon">{{ icons.icon(o.icon) }}</div>
         <h3>{{ o.title }}</h3>
         <p>{{ o.body }}</p>
       </div>
@@ -53,7 +55,7 @@ pageSlug: it-services
     <div class="approach-strip">
       {%- for step in p.howWeWork %}
       <div class="approach-item">
-        <span class="icon">{% if loop.index == 1 %}📝{% elif loop.index == 2 %}💬{% elif loop.index == 3 %}🛠️{% else %}✅{% endif %}</span>
+        <span class="icon">{{ icons.icon(howWeWorkIcons[loop.index0]) }}</span>
         <h4>{{ step.title }}</h4>
         <p>{{ step.body }}</p>
       </div>
@@ -70,6 +72,23 @@ pageSlug: it-services
     <div class="capabilities-list">
       {%- for cap in p.capabilities %}
       <div class="capability-item">{{ cap }}</div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.portfolioLabel }}</span>
+    <h2 class="section-title">{{ p.portfolioTitle }}</h2>
+    <p class="section-sub">{{ p.portfolioSub }}</p>
+    <div class="portfolio-grid">
+      {%- for item in p.portfolio %}
+      <div class="portfolio-card">
+        <div class="portfolio-icon">{{ icons.icon('code') }}</div>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.body }}</p>
+      </div>
       {%- endfor %}
     </div>
   </div>

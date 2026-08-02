@@ -436,6 +436,45 @@ img { display: block; max-width: 100%; }
   color: var(--navy);
 }
 
+.hero-ctas {
+  display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;
+}
+
+.btn-secondary {
+  display: inline-block;
+  background: transparent;
+  color: var(--white);
+  border: 1.5px solid rgba(255,255,255,0.5);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.78rem;
+  padding: 0.95rem 2.4rem;
+  border-radius: 4px;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: background 0.4s var(--ease-premium), border-color 0.4s var(--ease-premium), transform 0.4s var(--ease-premium);
+}
+
+[dir="rtl"] .btn-secondary { letter-spacing: 0; text-transform: none; }
+
+.btn-secondary:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: var(--white);
+  transform: translateY(-2px);
+}
+
+/* ── TRUST STRIP — org. nr. line ── */
+.trust-org-nr {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  margin: -1.75rem auto 2.5rem;
+}
+
+.trust-org-nr strong { color: var(--navy); font-weight: 700; }
+
 /* ── CARD TRANSITION BASE — all interactive cards ── */
 .service-card,
 .audience-card,
@@ -523,13 +562,23 @@ img { display: block; max-width: 100%; }
 }
 
 .footer-main {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 4.5rem 2rem 3.5rem;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1.6fr;
+  grid-template-columns: 1.8fr 2.4fr 1fr 1.6fr;
   gap: 3rem;
   align-items: start;
+}
+
+.footer-services-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-services-group .footer-col {
+  flex: 1 1 120px;
 }
 
 .footer-brand .footer-logo {

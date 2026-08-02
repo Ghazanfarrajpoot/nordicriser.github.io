@@ -13,6 +13,7 @@ pageSlug: about
 ---
 {%- set t = locales[locale] -%}
 {%- set p = t.pages.about -%}
+{% import "partials/icons.njk" as icons %}
 
 <section class="page-hero">
   <div class="page-hero-inner" data-animate>
@@ -55,7 +56,7 @@ pageSlug: about
       <div class="origin-pillars">
         {%- for item in p.whyWeExist.pillars %}
         <div class="pillar">
-          <div class="pillar-icon">{{ item.icon }}</div>
+          <div class="pillar-icon">{{ icons.icon(item.icon) }}</div>
           <div>
             <h4>{{ item.title }}</h4>
             <p>{{ item.body }}</p>
@@ -92,7 +93,7 @@ pageSlug: about
     <div class="values-grid">
       {%- for item in p.values.items %}
       <div class="value-card">
-        <span class="value-icon">{{ item.icon }}</span>
+        <span class="value-icon">{{ icons.icon(item.icon) }}</span>
         <h3>{{ item.title }}</h3>
         <p>{{ item.body }}</p>
       </div>

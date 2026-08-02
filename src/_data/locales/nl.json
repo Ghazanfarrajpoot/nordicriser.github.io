@@ -24,19 +24,35 @@
   "footer": {
     "brandBlurb": "Een internationaal adviesbureau dat gestructureerde consulting, technologie en wereldwijde samenwerking biedt aan ondernemers en professionals die een juridisch conforme aanwezigheid in Europa opbouwen.",
     "addressHeading": "Statutaire Zetel",
-    "servicesHeading": "Consultingdiensten",
+    "orgNrLabel": "Kvk./Org.nr.",
+    "orgNrValue": "[ORG_NR]",
     "firmHeading": "Kantoor",
     "complianceHeading": "Compliance",
     "disclaimerHeading": "Disclaimer",
     "disclaimer": "Nordic Riser AB levert uitsluitend strategische adviesdiensten. Wij bieden geen juridische vertegenwoordiging, immigratieadvies of garanties op resultaat. Alle beslissingen liggen bij de bevoegde autoriteiten. Compliance staat voorop in alles wat wij doen.",
     "copyright": "© 2026 Nordic Riser AB. Alle rechten voorbehouden. Stockholm, Sweden.",
-    "servicesLinks": [
-      { "label": "Bedrijfsvestiging", "anchor": "establishment" },
-      { "label": "Bedrijfsoprichting", "anchor": "formation" },
-      { "label": "Bedrijfsplanning", "anchor": "documentation" },
-      { "label": "Relocatiestrategie", "anchor": "relocation" },
-      { "label": "Grensoverschrijdend Advies", "anchor": "international" }
-    ],
+    "divisions": {
+      "consultingHeading": "Consulting",
+      "consultingLinks": [
+        { "label": "Bedrijfsvestiging", "anchor": "establishment" },
+        { "label": "Bedrijfsoprichting", "anchor": "formation" },
+        { "label": "Relocatiestrategie", "anchor": "relocation" },
+        { "label": "Grensoverschrijdend Advies", "anchor": "international" }
+      ],
+      "itServicesHeading": "IT-diensten",
+      "itServicesLinks": [
+        { "label": "Webplatforms & portalen" },
+        { "label": "Automatisering & integraties" },
+        { "label": "Doorlopende ondersteuning" },
+        { "label": "Offerte aanvragen", "target": "contact" }
+      ],
+      "globalReachHeading": "Global Reach",
+      "globalReachLinks": [
+        { "label": "Hoe het werkt" },
+        { "label": "Abonnementen & prijzen" },
+        { "label": "Start gratis — 100 berichten", "external": "https://portal.nordicriser.com" }
+      ]
+    },
     "firmLinks": {
       "about": "Over Ons",
       "contact": "Contact",
@@ -49,15 +65,16 @@
       "hero": {
         "label": "Eén Platform, Drie Pijlers",
         "h1": "Uw Toegangspoort tot Zweden — en de Wereld",
-        "body": "Gestructureerde consulting, technologie en wereldwijde samenwerking onder één dak — ontworpen voor internationale ondernemers, professionals en de bedrijven die zij oprichten.",
-        "cta": "Boek een Consult"
+        "body": "Consulting, technologie en wereldwijde samenwerking onder één dak — ontworpen voor internationale ondernemers, professionals en de bedrijven die zij oprichten.",
+        "cta": "Boek een Consult",
+        "ctaSecondary": "Ontdek Global Reach"
       },
       "pillars": {
         "label": "Wat Wij Bieden",
         "title": "Drie Pijlers. Eén Platform.",
         "sub": "In welke fase u zich ook bevindt — het opzetten van een bedrijf, het bouwen van de technologie erachter, of het contact leggen met adviseurs en gelijkgestemden — er is een pijler die daarbij past.",
         "consulting": {
-          "icon": "🏢",
+          "icon": "briefcase",
           "title": "Consulting",
           "promise": "Gestructureerd, compliant advies over bedrijfsvoering en relocatie voor internationale ondernemers.",
           "bullets": [
@@ -67,7 +84,7 @@
           ]
         },
         "itServices": {
-          "icon": "💻",
+          "icon": "code",
           "title": "IT-diensten",
           "promise": "Webplatforms en bedrijfssystemen gebouwd voor de ondernemingen die wij helpen opzetten.",
           "bullets": [
@@ -77,14 +94,16 @@
           ]
         },
         "globalReach": {
-          "icon": "🌐",
+          "icon": "globe",
           "title": "Global Reach",
-          "promise": "Live, gestructureerde sessies die u in contact brengen met adviseurs en gelijkgestemden — vanaf elke locatie.",
+          "promise": "Live ruimtes met gedeelde whiteboards en chat die in realtime wordt vertaald — werk grensoverschrijdend samen aan studie, onderzoek en projecten.",
           "bullets": [
-            "Live studie- en consultatieruimtes",
-            "Directe toegang tot specialisten",
-            "Flexibele abonnementen"
-          ]
+            "Gedeelde whiteboards voor live samenwerking",
+            "Chat die live tussen talen wordt vertaald",
+            "100 gratis berichten, geen kaart nodig"
+          ],
+          "badge": "100 gratis berichten",
+          "cta": "Start gratis — 100 berichten"
         },
         "learnMore": "Meer informatie →"
       },
@@ -93,12 +112,22 @@
         "title": "Strategische Consulting op Vijf Kerngebieden",
         "sub": "Wij bieden gestructureerd advies over het volledige spectrum van internationale bedrijfsvestiging en professionele relocatie — zonder generieke adviezen.",
         "services": [
-          { "icon": "🏢", "title": "Bedrijfsvestiging", "body": "Gestructureerde begeleiding bij de keuze van de juridische entiteit, registratieprocedures en operationele compliance voor internationale ondernemers die de Europese markt betreden.", "note": "Gespecialiseerd voor niet-EU-investeerders die op zoek zijn naar een veilige toegangspoort tot de Europese markt.", "anchor": "establishment" },
-          { "icon": "📋", "title": "Strategie voor Bedrijfsoprichting", "body": "Strategische planning van de juiste bedrijfsstructuur op basis van uw bedrijfsmodel, eigendomsvereisten en langetermijndoelstellingen.", "anchor": "formation" },
-          { "icon": "🌍", "title": "Strategie voor Verblijf via Ondernemerschap en Gezinshereniging", "body": "Advies over legitieme, op ondernemerschap gebaseerde relocatietrajecten voor u en uw gezin, afgestemd op de geldende regelgeving en gericht op duurzame verblijfsresultaten.", "anchor": "relocation" },
-          { "icon": "🔗", "title": "Grensoverschrijdend Advies", "body": "Coördinatie van overwegingen in meerdere jurisdicties, waaronder fiscaliteit, compliance en juridische structuren, voor internationaal actieve professionals en bedrijven.", "note": "Strategische ondersteuning bij Europese bancaire compliance en internationale kapitaalstructurering.", "anchor": "international" },
-          { "icon": "📊", "title": "Bedrijfsplanning voor Ondernemers", "body": "Ontwikkeling van gestructureerde businessplannen en documentatiepakketten die voldoen aan de eisen van Europese autoriteiten en instellingen.", "anchor": "documentation" }
+          { "icon": "briefcase", "title": "Bedrijfsvestiging", "body": "Gestructureerde begeleiding bij de keuze van de juridische entiteit, registratieprocedures en operationele compliance voor internationale ondernemers die de Europese markt betreden.", "note": "Gespecialiseerd voor niet-EU-investeerders die op zoek zijn naar een veilige toegangspoort tot de Europese markt.", "anchor": "establishment" },
+          { "icon": "clipboard", "title": "Strategie voor Bedrijfsoprichting", "body": "Strategische planning van de juiste bedrijfsstructuur op basis van uw bedrijfsmodel, eigendomsvereisten en langetermijndoelstellingen.", "anchor": "formation" },
+          { "icon": "world", "title": "Strategie voor Verblijf via Ondernemerschap en Gezinshereniging", "body": "Advies over legitieme, op ondernemerschap gebaseerde relocatietrajecten voor u en uw gezin, afgestemd op de geldende regelgeving en gericht op duurzame verblijfsresultaten.", "anchor": "relocation" },
+          { "icon": "link", "title": "Grensoverschrijdend Advies", "body": "Coördinatie van overwegingen in meerdere jurisdicties, waaronder fiscaliteit, compliance en juridische structuren, voor internationaal actieve professionals en bedrijven.", "note": "Strategische ondersteuning bij Europese bancaire compliance en internationale kapitaalstructurering.", "anchor": "international" },
+          { "icon": "chart", "title": "Bedrijfsplanning voor Ondernemers", "body": "Ontwikkeling van gestructureerde businessplannen en documentatiepakketten die voldoen aan de eisen van Europese autoriteiten en instellingen.", "anchor": "documentation" }
         ]
+      },
+      "globalReachTeaser": {
+        "label": "Global Reach",
+        "title": "Werk grensoverschrijdend samen — gratis om te beginnen",
+        "body": "Live ruimtes met gedeelde whiteboards en chat die in realtime wordt vertaald. Uw eerste 100 berichten zijn gratis — geen kaart nodig.",
+        "cta": "Start gratis — 100 berichten",
+        "mockCaption": "Illustratieve preview",
+        "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
+        "chatTranslated": "Het bestand is klaar voor beoordeling",
+        "chatTag": "Vertaald uit het Urdu"
       },
       "leadCapture": {
         "title": "Nog niet klaar voor een consult? Begin met onze gratis gids.",
@@ -144,8 +173,10 @@
         "label": "Vertrouwd door Internationale Ondernemers",
         "title": "Een Trackrecord Gebouwd op Structuur en Compliance",
         "sub": "Een adviespraktijk ontworpen voor grensoverschrijdende geloofwaardigheid, gestructureerde trajecten en regelgevingscompliance.",
+        "orgNrLabel": "Kvk./Org.nr.",
+        "orgNrValue": "[ORG_NR]",
         "stats": [
-          { "number": "12+ Landen", "label": "Klanten Bediend in Heel Europa" },
+          { "number": "Grensoverschrijdende Klanten", "label": "Ondernemers en Professionals in Heel Europa" },
           { "number": "3 Servicepijlers", "label": "Consulting, IT en Global Reach" },
           { "number": "Stockholm, Sweden", "label": "Gevestigd en Gereguleerd in de EU" },
           { "number": "Compliance-First", "label": "Bij Elk Traject" }
@@ -181,10 +212,10 @@
           "Onze focus ligt altijd op langetermijnstrategie en duurzame resultaten, niet op kortetermijngemak."
         ],
         "pillars": [
-          { "icon": "📐", "title": "Langetermijnstrategie", "body": "Wij ontwerpen structuren die uw bedrijfsdoelstellingen op de lange termijn dienen, niet alleen de directe vereisten." },
-          { "icon": "⚖️", "title": "Volledige Wettelijke Compliance", "body": "Elke aanbeveling is gebaseerd op actuele regelgeving en institutionele normen." },
-          { "icon": "🗂️", "title": "Gestructureerde Bedrijfsoplossingen", "body": "Wij bieden gedocumenteerde, systematische processen — geen informele begeleiding of algemene informatie." },
-          { "icon": "🤝", "title": "Professionele Consultingnormen", "body": "Onze trajecten worden beheerd met de discipline en verantwoordingsplicht van een professionele dienstverlener." }
+          { "icon": "ruler", "title": "Langetermijnstrategie", "body": "Wij ontwerpen structuren die uw bedrijfsdoelstellingen op de lange termijn dienen, niet alleen de directe vereisten." },
+          { "icon": "scale", "title": "Volledige Wettelijke Compliance", "body": "Elke aanbeveling is gebaseerd op actuele regelgeving en institutionele normen." },
+          { "icon": "folder", "title": "Gestructureerde Bedrijfsoplossingen", "body": "Wij bieden gedocumenteerde, systematische processen — geen informele begeleiding of algemene informatie." },
+          { "icon": "handshake", "title": "Professionele Consultingnormen", "body": "Onze trajecten worden beheerd met de discipline en verantwoordingsplicht van een professionele dienstverlener." }
         ]
       },
       "approach": {
@@ -205,12 +236,12 @@
         "title": "De Principes die Ons Werk Sturen",
         "sub": "Dit zijn geen ambitieuze statements. Het zijn de operationele normen waarmee elk traject wordt beheerd.",
         "items": [
-          { "icon": "⚖️", "title": "Compliance Voorop", "body": "Elk proces dat wij ontwerpen is bestand tegen institutionele toetsing. Wetmatigheid staat niet ter discussie — het is de basis van waaruit alle strategieën worden ontwikkeld." },
-          { "icon": "🎯", "title": "Transparantie", "body": "Wij communiceren eerlijk — over vereisten, tijdlijnen en realistische uitkomsten. Wij doen geen beloftes over beslissingen die bij derden of autoriteiten liggen." },
-          { "icon": "📋", "title": "Gestructureerd Proces", "body": "Elk traject wordt systematisch gedocumenteerd en beheerd. Ad-hocadvies is niet wat wij leveren — gestructureerde methodologie wel." },
-          { "icon": "🤝", "title": "Professionele Samenwerkingen", "body": "Wij onderhouden werkrelaties met gekwalificeerde juridische, fiscale en gespecialiseerde professionals — zodat technische en regelgevende aspecten met de juiste expertise worden behandeld." },
-          { "icon": "🛡️", "title": "Vertrouwelijkheid", "body": "Klantinformatie wordt behandeld met strikte discretie. Persoonlijke en zakelijke gegevens worden gedurende het gehele traject als strikt vertrouwelijk beschouwd." },
-          { "icon": "📐", "title": "Advies op Maat", "body": "Wij passen geen kant-en-klare oplossingen toe. Elk traject wordt individueel beoordeeld en de strategie wordt ontwikkeld op basis van de specifieke omstandigheden en doelstellingen van de klant." }
+          { "icon": "scale", "title": "Compliance Voorop", "body": "Elk proces dat wij ontwerpen is bestand tegen institutionele toetsing. Wetmatigheid staat niet ter discussie — het is de basis van waaruit alle strategieën worden ontwikkeld." },
+          { "icon": "target", "title": "Transparantie", "body": "Wij communiceren eerlijk — over vereisten, tijdlijnen en realistische uitkomsten. Wij doen geen beloftes over beslissingen die bij derden of autoriteiten liggen." },
+          { "icon": "clipboard", "title": "Gestructureerd Proces", "body": "Elk traject wordt systematisch gedocumenteerd en beheerd. Ad-hocadvies is niet wat wij leveren — gestructureerde methodologie wel." },
+          { "icon": "handshake", "title": "Professionele Samenwerkingen", "body": "Wij onderhouden werkrelaties met gekwalificeerde juridische, fiscale en gespecialiseerde professionals — zodat technische en regelgevende aspecten met de juiste expertise worden behandeld." },
+          { "icon": "shield", "title": "Vertrouwelijkheid", "body": "Klantinformatie wordt behandeld met strikte discretie. Persoonlijke en zakelijke gegevens worden gedurende het gehele traject als strikt vertrouwelijk beschouwd." },
+          { "icon": "ruler", "title": "Advies op Maat", "body": "Wij passen geen kant-en-klare oplossingen toe. Elk traject wordt individueel beoordeeld en de strategie wordt ontwikkeld op basis van de specifieke omstandigheden en doelstellingen van de klant." }
         ]
       },
       "missionBlock": { "label": "Onze Missie", "missionLabel": "Missieverklaring", "statement": "Het leveren van strategische adviesdiensten die internationale ondernemers en professionals helpen bij het opzetten van juridisch gestructureerde, compliant en duurzame bedrijfsactiviteiten in Europa — ondersteund door professionele begeleiding, gedocumenteerde processen en langetermijnstrategisch denken." },
@@ -508,10 +539,10 @@
       "offeringsTitle": "Vier Kernaanbiedingen",
       "offeringsSub": "Van een eerste bedrijfswebsite tot de systemen die de dagelijkse bedrijfsvoering draaiende houden — wij bouwen technologie die past bij de schaal en fase van uw onderneming.",
       "offerings": [
-        { "icon": "🌐", "title": "Webplatforms en Bedrijfswebsites", "body": "Professioneel ontworpen, meertalige websites die uw bedrijf vanaf dag één een geloofwaardige, gestructureerde online aanwezigheid geven." },
-        { "icon": "🔐", "title": "Klant- en Bedrijfsportalen", "body": "Beveiligde ledenmodules en klantportalen voor het beheren van documenten, communicatie en de status van zaken of projecten, allemaal op één plek." },
-        { "icon": "⚙️", "title": "Workflow-automatisering en Integraties", "body": "Automatisering van repetitief operationeel werk en integratie tussen de tools die uw bedrijf al gebruikt." },
-        { "icon": "🛠️", "title": "Doorlopend Onderhoud en Ondersteuning", "body": "Voortdurende technische ondersteuning, updates en monitoring na de lancering, zodat uw platform betrouwbaar blijft naarmate uw bedrijf groeit." }
+        { "icon": "globe", "title": "Webplatforms en Bedrijfswebsites", "body": "Professioneel ontworpen, meertalige websites die uw bedrijf vanaf dag één een geloofwaardige, gestructureerde online aanwezigheid geven." },
+        { "icon": "lock", "title": "Klant- en Bedrijfsportalen", "body": "Beveiligde ledenmodules en klantportalen voor het beheren van documenten, communicatie en de status van zaken of projecten, allemaal op één plek." },
+        { "icon": "gear", "title": "Workflow-automatisering en Integraties", "body": "Automatisering van repetitief operationeel werk en integratie tussen de tools die uw bedrijf al gebruikt." },
+        { "icon": "wrench", "title": "Doorlopend Onderhoud en Ondersteuning", "body": "Voortdurende technische ondersteuning, updates en monitoring na de lancering, zodat uw platform betrouwbaar blijft naarmate uw bedrijf groeit." }
       ],
       "howWeWorkLabel": "Hoe Wij Werken",
       "howWeWorkTitle": "Een Gestructureerd Traject van Idee tot Lancering",
@@ -533,36 +564,83 @@
         "Automatisering van terugkerende administratieve of operationele workflows",
         "Doorlopende hosting-, monitoring- en technische ondersteuningsregelingen"
       ],
+      "portfolioLabel": "Ons Werk",
+      "portfolioTitle": "Deze Website Is het Portfolio",
+      "portfolioSub": "In plaats van casestudies van andere klanten, is het duidelijkste voorbeeld van wat wij bouwen precies wat u nu gebruikt.",
+      "portfolio": [
+        { "title": "nordicriser.com", "body": "De meertalige marketingwebsite die u bekijkt — 11 talen, intern gebouwd en onderhouden." },
+        { "title": "Nordic Riser Ledenportaal", "body": "Het beveiligde klantportaal dat onze eigen Consulting- en Global Reach-leden gebruiken voor documenten, berichten en zaakvolging." }
+      ],
       "cta": { "title": "Vraag een Offerte Aan", "body": "Vertel ons over uw bedrijf en wat u wilt bouwen. Wij beoordelen de scope en leveren een duidelijke, gestructureerde offerte — op dezelfde manier waarop wij elk consultingtraject benaderen." }
     },
     "globalReach": {
-      "hero": { "label": "Global Reach", "h1": "Live Samenwerking, Waar U Ook Bent", "body": "Neem deel aan live ruimtes om in contact te komen met adviseurs, specialisten en gelijkgestemden — met chat die in realtime vertaalt tussen de talen die uw community spreekt.", "mockCaption": "Illustratieve voorbeeldweergave" },
+      "hero": {
+        "label": "Global Reach",
+        "h1": "Werk Grensoverschrijdend Samen — Uw Eerste 100 Berichten Zijn Gratis",
+        "body": "Neem deel aan live ruimtes met gedeelde whiteboards en chat die in realtime wordt vertaald — iedereen leest en schrijft in zijn eigen taal.",
+        "ctaPrimary": "Start gratis — 100 berichten",
+        "ctaSecondary": "Bekijk hoe het werkt",
+        "trustLine": "Geen creditcard nodig · Altijd opzegbaar · AVG-conform",
+        "earlyAccessBadge": "Nu in Vroege Toegang",
+        "mockCaption": "Illustratieve voorbeeldweergave",
+        "visual": {
+          "whiteboardLabel": "Gedeeld Whiteboard",
+          "participants": [
+            { "lang": "SV", "name": "Elin" },
+            { "lang": "UR", "name": "Ahmed" },
+            { "lang": "EN", "name": "Grace" },
+            { "lang": "AR", "name": "Layla" },
+            { "lang": "DE", "name": "Jonas" },
+            { "lang": "PL", "name": "Kasia" }
+          ],
+          "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
+          "chatTranslated": "Het bestand is klaar voor beoordeling",
+          "chatTag": "Vertaald uit het Urdu · tik voor origineel"
+        }
+      },
       "breadcrumb": "Global Reach",
       "howItWorksLabel": "Hoe Het Werkt",
-      "howItWorksTitle": "Drie Stappen om Verbonden Te Raken",
-      "howItWorksSub": "Global Reach zet een abonnement om in directe, live toegang — zonder heen-en-weer geplande afspraken.",
+      "howItWorksTitle": "Drie Stappen om Te Beginnen met Samenwerken",
+      "howItWorksSub": "Global Reach zet een abonnement om in directe, meertalige samenwerking — zonder heen-en-weer geplande afspraken.",
       "howItWorks": [
-        { "title": "Sluit U Aan bij een Ruimte", "body": "Maak of sluit u aan bij een live ruimte rond uw onderwerp — een vervolg op een consult, een studiesessie of een open discussie." },
-        { "title": "Kom in Contact met Adviseurs en Gelijkgestemden", "body": "Werk in realtime samen met adviseurs, specialisten of gelijkgestemden die vergelijkbare situaties doorlopen." },
-        { "title": "Ontvang Gestructureerde Follow-up", "body": "Verlaat elke sessie met een duidelijk verslag van wat er is besproken en wat de volgende stap is." }
+        { "title": "Maak of Sluit U Aan bij een Ruimte", "body": "Start een nieuwe ruimte of sluit u aan bij een ruimte rond uw onderwerp — examenvoorbereiding, een onderzoeksgroep of een grensoverschrijdend project." },
+        { "title": "Werk Samen op Gedeelde Whiteboards", "body": "Schets, annoteer en werk samen aan problemen op een whiteboard dat iedereen in de ruimte live kan zien en bewerken." },
+        { "title": "Chat met Live Vertaling", "body": "Schrijf berichten in uw eigen taal — alle anderen lezen ze direct vertaald in de hunne." }
       ],
+      "ctaBand1": {
+        "title": "Klaar om Grensoverschrijdend Samen Te Werken?",
+        "body": "Maak uw gratis account aan en start uw eerste ruimte in enkele minuten.",
+        "cta": "Start gratis — 100 berichten"
+      },
       "useCasesLabel": "Voor Wie Het Is",
-      "useCasesTitle": "Ontworpen voor Verschillende Soorten Sessies",
+      "useCasesTitle": "Ontworpen voor Grensoverschrijdende Samenwerking",
       "useCases": [
-        { "title": "Aspirant-ondernemers", "body": "Eerste gesprekken voordat u zich vastlegt op een volledig consultingtraject." },
-        { "title": "Klanten Midden in een Traject", "body": "Live vervolgsessies met uw consulting- of IT-team tussen geplande afspraken door." },
-        { "title": "Peer-studiegroepen", "body": "Gestructureerde sessies met andere leden die vergelijkbare relocatie- of bedrijfstrajecten doorlopen." },
-        { "title": "Grensoverschrijdende Vraag & Antwoord", "body": "Open sessies waarin leden uit verschillende landen en met verschillende talen samen vragen kunnen stellen." }
+        { "title": "Examenvoorbereiding", "body": "Een Nederlandstalige student en een Urdu-sprekende klasgenoot leren samen de avond voor het examen — de chat wordt direct in beide richtingen vertaald." },
+        { "title": "Bijles", "body": "Een Engelstalige docent begeleidt een Duitstalige student via het gedeelde whiteboard door een reeks opgaven." },
+        { "title": "Onderzoeksgroepen", "body": "Pools- en Arabischtalige onderzoekers vergelijken notities in dezelfde ruimte, elk lezend en schrijvend in zijn eigen taal." },
+        { "title": "Grensoverschrijdende Projectteams", "body": "Een Nederlandse projectleider en een Pakistaanse ontwikkelaar coördineren een sprint, met whiteboard en chat beide live gedeeld." }
       ],
-      "plansLabel": "Abonnementen",
-      "plansTitle": "Kies Uw Toegangsniveau",
-      "plansSub": "Abonnementen worden beheerd via het ledenportaal en door ons team beoordeeld voordat ze worden geactiveerd.",
+      "plansLabel": "Prijzen",
+      "plansTitle": "Begin Gratis. Upgrade Wanneer Nodig.",
+      "plansSub": "Elk abonnement omvat volledige toegang tot ruimtes en gedeelde whiteboards — abonnementen verschillen alleen in de maandelijkse berichtenlimiet.",
+      "freePlan": { "name": "Gratis", "price": "0", "period": "voor altijd", "features": ["100 berichten inbegrepen", "Volledige toegang tot ruimtes & whiteboards", "Geen creditcard nodig"] },
       "plans": [
         { "name": "Basic", "price": "29", "period": "/ maand", "features": ["100 berichten / maand", "2 uur live sessies / maand", "Toegang tot documentenkluis", "Zaakvolging"], "popular": false },
         { "name": "Pro", "price": "79", "period": "/ maand", "features": ["500 berichten / maand", "10 uur live sessies / maand", "Prioriteitsondersteuning", "Alle Basic-functies"], "popular": true }
       ],
       "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
-      "cta": { "title": "Aanmelden", "body": "Maak uw account aan in het ledenportaal om een abonnement te kiezen en deel te nemen aan ruimtes." }
+      "limitNote": "Ruimtes en whiteboards blijven toegankelijk na uw 100 gratis berichten — voor het versturen van meer vertaalde chatberichten is een betaald abonnement nodig.",
+      "faqLabel": "Veelgestelde Vragen",
+      "faqTitle": "Veelgestelde Vragen",
+      "faq": [
+        { "q": "Wat telt als een bericht?", "a": "Elk chatbericht dat u verstuurt in een ruimte, of in 1-op-1-berichten, telt mee voor uw maandelijkse limiet. Het vertalen ervan voor andere deelnemers kost geen extra berichten." },
+        { "q": "Wat gebeurt er als mijn gratis berichten op zijn?", "a": "Uw ruimtes, whiteboards en berichtgeschiedenis blijven volledig toegankelijk. Voor het versturen van meer vertaalde chatberichten is een upgrade naar een betaald abonnement nodig." },
+        { "q": "Welke talen worden ondersteund?", "a": "Volledige interfaceondersteuning voor Engels, Zweeds, Duits, Frans, Spaans, Italiaans, Pools, Nederlands, Portugees, Urdu en Arabisch, met chatvertaling ook beschikbaar naar aanvullende talen." },
+        { "q": "Zijn mijn gegevens privé?", "a": "Ja — berichten en documenten worden verwerkt volgens ons AVG-conforme privacybeleid, dat precies aangeeft wat wij verzamelen en waarom." }
+      ],
+      "emailCapture": { "title": "Nog Niet Klaar?", "body": "Ontvang een melding wanneer nieuwe talen worden gelanceerd.", "placeholder": "Uw e-mailadres", "button": "Meld Mij" },
+      "stickyBar": { "text": "Uw eerste 100 berichten zijn gratis", "cta": "Start gratis" },
+      "cta": { "title": "Begin Vandaag met Samenwerken", "body": "Maak uw gratis account aan — geen creditcard nodig — en sluit u binnen enkele minuten aan bij uw eerste ruimte.", "trustLine": "Geen creditcard nodig · Altijd opzegbaar · AVG-conform" }
     },
     "portal": {
       "hero": { "label": "Klanttoegang", "h1": "Ledenportaal", "body": "Beveiligde toegang voor geregistreerde klanten van Nordic Riser AB om hun traject, documenten en communicatie te beheren." },

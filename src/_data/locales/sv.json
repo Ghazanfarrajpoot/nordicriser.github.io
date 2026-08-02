@@ -24,19 +24,35 @@
   "footer": {
     "brandBlurb": "En internationell rådgivningsbyrå som erbjuder strukturerad konsultverksamhet, teknik och global samverkan för entreprenörer och yrkesutövare som bygger en juridiskt korrekt verksamhet i Europa.",
     "addressHeading": "Registrerat säte",
-    "servicesHeading": "Konsulttjänster",
+    "orgNrLabel": "Org. nr.",
+    "orgNrValue": "[ORG_NR]",
     "firmHeading": "Företaget",
     "complianceHeading": "Regelefterlevnad",
     "disclaimerHeading": "Ansvarsfriskrivning",
     "disclaimer": "Nordic Riser AB tillhandahåller enbart strategisk rådgivning. Vi erbjuder inte juridiskt ombud, migrationsrådgivning eller garantier för utfall. Alla beslut fattas av behöriga myndigheter. Regelefterlevnad genomsyrar allt vi gör.",
     "copyright": "© 2026 Nordic Riser AB. Alla rättigheter förbehållna. Stockholm, Sweden.",
-    "servicesLinks": [
-      { "label": "Företagsetablering", "anchor": "establishment" },
-      { "label": "Bolagsbildning", "anchor": "formation" },
-      { "label": "Affärsplanering", "anchor": "documentation" },
-      { "label": "Flyttstrategi", "anchor": "relocation" },
-      { "label": "Gränsöverskridande rådgivning", "anchor": "international" }
-    ],
+    "divisions": {
+      "consultingHeading": "Konsultverksamhet",
+      "consultingLinks": [
+        { "label": "Företagsetablering", "anchor": "establishment" },
+        { "label": "Bolagsbildning", "anchor": "formation" },
+        { "label": "Flyttstrategi", "anchor": "relocation" },
+        { "label": "Gränsöverskridande rådgivning", "anchor": "international" }
+      ],
+      "itServicesHeading": "IT-tjänster",
+      "itServicesLinks": [
+        { "label": "Webbplattformar & portaler" },
+        { "label": "Automation & integrationer" },
+        { "label": "Löpande support" },
+        { "label": "Begär offert", "target": "contact" }
+      ],
+      "globalReachHeading": "Global Reach",
+      "globalReachLinks": [
+        { "label": "Så fungerar det" },
+        { "label": "Planer & priser" },
+        { "label": "Prova gratis — 100 meddelanden", "external": "https://portal.nordicriser.com" }
+      ]
+    },
     "firmLinks": {
       "about": "Om oss",
       "contact": "Kontakt",
@@ -49,15 +65,16 @@
       "hero": {
         "label": "En plattform, tre pelare",
         "h1": "Din inkörsport till Sverige — och världen",
-        "body": "Strukturerad konsultverksamhet, teknik och global samverkan under ett och samma tak — utformat för internationella entreprenörer, yrkesutövare och de företag de etablerar.",
-        "cta": "Boka en konsultation"
+        "body": "Konsultverksamhet, teknik och global samverkan under ett och samma tak — utformat för internationella entreprenörer, yrkesutövare och de företag de etablerar.",
+        "cta": "Boka en konsultation",
+        "ctaSecondary": "Utforska Global Reach"
       },
       "pillars": {
         "label": "Vad vi erbjuder",
         "title": "Tre pelare. En plattform.",
         "sub": "Oavsett var du befinner dig — i etableringen av ett företag, i uppbyggnaden av tekniken bakom det, eller i kontakten med rådgivare och andra i samma situation — finns det en pelare byggd för det.",
         "consulting": {
-          "icon": "🏢",
+          "icon": "briefcase",
           "title": "Konsulttjänster",
           "promise": "Strukturerad, regelefterlevande rådgivning kring företag och flytt för internationella entreprenörer.",
           "bullets": [
@@ -67,7 +84,7 @@
           ]
         },
         "itServices": {
-          "icon": "💻",
+          "icon": "code",
           "title": "IT-tjänster",
           "promise": "Webbplattformar och affärssystem byggda för de företag vi hjälper att etablera.",
           "bullets": [
@@ -77,14 +94,16 @@
           ]
         },
         "globalReach": {
-          "icon": "🌐",
+          "icon": "globe",
           "title": "Global Reach",
-          "promise": "Direktsända, strukturerade sessioner som kopplar samman dig med rådgivare och andra medlemmar — var du än befinner dig.",
+          "promise": "Direktsända rum med delade whiteboards och chatt som översätts i realtid — samarbeta över gränser kring studier, forskning och projekt.",
           "bullets": [
-            "Direktsända studie- och konsultationsrum",
-            "Direkt tillgång till specialister",
-            "Flexibla abonnemang"
-          ]
+            "Delade whiteboards för direktsamarbete",
+            "Chatt som översätts live mellan språk",
+            "100 gratis meddelanden, inget kort krävs"
+          ],
+          "badge": "100 gratis meddelanden",
+          "cta": "Prova gratis — 100 meddelanden"
         },
         "learnMore": "Läs mer →"
       },
@@ -93,12 +112,22 @@
         "title": "Strategisk rådgivning inom fem kärnområden",
         "sub": "Vi erbjuder strukturerad rådgivning inom hela spektrumet av internationell företagsetablering och yrkesmässig flytt — utan generella råd.",
         "services": [
-          { "icon": "🏢", "title": "Företagsetablering", "body": "Strukturerad vägledning kring val av juridisk associationsform, registreringsförfaranden och operativ regelefterlevnad för internationella företagare som etablerar sig på europeiska marknader.", "note": "Särskilt anpassat för investerare utanför EU som söker en säker inkörsport till europeiska marknader.", "anchor": "establishment" },
-          { "icon": "📋", "title": "Strategi för bolagsbildning", "body": "Strategisk planering av rätt bolagsstruktur utifrån din affärsmodell, ägarkrav och långsiktiga mål.", "anchor": "formation" },
-          { "icon": "🌍", "title": "Strategi för näringsbaserat uppehållstillstånd och familjeflytt", "body": "Rådgivning om legitima, näringsbaserade vägar till flytt för dig och din familj, i linje med gällande regelverk och utformade för hållbara resultat kring uppehållstillstånd.", "anchor": "relocation" },
-          { "icon": "🔗", "title": "Gränsöverskridande rådgivning", "body": "Samordning av frågor som rör flera jurisdiktioner, inklusive skatt, regelefterlevnad och juridiska strukturer, för internationellt verksamma yrkesutövare och företag.", "note": "Strategiskt stöd kring europeisk bankregelefterlevnad och internationell kapitalstrukturering.", "anchor": "international" },
-          { "icon": "📊", "title": "Affärsplanering för entreprenörer", "body": "Utveckling av strukturerade affärsplaner och dokumentationspaket anpassade för att uppfylla kraven från europeiska myndigheter och institutioner.", "anchor": "documentation" }
+          { "icon": "briefcase", "title": "Företagsetablering", "body": "Strukturerad vägledning kring val av juridisk associationsform, registreringsförfaranden och operativ regelefterlevnad för internationella företagare som etablerar sig på europeiska marknader.", "note": "Särskilt anpassat för investerare utanför EU som söker en säker inkörsport till europeiska marknader.", "anchor": "establishment" },
+          { "icon": "clipboard", "title": "Strategi för bolagsbildning", "body": "Strategisk planering av rätt bolagsstruktur utifrån din affärsmodell, ägarkrav och långsiktiga mål.", "anchor": "formation" },
+          { "icon": "world", "title": "Strategi för näringsbaserat uppehållstillstånd och familjeflytt", "body": "Rådgivning om legitima, näringsbaserade vägar till flytt för dig och din familj, i linje med gällande regelverk och utformade för hållbara resultat kring uppehållstillstånd.", "anchor": "relocation" },
+          { "icon": "link", "title": "Gränsöverskridande rådgivning", "body": "Samordning av frågor som rör flera jurisdiktioner, inklusive skatt, regelefterlevnad och juridiska strukturer, för internationellt verksamma yrkesutövare och företag.", "note": "Strategiskt stöd kring europeisk bankregelefterlevnad och internationell kapitalstrukturering.", "anchor": "international" },
+          { "icon": "chart", "title": "Affärsplanering för entreprenörer", "body": "Utveckling av strukturerade affärsplaner och dokumentationspaket anpassade för att uppfylla kraven från europeiska myndigheter och institutioner.", "anchor": "documentation" }
         ]
+      },
+      "globalReachTeaser": {
+        "label": "Global Reach",
+        "title": "Samarbeta över gränser — gratis att börja",
+        "body": "Direktsända rum med delade whiteboards och chatt som översätts i realtid. Dina första 100 meddelanden är gratis — inget kort krävs.",
+        "cta": "Prova gratis — 100 meddelanden",
+        "mockCaption": "Illustrativ förhandsvisning",
+        "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
+        "chatTranslated": "Filen är klar för granskning",
+        "chatTag": "Översatt från urdu"
       },
       "leadCapture": {
         "title": "Inte redo att boka en konsultation än? Börja med vår kostnadsfria guide.",
@@ -144,8 +173,10 @@
         "label": "Betrodda av internationella entreprenörer",
         "title": "En meritlista byggd på struktur och regelefterlevnad",
         "sub": "En konsultverksamhet byggd för gränsöverskridande trovärdighet, strukturerade uppdrag och regelefterlevnad.",
+        "orgNrLabel": "Org. nr.",
+        "orgNrValue": "[ORG_NR]",
         "stats": [
-          { "number": "12+ länder", "label": "Kunder över hela Europa" },
+          { "number": "Gränsöverskridande kunder", "label": "Entreprenörer och yrkesutövare över hela Europa" },
           { "number": "3 tjänstepelare", "label": "Konsulttjänster, IT och Global Reach" },
           { "number": "Stockholm, Sweden", "label": "EU-baserade och reglerade" },
           { "number": "Regelefterlevnad först", "label": "I varje uppdrag" }
@@ -181,10 +212,10 @@
           "Vårt fokus ligger alltid på långsiktig strategi och hållbara resultat, inte kortsiktig bekvämlighet."
         ],
         "pillars": [
-          { "icon": "📐", "title": "Långsiktig strategi", "body": "Vi utformar strukturer som tjänar dina affärsmål över tid, inte bara omedelbara behov." },
-          { "icon": "⚖️", "title": "Full regelefterlevnad", "body": "Varje rekommendation grundas i gällande regelverk och institutionella standarder." },
-          { "icon": "🗂️", "title": "Strukturerade affärslösningar", "body": "Vi erbjuder dokumenterade, systematiska processer — inte informell vägledning eller allmän information." },
-          { "icon": "🤝", "title": "Professionella konsultstandarder", "body": "Våra uppdrag hanteras med samma disciplin och ansvarsskyldighet som i en professionell tjänsteverksamhet." }
+          { "icon": "ruler", "title": "Långsiktig strategi", "body": "Vi utformar strukturer som tjänar dina affärsmål över tid, inte bara omedelbara behov." },
+          { "icon": "scale", "title": "Full regelefterlevnad", "body": "Varje rekommendation grundas i gällande regelverk och institutionella standarder." },
+          { "icon": "folder", "title": "Strukturerade affärslösningar", "body": "Vi erbjuder dokumenterade, systematiska processer — inte informell vägledning eller allmän information." },
+          { "icon": "handshake", "title": "Professionella konsultstandarder", "body": "Våra uppdrag hanteras med samma disciplin och ansvarsskyldighet som i en professionell tjänsteverksamhet." }
         ]
       },
       "approach": {
@@ -205,12 +236,12 @@
         "title": "Principerna som styr vårt arbete",
         "sub": "Det här är inga visionära uttalanden. Det är de operativa standarder som varje uppdrag hanteras enligt.",
         "items": [
-          { "icon": "⚖️", "title": "Regelefterlevnad först", "body": "Varje process vi utformar är byggd för att klara institutionell granskning. Laglighet är inte förhandlingsbart — det är utgångspunkten för alla strategier vi utvecklar." },
-          { "icon": "🎯", "title": "Transparens", "body": "Vi kommunicerar ärligt — om krav, tidsramar och realistiska utfall. Vi ger inga löften om beslut som fattas av tredje part eller myndigheter." },
-          { "icon": "📋", "title": "Strukturerad process", "body": "Varje uppdrag dokumenteras och hanteras systematiskt. Vi ger inte ad hoc-råd — vi tillämpar strukturerad metodik." },
-          { "icon": "🤝", "title": "Professionella partnerskap", "body": "Vi upprätthåller samarbeten med kvalificerade jurister, skatterådgivare och andra specialister — för att säkerställa att tekniska och regelmässiga aspekter hanteras med rätt expertis." },
-          { "icon": "🛡️", "title": "Konfidentialitet", "body": "Kundinformation hanteras enligt stränga sekretessstandarder. Personlig och kommersiell information behandlas som strikt konfidentiell genom hela uppdraget." },
-          { "icon": "📐", "title": "Skräddarsydd rådgivning", "body": "Vi tillämpar inga mallösningar. Varje uppdrag bedöms individuellt, och strategin utformas specifikt utifrån kundens förhållanden och mål." }
+          { "icon": "scale", "title": "Regelefterlevnad först", "body": "Varje process vi utformar är byggd för att klara institutionell granskning. Laglighet är inte förhandlingsbart — det är utgångspunkten för alla strategier vi utvecklar." },
+          { "icon": "target", "title": "Transparens", "body": "Vi kommunicerar ärligt — om krav, tidsramar och realistiska utfall. Vi ger inga löften om beslut som fattas av tredje part eller myndigheter." },
+          { "icon": "clipboard", "title": "Strukturerad process", "body": "Varje uppdrag dokumenteras och hanteras systematiskt. Vi ger inte ad hoc-råd — vi tillämpar strukturerad metodik." },
+          { "icon": "handshake", "title": "Professionella partnerskap", "body": "Vi upprätthåller samarbeten med kvalificerade jurister, skatterådgivare och andra specialister — för att säkerställa att tekniska och regelmässiga aspekter hanteras med rätt expertis." },
+          { "icon": "shield", "title": "Konfidentialitet", "body": "Kundinformation hanteras enligt stränga sekretessstandarder. Personlig och kommersiell information behandlas som strikt konfidentiell genom hela uppdraget." },
+          { "icon": "ruler", "title": "Skräddarsydd rådgivning", "body": "Vi tillämpar inga mallösningar. Varje uppdrag bedöms individuellt, och strategin utformas specifikt utifrån kundens förhållanden och mål." }
         ]
       },
       "missionBlock": { "label": "Vårt uppdrag", "missionLabel": "Uppdragsbeskrivning", "statement": "Att erbjuda strategiska konsulttjänster som hjälper internationella entreprenörer och yrkesutövare att etablera juridiskt strukturerad, regelefterlevande och hållbar verksamhet i Europa — med stöd av professionell vägledning, dokumenterade processer och långsiktigt strategiskt tänkande." },
@@ -508,10 +539,10 @@
       "offeringsTitle": "Fyra kärnerbjudanden",
       "offeringsSub": "Från en första företagswebbplats till de system som driver den dagliga verksamheten — vi bygger teknik som matchar skalan och skedet i din verksamhet.",
       "offerings": [
-        { "icon": "🌐", "title": "Webbplattformar och företagswebbplatser", "body": "Professionellt designade, flerspråkiga webbplatser som ger din verksamhet en trovärdig, strukturerad närvaro online från dag ett." },
-        { "icon": "🔐", "title": "Kund- och företagsportaler", "body": "Säkra medlems- och kundportaler för hantering av dokument, kommunikation och ärende- eller projektstatus på ett och samma ställe." },
-        { "icon": "⚙️", "title": "Automatisering av arbetsflöden och integrationer", "body": "Automatisering av repetitivt operativt arbete och integration mellan de verktyg din verksamhet redan använder." },
-        { "icon": "🛠️", "title": "Löpande underhåll och support", "body": "Fortsatt teknisk support, uppdateringar och övervakning efter lansering, så att din plattform förblir pålitlig i takt med att din verksamhet växer." }
+        { "icon": "globe", "title": "Webbplattformar och företagswebbplatser", "body": "Professionellt designade, flerspråkiga webbplatser som ger din verksamhet en trovärdig, strukturerad närvaro online från dag ett." },
+        { "icon": "lock", "title": "Kund- och företagsportaler", "body": "Säkra medlems- och kundportaler för hantering av dokument, kommunikation och ärende- eller projektstatus på ett och samma ställe." },
+        { "icon": "gear", "title": "Automatisering av arbetsflöden och integrationer", "body": "Automatisering av repetitivt operativt arbete och integration mellan de verktyg din verksamhet redan använder." },
+        { "icon": "wrench", "title": "Löpande underhåll och support", "body": "Fortsatt teknisk support, uppdateringar och övervakning efter lansering, så att din plattform förblir pålitlig i takt med att din verksamhet växer." }
       ],
       "howWeWorkLabel": "Hur vi arbetar",
       "howWeWorkTitle": "En strukturerad väg från idé till lansering",
@@ -533,36 +564,83 @@
         "Automatisering av återkommande administrativa eller operativa arbetsflöden",
         "Löpande hosting, övervakning och tekniska supportavtal"
       ],
+      "portfolioLabel": "Vårt arbete",
+      "portfolioTitle": "Den här webbplatsen är portfolion",
+      "portfolioSub": "Istället för fallstudier från andra kunder är det tydligaste exemplet på vad vi bygger det du använder just nu.",
+      "portfolio": [
+        { "title": "nordicriser.com", "body": "Den flerspråkiga marknadsföringswebbplats du besöker — 11 språk, byggd och underhållen internt." },
+        { "title": "Nordic Riser Medlemsportal", "body": "Den säkra kundportal som våra egna konsult- och Global Reach-medlemmar använder för dokument, meddelanden och ärendespårning." }
+      ],
       "cta": { "title": "Begär en offert", "body": "Berätta för oss om din verksamhet och vad du vill bygga. Vi bedömer omfånget och ger dig en tydlig, strukturerad offert — på samma sätt som vi angriper varje konsultuppdrag." }
     },
     "globalReach": {
-      "hero": { "label": "Global Reach", "h1": "Direktsänd samverkan, var du än befinner dig", "body": "Delta i direktsända rum för att koppla samman med rådgivare, specialister och andra medlemmar — med chatt som översätts i realtid mellan de språk din grupp talar.", "mockCaption": "Illustrativ förhandsvisning" },
+      "hero": {
+        "label": "Global Reach",
+        "h1": "Samarbeta över gränser — dina första 100 meddelanden är gratis",
+        "body": "Gå med i direktsända rum med delade whiteboards och chatt som översätts i realtid — alla läser och skriver på sitt eget språk.",
+        "ctaPrimary": "Prova gratis — 100 meddelanden",
+        "ctaSecondary": "Se hur det fungerar",
+        "trustLine": "Inget kort krävs · Avsluta när du vill · GDPR-kompatibelt",
+        "earlyAccessBadge": "Nu i tidig tillgång",
+        "mockCaption": "Illustrativ förhandsvisning",
+        "visual": {
+          "whiteboardLabel": "Delad whiteboard",
+          "participants": [
+            { "lang": "SV", "name": "Elin" },
+            { "lang": "UR", "name": "Ahmed" },
+            { "lang": "EN", "name": "Grace" },
+            { "lang": "AR", "name": "Layla" },
+            { "lang": "DE", "name": "Jonas" },
+            { "lang": "PL", "name": "Kasia" }
+          ],
+          "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
+          "chatTranslated": "Filen är klar för granskning",
+          "chatTag": "Översatt från urdu · tryck för original"
+        }
+      },
       "breadcrumb": "Global Reach",
       "howItWorksLabel": "Så fungerar det",
-      "howItWorksTitle": "Tre steg för att komma i kontakt",
-      "howItWorksSub": "Global Reach gör ett abonnemang till direkt, direktsänd tillgång — utan fram- och tillbaka-schemaläggning.",
+      "howItWorksTitle": "Tre steg för att börja samarbeta",
+      "howItWorksSub": "Global Reach gör ett abonnemang till direkt, gränsöverskridande samarbete — utan fram- och tillbaka-schemaläggning.",
       "howItWorks": [
-        { "title": "Gå med i ett rum", "body": "Skapa eller gå med i ett direktsänt rum byggt kring ditt ämne — en uppföljning av en konsultation, en studiesession eller en öppen diskussion." },
-        { "title": "Koppla samman med rådgivare och andra medlemmar", "body": "Samarbeta i realtid med rådgivare, specialister eller andra medlemmar som hanterar liknande situationer." },
-        { "title": "Få strukturerad uppföljning", "body": "Lämna varje session med en tydlig sammanfattning av vad som diskuterades och vad som händer härnäst." }
+        { "title": "Skapa eller gå med i ett rum", "body": "Starta ett nytt rum eller gå med i ett byggt kring ditt ämne — tentaplugg, en forskningsgrupp eller ett gränsöverskridande projekt." },
+        { "title": "Samarbeta på delade whiteboards", "body": "Skissa, kommentera och lös problem tillsammans på en whiteboard som alla i rummet kan se och redigera live." },
+        { "title": "Chatta med direktöversättning", "body": "Skriv meddelanden på ditt eget språk — alla andra läser dem på sitt, översatta direkt." }
       ],
+      "ctaBand1": {
+        "title": "Redo att samarbeta över gränser?",
+        "body": "Skapa ditt gratiskonto och starta ditt första rum på några minuter.",
+        "cta": "Prova gratis — 100 meddelanden"
+      },
       "useCasesLabel": "Vem det är till för",
-      "useCasesTitle": "Byggt för flera typer av sessioner",
+      "useCasesTitle": "Byggt för gränsöverskridande samarbete",
       "useCases": [
-        { "title": "Blivande entreprenörer", "body": "Tidiga samtal innan man förbinder sig till ett fullständigt konsultuppdrag." },
-        { "title": "Kunder mitt i ett uppdrag", "body": "Direktsända uppföljningar med ditt konsult- eller IT-team mellan schemalagda möten." },
-        { "title": "Studiegrupper med andra medlemmar", "body": "Strukturerade sessioner med andra medlemmar som navigerar liknande flytt- eller affärsresor." },
-        { "title": "Gränsöverskridande frågestund", "body": "Öppna sessioner där medlemmar från olika länder och språk kan ställa frågor tillsammans." }
+        { "title": "Tentaplugg", "body": "En svensktalande student och en urdutalande klasskompis pluggar tillsammans kvällen före tentan — chatten översätts direkt, åt båda hållen." },
+        { "title": "Handledning", "body": "En engelsktalande handledare går igenom en uppgift med en tysktalande student på den delade whiteboarden." },
+        { "title": "Forskningsgrupper", "body": "Polsk- och arabisktalande forskare jämför anteckningar i samma rum, var och en läser och skriver på sitt eget språk." },
+        { "title": "Gränsöverskridande projektteam", "body": "En nederländsk projektledare och en pakistansk utvecklare samordnar en sprint, med whiteboard och chatt delade live." }
       ],
-      "plansLabel": "Abonnemang",
-      "plansTitle": "Välj din tillgångsnivå",
-      "plansSub": "Abonnemang hanteras via medlemsportalen och granskas av vårt team innan aktivering.",
+      "plansLabel": "Priser",
+      "plansTitle": "Börja gratis. Uppgradera vid behov.",
+      "plansSub": "Alla abonnemang inkluderar full tillgång till rum och delade whiteboards — abonnemangen skiljer sig bara i månatlig meddelandegräns.",
+      "freePlan": { "name": "Gratis", "price": "0", "period": "för alltid", "features": ["100 meddelanden ingår", "Full tillgång till rum & whiteboards", "Inget kort krävs"] },
       "plans": [
         { "name": "Basic", "price": "29", "period": "/ månad", "features": ["100 meddelanden / månad", "2 timmars direktsända sessioner / månad", "Tillgång till dokumentvalv", "Ärendespårning"], "popular": false },
         { "name": "Pro", "price": "79", "period": "/ månad", "features": ["500 meddelanden / månad", "10 timmars direktsända sessioner / månad", "Prioriterad support", "Alla funktioner i Basic"], "popular": true }
       ],
       "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
-      "cta": { "title": "Registrera dig", "body": "Skapa ditt konto i medlemsportalen för att välja ett abonnemang och börja gå med i rum." }
+      "limitNote": "Rum och whiteboards förblir tillgängliga efter dina 100 gratis meddelanden — att skicka fler översatta chattmeddelanden kräver ett betalt abonnemang.",
+      "faqLabel": "Vanliga frågor",
+      "faqTitle": "Vanliga frågor",
+      "faq": [
+        { "q": "Vad räknas som ett meddelande?", "a": "Varje chattmeddelande du skickar i ett rum, eller i 1-till-1-meddelanden, räknas mot din månatliga gräns. Att översätta det för andra deltagare kostar inga extra meddelanden." },
+        { "q": "Vad händer när mina gratis meddelanden tar slut?", "a": "Dina rum, whiteboards och meddelandehistorik förblir fullt tillgängliga. Att skicka fler översatta chattmeddelanden kräver en uppgradering till ett betalt abonnemang." },
+        { "q": "Vilka språk stöds?", "a": "Fullt gränssnittsstöd för engelska, svenska, tyska, franska, spanska, italienska, polska, nederländska, portugisiska, urdu och arabiska, med chattöversättning tillgänglig till fler språk." },
+        { "q": "Är mina uppgifter privata?", "a": "Ja — meddelanden och dokument hanteras enligt vår GDPR-kompatibla integritetspolicy, som beskriver exakt vad vi samlar in och varför." }
+      ],
+      "emailCapture": { "title": "Inte redo än?", "body": "Få ett meddelande när nya språk lanseras.", "placeholder": "Din e-postadress", "button": "Meddela mig" },
+      "stickyBar": { "text": "Dina första 100 meddelanden är gratis", "cta": "Prova gratis" },
+      "cta": { "title": "Börja samarbeta idag", "body": "Skapa ditt gratiskonto — inget kort krävs — och gå med i ditt första rum på några minuter.", "trustLine": "Inget kort krävs · Avsluta när du vill · GDPR-kompatibelt" }
     },
     "portal": {
       "hero": { "label": "Kundåtkomst", "h1": "Medlemsportal", "body": "Säker åtkomst för registrerade kunder hos Nordic Riser AB för att hantera sitt uppdrag, sina dokument och sin kommunikation." },

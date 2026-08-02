@@ -24,19 +24,35 @@
   "footer": {
     "brandBlurb": "An international advisory firm providing structured consulting, technology, and global collaboration for entrepreneurs and professionals building a legally compliant presence in Europe.",
     "addressHeading": "Registered Office",
-    "servicesHeading": "Consulting Services",
+    "orgNrLabel": "Org. Nr.",
+    "orgNrValue": "[ORG_NR]",
     "firmHeading": "Firm",
     "complianceHeading": "Compliance",
     "disclaimerHeading": "Disclaimer",
     "disclaimer": "Nordic Riser AB provides strategic consulting services only. We do not provide legal representation, immigration advice, or outcome guarantees. All decisions rest with competent authorities. Compliance-first in everything we do.",
     "copyright": "© 2026 Nordic Riser AB. All rights reserved. Stockholm, Sweden.",
-    "servicesLinks": [
-      { "label": "Business Establishment", "anchor": "establishment" },
-      { "label": "Company Formation", "anchor": "formation" },
-      { "label": "Business Planning", "anchor": "documentation" },
-      { "label": "Relocation Strategy", "anchor": "relocation" },
-      { "label": "Cross-Border Advisory", "anchor": "international" }
-    ],
+    "divisions": {
+      "consultingHeading": "Consulting",
+      "consultingLinks": [
+        { "label": "Business Establishment", "anchor": "establishment" },
+        { "label": "Company Formation", "anchor": "formation" },
+        { "label": "Relocation Strategy", "anchor": "relocation" },
+        { "label": "Cross-Border Advisory", "anchor": "international" }
+      ],
+      "itServicesHeading": "IT Services",
+      "itServicesLinks": [
+        { "label": "Web Platforms & Portals" },
+        { "label": "Automation & Integrations" },
+        { "label": "Ongoing Support" },
+        { "label": "Request a Quote", "target": "contact" }
+      ],
+      "globalReachHeading": "Global Reach",
+      "globalReachLinks": [
+        { "label": "How It Works" },
+        { "label": "Plans & Pricing" },
+        { "label": "Start Free — 100 Messages", "external": "https://portal.nordicriser.com" }
+      ]
+    },
     "firmLinks": {
       "about": "About Us",
       "contact": "Contact",
@@ -49,15 +65,16 @@
       "hero": {
         "label": "One Platform, Three Pillars",
         "h1": "Your Gateway to Sweden — and the World",
-        "body": "Structured consulting, technology, and global collaboration under one roof — built for international entrepreneurs, professionals, and the businesses they establish.",
-        "cta": "Book a Consultation"
+        "body": "Consulting, technology, and global collaboration under one roof — built for international entrepreneurs, professionals, and the businesses they establish.",
+        "cta": "Book a Consultation",
+        "ctaSecondary": "Explore Global Reach"
       },
       "pillars": {
         "label": "What We Offer",
         "title": "Three Pillars. One Platform.",
-        "sub": "Whichever stage you're at — establishing a business, building the technology behind it, or connecting with advisors and peers — there's a pillar built for it.",
+        "sub": "Whichever stage you're at — establishing a business, building the technology behind it, or collaborating across borders — there's a pillar built for it.",
         "consulting": {
-          "icon": "🏢",
+          "icon": "briefcase",
           "title": "Consulting",
           "promise": "Structured, compliant business & relocation consulting for international entrepreneurs.",
           "bullets": [
@@ -67,7 +84,7 @@
           ]
         },
         "itServices": {
-          "icon": "💻",
+          "icon": "code",
           "title": "IT Services",
           "promise": "Web platforms and business systems built for the companies we help establish.",
           "bullets": [
@@ -77,14 +94,16 @@
           ]
         },
         "globalReach": {
-          "icon": "🌐",
+          "icon": "globe",
           "title": "Global Reach",
-          "promise": "Live, structured sessions connecting you with advisors and peers — from anywhere.",
+          "promise": "Live rooms with shared whiteboards and chat translated in real time — connect across borders for study, research, and project work.",
           "bullets": [
-            "Live study & consultation rooms",
-            "Direct access to specialists",
-            "Flexible subscription plans"
-          ]
+            "Shared whiteboards for live collaboration",
+            "Chat translated live between languages",
+            "100 free messages, no card required"
+          ],
+          "badge": "100 free messages",
+          "cta": "Start Free — 100 Messages"
         },
         "learnMore": "Learn more →"
       },
@@ -93,12 +112,22 @@
         "title": "Strategic Consulting Across Five Core Areas",
         "sub": "We provide structured advisory across the full spectrum of international business establishment and professional relocation — without generic advice.",
         "services": [
-          { "icon": "🏢", "title": "Business Establishment", "body": "Structured guidance on legal entity selection, registration procedures, and operational compliance for international business owners entering European markets.", "note": "Specialized for non-EU investors seeking a secure gateway to European markets.", "anchor": "establishment" },
-          { "icon": "📋", "title": "Company Formation Strategy", "body": "Strategic planning for the right corporate structure based on your business model, ownership requirements, and long-term objectives.", "anchor": "formation" },
-          { "icon": "🌍", "title": "Business-Based Residency & Family Relocation Strategy", "body": "Advisory on legitimate business-based relocation pathways for you and your family, aligned with regulatory frameworks and designed for sustainable residency outcomes.", "anchor": "relocation" },
-          { "icon": "🔗", "title": "Cross-Border Advisory", "body": "Coordination of multi-jurisdictional considerations including tax, compliance, and legal structures for internationally active professionals and companies.", "note": "Strategic assistance with European banking compliance and international capital structuring.", "anchor": "international" },
-          { "icon": "📊", "title": "Business Planning for Entrepreneurs", "body": "Development of structured business plans and documentation packages tailored to meet the requirements of European authorities and institutions.", "anchor": "documentation" }
+          { "icon": "briefcase", "title": "Business Establishment", "body": "Structured guidance on legal entity selection, registration procedures, and operational compliance for international business owners entering European markets.", "note": "Specialized for non-EU investors seeking a secure gateway to European markets.", "anchor": "establishment" },
+          { "icon": "clipboard", "title": "Company Formation Strategy", "body": "Strategic planning for the right corporate structure based on your business model, ownership requirements, and long-term objectives.", "anchor": "formation" },
+          { "icon": "world", "title": "Business-Based Residency & Family Relocation Strategy", "body": "Advisory on legitimate business-based relocation pathways for you and your family, aligned with regulatory frameworks and designed for sustainable residency outcomes.", "anchor": "relocation" },
+          { "icon": "link", "title": "Cross-Border Advisory", "body": "Coordination of multi-jurisdictional considerations including tax, compliance, and legal structures for internationally active professionals and companies.", "note": "Strategic assistance with European banking compliance and international capital structuring.", "anchor": "international" },
+          { "icon": "chart", "title": "Business Planning for Entrepreneurs", "body": "Development of structured business plans and documentation packages tailored to meet the requirements of European authorities and institutions.", "anchor": "documentation" }
         ]
+      },
+      "globalReachTeaser": {
+        "label": "Global Reach",
+        "title": "Collaborate Across Borders — Free to Start",
+        "body": "Live rooms with shared whiteboards and chat translated in real time. Your first 100 messages are free — no card required.",
+        "cta": "Start Free — 100 Messages",
+        "mockCaption": "Illustrative preview",
+        "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
+        "chatTranslated": "The file is ready for review",
+        "chatTag": "Translated from Urdu"
       },
       "leadCapture": {
         "title": "Not ready to consult yet? Start with our free guide.",
@@ -144,8 +173,10 @@
         "label": "Trusted by International Entrepreneurs",
         "title": "A Track Record Built on Structure and Compliance",
         "sub": "A consulting practice built for cross-border credibility, structured engagements, and regulatory compliance.",
+        "orgNrLabel": "Org. Nr.",
+        "orgNrValue": "[ORG_NR]",
         "stats": [
-          { "number": "12+ Countries", "label": "Clients Served Across Europe" },
+          { "number": "Cross-Border Clients", "label": "Entrepreneurs & Professionals Across Europe" },
           { "number": "3 Service Pillars", "label": "Consulting, IT, and Global Reach" },
           { "number": "Stockholm, Sweden", "label": "EU-Based & Regulated" },
           { "number": "Compliance-First", "label": "Every Engagement" }
@@ -181,10 +212,10 @@
           "Our focus is always on long-term strategy and sustainable outcomes, not short-term convenience."
         ],
         "pillars": [
-          { "icon": "📐", "title": "Long-Term Strategy", "body": "We design structures that serve your business objectives over time, not just immediate requirements." },
-          { "icon": "⚖️", "title": "Full Legal Compliance", "body": "Every recommendation is grounded in current regulatory frameworks and institutional standards." },
-          { "icon": "🗂️", "title": "Structured Business Solutions", "body": "We provide documented, systematic processes — not informal guidance or general information." },
-          { "icon": "🤝", "title": "Professional Consulting Standards", "body": "Our engagements are managed with the discipline and accountability of a professional services firm." }
+          { "icon": "ruler", "title": "Long-Term Strategy", "body": "We design structures that serve your business objectives over time, not just immediate requirements." },
+          { "icon": "scale", "title": "Full Legal Compliance", "body": "Every recommendation is grounded in current regulatory frameworks and institutional standards." },
+          { "icon": "folder", "title": "Structured Business Solutions", "body": "We provide documented, systematic processes — not informal guidance or general information." },
+          { "icon": "handshake", "title": "Professional Consulting Standards", "body": "Our engagements are managed with the discipline and accountability of a professional services firm." }
         ]
       },
       "approach": {
@@ -205,12 +236,12 @@
         "title": "The Principles That Guide Our Work",
         "sub": "These are not aspirational statements. They are the operational standards by which every engagement is managed.",
         "items": [
-          { "icon": "⚖️", "title": "Compliance First", "body": "Every process we design is built to withstand institutional scrutiny. Lawfulness is non-negotiable — it is the baseline from which all strategies are developed." },
-          { "icon": "🎯", "title": "Transparency", "body": "We communicate honestly — about requirements, timelines, and realistic outcomes. We do not make promises about decisions that rest with third parties or authorities." },
-          { "icon": "📋", "title": "Structured Process", "body": "Every engagement is documented and managed systematically. Ad hoc advice is not what we provide — structured methodology is." },
-          { "icon": "🤝", "title": "Professional Partnerships", "body": "We maintain working relationships with qualified legal, tax, and specialist professionals — ensuring that technical and regulatory aspects are handled with appropriate expertise." },
-          { "icon": "🛡️", "title": "Confidentiality", "body": "Client information is handled with rigorous standards of discretion. Personal and commercial data is treated as strictly confidential throughout every engagement." },
-          { "icon": "📐", "title": "Tailored Advice", "body": "We do not apply template solutions. Each engagement is assessed individually, and strategy is developed specific to the client's circumstances and objectives." }
+          { "icon": "scale", "title": "Compliance First", "body": "Every process we design is built to withstand institutional scrutiny. Lawfulness is non-negotiable — it is the baseline from which all strategies are developed." },
+          { "icon": "target", "title": "Transparency", "body": "We communicate honestly — about requirements, timelines, and realistic outcomes. We do not make promises about decisions that rest with third parties or authorities." },
+          { "icon": "clipboard", "title": "Structured Process", "body": "Every engagement is documented and managed systematically. Ad hoc advice is not what we provide — structured methodology is." },
+          { "icon": "handshake", "title": "Professional Partnerships", "body": "We maintain working relationships with qualified legal, tax, and specialist professionals — ensuring that technical and regulatory aspects are handled with appropriate expertise." },
+          { "icon": "shield", "title": "Confidentiality", "body": "Client information is handled with rigorous standards of discretion. Personal and commercial data is treated as strictly confidential throughout every engagement." },
+          { "icon": "ruler", "title": "Tailored Advice", "body": "We do not apply template solutions. Each engagement is assessed individually, and strategy is developed specific to the client's circumstances and objectives." }
         ]
       },
       "missionBlock": { "label": "Our Mission", "missionLabel": "Mission Statement", "statement": "To provide strategic consulting services that help international entrepreneurs and professionals establish legally structured, compliant, and sustainable business operations in Europe — supported by professional guidance, documented processes, and long-term strategic thinking." },
@@ -508,10 +539,10 @@
       "offeringsTitle": "Four Core Offerings",
       "offeringsSub": "From a first business website to the systems that run daily operations, we build technology that matches the scale and stage of your business.",
       "offerings": [
-        { "icon": "🌐", "title": "Web Platforms & Business Websites", "body": "Professionally designed, multilingual-ready websites that give your business a credible, structured presence online from day one." },
-        { "icon": "🔐", "title": "Client & Business Portals", "body": "Secure member and client portals for managing documents, communication, and case or project status in one place." },
-        { "icon": "⚙️", "title": "Workflow Automation & Integrations", "body": "Automation of repetitive operational work and integration between the tools your business already uses." },
-        { "icon": "🛠️", "title": "Ongoing Maintenance & Support", "body": "Continued technical support, updates, and monitoring after launch, so your platform stays reliable as your business grows." }
+        { "icon": "globe", "title": "Web Platforms & Business Websites", "body": "Professionally designed, multilingual-ready websites that give your business a credible, structured presence online from day one." },
+        { "icon": "lock", "title": "Client & Business Portals", "body": "Secure member and client portals for managing documents, communication, and case or project status in one place." },
+        { "icon": "gear", "title": "Workflow Automation & Integrations", "body": "Automation of repetitive operational work and integration between the tools your business already uses." },
+        { "icon": "wrench", "title": "Ongoing Maintenance & Support", "body": "Continued technical support, updates, and monitoring after launch, so your platform stays reliable as your business grows." }
       ],
       "howWeWorkLabel": "How We Work",
       "howWeWorkTitle": "A Structured Path from Idea to Launch",
@@ -533,36 +564,83 @@
         "Automation of recurring administrative or operational workflows",
         "Ongoing hosting, monitoring, and technical support arrangements"
       ],
+      "portfolioLabel": "Our Work",
+      "portfolioTitle": "This Website Is the Portfolio",
+      "portfolioSub": "Rather than case studies for other clients, the clearest example of what we build is what you're using right now.",
+      "portfolio": [
+        { "title": "nordicriser.com", "body": "The multilingual marketing site you're browsing — 11 languages, built and maintained in-house." },
+        { "title": "Nordic Riser Member Portal", "body": "The secure client portal used by our own consulting and Global Reach members for documents, messaging, and case tracking." }
+      ],
       "cta": { "title": "Request a Quote", "body": "Tell us about your business and what you're looking to build. We'll assess the scope and provide a clear, structured quote — the same way we approach every consulting engagement." }
     },
     "globalReach": {
-      "hero": { "label": "Global Reach", "h1": "Live Collaboration, Wherever You Are", "body": "Join live rooms to connect with advisors, specialists, and peers — with chat that translates in real time across the languages your community speaks.", "mockCaption": "Illustrative preview" },
+      "hero": {
+        "label": "Global Reach",
+        "h1": "Collaborate Across Borders — Your First 100 Messages Are Free",
+        "body": "Join live rooms with shared whiteboards and chat that translates in real time — everyone reads and writes in their own language.",
+        "ctaPrimary": "Start Free — 100 Messages",
+        "ctaSecondary": "See How It Works",
+        "trustLine": "No credit card required · Cancel anytime · GDPR-compliant",
+        "earlyAccessBadge": "Now in Early Access",
+        "mockCaption": "Illustrative preview",
+        "visual": {
+          "whiteboardLabel": "Shared Whiteboard",
+          "participants": [
+            { "lang": "SV", "name": "Elin" },
+            { "lang": "UR", "name": "Ahmed" },
+            { "lang": "EN", "name": "Grace" },
+            { "lang": "AR", "name": "Layla" },
+            { "lang": "DE", "name": "Jonas" },
+            { "lang": "PL", "name": "Kasia" }
+          ],
+          "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
+          "chatTranslated": "The file is ready for review",
+          "chatTag": "Translated from Urdu · tap to see original"
+        }
+      },
       "breadcrumb": "Global Reach",
       "howItWorksLabel": "How It Works",
-      "howItWorksTitle": "Three Steps to Get Connected",
-      "howItWorksSub": "Global Reach turns a subscription into direct, live access — no scheduling back-and-forth required.",
+      "howItWorksTitle": "Three Steps to Start Collaborating",
+      "howItWorksSub": "Global Reach turns a subscription into direct, live, cross-language collaboration — no scheduling back-and-forth required.",
       "howItWorks": [
-        { "title": "Join a Room", "body": "Create or join a live room built around your topic — a consulting follow-up, a study session, or an open discussion." },
-        { "title": "Connect with Advisors & Peers", "body": "Collaborate in real time with advisors, specialists, or peers working through similar situations." },
-        { "title": "Get Structured Follow-Up", "body": "Leave each session with a clear record of what was discussed and what happens next." }
+        { "title": "Create or Join a Room", "body": "Start a new room or join one built around your topic — exam prep, a research group, or a cross-border project." },
+        { "title": "Collaborate on Shared Whiteboards", "body": "Sketch, annotate, and work through problems together on a whiteboard everyone in the room can see and edit live." },
+        { "title": "Chat With Live Translation", "body": "Send messages in your own language — everyone else reads them in theirs, translated instantly." }
       ],
+      "ctaBand1": {
+        "title": "Ready to Collaborate Across Borders?",
+        "body": "Create your free account and start your first room in minutes.",
+        "cta": "Start Free — 100 Messages"
+      },
       "useCasesLabel": "Who It's For",
-      "useCasesTitle": "Built for Several Kinds of Sessions",
+      "useCasesTitle": "Built for Cross-Border Collaboration",
       "useCases": [
-        { "title": "Prospective Entrepreneurs", "body": "Early conversations before committing to a full consulting engagement." },
-        { "title": "Clients Mid-Engagement", "body": "Live follow-ups with your consulting or IT services team between scheduled meetings." },
-        { "title": "Peer Study Groups", "body": "Structured sessions with other members navigating similar relocation or business journeys." },
-        { "title": "Cross-Border Q&A", "body": "Open sessions where members from different countries and languages can ask questions together." }
+        { "title": "Exam Prep", "body": "A Swedish-speaking student and an Urdu-speaking classmate quiz each other the night before an exam — chat translated instantly, both ways." },
+        { "title": "Tutoring", "body": "An English-speaking tutor walks a German-speaking student through a problem set on the shared whiteboard." },
+        { "title": "Research Groups", "body": "Polish- and Arabic-speaking researchers compare notes in one room, each reading and writing in their own language." },
+        { "title": "Cross-Border Project Teams", "body": "A Dutch project lead and a Pakistani developer coordinate a sprint, with whiteboard and chat both shared live." }
       ],
-      "plansLabel": "Subscription Plans",
-      "plansTitle": "Choose Your Level of Access",
-      "plansSub": "Plans are managed through the member portal and reviewed by our team before activation.",
+      "plansLabel": "Pricing",
+      "plansTitle": "Start Free. Upgrade When You Need More.",
+      "plansSub": "Every plan includes full access to rooms and shared whiteboards — plans differ only in monthly message allowance.",
+      "freePlan": { "name": "Free", "price": "0", "period": "forever", "features": ["100 messages included", "Full access to rooms & whiteboards", "No credit card required"] },
       "plans": [
         { "name": "Basic", "price": "29", "period": "/ month", "features": ["100 messages / month", "2 hours of live sessions / month", "Document vault access", "Case tracking"], "popular": false },
         { "name": "Pro", "price": "79", "period": "/ month", "features": ["500 messages / month", "10 hours of live sessions / month", "Priority support", "All Basic features"], "popular": true }
       ],
       "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
-      "cta": { "title": "Sign Up", "body": "Create your account in the member portal to choose a plan and start joining rooms." }
+      "limitNote": "Rooms and whiteboards stay accessible after your 100 free messages — sending more translated chat messages requires a paid plan.",
+      "faqLabel": "Frequently Asked Questions",
+      "faqTitle": "Common Questions",
+      "faq": [
+        { "q": "What counts as a message?", "a": "Each chat message you send in a room, or in 1:1 messaging, counts toward your monthly allowance. Translating it for other participants doesn't cost extra messages." },
+        { "q": "What happens when my free messages run out?", "a": "Your rooms, whiteboards, and message history stay fully accessible. Sending additional translated chat messages requires upgrading to a paid plan." },
+        { "q": "Which languages are supported?", "a": "Full interface support for English, Swedish, German, French, Spanish, Italian, Polish, Dutch, Portuguese, Urdu, and Arabic, with chat translation available to further languages." },
+        { "q": "Is my data private?", "a": "Yes — messages and documents are handled under our GDPR-compliant Privacy Policy, which covers exactly what we collect and why." }
+      ],
+      "emailCapture": { "title": "Not Ready Yet?", "body": "Get notified when new languages launch.", "placeholder": "Your email address", "button": "Notify Me" },
+      "stickyBar": { "text": "Your first 100 messages are free", "cta": "Start Free" },
+      "cta": { "title": "Start Collaborating Today", "body": "Create your free account — no credit card required — and join your first room in minutes.", "trustLine": "No credit card required · Cancel anytime · GDPR-compliant" }
     },
     "portal": {
       "hero": { "label": "Client Access", "h1": "Member Portal", "body": "Secure access for registered Nordic Riser AB clients to manage their engagement, documents, and communications." },

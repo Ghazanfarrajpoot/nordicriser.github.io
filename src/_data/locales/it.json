@@ -24,19 +24,35 @@
   "footer": {
     "brandBlurb": "Uno studio di consulenza internazionale che offre consulenza strutturata, tecnologia e collaborazione globale per imprenditori e professionisti che costruiscono una presenza legalmente conforme in Europa.",
     "addressHeading": "Sede Legale",
-    "servicesHeading": "Servizi di Consulenza",
+    "orgNrLabel": "N. di Registrazione",
+    "orgNrValue": "[ORG_NR]",
     "firmHeading": "Lo Studio",
     "complianceHeading": "Conformità",
     "disclaimerHeading": "Avvertenza",
     "disclaimer": "Nordic Riser AB fornisce esclusivamente servizi di consulenza strategica. Non forniamo rappresentanza legale, consulenza in materia di immigrazione, né garanzie di risultato. Ogni decisione spetta alle autorità competenti. La conformità normativa è alla base di tutto ciò che facciamo.",
     "copyright": "© 2026 Nordic Riser AB. Tutti i diritti riservati. Stoccolma, Svezia.",
-    "servicesLinks": [
-      { "label": "Costituzione d'Impresa", "anchor": "establishment" },
-      { "label": "Formazione Societaria", "anchor": "formation" },
-      { "label": "Business Planning", "anchor": "documentation" },
-      { "label": "Strategia di Trasferimento", "anchor": "relocation" },
-      { "label": "Consulenza Transfrontaliera", "anchor": "international" }
-    ],
+    "divisions": {
+      "consultingHeading": "Consulenza",
+      "consultingLinks": [
+        { "label": "Costituzione d'Impresa", "anchor": "establishment" },
+        { "label": "Formazione Societaria", "anchor": "formation" },
+        { "label": "Strategia di Trasferimento", "anchor": "relocation" },
+        { "label": "Consulenza Transfrontaliera", "anchor": "international" }
+      ],
+      "itServicesHeading": "Servizi IT",
+      "itServicesLinks": [
+        { "label": "Piattaforme web e portali" },
+        { "label": "Automazione e integrazioni" },
+        { "label": "Assistenza continuativa" },
+        { "label": "Richiedi un preventivo", "target": "contact" }
+      ],
+      "globalReachHeading": "Global Reach",
+      "globalReachLinks": [
+        { "label": "Come funziona" },
+        { "label": "Piani e prezzi" },
+        { "label": "Inizia gratis — 100 messaggi", "external": "https://portal.nordicriser.com" }
+      ]
+    },
     "firmLinks": {
       "about": "Chi Siamo",
       "contact": "Contatti",
@@ -49,15 +65,16 @@
       "hero": {
         "label": "Una Piattaforma, Tre Pilastri",
         "h1": "Il Tuo Accesso alla Svezia — e al Mondo",
-        "body": "Consulenza strutturata, tecnologia e collaborazione globale in un'unica soluzione — pensata per imprenditori internazionali, professionisti e le imprese che costituiscono.",
-        "cta": "Prenota una Consulenza"
+        "body": "Consulenza, tecnologia e collaborazione globale in un'unica soluzione — pensata per imprenditori internazionali, professionisti e le imprese che costituiscono.",
+        "cta": "Prenota una Consulenza",
+        "ctaSecondary": "Scopri Global Reach"
       },
       "pillars": {
         "label": "Cosa Offriamo",
         "title": "Tre Pilastri. Una Piattaforma.",
         "sub": "Qualunque sia la tua fase — costituire un'impresa, sviluppare la tecnologia che la sostiene, o entrare in contatto con consulenti e altri professionisti — esiste un pilastro pensato per questo.",
         "consulting": {
-          "icon": "🏢",
+          "icon": "briefcase",
           "title": "Consulenza",
           "promise": "Consulenza strutturata e conforme in materia societaria e di trasferimento per imprenditori internazionali.",
           "bullets": [
@@ -67,7 +84,7 @@
           ]
         },
         "itServices": {
-          "icon": "💻",
+          "icon": "code",
           "title": "Servizi IT",
           "promise": "Piattaforme web e sistemi gestionali sviluppati per le aziende che aiutiamo a costituire.",
           "bullets": [
@@ -77,14 +94,16 @@
           ]
         },
         "globalReach": {
-          "icon": "🌐",
+          "icon": "globe",
           "title": "Global Reach",
-          "promise": "Sessioni live e strutturate che ti mettono in contatto con consulenti e altri professionisti — da qualsiasi luogo.",
+          "promise": "Stanze live con lavagne condivise e chat tradotta in tempo reale — collabora oltre confine su studio, ricerca e progetti.",
           "bullets": [
-            "Sale di studio e consulenza in diretta",
-            "Accesso diretto a specialisti",
-            "Piani di abbonamento flessibili"
-          ]
+            "Lavagne condivise per la collaborazione live",
+            "Chat tradotta in diretta tra le lingue",
+            "100 messaggi gratuiti, nessuna carta richiesta"
+          ],
+          "badge": "100 messaggi gratuiti",
+          "cta": "Inizia gratis — 100 messaggi"
         },
         "learnMore": "Scopri di più →"
       },
@@ -93,12 +112,22 @@
         "title": "Consulenza Strategica in Cinque Aree Fondamentali",
         "sub": "Offriamo consulenza strutturata su tutto lo spettro della costituzione d'impresa internazionale e del trasferimento professionale — senza consigli generici.",
         "services": [
-          { "icon": "🏢", "title": "Costituzione d'Impresa", "body": "Guida strutturata sulla scelta della forma giuridica, sulle procedure di registrazione e sulla conformità operativa per imprenditori internazionali che entrano nei mercati europei.", "note": "Specializzati nell'assistenza a investitori extra-UE in cerca di un accesso sicuro ai mercati europei.", "anchor": "establishment" },
-          { "icon": "📋", "title": "Strategia di Formazione Societaria", "body": "Pianificazione strategica della struttura societaria più adatta in base al tuo modello di business, ai requisiti di proprietà e agli obiettivi di lungo periodo.", "anchor": "formation" },
-          { "icon": "🌍", "title": "Strategia di Residenza tramite Attività d'Impresa e Trasferimento Familiare", "body": "Consulenza su percorsi legittimi di trasferimento basati sull'attività d'impresa per te e la tua famiglia, in linea con i quadri normativi e pensati per esiti di residenza sostenibili.", "anchor": "relocation" },
-          { "icon": "🔗", "title": "Consulenza Transfrontaliera", "body": "Coordinamento delle considerazioni multi-giurisdizionali, incluse fiscalità, conformità e strutture legali, per professionisti e aziende attivi a livello internazionale.", "note": "Assistenza strategica in materia di conformità bancaria europea e strutturazione di capitali internazionali.", "anchor": "international" },
-          { "icon": "📊", "title": "Business Planning per Imprenditori", "body": "Sviluppo di business plan strutturati e pacchetti documentali su misura per soddisfare i requisiti delle autorità e delle istituzioni europee.", "anchor": "documentation" }
+          { "icon": "briefcase", "title": "Costituzione d'Impresa", "body": "Guida strutturata sulla scelta della forma giuridica, sulle procedure di registrazione e sulla conformità operativa per imprenditori internazionali che entrano nei mercati europei.", "note": "Specializzati nell'assistenza a investitori extra-UE in cerca di un accesso sicuro ai mercati europei.", "anchor": "establishment" },
+          { "icon": "clipboard", "title": "Strategia di Formazione Societaria", "body": "Pianificazione strategica della struttura societaria più adatta in base al tuo modello di business, ai requisiti di proprietà e agli obiettivi di lungo periodo.", "anchor": "formation" },
+          { "icon": "world", "title": "Strategia di Residenza tramite Attività d'Impresa e Trasferimento Familiare", "body": "Consulenza su percorsi legittimi di trasferimento basati sull'attività d'impresa per te e la tua famiglia, in linea con i quadri normativi e pensati per esiti di residenza sostenibili.", "anchor": "relocation" },
+          { "icon": "link", "title": "Consulenza Transfrontaliera", "body": "Coordinamento delle considerazioni multi-giurisdizionali, incluse fiscalità, conformità e strutture legali, per professionisti e aziende attivi a livello internazionale.", "note": "Assistenza strategica in materia di conformità bancaria europea e strutturazione di capitali internazionali.", "anchor": "international" },
+          { "icon": "chart", "title": "Business Planning per Imprenditori", "body": "Sviluppo di business plan strutturati e pacchetti documentali su misura per soddisfare i requisiti delle autorità e delle istituzioni europee.", "anchor": "documentation" }
         ]
+      },
+      "globalReachTeaser": {
+        "label": "Global Reach",
+        "title": "Collabora oltre confine — gratis per iniziare",
+        "body": "Stanze live con lavagne condivise e chat tradotta in tempo reale. I tuoi primi 100 messaggi sono gratuiti — nessuna carta richiesta.",
+        "cta": "Inizia gratis — 100 messaggi",
+        "mockCaption": "Anteprima illustrativa",
+        "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
+        "chatTranslated": "Il file è pronto per la revisione",
+        "chatTag": "Tradotto dall'urdu"
       },
       "leadCapture": {
         "title": "Non sei ancora pronto per una consulenza? Inizia con la nostra guida gratuita.",
@@ -144,8 +173,10 @@
         "label": "La Fiducia di Imprenditori Internazionali",
         "title": "Una Reputazione Costruita su Struttura e Conformità",
         "sub": "Uno studio di consulenza pensato per la credibilità transfrontaliera, incarichi strutturati e piena conformità normativa.",
+        "orgNrLabel": "N. di Registrazione",
+        "orgNrValue": "[ORG_NR]",
         "stats": [
-          { "number": "12+ Paesi", "label": "Clienti Serviti in Tutta Europa" },
+          { "number": "Clienti Transfrontalieri", "label": "Imprenditori e Professionisti in Tutta Europa" },
           { "number": "3 Aree di Servizio", "label": "Consulenza, IT e Global Reach" },
           { "number": "Stoccolma, Svezia", "label": "Con Sede e Regolamentazione nell'UE" },
           { "number": "Conformità al Primo Posto", "label": "In Ogni Incarico" }
@@ -181,10 +212,10 @@
           "Il nostro obiettivo è sempre la strategia di lungo periodo e il risultato sostenibile, non la comodità immediata."
         ],
         "pillars": [
-          { "icon": "📐", "title": "Strategia di Lungo Periodo", "body": "Progettiamo strutture che servono i tuoi obiettivi d'impresa nel tempo, non solo le esigenze immediate." },
-          { "icon": "⚖️", "title": "Piena Conformità Legale", "body": "Ogni raccomandazione si fonda sui quadri normativi vigenti e sugli standard istituzionali." },
-          { "icon": "🗂️", "title": "Soluzioni d'Impresa Strutturate", "body": "Offriamo processi documentati e sistematici — non indicazioni informali o informazioni generiche." },
-          { "icon": "🤝", "title": "Standard di Consulenza Professionale", "body": "I nostri incarichi sono gestiti con la disciplina e la responsabilità proprie di uno studio di servizi professionali." }
+          { "icon": "ruler", "title": "Strategia di Lungo Periodo", "body": "Progettiamo strutture che servono i tuoi obiettivi d'impresa nel tempo, non solo le esigenze immediate." },
+          { "icon": "scale", "title": "Piena Conformità Legale", "body": "Ogni raccomandazione si fonda sui quadri normativi vigenti e sugli standard istituzionali." },
+          { "icon": "folder", "title": "Soluzioni d'Impresa Strutturate", "body": "Offriamo processi documentati e sistematici — non indicazioni informali o informazioni generiche." },
+          { "icon": "handshake", "title": "Standard di Consulenza Professionale", "body": "I nostri incarichi sono gestiti con la disciplina e la responsabilità proprie di uno studio di servizi professionali." }
         ]
       },
       "approach": {
@@ -205,12 +236,12 @@
         "title": "I Principi che Guidano il Nostro Lavoro",
         "sub": "Non sono dichiarazioni aspirazionali. Sono gli standard operativi con cui gestiamo ogni incarico.",
         "items": [
-          { "icon": "⚖️", "title": "Conformità al Primo Posto", "body": "Ogni processo che progettiamo è costruito per resistere al vaglio istituzionale. La legalità non è negoziabile — è il fondamento da cui si sviluppa ogni strategia." },
-          { "icon": "🎯", "title": "Trasparenza", "body": "Comunichiamo con onestà — su requisiti, tempistiche e risultati realistici. Non facciamo promesse su decisioni che spettano a terzi o alle autorità." },
-          { "icon": "📋", "title": "Processo Strutturato", "body": "Ogni incarico è documentato e gestito in modo sistematico. Non offriamo consulenza estemporanea, bensì una metodologia strutturata." },
-          { "icon": "🤝", "title": "Collaborazioni Professionali", "body": "Manteniamo rapporti di lavoro con professionisti qualificati in ambito legale, fiscale e specialistico — garantendo che gli aspetti tecnici e normativi siano gestiti con la competenza adeguata." },
-          { "icon": "🛡️", "title": "Riservatezza", "body": "Le informazioni dei clienti sono trattate con rigorosi standard di riservatezza. I dati personali e commerciali sono considerati strettamente confidenziali in ogni fase dell'incarico." },
-          { "icon": "📐", "title": "Consulenza su Misura", "body": "Non applichiamo soluzioni predefinite. Ogni incarico è valutato individualmente e la strategia viene sviluppata in base alle circostanze e agli obiettivi specifici del cliente." }
+          { "icon": "scale", "title": "Conformità al Primo Posto", "body": "Ogni processo che progettiamo è costruito per resistere al vaglio istituzionale. La legalità non è negoziabile — è il fondamento da cui si sviluppa ogni strategia." },
+          { "icon": "target", "title": "Trasparenza", "body": "Comunichiamo con onestà — su requisiti, tempistiche e risultati realistici. Non facciamo promesse su decisioni che spettano a terzi o alle autorità." },
+          { "icon": "clipboard", "title": "Processo Strutturato", "body": "Ogni incarico è documentato e gestito in modo sistematico. Non offriamo consulenza estemporanea, bensì una metodologia strutturata." },
+          { "icon": "handshake", "title": "Collaborazioni Professionali", "body": "Manteniamo rapporti di lavoro con professionisti qualificati in ambito legale, fiscale e specialistico — garantendo che gli aspetti tecnici e normativi siano gestiti con la competenza adeguata." },
+          { "icon": "shield", "title": "Riservatezza", "body": "Le informazioni dei clienti sono trattate con rigorosi standard di riservatezza. I dati personali e commerciali sono considerati strettamente confidenziali in ogni fase dell'incarico." },
+          { "icon": "ruler", "title": "Consulenza su Misura", "body": "Non applichiamo soluzioni predefinite. Ogni incarico è valutato individualmente e la strategia viene sviluppata in base alle circostanze e agli obiettivi specifici del cliente." }
         ]
       },
       "missionBlock": { "label": "La Nostra Missione", "missionLabel": "Dichiarazione di Missione", "statement": "Fornire servizi di consulenza strategica che aiutino imprenditori e professionisti internazionali a costituire operazioni d'impresa legalmente strutturate, conformi e sostenibili in Europa — supportate da guida professionale, processi documentati e pensiero strategico di lungo periodo." },
@@ -508,10 +539,10 @@
       "offeringsTitle": "Quattro Offerte Fondamentali",
       "offeringsSub": "Dal primo sito web aziendale ai sistemi che gestiscono le operazioni quotidiane, sviluppiamo tecnologia che si adatta alla scala e alla fase della tua impresa.",
       "offerings": [
-        { "icon": "🌐", "title": "Piattaforme Web e Siti Aziendali", "body": "Siti web progettati professionalmente, predisposti al multilinguismo, che conferiscono alla tua impresa una presenza online credibile e strutturata fin dal primo giorno." },
-        { "icon": "🔐", "title": "Portali Clienti e Aziendali", "body": "Portali membri e clienti sicuri per gestire documenti, comunicazioni e stato di pratiche o progetti in un unico luogo." },
-        { "icon": "⚙️", "title": "Automazione dei Flussi di Lavoro e Integrazioni", "body": "Automazione delle attività operative ripetitive e integrazione tra gli strumenti già utilizzati dalla tua impresa." },
-        { "icon": "🛠️", "title": "Manutenzione e Assistenza Continuativa", "body": "Assistenza tecnica continuativa, aggiornamenti e monitoraggio dopo il lancio, affinché la tua piattaforma rimanga affidabile mentre la tua impresa cresce." }
+        { "icon": "globe", "title": "Piattaforme Web e Siti Aziendali", "body": "Siti web progettati professionalmente, predisposti al multilinguismo, che conferiscono alla tua impresa una presenza online credibile e strutturata fin dal primo giorno." },
+        { "icon": "lock", "title": "Portali Clienti e Aziendali", "body": "Portali membri e clienti sicuri per gestire documenti, comunicazioni e stato di pratiche o progetti in un unico luogo." },
+        { "icon": "gear", "title": "Automazione dei Flussi di Lavoro e Integrazioni", "body": "Automazione delle attività operative ripetitive e integrazione tra gli strumenti già utilizzati dalla tua impresa." },
+        { "icon": "wrench", "title": "Manutenzione e Assistenza Continuativa", "body": "Assistenza tecnica continuativa, aggiornamenti e monitoraggio dopo il lancio, affinché la tua piattaforma rimanga affidabile mentre la tua impresa cresce." }
       ],
       "howWeWorkLabel": "Come Lavoriamo",
       "howWeWorkTitle": "Un Percorso Strutturato dall'Idea al Lancio",
@@ -533,36 +564,83 @@
         "Automazione di flussi di lavoro amministrativi o operativi ricorrenti",
         "Accordi continuativi di hosting, monitoraggio e assistenza tecnica"
       ],
+      "portfolioLabel": "Il Nostro Lavoro",
+      "portfolioTitle": "Questo Sito È il Portfolio",
+      "portfolioSub": "Invece di casi di studio di altri clienti, l'esempio più chiaro di ciò che sviluppiamo è quello che stai usando in questo momento.",
+      "portfolio": [
+        { "title": "nordicriser.com", "body": "Il sito di marketing multilingue che stai visitando — 11 lingue, sviluppato e mantenuto internamente." },
+        { "title": "Portale Membri Nordic Riser", "body": "Il portale clienti sicuro utilizzato dai nostri stessi membri Consulenza e Global Reach per documenti, messaggistica e monitoraggio pratiche." }
+      ],
       "cta": { "title": "Richiedi un Preventivo", "body": "Raccontaci della tua impresa e di cosa desideri sviluppare. Valuteremo l'ambito e forniremo un preventivo chiaro e strutturato — con lo stesso approccio che adottiamo per ogni incarico di consulenza." }
     },
     "globalReach": {
-      "hero": { "label": "Global Reach", "h1": "Collaborazione dal Vivo, Ovunque Tu Sia", "body": "Partecipa a sale live per entrare in contatto con consulenti, specialisti e altri professionisti — con una chat che traduce in tempo reale nelle lingue parlate dalla tua community.", "mockCaption": "Anteprima illustrativa" },
+      "hero": {
+        "label": "Global Reach",
+        "h1": "Collabora Oltre Confine — I Tuoi Primi 100 Messaggi Sono Gratuiti",
+        "body": "Partecipa a stanze live con lavagne condivise e una chat tradotta in tempo reale — ognuno legge e scrive nella propria lingua.",
+        "ctaPrimary": "Inizia gratis — 100 messaggi",
+        "ctaSecondary": "Scopri come funziona",
+        "trustLine": "Nessuna carta richiesta · Annulla quando vuoi · Conforme al GDPR",
+        "earlyAccessBadge": "Ora in Accesso Anticipato",
+        "mockCaption": "Anteprima illustrativa",
+        "visual": {
+          "whiteboardLabel": "Lavagna Condivisa",
+          "participants": [
+            { "lang": "SV", "name": "Elin" },
+            { "lang": "UR", "name": "Ahmed" },
+            { "lang": "EN", "name": "Grace" },
+            { "lang": "AR", "name": "Layla" },
+            { "lang": "DE", "name": "Jonas" },
+            { "lang": "PL", "name": "Kasia" }
+          ],
+          "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
+          "chatTranslated": "Il file è pronto per la revisione",
+          "chatTag": "Tradotto dall'urdu · tocca per vedere l'originale"
+        }
+      },
       "breadcrumb": "Global Reach",
       "howItWorksLabel": "Come Funziona",
-      "howItWorksTitle": "Tre Passaggi per Connetterti",
-      "howItWorksSub": "Global Reach trasforma un abbonamento in un accesso diretto e live — senza necessità di scambi organizzativi.",
+      "howItWorksTitle": "Tre Passaggi per Iniziare a Collaborare",
+      "howItWorksSub": "Global Reach trasforma un abbonamento in collaborazione diretta tra lingue diverse — senza necessità di scambi organizzativi.",
       "howItWorks": [
-        { "title": "Entra in una Sala", "body": "Crea o partecipa a una sala live incentrata sul tuo argomento — un follow-up di consulenza, una sessione di studio o una discussione aperta." },
-        { "title": "Connettiti con Consulenti e Altri Professionisti", "body": "Collabora in tempo reale con consulenti, specialisti o altri professionisti che affrontano situazioni simili." },
-        { "title": "Ricevi un Follow-Up Strutturato", "body": "Concludi ogni sessione con un resoconto chiaro di quanto discusso e dei passi successivi." }
+        { "title": "Crea o Entra in una Sala", "body": "Avvia una nuova sala o entra in una incentrata sul tuo argomento — preparazione a un esame, un gruppo di ricerca o un progetto transfrontaliero." },
+        { "title": "Collabora su Lavagne Condivise", "body": "Disegna, annota e risolvi problemi insieme su una lavagna che tutti nella sala possono vedere e modificare in diretta." },
+        { "title": "Chatta con Traduzione in Diretta", "body": "Scrivi messaggi nella tua lingua — tutti gli altri li leggono all'istante tradotti nella propria." }
       ],
+      "ctaBand1": {
+        "title": "Pronto a Collaborare Oltre Confine?",
+        "body": "Crea il tuo account gratuito e avvia la tua prima sala in pochi minuti.",
+        "cta": "Inizia gratis — 100 messaggi"
+      },
       "useCasesLabel": "A Chi È Rivolto",
-      "useCasesTitle": "Pensato per Diverse Tipologie di Sessioni",
+      "useCasesTitle": "Pensato per la Collaborazione Transfrontaliera",
       "useCases": [
-        { "title": "Aspiranti Imprenditori", "body": "Conversazioni iniziali prima di impegnarsi in un incarico di consulenza completo." },
-        { "title": "Clienti a Metà Incarico", "body": "Follow-up live con il tuo team di consulenza o servizi IT tra un incontro programmato e l'altro." },
-        { "title": "Gruppi di Studio tra Pari", "body": "Sessioni strutturate con altri membri che affrontano percorsi simili di trasferimento o d'impresa." },
-        { "title": "Q&A Transfrontaliere", "body": "Sessioni aperte in cui membri di paesi e lingue diverse possono porre domande insieme." }
+        { "title": "Preparazione Esami", "body": "Una studentessa italiana e un compagno di corso urdu ripassano insieme la sera prima dell'esame — la chat si traduce all'istante in entrambe le direzioni." },
+        { "title": "Ripetizioni", "body": "Un tutor anglofono guida uno studente tedesco attraverso una serie di esercizi sulla lavagna condivisa." },
+        { "title": "Gruppi di Ricerca", "body": "Ricercatori polacchi e arabi confrontano appunti nella stessa sala, ciascuno leggendo e scrivendo nella propria lingua." },
+        { "title": "Team di Progetto Transfrontalieri", "body": "Un project lead olandese e uno sviluppatore pakistano coordinano uno sprint, con lavagna e chat condivise in diretta." }
       ],
-      "plansLabel": "Piani di Abbonamento",
-      "plansTitle": "Scegli il Tuo Livello di Accesso",
-      "plansSub": "I piani sono gestiti tramite il portale membri e verificati dal nostro team prima dell'attivazione.",
+      "plansLabel": "Prezzi",
+      "plansTitle": "Inizia Gratis. Aggiorna Quando Serve.",
+      "plansSub": "Ogni piano include accesso completo a sale e lavagne condivise — i piani differiscono solo per l'allocazione mensile di messaggi.",
+      "freePlan": { "name": "Gratuito", "price": "0", "period": "per sempre", "features": ["100 messaggi inclusi", "Accesso completo a sale e lavagne", "Nessuna carta richiesta"] },
       "plans": [
         { "name": "Basic", "price": "29", "period": "/ mese", "features": ["100 messaggi / mese", "2 ore di sessioni live / mese", "Accesso all'archivio documenti", "Monitoraggio pratiche"], "popular": false },
         { "name": "Pro", "price": "79", "period": "/ mese", "features": ["500 messaggi / mese", "10 ore di sessioni live / mese", "Assistenza prioritaria", "Tutte le funzionalità Basic"], "popular": true }
       ],
       "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
-      "cta": { "title": "Registrati", "body": "Crea il tuo account nel portale membri per scegliere un piano e iniziare a partecipare alle sale." }
+      "limitNote": "Sale e lavagne restano accessibili anche dopo i tuoi 100 messaggi gratuiti — inviare altri messaggi di chat tradotti richiede un piano a pagamento.",
+      "faqLabel": "Domande Frequenti",
+      "faqTitle": "Domande Frequenti",
+      "faq": [
+        { "q": "Cosa conta come messaggio?", "a": "Ogni messaggio di chat inviato in una sala, o nella messaggistica 1 a 1, conta ai fini della tua allocazione mensile. Tradurlo per gli altri partecipanti non consuma messaggi aggiuntivi." },
+        { "q": "Cosa succede quando finiscono i miei messaggi gratuiti?", "a": "Le tue sale, lavagne e la cronologia messaggi restano pienamente accessibili. Inviare altri messaggi di chat tradotti richiede l'aggiornamento a un piano a pagamento." },
+        { "q": "Quali lingue sono supportate?", "a": "Interfaccia completa in inglese, svedese, tedesco, francese, spagnolo, italiano, polacco, olandese, portoghese, urdu e arabo, con traduzione della chat disponibile verso ulteriori lingue." },
+        { "q": "I miei dati sono privati?", "a": "Sì — messaggi e documenti sono gestiti secondo la nostra Informativa sulla Privacy conforme al GDPR, che specifica esattamente cosa raccogliamo e perché." }
+      ],
+      "emailCapture": { "title": "Non Sei Ancora Pronto?", "body": "Ricevi una notifica quando vengono lanciate nuove lingue.", "placeholder": "Il tuo indirizzo email", "button": "Avvisami" },
+      "stickyBar": { "text": "I tuoi primi 100 messaggi sono gratuiti", "cta": "Inizia gratis" },
+      "cta": { "title": "Inizia a Collaborare Oggi", "body": "Crea il tuo account gratuito — nessuna carta richiesta — ed entra nella tua prima sala in pochi minuti.", "trustLine": "Nessuna carta richiesta · Annulla quando vuoi · Conforme al GDPR" }
     },
     "portal": {
       "hero": { "label": "Accesso Clienti", "h1": "Portale Membri", "body": "Accesso sicuro per i clienti registrati di Nordic Riser AB per gestire il proprio incarico, i documenti e le comunicazioni." },

@@ -10,23 +10,40 @@ eleventyComputed:
 layout: layouts/page.njk
 pageKey: globalReach
 pageSlug: global-reach
+bodyClass: "has-gr-sticky"
 ---
 {%- set t = locales[locale] -%}
 {%- set p = t.pages.globalReach -%}
+{% import "partials/icons.njk" as icons %}
 
 <section class="page-hero">
   <div class="page-hero-inner" data-animate>
+    <span class="gr-early-access-badge">{{ p.hero.earlyAccessBadge }}</span>
     <span class="page-hero-label">{{ p.hero.label }}</span>
     <h1>{{ p.hero.h1 }}</h1>
     <p>{{ p.hero.body }}</p>
-    <div class="gr-mock" aria-hidden="true">
-      <div class="gr-mock-toolbar">
-        <span class="gr-mock-dot"></span><span class="gr-mock-dot"></span><span class="gr-mock-dot"></span>
+    <div class="hero-ctas">
+      <a href="https://portal.nordicriser.com" class="btn-primary">{{ p.hero.ctaPrimary }}</a>
+      <a href="#how-it-works" class="btn-secondary">{{ p.hero.ctaSecondary }}</a>
+    </div>
+    <p class="gr-trust-line">{{ p.hero.trustLine }}</p>
+
+    <div class="gr-hero-visual" aria-hidden="true">
+      <div class="gr-lang-badges">
+        {%- for participant in p.hero.visual.participants %}
+        <span class="gr-lang-badge"><span class="gr-lang-badge-code">{{ participant.lang }}</span> {{ participant.name }}</span>
+        {%- endfor %}
       </div>
-      <div class="gr-mock-zones">
-        <div class="gr-mock-zone">🧑‍💼</div>
-        <div class="gr-mock-zone">🗂️</div>
-        <div class="gr-mock-zone">🧑‍🎓</div>
+      <div class="gr-hero-whiteboard">
+        {{ icons.icon('whiteboard') }}
+        <span>{{ p.hero.visual.whiteboardLabel }}</span>
+      </div>
+      <div class="gr-hero-chat">
+        <div class="gr-chat-bubble">
+          <span class="gr-chat-original">{{ p.hero.visual.chatOriginal }}</span>
+          <span class="gr-chat-translated">{{ p.hero.visual.chatTranslated }}</span>
+          <span class="gr-chat-tag">{{ p.hero.visual.chatTag }}</span>
+        </div>
       </div>
     </div>
     <p class="gr-mock-caption">{{ p.hero.mockCaption }}</p>
@@ -39,7 +56,7 @@ pageSlug: global-reach
   </div>
 </div>
 
-<section class="section">
+<section class="section" id="how-it-works">
   <div class="section-inner" data-animate>
     <span class="section-label">{{ p.howItWorksLabel }}</span>
     <h2 class="section-title">{{ p.howItWorksTitle }}</h2>
@@ -53,6 +70,14 @@ pageSlug: global-reach
       </div>
       {%- endfor %}
     </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="cta-box" data-animate>
+    <h2>{{ p.ctaBand1.title }}</h2>
+    <p>{{ p.ctaBand1.body }}</p>
+    <a href="https://portal.nordicriser.com" class="btn-cta">{{ p.ctaBand1.cta }}</a>
   </div>
 </section>
 
@@ -71,12 +96,19 @@ pageSlug: global-reach
   </div>
 </section>
 
-<section class="section">
+<section class="section" id="pricing">
   <div class="section-inner" data-animate>
     <span class="section-label">{{ p.plansLabel }}</span>
     <h2 class="section-title">{{ p.plansTitle }}</h2>
     <p class="section-sub">{{ p.plansSub }}</p>
     <div class="gr-plans-grid">
+      <div class="gr-plan-card free">
+        <div class="gr-plan-name">{{ p.freePlan.name }}</div>
+        <div class="gr-plan-price">${{ p.freePlan.price }} <span>{{ p.freePlan.period }}</span></div>
+        <ul class="gr-plan-features">
+          {%- for f in p.freePlan.features %}<li>{{ f }}</li>{% endfor %}
+        </ul>
+      </div>
       {%- for plan in p.plans %}
       <div class="gr-plan-card{% if plan.popular %} popular{% endif %}">
         {%- if plan.popular %}<span class="gr-plan-badge">★</span>{% endif %}
@@ -88,7 +120,37 @@ pageSlug: global-reach
       </div>
       {%- endfor %}
     </div>
+    <p class="gr-limit-note">{{ p.limitNote }}</p>
     {#- p._syncNote is an internal reminder for whoever maintains this page — not rendered to visitors. #}
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.faqLabel }}</span>
+    <h2 class="section-title">{{ p.faqTitle }}</h2>
+    <div class="gr-faq-list">
+      {%- for item in p.faq %}
+      <div class="gr-faq-item">
+        <h3>{{ icons.icon('question') }} {{ item.q }}</h3>
+        <p>{{ item.a }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner" data-animate>
+    <div class="gr-email-capture">
+      <h3>{{ p.emailCapture.title }}</h3>
+      <p>{{ p.emailCapture.body }}</p>
+      <form class="gr-email-form" action="{{ 'contact' | localeUrl(locale) }}" method="get">
+        <input type="hidden" name="request" value="gr-language-notify">
+        <input type="email" name="email" placeholder="{{ p.emailCapture.placeholder }}" required aria-label="{{ p.emailCapture.placeholder }}">
+        <button type="submit">{{ p.emailCapture.button }}</button>
+      </form>
+    </div>
   </div>
 </section>
 
@@ -97,5 +159,11 @@ pageSlug: global-reach
     <h2>{{ p.cta.title }}</h2>
     <p>{{ p.cta.body }}</p>
     <a href="https://portal.nordicriser.com" class="btn-cta">{{ t.common.signUp }}</a>
+    <p class="gr-trust-line">{{ p.cta.trustLine }}</p>
   </div>
 </section>
+
+<div class="gr-sticky-cta" role="complementary" aria-label="{{ p.hero.ctaPrimary }}">
+  <span>{{ p.stickyBar.text }}</span>
+  <a href="https://portal.nordicriser.com">{{ p.stickyBar.cta }}</a>
+</div>

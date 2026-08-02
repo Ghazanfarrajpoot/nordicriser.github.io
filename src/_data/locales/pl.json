@@ -24,19 +24,35 @@
   "footer": {
     "brandBlurb": "Międzynarodowa firma doradcza oferująca ustrukturyzowane usługi konsultingowe, technologiczne oraz platformę globalnej współpracy dla przedsiębiorców i profesjonalistów budujących zgodną z prawem obecność w Europie.",
     "addressHeading": "Siedziba zarejestrowana",
-    "servicesHeading": "Usługi doradcze",
+    "orgNrLabel": "Nr rej.",
+    "orgNrValue": "[ORG_NR]",
     "firmHeading": "Firma",
     "complianceHeading": "Zgodność z przepisami",
     "disclaimerHeading": "Zastrzeżenie",
     "disclaimer": "Nordic Riser AB świadczy wyłącznie strategiczne usługi doradcze. Nie zapewniamy reprezentacji prawnej, doradztwa imigracyjnego ani gwarancji rezultatu. Wszystkie decyzje należą do właściwych organów. We wszystkim, co robimy, priorytetem jest zgodność z przepisami.",
     "copyright": "© 2026 Nordic Riser AB. Wszelkie prawa zastrzeżone. Stockholm, Sweden.",
-    "servicesLinks": [
-      { "label": "Zakładanie działalności gospodarczej", "anchor": "establishment" },
-      { "label": "Zakładanie spółek", "anchor": "formation" },
-      { "label": "Planowanie biznesowe", "anchor": "documentation" },
-      { "label": "Strategia relokacji", "anchor": "relocation" },
-      { "label": "Doradztwo transgraniczne", "anchor": "international" }
-    ],
+    "divisions": {
+      "consultingHeading": "Doradztwo",
+      "consultingLinks": [
+        { "label": "Zakładanie działalności gospodarczej", "anchor": "establishment" },
+        { "label": "Zakładanie spółek", "anchor": "formation" },
+        { "label": "Strategia relokacji", "anchor": "relocation" },
+        { "label": "Doradztwo transgraniczne", "anchor": "international" }
+      ],
+      "itServicesHeading": "Usługi IT",
+      "itServicesLinks": [
+        { "label": "Platformy internetowe i portale" },
+        { "label": "Automatyzacja i integracje" },
+        { "label": "Bieżące wsparcie" },
+        { "label": "Poproś o wycenę", "target": "contact" }
+      ],
+      "globalReachHeading": "Global Reach",
+      "globalReachLinks": [
+        { "label": "Jak to działa" },
+        { "label": "Plany i cennik" },
+        { "label": "Zacznij za darmo — 100 wiadomości", "external": "https://portal.nordicriser.com" }
+      ]
+    },
     "firmLinks": {
       "about": "O nas",
       "contact": "Kontakt",
@@ -49,15 +65,16 @@
       "hero": {
         "label": "Jedna platforma, trzy filary",
         "h1": "Twoja brama do Szwecji — i świata",
-        "body": "Ustrukturyzowane doradztwo, technologia i globalna współpraca pod jednym dachem — stworzone z myślą o międzynarodowych przedsiębiorcach, profesjonalistach oraz firmach, które zakładają.",
-        "cta": "Umów konsultację"
+        "body": "Doradztwo, technologia i globalna współpraca pod jednym dachem — stworzone z myślą o międzynarodowych przedsiębiorcach, profesjonalistach oraz firmach, które zakładają.",
+        "cta": "Umów konsultację",
+        "ctaSecondary": "Poznaj Global Reach"
       },
       "pillars": {
         "label": "Co oferujemy",
         "title": "Trzy filary. Jedna platforma.",
         "sub": "Niezależnie od etapu, na którym się znajdujesz — zakładania firmy, budowy technologii, która ją wspiera, czy nawiązywania kontaktu z doradcami i innymi klientami — mamy filar dopasowany do Twoich potrzeb.",
         "consulting": {
-          "icon": "🏢",
+          "icon": "briefcase",
           "title": "Doradztwo",
           "promise": "Ustrukturyzowane, zgodne z przepisami doradztwo biznesowe i relokacyjne dla międzynarodowych przedsiębiorców.",
           "bullets": [
@@ -67,7 +84,7 @@
           ]
         },
         "itServices": {
-          "icon": "💻",
+          "icon": "code",
           "title": "Usługi IT",
           "promise": "Platformy internetowe i systemy biznesowe budowane dla firm, które pomagamy zakładać.",
           "bullets": [
@@ -77,14 +94,16 @@
           ]
         },
         "globalReach": {
-          "icon": "🌐",
+          "icon": "globe",
           "title": "Global Reach",
-          "promise": "Ustrukturyzowane sesje na żywo łączące Cię z doradcami i innymi klientami — z dowolnego miejsca.",
+          "promise": "Pokoje na żywo ze wspólnymi tablicami i czatem tłumaczonym w czasie rzeczywistym — współpracuj ponad granicami przy nauce, badaniach i projektach.",
           "bullets": [
-            "Sesje live: konsultacje i wspólna nauka",
-            "Bezpośredni dostęp do specjalistów",
-            "Elastyczne plany subskrypcji"
-          ]
+            "Wspólne tablice do współpracy na żywo",
+            "Czat tłumaczony na żywo między językami",
+            "100 darmowych wiadomości, bez karty"
+          ],
+          "badge": "100 darmowych wiadomości",
+          "cta": "Zacznij za darmo — 100 wiadomości"
         },
         "learnMore": "Dowiedz się więcej →"
       },
@@ -93,12 +112,22 @@
         "title": "Strategiczne doradztwo w pięciu kluczowych obszarach",
         "sub": "Zapewniamy ustrukturyzowane doradztwo obejmujące pełne spektrum zakładania międzynarodowej działalności gospodarczej i relokacji zawodowej w Europie — bez ogólnikowych porad.",
         "services": [
-          { "icon": "🏢", "title": "Zakładanie działalności gospodarczej", "body": "Ustrukturyzowane wskazówki dotyczące wyboru formy prawnej, procedur rejestracyjnych oraz zgodności operacyjnej dla międzynarodowych przedsiębiorców wchodzących na rynki europejskie.", "note": "Usługa dedykowana inwestorom spoza UE poszukującym bezpiecznej bramy na rynki europejskie.", "anchor": "establishment" },
-          { "icon": "📋", "title": "Strategia zakładania spółki", "body": "Strategiczne planowanie odpowiedniej struktury korporacyjnej w oparciu o model biznesowy, wymagania własnościowe oraz cele długoterminowe.", "anchor": "formation" },
-          { "icon": "🌍", "title": "Strategia relokacji opartej na działalności gospodarczej i przeprowadzki rodziny", "body": "Doradztwo w zakresie legalnych ścieżek relokacji opartych na działalności gospodarczej dla Ciebie i Twojej rodziny, zgodnych z ramami regulacyjnymi i zaprojektowanych z myślą o trwałych rezultatach pobytowych.", "anchor": "relocation" },
-          { "icon": "🔗", "title": "Doradztwo transgraniczne", "body": "Koordynacja zagadnień wielojurysdykcyjnych, w tym podatkowych, dotyczących zgodności oraz struktur prawnych, dla profesjonalistów i firm działających międzynarodowo.", "note": "Strategiczne wsparcie w zakresie zgodności z europejskimi regulacjami bankowymi oraz międzynarodowego strukturyzowania kapitału.", "anchor": "international" },
-          { "icon": "📊", "title": "Planowanie biznesowe dla przedsiębiorców", "body": "Opracowywanie ustrukturyzowanych biznesplanów oraz pakietów dokumentacji dostosowanych do wymogów europejskich organów i instytucji.", "anchor": "documentation" }
+          { "icon": "briefcase", "title": "Zakładanie działalności gospodarczej", "body": "Ustrukturyzowane wskazówki dotyczące wyboru formy prawnej, procedur rejestracyjnych oraz zgodności operacyjnej dla międzynarodowych przedsiębiorców wchodzących na rynki europejskie.", "note": "Usługa dedykowana inwestorom spoza UE poszukującym bezpiecznej bramy na rynki europejskie.", "anchor": "establishment" },
+          { "icon": "clipboard", "title": "Strategia zakładania spółki", "body": "Strategiczne planowanie odpowiedniej struktury korporacyjnej w oparciu o model biznesowy, wymagania własnościowe oraz cele długoterminowe.", "anchor": "formation" },
+          { "icon": "world", "title": "Strategia relokacji opartej na działalności gospodarczej i przeprowadzki rodziny", "body": "Doradztwo w zakresie legalnych ścieżek relokacji opartych na działalności gospodarczej dla Ciebie i Twojej rodziny, zgodnych z ramami regulacyjnymi i zaprojektowanych z myślą o trwałych rezultatach pobytowych.", "anchor": "relocation" },
+          { "icon": "link", "title": "Doradztwo transgraniczne", "body": "Koordynacja zagadnień wielojurysdykcyjnych, w tym podatkowych, dotyczących zgodności oraz struktur prawnych, dla profesjonalistów i firm działających międzynarodowo.", "note": "Strategiczne wsparcie w zakresie zgodności z europejskimi regulacjami bankowymi oraz międzynarodowego strukturyzowania kapitału.", "anchor": "international" },
+          { "icon": "chart", "title": "Planowanie biznesowe dla przedsiębiorców", "body": "Opracowywanie ustrukturyzowanych biznesplanów oraz pakietów dokumentacji dostosowanych do wymogów europejskich organów i instytucji.", "anchor": "documentation" }
         ]
+      },
+      "globalReachTeaser": {
+        "label": "Global Reach",
+        "title": "Współpracuj ponad granicami — bezpłatnie na start",
+        "body": "Pokoje na żywo ze wspólnymi tablicami i czatem tłumaczonym w czasie rzeczywistym. Twoje pierwsze 100 wiadomości jest darmowe — bez karty.",
+        "cta": "Zacznij za darmo — 100 wiadomości",
+        "mockCaption": "Ilustracyjny podgląd",
+        "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
+        "chatTranslated": "Plik jest gotowy do sprawdzenia",
+        "chatTag": "Przetłumaczone z urdu"
       },
       "leadCapture": {
         "title": "Nie jesteś jeszcze gotowy na konsultację? Zacznij od naszego bezpłatnego przewodnika.",
@@ -144,8 +173,10 @@
         "label": "Zaufany partner międzynarodowych przedsiębiorców",
         "title": "Osiągnięcia zbudowane na strukturze i zgodności z przepisami",
         "sub": "Praktyka konsultingowa zbudowana z myślą o wiarygodności transgranicznej, ustrukturyzowanych zleceniach i zgodności regulacyjnej.",
+        "orgNrLabel": "Nr rej.",
+        "orgNrValue": "[ORG_NR]",
         "stats": [
-          { "number": "12+ krajów", "label": "Klienci obsłużeni w całej Europie" },
+          { "number": "Klienci transgraniczni", "label": "Przedsiębiorcy i profesjonaliści w całej Europie" },
           { "number": "3 filary usług", "label": "Doradztwo, IT i Global Reach" },
           { "number": "Stockholm, Sweden", "label": "Z siedzibą w UE i regulowana" },
           { "number": "Priorytet zgodności", "label": "W każdym zleceniu" }
@@ -181,10 +212,10 @@
           "Zawsze koncentrujemy się na długoterminowej strategii i trwałych rezultatach, a nie na doraźnej wygodzie."
         ],
         "pillars": [
-          { "icon": "📐", "title": "Strategia długoterminowa", "body": "Projektujemy struktury, które służą Twoim celom biznesowym w perspektywie czasu, a nie tylko doraźnym wymaganiom." },
-          { "icon": "⚖️", "title": "Pełna zgodność z prawem", "body": "Każda rekomendacja opiera się na aktualnych ramach regulacyjnych i standardach instytucjonalnych." },
-          { "icon": "🗂️", "title": "Ustrukturyzowane rozwiązania biznesowe", "body": "Zapewniamy udokumentowane, systematyczne procesy — a nie nieformalne wskazówki czy ogólne informacje." },
-          { "icon": "🤝", "title": "Profesjonalne standardy doradcze", "body": "Nasze zlecenia prowadzone są z dyscypliną i odpowiedzialnością właściwą firmie świadczącej usługi profesjonalne." }
+          { "icon": "ruler", "title": "Strategia długoterminowa", "body": "Projektujemy struktury, które służą Twoim celom biznesowym w perspektywie czasu, a nie tylko doraźnym wymaganiom." },
+          { "icon": "scale", "title": "Pełna zgodność z prawem", "body": "Każda rekomendacja opiera się na aktualnych ramach regulacyjnych i standardach instytucjonalnych." },
+          { "icon": "folder", "title": "Ustrukturyzowane rozwiązania biznesowe", "body": "Zapewniamy udokumentowane, systematyczne procesy — a nie nieformalne wskazówki czy ogólne informacje." },
+          { "icon": "handshake", "title": "Profesjonalne standardy doradcze", "body": "Nasze zlecenia prowadzone są z dyscypliną i odpowiedzialnością właściwą firmie świadczącej usługi profesjonalne." }
         ]
       },
       "approach": {
@@ -205,12 +236,12 @@
         "title": "Zasady, którymi kierujemy się w pracy",
         "sub": "To nie są aspiracyjne hasła. To operacyjne standardy, według których prowadzone jest każde zlecenie.",
         "items": [
-          { "icon": "⚖️", "title": "Priorytet zgodności z przepisami", "body": "Każdy proces, który projektujemy, jest zbudowany tak, aby wytrzymać weryfikację instytucjonalną. Legalność jest nienegocjowalna — to punkt wyjścia dla każdej opracowywanej strategii." },
-          { "icon": "🎯", "title": "Przejrzystość", "body": "Komunikujemy się uczciwie — w kwestii wymagań, terminów i realistycznych rezultatów. Nie składamy obietnic dotyczących decyzji należących do osób trzecich lub organów." },
-          { "icon": "📋", "title": "Ustrukturyzowany proces", "body": "Każde zlecenie jest dokumentowane i prowadzone w sposób systematyczny. Nie oferujemy doraźnych porad — oferujemy ustrukturyzowaną metodologię." },
-          { "icon": "🤝", "title": "Profesjonalne partnerstwa", "body": "Utrzymujemy relacje robocze z wykwalifikowanymi prawnikami, doradcami podatkowymi i innymi specjalistami — zapewniając, że aspekty techniczne i regulacyjne są obsługiwane z odpowiednią wiedzą specjalistyczną." },
-          { "icon": "🛡️", "title": "Poufność", "body": "Informacje o klientach traktowane są z zachowaniem rygorystycznych standardów dyskrecji. Dane osobowe i handlowe są traktowane jako ściśle poufne na każdym etapie zlecenia." },
-          { "icon": "📐", "title": "Indywidualne doradztwo", "body": "Nie stosujemy gotowych rozwiązań. Każde zlecenie oceniane jest indywidualnie, a strategia opracowywana jest z uwzględnieniem konkretnych okoliczności i celów klienta." }
+          { "icon": "scale", "title": "Priorytet zgodności z przepisami", "body": "Każdy proces, który projektujemy, jest zbudowany tak, aby wytrzymać weryfikację instytucjonalną. Legalność jest nienegocjowalna — to punkt wyjścia dla każdej opracowywanej strategii." },
+          { "icon": "target", "title": "Przejrzystość", "body": "Komunikujemy się uczciwie — w kwestii wymagań, terminów i realistycznych rezultatów. Nie składamy obietnic dotyczących decyzji należących do osób trzecich lub organów." },
+          { "icon": "clipboard", "title": "Ustrukturyzowany proces", "body": "Każde zlecenie jest dokumentowane i prowadzone w sposób systematyczny. Nie oferujemy doraźnych porad — oferujemy ustrukturyzowaną metodologię." },
+          { "icon": "handshake", "title": "Profesjonalne partnerstwa", "body": "Utrzymujemy relacje robocze z wykwalifikowanymi prawnikami, doradcami podatkowymi i innymi specjalistami — zapewniając, że aspekty techniczne i regulacyjne są obsługiwane z odpowiednią wiedzą specjalistyczną." },
+          { "icon": "shield", "title": "Poufność", "body": "Informacje o klientach traktowane są z zachowaniem rygorystycznych standardów dyskrecji. Dane osobowe i handlowe są traktowane jako ściśle poufne na każdym etapie zlecenia." },
+          { "icon": "ruler", "title": "Indywidualne doradztwo", "body": "Nie stosujemy gotowych rozwiązań. Każde zlecenie oceniane jest indywidualnie, a strategia opracowywana jest z uwzględnieniem konkretnych okoliczności i celów klienta." }
         ]
       },
       "missionBlock": { "label": "Nasza misja", "missionLabel": "Deklaracja misji", "statement": "Świadczenie strategicznych usług doradczych, które pomagają międzynarodowym przedsiębiorcom i profesjonalistom zakładać zgodną z prawem, trwałą działalność gospodarczą w Europie — wspierana profesjonalnym doradztwem, udokumentowanymi procesami i długoterminowym myśleniem strategicznym." },
@@ -508,10 +539,10 @@
       "offeringsTitle": "Cztery kluczowe usługi",
       "offeringsSub": "Od pierwszej strony internetowej firmy po systemy obsługujące codzienną działalność — budujemy technologię dopasowaną do skali i etapu rozwoju Twojej firmy.",
       "offerings": [
-        { "icon": "🌐", "title": "Platformy internetowe i strony firmowe", "body": "Profesjonalnie zaprojektowane, gotowe na wielojęzyczność strony internetowe, które od pierwszego dnia nadają Twojej firmie wiarygodną, ustrukturyzowaną obecność online." },
-        { "icon": "🔐", "title": "Portale klienta i biznesowe", "body": "Bezpieczne portale dla klientów i członków umożliwiające zarządzanie dokumentami, komunikacją oraz statusem sprawy lub projektu w jednym miejscu." },
-        { "icon": "⚙️", "title": "Automatyzacja procesów i integracje", "body": "Automatyzacja powtarzalnych zadań operacyjnych oraz integracja narzędzi, z których już korzysta Twoja firma." },
-        { "icon": "🛠️", "title": "Bieżące utrzymanie i wsparcie", "body": "Ciągłe wsparcie techniczne, aktualizacje oraz monitoring po uruchomieniu, dzięki czemu Twoja platforma pozostaje niezawodna wraz z rozwojem firmy." }
+        { "icon": "globe", "title": "Platformy internetowe i strony firmowe", "body": "Profesjonalnie zaprojektowane, gotowe na wielojęzyczność strony internetowe, które od pierwszego dnia nadają Twojej firmie wiarygodną, ustrukturyzowaną obecność online." },
+        { "icon": "lock", "title": "Portale klienta i biznesowe", "body": "Bezpieczne portale dla klientów i członków umożliwiające zarządzanie dokumentami, komunikacją oraz statusem sprawy lub projektu w jednym miejscu." },
+        { "icon": "gear", "title": "Automatyzacja procesów i integracje", "body": "Automatyzacja powtarzalnych zadań operacyjnych oraz integracja narzędzi, z których już korzysta Twoja firma." },
+        { "icon": "wrench", "title": "Bieżące utrzymanie i wsparcie", "body": "Ciągłe wsparcie techniczne, aktualizacje oraz monitoring po uruchomieniu, dzięki czemu Twoja platforma pozostaje niezawodna wraz z rozwojem firmy." }
       ],
       "howWeWorkLabel": "Jak pracujemy",
       "howWeWorkTitle": "Ustrukturyzowana droga od pomysłu do wdrożenia",
@@ -533,36 +564,83 @@
         "Automatyzacja powtarzalnych procesów administracyjnych lub operacyjnych",
         "Bieżący hosting, monitoring i wsparcie techniczne"
       ],
+      "portfolioLabel": "Nasze realizacje",
+      "portfolioTitle": "Ta strona jest portfolio",
+      "portfolioSub": "Zamiast studiów przypadków innych klientów, najlepszym przykładem tego, co budujemy, jest to, z czego właśnie korzystasz.",
+      "portfolio": [
+        { "title": "nordicriser.com", "body": "Wielojęzyczna strona marketingowa, którą przeglądasz — 11 języków, zbudowana i utrzymywana wewnętrznie." },
+        { "title": "Portal klienta Nordic Riser", "body": "Bezpieczny portal klienta, z którego korzystają nasi własni klienci Doradztwa i Global Reach do obsługi dokumentów, wiadomości i śledzenia spraw." }
+      ],
       "cta": { "title": "Poproś o wycenę", "body": "Opowiedz nam o swojej firmie i o tym, co chcesz zbudować. Ocenimy zakres prac i przedstawimy jasną, ustrukturyzowaną wycenę — w taki sam sposób, w jaki podchodzimy do każdego zlecenia doradczego." }
     },
     "globalReach": {
-      "hero": { "label": "Global Reach", "h1": "Współpraca na żywo, gdziekolwiek jesteś", "body": "Dołącz do sesji live, aby połączyć się z doradcami, specjalistami i innymi klientami — z czatem tłumaczonym w czasie rzeczywistym na języki, którymi posługuje się Twoja społeczność.", "mockCaption": "Przykładowy podgląd" },
+      "hero": {
+        "label": "Global Reach",
+        "h1": "Współpracuj ponad granicami — Twoje pierwsze 100 wiadomości jest darmowe",
+        "body": "Dołącz do pokoi live ze wspólnymi tablicami i czatem tłumaczonym w czasie rzeczywistym — każdy czyta i pisze w swoim własnym języku.",
+        "ctaPrimary": "Zacznij za darmo — 100 wiadomości",
+        "ctaSecondary": "Zobacz, jak to działa",
+        "trustLine": "Bez karty płatniczej · Anuluj w każdej chwili · Zgodność z RODO",
+        "earlyAccessBadge": "Teraz we wczesnym dostępie",
+        "mockCaption": "Przykładowy podgląd",
+        "visual": {
+          "whiteboardLabel": "Wspólna tablica",
+          "participants": [
+            { "lang": "SV", "name": "Elin" },
+            { "lang": "UR", "name": "Ahmed" },
+            { "lang": "EN", "name": "Grace" },
+            { "lang": "AR", "name": "Layla" },
+            { "lang": "DE", "name": "Jonas" },
+            { "lang": "PL", "name": "Kasia" }
+          ],
+          "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
+          "chatTranslated": "Plik jest gotowy do sprawdzenia",
+          "chatTag": "Przetłumaczone z urdu · dotknij, aby zobaczyć oryginał"
+        }
+      },
       "breadcrumb": "Global Reach",
       "howItWorksLabel": "Jak to działa",
-      "howItWorksTitle": "Trzy kroki, by się połączyć",
-      "howItWorksSub": "Global Reach zamienia subskrypcję w bezpośredni dostęp na żywo — bez konieczności ustalania terminów.",
+      "howItWorksTitle": "Trzy kroki, aby zacząć współpracować",
+      "howItWorksSub": "Global Reach zamienia subskrypcję w bezpośrednią, wielojęzyczną współpracę — bez konieczności ustalania terminów.",
       "howItWorks": [
-        { "title": "Dołącz do pokoju", "body": "Utwórz lub dołącz do pokoju live zbudowanego wokół Twojego tematu — konsultacji uzupełniającej, sesji nauki lub otwartej dyskusji." },
-        { "title": "Połącz się z doradcami i innymi klientami", "body": "Współpracuj w czasie rzeczywistym z doradcami, specjalistami lub innymi klientami mierzącymi się z podobnymi sytuacjami." },
-        { "title": "Otrzymaj ustrukturyzowane podsumowanie", "body": "Zakończ każdą sesję z jasnym zapisem tego, co zostało omówione i jakie są kolejne kroki." }
+        { "title": "Utwórz lub dołącz do pokoju", "body": "Utwórz nowy pokój lub dołącz do jednego zbudowanego wokół Twojego tematu — przygotowań do egzaminu, grupy badawczej lub projektu transgranicznego." },
+        { "title": "Współpracuj na wspólnych tablicach", "body": "Szkicuj, dodawaj notatki i rozwiązujcie problemy razem na tablicy, którą każdy w pokoju widzi i może edytować na żywo." },
+        { "title": "Czatuj z tłumaczeniem na żywo", "body": "Pisz wiadomości w swoim języku — wszyscy pozostali czytają je od razu przetłumaczone na swój." }
       ],
+      "ctaBand1": {
+        "title": "Gotowy na współpracę ponad granicami?",
+        "body": "Utwórz darmowe konto i uruchom swój pierwszy pokój w kilka minut.",
+        "cta": "Zacznij za darmo — 100 wiadomości"
+      },
       "useCasesLabel": "Dla kogo",
-      "useCasesTitle": "Stworzone dla różnych rodzajów sesji",
+      "useCasesTitle": "Stworzone do współpracy ponad granicami",
       "useCases": [
-        { "title": "Potencjalni przedsiębiorcy", "body": "Wstępne rozmowy przed podjęciem decyzji o pełnym zleceniu doradczym." },
-        { "title": "Klienci w trakcie realizacji zlecenia", "body": "Sesje live z zespołem doradczym lub IT pomiędzy zaplanowanymi spotkaniami." },
-        { "title": "Grupy wspólnej nauki", "body": "Ustrukturyzowane sesje z innymi klientami przechodzącymi przez podobne procesy relokacji lub zakładania działalności." },
-        { "title": "Sesje Q&A transgraniczne", "body": "Otwarte sesje, podczas których klienci z różnych krajów i o różnych językach mogą razem zadawać pytania." }
+        { "title": "Przygotowanie do egzaminu", "body": "Polskojęzyczna studentka i urdujęzyczny kolega z zajęć uczą się razem wieczorem przed egzaminem — czat tłumaczy się natychmiast w obie strony." },
+        { "title": "Korepetycje", "body": "Anglojęzyczny korepetytor prowadzi niemieckojęzycznego ucznia przez zestaw zadań na wspólnej tablicy." },
+        { "title": "Grupy badawcze", "body": "Polsko- i arabskojęzyczni badacze porównują notatki w jednym pokoju, każdy czyta i pisze w swoim własnym języku." },
+        { "title": "Transgraniczne zespoły projektowe", "body": "Niderlandzki lider projektu i pakistański programista koordynują sprint, ze wspólną tablicą i czatem na żywo." }
       ],
-      "plansLabel": "Plany subskrypcji",
-      "plansTitle": "Wybierz poziom dostępu",
-      "plansSub": "Plany są zarządzane za pośrednictwem portalu klienta i weryfikowane przez nasz zespół przed aktywacją.",
+      "plansLabel": "Cennik",
+      "plansTitle": "Zacznij za darmo. Uaktualnij, gdy potrzebujesz więcej.",
+      "plansSub": "Każdy plan obejmuje pełny dostęp do pokoi i wspólnych tablic — plany różnią się jedynie miesięcznym limitem wiadomości.",
+      "freePlan": { "name": "Darmowy", "price": "0", "period": "na zawsze", "features": ["100 wiadomości w cenie", "Pełny dostęp do pokoi i tablic", "Bez karty płatniczej"] },
       "plans": [
         { "name": "Basic", "price": "29", "period": "/ miesiąc", "features": ["100 wiadomości / miesiąc", "2 godziny sesji live / miesiąc", "Dostęp do repozytorium dokumentów", "Śledzenie sprawy"], "popular": false },
         { "name": "Pro", "price": "79", "period": "/ miesiąc", "features": ["500 wiadomości / miesiąc", "10 godzin sesji live / miesiąc", "Priorytetowe wsparcie", "Wszystkie funkcje planu Basic"], "popular": true }
       ],
       "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
-      "cta": { "title": "Zarejestruj się", "body": "Utwórz konto w portalu klienta, aby wybrać plan i zacząć dołączać do pokoi." }
+      "limitNote": "Pokoje i tablice pozostają dostępne po wykorzystaniu 100 darmowych wiadomości — wysyłanie kolejnych tłumaczonych wiadomości czatu wymaga płatnego planu.",
+      "faqLabel": "Najczęściej zadawane pytania",
+      "faqTitle": "Najczęściej zadawane pytania",
+      "faq": [
+        { "q": "Co liczy się jako wiadomość?", "a": "Każda wiadomość czatu wysłana w pokoju lub w wiadomościach 1 do 1 liczy się do Twojego miesięcznego limitu. Przetłumaczenie jej dla innych uczestników nie zużywa dodatkowych wiadomości." },
+        { "q": "Co się dzieje, gdy skończą mi się darmowe wiadomości?", "a": "Twoje pokoje, tablice i historia wiadomości pozostają w pełni dostępne. Wysyłanie kolejnych tłumaczonych wiadomości czatu wymaga uaktualnienia do płatnego planu." },
+        { "q": "Jakie języki są obsługiwane?", "a": "Pełne wsparcie interfejsu w językach angielskim, szwedzkim, niemieckim, francuskim, hiszpańskim, włoskim, polskim, niderlandzkim, portugalskim, urdu i arabskim, z tłumaczeniem czatu dostępnym również w innych językach." },
+        { "q": "Czy moje dane są prywatne?", "a": "Tak — wiadomości i dokumenty są przetwarzane zgodnie z naszą Polityką prywatności, zgodną z RODO, która dokładnie określa, co gromadzimy i dlaczego." }
+      ],
+      "emailCapture": { "title": "Jeszcze nie jesteś gotowy?", "body": "Otrzymaj powiadomienie, gdy pojawią się nowe języki.", "placeholder": "Twój adres e-mail", "button": "Powiadom mnie" },
+      "stickyBar": { "text": "Twoje pierwsze 100 wiadomości jest darmowe", "cta": "Zacznij za darmo" },
+      "cta": { "title": "Zacznij współpracować już dziś", "body": "Utwórz darmowe konto — bez karty płatniczej — i dołącz do swojego pierwszego pokoju w kilka minut.", "trustLine": "Bez karty płatniczej · Anuluj w każdej chwili · Zgodność z RODO" }
     },
     "portal": {
       "hero": { "label": "Dostęp dla klientów", "h1": "Portal klienta", "body": "Bezpieczny dostęp dla zarejestrowanych klientów Nordic Riser AB do zarządzania zleceniem, dokumentami i komunikacją." },

@@ -13,13 +13,17 @@ pageSlug: ""
 ---
 {%- set t = locales[locale] -%}
 {%- set home = t.pages.home -%}
+{% import "partials/icons.njk" as icons %}
 
 <section class="hero">
   <div class="hero-inner" data-animate>
     <span class="hero-label">{{ home.hero.label }}</span>
     <h1>{{ home.hero.h1 }}</h1>
     <p>{{ home.hero.body }}</p>
-    <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-primary">{{ home.hero.cta }}</a>
+    <div class="hero-ctas">
+      <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-primary">{{ home.hero.cta }}</a>
+      <a href="{{ 'global-reach' | localeUrl(locale) }}" class="btn-secondary">{{ home.hero.ctaSecondary }}</a>
+    </div>
   </div>
 </section>
 
@@ -33,7 +37,7 @@ pageSlug: ""
     <div class="services-grid">
       {%- for s in home.whatWeDo.services %}
       <div class="service-card">
-        <div class="service-icon">{{ s.icon }}</div>
+        <div class="service-icon">{{ icons.icon(s.icon) }}</div>
         <h3>{{ s.title }}</h3>
         <p>{{ s.body }}</p>
         {%- if s.note %}
@@ -54,12 +58,39 @@ pageSlug: ""
     <div class="services-grid">
       {%- for o in t.pages.itServices.offerings %}
       <div class="service-card">
-        <div class="service-icon">{{ o.icon }}</div>
+        <div class="service-icon">{{ icons.icon(o.icon) }}</div>
         <h3>{{ o.title }}</h3>
         <p>{{ o.body }}</p>
         <a href="{{ 'it-services' | localeUrl(locale) }}" class="service-link">{{ t.common.learnMore }}</a>
       </div>
       {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="gr-teaser">
+  <div class="gr-teaser-inner" data-animate>
+    <div class="gr-teaser-text">
+      <span class="section-label">{{ home.globalReachTeaser.label }}</span>
+      <h2 class="section-title">{{ home.globalReachTeaser.title }}</h2>
+      <p class="section-sub">{{ home.globalReachTeaser.body }}</p>
+      <a href="https://portal.nordicriser.com" class="btn-cta">{{ home.globalReachTeaser.cta }}</a>
+    </div>
+    <div class="gr-teaser-visual" aria-hidden="true">
+      <div class="gr-mock gr-mock-compact">
+        <div class="gr-mock-toolbar">
+          <span class="gr-mock-dot"></span><span class="gr-mock-dot"></span><span class="gr-mock-dot"></span>
+        </div>
+        <div class="gr-mock-whiteboard">{{ icons.icon('whiteboard') }}</div>
+        <div class="gr-mock-chat">
+          <div class="gr-chat-bubble">
+            <span class="gr-chat-original">{{ home.globalReachTeaser.chatOriginal }}</span>
+            <span class="gr-chat-translated">{{ home.globalReachTeaser.chatTranslated }}</span>
+            <span class="gr-chat-tag">{{ home.globalReachTeaser.chatTag }}</span>
+          </div>
+        </div>
+      </div>
+      <span class="gr-mock-caption">{{ home.globalReachTeaser.mockCaption }}</span>
     </div>
   </div>
 </section>
@@ -120,7 +151,7 @@ pageSlug: ""
     <div class="why-grid">
       {%- for c in home.whyChooseUs.cards %}
       <div class="why-card">
-        <div class="check">✓</div>
+        <div class="check">{{ icons.icon('check') }}</div>
         <h3>{{ c.title }}</h3>
         <p>{{ c.body }}</p>
       </div>
@@ -134,6 +165,7 @@ pageSlug: ""
     <span class="section-label">{{ home.trust.label }}</span>
     <h2 class="section-title">{{ home.trust.title }}</h2>
     <p class="section-sub">{{ home.trust.sub }}</p>
+    <div class="trust-org-nr">{{ home.trust.orgNrLabel }} <strong>{{ home.trust.orgNrValue }}</strong> · Stockholm, Sweden</div>
     <div class="stats-grid">
       {%- for s in home.trust.stats %}
       <div class="stat-card">

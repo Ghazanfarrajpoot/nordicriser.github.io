@@ -8,16 +8,35 @@
         <strong>{{ t.footer.addressHeading }}</strong>
         Nordic Riser AB<br>
         Stockholm, Sweden<br>
+        {{ t.footer.orgNrLabel }} {{ t.footer.orgNrValue }}<br>
         <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
       </div>
     </div>
-    <div class="footer-col">
-      <h4>{{ t.footer.servicesHeading }}</h4>
-      <ul>
-        {%- for link in t.footer.servicesLinks %}
-        <li><a href="{{ 'consulting' | localeUrl(locale) }}#{{ link.anchor }}">{{ link.label }}</a></li>
-        {%- endfor %}
-      </ul>
+    <div class="footer-services-group">
+      <div class="footer-col">
+        <h4>{{ t.footer.divisions.consultingHeading }}</h4>
+        <ul>
+          {%- for link in t.footer.divisions.consultingLinks %}
+          <li><a href="{{ 'consulting' | localeUrl(locale) }}#{{ link.anchor }}">{{ link.label }}</a></li>
+          {%- endfor %}
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>{{ t.footer.divisions.itServicesHeading }}</h4>
+        <ul>
+          {%- for link in t.footer.divisions.itServicesLinks %}
+          <li><a href="{{ (link.target or 'it-services') | localeUrl(locale) }}">{{ link.label }}</a></li>
+          {%- endfor %}
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>{{ t.footer.divisions.globalReachHeading }}</h4>
+        <ul>
+          {%- for link in t.footer.divisions.globalReachLinks %}
+          <li><a href="{{ link.external or (('global-reach' | localeUrl(locale))) }}">{{ link.label }}</a></li>
+          {%- endfor %}
+        </ul>
+      </div>
     </div>
     <div class="footer-col">
       <h4>{{ t.footer.firmHeading }}</h4>

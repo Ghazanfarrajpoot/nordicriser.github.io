@@ -24,19 +24,35 @@
   "footer": {
     "brandBlurb": "Eine international tätige Beratungsgesellschaft für strukturierte Unternehmensberatung, Technologie und globale Zusammenarbeit – für Unternehmerinnen und Unternehmer sowie Fachkräfte, die eine rechtskonforme Präsenz in Europa aufbauen.",
     "addressHeading": "Eingetragener Firmensitz",
-    "servicesHeading": "Beratungsleistungen",
+    "orgNrLabel": "Org.-Nr.",
+    "orgNrValue": "[ORG_NR]",
     "firmHeading": "Unternehmen",
     "complianceHeading": "Compliance",
     "disclaimerHeading": "Haftungsausschluss",
     "disclaimer": "Nordic Riser AB erbringt ausschließlich strategische Beratungsleistungen. Wir bieten keine Rechtsvertretung, keine Einwanderungsberatung und keine Erfolgsgarantien. Alle Entscheidungen liegen bei den zuständigen Behörden. Compliance steht bei allem, was wir tun, an erster Stelle.",
     "copyright": "© 2026 Nordic Riser AB. Alle Rechte vorbehalten. Stockholm, Sweden.",
-    "servicesLinks": [
-      { "label": "Geschäftsansiedlung", "anchor": "establishment" },
-      { "label": "Unternehmensgründung", "anchor": "formation" },
-      { "label": "Geschäftsplanung", "anchor": "documentation" },
-      { "label": "Relocation-Strategie", "anchor": "relocation" },
-      { "label": "Grenzüberschreitende Beratung", "anchor": "international" }
-    ],
+    "divisions": {
+      "consultingHeading": "Beratung",
+      "consultingLinks": [
+        { "label": "Geschäftsansiedlung", "anchor": "establishment" },
+        { "label": "Unternehmensgründung", "anchor": "formation" },
+        { "label": "Relocation-Strategie", "anchor": "relocation" },
+        { "label": "Grenzüberschreitende Beratung", "anchor": "international" }
+      ],
+      "itServicesHeading": "IT-Dienstleistungen",
+      "itServicesLinks": [
+        { "label": "Webplattformen & Portale" },
+        { "label": "Automatisierung & Integrationen" },
+        { "label": "Laufender Support" },
+        { "label": "Angebot anfordern", "target": "contact" }
+      ],
+      "globalReachHeading": "Global Reach",
+      "globalReachLinks": [
+        { "label": "So funktioniert es" },
+        { "label": "Pläne & Preise" },
+        { "label": "Kostenlos starten — 100 Nachrichten", "external": "https://portal.nordicriser.com" }
+      ]
+    },
     "firmLinks": {
       "about": "Über uns",
       "contact": "Kontakt",
@@ -49,15 +65,16 @@
       "hero": {
         "label": "Eine Plattform, drei Säulen",
         "h1": "Ihr Zugang zu Schweden – und zur Welt",
-        "body": "Strukturierte Beratung, Technologie und globale Zusammenarbeit unter einem Dach – konzipiert für internationale Unternehmerinnen und Unternehmer, Fachkräfte und die Unternehmen, die sie gründen.",
-        "cta": "Beratungstermin vereinbaren"
+        "body": "Beratung, Technologie und globale Zusammenarbeit unter einem Dach – konzipiert für internationale Unternehmerinnen und Unternehmer, Fachkräfte und die Unternehmen, die sie gründen.",
+        "cta": "Beratungstermin vereinbaren",
+        "ctaSecondary": "Global Reach entdecken"
       },
       "pillars": {
         "label": "Unser Angebot",
         "title": "Drei Säulen. Eine Plattform.",
         "sub": "Ganz gleich, in welcher Phase Sie sich befinden – ob Sie ein Unternehmen gründen, die dazugehörige Technologie aufbauen oder sich mit Beratern und Gleichgesinnten vernetzen möchten – wir haben die passende Säule dafür.",
         "consulting": {
-          "icon": "🏢",
+          "icon": "briefcase",
           "title": "Beratung",
           "promise": "Strukturierte, rechtskonforme Beratung zu Unternehmensgründung und Relocation für internationale Unternehmerinnen und Unternehmer.",
           "bullets": [
@@ -67,7 +84,7 @@
           ]
         },
         "itServices": {
-          "icon": "💻",
+          "icon": "code",
           "title": "IT-Dienstleistungen",
           "promise": "Webplattformen und Geschäftssysteme für die Unternehmen, die wir bei der Gründung begleiten.",
           "bullets": [
@@ -77,14 +94,16 @@
           ]
         },
         "globalReach": {
-          "icon": "🌐",
+          "icon": "globe",
           "title": "Global Reach",
-          "promise": "Live-Sitzungen in strukturierter Form, die Sie mit Beratern und Gleichgesinnten verbinden – von überall aus.",
+          "promise": "Live-Räume mit gemeinsamen Whiteboards und Chat, der in Echtzeit übersetzt wird – arbeiten Sie grenzüberschreitend an Lernen, Forschung und Projekten zusammen.",
           "bullets": [
-            "Live-Lern- und Beratungsräume",
-            "Direkter Zugang zu Fachspezialisten",
-            "Flexible Abonnementpläne"
-          ]
+            "Gemeinsame Whiteboards für die Live-Zusammenarbeit",
+            "Chat, der live zwischen Sprachen übersetzt wird",
+            "100 kostenlose Nachrichten, keine Kreditkarte nötig"
+          ],
+          "badge": "100 kostenlose Nachrichten",
+          "cta": "Kostenlos starten — 100 Nachrichten"
         },
         "learnMore": "Mehr erfahren →"
       },
@@ -93,12 +112,22 @@
         "title": "Strategische Beratung in fünf Kernbereichen",
         "sub": "Wir bieten strukturierte Beratung über das gesamte Spektrum der internationalen Geschäftsansiedlung und beruflichen Relocation hinweg – ohne pauschale Ratschläge.",
         "services": [
-          { "icon": "🏢", "title": "Geschäftsansiedlung", "body": "Strukturierte Begleitung bei der Wahl der Rechtsform, den Registrierungsverfahren und der betrieblichen Compliance für internationale Unternehmerinnen und Unternehmer, die in europäische Märkte eintreten.", "note": "Spezialisiert auf Investorinnen und Investoren von außerhalb der EU, die einen sicheren Zugang zu europäischen Märkten suchen.", "anchor": "establishment" },
-          { "icon": "📋", "title": "Strategie zur Unternehmensgründung", "body": "Strategische Planung der passenden Unternehmensstruktur auf Basis Ihres Geschäftsmodells, der Eigentumsanforderungen und Ihrer langfristigen Ziele.", "anchor": "formation" },
-          { "icon": "🌍", "title": "Strategie für unternehmensbasierten Aufenthalt und Familienrelocation", "body": "Beratung zu legitimen, unternehmensbasierten Wegen der Relocation für Sie und Ihre Familie – im Einklang mit den regulatorischen Rahmenbedingungen und ausgerichtet auf nachhaltige Aufenthaltslösungen.", "anchor": "relocation" },
-          { "icon": "🔗", "title": "Grenzüberschreitende Beratung", "body": "Koordination länderübergreifender Aspekte wie Steuern, Compliance und Rechtsstrukturen für international tätige Fachkräfte und Unternehmen.", "note": "Strategische Unterstützung bei europäischer Bankenkonformität und internationaler Kapitalstrukturierung.", "anchor": "international" },
-          { "icon": "📊", "title": "Geschäftsplanung für Unternehmerinnen und Unternehmer", "body": "Erstellung strukturierter Geschäftspläne und Dokumentationspakete, zugeschnitten auf die Anforderungen europäischer Behörden und Institutionen.", "anchor": "documentation" }
+          { "icon": "briefcase", "title": "Geschäftsansiedlung", "body": "Strukturierte Begleitung bei der Wahl der Rechtsform, den Registrierungsverfahren und der betrieblichen Compliance für internationale Unternehmerinnen und Unternehmer, die in europäische Märkte eintreten.", "note": "Spezialisiert auf Investorinnen und Investoren von außerhalb der EU, die einen sicheren Zugang zu europäischen Märkten suchen.", "anchor": "establishment" },
+          { "icon": "clipboard", "title": "Strategie zur Unternehmensgründung", "body": "Strategische Planung der passenden Unternehmensstruktur auf Basis Ihres Geschäftsmodells, der Eigentumsanforderungen und Ihrer langfristigen Ziele.", "anchor": "formation" },
+          { "icon": "world", "title": "Strategie für unternehmensbasierten Aufenthalt und Familienrelocation", "body": "Beratung zu legitimen, unternehmensbasierten Wegen der Relocation für Sie und Ihre Familie – im Einklang mit den regulatorischen Rahmenbedingungen und ausgerichtet auf nachhaltige Aufenthaltslösungen.", "anchor": "relocation" },
+          { "icon": "link", "title": "Grenzüberschreitende Beratung", "body": "Koordination länderübergreifender Aspekte wie Steuern, Compliance und Rechtsstrukturen für international tätige Fachkräfte und Unternehmen.", "note": "Strategische Unterstützung bei europäischer Bankenkonformität und internationaler Kapitalstrukturierung.", "anchor": "international" },
+          { "icon": "chart", "title": "Geschäftsplanung für Unternehmerinnen und Unternehmer", "body": "Erstellung strukturierter Geschäftspläne und Dokumentationspakete, zugeschnitten auf die Anforderungen europäischer Behörden und Institutionen.", "anchor": "documentation" }
         ]
+      },
+      "globalReachTeaser": {
+        "label": "Global Reach",
+        "title": "Grenzüberschreitend zusammenarbeiten — kostenlos starten",
+        "body": "Live-Räume mit gemeinsamen Whiteboards und Chat, der in Echtzeit übersetzt wird. Ihre ersten 100 Nachrichten sind kostenlos — keine Kreditkarte nötig.",
+        "cta": "Kostenlos starten — 100 Nachrichten",
+        "mockCaption": "Illustrative Vorschau",
+        "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
+        "chatTranslated": "Die Datei ist zur Prüfung bereit",
+        "chatTag": "Aus dem Urdu übersetzt"
       },
       "leadCapture": {
         "title": "Noch nicht bereit für eine Beratung? Beginnen Sie mit unserem kostenlosen Leitfaden.",
@@ -144,8 +173,10 @@
         "label": "Vertraut von internationalen Unternehmerinnen und Unternehmern",
         "title": "Eine Erfolgsbilanz, die auf Struktur und Compliance beruht",
         "sub": "Eine Beratungspraxis, aufgebaut für grenzüberschreitende Glaubwürdigkeit, strukturierte Mandate und regulatorische Compliance.",
+        "orgNrLabel": "Org.-Nr.",
+        "orgNrValue": "[ORG_NR]",
         "stats": [
-          { "number": "12+ Länder", "label": "Mandanten in ganz Europa betreut" },
+          { "number": "Grenzüberschreitende Mandanten", "label": "Unternehmerinnen, Unternehmer und Fachkräfte in ganz Europa" },
           { "number": "3 Leistungssäulen", "label": "Beratung, IT und Global Reach" },
           { "number": "Stockholm, Sweden", "label": "In der EU ansässig und reguliert" },
           { "number": "Compliance zuerst", "label": "Bei jedem Mandat" }
@@ -181,10 +212,10 @@
           "Unser Fokus liegt stets auf langfristiger Strategie und nachhaltigen Ergebnissen, nicht auf kurzfristiger Bequemlichkeit."
         ],
         "pillars": [
-          { "icon": "📐", "title": "Langfristige Strategie", "body": "Wir gestalten Strukturen, die Ihren Unternehmenszielen über die Zeit dienen — nicht nur unmittelbaren Anforderungen." },
-          { "icon": "⚖️", "title": "Vollständige Rechtskonformität", "body": "Jede Empfehlung basiert auf geltenden regulatorischen Rahmenbedingungen und institutionellen Standards." },
-          { "icon": "🗂️", "title": "Strukturierte Unternehmenslösungen", "body": "Wir bieten dokumentierte, systematische Prozesse — keine informelle Beratung oder allgemeine Informationen." },
-          { "icon": "🤝", "title": "Professionelle Beratungsstandards", "body": "Unsere Mandate werden mit der Disziplin und Verantwortlichkeit einer professionellen Dienstleistungsgesellschaft geführt." }
+          { "icon": "ruler", "title": "Langfristige Strategie", "body": "Wir gestalten Strukturen, die Ihren Unternehmenszielen über die Zeit dienen — nicht nur unmittelbaren Anforderungen." },
+          { "icon": "scale", "title": "Vollständige Rechtskonformität", "body": "Jede Empfehlung basiert auf geltenden regulatorischen Rahmenbedingungen und institutionellen Standards." },
+          { "icon": "folder", "title": "Strukturierte Unternehmenslösungen", "body": "Wir bieten dokumentierte, systematische Prozesse — keine informelle Beratung oder allgemeine Informationen." },
+          { "icon": "handshake", "title": "Professionelle Beratungsstandards", "body": "Unsere Mandate werden mit der Disziplin und Verantwortlichkeit einer professionellen Dienstleistungsgesellschaft geführt." }
         ]
       },
       "approach": {
@@ -205,12 +236,12 @@
         "title": "Die Grundsätze, die unsere Arbeit leiten",
         "sub": "Dies sind keine bloßen Absichtserklärungen. Es sind die operativen Standards, nach denen jedes Mandat geführt wird.",
         "items": [
-          { "icon": "⚖️", "title": "Compliance zuerst", "body": "Jeder Prozess, den wir gestalten, ist darauf ausgelegt, einer institutionellen Prüfung standzuhalten. Rechtmäßigkeit ist nicht verhandelbar — sie ist die Grundlage, von der aus jede Strategie entwickelt wird." },
-          { "icon": "🎯", "title": "Transparenz", "body": "Wir kommunizieren ehrlich — über Anforderungen, Zeitrahmen und realistische Ergebnisse. Wir machen keine Versprechen über Entscheidungen, die bei Dritten oder Behörden liegen." },
-          { "icon": "📋", "title": "Strukturierter Prozess", "body": "Jedes Mandat wird systematisch dokumentiert und geführt. Wir bieten keine Ad-hoc-Beratung — sondern strukturierte Methodik." },
-          { "icon": "🤝", "title": "Professionelle Partnerschaften", "body": "Wir pflegen Arbeitsbeziehungen zu qualifizierten Rechts-, Steuer- und Fachexperten — damit technische und regulatorische Aspekte mit der angemessenen Expertise behandelt werden." },
-          { "icon": "🛡️", "title": "Vertraulichkeit", "body": "Mandanteninformationen werden nach strengen Diskretionsstandards behandelt. Persönliche und geschäftliche Daten werden während des gesamten Mandats streng vertraulich behandelt." },
-          { "icon": "📐", "title": "Maßgeschneiderte Beratung", "body": "Wir wenden keine Vorlagenlösungen an. Jedes Mandat wird individuell bewertet, und die Strategie wird speziell auf die Umstände und Ziele der Mandantin oder des Mandanten zugeschnitten." }
+          { "icon": "scale", "title": "Compliance zuerst", "body": "Jeder Prozess, den wir gestalten, ist darauf ausgelegt, einer institutionellen Prüfung standzuhalten. Rechtmäßigkeit ist nicht verhandelbar — sie ist die Grundlage, von der aus jede Strategie entwickelt wird." },
+          { "icon": "target", "title": "Transparenz", "body": "Wir kommunizieren ehrlich — über Anforderungen, Zeitrahmen und realistische Ergebnisse. Wir machen keine Versprechen über Entscheidungen, die bei Dritten oder Behörden liegen." },
+          { "icon": "clipboard", "title": "Strukturierter Prozess", "body": "Jedes Mandat wird systematisch dokumentiert und geführt. Wir bieten keine Ad-hoc-Beratung — sondern strukturierte Methodik." },
+          { "icon": "handshake", "title": "Professionelle Partnerschaften", "body": "Wir pflegen Arbeitsbeziehungen zu qualifizierten Rechts-, Steuer- und Fachexperten — damit technische und regulatorische Aspekte mit der angemessenen Expertise behandelt werden." },
+          { "icon": "shield", "title": "Vertraulichkeit", "body": "Mandanteninformationen werden nach strengen Diskretionsstandards behandelt. Persönliche und geschäftliche Daten werden während des gesamten Mandats streng vertraulich behandelt." },
+          { "icon": "ruler", "title": "Maßgeschneiderte Beratung", "body": "Wir wenden keine Vorlagenlösungen an. Jedes Mandat wird individuell bewertet, und die Strategie wird speziell auf die Umstände und Ziele der Mandantin oder des Mandanten zugeschnitten." }
         ]
       },
       "missionBlock": { "label": "Unsere Mission", "missionLabel": "Leitbild", "statement": "Strategische Beratungsleistungen anzubieten, die internationalen Unternehmerinnen, Unternehmern und Fachkräften helfen, rechtlich strukturierte, konforme und nachhaltige Geschäftstätigkeiten in Europa aufzubauen — unterstützt durch professionelle Beratung, dokumentierte Prozesse und langfristiges strategisches Denken." },
@@ -508,10 +539,10 @@
       "offeringsTitle": "Vier Kernleistungen",
       "offeringsSub": "Von der ersten Unternehmenswebsite bis zu den Systemen für den täglichen Betrieb entwickeln wir Technologie, die zu Größe und Entwicklungsstand Ihres Unternehmens passt.",
       "offerings": [
-        { "icon": "🌐", "title": "Webplattformen und Unternehmenswebsites", "body": "Professionell gestaltete, mehrsprachig einsetzbare Websites, die Ihrem Unternehmen von Anfang an eine glaubwürdige, strukturierte Online-Präsenz verleihen." },
-        { "icon": "🔐", "title": "Kunden- und Geschäftsportale", "body": "Sichere Mitglieder- und Kundenportale zur Verwaltung von Dokumenten, Kommunikation sowie Fall- oder Projektstatus an einem Ort." },
-        { "icon": "⚙️", "title": "Workflow-Automatisierung und Integrationen", "body": "Automatisierung wiederkehrender operativer Aufgaben und Integration zwischen den Tools, die Ihr Unternehmen bereits nutzt." },
-        { "icon": "🛠️", "title": "Laufende Wartung und Support", "body": "Fortlaufender technischer Support, Updates und Monitoring nach dem Launch, damit Ihre Plattform mit dem Wachstum Ihres Unternehmens zuverlässig bleibt." }
+        { "icon": "globe", "title": "Webplattformen und Unternehmenswebsites", "body": "Professionell gestaltete, mehrsprachig einsetzbare Websites, die Ihrem Unternehmen von Anfang an eine glaubwürdige, strukturierte Online-Präsenz verleihen." },
+        { "icon": "lock", "title": "Kunden- und Geschäftsportale", "body": "Sichere Mitglieder- und Kundenportale zur Verwaltung von Dokumenten, Kommunikation sowie Fall- oder Projektstatus an einem Ort." },
+        { "icon": "gear", "title": "Workflow-Automatisierung und Integrationen", "body": "Automatisierung wiederkehrender operativer Aufgaben und Integration zwischen den Tools, die Ihr Unternehmen bereits nutzt." },
+        { "icon": "wrench", "title": "Laufende Wartung und Support", "body": "Fortlaufender technischer Support, Updates und Monitoring nach dem Launch, damit Ihre Plattform mit dem Wachstum Ihres Unternehmens zuverlässig bleibt." }
       ],
       "howWeWorkLabel": "Wie wir arbeiten",
       "howWeWorkTitle": "Ein strukturierter Weg von der Idee zum Launch",
@@ -533,36 +564,83 @@
         "Automatisierung wiederkehrender administrativer oder operativer Arbeitsabläufe",
         "Laufende Vereinbarungen zu Hosting, Monitoring und technischem Support"
       ],
+      "portfolioLabel": "Unsere Arbeit",
+      "portfolioTitle": "Diese Website ist das Portfolio",
+      "portfolioSub": "Statt Fallstudien anderer Mandanten ist das klarste Beispiel für das, was wir entwickeln, genau das, was Sie gerade nutzen.",
+      "portfolio": [
+        { "title": "nordicriser.com", "body": "Die mehrsprachige Marketing-Website, die Sie gerade besuchen — 11 Sprachen, intern entwickelt und gepflegt." },
+        { "title": "Nordic Riser Mitgliederportal", "body": "Das sichere Kundenportal, das unsere eigenen Beratungs- und Global-Reach-Mitglieder für Dokumente, Nachrichten und Fallverfolgung nutzen." }
+      ],
       "cta": { "title": "Angebot anfordern", "body": "Erzählen Sie uns von Ihrem Unternehmen und dem, was Sie umsetzen möchten. Wir bewerten den Umfang und liefern ein klares, strukturiertes Angebot — nach demselben Ansatz, den wir bei jedem Beratungsmandat verfolgen." }
     },
     "globalReach": {
-      "hero": { "label": "Global Reach", "h1": "Live-Zusammenarbeit, wo immer Sie sind", "body": "Nehmen Sie an Live-Räumen teil, um sich mit Beratern, Fachspezialisten und Gleichgesinnten zu vernetzen — mit Chat, der in Echtzeit über die Sprachen Ihrer Community hinweg übersetzt.", "mockCaption": "Illustrative Vorschau" },
+      "hero": {
+        "label": "Global Reach",
+        "h1": "Grenzüberschreitend zusammenarbeiten — Ihre ersten 100 Nachrichten sind kostenlos",
+        "body": "Nehmen Sie an Live-Räumen mit gemeinsamen Whiteboards und Chat teil, der in Echtzeit übersetzt wird — jeder liest und schreibt in seiner eigenen Sprache.",
+        "ctaPrimary": "Kostenlos starten — 100 Nachrichten",
+        "ctaSecondary": "So funktioniert es",
+        "trustLine": "Keine Kreditkarte nötig · Jederzeit kündbar · DSGVO-konform",
+        "earlyAccessBadge": "Jetzt im Early Access",
+        "mockCaption": "Illustrative Vorschau",
+        "visual": {
+          "whiteboardLabel": "Gemeinsames Whiteboard",
+          "participants": [
+            { "lang": "SV", "name": "Elin" },
+            { "lang": "UR", "name": "Ahmed" },
+            { "lang": "EN", "name": "Grace" },
+            { "lang": "AR", "name": "Layla" },
+            { "lang": "DE", "name": "Jonas" },
+            { "lang": "PL", "name": "Kasia" }
+          ],
+          "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
+          "chatTranslated": "Die Datei ist zur Prüfung bereit",
+          "chatTag": "Aus dem Urdu übersetzt · antippen für Original"
+        }
+      },
       "breadcrumb": "Global Reach",
       "howItWorksLabel": "So funktioniert es",
-      "howItWorksTitle": "Drei Schritte zur Vernetzung",
-      "howItWorksSub": "Global Reach verwandelt ein Abonnement in direkten, live verfügbaren Zugang — ganz ohne Terminabstimmung.",
+      "howItWorksTitle": "Drei Schritte zur Zusammenarbeit",
+      "howItWorksSub": "Global Reach verwandelt ein Abonnement in direkte, sprachübergreifende Zusammenarbeit — ganz ohne Terminabstimmung.",
       "howItWorks": [
-        { "title": "Raum beitreten", "body": "Erstellen oder betreten Sie einen Live-Raum rund um Ihr Thema — ein Beratungs-Follow-up, eine Lernsitzung oder eine offene Diskussion." },
-        { "title": "Vernetzen Sie sich mit Beratern und Gleichgesinnten", "body": "Arbeiten Sie in Echtzeit mit Beratern, Fachspezialisten oder Gleichgesinnten zusammen, die vor ähnlichen Situationen stehen." },
-        { "title": "Strukturiertes Follow-up erhalten", "body": "Verlassen Sie jede Sitzung mit einer klaren Aufzeichnung dessen, was besprochen wurde und wie es weitergeht." }
+        { "title": "Raum erstellen oder beitreten", "body": "Starten Sie einen neuen Raum oder treten Sie einem bei, der rund um Ihr Thema aufgebaut ist — Prüfungsvorbereitung, eine Forschungsgruppe oder ein grenzüberschreitendes Projekt." },
+        { "title": "Auf gemeinsamen Whiteboards zusammenarbeiten", "body": "Skizzieren, kommentieren und lösen Sie Aufgaben gemeinsam auf einem Whiteboard, das jeder im Raum live sehen und bearbeiten kann." },
+        { "title": "Mit Live-Übersetzung chatten", "body": "Schreiben Sie Nachrichten in Ihrer eigenen Sprache — alle anderen lesen sie sofort übersetzt in ihrer eigenen." }
       ],
+      "ctaBand1": {
+        "title": "Bereit für grenzüberschreitende Zusammenarbeit?",
+        "body": "Erstellen Sie Ihr kostenloses Konto und starten Sie Ihren ersten Raum in wenigen Minuten.",
+        "cta": "Kostenlos starten — 100 Nachrichten"
+      },
       "useCasesLabel": "Für wen es gedacht ist",
-      "useCasesTitle": "Konzipiert für verschiedene Arten von Sitzungen",
+      "useCasesTitle": "Konzipiert für grenzüberschreitende Zusammenarbeit",
       "useCases": [
-        { "title": "Angehende Unternehmer", "body": "Erste Gespräche, bevor Sie sich auf ein vollständiges Beratungsmandat festlegen." },
-        { "title": "Mandanten mit laufendem Mandat", "body": "Live-Follow-ups mit Ihrem Beratungs- oder IT-Team zwischen den geplanten Terminen." },
-        { "title": "Peer-Lerngruppen", "body": "Strukturierte Sitzungen mit anderen Mitgliedern, die ähnliche Relocation- oder Unternehmenswege durchlaufen." },
-        { "title": "Grenzüberschreitende Fragerunden", "body": "Offene Sitzungen, in denen Mitglieder aus verschiedenen Ländern und mit verschiedenen Sprachen gemeinsam Fragen stellen können." }
+        { "title": "Prüfungsvorbereitung", "body": "Eine schwedischsprachige Studentin und ein urdusprachiger Kommilitone lernen am Abend vor der Prüfung gemeinsam — der Chat wird sofort in beide Richtungen übersetzt." },
+        { "title": "Nachhilfe", "body": "Ein englischsprachiger Tutor begleitet einen deutschsprachigen Studenten am gemeinsamen Whiteboard durch eine Aufgabenreihe." },
+        { "title": "Forschungsgruppen", "body": "Polnisch- und arabischsprachige Forschende vergleichen Notizen in einem Raum, jeder liest und schreibt in seiner eigenen Sprache." },
+        { "title": "Grenzüberschreitende Projektteams", "body": "Ein niederländischer Projektleiter und ein pakistanischer Entwickler koordinieren einen Sprint, Whiteboard und Chat beide live geteilt." }
       ],
-      "plansLabel": "Abonnementpläne",
-      "plansTitle": "Wählen Sie Ihre Zugangsstufe",
-      "plansSub": "Abonnements werden über das Mitgliederportal verwaltet und vor der Aktivierung von unserem Team geprüft.",
+      "plansLabel": "Preise",
+      "plansTitle": "Kostenlos starten. Bei Bedarf upgraden.",
+      "plansSub": "Jeder Plan umfasst vollen Zugriff auf Räume und gemeinsame Whiteboards — die Pläne unterscheiden sich nur im monatlichen Nachrichtenkontingent.",
+      "freePlan": { "name": "Kostenlos", "price": "0", "period": "dauerhaft", "features": ["100 Nachrichten inklusive", "Voller Zugriff auf Räume & Whiteboards", "Keine Kreditkarte nötig"] },
       "plans": [
         { "name": "Basic", "price": "29", "period": "/ Monat", "features": ["100 Nachrichten / Monat", "2 Stunden Live-Sitzungen / Monat", "Zugriff auf den Dokumententresor", "Fallverfolgung"], "popular": false },
         { "name": "Pro", "price": "79", "period": "/ Monat", "features": ["500 Nachrichten / Monat", "10 Stunden Live-Sitzungen / Monat", "Prioritäts-Support", "Alle Basic-Funktionen"], "popular": true }
       ],
       "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
-      "cta": { "title": "Registrieren", "body": "Erstellen Sie Ihr Konto im Mitgliederportal, um einen Plan zu wählen und Räumen beizutreten." }
+      "limitNote": "Räume und Whiteboards bleiben auch nach Ihren 100 kostenlosen Nachrichten zugänglich — für weitere übersetzte Chatnachrichten ist ein kostenpflichtiger Plan erforderlich.",
+      "faqLabel": "Häufige Fragen",
+      "faqTitle": "Häufige Fragen",
+      "faq": [
+        { "q": "Was zählt als Nachricht?", "a": "Jede Chatnachricht, die Sie in einem Raum oder im 1:1-Messaging senden, zählt zu Ihrem monatlichen Kontingent. Die Übersetzung für andere Teilnehmende kostet keine zusätzlichen Nachrichten." },
+        { "q": "Was passiert, wenn meine kostenlosen Nachrichten aufgebraucht sind?", "a": "Ihre Räume, Whiteboards und Ihr Nachrichtenverlauf bleiben vollständig zugänglich. Für weitere übersetzte Chatnachrichten ist ein Upgrade auf einen kostenpflichtigen Plan erforderlich." },
+        { "q": "Welche Sprachen werden unterstützt?", "a": "Volle Oberflächenunterstützung für Englisch, Schwedisch, Deutsch, Französisch, Spanisch, Italienisch, Polnisch, Niederländisch, Portugiesisch, Urdu und Arabisch, mit Chatübersetzung auch in weitere Sprachen." },
+        { "q": "Sind meine Daten privat?", "a": "Ja — Nachrichten und Dokumente werden gemäß unserer DSGVO-konformen Datenschutzerklärung behandelt, die genau festlegt, was wir erheben und warum." }
+      ],
+      "emailCapture": { "title": "Noch nicht bereit?", "body": "Lassen Sie sich benachrichtigen, wenn neue Sprachen verfügbar sind.", "placeholder": "Ihre E-Mail-Adresse", "button": "Benachrichtigen" },
+      "stickyBar": { "text": "Ihre ersten 100 Nachrichten sind kostenlos", "cta": "Kostenlos starten" },
+      "cta": { "title": "Beginnen Sie noch heute", "body": "Erstellen Sie Ihr kostenloses Konto — keine Kreditkarte nötig — und treten Sie in wenigen Minuten Ihrem ersten Raum bei.", "trustLine": "Keine Kreditkarte nötig · Jederzeit kündbar · DSGVO-konform" }
     },
     "portal": {
       "hero": { "label": "Kundenzugang", "h1": "Mitgliederportal", "body": "Sicherer Zugang für registrierte Mandantinnen und Mandanten von Nordic Riser AB zur Verwaltung ihres Mandats, ihrer Dokumente und ihrer Kommunikation." },

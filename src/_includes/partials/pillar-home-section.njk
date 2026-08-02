@@ -1,5 +1,6 @@
 {%- set t = locales[locale] -%}
 {%- set p = t.pages.home.pillars -%}
+{% import "partials/icons.njk" as icons %}
 <section class="section pillars-section">
   <div class="section-inner" data-animate>
     <span class="section-label">{{ p.label }}</span>
@@ -7,7 +8,7 @@
     <p class="section-sub">{{ p.sub }}</p>
     <div class="pillars-grid">
       <a href="{{ 'consulting' | localeUrl(locale) }}" class="pillar-card pillar-card-consulting">
-        <div class="pillar-card-icon">{{ p.consulting.icon }}</div>
+        <div class="pillar-card-icon">{{ icons.icon(p.consulting.icon) }}</div>
         <h3>{{ p.consulting.title }}</h3>
         <p class="pillar-card-promise">{{ p.consulting.promise }}</p>
         <ul class="pillar-card-bullets">
@@ -18,7 +19,7 @@
         <span class="pillar-card-link">{{ p.learnMore }}</span>
       </a>
       <a href="{{ 'it-services' | localeUrl(locale) }}" class="pillar-card pillar-card-it">
-        <div class="pillar-card-icon">{{ p.itServices.icon }}</div>
+        <div class="pillar-card-icon">{{ icons.icon(p.itServices.icon) }}</div>
         <h3>{{ p.itServices.title }}</h3>
         <p class="pillar-card-promise">{{ p.itServices.promise }}</p>
         <ul class="pillar-card-bullets">
@@ -28,8 +29,9 @@
         </ul>
         <span class="pillar-card-link">{{ p.learnMore }}</span>
       </a>
-      <a href="{{ 'global-reach' | localeUrl(locale) }}" class="pillar-card pillar-card-global">
-        <div class="pillar-card-icon">{{ p.globalReach.icon }}</div>
+      <a href="{{ 'global-reach' | localeUrl(locale) }}" class="pillar-card pillar-card-global pillar-card-featured">
+        <span class="pillar-card-badge">{{ p.globalReach.badge }}</span>
+        <div class="pillar-card-icon">{{ icons.icon(p.globalReach.icon) }}</div>
         <h3>{{ p.globalReach.title }}</h3>
         <p class="pillar-card-promise">{{ p.globalReach.promise }}</p>
         <ul class="pillar-card-bullets">
@@ -37,7 +39,7 @@
           <li>{{ b }}</li>
           {%- endfor %}
         </ul>
-        <span class="pillar-card-link">{{ p.learnMore }}</span>
+        <span class="pillar-card-link pillar-card-link-strong">{{ p.globalReach.cta }}</span>
       </a>
     </div>
   </div>
