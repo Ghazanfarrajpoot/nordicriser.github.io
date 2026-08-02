@@ -1,11 +1,12 @@
 {%- set t = locales[locale] -%}
+{%- set lsId = "langSwitch-" + (lsVariant | default("default")) -%}
 {% import "partials/icons.njk" as icons %}
-<div class="nr-lang-switch" id="langSwitch">
-  <button type="button" class="nr-lang-btn" onclick="toggleLangMenu()" aria-haspopup="true" aria-expanded="false" aria-label="{{ t.nav.languageLabel }}">
+<div class="nr-lang-switch" id="{{ lsId }}">
+  <button type="button" class="nr-lang-btn" onclick="toggleLangMenu(this)" aria-haspopup="true" aria-expanded="false" aria-controls="{{ lsId }}-menu" aria-label="{{ t.nav.languageLabel }}">
     <span class="nr-lang-globe" aria-hidden="true">{{ icons.icon('globe') }}</span>
     <span class="nr-lang-code">{{ locale | upper }}</span>
   </button>
-  <ul class="nr-lang-menu" id="langMenu">
+  <ul class="nr-lang-menu" id="{{ lsId }}-menu">
     {%- for l in site.locales %}
     <li><a href="{{ pageSlug | localeUrl(l.code) }}" data-lang="{{ l.code }}"{% if l.code == locale %} class="current"{% endif %}>{{ l.name }}</a></li>
     {%- endfor %}

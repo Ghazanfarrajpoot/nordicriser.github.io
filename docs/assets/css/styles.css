@@ -783,9 +783,10 @@ img { display: block; max-width: 100%; }
   .nr-lang-mobile { display: block; padding: 0.9rem 1.5rem; }
   .nr-lang-mobile .nr-lang-switch { position: static; }
   .nr-lang-mobile .nr-lang-menu {
-    position: static; display: block; box-shadow: none; border: none;
+    position: static; box-shadow: none; border: none;
     background: rgba(0, 35, 75, 0.04); margin-top: 0.6rem; max-height: none;
   }
+  .nr-lang-mobile .nr-lang-menu.open { display: block; }
   .nr-lang-mobile .nr-lang-btn { width: 100%; justify-content: space-between; }
 
   .section       { padding: 4rem 1.25rem; }

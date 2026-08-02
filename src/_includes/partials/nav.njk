@@ -18,9 +18,9 @@
       <li><a href="{{ 'global-reach' | localeUrl(locale) }}"{% if pageKey == 'globalReach' %} class="active"{% endif %}>{{ t.nav.globalReach }}</a></li>
       <li><a href="{{ 'about' | localeUrl(locale) }}"{% if pageKey == 'about' %} class="active"{% endif %}>{{ t.nav.about }}</a></li>
       <li><a href="{{ 'contact' | localeUrl(locale) }}"{% if pageKey == 'contact' %} class="active"{% endif %}>{{ t.nav.contact }}</a></li>
-      <li class="nr-lang-mobile">{% include "partials/language-switcher.njk" %}</li>
+      <li class="nr-lang-mobile">{%- set lsVariant = "mobile" -%}{% include "partials/language-switcher.njk" %}</li>
       <li><a href="https://portal.nordicriser.com" class="btn-login">{{ t.nav.memberLogin }}</a></li>
     </ul>
-    <div class="nr-lang-desktop">{% include "partials/language-switcher.njk" %}</div>
+    <div class="nr-lang-desktop">{%- set lsVariant = "desktop" -%}{% include "partials/language-switcher.njk" %}</div>
   </div>
 </nav>

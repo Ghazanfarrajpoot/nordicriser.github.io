@@ -1,9 +1,17 @@
-function toggleLangMenu() {
-  const menu = document.getElementById('langMenu');
-  const btn = document.querySelector('.nr-lang-btn');
+function toggleLangMenu(btn) {
+  const switchEl = btn.closest('.nr-lang-switch');
+  const menu = switchEl && switchEl.querySelector('.nr-lang-menu');
   if (!menu) return;
+  // Two switcher instances exist per page (desktop/mobile); close the other
+  // one in case it was left open from before a viewport resize.
+  document.querySelectorAll('.nr-lang-menu.open').forEach(m => {
+    if (m !== menu) m.classList.remove('open');
+  });
+  document.querySelectorAll('.nr-lang-btn[aria-expanded="true"]').forEach(b => {
+    if (b !== btn) b.setAttribute('aria-expanded', 'false');
+  });
   const isOpen = menu.classList.toggle('open');
-  if (btn) btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
 }
 
 document.addEventListener('click', function (e) {
