@@ -14,6 +14,7 @@ pageSlug: contact
 {%- set t = locales[locale] -%}
 {%- set p = t.pages.contact -%}
 {%- set f = p.form -%}
+{% import "partials/icons.njk" as icons %}
 
 <section class="page-hero">
   <div class="page-hero-inner" data-animate>
@@ -93,14 +94,14 @@ pageSlug: contact
         <h3>{{ p.sidebar.directContactHeading }}</h3>
         <div class="contact-detail">
           <div class="contact-detail-item">
-            <div class="detail-icon">✉</div>
+            <div class="detail-icon">{{ icons.icon('mail') }}</div>
             <div class="detail-text">
               <span>{{ t.common.emailLabel }}</span>
               <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
             </div>
           </div>
           <div class="contact-detail-item">
-            <div class="detail-icon">🕐</div>
+            <div class="detail-icon">{{ icons.icon('clock') }}</div>
             <div class="detail-text">
               <span>{{ p.sidebar.hoursLabel }}</span>
               <p>{{ p.sidebar.hoursValue }}</p>
@@ -125,7 +126,7 @@ pageSlug: contact
       </div>
 
       <div class="response-note">
-        <div class="note-icon">📋</div>
+        <div class="note-icon">{{ icons.icon('clipboard') }}</div>
         <div>
           <strong>{{ p.sidebar.noteHeading }}</strong>
           <p>{{ p.sidebar.noteBody }}</p>

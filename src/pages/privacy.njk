@@ -14,6 +14,7 @@ pageSlug: privacy
 {%- set t = locales[locale] -%}
 {%- set p = t.pages.privacy -%}
 {%- set s = p.sections -%}
+{% import "partials/icons.njk" as icons %}
 
 <section class="page-hero">
   <div class="page-hero-inner" data-animate>
@@ -45,7 +46,7 @@ pageSlug: privacy
   </aside>
 
   <div class="doc-body">
-    <div class="updated-badge">{{ p.updatedBadge }}</div>
+    <div class="updated-badge">{{ icons.icon('calendar') }} {{ p.updatedBadge }}</div>
 
     <div class="doc-section" id="s1">
       <h2><span class="sec-num">1</span> {{ s.s1.title }}</h2>

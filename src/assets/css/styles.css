@@ -230,7 +230,8 @@ img { display: block; max-width: 100%; }
   transition: border-color 0.2s, background 0.2s;
 }
 .nr-lang-btn:hover { border-color: var(--gold); background: rgba(201,169,110,0.08); }
-.nr-lang-globe { font-size: 0.95rem; line-height: 1; }
+.nr-lang-globe { display: inline-flex; line-height: 1; }
+.nr-lang-globe svg { width: 15px; height: 15px; }
 
 .nr-lang-menu {
   display: none;

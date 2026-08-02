@@ -1,7 +1,8 @@
 {%- set t = locales[locale] -%}
+{% import "partials/icons.njk" as icons %}
 <div class="nr-lang-switch" id="langSwitch">
   <button type="button" class="nr-lang-btn" onclick="toggleLangMenu()" aria-haspopup="true" aria-expanded="false" aria-label="{{ t.nav.languageLabel }}">
-    <span class="nr-lang-globe" aria-hidden="true">🌐</span>
+    <span class="nr-lang-globe" aria-hidden="true">{{ icons.icon('globe') }}</span>
     <span class="nr-lang-code">{{ locale | upper }}</span>
   </button>
   <ul class="nr-lang-menu" id="langMenu">
