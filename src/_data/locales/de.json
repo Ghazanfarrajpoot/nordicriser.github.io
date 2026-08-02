@@ -192,14 +192,15 @@
       }
     },
     "about": {
-      "hero": { "label": "Über die Gesellschaft", "h1": "Eine internationale Beratungsgesellschaft, aufgebaut auf Strategie und Compliance", "body": "Wir unterstützen Unternehmerinnen, Unternehmer und Fachkräfte dabei, rechtlich strukturierte, nachhaltige Geschäftstätigkeiten in Europa aufzubauen — mit einem methodischen, compliance-orientierten Ansatz." },
+      "hero": { "label": "Über die Gesellschaft", "h1": "Ein Unternehmen, drei Geschäftsbereiche — aufgebaut auf Strategie und Compliance", "body": "Nordic Riser AB vereint Beratung, Technologie und globale Zusammenarbeit unter einem Dach — und unterstützt internationale Unternehmerinnen, Unternehmer und Fachkräfte dabei, eine strukturierte, rechtskonforme Präsenz in Europa aufzubauen und sich grenzüberschreitend zu vernetzen." },
       "breadcrumb": "Über uns",
       "whoWeAre": {
         "label": "Wer wir sind",
-        "title": "Eine professionelle Beratungspraxis für internationale Unternehmen",
-        "intro1": "Nordic Riser AB ist eine international tätige Beratungsgesellschaft, spezialisiert auf strategische Geschäftsansiedlung und strukturierte berufliche Relocation in Europa. Wir arbeiten mit Unternehmerinnen und Unternehmern, selbstständigen Fachkräften und Geschäftsinhabern zusammen, die eine glaubwürdige, rechtskonforme Präsenz in europäischen Märkten aufbauen.",
-        "intro2": "Unsere Tätigkeit ist beratender Natur. Wir bieten keine Rechtsvertretung oder Einwanderungsdienstleistungen an. Stattdessen bieten wir strukturierte strategische Beratung — kombiniert mit der Koordination qualifizierter Fachleute aus den Bereichen Recht, Steuern und Regulierung —, um sicherzustellen, dass jeder Prozess unserer Mandanten auf soliden, belastbaren Grundlagen aufgebaut ist.",
-        "mission": "„Strategische Beratungsleistungen anzubieten, die internationalen Unternehmerinnen und Unternehmern helfen, rechtlich strukturierte und nachhaltige Geschäftstätigkeiten in Europa aufzubauen.“"
+        "title": "Ein professionelles Unternehmen für internationale Geschäftstätigkeit",
+        "intro1": "Nordic Riser AB ist ein international tätiges Unternehmen mit drei Geschäftsbereichen: strategische Geschäftsansiedlung und strukturierte berufliche Relocation in Europa (Beratung), die Webplattformen und Portale, die diese Unternehmen antreiben (IT-Dienstleistungen), sowie live, grenzüberschreitende Kollaborationsräume mit Echtzeitübersetzung (Global Reach). Eine Marke, ein Team, drei Wege, wie wir Unternehmerinnen, Unternehmern und Fachkräften helfen, international aufzubauen und zu wachsen.",
+        "intro2": "Unsere Beratungstätigkeit ist beratender Natur. Wir bieten keine Rechtsvertretung oder Einwanderungsdienstleistungen an. Stattdessen bieten wir strukturierte strategische Beratung — kombiniert mit der Koordination qualifizierter Fachleute aus den Bereichen Recht, Steuern und Regulierung —, um sicherzustellen, dass jeder Prozess unserer Mandanten auf soliden, belastbaren Grundlagen aufgebaut ist.",
+        "mission": "„Internationalen Unternehmerinnen, Unternehmern und Fachkräften zu helfen, in Europa aufzubauen und zu wachsen — durch strukturierte Beratung, die Technologie, die ihre Unternehmen antreibt, und direkte grenzüberschreitende Zusammenarbeit.“",
+        "flagshipNote": "Die folgenden Abschnitte konzentrieren sich auf unseren Vorzeigebereich Beratung — unseren ursprünglichen und am längsten etablierten Geschäftsbereich. Mehr zu IT-Dienstleistungen und Global Reach finden Sie auf deren eigenen Seiten."
       },
       "whyWeExist": {
         "label": "Warum es uns gibt",
@@ -244,7 +245,7 @@
           { "icon": "ruler", "title": "Maßgeschneiderte Beratung", "body": "Wir wenden keine Vorlagenlösungen an. Jedes Mandat wird individuell bewertet, und die Strategie wird speziell auf die Umstände und Ziele der Mandantin oder des Mandanten zugeschnitten." }
         ]
       },
-      "missionBlock": { "label": "Unsere Mission", "missionLabel": "Leitbild", "statement": "Strategische Beratungsleistungen anzubieten, die internationalen Unternehmerinnen, Unternehmern und Fachkräften helfen, rechtlich strukturierte, konforme und nachhaltige Geschäftstätigkeiten in Europa aufzubauen — unterstützt durch professionelle Beratung, dokumentierte Prozesse und langfristiges strategisches Denken." },
+      "missionBlock": { "label": "Unsere Mission", "missionLabel": "Leitbild", "statement": "Internationalen Unternehmerinnen, Unternehmern und Fachkräften zu helfen, in Europa und darüber hinaus aufzubauen und zu wachsen — durch strukturierte Beratung, die Technologie, die ihre Unternehmen antreibt, und direkte grenzüberschreitende Zusammenarbeit — unterstützt durch professionelle Beratung, dokumentierte Prozesse und langfristiges strategisches Denken." },
       "cta": { "title": "Sprechen Sie mit einem Berater", "body": "Wenn Sie erwägen, eine Geschäftspräsenz in Europa aufzubauen, laden wir Sie zu einem Erstgespräch ein. Wir bewerten Ihre Situation und geben Ihnen einen strukturierten Überblick über den weiteren Weg." }
     },
     "contact": {

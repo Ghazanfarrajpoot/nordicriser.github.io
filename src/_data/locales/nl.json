@@ -192,14 +192,15 @@
       }
     },
     "about": {
-      "hero": { "label": "Over het Kantoor", "h1": "Een Internationaal Adviesbureau Gebouwd op Strategie en Compliance", "body": "Wij helpen ondernemers en professionals bij het opzetten van juridisch gestructureerde, duurzame bedrijfsactiviteiten in Europa — via een methodische, compliance-first aanpak." },
+      "hero": { "label": "Over het Kantoor", "h1": "Eén Bedrijf, Drie Divisies — Gebouwd op Strategie en Compliance", "body": "Nordic Riser AB brengt consulting, technologie en wereldwijde samenwerking samen onder één dak — en helpt internationale ondernemers en professionals een gestructureerde, compliant aanwezigheid in Europa op te bouwen en grensoverschrijdend contact te leggen." },
       "breadcrumb": "Over Ons",
       "whoWeAre": {
         "label": "Wie Wij Zijn",
-        "title": "Een Professionele Adviespraktijk voor Internationale Bedrijven",
-        "intro1": "Nordic Riser AB is een internationaal adviesbureau gespecialiseerd in strategische bedrijfsvestiging en gestructureerde professionele relocatie in Europa. Wij werken met ondernemers, zelfstandige professionals en bedrijfseigenaren die een geloofwaardige, juridisch conforme aanwezigheid op de Europese markt opbouwen.",
-        "intro2": "Ons werk is adviserend van aard. Wij bieden geen juridische vertegenwoordiging of immigratiediensten. In plaats daarvan bieden wij gestructureerd strategisch advies — gecombineerd met de coördinatie van gekwalificeerde professionals op juridisch, boekhoudkundig en regelgevend gebied — om ervoor te zorgen dat elk proces van onze klanten op een solide, verdedigbare basis rust.",
-        "mission": "„Het leveren van strategische adviesdiensten die internationale ondernemers helpen bij het opzetten van juridisch gestructureerde en duurzame bedrijfsactiviteiten in Europa.”"
+        "title": "Een Professioneel Bedrijf voor Internationale Bedrijfsvoering",
+        "intro1": "Nordic Riser AB is een internationaal bedrijf opgebouwd rond drie divisies: strategische bedrijfsvestiging en gestructureerde professionele relocatie in Europa (Consulting), de webplatforms en portalen die deze bedrijven draaiende houden (IT-diensten), en live, grensoverschrijdende samenwerkingsruimtes met realtime vertaling (Global Reach). Eén merk, één team, drie manieren waarop wij ondernemers en professionals helpen internationaal te groeien.",
+        "intro2": "Ons consultingwerk is adviserend van aard. Wij bieden geen juridische vertegenwoordiging of immigratiediensten. In plaats daarvan bieden wij gestructureerd strategisch advies — gecombineerd met de coördinatie van gekwalificeerde professionals op juridisch, boekhoudkundig en regelgevend gebied — om ervoor te zorgen dat elk proces van onze klanten op een solide, verdedigbare basis rust.",
+        "mission": "„Internationale ondernemers en professionals helpen groeien in Europa — via gestructureerde consulting, de technologie die hun bedrijven draaiende houdt, en directe grensoverschrijdende samenwerking.”",
+        "flagshipNote": "De onderstaande secties richten zich op onze vlaggenschipdivisie Consulting — onze oorspronkelijke en meest gevestigde divisie. Lees meer over IT-diensten en Global Reach op hun eigen pagina's."
       },
       "whyWeExist": {
         "label": "Waarom Wij Zijn Opgericht",
@@ -244,7 +245,7 @@
           { "icon": "ruler", "title": "Advies op Maat", "body": "Wij passen geen kant-en-klare oplossingen toe. Elk traject wordt individueel beoordeeld en de strategie wordt ontwikkeld op basis van de specifieke omstandigheden en doelstellingen van de klant." }
         ]
       },
-      "missionBlock": { "label": "Onze Missie", "missionLabel": "Missieverklaring", "statement": "Het leveren van strategische adviesdiensten die internationale ondernemers en professionals helpen bij het opzetten van juridisch gestructureerde, compliant en duurzame bedrijfsactiviteiten in Europa — ondersteund door professionele begeleiding, gedocumenteerde processen en langetermijnstrategisch denken." },
+      "missionBlock": { "label": "Onze Missie", "missionLabel": "Missieverklaring", "statement": "Internationale ondernemers en professionals helpen groeien in Europa en daarbuiten — via gestructureerde consulting, de technologie die hun bedrijven draaiende houdt, en directe, grensoverschrijdende samenwerking — ondersteund door professionele begeleiding, gedocumenteerde processen en langetermijnstrategisch denken." },
       "cta": { "title": "Spreek met een Consultant", "body": "Als u overweegt een bedrijfsaanwezigheid in Europa op te zetten, nodigen wij u uit voor een eerste consult. Wij beoordelen uw situatie en bieden een gestructureerd overzicht van het traject dat voor u ligt." }
     },
     "contact": {

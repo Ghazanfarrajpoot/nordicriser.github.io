@@ -192,14 +192,15 @@
       }
     },
     "about": {
-      "hero": { "label": "Chi Siamo", "h1": "Uno Studio di Consulenza Internazionale Fondato su Strategia e Conformità", "body": "Aiutiamo imprenditori e professionisti a costituire operazioni d'impresa legalmente strutturate e sostenibili in Europa — attraverso un approccio metodico incentrato sulla conformità normativa." },
+      "hero": { "label": "Chi Siamo", "h1": "Un'Azienda, Tre Divisioni — Fondate su Strategia e Conformità", "body": "Nordic Riser AB riunisce consulenza, tecnologia e collaborazione globale sotto lo stesso tetto — aiutando imprenditori e professionisti internazionali a costruire una presenza strutturata e conforme in Europa e a connettersi oltre confine." },
       "breadcrumb": "Chi Siamo",
       "whoWeAre": {
         "label": "Chi Siamo",
-        "title": "Uno Studio di Consulenza Professionale per il Business Internazionale",
-        "intro1": "Nordic Riser AB è uno studio di consulenza internazionale specializzato nella costituzione strategica d'impresa e nel trasferimento professionale strutturato in Europa. Lavoriamo con imprenditori, professionisti indipendenti e titolari d'impresa impegnati a costruire una presenza credibile e legalmente conforme nei mercati europei.",
-        "intro2": "Il nostro lavoro ha natura consulenziale. Non forniamo rappresentanza legale né servizi di immigrazione. Offriamo invece una guida strategica strutturata — unita al coordinamento di professionisti qualificati in ambito legale, contabile e regolamentare — per garantire che ogni processo intrapreso dai nostri clienti poggi su basi solide e difendibili.",
-        "mission": "«Fornire servizi di consulenza strategica che aiutino gli imprenditori internazionali a costituire operazioni d'impresa legalmente strutturate e sostenibili in Europa.»"
+        "title": "Un'Azienda Professionale al Servizio del Business Internazionale",
+        "intro1": "Nordic Riser AB è un'azienda internazionale organizzata in tre divisioni: la costituzione strategica d'impresa e il trasferimento professionale strutturato in Europa (Consulenza), le piattaforme web e i portali che fanno funzionare quelle imprese (Servizi IT), e stanze di collaborazione transfrontaliere dal vivo con traduzione in tempo reale (Global Reach). Un unico marchio, un unico team, tre modi per aiutare imprenditori e professionisti a crescere a livello internazionale.",
+        "intro2": "Il nostro lavoro di consulenza ha natura consulenziale. Non forniamo rappresentanza legale né servizi di immigrazione. Offriamo invece una guida strategica strutturata — unita al coordinamento di professionisti qualificati in ambito legale, contabile e regolamentare — per garantire che ogni processo intrapreso dai nostri clienti poggi su basi solide e difendibili.",
+        "mission": "«Aiutare imprenditori e professionisti internazionali a crescere in Europa — attraverso una consulenza strutturata, la tecnologia che fa funzionare le loro imprese, e una collaborazione diretta oltre confine.»",
+        "flagshipNote": "Le sezioni seguenti sono dedicate alla nostra divisione di punta, la Consulenza — la nostra divisione originaria e più consolidata. Scopri di più su Servizi IT e Global Reach nelle loro pagine dedicate."
       },
       "whyWeExist": {
         "label": "Perché Siamo Nati",
@@ -244,7 +245,7 @@
           { "icon": "ruler", "title": "Consulenza su Misura", "body": "Non applichiamo soluzioni predefinite. Ogni incarico è valutato individualmente e la strategia viene sviluppata in base alle circostanze e agli obiettivi specifici del cliente." }
         ]
       },
-      "missionBlock": { "label": "La Nostra Missione", "missionLabel": "Dichiarazione di Missione", "statement": "Fornire servizi di consulenza strategica che aiutino imprenditori e professionisti internazionali a costituire operazioni d'impresa legalmente strutturate, conformi e sostenibili in Europa — supportate da guida professionale, processi documentati e pensiero strategico di lungo periodo." },
+      "missionBlock": { "label": "La Nostra Missione", "missionLabel": "Dichiarazione di Missione", "statement": "Aiutare imprenditori e professionisti internazionali a crescere in Europa e oltre — attraverso una consulenza strutturata, la tecnologia che fa funzionare le loro imprese, e una collaborazione diretta e transfrontaliera — supportata da guida professionale, processi documentati e pensiero strategico di lungo periodo." },
       "cta": { "title": "Parla con un Consulente", "body": "Se stai valutando di costituire una presenza d'impresa in Europa, ti invitiamo a fissare una consulenza iniziale. Valuteremo la tua situazione e forniremo una panoramica strutturata del percorso da seguire." }
     },
     "contact": {

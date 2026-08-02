@@ -192,14 +192,15 @@
       }
     },
     "about": {
-      "hero": { "label": "À propos du cabinet", "h1": "Un cabinet de conseil international fondé sur la stratégie et la conformité", "body": "Nous aidons les entrepreneurs et professionnels à établir des activités commerciales structurées, légales et durables en Europe — grâce à une approche méthodique, axée avant tout sur la conformité." },
+      "hero": { "label": "À propos du cabinet", "h1": "Une entreprise, trois divisions — fondées sur la stratégie et la conformité", "body": "Nordic Riser AB réunit conseil, technologie et collaboration mondiale sous un même toit — aidant les entrepreneurs et professionnels internationaux à construire une présence structurée et conforme en Europe et à se connecter au-delà des frontières." },
       "breadcrumb": "À propos de nous",
       "whoWeAre": {
         "label": "Qui nous sommes",
-        "title": "Un cabinet de conseil professionnel pour les entreprises internationales",
-        "intro1": "Nordic Riser AB est un cabinet de conseil international spécialisé dans l'établissement stratégique d'entreprises et la relocalisation professionnelle structurée en Europe. Nous travaillons avec des entrepreneurs, des professionnels indépendants et des chefs d'entreprise qui construisent une présence crédible et légalement conforme sur les marchés européens.",
-        "intro2": "Notre mission est de nature consultative. Nous n'assurons ni représentation juridique ni services d'immigration. Nous proposons un accompagnement stratégique structuré — associé à la coordination de professionnels qualifiés dans les domaines juridique, comptable et réglementaire — afin de garantir que chaque démarche entreprise par nos clients repose sur des fondations solides et défendables.",
-        "mission": "« Fournir des services de conseil stratégique qui aident les entrepreneurs internationaux à établir des activités commerciales structurées et durables en Europe, en toute conformité légale. »"
+        "title": "Une entreprise professionnelle au service des activités internationales",
+        "intro1": "Nordic Riser AB est une entreprise internationale organisée autour de trois divisions : l'établissement stratégique d'entreprises et la relocalisation professionnelle structurée en Europe (Conseil), les plateformes web et portails qui font fonctionner ces entreprises (Services informatiques), et des salons de collaboration transfrontaliers en direct avec traduction en temps réel (Global Reach). Une marque, une équipe, trois façons d'aider les entrepreneurs et professionnels à se développer à l'international.",
+        "intro2": "Notre activité de conseil est de nature consultative. Nous n'assurons ni représentation juridique ni services d'immigration. Nous proposons un accompagnement stratégique structuré — associé à la coordination de professionnels qualifiés dans les domaines juridique, comptable et réglementaire — afin de garantir que chaque démarche entreprise par nos clients repose sur des fondations solides et défendables.",
+        "mission": "« Aider les entrepreneurs et professionnels internationaux à se développer en Europe — grâce à un conseil structuré, à la technologie qui fait fonctionner leurs entreprises, et à une collaboration directe au-delà des frontières. »",
+        "flagshipNote": "Les sections ci-dessous se concentrent sur notre division phare, le Conseil — notre division d'origine et la plus établie. Découvrez les Services informatiques et Global Reach sur leurs propres pages."
       },
       "whyWeExist": {
         "label": "Pourquoi nous avons été créés",
@@ -244,7 +245,7 @@
           { "icon": "ruler", "title": "Un conseil sur mesure", "body": "Nous n'appliquons pas de solutions types. Chaque mission est évaluée individuellement, et la stratégie est développée en fonction de la situation et des objectifs propres au client." }
         ]
       },
-      "missionBlock": { "label": "Notre mission", "missionLabel": "Énoncé de mission", "statement": "Fournir des services de conseil stratégique qui aident les entrepreneurs et professionnels internationaux à établir des activités commerciales structurées, conformes et durables en Europe — soutenues par un accompagnement professionnel, des processus documentés et une réflexion stratégique à long terme." },
+      "missionBlock": { "label": "Notre mission", "missionLabel": "Énoncé de mission", "statement": "Aider les entrepreneurs et professionnels internationaux à se développer en Europe et au-delà — grâce à un conseil structuré, à la technologie qui fait fonctionner leurs entreprises, et à une collaboration directe et transfrontalière — soutenue par un accompagnement professionnel, des processus documentés et une réflexion stratégique à long terme." },
       "cta": { "title": "Échangez avec un conseiller", "body": "Si vous envisagez d'établir une présence commerciale en Europe, nous vous invitons à organiser une première consultation. Nous évaluerons votre situation et vous fournirons un aperçu structuré de la voie à suivre." }
     },
     "contact": {

@@ -192,14 +192,15 @@
       }
     },
     "about": {
-      "hero": { "label": "Om företaget", "h1": "En internationell konsultbyrå byggd på strategi och regelefterlevnad", "body": "Vi hjälper entreprenörer och yrkesutövare att etablera juridiskt strukturerad, hållbar verksamhet i Europa — genom ett metodiskt arbetssätt med regelefterlevnad i fokus." },
+      "hero": { "label": "Om företaget", "h1": "Ett företag, tre divisioner — byggt på strategi och regelefterlevnad", "body": "Nordic Riser AB samlar konsultverksamhet, teknik och global samverkan under ett och samma tak — och hjälper internationella entreprenörer och yrkesutövare att bygga en strukturerad, regelefterlevande verksamhet i Europa och knyta kontakter över gränser." },
       "breadcrumb": "Om oss",
       "whoWeAre": {
         "label": "Vilka vi är",
-        "title": "En professionell konsultverksamhet för internationella företag",
-        "intro1": "Nordic Riser AB är en internationell konsultbyrå specialiserad på strategisk företagsetablering och strukturerad yrkesmässig flytt i Europa. Vi arbetar med entreprenörer, oberoende yrkesutövare och företagare som bygger upp en trovärdig, juridiskt korrekt verksamhet på europeiska marknader.",
-        "intro2": "Vårt arbete är av rådgivande karaktär. Vi tillhandahåller inte juridiskt ombud eller migrationstjänster. Istället erbjuder vi strukturerad strategisk vägledning — i kombination med samordning av kvalificerade yrkesutövare inom juridik, redovisning och andra regelverksområden — för att säkerställa att varje process våra kunder genomför vilar på en solid och försvarbar grund.",
-        "mission": "”Att erbjuda strategiska konsulttjänster som hjälper internationella entreprenörer att etablera juridiskt strukturerad och hållbar verksamhet i Europa.”"
+        "title": "Ett professionellt företag byggt för internationella verksamheter",
+        "intro1": "Nordic Riser AB är ett internationellt företag uppbyggt kring tre divisioner: strategisk företagsetablering och strukturerad yrkesmässig flytt i Europa (Konsultverksamhet), webbplattformar och portaler som driver dessa företag (IT-tjänster), samt direktsända, gränsöverskridande samarbetsrum med realtidsöversättning (Global Reach). Ett varumärke, ett team, tre sätt att hjälpa entreprenörer och yrkesutövare att bygga upp och växa internationellt.",
+        "intro2": "Vårt konsultarbete är av rådgivande karaktär. Vi tillhandahåller inte juridiskt ombud eller migrationstjänster. Istället erbjuder vi strukturerad strategisk vägledning — i kombination med samordning av kvalificerade yrkesutövare inom juridik, redovisning och andra regelverksområden — för att säkerställa att varje process våra kunder genomför vilar på en solid och försvarbar grund.",
+        "mission": "”Att hjälpa internationella entreprenörer och yrkesutövare att bygga upp och växa i Europa — genom strukturerad konsultverksamhet, tekniken som driver deras företag, och direkt samverkan över gränser.”",
+        "flagshipNote": "Avsnitten nedan fokuserar på vår flaggskeppsdivision Konsultverksamhet — vår ursprungliga och mest etablerade division. Läs mer om IT-tjänster och Global Reach på deras egna sidor."
       },
       "whyWeExist": {
         "label": "Varför vi skapades",
@@ -244,7 +245,7 @@
           { "icon": "ruler", "title": "Skräddarsydd rådgivning", "body": "Vi tillämpar inga mallösningar. Varje uppdrag bedöms individuellt, och strategin utformas specifikt utifrån kundens förhållanden och mål." }
         ]
       },
-      "missionBlock": { "label": "Vårt uppdrag", "missionLabel": "Uppdragsbeskrivning", "statement": "Att erbjuda strategiska konsulttjänster som hjälper internationella entreprenörer och yrkesutövare att etablera juridiskt strukturerad, regelefterlevande och hållbar verksamhet i Europa — med stöd av professionell vägledning, dokumenterade processer och långsiktigt strategiskt tänkande." },
+      "missionBlock": { "label": "Vårt uppdrag", "missionLabel": "Uppdragsbeskrivning", "statement": "Att hjälpa internationella entreprenörer och yrkesutövare att bygga upp och växa i Europa och bortom — genom strukturerad konsultverksamhet, tekniken som driver deras företag, och direkt gränsöverskridande samverkan — med stöd av professionell vägledning, dokumenterade processer och långsiktigt strategiskt tänkande." },
       "cta": { "title": "Prata med en konsult", "body": "Om du överväger att etablera en verksamhet i Europa bjuder vi in dig till en inledande konsultation. Vi kommer att bedöma din situation och ge dig en strukturerad översikt över vägen framåt." }
     },
     "contact": {

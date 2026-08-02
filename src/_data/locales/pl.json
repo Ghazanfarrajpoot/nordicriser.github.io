@@ -192,14 +192,15 @@
       }
     },
     "about": {
-      "hero": { "label": "O firmie", "h1": "Międzynarodowa firma doradcza zbudowana na strategii i zgodności z przepisami", "body": "Pomagamy przedsiębiorcom i profesjonalistom zakładać zgodną z prawem, trwałą działalność gospodarczą w Europie — poprzez metodyczne podejście oparte na priorytecie zgodności." },
+      "hero": { "label": "O firmie", "h1": "Jedna firma, trzy filary — zbudowane na strategii i zgodności z przepisami", "body": "Nordic Riser AB łączy doradztwo, technologię i globalną współpracę pod jednym dachem — pomagając międzynarodowym przedsiębiorcom i profesjonalistom budować ustrukturyzowaną, zgodną z prawem obecność w Europie i łączyć się ponad granicami." },
       "breadcrumb": "O nas",
       "whoWeAre": {
         "label": "Kim jesteśmy",
-        "title": "Profesjonalna praktyka doradcza dla międzynarodowego biznesu",
-        "intro1": "Nordic Riser AB to międzynarodowa firma doradcza specjalizująca się w strategicznym zakładaniu działalności gospodarczej oraz ustrukturyzowanej relokacji zawodowej w Europie. Współpracujemy z przedsiębiorcami, niezależnymi profesjonalistami oraz właścicielami firm budującymi wiarygodną, zgodną z prawem obecność na rynkach europejskich.",
-        "intro2": "Nasza praca ma charakter doradczy. Nie świadczymy usług reprezentacji prawnej ani doradztwa imigracyjnego. Oferujemy natomiast ustrukturyzowane doradztwo strategiczne — połączone z koordynacją pracy wykwalifikowanych specjalistów z zakresu prawa, księgowości i regulacji — aby zapewnić, że każdy proces realizowany przez naszych klientów opiera się na solidnych, uzasadnionych podstawach.",
-        "mission": "„Świadczenie strategicznych usług doradczych, które pomagają międzynarodowym przedsiębiorcom zakładać zgodną z prawem i trwałą działalność gospodarczą w Europie”."
+        "title": "Profesjonalna firma zbudowana dla międzynarodowego biznesu",
+        "intro1": "Nordic Riser AB to międzynarodowa firma zbudowana wokół trzech filarów: strategicznego zakładania działalności gospodarczej i ustrukturyzowanej relokacji zawodowej w Europie (Doradztwo), platform internetowych i portali napędzających te firmy (Usługi IT) oraz transgranicznych pokoi współpracy na żywo z tłumaczeniem w czasie rzeczywistym (Global Reach). Jedna marka, jeden zespół, trzy sposoby pomocy przedsiębiorcom i profesjonalistom w międzynarodowym rozwoju.",
+        "intro2": "Nasza praca doradcza ma charakter doradczy. Nie świadczymy usług reprezentacji prawnej ani doradztwa imigracyjnego. Oferujemy natomiast ustrukturyzowane doradztwo strategiczne — połączone z koordynacją pracy wykwalifikowanych specjalistów z zakresu prawa, księgowości i regulacji — aby zapewnić, że każdy proces realizowany przez naszych klientów opiera się na solidnych, uzasadnionych podstawach.",
+        "mission": "„Pomaganie międzynarodowym przedsiębiorcom i profesjonalistom w rozwoju w Europie — poprzez ustrukturyzowane doradztwo, technologię napędzającą ich firmy oraz bezpośrednią współpracę ponad granicami”.",
+        "flagshipNote": "Poniższe sekcje koncentrują się na naszym flagowym filarze Doradztwo — naszym pierwotnym i najbardziej ugruntowanym obszarze działalności. Więcej o Usługach IT i Global Reach znajdziesz na ich własnych stronach."
       },
       "whyWeExist": {
         "label": "Dlaczego powstaliśmy",
@@ -244,7 +245,7 @@
           { "icon": "ruler", "title": "Indywidualne doradztwo", "body": "Nie stosujemy gotowych rozwiązań. Każde zlecenie oceniane jest indywidualnie, a strategia opracowywana jest z uwzględnieniem konkretnych okoliczności i celów klienta." }
         ]
       },
-      "missionBlock": { "label": "Nasza misja", "missionLabel": "Deklaracja misji", "statement": "Świadczenie strategicznych usług doradczych, które pomagają międzynarodowym przedsiębiorcom i profesjonalistom zakładać zgodną z prawem, trwałą działalność gospodarczą w Europie — wspierana profesjonalnym doradztwem, udokumentowanymi procesami i długoterminowym myśleniem strategicznym." },
+      "missionBlock": { "label": "Nasza misja", "missionLabel": "Deklaracja misji", "statement": "Pomaganie międzynarodowym przedsiębiorcom i profesjonalistom w rozwoju w Europie i poza nią — poprzez ustrukturyzowane doradztwo, technologię napędzającą ich firmy oraz bezpośrednią, transgraniczną współpracę — wspierane profesjonalnym doradztwem, udokumentowanymi procesami i długoterminowym myśleniem strategicznym." },
       "cta": { "title": "Porozmawiaj z konsultantem", "body": "Jeśli rozważasz założenie działalności gospodarczej w Europie, zapraszamy do umówienia wstępnej konsultacji. Ocenimy Twoją sytuację i przedstawimy ustrukturyzowany przegląd dalszej ścieżki działania." }
     },
     "contact": {

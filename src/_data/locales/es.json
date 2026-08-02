@@ -192,14 +192,15 @@
       }
     },
     "about": {
-      "hero": { "label": "Sobre la Firma", "h1": "Una Firma de Consultoría Internacional Basada en la Estrategia y el Cumplimiento", "body": "Ayudamos a emprendedores y profesionales a establecer operaciones empresariales legalmente estructuradas y sostenibles en Europa — mediante un enfoque metódico centrado en el cumplimiento normativo." },
+      "hero": { "label": "Sobre la Firma", "h1": "Una Empresa, Tres Divisiones — Basadas en la Estrategia y el Cumplimiento", "body": "Nordic Riser AB reúne consultoría, tecnología y colaboración global bajo un mismo techo — ayudando a emprendedores y profesionales internacionales a construir una presencia estructurada y conforme en Europa y a conectarse más allá de las fronteras." },
       "breadcrumb": "Sobre Nosotros",
       "whoWeAre": {
         "label": "Quiénes Somos",
-        "title": "Una Práctica de Consultoría Profesional para Negocios Internacionales",
-        "intro1": "Nordic Riser AB es una firma de consultoría internacional especializada en el establecimiento estratégico de empresas y la reubicación profesional estructurada en Europa. Trabajamos con emprendedores, profesionales independientes y empresarios que construyen una presencia creíble y legalmente conforme en los mercados europeos.",
-        "intro2": "Nuestro trabajo es de naturaleza asesora. No prestamos representación legal ni servicios de inmigración. En cambio, ofrecemos orientación estratégica estructurada — combinada con la coordinación de profesionales cualificados en materia legal, contable y regulatoria — para garantizar que cada proceso que emprenden nuestros clientes se construya sobre bases sólidas y defendibles.",
-        "mission": "“Prestar servicios de consultoría estratégica que ayuden a emprendedores internacionales a establecer operaciones empresariales legalmente estructuradas y sostenibles en Europa.”"
+        "title": "Una Empresa Profesional al Servicio de los Negocios Internacionales",
+        "intro1": "Nordic Riser AB es una empresa internacional organizada en torno a tres divisiones: el establecimiento estratégico de empresas y la reubicación profesional estructurada en Europa (Consultoría), las plataformas web y portales que impulsan esas empresas (Servicios de TI), y salas de colaboración transfronterizas en vivo con traducción en tiempo real (Alcance Global). Una marca, un equipo, tres maneras de ayudar a emprendedores y profesionales a crecer internacionalmente.",
+        "intro2": "Nuestro trabajo de consultoría es de naturaleza asesora. No prestamos representación legal ni servicios de inmigración. En cambio, ofrecemos orientación estratégica estructurada — combinada con la coordinación de profesionales cualificados en materia legal, contable y regulatoria — para garantizar que cada proceso que emprenden nuestros clientes se construya sobre bases sólidas y defendibles.",
+        "mission": "“Ayudar a emprendedores y profesionales internacionales a crecer en Europa — mediante consultoría estructurada, la tecnología que impulsa sus negocios, y colaboración directa más allá de las fronteras.”",
+        "flagshipNote": "Las siguientes secciones se centran en nuestra división insignia, Consultoría — nuestra división original y más consolidada. Conozca más sobre Servicios de TI y Alcance Global en sus propias páginas."
       },
       "whyWeExist": {
         "label": "Por Qué Fuimos Creados",
@@ -244,7 +245,7 @@
           { "icon": "ruler", "title": "Asesoramiento a Medida", "body": "No aplicamos soluciones estándar. Cada colaboración se evalúa de forma individual, y la estrategia se desarrolla específicamente para las circunstancias y objetivos del cliente." }
         ]
       },
-      "missionBlock": { "label": "Nuestra Misión", "missionLabel": "Declaración de Misión", "statement": "Prestar servicios de consultoría estratégica que ayuden a emprendedores y profesionales internacionales a establecer operaciones empresariales legalmente estructuradas, conformes y sostenibles en Europa — respaldadas por orientación profesional, procesos documentados y una visión estratégica a largo plazo." },
+      "missionBlock": { "label": "Nuestra Misión", "missionLabel": "Declaración de Misión", "statement": "Ayudar a emprendedores y profesionales internacionales a crecer en Europa y más allá — mediante consultoría estructurada, la tecnología que impulsa sus negocios, y colaboración directa y transfronteriza — respaldada por orientación profesional, procesos documentados y una visión estratégica a largo plazo." },
       "cta": { "title": "Hable con un Consultor", "body": "Si está considerando establecer una presencia empresarial en Europa, le invitamos a concertar una consulta inicial. Evaluaremos su situación y le proporcionaremos una visión estructurada de la vía a seguir." }
     },
     "contact": {

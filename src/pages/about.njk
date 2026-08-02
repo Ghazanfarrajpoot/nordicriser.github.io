@@ -29,6 +29,8 @@ pageSlug: about
   </div>
 </div>
 
+{% include "partials/pillar-home-section.njk" %}
+
 <section class="section">
   <div class="section-inner-narrow" data-animate>
     <span class="section-label">{{ p.whoWeAre.label }}</span>
@@ -38,6 +40,7 @@ pageSlug: about
     <div class="mission-statement">
       <p>{{ p.whoWeAre.mission }}</p>
     </div>
+    <p class="flagship-note">{{ p.whoWeAre.flagshipNote }}</p>
   </div>
 </section>
 

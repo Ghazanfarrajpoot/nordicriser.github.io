@@ -192,14 +192,15 @@
       }
     },
     "about": {
-      "hero": { "label": "About the Firm", "h1": "An International Consulting Firm Built on Strategy and Compliance", "body": "We help entrepreneurs and professionals establish legally structured, sustainable business operations in Europe — through a methodical, compliance-first approach." },
+      "hero": { "label": "About the Firm", "h1": "One Company, Three Divisions — Built on Strategy and Compliance", "body": "Nordic Riser AB brings consulting, technology, and global collaboration together under one roof — helping international entrepreneurs and professionals build a structured, compliant presence in Europe and connect across borders." },
       "breadcrumb": "About Us",
       "whoWeAre": {
         "label": "Who We Are",
-        "title": "A Professional Consulting Practice for International Business",
-        "intro1": "Nordic Riser AB is an international consulting firm specialising in strategic business establishment and structured professional relocation in Europe. We work with entrepreneurs, independent professionals, and business owners who are building a credible, legally compliant presence in European markets.",
-        "intro2": "Our work is advisory in nature. We do not provide legal representation or immigration services. Instead, we offer structured strategic guidance — combined with coordination of qualified professionals across legal, accounting, and regulatory disciplines — to ensure that every process our clients undertake is built on solid, defensible foundations.",
-        "mission": "“To provide strategic consulting services that help international entrepreneurs establish legally structured and sustainable business operations in Europe.”"
+        "title": "A Professional Firm Built for International Business",
+        "intro1": "Nordic Riser AB is an international firm built around three divisions: strategic business establishment and structured professional relocation in Europe (Consulting), the web platforms and portals that power those businesses (IT Services), and live, cross-border collaboration rooms with real-time translation (Global Reach). One brand, one team, three ways we help entrepreneurs and professionals build and grow internationally.",
+        "intro2": "Our consulting work is advisory in nature. We do not provide legal representation or immigration services. Instead, we offer structured strategic guidance — combined with coordination of qualified professionals across legal, accounting, and regulatory disciplines — to ensure that every process our clients undertake is built on solid, defensible foundations.",
+        "mission": "“To help international entrepreneurs and professionals build and grow in Europe — through structured consulting, the technology that powers their businesses, and direct collaboration across borders.”",
+        "flagshipNote": "The sections below focus on our flagship Consulting practice — our original and most established division. Learn more about IT Services and Global Reach on their own pages."
       },
       "whyWeExist": {
         "label": "Why We Were Created",
@@ -244,7 +245,7 @@
           { "icon": "ruler", "title": "Tailored Advice", "body": "We do not apply template solutions. Each engagement is assessed individually, and strategy is developed specific to the client's circumstances and objectives." }
         ]
       },
-      "missionBlock": { "label": "Our Mission", "missionLabel": "Mission Statement", "statement": "To provide strategic consulting services that help international entrepreneurs and professionals establish legally structured, compliant, and sustainable business operations in Europe — supported by professional guidance, documented processes, and long-term strategic thinking." },
+      "missionBlock": { "label": "Our Mission", "missionLabel": "Mission Statement", "statement": "To help international entrepreneurs and professionals build and grow in Europe and beyond — through structured consulting, the technology that powers their businesses, and direct, cross-border collaboration — supported by professional guidance, documented processes, and long-term strategic thinking." },
       "cta": { "title": "Speak with a Consultant", "body": "If you are considering establishing a business presence in Europe, we invite you to arrange an initial consultation. We will assess your situation and provide a structured overview of the pathway ahead." }
     },
     "contact": {
