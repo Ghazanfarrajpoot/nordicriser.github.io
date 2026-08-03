@@ -100,7 +100,10 @@
         "items": [
           { "type": "SaaS Product (In-House)", "title": "Global Reach", "oneLiner": "Live collaboration rooms with shared whiteboards and chat translated in real time between languages.", "link": "global-reach" },
           { "type": "Secure Client Portal", "title": "Nordic Riser Member Portal", "oneLiner": "An authenticated portal for document exchange, case tracking, secure messaging, and payments.", "link": "work" },
-          { "type": "Multilingual Marketing Platform", "title": "nordicriser.com", "oneLiner": "An eleven-language production site with RTL support, full meta coverage, and clean per-language URLs.", "link": "work" }
+          { "type": "Multilingual Marketing Platform", "title": "nordicriser.com", "oneLiner": "An eleven-language production site with RTL support, full meta coverage, and clean per-language URLs.", "link": "work" },
+          { "type": "Healthcare App (In-House)", "title": "4eDoctor", "oneLiner": "A telemedicine platform with HD video consultations, appointment booking, and in-call chat.", "link": "work" },
+          { "type": "On-Demand Delivery App (In-House)", "title": "4eZone Pharmacy", "oneLiner": "A pharmacy fulfillment system linking doctor prescriptions to processing and delivery.", "link": "work" },
+          { "type": "Delivery App (In-House)", "title": "On-Demand Delivery App", "oneLiner": "A customizable delivery platform covering ordering, dispatch, and rider tracking for any business.", "link": "work" }
         ],
         "cta": "See All Work",
         "ctaLink": "/work/"

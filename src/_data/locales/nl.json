@@ -100,7 +100,10 @@
         "items": [
           { "type": "SaaS-product (Intern)", "title": "Global Reach", "oneLiner": "Live samenwerkingsruimtes met gedeelde whiteboards en chat die in realtime wordt vertaald tussen talen.", "link": "global-reach" },
           { "type": "Veilig Klantportaal", "title": "Nordic Riser Ledenportaal", "oneLiner": "Een geauthenticeerd portaal voor documentuitwisseling, zaakopvolging, veilige berichten en betalingen.", "link": "work" },
-          { "type": "Meertalig Marketingplatform", "title": "nordicriser.com", "oneLiner": "Een productiesite in elf talen met RTL-ondersteuning, volledige metadekking en schone URL's per taal.", "link": "work" }
+          { "type": "Meertalig Marketingplatform", "title": "nordicriser.com", "oneLiner": "Een productiesite in elf talen met RTL-ondersteuning, volledige metadekking en schone URL's per taal.", "link": "work" },
+          { "type": "Zorg-app (Intern)", "title": "4eDoctor", "oneLiner": "Een telemedicineplatform met HD-videoconsulten, afsprakenplanning en chat tijdens het gesprek.", "link": "work" },
+          { "type": "On-demand Bezorgapp (Intern)", "title": "4eZone Pharmacy", "oneLiner": "Een apotheekverwerkingssysteem dat doktersrecepten koppelt aan verwerking en bezorging.", "link": "work" },
+          { "type": "Bezorgapp (Intern)", "title": "On-Demand Delivery App", "oneLiner": "Een aanpasbaar bezorgplatform voor bestellen, dispatch en bezorgertracking, geschikt voor elk bedrijf.", "link": "work" }
         ],
         "cta": "Bekijk Al Ons Werk",
         "ctaLink": "work"

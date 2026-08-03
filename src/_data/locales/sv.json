@@ -100,7 +100,10 @@
         "items": [
           { "type": "SaaS-produkt (internt byggd)", "title": "Global Reach", "oneLiner": "Direktsända samarbetsrum med delade whiteboards och chatt som översätts i realtid mellan språk.", "link": "global-reach" },
           { "type": "Säker kundportal", "title": "Nordic Riser Medlemsportal", "oneLiner": "En autentiserad portal för dokumentutbyte, ärendespårning, säker meddelandehantering och betalningar.", "link": "work" },
-          { "type": "Flerspråkig marknadsföringsplattform", "title": "nordicriser.com", "oneLiner": "En elvaspråkig produktionswebbplats med RTL-stöd, fullständig metatäckning och rena URL:er per språk.", "link": "work" }
+          { "type": "Flerspråkig marknadsföringsplattform", "title": "nordicriser.com", "oneLiner": "En elvaspråkig produktionswebbplats med RTL-stöd, fullständig metatäckning och rena URL:er per språk.", "link": "work" },
+          { "type": "Vårdapp (internt byggd)", "title": "4eDoctor", "oneLiner": "En telemedicinplattform med HD-videokonsultationer, tidsbokning och chatt under samtal.", "link": "work" },
+          { "type": "Leveransapp on-demand (internt byggd)", "title": "4eZone Pharmacy", "oneLiner": "Ett apoteksexpedieringssystem som kopplar läkarrecept till hantering och leverans.", "link": "work" },
+          { "type": "Leveransapp (internt byggd)", "title": "On-Demand Delivery App", "oneLiner": "En anpassningsbar leveransplattform för beställning, dirigering och budspårning för alla typer av företag.", "link": "work" }
         ],
         "cta": "Se allt arbete",
         "ctaLink": "work"

@@ -100,7 +100,10 @@
         "items": [
           { "type": "Produkt SaaS (Wewnętrzny)", "title": "Global Reach", "oneLiner": "Pokoje współpracy na żywo ze wspólnymi tablicami i czatem tłumaczonym w czasie rzeczywistym między językami.", "link": "global-reach" },
           { "type": "Bezpieczny Portal Klienta", "title": "Portal Członków Nordic Riser", "oneLiner": "Uwierzytelniony portal do wymiany dokumentów, śledzenia spraw, bezpiecznej komunikacji i płatności.", "link": "work" },
-          { "type": "Wielojęzyczna Platforma Marketingowa", "title": "nordicriser.com", "oneLiner": "Jedenastojęzyczna strona produkcyjna ze wsparciem RTL, pełnym pokryciem meta i czystymi adresami URL dla każdego języka.", "link": "work" }
+          { "type": "Wielojęzyczna Platforma Marketingowa", "title": "nordicriser.com", "oneLiner": "Jedenastojęzyczna strona produkcyjna ze wsparciem RTL, pełnym pokryciem meta i czystymi adresami URL dla każdego języka.", "link": "work" },
+          { "type": "Aplikacja Zdrowotna (Wewnętrzna)", "title": "4eDoctor", "oneLiner": "Platforma telemedyczna z konsultacjami wideo w HD, rezerwacją wizyt i czatem podczas rozmowy.", "link": "work" },
+          { "type": "Aplikacja Dostawy na Żądanie (Wewnętrzna)", "title": "4eZone Pharmacy", "oneLiner": "System realizacji recept łączący recepty lekarskie z przetwarzaniem i dostawą.", "link": "work" },
+          { "type": "Aplikacja Dostawcza (Wewnętrzna)", "title": "On-Demand Delivery App", "oneLiner": "Konfigurowalna platforma dostawcza do zamawiania, dyspozycji i śledzenia kurierów dla dowolnej firmy.", "link": "work" }
         ],
         "cta": "Zobacz Wszystkie Realizacje",
         "ctaLink": "work"

@@ -100,7 +100,10 @@
         "items": [
           { "type": "Producto SaaS (Interno)", "title": "Global Reach", "oneLiner": "Salas de colaboración en vivo con pizarras compartidas y chat traducido en tiempo real entre idiomas.", "link": "global-reach" },
           { "type": "Portal de Cliente Seguro", "title": "Portal de Miembros de Nordic Riser", "oneLiner": "Un portal autenticado para el intercambio de documentos, seguimiento de casos, mensajería segura y pagos.", "link": "work" },
-          { "type": "Plataforma de Marketing Multilingüe", "title": "nordicriser.com", "oneLiner": "Un sitio de producción en once idiomas con soporte RTL, cobertura meta completa y URLs limpias por idioma.", "link": "work" }
+          { "type": "Plataforma de Marketing Multilingüe", "title": "nordicriser.com", "oneLiner": "Un sitio de producción en once idiomas con soporte RTL, cobertura meta completa y URLs limpias por idioma.", "link": "work" },
+          { "type": "Aplicación de Salud (Interna)", "title": "4eDoctor", "oneLiner": "Una plataforma de telemedicina con consultas por video en HD, reserva de citas y chat durante la llamada.", "link": "work" },
+          { "type": "Aplicación de Entrega Bajo Demanda (Interna)", "title": "4eZone Pharmacy", "oneLiner": "Un sistema de gestión farmacéutica que conecta recetas médicas con la gestión y la entrega.", "link": "work" },
+          { "type": "Aplicación de Reparto (Interna)", "title": "On-Demand Delivery App", "oneLiner": "Una plataforma de reparto personalizable para pedidos, despacho y seguimiento de repartidores, apta para cualquier negocio.", "link": "work" }
         ],
         "cta": "Ver Todo el Trabajo",
         "ctaLink": "work"
