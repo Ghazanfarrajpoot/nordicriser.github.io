@@ -653,6 +653,18 @@
           "stack": ["React", "Node.js", "MongoDB"],
           "resultLabel": "Resultat",
           "result": "Live system som kopplar recept till apoteksexpediering och leverans."
+        },
+        {
+          "type": "Leveransapp (internt byggd)",
+          "title": "On-Demand Delivery App",
+          "challengeLabel": "Utmaning",
+          "challenge": "Företag inom olika branscher behövde leverans on-demand — beställning, dirigering och realtidsspårning — utan att bygga logistikinfrastruktur från grunden.",
+          "buildLabel": "Bygge",
+          "build": "En anpassningsbar leveransplattform som täcker kundbeställning, dirigering och budspårning, anpassningsbar till olika affärsområden och tillgänglig för kunduppdrag.",
+          "stackLabel": "Teknikstack",
+          "stack": ["Flutter", "Node.js", "MongoDB"],
+          "resultLabel": "Resultat",
+          "result": "En återanvändbar leveransplattform redo att anpassas och driftsättas för kundföretag."
         }
       ],
       "note": "Det här är våra egna produkter och plattformar — byggda, lanserade och underhållna internt. Kunduppdrag kommer att presenteras här allteftersom de slutförs.",

@@ -653,6 +653,18 @@
           "stack": ["React", "Node.js", "MongoDB"],
           "resultLabel": "Resultaat",
           "result": "Live systeem dat recepten koppelt aan apotheekverwerking en bezorging."
+        },
+        {
+          "type": "Bezorgapp (Intern)",
+          "title": "On-Demand Delivery App",
+          "challengeLabel": "Uitdaging",
+          "challenge": "Bedrijven in verschillende sectoren hadden on-demand bezorging nodig — bestellen, dispatch en realtime tracking — zonder logistieke infrastructuur vanaf nul te bouwen.",
+          "buildLabel": "Bouw",
+          "build": "Een aanpasbaar bezorgplatform voor klantbestellingen, dispatch en bezorgertracking, aanpasbaar aan verschillende bedrijfssectoren en beschikbaar voor klantprojecten.",
+          "stackLabel": "Techniek",
+          "stack": ["Flutter", "Node.js", "MongoDB"],
+          "resultLabel": "Resultaat",
+          "result": "Een herbruikbaar bezorgplatform klaar om aangepast en uitgerold te worden voor klantbedrijven."
         }
       ],
       "note": "Dit zijn onze eigen producten en platforms — intern gebouwd, gelanceerd en onderhouden. Klantwerk wordt hier uitgelicht zodra trajecten zijn afgerond.",

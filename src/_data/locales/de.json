@@ -653,6 +653,18 @@
           "stack": ["React", "Node.js", "MongoDB"],
           "resultLabel": "Ergebnis",
           "result": "Live-System, das Rezepte mit Apothekenabwicklung und Lieferung verbindet."
+        },
+        {
+          "type": "Lieferapp (intern entwickelt)",
+          "title": "On-Demand Delivery App",
+          "challengeLabel": "Herausforderung",
+          "challenge": "Unternehmen aus verschiedenen Branchen benötigten On-Demand-Lieferung — Bestellung, Disposition und Echtzeit-Tracking — ohne eigene Logistikinfrastruktur von Grund auf aufzubauen.",
+          "buildLabel": "Umsetzung",
+          "build": "Eine anpassbare Lieferplattform für Kundenbestellung, Disposition und Fahrer-Tracking, anpassbar an unterschiedliche Geschäftsbereiche und verfügbar für Mandantenprojekte.",
+          "stackLabel": "Technologie",
+          "stack": ["Flutter", "Node.js", "MongoDB"],
+          "resultLabel": "Ergebnis",
+          "result": "Eine wiederverwendbare Lieferplattform, bereit zur Anpassung und Bereitstellung für Kundenunternehmen."
         }
       ],
       "note": "Dies sind unsere eigenen Produkte und Plattformen — intern entwickelt, gelauncht und gepflegt. Mandantenprojekte werden hier vorgestellt, sobald sie abgeschlossen sind.",

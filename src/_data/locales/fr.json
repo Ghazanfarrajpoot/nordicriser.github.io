@@ -653,6 +653,18 @@
           "stack": ["React", "Node.js", "MongoDB"],
           "resultLabel": "Résultat",
           "result": "Système en ligne reliant les ordonnances au traitement pharmaceutique et à la livraison."
+        },
+        {
+          "type": "Application de livraison (interne)",
+          "title": "On-Demand Delivery App",
+          "challengeLabel": "Défi",
+          "challenge": "Des entreprises de différents secteurs avaient besoin de livraison à la demande — commande, répartition et suivi en temps réel — sans construire d'infrastructure logistique depuis zéro.",
+          "buildLabel": "Réalisation",
+          "build": "Une plateforme de livraison personnalisable couvrant la commande client, la répartition et le suivi des livreurs, adaptable à différents secteurs d'activité et disponible pour des projets clients.",
+          "stackLabel": "Technologie",
+          "stack": ["Flutter", "Node.js", "MongoDB"],
+          "resultLabel": "Résultat",
+          "result": "Une plateforme de livraison réutilisable, prête à être personnalisée et déployée pour des entreprises clientes."
         }
       ],
       "note": "Il s'agit de nos propres produits et plateformes — conçus, lancés et maintenus en interne. Les travaux clients seront présentés ici au fur et à mesure de leur achèvement.",

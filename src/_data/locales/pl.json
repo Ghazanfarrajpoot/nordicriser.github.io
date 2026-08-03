@@ -653,6 +653,18 @@
           "stack": ["React", "Node.js", "MongoDB"],
           "resultLabel": "Rezultat",
           "result": "Działający system łączący recepty z realizacją w aptece i dostawą."
+        },
+        {
+          "type": "Aplikacja Dostawcza (Wewnętrzna)",
+          "title": "On-Demand Delivery App",
+          "challengeLabel": "Wyzwanie",
+          "challenge": "Firmy z różnych branż potrzebowały dostaw na żądanie — zamawiania, dyspozycji i śledzenia w czasie rzeczywistym — bez budowania infrastruktury logistycznej od podstaw.",
+          "buildLabel": "Realizacja",
+          "build": "Konfigurowalna platforma dostawcza obejmująca zamawianie przez klientów, dyspozycję i śledzenie kurierów, dostosowywalna do różnych branż i dostępna dla projektów klienckich.",
+          "stackLabel": "Technologia",
+          "stack": ["Flutter", "Node.js", "MongoDB"],
+          "resultLabel": "Rezultat",
+          "result": "Wielokrotnego użytku platforma dostawcza gotowa do dostosowania i wdrożenia dla firm klienckich."
         }
       ],
       "note": "To są nasze własne produkty i platformy — zbudowane, wdrożone i utrzymywane wewnętrznie. Prace dla klientów będą prezentowane tutaj w miarę ich ukończenia.",

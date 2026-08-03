@@ -653,6 +653,18 @@
           "stack": ["React", "Node.js", "MongoDB"],
           "resultLabel": "Resultado",
           "result": "Sistema en vivo que conecta las recetas con la gestión farmacéutica y la entrega."
+        },
+        {
+          "type": "Aplicación de Reparto (Interna)",
+          "title": "On-Demand Delivery App",
+          "challengeLabel": "Desafío",
+          "challenge": "Empresas de diferentes sectores necesitaban entrega bajo demanda — pedidos, despacho y seguimiento en tiempo real — sin construir infraestructura logística desde cero.",
+          "buildLabel": "Construcción",
+          "build": "Una plataforma de reparto personalizable que cubre pedidos de clientes, despacho y seguimiento de repartidores, adaptable a diferentes sectores empresariales y disponible para proyectos de clientes.",
+          "stackLabel": "Tecnología",
+          "stack": ["Flutter", "Node.js", "MongoDB"],
+          "resultLabel": "Resultado",
+          "result": "Una plataforma de reparto reutilizable, lista para personalizarse y desplegarse para empresas clientes."
         }
       ],
       "note": "Estos son nuestros propios productos y plataformas — construidos, lanzados y mantenidos internamente. El trabajo de clientes se presentará aquí a medida que se completen los proyectos.",
