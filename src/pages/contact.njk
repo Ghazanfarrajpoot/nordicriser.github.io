@@ -72,6 +72,25 @@ pageSlug: contact
           </select>
         </div>
 
+        <div class="form-row">
+          <div class="field">
+            <label for="budget">{{ f.budget }}</label>
+            <select id="budget" name="budget">
+              {%- for opt in f.budgetOptions %}
+              <option value="{{ opt.value }}"{% if loop.first %} disabled selected{% endif %}>{{ opt.label }}</option>
+              {%- endfor %}
+            </select>
+          </div>
+          <div class="field">
+            <label for="timeline">{{ f.timeline }}</label>
+            <select id="timeline" name="timeline">
+              {%- for opt in f.timelineOptions %}
+              <option value="{{ opt.value }}"{% if loop.first %} disabled selected{% endif %}>{{ opt.label }}</option>
+              {%- endfor %}
+            </select>
+          </div>
+        </div>
+
         <div class="field">
           <label for="message">{{ f.message }} <span class="required">*</span></label>
           <textarea id="message" name="message" placeholder="{{ f.messagePlaceholder }}" required></textarea>
@@ -98,6 +117,20 @@ pageSlug: contact
             <div class="detail-text">
               <span>{{ t.common.emailLabel }}</span>
               <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
+            </div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="detail-icon">{{ icons.icon('phone') }}</div>
+            <div class="detail-text">
+              <span>{{ p.sidebar.phoneLabel }}</span>
+              <p>{{ p.sidebar.phoneValue }}</p>
+            </div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="detail-icon">{{ icons.icon('pin') }}</div>
+            <div class="detail-text">
+              <span>{{ p.sidebar.addressLabel }}</span>
+              <p>{{ p.sidebar.addressValue }}</p>
             </div>
           </div>
           <div class="contact-detail-item">

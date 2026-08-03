@@ -16,11 +16,12 @@
   ],
   "pages": [
     { "slug": "", "key": "home", "changefreq": "monthly", "priority": "1.0" },
+    { "slug": "services", "key": "itServices", "changefreq": "monthly", "priority": "0.9" },
+    { "slug": "work", "key": "work", "changefreq": "monthly", "priority": "0.9" },
+    { "slug": "global-reach", "key": "globalReach", "changefreq": "monthly", "priority": "0.9" },
+    { "slug": "consulting", "key": "consulting", "changefreq": "monthly", "priority": "0.6" },
     { "slug": "about", "key": "about", "changefreq": "monthly", "priority": "0.7" },
     { "slug": "contact", "key": "contact", "changefreq": "monthly", "priority": "0.7" },
-    { "slug": "privacy", "key": "privacy", "changefreq": "yearly", "priority": "0.3" },
-    { "slug": "consulting", "key": "consulting", "changefreq": "monthly", "priority": "0.9" },
-    { "slug": "it-services", "key": "itServices", "changefreq": "monthly", "priority": "0.9" },
-    { "slug": "global-reach", "key": "globalReach", "changefreq": "monthly", "priority": "0.9" }
+    { "slug": "privacy", "key": "privacy", "changefreq": "yearly", "priority": "0.3" }
   ]
 }

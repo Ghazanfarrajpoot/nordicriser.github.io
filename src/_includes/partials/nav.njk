@@ -1,4 +1,6 @@
 {%- set t = locales[locale] -%}
+{#- t.nav.work doesn't exist in locales not yet translated for the IT-led restructure. -#}
+{%- set navWorkLabel = t.nav.work or locales.en.nav.work -%}
 <nav class="navbar" id="navbar">
   <div class="nav-inner">
     <a href="{{ '' | localeUrl(locale) }}" class="logo">
@@ -13,9 +15,10 @@
     </button>
     <ul class="nav-links" id="navLinks">
       <li><a href="{{ '' | localeUrl(locale) }}"{% if pageKey == 'home' %} class="active"{% endif %}>{{ t.nav.home }}</a></li>
-      <li><a href="{{ 'consulting' | localeUrl(locale) }}"{% if pageKey == 'consulting' %} class="active"{% endif %}>{{ t.nav.consulting }}</a></li>
-      <li><a href="{{ 'it-services' | localeUrl(locale) }}"{% if pageKey == 'itServices' %} class="active"{% endif %}>{{ t.nav.itServices }}</a></li>
+      <li><a href="{{ 'services' | localeUrl(locale) }}"{% if pageKey == 'itServices' %} class="active"{% endif %}>{{ t.nav.itServices }}</a></li>
+      <li><a href="{{ 'work' | localeUrl(locale) }}"{% if pageKey == 'work' %} class="active"{% endif %}>{{ navWorkLabel }}</a></li>
       <li><a href="{{ 'global-reach' | localeUrl(locale) }}"{% if pageKey == 'globalReach' %} class="active"{% endif %}>{{ t.nav.globalReach }}</a></li>
+      <li><a href="{{ 'consulting' | localeUrl(locale) }}"{% if pageKey == 'consulting' %} class="active"{% endif %}>{{ t.nav.consulting }}</a></li>
       <li><a href="{{ 'about' | localeUrl(locale) }}"{% if pageKey == 'about' %} class="active"{% endif %}>{{ t.nav.about }}</a></li>
       <li><a href="{{ 'contact' | localeUrl(locale) }}"{% if pageKey == 'contact' %} class="active"{% endif %}>{{ t.nav.contact }}</a></li>
       <li class="nr-lang-mobile">{%- set lsVariant = "mobile" -%}{% include "partials/language-switcher.njk" %}</li>

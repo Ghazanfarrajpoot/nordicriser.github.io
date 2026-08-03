@@ -1,0 +1,25 @@
+---
+pagination:
+  data: site.locales
+  size: 1
+  alias: loc
+permalink: "{{ 'it-services' | localePath(loc.code) }}index.html"
+eleventyExcludeFromCollections: true
+eleventyComputed:
+  locale: "{{ loc.code }}"
+---
+{%- set newUrl = 'services' | localeUrl(locale) -%}
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+<head>
+  <meta charset="UTF-8">
+  <title>Nordic Riser AB — Services (moved)</title>
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="{{ site.baseUrl }}{{ newUrl }}">
+  <meta http-equiv="refresh" content="0; url={{ newUrl }}">
+  <script>location.replace('{{ newUrl }}' + location.hash);</script>
+</head>
+<body>
+  <noscript>This page has moved. <a href="{{ newUrl }}">Continue to Services →</a></noscript>
+</body>
+</html>

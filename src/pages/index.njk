@@ -12,7 +12,9 @@ pageKey: home
 pageSlug: ""
 ---
 {%- set t = locales[locale] -%}
-{%- set home = t.pages.home -%}
+{#- Falls back to English until this locale is translated to the new IT-led
+    homepage structure (Phase 8) — old and new home shapes don't mix. -#}
+{%- set home = t.pages.home if t.pages.home.proofBar else locales.en.pages.home -%}
 {% import "partials/icons.njk" as icons %}
 
 <section class="hero">
@@ -21,29 +23,39 @@ pageSlug: ""
     <h1>{{ home.hero.h1 }}</h1>
     <p>{{ home.hero.body }}</p>
     <div class="hero-ctas">
-      <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-primary">{{ home.hero.cta }}</a>
-      <a href="{{ 'global-reach' | localeUrl(locale) }}" class="btn-secondary">{{ home.hero.ctaSecondary }}</a>
+      <a href="{{ 'work' | localeUrl(locale) }}" class="btn-primary">{{ home.hero.cta }}</a>
+      <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-secondary">{{ home.hero.ctaSecondary }}</a>
     </div>
   </div>
 </section>
 
-{% include "partials/pillar-home-section.njk" %}
+<section class="proof-bar">
+  <div class="proof-bar-inner" data-animate>
+    {%- for s in home.proofBar.stats %}
+    <div class="proof-stat">
+      <div class="proof-stat-value">{{ s.value }}</div>
+      <div class="proof-stat-label">{{ s.label }}</div>
+    </div>
+    {%- endfor %}
+  </div>
+</section>
 
 <section class="section">
   <div class="section-inner" data-animate>
-    <span class="section-label">{{ home.whatWeDo.label }}</span>
-    <h2 class="section-title">{{ home.whatWeDo.title }}</h2>
-    <p class="section-sub">{{ home.whatWeDo.sub }}</p>
+    <span class="section-label">{{ home.whatWeBuild.label }}</span>
+    <h2 class="section-title">{{ home.whatWeBuild.title }}</h2>
     <div class="services-grid">
-      {%- for s in home.whatWeDo.services %}
+      {%- for c in home.whatWeBuild.cards %}
       <div class="service-card">
-        <div class="service-icon">{{ icons.icon(s.icon) }}</div>
-        <h3>{{ s.title }}</h3>
-        <p>{{ s.body }}</p>
-        {%- if s.note %}
-        <p class="investor-note">{{ s.note }}</p>
+        <div class="service-icon">{{ icons.icon(c.icon) }}</div>
+        <h3>{{ c.title }}</h3>
+        <p>{{ c.body }}</p>
+        {%- if c.builtWith %}
+        <p class="built-with"><strong>{{ t.common.builtWith }}</strong> {{ c.builtWith }}</p>
         {%- endif %}
-        <a href="{{ 'consulting' | localeUrl(locale) }}#{{ s.anchor }}" class="service-link">{{ t.common.learnMore }}</a>
+        {%- if c.seeText %}
+        <p class="built-with">{{ c.seeLabel }} <a href="{{ c.seeLink | localeUrl(locale) }}">{{ c.seeText }}</a></p>
+        {%- endif %}
       </div>
       {%- endfor %}
     </div>
@@ -52,18 +64,20 @@ pageSlug: ""
 
 <section class="section section-alt">
   <div class="section-inner" data-animate>
-    <span class="section-label">{{ t.pages.itServices.offeringsLabel }}</span>
-    <h2 class="section-title">{{ t.pages.itServices.offeringsTitle }}</h2>
-    <p class="section-sub">{{ t.pages.itServices.offeringsSub }}</p>
-    <div class="services-grid">
-      {%- for o in t.pages.itServices.offerings %}
-      <div class="service-card">
-        <div class="service-icon">{{ icons.icon(o.icon) }}</div>
-        <h3>{{ o.title }}</h3>
-        <p>{{ o.body }}</p>
-        <a href="{{ 'it-services' | localeUrl(locale) }}" class="service-link">{{ t.common.learnMore }}</a>
-      </div>
+    <span class="section-label">{{ home.featuredWork.label }}</span>
+    <h2 class="section-title">{{ home.featuredWork.title }}</h2>
+    <div class="work-teaser-grid">
+      {%- for item in home.featuredWork.items %}
+      <a href="{{ item.link | localeUrl(locale) }}" class="work-teaser-card">
+        <span class="case-study-type">{{ item.type }}</span>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.oneLiner }}</p>
+        <span class="service-link">{{ t.common.readMore }}</span>
+      </a>
       {%- endfor %}
+    </div>
+    <div class="work-teaser-cta">
+      <a href="{{ home.featuredWork.ctaLink | localeUrl(locale) }}" class="btn-primary">{{ home.featuredWork.cta }}</a>
     </div>
   </div>
 </section>
@@ -71,10 +85,15 @@ pageSlug: ""
 <section class="gr-teaser">
   <div class="gr-teaser-inner" data-animate>
     <div class="gr-teaser-text">
-      <span class="section-label">{{ home.globalReachTeaser.label }}</span>
-      <h2 class="section-title">{{ home.globalReachTeaser.title }}</h2>
-      <p class="section-sub">{{ home.globalReachTeaser.body }}</p>
-      <a href="https://portal.nordicriser.com" class="btn-cta">{{ home.globalReachTeaser.cta }}</a>
+      <span class="section-label">{{ home.productSpotlight.label }}</span>
+      <h2 class="section-title">{{ home.productSpotlight.title }}</h2>
+      <p class="section-sub">{{ home.productSpotlight.body }}</p>
+      <ul class="gr-teaser-bullets">
+        {%- for b in home.productSpotlight.bullets %}
+        <li>{{ b }}</li>
+        {%- endfor %}
+      </ul>
+      <a href="https://portal.nordicriser.com" class="btn-cta">{{ home.productSpotlight.cta }}</a>
     </div>
     <div class="gr-teaser-visual" aria-hidden="true">
       <div class="gr-mock gr-mock-compact">
@@ -82,57 +101,17 @@ pageSlug: ""
           <span class="gr-mock-dot"></span><span class="gr-mock-dot"></span><span class="gr-mock-dot"></span>
         </div>
         <div class="gr-mock-whiteboard">{{ icons.icon('whiteboard') }}</div>
-        <div class="gr-mock-chat">
-          <div class="gr-chat-bubble">
-            <span class="gr-chat-original">{{ home.globalReachTeaser.chatOriginal }}</span>
-            <span class="gr-chat-translated">{{ home.globalReachTeaser.chatTranslated }}</span>
-            <span class="gr-chat-tag">{{ home.globalReachTeaser.chatTag }}</span>
-          </div>
-        </div>
       </div>
-      <span class="gr-mock-caption">{{ home.globalReachTeaser.mockCaption }}</span>
-    </div>
-  </div>
-</section>
-
-<section class="lead-strip" id="free-guide">
-  <div class="lead-strip-inner" data-animate>
-    <div class="lead-strip-text">
-      <h2>{{ home.leadCapture.title }}</h2>
-      <p>{{ home.leadCapture.bodyPrefix }} <em>{{ home.leadCapture.guideTitle }}</em></p>
-    </div>
-    <form class="lead-form" action="{{ 'contact' | localeUrl(locale) }}" method="get">
-      <input type="hidden" name="request" value="guide-request">
-      <input type="email" name="email" placeholder="{{ home.leadCapture.placeholder }}" required aria-label="{{ home.leadCapture.placeholder }}">
-      <button type="submit">{{ home.leadCapture.button }}</button>
-    </form>
-  </div>
-</section>
-
-<section class="section audience-section">
-  <div class="section-inner" data-animate>
-    <span class="section-label">{{ home.whoWeWorkWith.label }}</span>
-    <h2 class="section-title">{{ home.whoWeWorkWith.title }}</h2>
-    <p class="section-sub">{{ home.whoWeWorkWith.sub }}</p>
-    <div class="audience-grid">
-      {%- for a in home.whoWeWorkWith.audiences %}
-      <div class="audience-card">
-        <span class="tag">{{ a.tag }}</span>
-        <h3>{{ a.title }}</h3>
-        <p>{{ a.body }}</p>
-      </div>
-      {%- endfor %}
     </div>
   </div>
 </section>
 
 <section class="section">
   <div class="section-inner" data-animate>
-    <span class="section-label">{{ home.process.label }}</span>
-    <h2 class="section-title">{{ home.process.title }}</h2>
-    <p class="section-sub">{{ home.process.sub }}</p>
+    <span class="section-label">{{ home.howWeWork.label }}</span>
+    <h2 class="section-title">{{ home.howWeWork.title }}</h2>
     <div class="steps-grid">
-      {%- for step in home.process.steps %}
+      {%- for step in home.howWeWork.steps %}
       <div class="step">
         <div class="step-number">{{ loop.index }}</div>
         <h3>{{ step.title }}</h3>
@@ -143,15 +122,29 @@ pageSlug: ""
   </div>
 </section>
 
+<section class="section section-alt">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ home.technology.label }}</span>
+    <h2 class="section-title">{{ home.technology.title }}</h2>
+    <div class="tech-stack-grid">
+      {%- for g in home.technology.groups %}
+      <div class="tech-stack-group">
+        <h4>{{ g.category }}</h4>
+        <p>{{ g.items }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
 <section class="section why-section">
   <div class="section-inner" data-animate>
-    <span class="section-label">{{ home.whyChooseUs.label }}</span>
-    <h2 class="section-title">{{ home.whyChooseUs.title }}</h2>
-    <p class="section-sub">{{ home.whyChooseUs.sub }}</p>
+    <span class="section-label">{{ home.whyUs.label }}</span>
+    <h2 class="section-title">{{ home.whyUs.title }}</h2>
     <div class="why-grid">
-      {%- for c in home.whyChooseUs.cards %}
+      {%- for c in home.whyUs.cards %}
       <div class="why-card">
-        <div class="check">{{ icons.icon('check') }}</div>
+        <div class="check">{{ icons.icon(c.icon) }}</div>
         <h3>{{ c.title }}</h3>
         <p>{{ c.body }}</p>
       </div>
@@ -160,28 +153,12 @@ pageSlug: ""
   </div>
 </section>
 
-<section class="section trust-section">
-  <div class="section-inner" data-animate>
-    <span class="section-label">{{ home.trust.label }}</span>
-    <h2 class="section-title">{{ home.trust.title }}</h2>
-    <p class="section-sub">{{ home.trust.sub }}</p>
-    <div class="trust-org-nr">{{ home.trust.orgNrLabel }} <strong>{{ home.trust.orgNrValue }}</strong> · Stockholm, Sweden</div>
-    <div class="stats-grid">
-      {%- for s in home.trust.stats %}
-      <div class="stat-card">
-        <div class="stat-number">{{ s.number }}</div>
-        <div class="stat-label">{{ s.label }}</div>
-      </div>
-      {%- endfor %}
-    </div>
-    <div class="testimonial-grid">
-      {%- for tm in home.trust.testimonials %}
-      <div class="testimonial-card">
-        <p>"{{ tm.quote }}"</p>
-        <span class="testimonial-author">— {{ tm.author }}<small>{{ tm.meta }}</small></span>
-      </div>
-      {%- endfor %}
-    </div>
+<section class="consulting-band">
+  <div class="consulting-band-inner" data-animate>
+    <span class="section-label">{{ home.consultingBand.label }}</span>
+    <h2 class="section-title">{{ home.consultingBand.title }}</h2>
+    <p class="section-sub">{{ home.consultingBand.body }}</p>
+    <a href="{{ 'consulting' | localeUrl(locale) }}" class="btn-primary">{{ home.consultingBand.cta }}</a>
   </div>
 </section>
 
@@ -189,7 +166,7 @@ pageSlug: ""
   <div class="cta-box" data-animate>
     <h2>{{ home.finalCta.title }}</h2>
     <p>{{ home.finalCta.body }}</p>
-    <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-cta">{{ t.common.bookConsultation }}</a>
+    <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-cta">{{ home.finalCta.cta }}</a>
     <div class="contact-strip">
       <div class="contact-item">
         <span>{{ t.common.emailLabel }}</span>

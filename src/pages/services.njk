@@ -3,13 +3,13 @@ pagination:
   data: site.locales
   size: 1
   alias: loc
-permalink: "{{ 'it-services' | localePath(loc.code) }}index.html"
+permalink: "{{ 'services' | localePath(loc.code) }}index.html"
 eleventyComputed:
   locale: "{{ loc.code }}"
   dir: "{{ loc.dir }}"
 layout: layouts/page.njk
 pageKey: itServices
-pageSlug: it-services
+pageSlug: services
 ---
 {%- set t = locales[locale] -%}
 {%- set p = t.pages.itServices -%}
@@ -82,14 +82,8 @@ pageSlug: it-services
     <span class="section-label">{{ p.portfolioLabel }}</span>
     <h2 class="section-title">{{ p.portfolioTitle }}</h2>
     <p class="section-sub">{{ p.portfolioSub }}</p>
-    <div class="portfolio-grid">
-      {%- for item in p.portfolio %}
-      <div class="portfolio-card">
-        <div class="portfolio-icon">{{ icons.icon('code') }}</div>
-        <h3>{{ item.title }}</h3>
-        <p>{{ item.body }}</p>
-      </div>
-      {%- endfor %}
+    <div class="work-teaser-cta">
+      <a href="{{ 'work' | localeUrl(locale) }}" class="btn-primary">{{ p.portfolioCta }}</a>
     </div>
   </div>
 </section>

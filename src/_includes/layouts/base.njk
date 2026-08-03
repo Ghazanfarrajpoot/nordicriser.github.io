@@ -1,22 +1,44 @@
 {%- set t = locales[locale] -%}
+{#- Falls back to English wholesale when a page doesn't exist yet for this locale
+    (e.g. /work/, or the IT-led homepage restructure, ahead of Phase 8 translation). -#}
+{%- set pageData = t.pages[pageKey] or locales.en.pages[pageKey] -%}
+{#- meta.title/description let a page override the punchy hero copy with SEO-tuned text; falls back to hero.h1/body for pages without an override. -#}
+{%- set pageTitle = pageData.meta.title if pageData.meta else (pageData.hero.h1 + " — Nordic Riser AB") -%}
+{%- set pageDesc = pageData.meta.description if pageData.meta else pageData.hero.body -%}
 <!DOCTYPE html>
 <html lang="{{ locale }}" dir="{{ dir }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ t.pages[pageKey].hero.h1 }} — Nordic Riser AB</title>
-  <meta name="description" content="{{ t.pages[pageKey].hero.body }}">
+  <title>{{ pageTitle }}</title>
+  <meta name="description" content="{{ pageDesc }}">
   <meta name="robots" content="{{ robots | default('index, follow') }}">
   <link rel="canonical" href="{{ site.baseUrl }}{{ pageSlug | localeUrl(locale) }}">
   <meta property="og:site_name" content="Nordic Riser AB">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="{{ locale }}">
   <meta property="og:url" content="{{ site.baseUrl }}{{ pageSlug | localeUrl(locale) }}">
-  <meta property="og:title" content="{{ t.pages[pageKey].hero.h1 }} — Nordic Riser AB">
-  <meta property="og:description" content="{{ t.pages[pageKey].hero.body }}">
+  <meta property="og:title" content="{{ pageTitle }}">
+  <meta property="og:description" content="{{ pageDesc }}">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{{ t.pages[pageKey].hero.h1 }} — Nordic Riser AB">
-  <meta name="twitter:description" content="{{ t.pages[pageKey].hero.body }}">
+  <meta name="twitter:title" content="{{ pageTitle }}">
+  <meta name="twitter:description" content="{{ pageDesc }}">
+  {%- if pageKey == "home" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Nordic Riser AB",
+    "url": "{{ site.baseUrl }}",
+    "email": "info@nordicriser.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Stockholm",
+      "addressCountry": "SE"
+    }
+  }
+  </script>
+  {%- endif %}
   {%- if not singleLocale %}
   {%- for l in site.locales %}
   <link rel="alternate" hreflang="{{ l.code }}" href="{{ site.baseUrl }}{{ pageSlug | localeUrl(l.code) }}">

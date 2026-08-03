@@ -1,4 +1,5 @@
 {%- set t = locales[locale] -%}
+{%- set navWorkLabel = t.nav.work or locales.en.nav.work -%}
 <footer class="footer">
   <div class="footer-main">
     <div class="footer-brand">
@@ -14,19 +15,12 @@
     </div>
     <div class="footer-services-group">
       <div class="footer-col">
-        <h4>{{ t.footer.divisions.consultingHeading }}</h4>
-        <ul>
-          {%- for link in t.footer.divisions.consultingLinks %}
-          <li><a href="{{ 'consulting' | localeUrl(locale) }}#{{ link.anchor }}">{{ link.label }}</a></li>
-          {%- endfor %}
-        </ul>
-      </div>
-      <div class="footer-col">
         <h4>{{ t.footer.divisions.itServicesHeading }}</h4>
         <ul>
           {%- for link in t.footer.divisions.itServicesLinks %}
-          <li><a href="{{ (link.target or 'it-services') | localeUrl(locale) }}">{{ link.label }}</a></li>
+          <li><a href="{{ (link.target or 'services') | localeUrl(locale) }}">{{ link.label }}</a></li>
           {%- endfor %}
+          <li><a href="{{ 'work' | localeUrl(locale) }}">{{ navWorkLabel }}</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -34,6 +28,14 @@
         <ul>
           {%- for link in t.footer.divisions.globalReachLinks %}
           <li><a href="{{ link.external or (('global-reach' | localeUrl(locale))) }}">{{ link.label }}</a></li>
+          {%- endfor %}
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>{{ t.footer.divisions.consultingHeading }}</h4>
+        <ul>
+          {%- for link in t.footer.divisions.consultingLinks %}
+          <li><a href="{{ 'consulting' | localeUrl(locale) }}#{{ link.anchor }}">{{ link.label }}</a></li>
           {%- endfor %}
         </ul>
       </div>

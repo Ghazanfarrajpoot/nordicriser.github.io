@@ -29,7 +29,7 @@ pageSlug: about
   </div>
 </div>
 
-{% include "partials/pillar-home-section.njk" %}
+{%- set wwd = p.whatWeDo or locales.en.pages.about.whatWeDo -%}
 
 <section class="section">
   <div class="section-inner-narrow" data-animate>
@@ -40,11 +40,28 @@ pageSlug: about
     <div class="mission-statement">
       <p>{{ p.whoWeAre.mission }}</p>
     </div>
-    <p class="flagship-note">{{ p.whoWeAre.flagshipNote }}</p>
   </div>
 </section>
 
 <section class="section section-alt">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ wwd.label }}</span>
+    <div class="what-we-do-grid">
+      <div class="what-we-do-card">
+        <h3>{{ wwd.software.title }}</h3>
+        <p>{{ wwd.software.body }}</p>
+        <a href="{{ wwd.software.link | localeUrl(locale) }}" class="service-link">{{ wwd.software.cta }} →</a>
+      </div>
+      <div class="what-we-do-card">
+        <h3>{{ wwd.consulting.title }}</h3>
+        <p>{{ wwd.consulting.body }}</p>
+        <a href="{{ wwd.consulting.link | localeUrl(locale) }}" class="service-link">{{ wwd.consulting.cta }} →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
   <div class="section-inner" data-animate>
     <span class="section-label">{{ p.whyWeExist.label }}</span>
     <h2 class="section-title">{{ p.whyWeExist.title }}</h2>
@@ -71,7 +88,7 @@ pageSlug: about
   </div>
 </section>
 
-<section class="section">
+<section class="section section-alt">
   <div class="section-inner" data-animate>
     <span class="section-label">{{ p.approach.label }}</span>
     <h2 class="section-title">{{ p.approach.title }}</h2>
@@ -119,7 +136,10 @@ pageSlug: about
   <div class="cta-box" data-animate>
     <h2>{{ p.cta.title }}</h2>
     <p>{{ p.cta.body }}</p>
-    <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-cta">{{ t.common.bookConsultation }}</a>
+    <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-cta">{{ t.common.startProject }}</a>
+    {%- if p.cta.ctaSecondary %}
+    <p class="cta-secondary-link"><a href="{{ 'consulting' | localeUrl(locale) }}" class="service-link">{{ p.cta.ctaSecondary }} →</a></p>
+    {%- endif %}
     <div class="contact-strip">
       <div class="contact-item">
         <span>{{ t.common.emailLabel }}</span>

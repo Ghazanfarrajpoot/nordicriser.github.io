@@ -367,6 +367,82 @@
 .portfolio-card p  { font-size: 0.9rem; color: var(--muted); line-height: 1.65; }
 
 /* ── RESPONSIVE ── */
+/* ── HOMEPAGE: PROOF BAR ── */
+.proof-bar { background: var(--navy); padding: 2.5rem 2rem; }
+
+.proof-bar-inner {
+  max-width: 1100px; margin: 0 auto;
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem;
+  text-align: center;
+}
+
+.proof-stat-value {
+  font-family: var(--font-serif); font-size: 1.6rem; font-weight: 700; color: var(--gold);
+  margin-block-end: 0.35rem; line-height: 1.2;
+}
+
+.proof-stat-label {
+  font-size: 0.72rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase;
+  color: rgba(255,255,255,0.65);
+}
+
+/* ── HOMEPAGE: BUILT-WITH LINE ON SERVICE CARDS ── */
+.built-with { font-size: 0.8rem; color: var(--muted); margin-block-start: 0.85rem; line-height: 1.6; }
+.built-with strong { color: var(--navy); font-weight: 700; }
+.built-with a { color: var(--gold-hover); font-weight: 600; }
+
+/* ── HOMEPAGE: FEATURED WORK TEASER ── */
+.work-teaser-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.75rem; margin-block-end: 2.5rem;
+}
+
+.work-teaser-card {
+  display: flex; flex-direction: column; background: var(--white); border: 1px solid var(--border);
+  border-radius: 10px; padding: 2rem; text-decoration: none; color: inherit; box-shadow: var(--shadow-sm);
+}
+
+.work-teaser-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+.work-teaser-card h3 { font-size: 1.05rem; font-weight: 700; color: var(--navy); margin-block: 0.6rem; }
+.work-teaser-card p { font-size: 0.9rem; color: var(--muted); line-height: 1.65; margin-block-end: 1rem; flex-grow: 1; }
+.work-teaser-cta { text-align: center; }
+
+/* ── HOMEPAGE: PRODUCT SPOTLIGHT BULLETS ── */
+.gr-teaser-bullets { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; margin-block-end: 1.5rem; }
+.gr-teaser-bullets li {
+  font-size: 0.9rem; color: rgba(255,255,255,0.8); padding-inline-start: 1.2rem; position: relative;
+}
+.gr-teaser-bullets li::before {
+  content: ''; position: absolute; inset-inline-start: 0; top: 0.55em;
+  width: 5px; height: 5px; border-radius: 50%; background: var(--gold);
+}
+
+/* ── HOMEPAGE: TECHNOLOGY STACK ── */
+.tech-stack-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.tech-stack-group {
+  background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem 1.75rem;
+}
+
+.tech-stack-group h4 {
+  font-size: 0.7rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--gold); margin-block-end: 0.6rem;
+}
+
+.tech-stack-group p { font-size: 0.9rem; color: var(--text); line-height: 1.6; }
+
+/* ── HOMEPAGE: CONSULTING BAND (compact, demoted) ── */
+.consulting-band { background: var(--sky); padding: 4rem 2rem; }
+
+.consulting-band-inner {
+  max-width: 680px; margin: 0 auto; text-align: center;
+}
+
+.consulting-band-inner .section-sub { margin-block-end: 2rem; }
+
 @media (max-width: 480px) {
   .gr-mock-zones { grid-template-columns: repeat(2, 1fr); }
 }
@@ -374,9 +450,15 @@
 @media (max-width: 860px) {
   .gr-teaser-inner { grid-template-columns: 1fr; text-align: center; }
   .gr-teaser .section-label, .gr-teaser .section-title, .gr-teaser .section-sub { text-align: center; }
+  .gr-teaser-bullets { align-items: center; }
+  .gr-teaser-bullets li { padding-inline-start: 1.2rem; text-align: start; }
 }
 
 @media (max-width: 640px) {
   .gr-sticky-cta { display: flex; }
   body.has-gr-sticky { padding-block-end: 64px; }
+}
+
+@media (max-width: 700px) {
+  .proof-bar-inner { grid-template-columns: repeat(2, 1fr); }
 }
