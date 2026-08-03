@@ -629,6 +629,30 @@
           "stack": ["Geração estática", "CDN", "Encaminhamento i18n estruturado"],
           "resultLabel": "Resultado",
           "result": "Cada página disponível em 11 idiomas com URLs limpos e indexáveis."
+        },
+        {
+          "type": "Aplicação de Saúde (Interna)",
+          "title": "4eDoctor",
+          "challengeLabel": "Desafio",
+          "challenge": "Os pacientes precisavam de acesso a consultas médicas — com médicos, psicólogos e enfermeiros — sem os tempos de espera e o atrito das consultas presenciais.",
+          "buildLabel": "Construção",
+          "build": "Uma plataforma de telemedicina com consultas por vídeo e voz em HD, chat durante a chamada, marcação de consultas e opções de pagamento locais.",
+          "stackLabel": "Stack",
+          "stack": ["Flutter", "Firebase", "Agora", "ZEGOCLOUD"],
+          "resultLabel": "Resultado",
+          "result": "Produto ao vivo que permite aos pacientes marcar e consultar um médico a partir de qualquer lugar, a qualquer momento."
+        },
+        {
+          "type": "Aplicação de Entrega Sob Demanda (Interna)",
+          "title": "4eZone Pharmacy",
+          "challengeLabel": "Desafio",
+          "challenge": "Os pacientes com uma receita médica não tinham uma forma rápida de fazer com que o seu medicamento fosse preparado e entregue.",
+          "buildLabel": "Construção",
+          "build": "Um sistema de processamento farmacêutico ligado às receitas médicas, com painéis de administração para as farmácias processarem e despacharem encomendas.",
+          "stackLabel": "Stack",
+          "stack": ["React", "Node.js", "MongoDB"],
+          "resultLabel": "Resultado",
+          "result": "Sistema ao vivo que liga as receitas ao processamento farmacêutico e à entrega."
         }
       ],
       "note": "Estes são os nossos próprios produtos e plataformas — construídos, lançados e mantidos internamente. O trabalho para clientes será apresentado aqui à medida que as colaborações forem concluídas.",

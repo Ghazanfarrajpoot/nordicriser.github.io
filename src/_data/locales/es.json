@@ -629,6 +629,30 @@
           "stack": ["Generación estática", "CDN", "Enrutamiento i18n estructurado"],
           "resultLabel": "Resultado",
           "result": "Cada página disponible en 11 idiomas con URLs limpias e indexables."
+        },
+        {
+          "type": "Aplicación de Salud (Interna)",
+          "title": "4eDoctor",
+          "challengeLabel": "Desafío",
+          "challenge": "Los pacientes necesitaban acceso a consultas médicas — con médicos, psicólogos y enfermeros — sin las esperas y la fricción de las visitas presenciales.",
+          "buildLabel": "Construcción",
+          "build": "Una plataforma de telemedicina con consultas por video y voz en HD, chat durante la llamada, reserva de citas y opciones de pago locales.",
+          "stackLabel": "Tecnología",
+          "stack": ["Flutter", "Firebase", "Agora", "ZEGOCLOUD"],
+          "resultLabel": "Resultado",
+          "result": "Producto en vivo que permite a los pacientes reservar y consultar a un médico desde cualquier lugar, en cualquier momento."
+        },
+        {
+          "type": "Aplicación de Entrega Bajo Demanda (Interna)",
+          "title": "4eZone Pharmacy",
+          "challengeLabel": "Desafío",
+          "challenge": "Los pacientes con una receta médica no tenían una forma rápida de que su medicamento fuera surtido y entregado.",
+          "buildLabel": "Construcción",
+          "build": "Un sistema de gestión farmacéutica vinculado a las recetas médicas, con paneles de administración para que las farmacias procesen y despachen pedidos.",
+          "stackLabel": "Tecnología",
+          "stack": ["React", "Node.js", "MongoDB"],
+          "resultLabel": "Resultado",
+          "result": "Sistema en vivo que conecta las recetas con la gestión farmacéutica y la entrega."
         }
       ],
       "note": "Estos son nuestros propios productos y plataformas — construidos, lanzados y mantenidos internamente. El trabajo de clientes se presentará aquí a medida que se completen los proyectos.",

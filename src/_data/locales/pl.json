@@ -629,6 +629,30 @@
           "stack": ["Generowanie statyczne", "CDN", "Ustrukturyzowany routing i18n"],
           "resultLabel": "Rezultat",
           "result": "Każda strona dostępna w 11 językach z czystymi, indeksowalnymi adresami URL."
+        },
+        {
+          "type": "Aplikacja Zdrowotna (Wewnętrzna)",
+          "title": "4eDoctor",
+          "challengeLabel": "Wyzwanie",
+          "challenge": "Pacjenci potrzebowali dostępu do konsultacji medycznych — z lekarzami, psychologami i pielęgniarkami — bez czasu oczekiwania i utrudnień związanych z wizytami osobistymi.",
+          "buildLabel": "Realizacja",
+          "build": "Platforma telemedyczna z konsultacjami wideo i głosowymi w HD, czatem podczas rozmowy, rezerwacją wizyt i lokalnymi opcjami płatności.",
+          "stackLabel": "Technologia",
+          "stack": ["Flutter", "Firebase", "Agora", "ZEGOCLOUD"],
+          "resultLabel": "Rezultat",
+          "result": "Działający produkt umożliwiający pacjentom rezerwację i konsultację z lekarzem z dowolnego miejsca, o dowolnej porze."
+        },
+        {
+          "type": "Aplikacja Dostawy na Żądanie (Wewnętrzna)",
+          "title": "4eZone Pharmacy",
+          "challengeLabel": "Wyzwanie",
+          "challenge": "Pacjenci posiadający receptę lekarską nie mieli szybkiego sposobu na zrealizowanie i dostarczenie leków.",
+          "buildLabel": "Realizacja",
+          "build": "System realizacji recept powiązany z receptami lekarskimi, z panelami administracyjnymi umożliwiającymi aptekom przetwarzanie i wysyłkę zamówień.",
+          "stackLabel": "Technologia",
+          "stack": ["React", "Node.js", "MongoDB"],
+          "resultLabel": "Rezultat",
+          "result": "Działający system łączący recepty z realizacją w aptece i dostawą."
         }
       ],
       "note": "To są nasze własne produkty i platformy — zbudowane, wdrożone i utrzymywane wewnętrznie. Prace dla klientów będą prezentowane tutaj w miarę ich ukończenia.",

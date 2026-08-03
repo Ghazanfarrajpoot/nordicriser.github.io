@@ -629,6 +629,30 @@
           "stack": ["Static generation", "CDN", "Structured i18n routing"],
           "resultLabel": "Result",
           "result": "Every page available in 11 languages with clean, indexable URLs."
+        },
+        {
+          "type": "Healthcare App (In-House)",
+          "title": "4eDoctor",
+          "challengeLabel": "Challenge",
+          "challenge": "Patients needed access to medical consultations — with doctors, psychologists, and nurses — without the wait times and friction of in-person visits.",
+          "buildLabel": "Build",
+          "build": "A telemedicine platform with HD video and voice consultations, in-call chat, appointment booking, and local payment options.",
+          "stackLabel": "Stack",
+          "stack": ["Flutter", "Firebase", "Agora", "ZEGOCLOUD"],
+          "resultLabel": "Result",
+          "result": "Live product letting patients book and consult a doctor from anywhere, at any time."
+        },
+        {
+          "type": "On-Demand Delivery App (In-House)",
+          "title": "4eZone Pharmacy",
+          "challengeLabel": "Challenge",
+          "challenge": "Patients with a doctor's prescription had no fast way to get their medicine fulfilled and delivered.",
+          "buildLabel": "Build",
+          "build": "A pharmacy fulfillment system linked to doctor prescriptions, with admin dashboards for pharmacies and chemists to process and dispatch orders.",
+          "stackLabel": "Stack",
+          "stack": ["React", "Node.js", "MongoDB"],
+          "resultLabel": "Result",
+          "result": "Live system connecting prescriptions to pharmacy fulfillment and delivery."
         }
       ],
       "note": "These are our own products and platforms — built, launched, and maintained in-house. Client work will be featured here as engagements are completed.",

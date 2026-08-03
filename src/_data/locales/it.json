@@ -629,6 +629,30 @@
           "stack": ["Generazione statica", "CDN", "Routing i18n strutturato"],
           "resultLabel": "Risultato",
           "result": "Ogni pagina disponibile in 11 lingue con URL puliti e indicizzabili."
+        },
+        {
+          "type": "App Sanitaria (Interna)",
+          "title": "4eDoctor",
+          "challengeLabel": "Sfida",
+          "challenge": "I pazienti avevano bisogno di accedere a consulti medici — con medici, psicologi e infermieri — senza le attese e la frizione delle visite in presenza.",
+          "buildLabel": "Realizzazione",
+          "build": "Una piattaforma di telemedicina con consulti video e vocali in HD, chat durante la chiamata, prenotazione degli appuntamenti e opzioni di pagamento locali.",
+          "stackLabel": "Tecnologia",
+          "stack": ["Flutter", "Firebase", "Agora", "ZEGOCLOUD"],
+          "resultLabel": "Risultato",
+          "result": "Prodotto live che permette ai pazienti di prenotare e consultare un medico da qualsiasi luogo, in qualsiasi momento."
+        },
+        {
+          "type": "App di Consegna On-Demand (Interna)",
+          "title": "4eZone Pharmacy",
+          "challengeLabel": "Sfida",
+          "challenge": "I pazienti con una prescrizione medica non avevano un modo rapido per farsi preparare e consegnare i farmaci.",
+          "buildLabel": "Realizzazione",
+          "build": "Un sistema di evasione farmaceutica collegato alle prescrizioni mediche, con dashboard di amministrazione per le farmacie per elaborare e spedire gli ordini.",
+          "stackLabel": "Tecnologia",
+          "stack": ["React", "Node.js", "MongoDB"],
+          "resultLabel": "Risultato",
+          "result": "Sistema live che collega le prescrizioni all'evasione farmaceutica e alla consegna."
         }
       ],
       "note": "Questi sono i nostri stessi prodotti e piattaforme — sviluppati, lanciati e mantenuti internamente. I lavori per i clienti verranno presentati qui man mano che gli incarichi saranno completati.",

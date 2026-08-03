@@ -629,6 +629,30 @@
           "stack": ["Statische generatie", "CDN", "Gestructureerde i18n-routering"],
           "resultLabel": "Resultaat",
           "result": "Elke pagina beschikbaar in 11 talen met schone, indexeerbare URL's."
+        },
+        {
+          "type": "Zorg-app (Intern)",
+          "title": "4eDoctor",
+          "challengeLabel": "Uitdaging",
+          "challenge": "Patiënten hadden toegang nodig tot medische consulten — met artsen, psychologen en verpleegkundigen — zonder de wachttijden en frictie van fysieke bezoeken.",
+          "buildLabel": "Bouw",
+          "build": "Een telemedicineplatform met HD-video- en spraakconsulten, chat tijdens het gesprek, afsprakenplanning en lokale betaalopties.",
+          "stackLabel": "Techniek",
+          "stack": ["Flutter", "Firebase", "Agora", "ZEGOCLOUD"],
+          "resultLabel": "Resultaat",
+          "result": "Live product waarmee patiënten overal en op elk moment een arts kunnen boeken en raadplegen."
+        },
+        {
+          "type": "On-demand Bezorgapp (Intern)",
+          "title": "4eZone Pharmacy",
+          "challengeLabel": "Uitdaging",
+          "challenge": "Patiënten met een doktersrecept hadden geen snelle manier om hun medicatie te laten verwerken en bezorgen.",
+          "buildLabel": "Bouw",
+          "build": "Een apotheekverwerkingssysteem gekoppeld aan doktersrecepten, met adminpanelen voor apotheken om bestellingen te verwerken en te verzenden.",
+          "stackLabel": "Techniek",
+          "stack": ["React", "Node.js", "MongoDB"],
+          "resultLabel": "Resultaat",
+          "result": "Live systeem dat recepten koppelt aan apotheekverwerking en bezorging."
         }
       ],
       "note": "Dit zijn onze eigen producten en platforms — intern gebouwd, gelanceerd en onderhouden. Klantwerk wordt hier uitgelicht zodra trajecten zijn afgerond.",

@@ -629,6 +629,30 @@
           "stack": ["Génération statique", "CDN", "Routage i18n structuré"],
           "resultLabel": "Résultat",
           "result": "Chaque page disponible en 11 langues avec des URL propres et indexables."
+        },
+        {
+          "type": "Application de santé (interne)",
+          "title": "4eDoctor",
+          "challengeLabel": "Défi",
+          "challenge": "Les patients avaient besoin d'accéder à des consultations médicales — avec des médecins, des psychologues et des infirmiers — sans les délais d'attente et les contraintes des visites en personne.",
+          "buildLabel": "Réalisation",
+          "build": "Une plateforme de télémédecine avec consultations vidéo et audio en HD, chat pendant l'appel, prise de rendez-vous et options de paiement locales.",
+          "stackLabel": "Technologie",
+          "stack": ["Flutter", "Firebase", "Agora", "ZEGOCLOUD"],
+          "resultLabel": "Résultat",
+          "result": "Produit en ligne permettant aux patients de prendre rendez-vous et de consulter un médecin de n'importe où, à tout moment."
+        },
+        {
+          "type": "Application de livraison à la demande (interne)",
+          "title": "4eZone Pharmacy",
+          "challengeLabel": "Défi",
+          "challenge": "Les patients munis d'une ordonnance n'avaient aucun moyen rapide de faire préparer et livrer leurs médicaments.",
+          "buildLabel": "Réalisation",
+          "build": "Un système de traitement pharmaceutique lié aux ordonnances médicales, avec des tableaux de bord d'administration permettant aux pharmacies de traiter et d'expédier les commandes.",
+          "stackLabel": "Technologie",
+          "stack": ["React", "Node.js", "MongoDB"],
+          "resultLabel": "Résultat",
+          "result": "Système en ligne reliant les ordonnances au traitement pharmaceutique et à la livraison."
         }
       ],
       "note": "Il s'agit de nos propres produits et plateformes — conçus, lancés et maintenus en interne. Les travaux clients seront présentés ici au fur et à mesure de leur achèvement.",

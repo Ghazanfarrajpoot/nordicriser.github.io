@@ -629,6 +629,30 @@
           "stack": ["Statische Generierung", "CDN", "Strukturiertes i18n-Routing"],
           "resultLabel": "Ergebnis",
           "result": "Jede Seite in 11 Sprachen mit sauberen, indexierbaren URLs verfügbar."
+        },
+        {
+          "type": "Gesundheits-App (intern entwickelt)",
+          "title": "4eDoctor",
+          "challengeLabel": "Herausforderung",
+          "challenge": "Patientinnen und Patienten benötigten Zugang zu medizinischen Konsultationen — mit Ärzten, Psychologen und Pflegekräften — ohne Wartezeiten und Aufwand persönlicher Termine.",
+          "buildLabel": "Umsetzung",
+          "build": "Eine Telemedizin-Plattform mit HD-Video- und Sprachkonsultationen, Chat während des Anrufs, Terminbuchung und lokalen Zahlungsoptionen.",
+          "stackLabel": "Technologie",
+          "stack": ["Flutter", "Firebase", "Agora", "ZEGOCLOUD"],
+          "resultLabel": "Ergebnis",
+          "result": "Live-Produkt, mit dem Patienten von überall und jederzeit einen Arzt buchen und konsultieren können."
+        },
+        {
+          "type": "On-Demand-Lieferapp (intern entwickelt)",
+          "title": "4eZone Pharmacy",
+          "challengeLabel": "Herausforderung",
+          "challenge": "Patienten mit einem ärztlichen Rezept hatten keine schnelle Möglichkeit, ihre Medikamente ausgeben und liefern zu lassen.",
+          "buildLabel": "Umsetzung",
+          "build": "Ein Apotheken-Abwicklungssystem, das mit ärztlichen Rezepten verknüpft ist, mit Admin-Dashboards für Apotheken zur Bearbeitung und zum Versand von Bestellungen.",
+          "stackLabel": "Technologie",
+          "stack": ["React", "Node.js", "MongoDB"],
+          "resultLabel": "Ergebnis",
+          "result": "Live-System, das Rezepte mit Apothekenabwicklung und Lieferung verbindet."
         }
       ],
       "note": "Dies sind unsere eigenen Produkte und Plattformen — intern entwickelt, gelauncht und gepflegt. Mandantenprojekte werden hier vorgestellt, sobald sie abgeschlossen sind.",
