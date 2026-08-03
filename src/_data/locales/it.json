@@ -6,6 +6,8 @@
     "readMore": "Leggi di più →",
     "requestQuote": "Richiedi un Preventivo",
     "signUp": "Registrati",
+    "builtWith": "Costruito con:",
+    "startProject": "Avvia un Progetto",
     "emailLabel": "Email",
     "websiteLabel": "Sito Web",
     "home": "Home",
@@ -14,7 +16,8 @@
   "nav": {
     "home": "Home",
     "consulting": "Consulenza",
-    "itServices": "Servizi IT",
+    "itServices": "Servizi",
+    "work": "Lavori",
     "globalReach": "Global Reach",
     "about": "Chi Siamo",
     "contact": "Contatti",
@@ -22,7 +25,7 @@
     "languageLabel": "Lingua"
   },
   "footer": {
-    "brandBlurb": "Uno studio di consulenza internazionale che offre consulenza strutturata, tecnologia e collaborazione globale per imprenditori e professionisti che costruiscono una presenza legalmente conforme in Europa.",
+    "brandBlurb": "Nordic Riser AB è uno studio di software con sede a Stoccolma che sviluppa piattaforme web multilingue, portali clienti sicuri e prodotti transfrontalieri per aziende che operano in più di una lingua.",
     "addressHeading": "Sede Legale",
     "orgNrLabel": "N. di Registrazione",
     "orgNrValue": "[ORG_NR]",
@@ -39,7 +42,7 @@
         { "label": "Strategia di Trasferimento", "anchor": "relocation" },
         { "label": "Consulenza Transfrontaliera", "anchor": "international" }
       ],
-      "itServicesHeading": "Servizi IT",
+      "itServicesHeading": "Servizi",
       "itServicesLinks": [
         { "label": "Piattaforme web e portali" },
         { "label": "Automazione e integrazioni" },
@@ -62,150 +65,130 @@
   },
   "pages": {
     "home": {
+      "meta": {
+        "title": "Studio di Software per Aziende Transfrontaliere — Nordic Riser AB",
+        "description": "Studio di software con sede a Stoccolma che sviluppa piattaforme web multilingue, portali clienti sicuri e prodotti su misura per aziende che operano tra lingue e mercati diversi."
+      },
       "hero": {
-        "label": "Una Piattaforma, Tre Pilastri",
-        "h1": "Il Tuo Accesso alla Svezia — e al Mondo",
-        "body": "Consulenza, tecnologia e collaborazione globale in un'unica soluzione — pensata per imprenditori internazionali, professionisti e le imprese che costituiscono.",
-        "cta": "Prenota una Consulenza",
-        "ctaSecondary": "Scopri Global Reach"
+        "label": "Software · Piattaforme · Prodotti",
+        "h1": "Sviluppiamo Software per Aziende che Attraversano i Confini",
+        "body": "Piattaforme web multilingue, portali clienti sicuri e prodotti su misura — progettati e sviluppati a Stoccolma per aziende che operano tra lingue, valute e giurisdizioni diverse.",
+        "cta": "Guarda i Nostri Lavori",
+        "ctaSecondary": "Avvia un Progetto"
       },
-      "pillars": {
-        "label": "Cosa Offriamo",
-        "title": "Tre Pilastri. Una Piattaforma.",
-        "sub": "Qualunque sia la tua fase — costituire un'impresa, sviluppare la tecnologia che la sostiene, o entrare in contatto con consulenti e altri professionisti — esiste un pilastro pensato per questo.",
-        "consulting": {
-          "icon": "briefcase",
-          "title": "Consulenza",
-          "promise": "Consulenza strutturata e conforme in materia societaria e di trasferimento per imprenditori internazionali.",
-          "bullets": [
-            "Strategia di costituzione d'impresa e formazione societaria",
-            "Pianificazione del trasferimento e della residenza tramite attività d'impresa",
-            "Consulenza transfrontaliera per operazioni multi-giurisdizionali"
-          ]
-        },
-        "itServices": {
-          "icon": "code",
-          "title": "Servizi IT",
-          "promise": "Piattaforme web e sistemi gestionali sviluppati per le aziende che aiutiamo a costituire.",
-          "bullets": [
-            "Siti web aziendali e portali clienti",
-            "Automazione dei flussi di lavoro e integrazioni",
-            "Assistenza e manutenzione continuativa"
-          ]
-        },
-        "globalReach": {
-          "icon": "globe",
-          "title": "Global Reach",
-          "promise": "Stanze live con lavagne condivise e chat tradotta in tempo reale — collabora oltre confine su studio, ricerca e progetti.",
-          "bullets": [
-            "Lavagne condivise per la collaborazione live",
-            "Chat tradotta in diretta tra le lingue",
-            "100 messaggi gratuiti, nessuna carta richiesta"
-          ],
-          "badge": "100 messaggi gratuiti",
-          "cta": "Inizia gratis — 100 messaggi"
-        },
-        "learnMore": "Scopri di più →"
-      },
-      "whatWeDo": {
-        "label": "Cosa Facciamo",
-        "title": "Consulenza Strategica in Cinque Aree Fondamentali",
-        "sub": "Offriamo consulenza strutturata su tutto lo spettro della costituzione d'impresa internazionale e del trasferimento professionale — senza consigli generici.",
-        "services": [
-          { "icon": "briefcase", "title": "Costituzione d'Impresa", "body": "Guida strutturata sulla scelta della forma giuridica, sulle procedure di registrazione e sulla conformità operativa per imprenditori internazionali che entrano nei mercati europei.", "note": "Specializzati nell'assistenza a investitori extra-UE in cerca di un accesso sicuro ai mercati europei.", "anchor": "establishment" },
-          { "icon": "clipboard", "title": "Strategia di Formazione Societaria", "body": "Pianificazione strategica della struttura societaria più adatta in base al tuo modello di business, ai requisiti di proprietà e agli obiettivi di lungo periodo.", "anchor": "formation" },
-          { "icon": "world", "title": "Strategia di Residenza tramite Attività d'Impresa e Trasferimento Familiare", "body": "Consulenza su percorsi legittimi di trasferimento basati sull'attività d'impresa per te e la tua famiglia, in linea con i quadri normativi e pensati per esiti di residenza sostenibili.", "anchor": "relocation" },
-          { "icon": "link", "title": "Consulenza Transfrontaliera", "body": "Coordinamento delle considerazioni multi-giurisdizionali, incluse fiscalità, conformità e strutture legali, per professionisti e aziende attivi a livello internazionale.", "note": "Assistenza strategica in materia di conformità bancaria europea e strutturazione di capitali internazionali.", "anchor": "international" },
-          { "icon": "chart", "title": "Business Planning per Imprenditori", "body": "Sviluppo di business plan strutturati e pacchetti documentali su misura per soddisfare i requisiti delle autorità e delle istituzioni europee.", "anchor": "documentation" }
-        ]
-      },
-      "globalReachTeaser": {
-        "label": "Global Reach",
-        "title": "Collabora oltre confine — gratis per iniziare",
-        "body": "Stanze live con lavagne condivise e chat tradotta in tempo reale. I tuoi primi 100 messaggi sono gratuiti — nessuna carta richiesta.",
-        "cta": "Inizia gratis — 100 messaggi",
-        "mockCaption": "Anteprima illustrativa",
-        "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
-        "chatTranslated": "Il file è pronto per la revisione",
-        "chatTag": "Tradotto dall'urdu"
-      },
-      "leadCapture": {
-        "title": "Non sei ancora pronto per una consulenza? Inizia con la nostra guida gratuita.",
-        "bodyPrefix": "Scarica:",
-        "guideTitle": "Costituzione d'Impresa in Europa — Una Panoramica Strutturata per Imprenditori Internazionali",
-        "placeholder": "Il tuo indirizzo email",
-        "button": "Inviami la Guida"
-      },
-      "whoWeWorkWith": {
-        "label": "Con Chi Lavoriamo",
-        "title": "Pensati per Professionisti a Vocazione Internazionale",
-        "sub": "I nostri clienti provengono da contesti professionali e geografici diversi. Ciò che condividono è l'ambizione strutturata di costituire una presenza d'impresa credibile in Europa.",
-        "audiences": [
-          { "tag": "Imprenditori", "title": "Fondatori d'Impresa in Pianificazione per l'Europa", "body": "Persone con attività già avviate o in fase iniziale che esplorano l'ingresso nel mercato europeo attraverso una struttura d'impresa conforme." },
-          { "tag": "Liberi Professionisti", "title": "Professionisti Indipendenti Attivi a Livello Globale", "body": "Professionisti qualificati che offrono servizi a livello internazionale e necessitano di una struttura d'impresa legalmente solida e di un percorso di residenza strutturato." },
-          { "tag": "Professionisti", "title": "Dirigenti con Mobilità Internazionale", "body": "Professionisti senior in transizione tra mercati diversi che necessitano di un quadro chiaro e strutturato per il proprio trasferimento professionale e personale." },
-          { "tag": "Titolari di PMI", "title": "Titolari di Piccole Imprese in Espansione verso l'Europa", "body": "Imprenditori che desiderano costituire una base operativa europea, accedere a nuovi mercati o ristrutturare la propria presenza societaria internazionale." }
-        ]
-      },
-      "process": {
-        "label": "Il Nostro Processo",
-        "title": "Un Modello di Collaborazione Chiaro in Quattro Fasi",
-        "sub": "Ogni incarico segue una metodologia strutturata pensata per garantire chiarezza, conformità e risultati concreti in ogni fase.",
-        "steps": [
-          { "title": "Consulenza Strategica", "body": "Conduciamo una valutazione strutturata del tuo profilo, dei tuoi obiettivi e dei tuoi vincoli per individuare il percorso più praticabile e conforme." },
-          { "title": "Pianificazione della Struttura Societaria", "body": "In base ai tuoi obiettivi, progettiamo un quadro societario e operativo su misura — comprensivo di forma giuridica, giurisdizione e requisiti di conformità." },
-          { "title": "Sviluppo della Strategia di Trasferimento", "body": "Elaboriamo una strategia documentata di trasferimento e residenza allineata al tuo business plan, garantendo che tutti i requisiti istituzionali siano pienamente soddisfatti." },
-          { "title": "Attuazione con Partner Professionali", "body": "Coordiniamo l'attuazione insieme a professionisti legali, contabili e specialistici qualificati — garantendo precisione, conformità e comunicazione chiara in ogni fase." }
-        ]
-      },
-      "whyChooseUs": {
-        "label": "Perché i Clienti Ci Scelgono",
-        "title": "Uno Studio di Consulenza Fondato su Standard Professionali",
-        "sub": "Operiamo con un approccio incentrato sulla conformità normativa. Il nostro valore risiede nella qualità della nostra consulenza strategica, non in promesse sui risultati.",
-        "cards": [
-          { "title": "Un Approccio di Consulenza Professionale", "body": "Ogni incarico è strutturato, documentato e gestito con il rigore di uno studio di consulenza professionale — non un servizio di consulenza generico." },
-          { "title": "Solo Strutture Legali e Conformi", "body": "Operiamo esclusivamente all'interno di quadri giuridici consolidati. Le nostre strategie sono difendibili, trasparenti e allineate agli standard istituzionali." },
-          { "title": "Guida Strategica, Non Consigli Generici", "body": "Le nostre raccomandazioni sono specifiche per la tua situazione. Non offriamo soluzioni predefinite né programmi standardizzati." },
-          { "title": "Supporto Duraturo e Orientato al Business", "body": "Adottiamo una visione di lungo periodo nelle relazioni con i clienti. Il nostro obiettivo è garantire risultati sostenibili che servano nel tempo i tuoi interessi professionali e imprenditoriali." }
-        ]
-      },
-      "trust": {
-        "label": "La Fiducia di Imprenditori Internazionali",
-        "title": "Una Reputazione Costruita su Struttura e Conformità",
-        "sub": "Uno studio di consulenza pensato per la credibilità transfrontaliera, incarichi strutturati e piena conformità normativa.",
-        "orgNrLabel": "N. di Registrazione",
-        "orgNrValue": "[ORG_NR]",
+      "proofBar": {
         "stats": [
-          { "number": "Clienti Transfrontalieri", "label": "Imprenditori e Professionisti in Tutta Europa" },
-          { "number": "3 Aree di Servizio", "label": "Consulenza, IT e Global Reach" },
-          { "number": "Stoccolma, Svezia", "label": "Con Sede e Regolamentazione nell'UE" },
-          { "number": "Conformità al Primo Posto", "label": "In Ogni Incarico" }
-        ],
-        "testimonials": [
-          { "quote": "Nordic Riser ci ha fornito un percorso chiaro e strutturato quando non sapevamo da dove iniziare. La nostra società svedese è stata costituita entro i tempi indicati.", "author": "Imprenditore, Pakistan", "meta": "Impresa costituita in Svezia, 2025" },
-          { "quote": "Il livello di professionalità e di documentazione fornito ha reso molto più semplici i nostri incontri in banca. Senza la loro guida non sarei riuscito a gestire questo processo.", "author": "Professionista Indipendente, EAU", "meta": "Trasferito in Europa, 2024" }
+          { "value": "11", "label": "Lingue Rilasciate in Produzione" },
+          { "value": "2", "label": "Prodotti Sviluppati Internamente" },
+          { "value": "Stoccolma, Svezia", "label": "Sede a" },
+          { "value": "Design → Sviluppo → Supporto", "label": "Approccio" }
         ]
+      },
+      "whatWeBuild": {
+        "label": "Servizi",
+        "title": "Quattro Cose che Facciamo Bene",
+        "cards": [
+          { "icon": "globe", "title": "Piattaforme Web Multilingue", "body": "Siti di produzione costruiti per funzionare in ogni mercato che servi. Hreflang corretto, supporto RTL, struttura dei contenuti localizzata — non traduzioni automatiche ripensate in seguito.", "builtWith": "Generazione di siti statici, distribuzione CDN, tempi di caricamento inferiori al secondo" },
+          { "icon": "lock", "title": "Portali Clienti Sicuri", "body": "Portali autenticati per lo scambio di documenti, il monitoraggio delle pratiche e la comunicazione con i clienti. Accesso basato sui ruoli, archiviazione crittografata, tracciamento di controllo.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
+          { "icon": "code", "title": "Prodotti su Misura & SaaS", "body": "Sviluppo completo del prodotto, dal concetto al lancio. Funzionalità in tempo reale, fatturazione in abbonamento, strumenti di amministrazione.", "seeLabel": "Vedi:", "seeText": "Global Reach — la nostra piattaforma di collaborazione con traduzione dal vivo", "seeLink": "global-reach" },
+          { "icon": "gear", "title": "Automazione & Integrazioni", "body": "Collega gli strumenti che già usi. Elimina la doppia immissione manuale. Automatizza i flussi di lavoro che divorano la settimana del tuo team.", "builtWith": "API, webhook, funzioni serverless" }
+        ]
+      },
+      "featuredWork": {
+        "label": "Lavori Selezionati",
+        "title": "Cosa Abbiamo Costruito",
+        "items": [
+          { "type": "Prodotto SaaS (Interno)", "title": "Global Reach", "oneLiner": "Stanze di collaborazione dal vivo con lavagne condivise e chat tradotta in tempo reale tra le lingue.", "link": "global-reach" },
+          { "type": "Portale Clienti Sicuro", "title": "Portale Membri Nordic Riser", "oneLiner": "Un portale autenticato per lo scambio di documenti, il monitoraggio delle pratiche, la messaggistica sicura e i pagamenti.", "link": "work" },
+          { "type": "Piattaforma di Marketing Multilingue", "title": "nordicriser.com", "oneLiner": "Un sito di produzione in undici lingue con supporto RTL, copertura meta completa e URL puliti per ogni lingua.", "link": "work" }
+        ],
+        "cta": "Vedi Tutti i Lavori",
+        "ctaLink": "work"
+      },
+      "productSpotlight": {
+        "label": "Il Nostro Prodotto",
+        "title": "Global Reach — Collaborazione Senza Barriera Linguistica",
+        "body": "Stanze dal vivo con lavagne condivise e chat tradotta in tempo reale. Progettato per gruppi di studio, team di ricerca e lavori di progetto che coinvolgono più paesi.",
+        "bullets": [
+          "Lavagne condivise per la collaborazione dal vivo",
+          "Chat tradotta in diretta tra le lingue",
+          "I primi 100 messaggi gratuiti — nessuna carta richiesta"
+        ],
+        "cta": "Inizia gratis — 100 messaggi"
+      },
+      "howWeWork": {
+        "label": "Processo",
+        "title": "Dal Brief al Lancio — e Oltre",
+        "steps": [
+          { "title": "Scoperta", "body": "Mappiamo ciò di cui hai davvero bisogno prima di scrivere una sola riga di codice. Ambito, utenti, vincoli, criteri di successo — documentati e concordati." },
+          { "title": "Design & Architettura", "body": "Design dell'interfaccia e architettura tecnica in parallelo. Vedi e approvi la forma del prodotto prima che venga costruito." },
+          { "title": "Sviluppo", "body": "Sviluppo iterativo con anteprime funzionanti a ogni fase. Nessun silenzio da scatola nera di sei settimane." },
+          { "title": "Lancio", "body": "Distribuzione, configurazione di dominio e SSL, analitica e documentazione di consegna. Tu possiedi tutto." },
+          { "title": "Supporto", "body": "Manutenzione, monitoraggio e aggiornamenti continui. Le piattaforme non restano sane da sole." }
+        ]
+      },
+      "technology": {
+        "label": "Tecnologia",
+        "title": "Con Cosa Costruiamo",
+        "groups": [
+          { "category": "Frontend", "items": "React, Vite, CSS moderno" },
+          { "category": "Backend & Dati", "items": "Node.js, Firebase, Firestore" },
+          { "category": "Infrastruttura", "items": "Firebase Hosting, distribuzione CDN, SSL automatizzato" },
+          { "category": "Autenticazione & Sicurezza", "items": "Firebase Authentication, controllo degli accessi basato sui ruoli, archiviazione crittografata" },
+          { "category": "Pratiche", "items": "Controllo versione Git, distribuzioni graduali, gestione dei dati conforme al GDPR" }
+        ]
+      },
+      "whyUs": {
+        "label": "Perché Nordic Riser",
+        "title": "Uno Studio che Capisce il Business, Non Solo la Costruzione",
+        "cards": [
+          { "icon": "globe", "title": "Parliamo le Lingue del Tuo Mercato — Letteralmente", "body": "Il multilinguismo è il nostro standard predefinito, non un plugin aggiunto alla fine. RTL, routing localizzato e flussi di traduzione sono integrati fin dall'inizio." },
+          { "icon": "code", "title": "Gestiamo i Nostri Propri Prodotti", "body": "Non siamo solo un'agenzia. Sviluppiamo, lanciamo e manteniamo software proprio — quindi progettiamo per le realtà della gestione di un prodotto, non solo della sua consegna." },
+          { "icon": "briefcase", "title": "Conosciamo il Business Transfrontaliero", "body": "La nostra divisione di consulenza assiste imprenditori internazionali nella costituzione di aziende in Europa. Quella conoscenza del settore confluisce in ogni piattaforma che costruiamo per loro." },
+          { "icon": "shield", "title": "Possiedi Tutto", "body": "Il tuo codice, i tuoi dati, i tuoi account. Nessun vincolo proprietario, nessuna infrastruttura ostaggio." }
+        ]
+      },
+      "consultingBand": {
+        "label": "Anche da Nordic Riser",
+        "title": "Consulenza per la Costituzione d'Impresa",
+        "body": "Accanto al nostro lavoro sul software, assistiamo imprenditori e professionisti internazionali nella costituzione di strutture d'impresa conformi in Europa — strategia di formazione societaria, pianificazione del trasferimento tramite attività d'impresa e consulenza transfrontaliera.",
+        "cta": "Scopri la Consulenza"
       },
       "finalCta": {
-        "title": "Pronto a Costruire la Tua Presenza d'Impresa in Europa?",
-        "body": "Parla con un consulente e ricevi una strategia strutturata basata sulla tua situazione, i tuoi obiettivi e il tuo profilo specifici."
+        "title": "Hai un Progetto in Mente?",
+        "body": "Raccontaci cosa stai costruendo. Torneremo da te con un ambito chiaro, una tempistica realistica e un prezzo fisso.",
+        "cta": "Avvia un Progetto"
       }
     },
     "about": {
-      "hero": { "label": "Chi Siamo", "h1": "Un'Azienda, Tre Divisioni — Fondate su Strategia e Conformità", "body": "Nordic Riser AB riunisce consulenza, tecnologia e collaborazione globale sotto lo stesso tetto — aiutando imprenditori e professionisti internazionali a costruire una presenza strutturata e conforme in Europa e a connettersi oltre confine." },
+      "hero": { "label": "Chi Siamo", "h1": "Uno Studio di Software a Stoccolma per Aziende che Attraversano i Confini", "body": "Nordic Riser AB progetta e sviluppa piattaforme web multilingue, portali clienti sicuri e prodotti su misura — supportati da competenze interne di consulenza aziendale che la maggior parte degli studi di software non ha." },
       "breadcrumb": "Chi Siamo",
       "whoWeAre": {
         "label": "Chi Siamo",
-        "title": "Un'Azienda Professionale al Servizio del Business Internazionale",
-        "intro1": "Nordic Riser AB è un'azienda internazionale organizzata in tre divisioni: la costituzione strategica d'impresa e il trasferimento professionale strutturato in Europa (Consulenza), le piattaforme web e i portali che fanno funzionare quelle imprese (Servizi IT), e stanze di collaborazione transfrontaliere dal vivo con traduzione in tempo reale (Global Reach). Un unico marchio, un unico team, tre modi per aiutare imprenditori e professionisti a crescere a livello internazionale.",
-        "intro2": "Il nostro lavoro di consulenza ha natura consulenziale. Non forniamo rappresentanza legale né servizi di immigrazione. Offriamo invece una guida strategica strutturata — unita al coordinamento di professionisti qualificati in ambito legale, contabile e regolamentare — per garantire che ogni processo intrapreso dai nostri clienti poggi su basi solide e difendibili.",
-        "mission": "«Aiutare imprenditori e professionisti internazionali a crescere in Europa — attraverso una consulenza strutturata, la tecnologia che fa funzionare le loro imprese, e una collaborazione diretta oltre confine.»",
-        "flagshipNote": "Le sezioni seguenti sono dedicate alla nostra divisione di punta, la Consulenza — la nostra divisione originaria e più consolidata. Scopri di più su Servizi IT e Global Reach nelle loro pagine dedicate."
+        "title": "Uno Studio di Software con Vera Competenza di Settore",
+        "intro1": "Nordic Riser AB è uno studio di software con sede a Stoccolma. Progettiamo e sviluppiamo piattaforme web multilingue, portali clienti sicuri e prodotti su misura per aziende che operano in più di una lingua, valuta o giurisdizione — inclusi i nostri stessi prodotti, come Global Reach.",
+        "intro2": "Ciò che ci distingue è da dove siamo partiti: assistere imprenditori internazionali nella costituzione di strutture d'impresa conformi in Europa. Quella pratica di consulenza è ancora attiva oggi, e la conoscenza di settore che ci offre — pensiero normativo, operatività transfrontaliera, documentazione di livello istituzionale — confluisce in ogni piattaforma che costruiamo.",
+        "mission": "«Sviluppare software che funzioni nel modo in cui le aziende transfrontaliere operano realmente — e portare vera competenza di settore in ogni piattaforma che consegniamo.»"
+      },
+      "whatWeDo": {
+        "label": "Cosa Facciamo",
+        "software": {
+          "title": "Software & Prodotti",
+          "body": "Piattaforme web multilingue, portali clienti sicuri, prodotti su misura e automazione dei flussi di lavoro — per i clienti, e per noi stessi.",
+          "cta": "Vedi i Nostri Servizi",
+          "link": "services"
+        },
+        "consulting": {
+          "title": "Consulenza",
+          "body": "Costituzione d'impresa e consulenza transfrontaliera per imprenditori internazionali — la nostra pratica originaria, ancora attiva oggi.",
+          "cta": "Scopri la Consulenza",
+          "link": "consulting"
+        }
       },
       "whyWeExist": {
-        "label": "Perché Siamo Nati",
+        "label": "Da Dove Siamo Partiti — La Nostra Pratica di Consulenza",
         "title": "Nati per Colmare un Vuoto Reale nella Consulenza Internazionale",
-        "sub": "Abbiamo riconosciuto che troppi professionisti a vocazione internazionale affrontavano processi complessi di costituzione d'impresa e trasferimento in Europa senza accesso a un supporto strategico strutturato e di livello professionale.",
+        "sub": "Prima di essere uno studio di software, abbiamo riconosciuto che troppi professionisti a vocazione internazionale affrontavano processi complessi di costituzione d'impresa e trasferimento in Europa senza accesso a un supporto strategico strutturato e di livello professionale.",
         "problemTitle": "Il Problema che Risolviamo",
         "problemParagraphs": [
           "Gli imprenditori e i professionisti internazionali si trovano spesso di fronte a consigli frammentari — informazioni generiche che non tengono conto del loro specifico modello di business, del loro percorso professionale o dei loro obiettivi di lungo periodo. Il risultato è una pianificazione carente, ritardi evitabili e strutture che non resistono al vaglio delle istituzioni.",
@@ -220,9 +203,9 @@
         ]
       },
       "approach": {
-        "label": "Il Nostro Approccio",
+        "label": "Il Nostro Approccio alla Consulenza",
         "title": "Prima la Strategia. Sempre la Struttura. Costante la Conformità.",
-        "sub": "La nostra metodologia è coerente in ogni incarico. Partiamo dalla strategia, costruiamo la struttura legale e operativa appropriata e coordiniamo l'attuazione con professionisti autorizzati.",
+        "sub": "Lo stesso rigore che applichiamo negli incarichi di consulenza — valutare prima, progettare la struttura, eseguire con cura — plasma anche il modo in cui pianifichiamo e sviluppiamo il software. Di seguito, come si traduce concretamente in un incarico di consulenza.",
         "items": [
           { "title": "Strategia Prima dell'Azione", "body": "Valutiamo a fondo la tua situazione specifica prima di formulare qualsiasi raccomandazione. La chiarezza strategica è il fondamento di ogni incarico di successo." },
           { "title": "Struttura Legale su Misura", "body": "Individuiamo il quadro legale e societario più adatto alla tua situazione — forma giuridica, giurisdizione e obblighi di conformità vengono determinati in modo sistematico." },
@@ -245,15 +228,15 @@
           { "icon": "ruler", "title": "Consulenza su Misura", "body": "Non applichiamo soluzioni predefinite. Ogni incarico è valutato individualmente e la strategia viene sviluppata in base alle circostanze e agli obiettivi specifici del cliente." }
         ]
       },
-      "missionBlock": { "label": "La Nostra Missione", "missionLabel": "Dichiarazione di Missione", "statement": "Aiutare imprenditori e professionisti internazionali a crescere in Europa e oltre — attraverso una consulenza strutturata, la tecnologia che fa funzionare le loro imprese, e una collaborazione diretta e transfrontaliera — supportata da guida professionale, processi documentati e pensiero strategico di lungo periodo." },
-      "cta": { "title": "Parla con un Consulente", "body": "Se stai valutando di costituire una presenza d'impresa in Europa, ti invitiamo a fissare una consulenza iniziale. Valuteremo la tua situazione e forniremo una panoramica strutturata del percorso da seguire." }
+      "missionBlock": { "label": "La Nostra Missione", "missionLabel": "Dichiarazione di Missione", "statement": "Sviluppare piattaforme multilingue, portali sicuri e prodotti transfrontalieri per aziende che operano in più di una lingua — supportati da vera competenza di settore, processi documentati e pensiero strategico di lungo periodo." },
+      "cta": { "title": "Hai un Progetto in Mente?", "body": "Raccontaci cosa stai costruendo — oppure, se stai costituendo un'impresa in Europa, raccontaci di quello. In entrambi i casi, torneremo da te con un passo successivo chiaro e strutturato.", "ctaSecondary": "Scopri la Consulenza" }
     },
     "contact": {
-      "hero": { "label": "Contattaci", "h1": "Fissa una Consulenza con il Nostro Team di Advisory", "body": "Le nostre consulenze sono strutturate e mirate a comprendere la tua situazione specifica prima di fornire qualsiasi indicazione strategica. Ti preghiamo di compilare il modulo sottostante per richiedere un primo incontro." },
+      "hero": { "label": "Contattaci", "h1": "Raccontaci del Tuo Progetto — o della Tua Situazione", "body": "Che tu stia sviluppando software o costituendo un'impresa in Europa, iniziamo capendo di cosa hai davvero bisogno. Compila il modulo sottostante e torneremo da te con un passo successivo chiaro e strutturato." },
       "breadcrumb": "Contatti",
       "form": {
-        "title": "Modulo di Richiesta Consulenza",
-        "intro": "Ti preghiamo di fornire informazioni accurate sulla tua situazione e sui tuoi obiettivi. Ciò ci consente di valutare se i nostri servizi sono pertinenti alle tue esigenze e di preparare una consulenza iniziale produttiva.",
+        "title": "Modulo Progetto e Richiesta",
+        "intro": "Ti preghiamo di fornire informazioni accurate sul tuo progetto o sulla tua situazione. Ciò ci consente di valutare l'ambito e preparare un primo confronto produttivo — che si tratti di un preventivo a prezzo fisso o di una consulenza strutturata.",
         "firstName": "Nome",
         "firstNamePlaceholder": "Il tuo nome",
         "lastName": "Cognome",
@@ -269,15 +252,37 @@
           { "value": "sme", "label": "Titolare di Piccola Impresa" },
           { "value": "other", "label": "Altro" }
         ],
-        "purpose": "Motivo della Consulenza",
+        "purpose": "Motivo della Richiesta",
         "purposeOptions": [
           { "value": "", "label": "Seleziona il motivo principale" },
-          { "value": "relocation", "label": "Strategia di Trasferimento d'Impresa" },
-          { "value": "formation", "label": "Pianificazione della Formazione Societaria" },
-          { "value": "businessplan", "label": "Redazione del Business Plan" },
-          { "value": "itservices", "label": "Richiesta Servizi IT" },
+          { "value": "website", "label": "Nuovo Sito Web o Piattaforma Web" },
+          { "value": "portal", "label": "Portale Clienti o Sistema Interno" },
+          { "value": "product", "label": "Prodotto su Misura / Sviluppo SaaS" },
+          { "value": "automation", "label": "Automazione & Integrazioni" },
+          { "value": "support", "label": "Manutenzione & Assistenza Continuativa" },
           { "value": "globalreach", "label": "Abbonamento Global Reach" },
+          { "value": "consulting", "label": "Consulenza per la Costituzione d'Impresa" },
           { "value": "general", "label": "Richiesta Generica" }
+        ],
+        "budget": "Budget Approssimativo",
+        "budgetOptions": [
+          { "value": "", "label": "Seleziona una fascia di budget" },
+          { "value": "under5k", "label": "Meno di 5.000 €" },
+          { "value": "5to15k", "label": "5.000 € – 15.000 €" },
+          { "value": "15to50k", "label": "15.000 € – 50.000 €" },
+          { "value": "50kplus", "label": "50.000 €+" },
+          { "value": "notsure", "label": "Non ancora sicuro" },
+          { "value": "na", "label": "Non applicabile" }
+        ],
+        "timeline": "Tempistica Desiderata",
+        "timelineOptions": [
+          { "value": "", "label": "Seleziona una tempistica desiderata" },
+          { "value": "asap", "label": "Il prima possibile" },
+          { "value": "1to3m", "label": "1–3 mesi" },
+          { "value": "3to6m", "label": "3–6 mesi" },
+          { "value": "6mplus", "label": "6+ mesi" },
+          { "value": "flexible", "label": "Flessibile / in fase di valutazione" },
+          { "value": "na", "label": "Non applicabile" }
         ],
         "message": "Breve Descrizione della Tua Situazione",
         "messagePlaceholder": "Descrivi la tua situazione attuale, i tuoi obiettivi ed eventuali domande specifiche. Più sei specifico, più sarà produttiva la nostra consulenza iniziale.",
@@ -288,6 +293,10 @@
       "success": { "title": "Richiesta Ricevuta", "body": "Grazie per aver inviato la tua richiesta di consulenza. Un membro del nostro team di advisory esaminerà le tue informazioni e ti risponderà entro 1–2 giorni lavorativi." },
       "sidebar": {
         "directContactHeading": "Contatto Diretto",
+        "phoneLabel": "Telefono",
+        "phoneValue": "[PHONE_NUMBER]",
+        "addressLabel": "Indirizzo",
+        "addressValue": "[STREET_ADDRESS], Stoccolma, Svezia",
         "hoursLabel": "Orari d'Ufficio",
         "hoursValue": "Lunedì – Venerdì, 09:00 – 17:00 CET",
         "nextHeading": "Cosa Succede Dopo",
@@ -534,8 +543,12 @@
       "cta": { "title": "Discuti le Tue Esigenze", "body": "Se stai pianificando di costituire una presenza d'impresa in Europa, ti invitiamo a fissare una consulenza. Valuteremo la tua situazione e forniremo una visione chiara e strutturata del percorso e dei servizi pertinenti ai tuoi obiettivi." }
     },
     "itServices": {
-      "hero": { "label": "Servizi IT", "h1": "Tecnologia Pensata per Imprese Internazionali", "body": "Progettiamo e sviluppiamo le piattaforme web, i portali e l'automazione su cui fanno affidamento le imprese che aiutiamo a costituire — con lo stesso approccio strutturato e attento alla conformità della nostra pratica di consulenza." },
-      "breadcrumb": "Servizi IT",
+      "meta": {
+        "title": "Piattaforme Web, Portali & Software su Misura — Nordic Riser AB",
+        "description": "Siti web multilingue, portali clienti sicuri, sviluppo di prodotti su misura e automazione dei flussi di lavoro. Costruito a Stoccolma, consegnato in tutto il mondo."
+      },
+      "hero": { "label": "Servizi", "h1": "Piattaforme Web, Portali & Software su Misura", "body": "Siti web multilingue, portali clienti sicuri, sviluppo di prodotti su misura e automazione dei flussi di lavoro. Costruito a Stoccolma, consegnato in tutto il mondo." },
+      "breadcrumb": "Servizi",
       "offeringsLabel": "Cosa Sviluppiamo",
       "offeringsTitle": "Quattro Offerte Fondamentali",
       "offeringsSub": "Dal primo sito web aziendale ai sistemi che gestiscono le operazioni quotidiane, sviluppiamo tecnologia che si adatta alla scala e alla fase della tua impresa.",
@@ -566,13 +579,60 @@
         "Accordi continuativi di hosting, monitoraggio e assistenza tecnica"
       ],
       "portfolioLabel": "Il Nostro Lavoro",
-      "portfolioTitle": "Questo Sito È il Portfolio",
-      "portfolioSub": "Invece di casi di studio di altri clienti, l'esempio più chiaro di ciò che sviluppiamo è quello che stai usando in questo momento.",
-      "portfolio": [
-        { "title": "nordicriser.com", "body": "Il sito di marketing multilingue che stai visitando — 11 lingue, sviluppato e mantenuto internamente." },
-        { "title": "Portale Membri Nordic Riser", "body": "Il portale clienti sicuro utilizzato dai nostri stessi membri Consulenza e Global Reach per documenti, messaggistica e monitoraggio pratiche." }
-      ],
+      "portfolioTitle": "Guarda Cosa Abbiamo Costruito",
+      "portfolioSub": "Invece di casi di studio di altri clienti, l'esempio più chiaro di ciò che sviluppiamo è quello che stai usando in questo momento — e i nostri stessi prodotti.",
+      "portfolioCta": "Vedi Tutti i Lavori",
       "cta": { "title": "Richiedi un Preventivo", "body": "Raccontaci della tua impresa e di cosa desideri sviluppare. Valuteremo l'ambito e forniremo un preventivo chiaro e strutturato — con lo stesso approccio che adottiamo per ogni incarico di consulenza." }
+    },
+    "work": {
+      "meta": {
+        "title": "I Nostri Lavori — Piattaforme, Portali & Prodotti — Nordic Riser AB",
+        "description": "Progetti selezionati di Nordic Riser AB: una piattaforma di collaborazione con traduzione in tempo reale, un portale clienti sicuro e un sito di produzione in undici lingue."
+      },
+      "hero": { "label": "Lavori Selezionati", "h1": "Cosa Abbiamo Costruito", "body": "Piattaforme, portali e prodotti che abbiamo progettato, sviluppato e consegnato — inclusi i nostri." },
+      "breadcrumb": "Lavori",
+      "caseStudies": [
+        {
+          "type": "Prodotto SaaS (Interno)",
+          "title": "Global Reach",
+          "challengeLabel": "Sfida",
+          "challenge": "Le persone che collaborano tra lingue diverse perdono significato nei ritardi di traduzione e nel passaggio tra strumenti diversi.",
+          "buildLabel": "Realizzazione",
+          "build": "Stanze di collaborazione dal vivo con lavagne condivise e chat tradotta in tempo reale tra le lingue, con un livello di accesso gratuito.",
+          "stackLabel": "Tecnologia",
+          "stack": ["React", "Sincronizzazione in tempo reale", "API di traduzione", "Fatturazione in abbonamento"],
+          "resultLabel": "Risultato",
+          "result": "Prodotto live con un livello gratuito di 100 messaggi, nessuna carta richiesta.",
+          "link": "global-reach",
+          "linkLabel": "Vedi il Prodotto"
+        },
+        {
+          "type": "Portale Clienti Sicuro",
+          "title": "Portale Membri Nordic Riser",
+          "challengeLabel": "Sfida",
+          "challenge": "I clienti della consulenza avevano bisogno di un unico luogo per documenti, stato delle pratiche e comunicazione — con un controllo degli accessi rigoroso.",
+          "buildLabel": "Realizzazione",
+          "build": "Portale autenticato con onboarding in più fasi, instradamento basato sui ruoli (membro contro amministratore), archivio documenti, messaggistica sicura, cronologia delle pratiche e centro pagamenti.",
+          "stackLabel": "Tecnologia",
+          "stack": ["React", "Firebase Authentication", "Firestore", "Cloud Storage", "Firebase Hosting"],
+          "resultLabel": "Risultato",
+          "result": "Live su portal.nordicriser.com con dominio personalizzato e SSL automatico."
+        },
+        {
+          "type": "Piattaforma di Marketing Multilingue",
+          "title": "nordicriser.com",
+          "challengeLabel": "Sfida",
+          "challenge": "Raggiungere imprenditori in Europa, Medio Oriente e Asia Meridionale nella loro lingua.",
+          "buildLabel": "Realizzazione",
+          "build": "Sito di produzione in undici lingue con struttura URL per lingua, supporto RTL per arabo e urdu, copertura meta e Open Graph completa, e un quadro di privacy conforme al GDPR.",
+          "stackLabel": "Tecnologia",
+          "stack": ["Generazione statica", "CDN", "Routing i18n strutturato"],
+          "resultLabel": "Risultato",
+          "result": "Ogni pagina disponibile in 11 lingue con URL puliti e indicizzabili."
+        }
+      ],
+      "note": "Questi sono i nostri stessi prodotti e piattaforme — sviluppati, lanciati e mantenuti internamente. I lavori per i clienti verranno presentati qui man mano che gli incarichi saranno completati.",
+      "cta": { "title": "Hai un Progetto in Mente?", "body": "Raccontaci cosa stai costruendo. Torneremo da te con un ambito chiaro, una tempistica realistica e un prezzo fisso.", "cta": "Avvia un Progetto" }
     },
     "globalReach": {
       "hero": {

@@ -6,6 +6,8 @@
     "readMore": "Lire la suite →",
     "requestQuote": "Demander un devis",
     "signUp": "S'inscrire",
+    "builtWith": "Construit avec :",
+    "startProject": "Démarrer un projet",
     "emailLabel": "E-mail",
     "websiteLabel": "Site web",
     "home": "Accueil",
@@ -14,7 +16,8 @@
   "nav": {
     "home": "Accueil",
     "consulting": "Conseil",
-    "itServices": "Services informatiques",
+    "itServices": "Services",
+    "work": "Réalisations",
     "globalReach": "Global Reach",
     "about": "À propos",
     "contact": "Contact",
@@ -22,7 +25,7 @@
     "languageLabel": "Langue"
   },
   "footer": {
-    "brandBlurb": "Un cabinet de conseil international proposant du conseil structuré, des solutions technologiques et une collaboration mondiale pour les entrepreneurs et professionnels qui construisent une présence légalement conforme en Europe.",
+    "brandBlurb": "Nordic Riser AB est un studio logiciel basé à Stockholm qui conçoit des plateformes web multilingues, des portails clients sécurisés et des produits transfrontaliers pour des entreprises opérant dans plusieurs langues.",
     "addressHeading": "Siège social",
     "orgNrLabel": "N° d'immatriculation",
     "orgNrValue": "[ORG_NR]",
@@ -39,7 +42,7 @@
         { "label": "Stratégie de relocalisation", "anchor": "relocation" },
         { "label": "Conseil transfrontalier", "anchor": "international" }
       ],
-      "itServicesHeading": "Services informatiques",
+      "itServicesHeading": "Services",
       "itServicesLinks": [
         { "label": "Plateformes web & portails" },
         { "label": "Automatisation & intégrations" },
@@ -62,150 +65,130 @@
   },
   "pages": {
     "home": {
+      "meta": {
+        "title": "Studio logiciel pour entreprises transfrontalières — Nordic Riser AB",
+        "description": "Studio logiciel basé à Stockholm concevant des plateformes web multilingues, des portails clients sécurisés et des produits sur mesure pour des entreprises opérant à travers langues et marchés."
+      },
       "hero": {
-        "label": "Une plateforme, trois piliers",
-        "h1": "Votre porte d'entrée vers la Suède — et le monde",
-        "body": "Conseil, technologie et collaboration mondiale réunis sous un même toit — conçus pour les entrepreneurs internationaux, les professionnels et les entreprises qu'ils créent.",
-        "cta": "Prendre rendez-vous pour une consultation",
-        "ctaSecondary": "Découvrir Global Reach"
+        "label": "Logiciel · Plateformes · Produits",
+        "h1": "Nous concevons des logiciels pour les entreprises qui franchissent les frontières",
+        "body": "Plateformes web multilingues, portails clients sécurisés et produits sur mesure — conçus et développés à Stockholm pour des entreprises opérant à travers langues, devises et juridictions.",
+        "cta": "Voir nos réalisations",
+        "ctaSecondary": "Démarrer un projet"
       },
-      "pillars": {
-        "label": "Ce que nous proposons",
-        "title": "Trois piliers. Une seule plateforme.",
-        "sub": "Quelle que soit votre étape — créer une entreprise, construire la technologie qui la soutient, ou échanger avec des conseillers et des pairs — un pilier a été conçu pour vous accompagner.",
-        "consulting": {
-          "icon": "briefcase",
-          "title": "Conseil",
-          "promise": "Conseil structuré et conforme en matière d'entreprise et de relocalisation pour les entrepreneurs internationaux.",
-          "bullets": [
-            "Stratégie d'établissement d'entreprise et de création de société",
-            "Planification de la relocalisation et de la résidence par l'activité économique",
-            "Conseil transfrontalier pour les opérations multi-juridictionnelles"
-          ]
-        },
-        "itServices": {
-          "icon": "code",
-          "title": "Services informatiques",
-          "promise": "Plateformes web et systèmes métier conçus pour les entreprises que nous aidons à créer.",
-          "bullets": [
-            "Sites web d'entreprise et portails clients",
-            "Automatisation des processus et intégrations",
-            "Support et maintenance continus"
-          ]
-        },
-        "globalReach": {
-          "icon": "globe",
-          "title": "Global Reach",
-          "promise": "Des salons en direct avec tableaux blancs partagés et un chat traduit en temps réel — collaborez au-delà des frontières pour étudier, chercher et mener des projets.",
-          "bullets": [
-            "Tableaux blancs partagés pour la collaboration en direct",
-            "Chat traduit en direct entre les langues",
-            "100 messages gratuits, sans carte bancaire"
-          ],
-          "badge": "100 messages gratuits",
-          "cta": "Essai gratuit — 100 messages"
-        },
-        "learnMore": "En savoir plus →"
-      },
-      "whatWeDo": {
-        "label": "Ce que nous faisons",
-        "title": "Un conseil stratégique dans cinq domaines clés",
-        "sub": "Nous proposons un accompagnement structuré couvrant l'ensemble du spectre de la création d'entreprise à l'international et de la relocalisation professionnelle — sans conseils génériques.",
-        "services": [
-          { "icon": "briefcase", "title": "Établissement d'entreprise", "body": "Un accompagnement structuré sur le choix de la forme juridique, les procédures d'immatriculation et la conformité opérationnelle pour les chefs d'entreprise internationaux qui souhaitent entrer sur les marchés européens.", "note": "Spécialement conçu pour les investisseurs non européens en quête d'une porte d'entrée sûre vers les marchés européens.", "anchor": "establishment" },
-          { "icon": "clipboard", "title": "Stratégie de création d'entreprise", "body": "Une planification stratégique de la structure sociétaire la plus adaptée, fondée sur votre modèle économique, vos exigences d'actionnariat et vos objectifs à long terme.", "anchor": "formation" },
-          { "icon": "world", "title": "Stratégie de résidence par l'activité économique et de relocalisation familiale", "body": "Un accompagnement sur les voies légitimes de relocalisation fondées sur l'activité économique, pour vous et votre famille, conformes aux cadres réglementaires et conçues pour des résultats de résidence durables.", "anchor": "relocation" },
-          { "icon": "link", "title": "Conseil transfrontalier", "body": "Coordination des enjeux multi-juridictionnels, notamment fiscaux, réglementaires et structurels, pour les professionnels et entreprises actifs à l'international.", "note": "Assistance stratégique en matière de conformité bancaire européenne et de structuration des capitaux internationaux.", "anchor": "international" },
-          { "icon": "chart", "title": "Planification d'entreprise pour entrepreneurs", "body": "Élaboration de plans d'affaires structurés et de dossiers documentaires répondant aux exigences des autorités et institutions européennes.", "anchor": "documentation" }
-        ]
-      },
-      "globalReachTeaser": {
-        "label": "Global Reach",
-        "title": "Collaborez au-delà des frontières — gratuit pour commencer",
-        "body": "Salons en direct avec tableaux blancs partagés et chat traduit en temps réel. Vos 100 premiers messages sont gratuits — sans carte bancaire.",
-        "cta": "Essai gratuit — 100 messages",
-        "mockCaption": "Aperçu illustratif",
-        "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
-        "chatTranslated": "Le fichier est prêt pour relecture",
-        "chatTag": "Traduit de l'ourdou"
-      },
-      "leadCapture": {
-        "title": "Pas encore prêt à consulter ? Commencez par notre guide gratuit.",
-        "bodyPrefix": "Télécharger :",
-        "guideTitle": "L'établissement d'une entreprise en Europe — Un panorama structuré pour les entrepreneurs internationaux",
-        "placeholder": "Votre adresse e-mail",
-        "button": "M'envoyer le guide"
-      },
-      "whoWeWorkWith": {
-        "label": "Avec qui nous travaillons",
-        "title": "Conçu pour les professionnels à vocation internationale",
-        "sub": "Nos clients viennent d'horizons professionnels et géographiques variés. Ce qu'ils partagent, c'est une ambition structurée d'établir une présence commerciale crédible en Europe.",
-        "audiences": [
-          { "tag": "Entrepreneurs", "title": "Fondateurs d'entreprise qui envisagent l'Europe", "body": "Des personnes portant des projets établis ou en phase de démarrage qui explorent une entrée sur le marché européen via une structure d'entreprise conforme." },
-          { "tag": "Freelances", "title": "Professionnels indépendants travaillant à l'international", "body": "Des professionnels qualifiés fournissant des services à l'international qui ont besoin d'une entité juridique solide et d'une approche structurée de la résidence." },
-          { "tag": "Professionnels", "title": "Cadres à mobilité internationale", "body": "Des cadres seniors en transition entre marchés qui ont besoin d'un cadre clair et structuré pour leur relocalisation professionnelle et personnelle." },
-          { "tag": "Dirigeants de PME", "title": "Dirigeants de petites entreprises en expansion vers l'Europe", "body": "Des chefs d'entreprise cherchant à établir une base opérationnelle européenne, à accéder à de nouveaux marchés ou à restructurer leur empreinte internationale." }
-        ]
-      },
-      "process": {
-        "label": "Notre méthode",
-        "title": "Un modèle d'accompagnement clair en quatre étapes",
-        "sub": "Chaque mission suit une méthodologie structurée conçue pour apporter clarté, conformité et résultats concrets à chaque étape.",
-        "steps": [
-          { "title": "Consultation stratégique", "body": "Nous procédons à une évaluation structurée de votre parcours, de vos objectifs et de vos contraintes afin d'identifier la voie la plus viable et conforme." },
-          { "title": "Planification de la structure d'entreprise", "body": "En fonction de vos objectifs, nous concevons un cadre sociétaire et opérationnel sur mesure — incluant le type d'entité, la juridiction et les exigences de conformité." },
-          { "title": "Élaboration de la stratégie de relocalisation", "body": "Nous élaborons une stratégie documentée de relocalisation et de résidence alignée sur votre plan d'affaires, garantissant que les exigences institutionnelles sont pleinement respectées." },
-          { "title": "Mise en œuvre avec des partenaires professionnels", "body": "Nous coordonnons la mise en œuvre avec des professionnels qualifiés du droit, de la comptabilité et d'autres spécialités — garantissant précision, conformité et communication claire à chaque étape." }
-        ]
-      },
-      "whyChooseUs": {
-        "label": "Pourquoi nos clients nous choisissent",
-        "title": "Un cabinet de conseil fondé sur des normes professionnelles",
-        "sub": "Nous adoptons une approche axée avant tout sur la conformité. Notre valeur réside dans la qualité de notre accompagnement stratégique, non dans des promesses de résultats.",
-        "cards": [
-          { "title": "Une approche de conseil professionnelle", "body": "Chaque mission est structurée, documentée et gérée avec la rigueur d'un cabinet de conseil professionnel — et non d'un service de conseil générique." },
-          { "title": "Uniquement des structures légales et conformes", "body": "Nous travaillons exclusivement dans le cadre de dispositifs juridiques établis. Nos stratégies sont défendables, transparentes et alignées sur les normes institutionnelles." },
-          { "title": "Un accompagnement stratégique, pas des conseils génériques", "body": "Nos recommandations sont spécifiques à votre situation. Nous ne proposons ni solutions types ni programmes standardisés." },
-          { "title": "Un accompagnement axé sur le long terme", "body": "Nous inscrivons nos relations clients dans la durée. Notre priorité est d'obtenir des résultats durables qui servent vos intérêts professionnels et commerciaux au fil du temps." }
-        ]
-      },
-      "trust": {
-        "label": "La confiance des entrepreneurs internationaux",
-        "title": "Un parcours fondé sur la rigueur et la conformité",
-        "sub": "Un cabinet de conseil bâti pour la crédibilité transfrontalière, des missions structurées et la conformité réglementaire.",
-        "orgNrLabel": "N° d'immatriculation",
-        "orgNrValue": "[ORG_NR]",
+      "proofBar": {
         "stats": [
-          { "number": "Clients transfrontaliers", "label": "Entrepreneurs et professionnels à travers l'Europe" },
-          { "number": "3 piliers de services", "label": "Conseil, informatique et Global Reach" },
-          { "number": "Stockholm, Suède", "label": "Basé et réglementé dans l'UE" },
-          { "number": "Conformité avant tout", "label": "Dans chaque mission" }
-        ],
-        "testimonials": [
-          { "quote": "Nordic Riser nous a donné une feuille de route claire et structurée alors que nous ne savions pas par où commencer. Notre société suédoise a été créée dans les délais qu'ils avaient annoncés.", "author": "Entrepreneur, Pakistan", "meta": "Entreprise créée en Suède, 2025" },
-          { "quote": "Le niveau de professionnalisme et de préparation documentaire qu'ils nous ont fourni a considérablement facilité nos rendez-vous bancaires. Je n'aurais pas pu mener ce processus à bien sans leur accompagnement.", "author": "Professionnel indépendant, Émirats arabes unis", "meta": "Relocalisé en Europe, 2024" }
+          { "value": "11", "label": "Langues déployées en production" },
+          { "value": "2", "label": "Produits développés en interne" },
+          { "value": "Stockholm, Suède", "label": "Basés à" },
+          { "value": "Conception → Développement → Support", "label": "Approche" }
         ]
+      },
+      "whatWeBuild": {
+        "label": "Services",
+        "title": "Quatre choses que nous faisons bien",
+        "cards": [
+          { "icon": "globe", "title": "Plateformes web multilingues", "body": "Des sites de production conçus pour fonctionner sur chaque marché que vous desservez. Hreflang correct, prise en charge RTL, structure de contenu localisée — pas des traductions automatiques après coup.", "builtWith": "Génération de site statique, diffusion CDN, temps de chargement inférieurs à la seconde" },
+          { "icon": "lock", "title": "Portails clients sécurisés", "body": "Portails authentifiés pour l'échange de documents, le suivi des dossiers et la communication client. Accès basé sur les rôles, stockage chiffré, pistes d'audit.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
+          { "icon": "code", "title": "Produits sur mesure & SaaS", "body": "Développement complet de produit, du concept au lancement. Fonctionnalités en temps réel, facturation par abonnement, outils d'administration.", "seeLabel": "Voir :", "seeText": "Global Reach — notre propre plateforme de collaboration à traduction en direct", "seeLink": "global-reach" },
+          { "icon": "gear", "title": "Automatisation & intégrations", "body": "Connectez les outils que vous utilisez déjà. Éliminez la ressaisie manuelle. Automatisez les tâches qui dévorent la semaine de votre équipe.", "builtWith": "API, webhooks, fonctions sans serveur" }
+        ]
+      },
+      "featuredWork": {
+        "label": "Réalisations sélectionnées",
+        "title": "Ce que nous avons construit",
+        "items": [
+          { "type": "Produit SaaS (interne)", "title": "Global Reach", "oneLiner": "Des salons de collaboration en direct avec tableaux blancs partagés et chat traduit en temps réel entre les langues.", "link": "global-reach" },
+          { "type": "Portail client sécurisé", "title": "Portail Membre Nordic Riser", "oneLiner": "Un portail authentifié pour l'échange de documents, le suivi des dossiers, la messagerie sécurisée et les paiements.", "link": "work" },
+          { "type": "Plateforme marketing multilingue", "title": "nordicriser.com", "oneLiner": "Un site de production en onze langues avec prise en charge RTL, couverture méta complète et URL propres par langue.", "link": "work" }
+        ],
+        "cta": "Voir toutes les réalisations",
+        "ctaLink": "work"
+      },
+      "productSpotlight": {
+        "label": "Notre produit",
+        "title": "Global Reach — La collaboration sans barrière linguistique",
+        "body": "Des salons en direct avec tableaux blancs partagés et chat traduit en temps réel. Conçu pour les groupes d'étude, les équipes de recherche et le travail de projet couvrant plusieurs pays.",
+        "bullets": [
+          "Tableaux blancs partagés pour la collaboration en direct",
+          "Chat traduit en direct entre les langues",
+          "Les 100 premiers messages gratuits — sans carte bancaire"
+        ],
+        "cta": "Essai gratuit — 100 messages"
+      },
+      "howWeWork": {
+        "label": "Processus",
+        "title": "Du brief au lancement — et au-delà",
+        "steps": [
+          { "title": "Découverte", "body": "Nous cartographions ce dont vous avez réellement besoin avant d'écrire la moindre ligne de code. Périmètre, utilisateurs, contraintes, critères de réussite — documentés et validés ensemble." },
+          { "title": "Conception & architecture", "body": "Conception d'interface et architecture technique en parallèle. Vous voyez et validez la forme du produit avant que nous ne le construisions." },
+          { "title": "Développement", "body": "Développement itératif avec des aperçus fonctionnels à chaque étape. Pas de silence de six semaines dans une boîte noire." },
+          { "title": "Lancement", "body": "Déploiement, configuration du domaine et du SSL, analytique et documentation de transfert. Vous possédez tout." },
+          { "title": "Support", "body": "Maintenance, surveillance et mises à jour continues. Les plateformes ne restent pas saines toutes seules." }
+        ]
+      },
+      "technology": {
+        "label": "Technologie",
+        "title": "Avec quoi nous construisons",
+        "groups": [
+          { "category": "Frontend", "items": "React, Vite, CSS moderne" },
+          { "category": "Backend & données", "items": "Node.js, Firebase, Firestore" },
+          { "category": "Infrastructure", "items": "Firebase Hosting, diffusion CDN, SSL automatisé" },
+          { "category": "Authentification & sécurité", "items": "Firebase Authentication, contrôle d'accès basé sur les rôles, stockage chiffré" },
+          { "category": "Pratiques", "items": "Contrôle de version Git, déploiements par étapes, traitement des données conforme au RGPD" }
+        ]
+      },
+      "whyUs": {
+        "label": "Pourquoi Nordic Riser",
+        "title": "Un studio qui comprend l'activité, pas seulement la construction",
+        "cards": [
+          { "icon": "globe", "title": "Nous parlons les langues de votre marché — littéralement", "body": "Le multilinguisme est notre standard par défaut, pas un module ajouté après coup. RTL, routage localisé et flux de traduction sont intégrés dès le départ." },
+          { "icon": "code", "title": "Nous exploitons nos propres produits", "body": "Nous ne sommes pas seulement une agence. Nous développons, lançons et maintenons nos propres logiciels — nous concevons donc pour les réalités de l'exploitation d'un produit, pas seulement de sa livraison." },
+          { "icon": "briefcase", "title": "Nous connaissons les affaires transfrontalières", "body": "Notre division conseil accompagne des entrepreneurs internationaux dans la création d'entreprises en Europe. Cette connaissance métier alimente chaque plateforme que nous construisons pour eux." },
+          { "icon": "shield", "title": "Vous possédez tout", "body": "Votre code, vos données, vos comptes. Pas de verrouillage propriétaire, pas d'infrastructure otage." }
+        ]
+      },
+      "consultingBand": {
+        "label": "Également chez Nordic Riser",
+        "title": "Conseil en établissement d'entreprise",
+        "body": "Parallèlement à notre activité logicielle, nous accompagnons des entrepreneurs et professionnels internationaux dans l'établissement de structures d'entreprise conformes en Europe — stratégie de création de société, planification de relocalisation par l'activité économique et conseil transfrontalier.",
+        "cta": "Découvrir le conseil"
       },
       "finalCta": {
-        "title": "Prêt à construire votre présence commerciale en Europe ?",
-        "body": "Échangez avec un conseiller et recevez une stratégie structurée basée sur votre situation, vos objectifs et votre parcours."
+        "title": "Un projet en tête ?",
+        "body": "Dites-nous ce que vous construisez. Nous reviendrons vers vous avec un périmètre clair, un calendrier réaliste et un prix fixe.",
+        "cta": "Démarrer un projet"
       }
     },
     "about": {
-      "hero": { "label": "À propos du cabinet", "h1": "Une entreprise, trois divisions — fondées sur la stratégie et la conformité", "body": "Nordic Riser AB réunit conseil, technologie et collaboration mondiale sous un même toit — aidant les entrepreneurs et professionnels internationaux à construire une présence structurée et conforme en Europe et à se connecter au-delà des frontières." },
+      "hero": { "label": "À propos du studio", "h1": "Un studio logiciel à Stockholm pour les entreprises qui franchissent les frontières", "body": "Nordic Riser AB conçoit et développe des plateformes web multilingues, des portails clients sécurisés et des produits sur mesure — soutenus par une expertise interne en conseil d'entreprise que la plupart des studios logiciels n'ont pas." },
       "breadcrumb": "À propos de nous",
       "whoWeAre": {
         "label": "Qui nous sommes",
-        "title": "Une entreprise professionnelle au service des activités internationales",
-        "intro1": "Nordic Riser AB est une entreprise internationale organisée autour de trois divisions : l'établissement stratégique d'entreprises et la relocalisation professionnelle structurée en Europe (Conseil), les plateformes web et portails qui font fonctionner ces entreprises (Services informatiques), et des salons de collaboration transfrontaliers en direct avec traduction en temps réel (Global Reach). Une marque, une équipe, trois façons d'aider les entrepreneurs et professionnels à se développer à l'international.",
-        "intro2": "Notre activité de conseil est de nature consultative. Nous n'assurons ni représentation juridique ni services d'immigration. Nous proposons un accompagnement stratégique structuré — associé à la coordination de professionnels qualifiés dans les domaines juridique, comptable et réglementaire — afin de garantir que chaque démarche entreprise par nos clients repose sur des fondations solides et défendables.",
-        "mission": "« Aider les entrepreneurs et professionnels internationaux à se développer en Europe — grâce à un conseil structuré, à la technologie qui fait fonctionner leurs entreprises, et à une collaboration directe au-delà des frontières. »",
-        "flagshipNote": "Les sections ci-dessous se concentrent sur notre division phare, le Conseil — notre division d'origine et la plus établie. Découvrez les Services informatiques et Global Reach sur leurs propres pages."
+        "title": "Un studio logiciel doté d'une véritable expertise métier",
+        "intro1": "Nordic Riser AB est un studio logiciel basé à Stockholm. Nous concevons et développons des plateformes web multilingues, des portails clients sécurisés et des produits sur mesure pour des entreprises opérant dans plusieurs langues, devises ou juridictions — y compris nos propres produits, comme Global Reach.",
+        "intro2": "Ce qui nous distingue, c'est notre point de départ : conseiller des entrepreneurs internationaux sur l'établissement de structures d'entreprise conformes en Europe. Cette activité de conseil est toujours active aujourd'hui, et la connaissance métier qu'elle nous apporte — pensée réglementaire, activité transfrontalière, documentation de niveau institutionnel — irrigue chaque plateforme que nous construisons.",
+        "mission": "« Concevoir des logiciels qui fonctionnent comme les entreprises transfrontalières opèrent réellement — et apporter une véritable expertise métier à chaque plateforme que nous livrons. »"
+      },
+      "whatWeDo": {
+        "label": "Ce que nous faisons",
+        "software": {
+          "title": "Logiciel & produits",
+          "body": "Plateformes web multilingues, portails clients sécurisés, produits sur mesure et automatisation des flux de travail — pour nos clients, et pour nous-mêmes.",
+          "cta": "Voir nos services",
+          "link": "services"
+        },
+        "consulting": {
+          "title": "Conseil",
+          "body": "Établissement d'entreprise et conseil transfrontalier pour entrepreneurs internationaux — notre activité d'origine, toujours active aujourd'hui.",
+          "cta": "Découvrir le conseil",
+          "link": "consulting"
+        }
       },
       "whyWeExist": {
-        "label": "Pourquoi nous avons été créés",
+        "label": "D'où nous venons — notre activité de conseil",
         "title": "Conçus pour combler une véritable lacune du conseil international",
-        "sub": "Nous avons constaté que trop de professionnels à vocation internationale devaient naviguer dans des démarches complexes d'établissement d'entreprise et de relocalisation en Europe sans disposer d'un accompagnement stratégique structuré et de niveau professionnel.",
+        "sub": "Avant d'être un studio logiciel, nous avons constaté que trop de professionnels à vocation internationale devaient naviguer dans des démarches complexes d'établissement d'entreprise et de relocalisation en Europe sans disposer d'un accompagnement stratégique structuré et de niveau professionnel.",
         "problemTitle": "Le problème que nous résolvons",
         "problemParagraphs": [
           "Les entrepreneurs et professionnels internationaux se heurtent souvent à des conseils fragmentés — des informations génériques qui ne tiennent pas compte de leur modèle économique, de leur parcours professionnel ou de leurs objectifs à long terme. Il en résulte une planification défaillante, des retards évitables et des structures qui ne résistent pas à l'examen des institutions.",
@@ -220,9 +203,9 @@
         ]
       },
       "approach": {
-        "label": "Notre approche",
+        "label": "Notre approche du conseil",
         "title": "La stratégie d'abord. La structure toujours. La conformité en permanence.",
-        "sub": "Notre méthodologie est constante d'une mission à l'autre. Nous commençons par la stratégie, construisons la structure juridique et opérationnelle appropriée, puis coordonnons la mise en œuvre avec des professionnels agréés.",
+        "sub": "La même rigueur que nous appliquons à nos missions de conseil — évaluer d'abord, concevoir la structure, exécuter avec soin — façonne aussi la manière dont nous planifions et développons nos logiciels. Voici comment cela se traduit concrètement dans une mission de conseil.",
         "items": [
           { "title": "La stratégie avant l'action", "body": "Nous évaluons minutieusement votre situation spécifique avant de formuler toute recommandation. La clarté stratégique est le fondement de toute mission réussie." },
           { "title": "Une structure juridique pensée par conception", "body": "Nous identifions le cadre juridique et sociétaire adapté à votre situation — le type d'entité, la juridiction et les obligations de conformité sont déterminés de manière systématique." },
@@ -245,15 +228,15 @@
           { "icon": "ruler", "title": "Un conseil sur mesure", "body": "Nous n'appliquons pas de solutions types. Chaque mission est évaluée individuellement, et la stratégie est développée en fonction de la situation et des objectifs propres au client." }
         ]
       },
-      "missionBlock": { "label": "Notre mission", "missionLabel": "Énoncé de mission", "statement": "Aider les entrepreneurs et professionnels internationaux à se développer en Europe et au-delà — grâce à un conseil structuré, à la technologie qui fait fonctionner leurs entreprises, et à une collaboration directe et transfrontalière — soutenue par un accompagnement professionnel, des processus documentés et une réflexion stratégique à long terme." },
-      "cta": { "title": "Échangez avec un conseiller", "body": "Si vous envisagez d'établir une présence commerciale en Europe, nous vous invitons à organiser une première consultation. Nous évaluerons votre situation et vous fournirons un aperçu structuré de la voie à suivre." }
+      "missionBlock": { "label": "Notre mission", "missionLabel": "Énoncé de mission", "statement": "Concevoir des plateformes multilingues, des portails sécurisés et des produits transfrontaliers pour des entreprises opérant dans plusieurs langues — soutenus par une véritable expertise métier, des processus documentés et une réflexion stratégique à long terme." },
+      "cta": { "title": "Un projet en tête ?", "body": "Dites-nous ce que vous construisez — ou, si vous établissez une entreprise en Europe, parlez-nous-en plutôt. Dans les deux cas, nous reviendrons vers vous avec une prochaine étape claire et structurée.", "ctaSecondary": "Découvrir le conseil" }
     },
     "contact": {
-      "hero": { "label": "Nous contacter", "h1": "Planifiez une consultation avec notre équipe de conseil", "body": "Nos consultations sont structurées et visent avant tout à comprendre votre situation spécifique avant toute recommandation stratégique. Merci de compléter le formulaire ci-dessous pour demander une première consultation." },
+      "hero": { "label": "Nous contacter", "h1": "Parlez-nous de votre projet — ou de votre situation", "body": "Que vous développiez un logiciel ou établissiez une entreprise en Europe, nous commençons par comprendre ce dont vous avez réellement besoin. Complétez le formulaire ci-dessous et nous reviendrons vers vous avec une prochaine étape claire et structurée." },
       "breadcrumb": "Contact",
       "form": {
-        "title": "Formulaire de demande de consultation",
-        "intro": "Merci de fournir des informations précises sur votre situation et vos objectifs. Cela nous permet d'évaluer la pertinence de nos services par rapport à vos besoins et de préparer une première consultation productive.",
+        "title": "Formulaire de projet et de demande",
+        "intro": "Merci de fournir des informations précises sur votre projet ou votre situation. Cela nous permet d'évaluer le périmètre et de préparer un premier échange productif — qu'il s'agisse d'un devis à prix fixe ou d'une consultation structurée.",
         "firstName": "Prénom",
         "firstNamePlaceholder": "Votre prénom",
         "lastName": "Nom",
@@ -269,15 +252,37 @@
           { "value": "sme", "label": "Dirigeant de petite entreprise" },
           { "value": "other", "label": "Autre" }
         ],
-        "purpose": "Objet de la consultation",
+        "purpose": "Objet de la demande",
         "purposeOptions": [
           { "value": "", "label": "Sélectionnez l'objet principal" },
-          { "value": "relocation", "label": "Stratégie de relocalisation d'entreprise" },
-          { "value": "formation", "label": "Planification de la création d'entreprise" },
-          { "value": "businessplan", "label": "Préparation d'un plan d'affaires" },
-          { "value": "itservices", "label": "Demande de services informatiques" },
+          { "value": "website", "label": "Nouveau site web ou plateforme web" },
+          { "value": "portal", "label": "Portail client ou système interne" },
+          { "value": "product", "label": "Produit sur mesure / développement SaaS" },
+          { "value": "automation", "label": "Automatisation & intégrations" },
+          { "value": "support", "label": "Support & maintenance continus" },
           { "value": "globalreach", "label": "Abonnement Global Reach" },
+          { "value": "consulting", "label": "Conseil en établissement d'entreprise" },
           { "value": "general", "label": "Demande générale" }
+        ],
+        "budget": "Budget approximatif",
+        "budgetOptions": [
+          { "value": "", "label": "Sélectionnez une fourchette de budget" },
+          { "value": "under5k", "label": "Moins de 5 000 €" },
+          { "value": "5to15k", "label": "5 000 € – 15 000 €" },
+          { "value": "15to50k", "label": "15 000 € – 50 000 €" },
+          { "value": "50kplus", "label": "50 000 €+" },
+          { "value": "notsure", "label": "Pas encore sûr" },
+          { "value": "na", "label": "Non applicable" }
+        ],
+        "timeline": "Délai souhaité",
+        "timelineOptions": [
+          { "value": "", "label": "Sélectionnez un délai souhaité" },
+          { "value": "asap", "label": "Dès que possible" },
+          { "value": "1to3m", "label": "1 à 3 mois" },
+          { "value": "3to6m", "label": "3 à 6 mois" },
+          { "value": "6mplus", "label": "6 mois et plus" },
+          { "value": "flexible", "label": "Flexible / à l'étude" },
+          { "value": "na", "label": "Non applicable" }
         ],
         "message": "Brève description de votre situation",
         "messagePlaceholder": "Merci de décrire votre situation actuelle, vos objectifs et toute question spécifique. Plus vous serez précis, plus notre première consultation sera productive.",
@@ -288,6 +293,10 @@
       "success": { "title": "Demande reçue", "body": "Merci d'avoir soumis votre demande de consultation. Un membre de notre équipe de conseil examinera vos informations et vous répondra sous 1 à 2 jours ouvrés." },
       "sidebar": {
         "directContactHeading": "Contact direct",
+        "phoneLabel": "Téléphone",
+        "phoneValue": "[PHONE_NUMBER]",
+        "addressLabel": "Adresse",
+        "addressValue": "[STREET_ADDRESS], Stockholm, Suède",
         "hoursLabel": "Horaires d'ouverture",
         "hoursValue": "Lundi – vendredi, 09h00 – 17h00 CET",
         "nextHeading": "Les prochaines étapes",
@@ -534,8 +543,12 @@
       "cta": { "title": "Discutons de vos besoins", "body": "Si vous envisagez d'établir une présence commerciale en Europe, nous vous invitons à organiser une consultation. Nous évaluerons votre situation et vous fournirons une vision claire et structurée de la voie à suivre et des services pertinents pour vos objectifs." }
     },
     "itServices": {
-      "hero": { "label": "Services informatiques", "h1": "Une technologie conçue pour les entreprises internationales", "body": "Nous concevons et développons les plateformes web, portails et automatisations dont dépendent les entreprises que nous aidons à créer — avec la même approche structurée et attentive à la conformité que notre pratique de conseil." },
-      "breadcrumb": "Services informatiques",
+      "meta": {
+        "title": "Plateformes web, portails & logiciels sur mesure — Nordic Riser AB",
+        "description": "Sites multilingues, portails clients sécurisés, développement de produits sur mesure et automatisation des flux de travail. Conçu à Stockholm, livré dans le monde entier."
+      },
+      "hero": { "label": "Services", "h1": "Plateformes web, portails & logiciels sur mesure", "body": "Sites multilingues, portails clients sécurisés, développement de produits sur mesure et automatisation des flux de travail. Conçu à Stockholm, livré dans le monde entier." },
+      "breadcrumb": "Services",
       "offeringsLabel": "Ce que nous développons",
       "offeringsTitle": "Quatre offres principales",
       "offeringsSub": "Du premier site web d'entreprise aux systèmes qui font tourner les opérations quotidiennes, nous développons des solutions technologiques adaptées à la taille et à l'étape de votre entreprise.",
@@ -566,13 +579,60 @@
         "Des dispositifs d'hébergement, de suivi et de support technique continus"
       ],
       "portfolioLabel": "Nos réalisations",
-      "portfolioTitle": "Ce site est notre portfolio",
-      "portfolioSub": "Plutôt que des études de cas d'autres clients, l'exemple le plus clair de ce que nous développons est ce que vous utilisez en ce moment même.",
-      "portfolio": [
-        { "title": "nordicriser.com", "body": "Le site marketing multilingue que vous consultez — 11 langues, développé et maintenu en interne." },
-        { "title": "Portail membre Nordic Riser", "body": "Le portail client sécurisé utilisé par nos propres membres Conseil et Global Reach pour les documents, la messagerie et le suivi des dossiers." }
-      ],
+      "portfolioTitle": "Découvrez ce que nous avons construit",
+      "portfolioSub": "Plutôt que des études de cas d'autres clients, l'exemple le plus clair de ce que nous développons est ce que vous utilisez en ce moment même — et nos propres produits.",
+      "portfolioCta": "Voir toutes les réalisations",
       "cta": { "title": "Demander un devis", "body": "Parlez-nous de votre entreprise et de ce que vous souhaitez développer. Nous évaluerons le périmètre et vous fournirons un devis clair et structuré — de la même manière que nous abordons chaque mission de conseil." }
+    },
+    "work": {
+      "meta": {
+        "title": "Nos réalisations — plateformes, portails & produits — Nordic Riser AB",
+        "description": "Projets sélectionnés de Nordic Riser AB : une plateforme de collaboration à traduction en temps réel, un portail client sécurisé et un site de production en onze langues."
+      },
+      "hero": { "label": "Réalisations sélectionnées", "h1": "Ce que nous avons construit", "body": "Plateformes, portails et produits que nous avons conçus, développés et livrés — y compris les nôtres." },
+      "breadcrumb": "Réalisations",
+      "caseStudies": [
+        {
+          "type": "Produit SaaS (interne)",
+          "title": "Global Reach",
+          "challengeLabel": "Défi",
+          "challenge": "Les personnes qui collaborent entre les langues perdent du sens dans les délais de traduction et le passage d'un outil à l'autre.",
+          "buildLabel": "Réalisation",
+          "build": "Des salons de collaboration en direct avec tableaux blancs partagés et chat traduit en temps réel entre les langues, avec un niveau d'entrée freemium.",
+          "stackLabel": "Technologie",
+          "stack": ["React", "Synchronisation en temps réel", "API de traduction", "Facturation par abonnement"],
+          "resultLabel": "Résultat",
+          "result": "Produit en ligne avec un niveau gratuit de 100 messages, sans carte bancaire.",
+          "link": "global-reach",
+          "linkLabel": "Voir le produit"
+        },
+        {
+          "type": "Portail client sécurisé",
+          "title": "Portail Membre Nordic Riser",
+          "challengeLabel": "Défi",
+          "challenge": "Les clients en conseil avaient besoin d'un lieu unique pour les documents, l'état des dossiers et la communication — avec un contrôle d'accès strict.",
+          "buildLabel": "Réalisation",
+          "build": "Portail authentifié avec inscription en plusieurs étapes, routage basé sur les rôles (membre contre administrateur), coffre-fort de documents, messagerie sécurisée, chronologie des dossiers et centre de paiement.",
+          "stackLabel": "Technologie",
+          "stack": ["React", "Firebase Authentication", "Firestore", "Cloud Storage", "Firebase Hosting"],
+          "resultLabel": "Résultat",
+          "result": "En ligne sur portal.nordicriser.com avec domaine personnalisé et SSL automatique."
+        },
+        {
+          "type": "Plateforme marketing multilingue",
+          "title": "nordicriser.com",
+          "challengeLabel": "Défi",
+          "challenge": "Atteindre des entrepreneurs à travers l'Europe, le Moyen-Orient et l'Asie du Sud dans leur propre langue.",
+          "buildLabel": "Réalisation",
+          "build": "Site de production en onze langues avec structure d'URL par langue, prise en charge RTL pour l'arabe et l'ourdou, couverture méta et Open Graph complète, et un cadre de confidentialité conforme au RGPD.",
+          "stackLabel": "Technologie",
+          "stack": ["Génération statique", "CDN", "Routage i18n structuré"],
+          "resultLabel": "Résultat",
+          "result": "Chaque page disponible en 11 langues avec des URL propres et indexables."
+        }
+      ],
+      "note": "Il s'agit de nos propres produits et plateformes — conçus, lancés et maintenus en interne. Les travaux clients seront présentés ici au fur et à mesure de leur achèvement.",
+      "cta": { "title": "Un projet en tête ?", "body": "Dites-nous ce que vous construisez. Nous reviendrons vers vous avec un périmètre clair, un calendrier réaliste et un prix fixe.", "cta": "Démarrer un projet" }
     },
     "globalReach": {
       "hero": {

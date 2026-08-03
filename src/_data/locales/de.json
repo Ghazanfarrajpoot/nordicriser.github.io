@@ -6,6 +6,8 @@
     "readMore": "Weiterlesen →",
     "requestQuote": "Angebot anfordern",
     "signUp": "Registrieren",
+    "builtWith": "Gebaut mit:",
+    "startProject": "Projekt starten",
     "emailLabel": "E-Mail",
     "websiteLabel": "Website",
     "home": "Startseite",
@@ -14,7 +16,8 @@
   "nav": {
     "home": "Startseite",
     "consulting": "Beratung",
-    "itServices": "IT-Dienstleistungen",
+    "itServices": "Dienstleistungen",
+    "work": "Arbeiten",
     "globalReach": "Global Reach",
     "about": "Über uns",
     "contact": "Kontakt",
@@ -22,7 +25,7 @@
     "languageLabel": "Sprache"
   },
   "footer": {
-    "brandBlurb": "Eine international tätige Beratungsgesellschaft für strukturierte Unternehmensberatung, Technologie und globale Zusammenarbeit – für Unternehmerinnen und Unternehmer sowie Fachkräfte, die eine rechtskonforme Präsenz in Europa aufbauen.",
+    "brandBlurb": "Nordic Riser AB ist ein Software-Studio mit Sitz in Stockholm, das mehrsprachige Webplattformen, sichere Kundenportale und grenzüberschreitende Produkte für Unternehmen entwickelt, die in mehr als einer Sprache tätig sind.",
     "addressHeading": "Eingetragener Firmensitz",
     "orgNrLabel": "Org.-Nr.",
     "orgNrValue": "[ORG_NR]",
@@ -39,7 +42,7 @@
         { "label": "Relocation-Strategie", "anchor": "relocation" },
         { "label": "Grenzüberschreitende Beratung", "anchor": "international" }
       ],
-      "itServicesHeading": "IT-Dienstleistungen",
+      "itServicesHeading": "Dienstleistungen",
       "itServicesLinks": [
         { "label": "Webplattformen & Portale" },
         { "label": "Automatisierung & Integrationen" },
@@ -62,150 +65,130 @@
   },
   "pages": {
     "home": {
+      "meta": {
+        "title": "Software-Studio für grenzüberschreitende Unternehmen — Nordic Riser AB",
+        "description": "Software-Studio mit Sitz in Stockholm für mehrsprachige Webplattformen, sichere Kundenportale und maßgeschneiderte Produkte für Unternehmen, die über Sprachen und Märkte hinweg tätig sind."
+      },
       "hero": {
-        "label": "Eine Plattform, drei Säulen",
-        "h1": "Ihr Zugang zu Schweden – und zur Welt",
-        "body": "Beratung, Technologie und globale Zusammenarbeit unter einem Dach – konzipiert für internationale Unternehmerinnen und Unternehmer, Fachkräfte und die Unternehmen, die sie gründen.",
-        "cta": "Beratungstermin vereinbaren",
-        "ctaSecondary": "Global Reach entdecken"
+        "label": "Software · Plattformen · Produkte",
+        "h1": "Wir entwickeln Software für Unternehmen, die Grenzen überschreiten",
+        "body": "Mehrsprachige Webplattformen, sichere Kundenportale und maßgeschneiderte Produkte — konzipiert und entwickelt in Stockholm für Unternehmen, die über Sprachen, Währungen und Rechtsordnungen hinweg tätig sind.",
+        "cta": "Unsere Arbeiten ansehen",
+        "ctaSecondary": "Projekt starten"
       },
-      "pillars": {
-        "label": "Unser Angebot",
-        "title": "Drei Säulen. Eine Plattform.",
-        "sub": "Ganz gleich, in welcher Phase Sie sich befinden – ob Sie ein Unternehmen gründen, die dazugehörige Technologie aufbauen oder sich mit Beratern und Gleichgesinnten vernetzen möchten – wir haben die passende Säule dafür.",
-        "consulting": {
-          "icon": "briefcase",
-          "title": "Beratung",
-          "promise": "Strukturierte, rechtskonforme Beratung zu Unternehmensgründung und Relocation für internationale Unternehmerinnen und Unternehmer.",
-          "bullets": [
-            "Strategie zur Geschäftsansiedlung und Unternehmensgründung",
-            "Planung von Relocation und Aufenthalt durch unternehmerische Tätigkeit",
-            "Grenzüberschreitende Beratung für Tätigkeiten in mehreren Jurisdiktionen"
-          ]
-        },
-        "itServices": {
-          "icon": "code",
-          "title": "IT-Dienstleistungen",
-          "promise": "Webplattformen und Geschäftssysteme für die Unternehmen, die wir bei der Gründung begleiten.",
-          "bullets": [
-            "Unternehmenswebsites und Kundenportale",
-            "Workflow-Automatisierung und Integrationen",
-            "Laufender Support und Wartung"
-          ]
-        },
-        "globalReach": {
-          "icon": "globe",
-          "title": "Global Reach",
-          "promise": "Live-Räume mit gemeinsamen Whiteboards und Chat, der in Echtzeit übersetzt wird – arbeiten Sie grenzüberschreitend an Lernen, Forschung und Projekten zusammen.",
-          "bullets": [
-            "Gemeinsame Whiteboards für die Live-Zusammenarbeit",
-            "Chat, der live zwischen Sprachen übersetzt wird",
-            "100 kostenlose Nachrichten, keine Kreditkarte nötig"
-          ],
-          "badge": "100 kostenlose Nachrichten",
-          "cta": "Kostenlos starten — 100 Nachrichten"
-        },
-        "learnMore": "Mehr erfahren →"
-      },
-      "whatWeDo": {
-        "label": "Was wir tun",
-        "title": "Strategische Beratung in fünf Kernbereichen",
-        "sub": "Wir bieten strukturierte Beratung über das gesamte Spektrum der internationalen Geschäftsansiedlung und beruflichen Relocation hinweg – ohne pauschale Ratschläge.",
-        "services": [
-          { "icon": "briefcase", "title": "Geschäftsansiedlung", "body": "Strukturierte Begleitung bei der Wahl der Rechtsform, den Registrierungsverfahren und der betrieblichen Compliance für internationale Unternehmerinnen und Unternehmer, die in europäische Märkte eintreten.", "note": "Spezialisiert auf Investorinnen und Investoren von außerhalb der EU, die einen sicheren Zugang zu europäischen Märkten suchen.", "anchor": "establishment" },
-          { "icon": "clipboard", "title": "Strategie zur Unternehmensgründung", "body": "Strategische Planung der passenden Unternehmensstruktur auf Basis Ihres Geschäftsmodells, der Eigentumsanforderungen und Ihrer langfristigen Ziele.", "anchor": "formation" },
-          { "icon": "world", "title": "Strategie für unternehmensbasierten Aufenthalt und Familienrelocation", "body": "Beratung zu legitimen, unternehmensbasierten Wegen der Relocation für Sie und Ihre Familie – im Einklang mit den regulatorischen Rahmenbedingungen und ausgerichtet auf nachhaltige Aufenthaltslösungen.", "anchor": "relocation" },
-          { "icon": "link", "title": "Grenzüberschreitende Beratung", "body": "Koordination länderübergreifender Aspekte wie Steuern, Compliance und Rechtsstrukturen für international tätige Fachkräfte und Unternehmen.", "note": "Strategische Unterstützung bei europäischer Bankenkonformität und internationaler Kapitalstrukturierung.", "anchor": "international" },
-          { "icon": "chart", "title": "Geschäftsplanung für Unternehmerinnen und Unternehmer", "body": "Erstellung strukturierter Geschäftspläne und Dokumentationspakete, zugeschnitten auf die Anforderungen europäischer Behörden und Institutionen.", "anchor": "documentation" }
-        ]
-      },
-      "globalReachTeaser": {
-        "label": "Global Reach",
-        "title": "Grenzüberschreitend zusammenarbeiten — kostenlos starten",
-        "body": "Live-Räume mit gemeinsamen Whiteboards und Chat, der in Echtzeit übersetzt wird. Ihre ersten 100 Nachrichten sind kostenlos — keine Kreditkarte nötig.",
-        "cta": "Kostenlos starten — 100 Nachrichten",
-        "mockCaption": "Illustrative Vorschau",
-        "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
-        "chatTranslated": "Die Datei ist zur Prüfung bereit",
-        "chatTag": "Aus dem Urdu übersetzt"
-      },
-      "leadCapture": {
-        "title": "Noch nicht bereit für eine Beratung? Beginnen Sie mit unserem kostenlosen Leitfaden.",
-        "bodyPrefix": "Download:",
-        "guideTitle": "Geschäftsansiedlung in Europa — Ein strukturierter Überblick für internationale Unternehmerinnen und Unternehmer",
-        "placeholder": "Ihre E-Mail-Adresse",
-        "button": "Leitfaden zusenden"
-      },
-      "whoWeWorkWith": {
-        "label": "Mit wem wir arbeiten",
-        "title": "Konzipiert für international ausgerichtete Fachkräfte",
-        "sub": "Unsere Mandantinnen und Mandanten kommen aus unterschiedlichen beruflichen Hintergründen und Regionen der Welt. Gemeinsam ist ihnen der strukturierte Anspruch, eine glaubwürdige Geschäftspräsenz in Europa aufzubauen.",
-        "audiences": [
-          { "tag": "Unternehmer", "title": "Unternehmensgründer mit Europa-Plänen", "body": "Personen mit bestehenden oder frühphasigen Vorhaben, die einen Markteintritt in Europa über eine rechtskonforme Unternehmensstruktur prüfen." },
-          { "tag": "Freiberufler", "title": "International tätige selbstständige Fachkräfte", "body": "Qualifizierte Fachkräfte, die Dienstleistungen international erbringen und dafür eine rechtlich solide Unternehmensform sowie einen strukturierten Aufenthaltsansatz benötigen." },
-          { "tag": "Fach- und Führungskräfte", "title": "International mobile Führungskräfte", "body": "Erfahrene Fachkräfte im Übergang zwischen Märkten, die einen klaren, strukturierten Rahmen für ihre berufliche und private Relocation benötigen." },
-          { "tag": "KMU-Inhaber", "title": "Kleinunternehmer mit Expansionsplänen nach Europa", "body": "Unternehmerinnen und Unternehmer, die eine operative Basis in Europa aufbauen, neue Märkte erschließen oder ihre internationale Unternehmensstruktur neu ausrichten möchten." }
-        ]
-      },
-      "process": {
-        "label": "Unser Vorgehen",
-        "title": "Ein klares, vierstufiges Beratungsmodell",
-        "sub": "Jedes Mandat folgt einer strukturierten Methodik, die in jeder Phase Klarheit, Compliance und umsetzbare Ergebnisse liefert.",
-        "steps": [
-          { "title": "Strategische Erstberatung", "body": "Wir führen eine strukturierte Bewertung Ihres Hintergrunds, Ihrer Ziele und Rahmenbedingungen durch, um den tragfähigsten und rechtskonformsten Weg zu identifizieren." },
-          { "title": "Planung der Unternehmensstruktur", "body": "Ausgehend von Ihren Zielen entwickeln wir einen maßgeschneiderten unternehmerischen und operativen Rahmen — einschließlich Rechtsform, Jurisdiktion und Compliance-Anforderungen." },
-          { "title": "Entwicklung der Relocation-Strategie", "body": "Wir entwickeln eine dokumentierte Relocation- und Aufenthaltsstrategie im Einklang mit Ihrem Geschäftsplan und stellen sicher, dass institutionelle Anforderungen vollständig berücksichtigt werden." },
-          { "title": "Umsetzung mit fachlichen Partnern", "body": "Wir koordinieren die Umsetzung gemeinsam mit qualifizierten Rechts-, Steuer- und Fachexperten — für Genauigkeit, Compliance und klare Kommunikation in jeder Phase." }
-        ]
-      },
-      "whyChooseUs": {
-        "label": "Warum Mandanten uns wählen",
-        "title": "Eine Beratungsgesellschaft auf professionellem Standard",
-        "sub": "Wir arbeiten nach dem Prinzip „Compliance zuerst“. Unser Wert liegt in der Qualität unserer strategischen Beratung — nicht in Versprechen über Ergebnisse.",
-        "cards": [
-          { "title": "Professioneller Beratungsansatz", "body": "Jedes Mandat wird mit der Sorgfalt einer professionellen Beratungspraxis strukturiert, dokumentiert und geführt — nicht als allgemeine Beratungsleistung." },
-          { "title": "Ausschließlich rechtskonforme Strukturen", "body": "Wir arbeiten ausschließlich innerhalb bestehender rechtlicher Rahmenbedingungen. Unsere Strategien sind belastbar, transparent und orientieren sich an institutionellen Standards." },
-          { "title": "Strategische Beratung statt pauschaler Ratschläge", "body": "Unsere Empfehlungen sind auf Ihre individuelle Situation zugeschnitten. Wir bieten keine Vorlagenlösungen oder Programme nach dem Einheitsprinzip." },
-          { "title": "Langfristig ausgerichtete Unterstützung", "body": "Wir betrachten Mandantenbeziehungen langfristig. Unser Fokus liegt auf nachhaltigen Ergebnissen, die Ihren beruflichen und unternehmerischen Interessen dauerhaft dienen." }
-        ]
-      },
-      "trust": {
-        "label": "Vertraut von internationalen Unternehmerinnen und Unternehmern",
-        "title": "Eine Erfolgsbilanz, die auf Struktur und Compliance beruht",
-        "sub": "Eine Beratungspraxis, aufgebaut für grenzüberschreitende Glaubwürdigkeit, strukturierte Mandate und regulatorische Compliance.",
-        "orgNrLabel": "Org.-Nr.",
-        "orgNrValue": "[ORG_NR]",
+      "proofBar": {
         "stats": [
-          { "number": "Grenzüberschreitende Mandanten", "label": "Unternehmerinnen, Unternehmer und Fachkräfte in ganz Europa" },
-          { "number": "3 Leistungssäulen", "label": "Beratung, IT und Global Reach" },
-          { "number": "Stockholm, Sweden", "label": "In der EU ansässig und reguliert" },
-          { "number": "Compliance zuerst", "label": "Bei jedem Mandat" }
-        ],
-        "testimonials": [
-          { "quote": "Nordic Riser gab uns einen klaren, strukturierten Fahrplan, als wir überhaupt nicht wussten, wo wir anfangen sollten. Unser schwedisches Unternehmen wurde innerhalb des von ihnen skizzierten Zeitrahmens gegründet.", "author": "Unternehmer, Pakistan", "meta": "Unternehmensgründung in Schweden, 2025" },
-          { "quote": "Das Maß an Professionalität und die von ihnen bereitgestellte Dokumentation haben unsere Bankgespräche erheblich erleichtert. Ohne ihre Begleitung hätte ich diesen Prozess nicht bewältigt.", "author": "Selbstständiger Fachexperte, VAE", "meta": "Nach Europa umgezogen, 2024" }
+          { "value": "11", "label": "Sprachen in Produktion ausgeliefert" },
+          { "value": "2", "label": "Intern entwickelte Produkte" },
+          { "value": "Stockholm, Sweden", "label": "Ansässig in" },
+          { "value": "Design → Entwicklung → Support", "label": "Vorgehen" }
         ]
+      },
+      "whatWeBuild": {
+        "label": "Dienstleistungen",
+        "title": "Vier Dinge, die wir besonders gut können",
+        "cards": [
+          { "icon": "globe", "title": "Mehrsprachige Webplattformen", "body": "Produktionswebsites, die in jedem Markt funktionieren, den Sie bedienen. Korrektes hreflang, RTL-Unterstützung, lokalisierte Inhaltsstruktur — keine nachträglich maschinenübersetzten Texte.", "builtWith": "Statische Seitengenerierung, CDN-Auslieferung, Ladezeiten unter einer Sekunde" },
+          { "icon": "lock", "title": "Sichere Kundenportale", "body": "Authentifizierte Portale für Dokumentenaustausch, Fallverfolgung und Kundenkommunikation. Rollenbasierter Zugriff, verschlüsselte Speicherung, Audit-Trails.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
+          { "icon": "code", "title": "Individuelle Produkte & SaaS", "body": "Vollständige Produktentwicklung, vom Konzept bis zum Launch. Echtzeitfunktionen, Abonnement-Abrechnung, Admin-Tools.", "seeLabel": "Siehe:", "seeText": "Global Reach — unsere eigene Plattform für Live-Übersetzungs-Zusammenarbeit", "seeLink": "global-reach" },
+          { "icon": "gear", "title": "Automatisierung & Integrationen", "body": "Verbinden Sie die Tools, die Sie bereits nutzen. Eliminieren Sie manuelle Doppelerfassung. Automatisieren Sie die Arbeitsabläufe, die die Woche Ihres Teams auffressen.", "builtWith": "APIs, Webhooks, serverlose Funktionen" }
+        ]
+      },
+      "featuredWork": {
+        "label": "Ausgewählte Arbeiten",
+        "title": "Was wir gebaut haben",
+        "items": [
+          { "type": "SaaS-Produkt (intern entwickelt)", "title": "Global Reach", "oneLiner": "Live-Kollaborationsräume mit gemeinsamen Whiteboards und Chat, der in Echtzeit zwischen Sprachen übersetzt wird.", "link": "global-reach" },
+          { "type": "Sicheres Kundenportal", "title": "Nordic Riser Mitgliederportal", "oneLiner": "Ein authentifiziertes Portal für Dokumentenaustausch, Fallverfolgung, sichere Nachrichten und Zahlungen.", "link": "work" },
+          { "type": "Mehrsprachige Marketingplattform", "title": "nordicriser.com", "oneLiner": "Eine elfsprachige Produktionswebsite mit RTL-Unterstützung, vollständiger Meta-Abdeckung und sauberen sprachspezifischen URLs.", "link": "work" }
+        ],
+        "cta": "Alle Arbeiten ansehen",
+        "ctaLink": "work"
+      },
+      "productSpotlight": {
+        "label": "Unser Produkt",
+        "title": "Global Reach — Zusammenarbeit ohne Sprachbarriere",
+        "body": "Live-Räume mit gemeinsamen Whiteboards und Chat, der in Echtzeit übersetzt wird. Entwickelt für Lerngruppen, Forschungsteams und länderübergreifende Projektarbeit.",
+        "bullets": [
+          "Gemeinsame Whiteboards für die Live-Zusammenarbeit",
+          "Chat, der live zwischen Sprachen übersetzt wird",
+          "Die ersten 100 Nachrichten kostenlos — keine Kreditkarte nötig"
+        ],
+        "cta": "Kostenlos starten — 100 Nachrichten"
+      },
+      "howWeWork": {
+        "label": "Prozess",
+        "title": "Vom Briefing zum Launch — und darüber hinaus",
+        "steps": [
+          { "title": "Discovery", "body": "Wir erfassen, was Sie tatsächlich brauchen, bevor wir eine Zeile Code schreiben. Umfang, Nutzer, Rahmenbedingungen, Erfolgskriterien — dokumentiert und abgestimmt." },
+          { "title": "Design & Architektur", "body": "Interface-Design und technische Architektur laufen parallel. Sie sehen und genehmigen die Form der Lösung, bevor wir sie bauen." },
+          { "title": "Entwicklung", "body": "Iterative Entwicklung mit funktionierenden Vorschauen in jeder Phase. Keine Blackbox-Stille über sechs Wochen." },
+          { "title": "Launch", "body": "Deployment, Domain- und SSL-Einrichtung, Analytics und Übergabedokumentation. Ihnen gehört alles." },
+          { "title": "Support", "body": "Laufende Wartung, Monitoring und Updates. Plattformen bleiben nicht von allein gesund." }
+        ]
+      },
+      "technology": {
+        "label": "Technologie",
+        "title": "Womit wir bauen",
+        "groups": [
+          { "category": "Frontend", "items": "React, Vite, modernes CSS" },
+          { "category": "Backend & Daten", "items": "Node.js, Firebase, Firestore" },
+          { "category": "Infrastruktur", "items": "Firebase Hosting, CDN-Auslieferung, automatisiertes SSL" },
+          { "category": "Auth & Sicherheit", "items": "Firebase Authentication, rollenbasierte Zugriffskontrolle, verschlüsselte Speicherung" },
+          { "category": "Praktiken", "items": "Git-Versionskontrolle, gestufte Deployments, DSGVO-konforme Datenverarbeitung" }
+        ]
+      },
+      "whyUs": {
+        "label": "Warum Nordic Riser",
+        "title": "Ein Studio, das das Geschäft versteht, nicht nur den Code",
+        "cards": [
+          { "icon": "globe", "title": "Wir sprechen die Sprachen Ihres Marktes — wörtlich", "body": "Mehrsprachigkeit ist unser Standard, kein nachträglich angeflanschtes Plugin. RTL, lokalisiertes Routing und Übersetzungsworkflows sind von Anfang an eingebaut." },
+          { "icon": "code", "title": "Wir betreiben unsere eigenen Produkte", "body": "Wir sind nicht nur eine Agentur. Wir entwickeln, launchen und pflegen eigene Software — daher gestalten wir für die Realität des Produktbetriebs, nicht nur der Auslieferung." },
+          { "icon": "briefcase", "title": "Wir kennen das grenzüberschreitende Geschäft", "body": "Unsere Beratungssparte berät internationale Unternehmerinnen und Unternehmer bei der Gründung von Unternehmen in Europa. Dieses Fachwissen fließt in jede Plattform ein, die wir für sie bauen." },
+          { "icon": "shield", "title": "Ihnen gehört alles", "body": "Ihr Code, Ihre Daten, Ihre Konten. Kein Lock-in, keine Geisel-Infrastruktur." }
+        ]
+      },
+      "consultingBand": {
+        "label": "Auch von Nordic Riser",
+        "title": "Beratung zur Unternehmensgründung",
+        "body": "Neben unserer Softwarearbeit beraten wir internationale Unternehmerinnen, Unternehmer und Fachkräfte bei der Gründung rechtskonformer Unternehmensstrukturen in Europa — Strategie zur Unternehmensgründung, unternehmensbasierte Relocation-Planung und grenzüberschreitende Beratung.",
+        "cta": "Beratung entdecken"
       },
       "finalCta": {
-        "title": "Bereit, Ihre europäische Geschäftspräsenz aufzubauen?",
-        "body": "Sprechen Sie mit einem Berater und erhalten Sie eine strukturierte Strategie, die auf Ihre individuelle Situation, Ihre Ziele und Ihren Hintergrund zugeschnitten ist."
+        "title": "Haben Sie ein Projekt im Kopf?",
+        "body": "Erzählen Sie uns, was Sie bauen möchten. Wir melden uns mit einem klaren Umfang, einem realistischen Zeitplan und einem Festpreis zurück.",
+        "cta": "Projekt starten"
       }
     },
     "about": {
-      "hero": { "label": "Über die Gesellschaft", "h1": "Ein Unternehmen, drei Geschäftsbereiche — aufgebaut auf Strategie und Compliance", "body": "Nordic Riser AB vereint Beratung, Technologie und globale Zusammenarbeit unter einem Dach — und unterstützt internationale Unternehmerinnen, Unternehmer und Fachkräfte dabei, eine strukturierte, rechtskonforme Präsenz in Europa aufzubauen und sich grenzüberschreitend zu vernetzen." },
+      "hero": { "label": "Über das Studio", "h1": "Ein Software-Studio in Stockholm für Unternehmen, die Grenzen überschreiten", "body": "Nordic Riser AB entwirft und entwickelt mehrsprachige Webplattformen, sichere Kundenportale und maßgeschneiderte Produkte — mit interner Geschäftsberatungsexpertise, die die meisten Software-Studios nicht haben." },
       "breadcrumb": "Über uns",
       "whoWeAre": {
         "label": "Wer wir sind",
-        "title": "Ein professionelles Unternehmen für internationale Geschäftstätigkeit",
-        "intro1": "Nordic Riser AB ist ein international tätiges Unternehmen mit drei Geschäftsbereichen: strategische Geschäftsansiedlung und strukturierte berufliche Relocation in Europa (Beratung), die Webplattformen und Portale, die diese Unternehmen antreiben (IT-Dienstleistungen), sowie live, grenzüberschreitende Kollaborationsräume mit Echtzeitübersetzung (Global Reach). Eine Marke, ein Team, drei Wege, wie wir Unternehmerinnen, Unternehmern und Fachkräften helfen, international aufzubauen und zu wachsen.",
-        "intro2": "Unsere Beratungstätigkeit ist beratender Natur. Wir bieten keine Rechtsvertretung oder Einwanderungsdienstleistungen an. Stattdessen bieten wir strukturierte strategische Beratung — kombiniert mit der Koordination qualifizierter Fachleute aus den Bereichen Recht, Steuern und Regulierung —, um sicherzustellen, dass jeder Prozess unserer Mandanten auf soliden, belastbaren Grundlagen aufgebaut ist.",
-        "mission": "„Internationalen Unternehmerinnen, Unternehmern und Fachkräften zu helfen, in Europa aufzubauen und zu wachsen — durch strukturierte Beratung, die Technologie, die ihre Unternehmen antreibt, und direkte grenzüberschreitende Zusammenarbeit.“",
-        "flagshipNote": "Die folgenden Abschnitte konzentrieren sich auf unseren Vorzeigebereich Beratung — unseren ursprünglichen und am längsten etablierten Geschäftsbereich. Mehr zu IT-Dienstleistungen und Global Reach finden Sie auf deren eigenen Seiten."
+        "title": "Ein Software-Studio mit echter Geschäftsfachkompetenz",
+        "intro1": "Nordic Riser AB ist ein Software-Studio mit Sitz in Stockholm. Wir entwerfen und entwickeln mehrsprachige Webplattformen, sichere Kundenportale und maßgeschneiderte Produkte für Unternehmen, die in mehr als einer Sprache, Währung oder Rechtsordnung tätig sind — einschließlich unserer eigenen Produkte wie Global Reach.",
+        "intro2": "Was uns auszeichnet, ist unser Ausgangspunkt: die Beratung internationaler Unternehmerinnen und Unternehmer bei der Gründung rechtskonformer Unternehmensstrukturen in Europa. Diese Beratungspraxis ist bis heute aktiv, und das Fachwissen, das sie uns verleiht — regulatorisches Denken, grenzüberschreitende Geschäftstätigkeit, institutionsgerechte Dokumentation — fließt in jede Plattform ein, die wir bauen.",
+        "mission": "„Software zu entwickeln, die so funktioniert, wie grenzüberschreitende Unternehmen tatsächlich arbeiten — und echtes Geschäftswissen in jede Plattform einzubringen, die wir ausliefern.“"
+      },
+      "whatWeDo": {
+        "label": "Was wir tun",
+        "software": {
+          "title": "Software & Produkte",
+          "body": "Mehrsprachige Webplattformen, sichere Kundenportale, individuelle Produkte und Workflow-Automatisierung — für Kunden und für uns selbst.",
+          "cta": "Unsere Dienstleistungen ansehen",
+          "link": "services"
+        },
+        "consulting": {
+          "title": "Beratung",
+          "body": "Unternehmensgründung und grenzüberschreitende Beratung für internationale Unternehmerinnen und Unternehmer — unsere ursprüngliche Praxis, bis heute aktiv.",
+          "cta": "Beratung entdecken",
+          "link": "consulting"
+        }
       },
       "whyWeExist": {
-        "label": "Warum es uns gibt",
+        "label": "Wo wir angefangen haben — unsere Beratungspraxis",
         "title": "Entstanden, um eine echte Lücke in der internationalen Beratung zu schließen",
-        "sub": "Wir haben erkannt, dass zu viele international orientierte Fachkräfte komplexe europäische Geschäfts- und Relocation-Prozesse ohne Zugang zu strukturierter, professioneller strategischer Unterstützung durchlaufen mussten.",
+        "sub": "Bevor wir ein Software-Studio waren, haben wir erkannt, dass zu viele international orientierte Fachkräfte komplexe europäische Geschäfts- und Relocation-Prozesse ohne Zugang zu strukturierter, professioneller strategischer Unterstützung durchlaufen mussten.",
         "problemTitle": "Das Problem, das wir lösen",
         "problemParagraphs": [
           "Internationale Unternehmerinnen, Unternehmer und Fachkräfte stoßen häufig auf fragmentierte Ratschläge — allgemeine Informationen, die ihr spezifisches Geschäftsmodell, ihren beruflichen Hintergrund oder ihre langfristigen Ziele nicht berücksichtigen. Das Ergebnis sind mangelhafte Planung, vermeidbare Verzögerungen und Strukturen, die einer institutionellen Prüfung nicht standhalten.",
@@ -220,9 +203,9 @@
         ]
       },
       "approach": {
-        "label": "Unser Ansatz",
+        "label": "Unser Beratungsansatz",
         "title": "Zuerst Strategie. Immer Struktur. Durchgehend Compliance.",
-        "sub": "Unsere Methodik ist bei jedem Mandat gleich. Wir beginnen mit der Strategie, entwickeln die passende rechtliche und operative Struktur und koordinieren die Umsetzung mit lizenzierten Fachleuten.",
+        "sub": "Dieselbe Sorgfalt, die wir in Beratungsmandaten anwenden — zuerst bewerten, die Struktur entwerfen, sorgfältig umsetzen — prägt auch, wie wir Software planen und bauen. Im Folgenden sehen Sie, wie sich das konkret in einem Beratungsmandat zeigt.",
         "items": [
           { "title": "Strategie vor Handeln", "body": "Wir bewerten Ihre individuelle Situation gründlich, bevor wir Empfehlungen aussprechen. Strategische Klarheit ist die Grundlage jedes erfolgreichen Mandats." },
           { "title": "Rechtsstruktur nach Plan", "body": "Wir identifizieren den passenden rechtlichen und unternehmerischen Rahmen für Ihre Umstände — Rechtsform, Jurisdiktion und Compliance-Pflichten werden systematisch bestimmt." },
@@ -245,15 +228,15 @@
           { "icon": "ruler", "title": "Maßgeschneiderte Beratung", "body": "Wir wenden keine Vorlagenlösungen an. Jedes Mandat wird individuell bewertet, und die Strategie wird speziell auf die Umstände und Ziele der Mandantin oder des Mandanten zugeschnitten." }
         ]
       },
-      "missionBlock": { "label": "Unsere Mission", "missionLabel": "Leitbild", "statement": "Internationalen Unternehmerinnen, Unternehmern und Fachkräften zu helfen, in Europa und darüber hinaus aufzubauen und zu wachsen — durch strukturierte Beratung, die Technologie, die ihre Unternehmen antreibt, und direkte grenzüberschreitende Zusammenarbeit — unterstützt durch professionelle Beratung, dokumentierte Prozesse und langfristiges strategisches Denken." },
-      "cta": { "title": "Sprechen Sie mit einem Berater", "body": "Wenn Sie erwägen, eine Geschäftspräsenz in Europa aufzubauen, laden wir Sie zu einem Erstgespräch ein. Wir bewerten Ihre Situation und geben Ihnen einen strukturierten Überblick über den weiteren Weg." }
+      "missionBlock": { "label": "Unsere Mission", "missionLabel": "Leitbild", "statement": "Mehrsprachige Plattformen, sichere Portale und grenzüberschreitende Produkte für Unternehmen zu bauen, die in mehr als einer Sprache tätig sind — gestützt auf echte Geschäftsfachkompetenz, dokumentierte Prozesse und langfristiges strategisches Denken." },
+      "cta": { "title": "Haben Sie ein Projekt im Kopf?", "body": "Erzählen Sie uns, was Sie bauen möchten — oder, wenn Sie ein Unternehmen in Europa gründen, erzählen Sie uns stattdessen davon. So oder so melden wir uns mit einem klaren, strukturierten nächsten Schritt zurück.", "ctaSecondary": "Beratung entdecken" }
     },
     "contact": {
-      "hero": { "label": "Kontakt aufnehmen", "h1": "Vereinbaren Sie eine Beratung mit unserem Beraterteam", "body": "Unsere Beratungsgespräche sind strukturiert und darauf ausgerichtet, Ihre individuelle Situation zu verstehen, bevor strategische Empfehlungen ausgesprochen werden. Bitte füllen Sie das untenstehende Formular aus, um ein Erstgespräch anzufragen." },
+      "hero": { "label": "Kontakt aufnehmen", "h1": "Erzählen Sie uns von Ihrem Projekt — oder Ihrer Situation", "body": "Ob Sie Software bauen oder ein Unternehmen in Europa gründen — wir beginnen damit, zu verstehen, was Sie wirklich brauchen. Füllen Sie das untenstehende Formular aus, und wir melden uns mit einem klaren, strukturierten nächsten Schritt." },
       "breadcrumb": "Kontakt",
       "form": {
-        "title": "Anfrageformular für Beratungsgespräch",
-        "intro": "Bitte geben Sie genaue Angaben zu Ihrer Situation und Ihren Zielen. So können wir prüfen, ob unsere Leistungen für Sie relevant sind, und uns auf ein produktives Erstgespräch vorbereiten.",
+        "title": "Projekt- und Anfrageformular",
+        "intro": "Bitte geben Sie genaue Angaben zu Ihrem Projekt oder Ihrer Situation. So können wir den Umfang bewerten und uns auf ein produktives erstes Gespräch vorbereiten — sei es ein Festpreisangebot oder ein strukturiertes Beratungsgespräch.",
         "firstName": "Vorname",
         "firstNamePlaceholder": "Ihr Vorname",
         "lastName": "Nachname",
@@ -269,15 +252,37 @@
           { "value": "sme", "label": "Kleinunternehmer" },
           { "value": "other", "label": "Sonstiges" }
         ],
-        "purpose": "Zweck der Beratung",
+        "purpose": "Zweck der Anfrage",
         "purposeOptions": [
           { "value": "", "label": "Wählen Sie den Hauptzweck" },
-          { "value": "relocation", "label": "Strategie zur Geschäftsrelocation" },
-          { "value": "formation", "label": "Planung der Unternehmensgründung" },
-          { "value": "businessplan", "label": "Erstellung eines Geschäftsplans" },
-          { "value": "itservices", "label": "Anfrage zu IT-Dienstleistungen" },
+          { "value": "website", "label": "Neue Website oder Webplattform" },
+          { "value": "portal", "label": "Kundenportal oder internes System" },
+          { "value": "product", "label": "Individuelles Produkt / SaaS-Entwicklung" },
+          { "value": "automation", "label": "Automatisierung & Integrationen" },
+          { "value": "support", "label": "Laufende Wartung & Support" },
           { "value": "globalreach", "label": "Global-Reach-Abonnement" },
+          { "value": "consulting", "label": "Beratung zur Unternehmensgründung" },
           { "value": "general", "label": "Allgemeine Anfrage" }
+        ],
+        "budget": "Ungefähres Budget",
+        "budgetOptions": [
+          { "value": "", "label": "Wählen Sie einen Budgetrahmen" },
+          { "value": "under5k", "label": "Unter 5.000 €" },
+          { "value": "5to15k", "label": "5.000 € – 15.000 €" },
+          { "value": "15to50k", "label": "15.000 € – 50.000 €" },
+          { "value": "50kplus", "label": "50.000 €+" },
+          { "value": "notsure", "label": "Noch nicht sicher" },
+          { "value": "na", "label": "Nicht zutreffend" }
+        ],
+        "timeline": "Gewünschter Zeitrahmen",
+        "timelineOptions": [
+          { "value": "", "label": "Wählen Sie einen gewünschten Zeitrahmen" },
+          { "value": "asap", "label": "So schnell wie möglich" },
+          { "value": "1to3m", "label": "1–3 Monate" },
+          { "value": "3to6m", "label": "3–6 Monate" },
+          { "value": "6mplus", "label": "6+ Monate" },
+          { "value": "flexible", "label": "Flexibel / prüfe Optionen" },
+          { "value": "na", "label": "Nicht zutreffend" }
         ],
         "message": "Kurze Beschreibung Ihrer Situation",
         "messagePlaceholder": "Bitte beschreiben Sie Ihre aktuelle Situation, Ihre Ziele und etwaige konkrete Fragen. Je genauer Ihre Angaben, desto produktiver wird unser Erstgespräch.",
@@ -288,6 +293,10 @@
       "success": { "title": "Anfrage erhalten", "body": "Vielen Dank für Ihre Beratungsanfrage. Ein Mitglied unseres Beraterteams wird Ihre Angaben prüfen und sich innerhalb von 1–2 Werktagen bei Ihnen melden." },
       "sidebar": {
         "directContactHeading": "Direkter Kontakt",
+        "phoneLabel": "Telefon",
+        "phoneValue": "[PHONE_NUMBER]",
+        "addressLabel": "Adresse",
+        "addressValue": "[STREET_ADDRESS], Stockholm, Schweden",
         "hoursLabel": "Bürozeiten",
         "hoursValue": "Montag – Freitag, 09:00 – 17:00 MEZ",
         "nextHeading": "Wie es weitergeht",
@@ -534,8 +543,12 @@
       "cta": { "title": "Besprechen Sie Ihre Anforderungen", "body": "Wenn Sie planen, eine Geschäftspräsenz in Europa aufzubauen, laden wir Sie zu einem Beratungsgespräch ein. Wir bewerten Ihre Situation und geben Ihnen einen klaren, strukturierten Überblick über den Weg und die für Ihre Ziele relevanten Leistungen." }
     },
     "itServices": {
-      "hero": { "label": "IT-Dienstleistungen", "h1": "Technologie für internationale Unternehmen", "body": "Wir entwickeln die Webplattformen, Portale und Automatisierungslösungen, auf die sich die von uns mitbegründeten Unternehmen verlassen — mit demselben strukturierten, compliance-bewussten Ansatz wie in unserer Beratungspraxis." },
-      "breadcrumb": "IT-Dienstleistungen",
+      "meta": {
+        "title": "Webplattformen, Portale & individuelle Software — Nordic Riser AB",
+        "description": "Mehrsprachige Websites, sichere Kundenportale, individuelle Produktentwicklung und Workflow-Automatisierung. Entwickelt in Stockholm, ausgeliefert weltweit."
+      },
+      "hero": { "label": "Dienstleistungen", "h1": "Webplattformen, Portale & individuelle Software", "body": "Mehrsprachige Websites, sichere Kundenportale, individuelle Produktentwicklung und Workflow-Automatisierung. Entwickelt in Stockholm, ausgeliefert weltweit." },
+      "breadcrumb": "Dienstleistungen",
       "offeringsLabel": "Was wir entwickeln",
       "offeringsTitle": "Vier Kernleistungen",
       "offeringsSub": "Von der ersten Unternehmenswebsite bis zu den Systemen für den täglichen Betrieb entwickeln wir Technologie, die zu Größe und Entwicklungsstand Ihres Unternehmens passt.",
@@ -566,13 +579,60 @@
         "Laufende Vereinbarungen zu Hosting, Monitoring und technischem Support"
       ],
       "portfolioLabel": "Unsere Arbeit",
-      "portfolioTitle": "Diese Website ist das Portfolio",
-      "portfolioSub": "Statt Fallstudien anderer Mandanten ist das klarste Beispiel für das, was wir entwickeln, genau das, was Sie gerade nutzen.",
-      "portfolio": [
-        { "title": "nordicriser.com", "body": "Die mehrsprachige Marketing-Website, die Sie gerade besuchen — 11 Sprachen, intern entwickelt und gepflegt." },
-        { "title": "Nordic Riser Mitgliederportal", "body": "Das sichere Kundenportal, das unsere eigenen Beratungs- und Global-Reach-Mitglieder für Dokumente, Nachrichten und Fallverfolgung nutzen." }
-      ],
+      "portfolioTitle": "Sehen Sie, was wir gebaut haben",
+      "portfolioSub": "Statt Fallstudien anderer Mandanten ist das klarste Beispiel für das, was wir entwickeln, genau das, was Sie gerade nutzen — und unsere eigenen Produkte.",
+      "portfolioCta": "Alle Arbeiten ansehen",
       "cta": { "title": "Angebot anfordern", "body": "Erzählen Sie uns von Ihrem Unternehmen und dem, was Sie umsetzen möchten. Wir bewerten den Umfang und liefern ein klares, strukturiertes Angebot — nach demselben Ansatz, den wir bei jedem Beratungsmandat verfolgen." }
+    },
+    "work": {
+      "meta": {
+        "title": "Unsere Arbeiten — Plattformen, Portale & Produkte — Nordic Riser AB",
+        "description": "Ausgewählte Projekte von Nordic Riser AB: eine Echtzeit-Übersetzungsplattform, ein sicheres Kundenportal und eine elfsprachige Produktionswebsite."
+      },
+      "hero": { "label": "Ausgewählte Arbeiten", "h1": "Was wir gebaut haben", "body": "Plattformen, Portale und Produkte, die wir entworfen, entwickelt und ausgeliefert haben — einschließlich unserer eigenen." },
+      "breadcrumb": "Arbeiten",
+      "caseStudies": [
+        {
+          "type": "SaaS-Produkt (intern entwickelt)",
+          "title": "Global Reach",
+          "challengeLabel": "Herausforderung",
+          "challenge": "Menschen, die sprachübergreifend zusammenarbeiten, verlieren Bedeutung durch Übersetzungsverzögerungen und den Wechsel zwischen Tools.",
+          "buildLabel": "Umsetzung",
+          "build": "Live-Kollaborationsräume mit gemeinsamen Whiteboards und Chat, der in Echtzeit zwischen Sprachen übersetzt wird, mit einer kostenlosen Einstiegsstufe.",
+          "stackLabel": "Technologie",
+          "stack": ["React", "Echtzeit-Synchronisierung", "Übersetzungs-API", "Abonnement-Abrechnung"],
+          "resultLabel": "Ergebnis",
+          "result": "Live-Produkt mit einer kostenlosen Stufe bei 100 Nachrichten, keine Kreditkarte nötig.",
+          "link": "global-reach",
+          "linkLabel": "Zum Produkt"
+        },
+        {
+          "type": "Sicheres Kundenportal",
+          "title": "Nordic Riser Mitgliederportal",
+          "challengeLabel": "Herausforderung",
+          "challenge": "Beratungsmandanten benötigten einen zentralen Ort für Dokumente, Fallstatus und Kommunikation — mit strikter Zugriffskontrolle.",
+          "buildLabel": "Umsetzung",
+          "build": "Authentifiziertes Portal mit mehrstufigem Onboarding, rollenbasiertem Routing (Mitglied vs. Admin), Dokumententresor, sicherer Nachrichtenfunktion, Fall-Zeitleiste und Zahlungszentrale.",
+          "stackLabel": "Technologie",
+          "stack": ["React", "Firebase Authentication", "Firestore", "Cloud Storage", "Firebase Hosting"],
+          "resultLabel": "Ergebnis",
+          "result": "Live unter portal.nordicriser.com mit eigener Domain und automatischem SSL."
+        },
+        {
+          "type": "Mehrsprachige Marketingplattform",
+          "title": "nordicriser.com",
+          "challengeLabel": "Herausforderung",
+          "challenge": "Unternehmerinnen und Unternehmer in Europa, dem Nahen Osten und Südasien in ihrer eigenen Sprache erreichen.",
+          "buildLabel": "Umsetzung",
+          "build": "Elfsprachige Produktionswebsite mit sprachspezifischer URL-Struktur, RTL-Unterstützung für Arabisch und Urdu, vollständiger Meta- und Open-Graph-Abdeckung und einem DSGVO-konformen Datenschutzrahmen.",
+          "stackLabel": "Technologie",
+          "stack": ["Statische Generierung", "CDN", "Strukturiertes i18n-Routing"],
+          "resultLabel": "Ergebnis",
+          "result": "Jede Seite in 11 Sprachen mit sauberen, indexierbaren URLs verfügbar."
+        }
+      ],
+      "note": "Dies sind unsere eigenen Produkte und Plattformen — intern entwickelt, gelauncht und gepflegt. Mandantenprojekte werden hier vorgestellt, sobald sie abgeschlossen sind.",
+      "cta": { "title": "Haben Sie ein Projekt im Kopf?", "body": "Erzählen Sie uns, was Sie bauen möchten. Wir melden uns mit einem klaren Umfang, einem realistischen Zeitplan und einem Festpreis zurück.", "cta": "Projekt starten" }
     },
     "globalReach": {
       "hero": {

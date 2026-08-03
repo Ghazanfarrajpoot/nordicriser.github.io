@@ -6,6 +6,8 @@
     "readMore": "Läs mer →",
     "requestQuote": "Begär en offert",
     "signUp": "Registrera dig",
+    "builtWith": "Byggt med:",
+    "startProject": "Starta ett projekt",
     "emailLabel": "E-post",
     "websiteLabel": "Webbplats",
     "home": "Hem",
@@ -14,7 +16,8 @@
   "nav": {
     "home": "Hem",
     "consulting": "Konsulttjänster",
-    "itServices": "IT-tjänster",
+    "itServices": "Tjänster",
+    "work": "Arbete",
     "globalReach": "Global Reach",
     "about": "Om oss",
     "contact": "Kontakt",
@@ -22,7 +25,7 @@
     "languageLabel": "Språk"
   },
   "footer": {
-    "brandBlurb": "En internationell rådgivningsbyrå som erbjuder strukturerad konsultverksamhet, teknik och global samverkan för entreprenörer och yrkesutövare som bygger en juridiskt korrekt verksamhet i Europa.",
+    "brandBlurb": "Nordic Riser AB är en Stockholmsbaserad mjukvarustudio som bygger flerspråkiga webbplattformar, säkra kundportaler och gränsöverskridande produkter för företag som verkar på mer än ett språk.",
     "addressHeading": "Registrerat säte",
     "orgNrLabel": "Org. nr.",
     "orgNrValue": "[ORG_NR]",
@@ -39,7 +42,7 @@
         { "label": "Flyttstrategi", "anchor": "relocation" },
         { "label": "Gränsöverskridande rådgivning", "anchor": "international" }
       ],
-      "itServicesHeading": "IT-tjänster",
+      "itServicesHeading": "Tjänster",
       "itServicesLinks": [
         { "label": "Webbplattformar & portaler" },
         { "label": "Automation & integrationer" },
@@ -62,150 +65,130 @@
   },
   "pages": {
     "home": {
+      "meta": {
+        "title": "Mjukvarustudio för gränsöverskridande företag — Nordic Riser AB",
+        "description": "Stockholmsbaserad mjukvarustudio som bygger flerspråkiga webbplattformar, säkra kundportaler och skräddarsydda produkter för företag som verkar över språk och marknader."
+      },
       "hero": {
-        "label": "En plattform, tre pelare",
-        "h1": "Din inkörsport till Sverige — och världen",
-        "body": "Konsultverksamhet, teknik och global samverkan under ett och samma tak — utformat för internationella entreprenörer, yrkesutövare och de företag de etablerar.",
-        "cta": "Boka en konsultation",
-        "ctaSecondary": "Utforska Global Reach"
+        "label": "Mjukvara · Plattformar · Produkter",
+        "h1": "Vi bygger mjukvara för företag som verkar över gränser",
+        "body": "Flerspråkiga webbplattformar, säkra kundportaler och skräddarsydda produkter — designade och byggda i Stockholm för företag som verkar över språk, valutor och jurisdiktioner.",
+        "cta": "Se vårt arbete",
+        "ctaSecondary": "Starta ett projekt"
       },
-      "pillars": {
-        "label": "Vad vi erbjuder",
-        "title": "Tre pelare. En plattform.",
-        "sub": "Oavsett var du befinner dig — i etableringen av ett företag, i uppbyggnaden av tekniken bakom det, eller i kontakten med rådgivare och andra i samma situation — finns det en pelare byggd för det.",
-        "consulting": {
-          "icon": "briefcase",
-          "title": "Konsulttjänster",
-          "promise": "Strukturerad, regelefterlevande rådgivning kring företag och flytt för internationella entreprenörer.",
-          "bullets": [
-            "Strategi för företagsetablering och bolagsbildning",
-            "Planering av flytt och uppehållstillstånd genom näringsverksamhet",
-            "Gränsöverskridande rådgivning för verksamhet i flera jurisdiktioner"
-          ]
-        },
-        "itServices": {
-          "icon": "code",
-          "title": "IT-tjänster",
-          "promise": "Webbplattformar och affärssystem byggda för de företag vi hjälper att etablera.",
-          "bullets": [
-            "Företagswebbplatser och kundportaler",
-            "Automatisering av arbetsflöden och integrationer",
-            "Löpande support och underhåll"
-          ]
-        },
-        "globalReach": {
-          "icon": "globe",
-          "title": "Global Reach",
-          "promise": "Direktsända rum med delade whiteboards och chatt som översätts i realtid — samarbeta över gränser kring studier, forskning och projekt.",
-          "bullets": [
-            "Delade whiteboards för direktsamarbete",
-            "Chatt som översätts live mellan språk",
-            "100 gratis meddelanden, inget kort krävs"
-          ],
-          "badge": "100 gratis meddelanden",
-          "cta": "Prova gratis — 100 meddelanden"
-        },
-        "learnMore": "Läs mer →"
-      },
-      "whatWeDo": {
-        "label": "Vad vi gör",
-        "title": "Strategisk rådgivning inom fem kärnområden",
-        "sub": "Vi erbjuder strukturerad rådgivning inom hela spektrumet av internationell företagsetablering och yrkesmässig flytt — utan generella råd.",
-        "services": [
-          { "icon": "briefcase", "title": "Företagsetablering", "body": "Strukturerad vägledning kring val av juridisk associationsform, registreringsförfaranden och operativ regelefterlevnad för internationella företagare som etablerar sig på europeiska marknader.", "note": "Särskilt anpassat för investerare utanför EU som söker en säker inkörsport till europeiska marknader.", "anchor": "establishment" },
-          { "icon": "clipboard", "title": "Strategi för bolagsbildning", "body": "Strategisk planering av rätt bolagsstruktur utifrån din affärsmodell, ägarkrav och långsiktiga mål.", "anchor": "formation" },
-          { "icon": "world", "title": "Strategi för näringsbaserat uppehållstillstånd och familjeflytt", "body": "Rådgivning om legitima, näringsbaserade vägar till flytt för dig och din familj, i linje med gällande regelverk och utformade för hållbara resultat kring uppehållstillstånd.", "anchor": "relocation" },
-          { "icon": "link", "title": "Gränsöverskridande rådgivning", "body": "Samordning av frågor som rör flera jurisdiktioner, inklusive skatt, regelefterlevnad och juridiska strukturer, för internationellt verksamma yrkesutövare och företag.", "note": "Strategiskt stöd kring europeisk bankregelefterlevnad och internationell kapitalstrukturering.", "anchor": "international" },
-          { "icon": "chart", "title": "Affärsplanering för entreprenörer", "body": "Utveckling av strukturerade affärsplaner och dokumentationspaket anpassade för att uppfylla kraven från europeiska myndigheter och institutioner.", "anchor": "documentation" }
-        ]
-      },
-      "globalReachTeaser": {
-        "label": "Global Reach",
-        "title": "Samarbeta över gränser — gratis att börja",
-        "body": "Direktsända rum med delade whiteboards och chatt som översätts i realtid. Dina första 100 meddelanden är gratis — inget kort krävs.",
-        "cta": "Prova gratis — 100 meddelanden",
-        "mockCaption": "Illustrativ förhandsvisning",
-        "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
-        "chatTranslated": "Filen är klar för granskning",
-        "chatTag": "Översatt från urdu"
-      },
-      "leadCapture": {
-        "title": "Inte redo att boka en konsultation än? Börja med vår kostnadsfria guide.",
-        "bodyPrefix": "Ladda ner:",
-        "guideTitle": "Europeisk företagsetablering — en strukturerad översikt för internationella entreprenörer",
-        "placeholder": "Din e-postadress",
-        "button": "Skicka guiden till mig"
-      },
-      "whoWeWorkWith": {
-        "label": "Vilka vi arbetar med",
-        "title": "Byggt för internationellt inriktade yrkesutövare",
-        "sub": "Våra kunder kommer från olika yrkesbakgrunder och geografiska platser. Det de har gemensamt är en strukturerad ambition att etablera en trovärdig verksamhet i Europa.",
-        "audiences": [
-          { "tag": "Entreprenörer", "title": "Företagsgrundare som planerar för Europa", "body": "Personer med etablerade eller tidiga verksamheter som utforskar inträde på den europeiska marknaden genom en regelefterlevande bolagsstruktur." },
-          { "tag": "Frilansare", "title": "Oberoende yrkesutövare verksamma globalt", "body": "Kvalificerade yrkesutövare som tillhandahåller tjänster internationellt och som behöver en juridiskt hållbar bolagsform och en strukturerad väg till uppehållstillstånd." },
-          { "tag": "Yrkesverksamma", "title": "Internationellt rörliga chefer och specialister", "body": "Seniora yrkesutövare som byter marknad och som behöver ett tydligt, strukturerat ramverk för sin yrkesmässiga och personliga flytt." },
-          { "tag": "SME-ägare", "title": "Småföretagare som expanderar till Europa", "body": "Företagare som vill etablera en europeisk verksamhetsbas, nå nya marknader eller omstrukturera sitt internationella bolagsfotavtryck." }
-        ]
-      },
-      "process": {
-        "label": "Vår process",
-        "title": "En tydlig fyrstegsmodell för samarbete",
-        "sub": "Varje uppdrag följer en strukturerad metodik utformad för att leverera tydlighet, regelefterlevnad och konkreta resultat i varje steg.",
-        "steps": [
-          { "title": "Strategisk konsultation", "body": "Vi genomför en strukturerad bedömning av din bakgrund, dina mål och dina förutsättningar för att identifiera den mest genomförbara och regelefterlevande vägen framåt." },
-          { "title": "Planering av bolagsstruktur", "body": "Utifrån dina mål utformar vi ett skräddarsytt bolags- och verksamhetsramverk — inklusive bolagsform, jurisdiktion och krav på regelefterlevnad." },
-          { "title": "Utveckling av flyttstrategi", "body": "Vi tar fram en dokumenterad flytt- och uppehållstillståndsstrategi i linje med din affärsplan, och säkerställer att institutionella krav hanteras fullt ut." },
-          { "title": "Genomförande med professionella partners", "body": "Vi samordnar genomförandet tillsammans med kvalificerade jurister, revisorer och andra specialister — och säkerställer noggrannhet, regelefterlevnad och tydlig kommunikation genomgående." }
-        ]
-      },
-      "whyChooseUs": {
-        "label": "Varför kunder väljer oss",
-        "title": "En konsultbyrå byggd på professionella standarder",
-        "sub": "Vi arbetar med regelefterlevnad som grund. Vårt värde ligger i kvaliteten på vår strategiska rådgivning, inte i löften om utfall.",
-        "cards": [
-          { "title": "Professionellt konsultativt arbetssätt", "body": "Varje uppdrag struktureras, dokumenteras och hanteras med samma noggrannhet som i en professionell konsultverksamhet — inte som en generisk rådgivningstjänst." },
-          { "title": "Endast legala och regelefterlevande strukturer", "body": "Vi arbetar uteslutande inom etablerade juridiska ramverk. Våra strategier är försvarbara, transparenta och i linje med institutionella standarder." },
-          { "title": "Strategisk vägledning, inte generella råd", "body": "Våra rekommendationer är specifika för din situation. Vi erbjuder inga mallösningar eller standardiserade program." },
-          { "title": "Långsiktigt, verksamhetsfokuserat stöd", "body": "Vi ser långsiktigt på våra kundrelationer. Vårt fokus ligger på hållbara resultat som gynnar dina yrkesmässiga och affärsmässiga intressen över tid." }
-        ]
-      },
-      "trust": {
-        "label": "Betrodda av internationella entreprenörer",
-        "title": "En meritlista byggd på struktur och regelefterlevnad",
-        "sub": "En konsultverksamhet byggd för gränsöverskridande trovärdighet, strukturerade uppdrag och regelefterlevnad.",
-        "orgNrLabel": "Org. nr.",
-        "orgNrValue": "[ORG_NR]",
+      "proofBar": {
         "stats": [
-          { "number": "Gränsöverskridande kunder", "label": "Entreprenörer och yrkesutövare över hela Europa" },
-          { "number": "3 tjänstepelare", "label": "Konsulttjänster, IT och Global Reach" },
-          { "number": "Stockholm, Sweden", "label": "EU-baserade och reglerade" },
-          { "number": "Regelefterlevnad först", "label": "I varje uppdrag" }
-        ],
-        "testimonials": [
-          { "quote": "Nordic Riser gav oss en tydlig, strukturerad plan när vi inte visste var vi skulle börja. Vårt svenska bolag etablerades inom den tidsram de angav.", "author": "Entreprenör, Pakistan", "meta": "Företag etablerat i Sverige, 2025" },
-          { "quote": "Nivån av professionalism och dokumentation de tillhandahöll gjorde våra bankmöten betydligt enklare. Jag hade inte klarat den här processen utan deras vägledning.", "author": "Oberoende yrkesutövare, Förenade Arabemiraten", "meta": "Flyttade till Europa, 2024" }
+          { "value": "11", "label": "Språk levererade i produktion" },
+          { "value": "2", "label": "Produkter byggda internt" },
+          { "value": "Stockholm, Sweden", "label": "Baserade i" },
+          { "value": "Design → Bygg → Support", "label": "Arbetssätt" }
         ]
+      },
+      "whatWeBuild": {
+        "label": "Tjänster",
+        "title": "Fyra saker vi gör bra",
+        "cards": [
+          { "icon": "globe", "title": "Flerspråkiga webbplattformar", "body": "Produktionswebbplatser byggda för att fungera på varje marknad du betjänar. Korrekt hreflang, RTL-stöd, lokaliserad innehållsstruktur — inte maskinöversatta eftertankar.", "builtWith": "Statisk sidgenerering, CDN-leverans, laddningstider under en sekund" },
+          { "icon": "lock", "title": "Säkra kundportaler", "body": "Autentiserade portaler för dokumentutbyte, ärendespårning och kundkommunikation. Rollbaserad åtkomst, krypterad lagring, granskningsspår.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
+          { "icon": "code", "title": "Skräddarsydda produkter & SaaS", "body": "Fullständig produktutveckling, från koncept till lansering. Realtidsfunktioner, prenumerationsfakturering, adminverktyg.", "seeLabel": "Se:", "seeText": "Global Reach — vår egen plattform för direktöversatt samarbete", "seeLink": "global-reach" },
+          { "icon": "gear", "title": "Automatisering & integrationer", "body": "Koppla samman verktygen du redan använder. Eliminera manuell dubbelinmatning. Automatisera de arbetsflöden som äter upp teamets vecka.", "builtWith": "API:er, webhooks, serverlösa funktioner" }
+        ]
+      },
+      "featuredWork": {
+        "label": "Utvalt arbete",
+        "title": "Vad vi har byggt",
+        "items": [
+          { "type": "SaaS-produkt (internt byggd)", "title": "Global Reach", "oneLiner": "Direktsända samarbetsrum med delade whiteboards och chatt som översätts i realtid mellan språk.", "link": "global-reach" },
+          { "type": "Säker kundportal", "title": "Nordic Riser Medlemsportal", "oneLiner": "En autentiserad portal för dokumentutbyte, ärendespårning, säker meddelandehantering och betalningar.", "link": "work" },
+          { "type": "Flerspråkig marknadsföringsplattform", "title": "nordicriser.com", "oneLiner": "En elvaspråkig produktionswebbplats med RTL-stöd, fullständig metatäckning och rena URL:er per språk.", "link": "work" }
+        ],
+        "cta": "Se allt arbete",
+        "ctaLink": "work"
+      },
+      "productSpotlight": {
+        "label": "Vår produkt",
+        "title": "Global Reach — samarbete utan språkbarriär",
+        "body": "Direktsända rum med delade whiteboards och chatt som översätts i realtid. Byggt för studiegrupper, forskningsteam och projektarbete som spänner över länder.",
+        "bullets": [
+          "Delade whiteboards för direktsamarbete",
+          "Chatt som översätts live mellan språk",
+          "De första 100 meddelandena gratis — inget kort krävs"
+        ],
+        "cta": "Prova gratis — 100 meddelanden"
+      },
+      "howWeWork": {
+        "label": "Process",
+        "title": "Från brief till lansering — och därefter",
+        "steps": [
+          { "title": "Utforskning", "body": "Vi kartlägger vad du faktiskt behöver innan vi skriver någon kod. Omfattning, användare, begränsningar, framgångskriterier — dokumenterat och överenskommet." },
+          { "title": "Design & arkitektur", "body": "Gränssnittsdesign och teknisk arkitektur parallellt. Du ser och godkänner formen på det vi bygger innan vi bygger det." },
+          { "title": "Bygg", "body": "Iterativ utveckling med fungerande förhandsgranskningar i varje steg. Inga svarta lådor med sex veckors tystnad." },
+          { "title": "Lansering", "body": "Driftsättning, domän- och SSL-konfiguration, analys och överlämningsdokumentation. Du äger allt." },
+          { "title": "Support", "body": "Löpande underhåll, övervakning och uppdateringar. Plattformar håller inte sig själva friska." }
+        ]
+      },
+      "technology": {
+        "label": "Teknikstack",
+        "title": "Vad vi bygger med",
+        "groups": [
+          { "category": "Frontend", "items": "React, Vite, modern CSS" },
+          { "category": "Backend & data", "items": "Node.js, Firebase, Firestore" },
+          { "category": "Infrastruktur", "items": "Firebase Hosting, CDN-leverans, automatiserad SSL" },
+          { "category": "Autentisering & säkerhet", "items": "Firebase Authentication, rollbaserad åtkomstkontroll, krypterad lagring" },
+          { "category": "Arbetssätt", "items": "Git-versionshantering, stegvisa driftsättningar, GDPR-kompatibel datahantering" }
+        ]
+      },
+      "whyUs": {
+        "label": "Varför Nordic Riser",
+        "title": "En studio som förstår affären, inte bara bygget",
+        "cards": [
+          { "icon": "globe", "title": "Vi talar din marknads språk — bokstavligen", "body": "Flerspråkighet är vårt standardläge, inte ett tillägg i efterhand. RTL, lokaliserad routing och översättningsarbetsflöden är inbyggda från start." },
+          { "icon": "code", "title": "Vi driver våra egna produkter", "body": "Vi är inte bara en byrå. Vi bygger, lanserar och underhåller egen mjukvara — så vi designar för verkligheten i att driva en produkt, inte bara leverera en." },
+          { "icon": "briefcase", "title": "Vi kan gränsöverskridande affärer", "body": "Vår konsultavdelning ger råd till internationella entreprenörer som etablerar företag i Europa. Den domänkunskapen går in i varje plattform vi bygger åt dem." },
+          { "icon": "shield", "title": "Du äger allt", "body": "Din kod, dina data, dina konton. Ingen inlåsning, ingen gisslaninfrastruktur." }
+        ]
+      },
+      "consultingBand": {
+        "label": "Även från Nordic Riser",
+        "title": "Konsulttjänster för företagsetablering",
+        "body": "Vid sidan av vårt mjukvaruarbete ger vi råd till internationella entreprenörer och yrkesutövare om att etablera regelefterlevande bolagsstrukturer i Europa — strategi för bolagsbildning, näringsbaserad flyttplanering och gränsöverskridande rådgivning.",
+        "cta": "Utforska konsulttjänster"
       },
       "finalCta": {
-        "title": "Redo att bygga upp din verksamhet i Europa?",
-        "body": "Prata med en konsult och få en strukturerad strategi baserad på din specifika situation, dina mål och din bakgrund."
+        "title": "Har du ett projekt i åtanke?",
+        "body": "Berätta vad du bygger. Vi återkommer med en tydlig omfattning, en realistisk tidsplan och ett fast pris.",
+        "cta": "Starta ett projekt"
       }
     },
     "about": {
-      "hero": { "label": "Om företaget", "h1": "Ett företag, tre divisioner — byggt på strategi och regelefterlevnad", "body": "Nordic Riser AB samlar konsultverksamhet, teknik och global samverkan under ett och samma tak — och hjälper internationella entreprenörer och yrkesutövare att bygga en strukturerad, regelefterlevande verksamhet i Europa och knyta kontakter över gränser." },
+      "hero": { "label": "Om studion", "h1": "En mjukvarustudio i Stockholm för företag som verkar över gränser", "body": "Nordic Riser AB designar och bygger flerspråkiga webbplattformar, säkra kundportaler och skräddarsydda produkter — med intern affärsrådgivningsexpertis som de flesta mjukvarustudior saknar." },
       "breadcrumb": "Om oss",
       "whoWeAre": {
         "label": "Vilka vi är",
-        "title": "Ett professionellt företag byggt för internationella verksamheter",
-        "intro1": "Nordic Riser AB är ett internationellt företag uppbyggt kring tre divisioner: strategisk företagsetablering och strukturerad yrkesmässig flytt i Europa (Konsultverksamhet), webbplattformar och portaler som driver dessa företag (IT-tjänster), samt direktsända, gränsöverskridande samarbetsrum med realtidsöversättning (Global Reach). Ett varumärke, ett team, tre sätt att hjälpa entreprenörer och yrkesutövare att bygga upp och växa internationellt.",
-        "intro2": "Vårt konsultarbete är av rådgivande karaktär. Vi tillhandahåller inte juridiskt ombud eller migrationstjänster. Istället erbjuder vi strukturerad strategisk vägledning — i kombination med samordning av kvalificerade yrkesutövare inom juridik, redovisning och andra regelverksområden — för att säkerställa att varje process våra kunder genomför vilar på en solid och försvarbar grund.",
-        "mission": "”Att hjälpa internationella entreprenörer och yrkesutövare att bygga upp och växa i Europa — genom strukturerad konsultverksamhet, tekniken som driver deras företag, och direkt samverkan över gränser.”",
-        "flagshipNote": "Avsnitten nedan fokuserar på vår flaggskeppsdivision Konsultverksamhet — vår ursprungliga och mest etablerade division. Läs mer om IT-tjänster och Global Reach på deras egna sidor."
+        "title": "En mjukvarustudio med verklig affärsdomänexpertis",
+        "intro1": "Nordic Riser AB är en Stockholmsbaserad mjukvarustudio. Vi designar och bygger flerspråkiga webbplattformar, säkra kundportaler och skräddarsydda produkter för företag som verkar på mer än ett språk, en valuta eller en jurisdiktion — inklusive våra egna produkter, som Global Reach.",
+        "intro2": "Det som skiljer oss åt är var vi började: att ge råd till internationella entreprenörer om att etablera regelefterlevande bolagsstrukturer i Europa. Den konsultverksamheten är fortfarande aktiv idag, och domänkunskapen den ger oss — regulatoriskt tänkande, gränsöverskridande verksamhet, institutionsgrundad dokumentation — går in i varje plattform vi bygger.",
+        "mission": "”Att bygga mjukvara som fungerar på det sätt gränsöverskridande företag faktiskt verkar — och att föra in verklig affärsexpertis i varje plattform vi levererar.”"
+      },
+      "whatWeDo": {
+        "label": "Vad vi gör",
+        "software": {
+          "title": "Mjukvara & produkter",
+          "body": "Flerspråkiga webbplattformar, säkra kundportaler, skräddarsydda produkter och arbetsflödesautomatisering — för kunder, och för oss själva.",
+          "cta": "Se våra tjänster",
+          "link": "services"
+        },
+        "consulting": {
+          "title": "Konsultverksamhet",
+          "body": "Företagsetablering och gränsöverskridande rådgivning för internationella entreprenörer — vår ursprungliga verksamhet, fortfarande aktiv idag.",
+          "cta": "Utforska konsulttjänster",
+          "link": "consulting"
+        }
       },
       "whyWeExist": {
-        "label": "Varför vi skapades",
+        "label": "Var vi började — vår konsultverksamhet",
         "title": "Byggda för att fylla ett verkligt behov inom internationell rådgivning",
-        "sub": "Vi insåg att alltför många internationellt inriktade yrkesutövare navigerade komplexa europeiska företags- och flyttprocesser utan tillgång till strukturerat, professionellt stöd.",
+        "sub": "Innan vi var en mjukvarustudio insåg vi att alltför många internationellt inriktade yrkesutövare navigerade komplexa europeiska företags- och flyttprocesser utan tillgång till strukturerat, professionellt stöd.",
         "problemTitle": "Problemet vi löser",
         "problemParagraphs": [
           "Internationella entreprenörer och yrkesutövare möter ofta fragmenterade råd — generell information som inte tar hänsyn till deras specifika affärsmodell, yrkesbakgrund eller långsiktiga mål. Resultatet blir bristfällig planering, undvikbara förseningar och strukturer som inte klarar institutionell granskning.",
@@ -220,9 +203,9 @@
         ]
       },
       "approach": {
-        "label": "Vårt arbetssätt",
+        "label": "Vårt arbetssätt i konsultverksamheten",
         "title": "Strategi först. Struktur alltid. Regelefterlevnad genomgående.",
-        "sub": "Vår metod är konsekvent i varje uppdrag. Vi börjar med strategi, bygger upp rätt juridisk och operativ struktur, och samordnar genomförandet med licensierade yrkesutövare.",
+        "sub": "Samma noggrannhet vi tillämpar i konsultuppdrag — bedöma först, utforma strukturen, genomföra med omsorg — formar även hur vi planerar och bygger mjukvara. Nedan ser du hur det tar sig uttryck specifikt i ett konsultuppdrag.",
         "items": [
           { "title": "Strategi före handling", "body": "Vi bedömer din specifika situation noggrant innan vi ger några rekommendationer. Strategisk tydlighet är grunden för varje framgångsrikt uppdrag." },
           { "title": "Juridisk struktur genom design", "body": "Vi identifierar rätt juridiskt och bolagsmässigt ramverk för dina förhållanden — bolagsform, jurisdiktion och krav på regelefterlevnad fastställs systematiskt." },
@@ -245,15 +228,15 @@
           { "icon": "ruler", "title": "Skräddarsydd rådgivning", "body": "Vi tillämpar inga mallösningar. Varje uppdrag bedöms individuellt, och strategin utformas specifikt utifrån kundens förhållanden och mål." }
         ]
       },
-      "missionBlock": { "label": "Vårt uppdrag", "missionLabel": "Uppdragsbeskrivning", "statement": "Att hjälpa internationella entreprenörer och yrkesutövare att bygga upp och växa i Europa och bortom — genom strukturerad konsultverksamhet, tekniken som driver deras företag, och direkt gränsöverskridande samverkan — med stöd av professionell vägledning, dokumenterade processer och långsiktigt strategiskt tänkande." },
-      "cta": { "title": "Prata med en konsult", "body": "Om du överväger att etablera en verksamhet i Europa bjuder vi in dig till en inledande konsultation. Vi kommer att bedöma din situation och ge dig en strukturerad översikt över vägen framåt." }
+      "missionBlock": { "label": "Vårt uppdrag", "missionLabel": "Uppdragsbeskrivning", "statement": "Att bygga flerspråkiga plattformar, säkra portaler och gränsöverskridande produkter för företag som verkar på mer än ett språk — med stöd av verklig affärsdomänexpertis, dokumenterade processer och långsiktigt strategiskt tänkande." },
+      "cta": { "title": "Har du ett projekt i åtanke?", "body": "Berätta vad du bygger — eller, om du etablerar en verksamhet i Europa, berätta om det istället. Oavsett vilket återkommer vi med ett tydligt, strukturerat nästa steg.", "ctaSecondary": "Utforska konsulttjänster" }
     },
     "contact": {
-      "hero": { "label": "Kontakta oss", "h1": "Boka en konsultation med vårt rådgivningsteam", "body": "Våra konsultationer är strukturerade och fokuserar på att förstå din specifika situation innan någon strategisk rådgivning ges. Vänligen fyll i formuläret nedan för att begära en inledande konsultation." },
+      "hero": { "label": "Kontakta oss", "h1": "Berätta om ditt projekt — eller din situation", "body": "Oavsett om du bygger mjukvara eller etablerar en verksamhet i Europa börjar vi med att förstå vad du faktiskt behöver. Fyll i formuläret nedan så återkommer vi med ett tydligt, strukturerat nästa steg." },
       "breadcrumb": "Kontakt",
       "form": {
-        "title": "Formulär för konsultationsförfrågan",
-        "intro": "Vänligen ange korrekt information om din situation och dina mål. Detta gör det möjligt för oss att bedöma om våra tjänster är relevanta för dina behov och att förbereda en produktiv inledande konsultation.",
+        "title": "Projekt- och förfrågningsformulär",
+        "intro": "Vänligen ange korrekt information om ditt projekt eller din situation. Detta gör det möjligt för oss att bedöma omfattningen och förbereda ett produktivt första samtal — oavsett om det är en fast offert eller en strukturerad konsultation.",
         "firstName": "Förnamn",
         "firstNamePlaceholder": "Ditt förnamn",
         "lastName": "Efternamn",
@@ -269,15 +252,37 @@
           { "value": "sme", "label": "Småföretagare" },
           { "value": "other", "label": "Annat" }
         ],
-        "purpose": "Syfte med konsultationen",
+        "purpose": "Syfte med förfrågan",
         "purposeOptions": [
           { "value": "", "label": "Välj huvudsyfte" },
-          { "value": "relocation", "label": "Strategi för företagsflytt" },
-          { "value": "formation", "label": "Planering av bolagsbildning" },
-          { "value": "businessplan", "label": "Utarbetande av affärsplan" },
-          { "value": "itservices", "label": "Förfrågan om IT-tjänster" },
+          { "value": "website", "label": "Ny webbplats eller webbplattform" },
+          { "value": "portal", "label": "Kundportal eller internt system" },
+          { "value": "product", "label": "Skräddarsydd produkt / SaaS-utveckling" },
+          { "value": "automation", "label": "Automatisering & integrationer" },
+          { "value": "support", "label": "Löpande support & underhåll" },
           { "value": "globalreach", "label": "Global Reach-abonnemang" },
+          { "value": "consulting", "label": "Konsulttjänster för företagsetablering" },
           { "value": "general", "label": "Allmän förfrågan" }
+        ],
+        "budget": "Ungefärlig budgetram",
+        "budgetOptions": [
+          { "value": "", "label": "Välj en budgetram" },
+          { "value": "under5k", "label": "Under 5 000 €" },
+          { "value": "5to15k", "label": "5 000 € – 15 000 €" },
+          { "value": "15to50k", "label": "15 000 € – 50 000 €" },
+          { "value": "50kplus", "label": "50 000 €+" },
+          { "value": "notsure", "label": "Inte säker än" },
+          { "value": "na", "label": "Inte tillämpligt" }
+        ],
+        "timeline": "Önskad tidsram",
+        "timelineOptions": [
+          { "value": "", "label": "Välj en önskad tidsram" },
+          { "value": "asap", "label": "Så snart som möjligt" },
+          { "value": "1to3m", "label": "1–3 månader" },
+          { "value": "3to6m", "label": "3–6 månader" },
+          { "value": "6mplus", "label": "6+ månader" },
+          { "value": "flexible", "label": "Flexibel / utforskar alternativ" },
+          { "value": "na", "label": "Inte tillämpligt" }
         ],
         "message": "Kort beskrivning av din situation",
         "messagePlaceholder": "Vänligen beskriv din nuvarande situation, dina mål och eventuella specifika frågor du har. Ju mer specifik du är, desto mer produktiv blir vår inledande konsultation.",
@@ -288,6 +293,10 @@
       "success": { "title": "Förfrågan mottagen", "body": "Tack för att du skickade in din konsultationsförfrågan. En medlem av vårt rådgivningsteam kommer att granska din information och återkomma inom 1–2 arbetsdagar." },
       "sidebar": {
         "directContactHeading": "Direktkontakt",
+        "phoneLabel": "Telefon",
+        "phoneValue": "[PHONE_NUMBER]",
+        "addressLabel": "Adress",
+        "addressValue": "[STREET_ADDRESS], Stockholm, Sverige",
         "hoursLabel": "Kontorstider",
         "hoursValue": "Måndag – fredag, 09:00 – 17:00 CET",
         "nextHeading": "Vad händer sedan",
@@ -534,8 +543,12 @@
       "cta": { "title": "Diskutera dina behov", "body": "Om du planerar att etablera en verksamhet i Europa bjuder vi in dig till en konsultation. Vi kommer att bedöma din situation och ge dig en tydlig, strukturerad översikt över vägen framåt och de tjänster som är relevanta för dina mål." }
     },
     "itServices": {
-      "hero": { "label": "IT-tjänster", "h1": "Teknik byggd för internationella företag", "body": "Vi designar och bygger de webbplattformar, portaler och automationslösningar som de företag vi hjälper att etablera förlitar sig på — med samma strukturerade, regelefterlevande arbetssätt som i vår konsultverksamhet." },
-      "breadcrumb": "IT-tjänster",
+      "meta": {
+        "title": "Webbplattformar, portaler & skräddarsydd mjukvara — Nordic Riser AB",
+        "description": "Flerspråkiga webbplatser, säkra kundportaler, skräddarsydd produktutveckling och arbetsflödesautomatisering. Byggt i Stockholm, levererat globalt."
+      },
+      "hero": { "label": "Tjänster", "h1": "Webbplattformar, portaler & skräddarsydd mjukvara", "body": "Flerspråkiga webbplatser, säkra kundportaler, skräddarsydd produktutveckling och arbetsflödesautomatisering. Byggt i Stockholm, levererat globalt." },
+      "breadcrumb": "Tjänster",
       "offeringsLabel": "Vad vi bygger",
       "offeringsTitle": "Fyra kärnerbjudanden",
       "offeringsSub": "Från en första företagswebbplats till de system som driver den dagliga verksamheten — vi bygger teknik som matchar skalan och skedet i din verksamhet.",
@@ -566,13 +579,60 @@
         "Löpande hosting, övervakning och tekniska supportavtal"
       ],
       "portfolioLabel": "Vårt arbete",
-      "portfolioTitle": "Den här webbplatsen är portfolion",
-      "portfolioSub": "Istället för fallstudier från andra kunder är det tydligaste exemplet på vad vi bygger det du använder just nu.",
-      "portfolio": [
-        { "title": "nordicriser.com", "body": "Den flerspråkiga marknadsföringswebbplats du besöker — 11 språk, byggd och underhållen internt." },
-        { "title": "Nordic Riser Medlemsportal", "body": "Den säkra kundportal som våra egna konsult- och Global Reach-medlemmar använder för dokument, meddelanden och ärendespårning." }
-      ],
+      "portfolioTitle": "Se vad vi har byggt",
+      "portfolioSub": "Istället för fallstudier från andra kunder är det tydligaste exemplet på vad vi bygger det du använder just nu — och våra egna produkter.",
+      "portfolioCta": "Se allt arbete",
       "cta": { "title": "Begär en offert", "body": "Berätta för oss om din verksamhet och vad du vill bygga. Vi bedömer omfånget och ger dig en tydlig, strukturerad offert — på samma sätt som vi angriper varje konsultuppdrag." }
+    },
+    "work": {
+      "meta": {
+        "title": "Vårt arbete — plattformar, portaler & produkter — Nordic Riser AB",
+        "description": "Utvalda projekt från Nordic Riser AB: en samarbetsplattform med direktöversättning, en säker kundportal och en elvaspråkig produktionswebbplats."
+      },
+      "hero": { "label": "Utvalt arbete", "h1": "Vad vi har byggt", "body": "Plattformar, portaler och produkter vi har designat, byggt och levererat — inklusive våra egna." },
+      "breadcrumb": "Arbete",
+      "caseStudies": [
+        {
+          "type": "SaaS-produkt (internt byggd)",
+          "title": "Global Reach",
+          "challengeLabel": "Utmaning",
+          "challenge": "Personer som samarbetar över språk förlorar innebörd i översättningsfördröjningar och genom att växla mellan verktyg.",
+          "buildLabel": "Bygge",
+          "build": "Direktsända samarbetsrum med delade whiteboards och chatt som översätts i realtid mellan språk, med en kostnadsfri instegsnivå.",
+          "stackLabel": "Teknikstack",
+          "stack": ["React", "Realtidssynkronisering", "Översättnings-API", "Prenumerationsfakturering"],
+          "resultLabel": "Resultat",
+          "result": "Live produkt med en gratisnivå på 100 meddelanden, inget kort krävs.",
+          "link": "global-reach",
+          "linkLabel": "Se produkten"
+        },
+        {
+          "type": "Säker kundportal",
+          "title": "Nordic Riser Medlemsportal",
+          "challengeLabel": "Utmaning",
+          "challenge": "Rådgivningskunder behövde en samlad plats för dokument, ärendestatus och kommunikation — med strikt åtkomstkontroll.",
+          "buildLabel": "Bygge",
+          "build": "Autentiserad portal med flerstegsintroduktion, rollbaserad routing (medlem kontra admin), dokumentvalv, säker meddelandehantering, ärendetidslinje och betalningscentral.",
+          "stackLabel": "Teknikstack",
+          "stack": ["React", "Firebase Authentication", "Firestore", "Cloud Storage", "Firebase Hosting"],
+          "resultLabel": "Resultat",
+          "result": "Live på portal.nordicriser.com med egen domän och automatisk SSL."
+        },
+        {
+          "type": "Flerspråkig marknadsföringsplattform",
+          "title": "nordicriser.com",
+          "challengeLabel": "Utmaning",
+          "challenge": "Nå entreprenörer i Europa, Mellanöstern och Sydasien på deras egna språk.",
+          "buildLabel": "Bygge",
+          "build": "Elvaspråkig produktionswebbplats med URL-struktur per språk, RTL-stöd för arabiska och urdu, fullständig meta- och Open Graph-täckning samt ett GDPR-kompatibelt integritetsramverk.",
+          "stackLabel": "Teknikstack",
+          "stack": ["Statisk generering", "CDN", "Strukturerad i18n-routing"],
+          "resultLabel": "Resultat",
+          "result": "Varje sida tillgänglig på 11 språk med rena, indexerbara URL:er."
+        }
+      ],
+      "note": "Det här är våra egna produkter och plattformar — byggda, lanserade och underhållna internt. Kunduppdrag kommer att presenteras här allteftersom de slutförs.",
+      "cta": { "title": "Har du ett projekt i åtanke?", "body": "Berätta vad du bygger. Vi återkommer med en tydlig omfattning, en realistisk tidsplan och ett fast pris.", "cta": "Starta ett projekt" }
     },
     "globalReach": {
       "hero": {

@@ -6,6 +6,8 @@
     "readMore": "Lees meer →",
     "requestQuote": "Vraag een Offerte Aan",
     "signUp": "Aanmelden",
+    "builtWith": "Gebouwd met:",
+    "startProject": "Start een Project",
     "emailLabel": "E-mail",
     "websiteLabel": "Website",
     "home": "Home",
@@ -14,7 +16,8 @@
   "nav": {
     "home": "Home",
     "consulting": "Consulting",
-    "itServices": "IT-diensten",
+    "itServices": "Diensten",
+    "work": "Werk",
     "globalReach": "Global Reach",
     "about": "Over Ons",
     "contact": "Contact",
@@ -22,7 +25,7 @@
     "languageLabel": "Taal"
   },
   "footer": {
-    "brandBlurb": "Een internationaal adviesbureau dat gestructureerde consulting, technologie en wereldwijde samenwerking biedt aan ondernemers en professionals die een juridisch conforme aanwezigheid in Europa opbouwen.",
+    "brandBlurb": "Nordic Riser AB is een softwarestudio in Stockholm die meertalige webplatforms, veilige klantportalen en grensoverschrijdende producten bouwt voor bedrijven die in meer dan één taal actief zijn.",
     "addressHeading": "Statutaire Zetel",
     "orgNrLabel": "Kvk./Org.nr.",
     "orgNrValue": "[ORG_NR]",
@@ -39,7 +42,7 @@
         { "label": "Relocatiestrategie", "anchor": "relocation" },
         { "label": "Grensoverschrijdend Advies", "anchor": "international" }
       ],
-      "itServicesHeading": "IT-diensten",
+      "itServicesHeading": "Diensten",
       "itServicesLinks": [
         { "label": "Webplatforms & portalen" },
         { "label": "Automatisering & integraties" },
@@ -62,150 +65,130 @@
   },
   "pages": {
     "home": {
+      "meta": {
+        "title": "Softwarestudio voor Grensoverschrijdende Bedrijven — Nordic Riser AB",
+        "description": "Softwarestudio in Stockholm die meertalige webplatforms, veilige klantportalen en producten op maat bouwt voor bedrijven die over talen en markten heen actief zijn."
+      },
       "hero": {
-        "label": "Eén Platform, Drie Pijlers",
-        "h1": "Uw Toegangspoort tot Zweden — en de Wereld",
-        "body": "Consulting, technologie en wereldwijde samenwerking onder één dak — ontworpen voor internationale ondernemers, professionals en de bedrijven die zij oprichten.",
-        "cta": "Boek een Consult",
-        "ctaSecondary": "Ontdek Global Reach"
+        "label": "Software · Platforms · Producten",
+        "h1": "Wij Bouwen Software voor Bedrijven die Grenzen Overschrijden",
+        "body": "Meertalige webplatforms, veilige klantportalen en producten op maat — ontworpen en gebouwd in Stockholm voor bedrijven die actief zijn over talen, valuta's en rechtsgebieden heen.",
+        "cta": "Bekijk Ons Werk",
+        "ctaSecondary": "Start een Project"
       },
-      "pillars": {
-        "label": "Wat Wij Bieden",
-        "title": "Drie Pijlers. Eén Platform.",
-        "sub": "In welke fase u zich ook bevindt — het opzetten van een bedrijf, het bouwen van de technologie erachter, of het contact leggen met adviseurs en gelijkgestemden — er is een pijler die daarbij past.",
-        "consulting": {
-          "icon": "briefcase",
-          "title": "Consulting",
-          "promise": "Gestructureerd, compliant advies over bedrijfsvoering en relocatie voor internationale ondernemers.",
-          "bullets": [
-            "Strategie voor bedrijfsvestiging en -oprichting",
-            "Planning van relocatie en verblijf via ondernemerschap",
-            "Grensoverschrijdend advies voor activiteiten in meerdere jurisdicties"
-          ]
-        },
-        "itServices": {
-          "icon": "code",
-          "title": "IT-diensten",
-          "promise": "Webplatforms en bedrijfssystemen gebouwd voor de ondernemingen die wij helpen opzetten.",
-          "bullets": [
-            "Bedrijfswebsites en klantportalen",
-            "Workflow-automatisering en integraties",
-            "Doorlopende ondersteuning en onderhoud"
-          ]
-        },
-        "globalReach": {
-          "icon": "globe",
-          "title": "Global Reach",
-          "promise": "Live ruimtes met gedeelde whiteboards en chat die in realtime wordt vertaald — werk grensoverschrijdend samen aan studie, onderzoek en projecten.",
-          "bullets": [
-            "Gedeelde whiteboards voor live samenwerking",
-            "Chat die live tussen talen wordt vertaald",
-            "100 gratis berichten, geen kaart nodig"
-          ],
-          "badge": "100 gratis berichten",
-          "cta": "Start gratis — 100 berichten"
-        },
-        "learnMore": "Meer informatie →"
-      },
-      "whatWeDo": {
-        "label": "Wat Wij Doen",
-        "title": "Strategische Consulting op Vijf Kerngebieden",
-        "sub": "Wij bieden gestructureerd advies over het volledige spectrum van internationale bedrijfsvestiging en professionele relocatie — zonder generieke adviezen.",
-        "services": [
-          { "icon": "briefcase", "title": "Bedrijfsvestiging", "body": "Gestructureerde begeleiding bij de keuze van de juridische entiteit, registratieprocedures en operationele compliance voor internationale ondernemers die de Europese markt betreden.", "note": "Gespecialiseerd voor niet-EU-investeerders die op zoek zijn naar een veilige toegangspoort tot de Europese markt.", "anchor": "establishment" },
-          { "icon": "clipboard", "title": "Strategie voor Bedrijfsoprichting", "body": "Strategische planning van de juiste bedrijfsstructuur op basis van uw bedrijfsmodel, eigendomsvereisten en langetermijndoelstellingen.", "anchor": "formation" },
-          { "icon": "world", "title": "Strategie voor Verblijf via Ondernemerschap en Gezinshereniging", "body": "Advies over legitieme, op ondernemerschap gebaseerde relocatietrajecten voor u en uw gezin, afgestemd op de geldende regelgeving en gericht op duurzame verblijfsresultaten.", "anchor": "relocation" },
-          { "icon": "link", "title": "Grensoverschrijdend Advies", "body": "Coördinatie van overwegingen in meerdere jurisdicties, waaronder fiscaliteit, compliance en juridische structuren, voor internationaal actieve professionals en bedrijven.", "note": "Strategische ondersteuning bij Europese bancaire compliance en internationale kapitaalstructurering.", "anchor": "international" },
-          { "icon": "chart", "title": "Bedrijfsplanning voor Ondernemers", "body": "Ontwikkeling van gestructureerde businessplannen en documentatiepakketten die voldoen aan de eisen van Europese autoriteiten en instellingen.", "anchor": "documentation" }
-        ]
-      },
-      "globalReachTeaser": {
-        "label": "Global Reach",
-        "title": "Werk grensoverschrijdend samen — gratis om te beginnen",
-        "body": "Live ruimtes met gedeelde whiteboards en chat die in realtime wordt vertaald. Uw eerste 100 berichten zijn gratis — geen kaart nodig.",
-        "cta": "Start gratis — 100 berichten",
-        "mockCaption": "Illustratieve preview",
-        "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
-        "chatTranslated": "Het bestand is klaar voor beoordeling",
-        "chatTag": "Vertaald uit het Urdu"
-      },
-      "leadCapture": {
-        "title": "Nog niet klaar voor een consult? Begin met onze gratis gids.",
-        "bodyPrefix": "Download:",
-        "guideTitle": "Bedrijfsvestiging in Europa — Een Gestructureerd Overzicht voor Internationale Ondernemers",
-        "placeholder": "Uw e-mailadres",
-        "button": "Stuur Mij de Gids"
-      },
-      "whoWeWorkWith": {
-        "label": "Met Wie Wij Werken",
-        "title": "Ontworpen voor Internationaal Georiënteerde Professionals",
-        "sub": "Onze klanten komen uit uiteenlopende professionele achtergronden en regio's. Wat zij gemeen hebben, is een gestructureerde ambitie om een geloofwaardige bedrijfsaanwezigheid in Europa op te bouwen.",
-        "audiences": [
-          { "tag": "Ondernemers", "title": "Bedrijfsoprichters met Plannen voor Europa", "body": "Personen met bestaande of prille ondernemingen die de toetreding tot de Europese markt onderzoeken via een compliant bedrijfsstructuur." },
-          { "tag": "Zelfstandigen", "title": "Onafhankelijke Professionals die Wereldwijd Werken", "body": "Vakbekwame professionals die internationaal diensten verlenen en die een juridisch solide bedrijfsentiteit en een gestructureerde verblijfsaanpak nodig hebben." },
-          { "tag": "Professionals", "title": "Internationaal Mobiele Executives", "body": "Senior professionals die overstappen tussen markten en die behoefte hebben aan een helder, gestructureerd kader voor hun professionele en persoonlijke relocatie." },
-          { "tag": "MKB-eigenaren", "title": "Eigenaren van Kleine Bedrijven die Uitbreiden naar Europa", "body": "Ondernemers die een operationele basis in Europa willen vestigen, nieuwe markten willen betreden of hun internationale bedrijfsstructuur willen herzien." }
-        ]
-      },
-      "process": {
-        "label": "Ons Proces",
-        "title": "Een Helder Vierstappenmodel",
-        "sub": "Elk traject volgt een gestructureerde methodologie, ontworpen om in elke fase duidelijkheid, compliance en concrete resultaten te leveren.",
-        "steps": [
-          { "title": "Strategisch Consult", "body": "Wij voeren een gestructureerde beoordeling uit van uw achtergrond, doelstellingen en beperkingen om het meest haalbare en compliant traject te bepalen." },
-          { "title": "Planning van de Bedrijfsstructuur", "body": "Op basis van uw doelen ontwerpen wij een op maat gemaakt bedrijfs- en operationeel kader — inclusief type entiteit, jurisdictie en compliance-eisen." },
-          { "title": "Ontwikkeling van de Relocatiestrategie", "body": "Wij ontwikkelen een gedocumenteerde relocatie- en verblijfsstrategie die aansluit op uw businessplan, zodat aan alle institutionele vereisten wordt voldaan." },
-          { "title": "Implementatie met Professionele Partners", "body": "Wij coördineren de uitvoering samen met gekwalificeerde juridische, boekhoudkundige en gespecialiseerde professionals — voor nauwkeurigheid, compliance en heldere communicatie gedurende het gehele traject." }
-        ]
-      },
-      "whyChooseUs": {
-        "label": "Waarom Klanten Voor Ons Kiezen",
-        "title": "Een Adviesbureau Gebouwd op Professionele Standaarden",
-        "sub": "Wij hanteren een compliance-first benadering. Onze waarde ligt in de kwaliteit van ons strategisch advies, niet in beloftes over de uitkomst.",
-        "cards": [
-          { "title": "Professionele Consultingaanpak", "body": "Elk traject wordt gestructureerd, gedocumenteerd en beheerd met de nauwkeurigheid van een professionele adviespraktijk — niet als generieke dienstverlening." },
-          { "title": "Uitsluitend Legale en Compliant Structuren", "body": "Wij werken uitsluitend binnen bestaande wettelijke kaders. Onze strategieën zijn verdedigbaar, transparant en afgestemd op institutionele normen." },
-          { "title": "Strategisch Advies, Geen Generiek Advies", "body": "Onze aanbevelingen zijn specifiek voor uw situatie. Wij bieden geen kant-en-klare oplossingen of one-size-fits-all-programma's." },
-          { "title": "Langdurige, Bedrijfsgerichte Ondersteuning", "body": "Wij kijken op lange termijn naar klantrelaties. Onze focus ligt op duurzame resultaten die uw professionele en zakelijke belangen op de lange termijn dienen." }
-        ]
-      },
-      "trust": {
-        "label": "Vertrouwd door Internationale Ondernemers",
-        "title": "Een Trackrecord Gebouwd op Structuur en Compliance",
-        "sub": "Een adviespraktijk ontworpen voor grensoverschrijdende geloofwaardigheid, gestructureerde trajecten en regelgevingscompliance.",
-        "orgNrLabel": "Kvk./Org.nr.",
-        "orgNrValue": "[ORG_NR]",
+      "proofBar": {
         "stats": [
-          { "number": "Grensoverschrijdende Klanten", "label": "Ondernemers en Professionals in Heel Europa" },
-          { "number": "3 Servicepijlers", "label": "Consulting, IT en Global Reach" },
-          { "number": "Stockholm, Sweden", "label": "Gevestigd en Gereguleerd in de EU" },
-          { "number": "Compliance-First", "label": "Bij Elk Traject" }
-        ],
-        "testimonials": [
-          { "quote": "Nordic Riser gaf ons een duidelijk, gestructureerd stappenplan toen we niet wisten waar te beginnen. Ons Zweedse bedrijf werd opgericht binnen de door hen geschetste termijn.", "author": "Ondernemer, Pakistan", "meta": "Bedrijf opgericht in Zweden, 2025" },
-          { "quote": "Het niveau van professionaliteit en documentatie dat zij leverden, maakte onze bankgesprekken aanzienlijk eenvoudiger. Zonder hun begeleiding was ik dit proces niet doorgekomen.", "author": "Zelfstandig Professional, VAE", "meta": "Verhuisd naar Europa, 2024" }
+          { "value": "11", "label": "Talen Uitgebracht in Productie" },
+          { "value": "2", "label": "Intern Gebouwde Producten" },
+          { "value": "Stockholm, Sweden", "label": "Gevestigd in" },
+          { "value": "Ontwerp → Bouw → Support", "label": "Aanpak" }
         ]
+      },
+      "whatWeBuild": {
+        "label": "Diensten",
+        "title": "Vier Dingen die Wij Goed Doen",
+        "cards": [
+          { "icon": "globe", "title": "Meertalige Webplatforms", "body": "Productiewebsites die zijn gebouwd om te werken op elke markt die u bedient. Correcte hreflang, RTL-ondersteuning, gelokaliseerde contentstructuur — geen machinaal vertaalde bijgedachten.", "builtWith": "Statische site-generatie, CDN-levering, laadtijden onder de seconde" },
+          { "icon": "lock", "title": "Veilige Klantportalen", "body": "Geauthenticeerde portalen voor documentuitwisseling, zaakopvolging en klantcommunicatie. Rolgebaseerde toegang, versleutelde opslag, audit trails.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
+          { "icon": "code", "title": "Producten op Maat & SaaS", "body": "Volledige productontwikkeling, van concept tot lancering. Realtime functies, abonnementsfacturering, beheertools.", "seeLabel": "Zie:", "seeText": "Global Reach — ons eigen samenwerkingsplatform met live vertaling", "seeLink": "global-reach" },
+          { "icon": "gear", "title": "Automatisering & Integraties", "body": "Verbind de tools die u al gebruikt. Elimineer handmatige dubbele invoer. Automatiseer de workflows die de week van uw team opslokken.", "builtWith": "API's, webhooks, serverloze functies" }
+        ]
+      },
+      "featuredWork": {
+        "label": "Geselecteerd Werk",
+        "title": "Wat Wij Hebben Gebouwd",
+        "items": [
+          { "type": "SaaS-product (Intern)", "title": "Global Reach", "oneLiner": "Live samenwerkingsruimtes met gedeelde whiteboards en chat die in realtime wordt vertaald tussen talen.", "link": "global-reach" },
+          { "type": "Veilig Klantportaal", "title": "Nordic Riser Ledenportaal", "oneLiner": "Een geauthenticeerd portaal voor documentuitwisseling, zaakopvolging, veilige berichten en betalingen.", "link": "work" },
+          { "type": "Meertalig Marketingplatform", "title": "nordicriser.com", "oneLiner": "Een productiesite in elf talen met RTL-ondersteuning, volledige metadekking en schone URL's per taal.", "link": "work" }
+        ],
+        "cta": "Bekijk Al Ons Werk",
+        "ctaLink": "work"
+      },
+      "productSpotlight": {
+        "label": "Ons Product",
+        "title": "Global Reach — Samenwerken Zonder Taalbarrière",
+        "body": "Live ruimtes met gedeelde whiteboards en chat die in realtime wordt vertaald. Ontworpen voor studiegroepen, onderzoeksteams en projectwerk dat landen overspant.",
+        "bullets": [
+          "Gedeelde whiteboards voor live samenwerking",
+          "Chat die live tussen talen wordt vertaald",
+          "De eerste 100 berichten gratis — geen kaart nodig"
+        ],
+        "cta": "Start gratis — 100 berichten"
+      },
+      "howWeWork": {
+        "label": "Proces",
+        "title": "Van Briefing tot Lancering — en Verder",
+        "steps": [
+          { "title": "Ontdekking", "body": "Wij brengen in kaart wat u werkelijk nodig heeft voordat er ook maar één regel code wordt geschreven. Reikwijdte, gebruikers, beperkingen, succescriteria — gedocumenteerd en overeengekomen." },
+          { "title": "Ontwerp & Architectuur", "body": "Interfaceontwerp en technische architectuur lopen parallel. U ziet en keurt de vorm van het product goed voordat wij het bouwen." },
+          { "title": "Bouw", "body": "Iteratieve ontwikkeling met werkende previews in elke fase. Geen black-box stiltes van zes weken." },
+          { "title": "Lancering", "body": "Implementatie, domein- en SSL-configuratie, analytics en overdrachtsdocumentatie. U bent eigenaar van alles." },
+          { "title": "Support", "body": "Doorlopend onderhoud, monitoring en updates. Platforms blijven niet vanzelf gezond." }
+        ]
+      },
+      "technology": {
+        "label": "Technologie",
+        "title": "Waarmee Wij Bouwen",
+        "groups": [
+          { "category": "Frontend", "items": "React, Vite, moderne CSS" },
+          { "category": "Backend & Data", "items": "Node.js, Firebase, Firestore" },
+          { "category": "Infrastructuur", "items": "Firebase Hosting, CDN-levering, geautomatiseerde SSL" },
+          { "category": "Authenticatie & Beveiliging", "items": "Firebase Authentication, rolgebaseerde toegangscontrole, versleutelde opslag" },
+          { "category": "Werkwijzen", "items": "Git-versiebeheer, gefaseerde implementaties, AVG-conforme gegevensverwerking" }
+        ]
+      },
+      "whyUs": {
+        "label": "Waarom Nordic Riser",
+        "title": "Een Studio die het Bedrijf Begrijpt, Niet Alleen de Bouw",
+        "cards": [
+          { "icon": "globe", "title": "Wij Spreken de Talen van Uw Markt — Letterlijk", "body": "Meertaligheid is onze standaard, geen achteraf toegevoegde plugin. RTL, gelokaliseerde routering en vertaalworkflows zijn vanaf het begin ingebouwd." },
+          { "icon": "code", "title": "Wij Runnen Onze Eigen Producten", "body": "Wij zijn niet alleen een bureau. Wij bouwen, lanceren en onderhouden onze eigen software — dus wij ontwerpen voor de realiteit van het runnen van een product, niet alleen het opleveren ervan." },
+          { "icon": "briefcase", "title": "Wij Kennen Grensoverschrijdende Zaken", "body": "Onze consultingdivisie adviseert internationale ondernemers bij het oprichten van bedrijven in Europa. Die domeinkennis vloeit in elk platform dat wij voor hen bouwen." },
+          { "icon": "shield", "title": "U Bent Eigenaar van Alles", "body": "Uw code, uw data, uw accounts. Geen lock-in, geen gijzelde infrastructuur." }
+        ]
+      },
+      "consultingBand": {
+        "label": "Ook van Nordic Riser",
+        "title": "Consulting voor Bedrijfsvestiging",
+        "body": "Naast ons softwarewerk adviseren wij internationale ondernemers en professionals bij het opzetten van compliant bedrijfsstructuren in Europa — strategie voor bedrijfsoprichting, relocatieplanning via ondernemerschap en grensoverschrijdend advies.",
+        "cta": "Ontdek Consulting"
       },
       "finalCta": {
-        "title": "Klaar om uw Europese Bedrijfsaanwezigheid Op te Bouwen?",
-        "body": "Spreek met een consultant en ontvang een gestructureerde strategie op basis van uw specifieke situatie, doelstellingen en achtergrond."
+        "title": "Heeft u een Project in Gedachten?",
+        "body": "Vertel ons wat u bouwt. Wij komen terug met een duidelijke scope, een realistische planning en een vaste prijs.",
+        "cta": "Start een Project"
       }
     },
     "about": {
-      "hero": { "label": "Over het Kantoor", "h1": "Eén Bedrijf, Drie Divisies — Gebouwd op Strategie en Compliance", "body": "Nordic Riser AB brengt consulting, technologie en wereldwijde samenwerking samen onder één dak — en helpt internationale ondernemers en professionals een gestructureerde, compliant aanwezigheid in Europa op te bouwen en grensoverschrijdend contact te leggen." },
+      "hero": { "label": "Over de Studio", "h1": "Een Stockholmse Softwarestudio voor Bedrijven die Grenzen Overschrijden", "body": "Nordic Riser AB ontwerpt en bouwt meertalige webplatforms, veilige klantportalen en producten op maat — ondersteund door interne bedrijfsadvieskennis die de meeste softwarestudio's niet hebben." },
       "breadcrumb": "Over Ons",
       "whoWeAre": {
         "label": "Wie Wij Zijn",
-        "title": "Een Professioneel Bedrijf voor Internationale Bedrijfsvoering",
-        "intro1": "Nordic Riser AB is een internationaal bedrijf opgebouwd rond drie divisies: strategische bedrijfsvestiging en gestructureerde professionele relocatie in Europa (Consulting), de webplatforms en portalen die deze bedrijven draaiende houden (IT-diensten), en live, grensoverschrijdende samenwerkingsruimtes met realtime vertaling (Global Reach). Eén merk, één team, drie manieren waarop wij ondernemers en professionals helpen internationaal te groeien.",
-        "intro2": "Ons consultingwerk is adviserend van aard. Wij bieden geen juridische vertegenwoordiging of immigratiediensten. In plaats daarvan bieden wij gestructureerd strategisch advies — gecombineerd met de coördinatie van gekwalificeerde professionals op juridisch, boekhoudkundig en regelgevend gebied — om ervoor te zorgen dat elk proces van onze klanten op een solide, verdedigbare basis rust.",
-        "mission": "„Internationale ondernemers en professionals helpen groeien in Europa — via gestructureerde consulting, de technologie die hun bedrijven draaiende houdt, en directe grensoverschrijdende samenwerking.”",
-        "flagshipNote": "De onderstaande secties richten zich op onze vlaggenschipdivisie Consulting — onze oorspronkelijke en meest gevestigde divisie. Lees meer over IT-diensten en Global Reach op hun eigen pagina's."
+        "title": "Een Softwarestudio met Reële Bedrijfskundige Expertise",
+        "intro1": "Nordic Riser AB is een softwarestudio gevestigd in Stockholm. Wij ontwerpen en bouwen meertalige webplatforms, veilige klantportalen en producten op maat voor bedrijven die actief zijn in meer dan één taal, valuta of rechtsgebied — inclusief onze eigen producten, zoals Global Reach.",
+        "intro2": "Wat ons onderscheidt, is waar wij zijn begonnen: het adviseren van internationale ondernemers bij het opzetten van compliant bedrijfsstructuren in Europa. Die consultingpraktijk is vandaag nog steeds actief, en de domeinkennis die het ons geeft — regelgevend denken, grensoverschrijdende activiteiten, documentatie op institutioneel niveau — vloeit in elk platform dat wij bouwen.",
+        "mission": "„Software bouwen die werkt zoals grensoverschrijdende bedrijven daadwerkelijk opereren — en reële bedrijfsexpertise inbrengen in elk platform dat wij uitbrengen.”"
+      },
+      "whatWeDo": {
+        "label": "Wat Wij Doen",
+        "software": {
+          "title": "Software & Producten",
+          "body": "Meertalige webplatforms, veilige klantportalen, producten op maat en workflow-automatisering — voor klanten, en voor onszelf.",
+          "cta": "Bekijk Onze Diensten",
+          "link": "services"
+        },
+        "consulting": {
+          "title": "Consulting",
+          "body": "Bedrijfsvestiging en grensoverschrijdend advies voor internationale ondernemers — onze oorspronkelijke praktijk, vandaag nog steeds actief.",
+          "cta": "Ontdek Consulting",
+          "link": "consulting"
+        }
       },
       "whyWeExist": {
-        "label": "Waarom Wij Zijn Opgericht",
+        "label": "Waar Wij Begonnen — Onze Consultingpraktijk",
         "title": "Ontworpen om een Reële Leemte in Internationaal Advies te Vullen",
-        "sub": "Wij zagen dat te veel internationaal georiënteerde professionals complexe Europese bedrijfs- en relocatieprocessen doorliepen zonder toegang tot gestructureerde, professionele strategische ondersteuning.",
+        "sub": "Voordat wij een softwarestudio waren, zagen wij dat te veel internationaal georiënteerde professionals complexe Europese bedrijfs- en relocatieprocessen doorliepen zonder toegang tot gestructureerde, professionele strategische ondersteuning.",
         "problemTitle": "Het Probleem dat Wij Oplossen",
         "problemParagraphs": [
           "Internationale ondernemers en professionals krijgen vaak te maken met versnipperd advies — generieke informatie die geen rekening houdt met hun specifieke bedrijfsmodel, professionele achtergrond of langetermijndoelstellingen. Het resultaat is gebrekkige planning, vermijdbare vertragingen en structuren die geen institutionele toetsing doorstaan.",
@@ -220,9 +203,9 @@
         ]
       },
       "approach": {
-        "label": "Onze Aanpak",
+        "label": "Onze Consultingaanpak",
         "title": "Eerst Strategie. Altijd Structuur. Doorlopend Compliance.",
-        "sub": "Onze methodologie is consistent bij elk traject. Wij beginnen met strategie, bouwen de juiste juridische en operationele structuur, en coördineren de uitvoering met erkende professionals.",
+        "sub": "Dezelfde nauwkeurigheid die wij toepassen op consultingtrajecten — eerst beoordelen, de juiste structuur ontwerpen, zorgvuldig uitvoeren — bepaalt ook hoe wij software scopen en bouwen. Hieronder ziet u hoe dit specifiek uitpakt in een consultingtraject.",
         "items": [
           { "title": "Strategie vóór Actie", "body": "Wij beoordelen uw specifieke situatie grondig voordat wij enige aanbeveling doen. Strategische helderheid is de basis van elk succesvol traject." },
           { "title": "Juridische Structuur volgens Ontwerp", "body": "Wij bepalen het juiste juridische en bedrijfskader voor uw omstandigheden — type entiteit, jurisdictie en compliance-verplichtingen worden systematisch vastgesteld." },
@@ -245,15 +228,15 @@
           { "icon": "ruler", "title": "Advies op Maat", "body": "Wij passen geen kant-en-klare oplossingen toe. Elk traject wordt individueel beoordeeld en de strategie wordt ontwikkeld op basis van de specifieke omstandigheden en doelstellingen van de klant." }
         ]
       },
-      "missionBlock": { "label": "Onze Missie", "missionLabel": "Missieverklaring", "statement": "Internationale ondernemers en professionals helpen groeien in Europa en daarbuiten — via gestructureerde consulting, de technologie die hun bedrijven draaiende houdt, en directe, grensoverschrijdende samenwerking — ondersteund door professionele begeleiding, gedocumenteerde processen en langetermijnstrategisch denken." },
-      "cta": { "title": "Spreek met een Consultant", "body": "Als u overweegt een bedrijfsaanwezigheid in Europa op te zetten, nodigen wij u uit voor een eerste consult. Wij beoordelen uw situatie en bieden een gestructureerd overzicht van het traject dat voor u ligt." }
+      "missionBlock": { "label": "Onze Missie", "missionLabel": "Missieverklaring", "statement": "Meertalige platforms, veilige portalen en grensoverschrijdende producten bouwen voor bedrijven die actief zijn in meer dan één taal — ondersteund door reële bedrijfskundige expertise, gedocumenteerde processen en langetermijnstrategisch denken." },
+      "cta": { "title": "Heeft u een Project in Gedachten?", "body": "Vertel ons wat u bouwt — of, als u een bedrijf opzet in Europa, vertel ons daarover. In beide gevallen komen wij terug met een duidelijke, gestructureerde volgende stap.", "ctaSecondary": "Ontdek Consulting" }
     },
     "contact": {
-      "hero": { "label": "Neem Contact Op", "h1": "Plan een Consult met Ons Adviesteam", "body": "Onze consulten zijn gestructureerd en gericht op het begrijpen van uw specifieke situatie voordat er strategisch advies wordt gegeven. Vul onderstaand formulier in om een eerste traject aan te vragen." },
+      "hero": { "label": "Neem Contact Op", "h1": "Vertel Ons Over Uw Project — of Uw Situatie", "body": "Of u nu software bouwt of een bedrijf opzet in Europa, wij beginnen met te begrijpen wat u werkelijk nodig heeft. Vul onderstaand formulier in en wij komen terug met een duidelijke, gestructureerde volgende stap." },
       "breadcrumb": "Contact",
       "form": {
-        "title": "Aanvraagformulier voor Consult",
-        "intro": "Geef nauwkeurige informatie over uw situatie en doelstellingen. Zo kunnen wij beoordelen of onze diensten relevant zijn voor uw behoeften en ons voorbereiden op een productief eerste consult.",
+        "title": "Project- en Aanvraagformulier",
+        "intro": "Geef nauwkeurige informatie over uw project of situatie. Zo kunnen wij de omvang beoordelen en ons voorbereiden op een productief eerste gesprek — of dat nu een offerte met vaste prijs is of een gestructureerd consult.",
         "firstName": "Voornaam",
         "firstNamePlaceholder": "Uw voornaam",
         "lastName": "Achternaam",
@@ -269,15 +252,37 @@
           { "value": "sme", "label": "Eigenaar van een Klein Bedrijf" },
           { "value": "other", "label": "Anders" }
         ],
-        "purpose": "Doel van het Consult",
+        "purpose": "Doel van de Aanvraag",
         "purposeOptions": [
           { "value": "", "label": "Selecteer het voornaamste doel" },
-          { "value": "relocation", "label": "Strategie voor Bedrijfsrelocatie" },
-          { "value": "formation", "label": "Planning van Bedrijfsoprichting" },
-          { "value": "businessplan", "label": "Opstellen van een Businessplan" },
-          { "value": "itservices", "label": "Vraag over IT-diensten" },
+          { "value": "website", "label": "Nieuwe Website of Webplatform" },
+          { "value": "portal", "label": "Klantportaal of Intern Systeem" },
+          { "value": "product", "label": "Product op Maat / SaaS-ontwikkeling" },
+          { "value": "automation", "label": "Automatisering & Integraties" },
+          { "value": "support", "label": "Doorlopende Support & Onderhoud" },
           { "value": "globalreach", "label": "Global Reach-abonnement" },
+          { "value": "consulting", "label": "Consulting voor Bedrijfsvestiging" },
           { "value": "general", "label": "Algemene Vraag" }
+        ],
+        "budget": "Geschatte Budgetrange",
+        "budgetOptions": [
+          { "value": "", "label": "Selecteer een budgetrange" },
+          { "value": "under5k", "label": "Onder €5.000" },
+          { "value": "5to15k", "label": "€5.000 – €15.000" },
+          { "value": "15to50k", "label": "€15.000 – €50.000" },
+          { "value": "50kplus", "label": "€50.000+" },
+          { "value": "notsure", "label": "Nog niet zeker" },
+          { "value": "na", "label": "Niet van toepassing" }
+        ],
+        "timeline": "Gewenste Planning",
+        "timelineOptions": [
+          { "value": "", "label": "Selecteer een gewenste planning" },
+          { "value": "asap", "label": "Zo snel mogelijk" },
+          { "value": "1to3m", "label": "1–3 maanden" },
+          { "value": "3to6m", "label": "3–6 maanden" },
+          { "value": "6mplus", "label": "6+ maanden" },
+          { "value": "flexible", "label": "Flexibel / verkennend" },
+          { "value": "na", "label": "Niet van toepassing" }
         ],
         "message": "Korte Beschrijving van Uw Situatie",
         "messagePlaceholder": "Beschrijf uw huidige situatie, uw doelstellingen en eventuele specifieke vragen die u heeft. Hoe specifieker u bent, hoe productiever ons eerste consult zal zijn.",
@@ -288,6 +293,10 @@
       "success": { "title": "Aanvraag Ontvangen", "body": "Hartelijk dank voor uw aanvraag voor een consult. Een lid van ons adviesteam beoordeelt uw gegevens en reageert binnen 1–2 werkdagen." },
       "sidebar": {
         "directContactHeading": "Rechtstreeks Contact",
+        "phoneLabel": "Telefoon",
+        "phoneValue": "[PHONE_NUMBER]",
+        "addressLabel": "Adres",
+        "addressValue": "[STREET_ADDRESS], Stockholm, Zweden",
         "hoursLabel": "Openingstijden",
         "hoursValue": "Maandag – vrijdag, 09:00 – 17:00 CET",
         "nextHeading": "Wat Er Vervolgens Gebeurt",
@@ -534,8 +543,12 @@
       "cta": { "title": "Bespreek Uw Behoeften", "body": "Als u van plan bent een bedrijfsaanwezigheid in Europa op te zetten, nodigen wij u uit voor een consult. Wij beoordelen uw situatie en bieden een helder, gestructureerd overzicht van het traject en de diensten die relevant zijn voor uw doelstellingen." }
     },
     "itServices": {
-      "hero": { "label": "IT-diensten", "h1": "Technologie voor Internationale Bedrijven", "body": "Wij ontwerpen en bouwen de webplatforms, portalen en automatisering waar de bedrijven die wij helpen opzetten op vertrouwen — met dezelfde gestructureerde, compliance-bewuste aanpak als onze adviespraktijk." },
-      "breadcrumb": "IT-diensten",
+      "meta": {
+        "title": "Webplatforms, Portalen & Software op Maat — Nordic Riser AB",
+        "description": "Meertalige websites, veilige klantportalen, productontwikkeling op maat en workflow-automatisering. Gebouwd in Stockholm, geleverd wereldwijd."
+      },
+      "hero": { "label": "Diensten", "h1": "Webplatforms, Portalen & Software op Maat", "body": "Meertalige websites, veilige klantportalen, productontwikkeling op maat en workflow-automatisering. Gebouwd in Stockholm, geleverd wereldwijd." },
+      "breadcrumb": "Diensten",
       "offeringsLabel": "Wat Wij Bouwen",
       "offeringsTitle": "Vier Kernaanbiedingen",
       "offeringsSub": "Van een eerste bedrijfswebsite tot de systemen die de dagelijkse bedrijfsvoering draaiende houden — wij bouwen technologie die past bij de schaal en fase van uw onderneming.",
@@ -566,13 +579,60 @@
         "Doorlopende hosting-, monitoring- en technische ondersteuningsregelingen"
       ],
       "portfolioLabel": "Ons Werk",
-      "portfolioTitle": "Deze Website Is het Portfolio",
-      "portfolioSub": "In plaats van casestudies van andere klanten, is het duidelijkste voorbeeld van wat wij bouwen precies wat u nu gebruikt.",
-      "portfolio": [
-        { "title": "nordicriser.com", "body": "De meertalige marketingwebsite die u bekijkt — 11 talen, intern gebouwd en onderhouden." },
-        { "title": "Nordic Riser Ledenportaal", "body": "Het beveiligde klantportaal dat onze eigen Consulting- en Global Reach-leden gebruiken voor documenten, berichten en zaakvolging." }
-      ],
+      "portfolioTitle": "Bekijk Wat Wij Hebben Gebouwd",
+      "portfolioSub": "In plaats van casestudies voor andere klanten, is het duidelijkste voorbeeld van wat wij bouwen precies wat u nu gebruikt — en onze eigen producten.",
+      "portfolioCta": "Bekijk Al Ons Werk",
       "cta": { "title": "Vraag een Offerte Aan", "body": "Vertel ons over uw bedrijf en wat u wilt bouwen. Wij beoordelen de scope en leveren een duidelijke, gestructureerde offerte — op dezelfde manier waarop wij elk consultingtraject benaderen." }
+    },
+    "work": {
+      "meta": {
+        "title": "Ons Werk — Platforms, Portalen & Producten — Nordic Riser AB",
+        "description": "Geselecteerde projecten van Nordic Riser AB: een samenwerkingsplatform met realtime vertaling, een veilig klantportaal en een productiewebsite in elf talen."
+      },
+      "hero": { "label": "Geselecteerd Werk", "h1": "Wat Wij Hebben Gebouwd", "body": "Platforms, portalen en producten die wij hebben ontworpen, gebouwd en uitgebracht — inclusief onze eigen." },
+      "breadcrumb": "Werk",
+      "caseStudies": [
+        {
+          "type": "SaaS-product (Intern)",
+          "title": "Global Reach",
+          "challengeLabel": "Uitdaging",
+          "challenge": "Mensen die grensoverschrijdend samenwerken verliezen betekenis door vertaalvertragingen en het wisselen tussen tools.",
+          "buildLabel": "Bouw",
+          "build": "Live samenwerkingsruimtes met gedeelde whiteboards en chat die in realtime tussen talen wordt vertaald, met een gratis instapniveau.",
+          "stackLabel": "Techniek",
+          "stack": ["React", "Realtime synchronisatie", "Vertaal-API", "Abonnementsfacturering"],
+          "resultLabel": "Resultaat",
+          "result": "Live product met een gratis niveau tot 100 berichten, geen kaart vereist.",
+          "link": "global-reach",
+          "linkLabel": "Bekijk het Product"
+        },
+        {
+          "type": "Veilig Klantportaal",
+          "title": "Nordic Riser Ledenportaal",
+          "challengeLabel": "Uitdaging",
+          "challenge": "Adviesklanten hadden één plek nodig voor documenten, zaakstatus en communicatie — met strikte toegangscontrole.",
+          "buildLabel": "Bouw",
+          "build": "Geauthenticeerd portaal met meerstaps-onboarding, rolgebaseerde routering (lid vs. beheerder), documentkluis, veilige berichten, zaaktijdlijn en betalingscentrum.",
+          "stackLabel": "Techniek",
+          "stack": ["React", "Firebase Authentication", "Firestore", "Cloud Storage", "Firebase Hosting"],
+          "resultLabel": "Resultaat",
+          "result": "Live op portal.nordicriser.com met een eigen domein en automatische SSL."
+        },
+        {
+          "type": "Meertalig Marketingplatform",
+          "title": "nordicriser.com",
+          "challengeLabel": "Uitdaging",
+          "challenge": "Ondernemers bereiken in heel Europa, het Midden-Oosten en Zuid-Azië, in hun eigen taal.",
+          "buildLabel": "Bouw",
+          "build": "Productiesite in elf talen met per-taal URL-structuur, RTL-ondersteuning voor Arabisch en Urdu, volledige meta- en Open Graph-dekking, en een AVG-conform privacykader.",
+          "stackLabel": "Techniek",
+          "stack": ["Statische generatie", "CDN", "Gestructureerde i18n-routering"],
+          "resultLabel": "Resultaat",
+          "result": "Elke pagina beschikbaar in 11 talen met schone, indexeerbare URL's."
+        }
+      ],
+      "note": "Dit zijn onze eigen producten en platforms — intern gebouwd, gelanceerd en onderhouden. Klantwerk wordt hier uitgelicht zodra trajecten zijn afgerond.",
+      "cta": { "title": "Heeft u een Project in Gedachten?", "body": "Vertel ons wat u bouwt. Wij komen terug met een duidelijke scope, een realistische planning en een vaste prijs.", "cta": "Start een Project" }
     },
     "globalReach": {
       "hero": {
