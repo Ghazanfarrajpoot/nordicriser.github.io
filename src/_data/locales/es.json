@@ -668,6 +668,18 @@
           "stack": ["Flutter", "Node.js", "MongoDB"],
           "resultLabel": "Resultado",
           "result": "Una plataforma de reparto reutilizable, lista para personalizarse y desplegarse para empresas clientes."
+        },
+        {
+          "type": "Producto SaaS (Interno)",
+          "title": "NR-BOS",
+          "challengeLabel": "Desafío",
+          "challenge": "Las empresas necesitan herramientas de gestión de nivel empresarial — gestión de casos, facturación, acceso de clientes — sin el coste y la complejidad de sistemas como SAP.",
+          "buildLabel": "Construcción",
+          "build": "Una plataforma de operaciones empresariales basada en suscripción que genera enlaces y portales de acceso dedicados para clientes, cubriendo gestión de casos, facturación, documentos y comunicaciones.",
+          "stackLabel": "Tecnología",
+          "stack": ["React", "Node.js", "Firebase"],
+          "resultLabel": "Resultado",
+          "result": "Producto SaaS en producción, que genera enlaces de suscripción para clientes."
         }
       ],
       "note": "Estos son nuestros propios productos y plataformas — construidos, lanzados y mantenidos internamente. El trabajo de clientes se presentará aquí a medida que se completen los proyectos.",

@@ -668,6 +668,18 @@
           "stack": ["Flutter", "Node.js", "MongoDB"],
           "resultLabel": "Risultato",
           "result": "Una piattaforma di consegna riutilizzabile, pronta per essere personalizzata e distribuita per aziende clienti."
+        },
+        {
+          "type": "Prodotto SaaS (Interno)",
+          "title": "NR-BOS",
+          "challengeLabel": "Sfida",
+          "challenge": "Le aziende hanno bisogno di strumenti operativi di livello enterprise — gestione pratiche, fatturazione, accesso clienti — senza il costo e la complessità di sistemi come SAP.",
+          "buildLabel": "Realizzazione",
+          "build": "Una piattaforma di operazioni aziendali basata su abbonamento che genera link e portali di accesso dedicati per ogni cliente, coprendo gestione pratiche, fatturazione, documenti e comunicazioni.",
+          "stackLabel": "Tecnologia",
+          "stack": ["React", "Node.js", "Firebase"],
+          "resultLabel": "Risultato",
+          "result": "Prodotto SaaS live, che genera link di abbonamento per i clienti."
         }
       ],
       "note": "Questi sono i nostri stessi prodotti e piattaforme — sviluppati, lanciati e mantenuti internamente. I lavori per i clienti verranno presentati qui man mano che gli incarichi saranno completati.",

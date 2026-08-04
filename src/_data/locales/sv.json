@@ -668,6 +668,18 @@
           "stack": ["Flutter", "Node.js", "MongoDB"],
           "resultLabel": "Resultat",
           "result": "En återanvändbar leveransplattform redo att anpassas och driftsättas för kundföretag."
+        },
+        {
+          "type": "SaaS-produkt (internt byggd)",
+          "title": "NR-BOS",
+          "challengeLabel": "Utmaning",
+          "challenge": "Företag behöver verksamhetsverktyg i företagsklass — ärendehantering, fakturering, kundåtkomst — utan kostnaden och komplexiteten hos system som SAP.",
+          "buildLabel": "Bygge",
+          "build": "En prenumerationsbaserad plattform för affärsverksamhet som genererar dedikerade kundåtkomstlänkar och portaler, med ärendehantering, fakturering, dokument och kommunikation.",
+          "stackLabel": "Teknikstack",
+          "stack": ["React", "Node.js", "Firebase"],
+          "resultLabel": "Resultat",
+          "result": "Live SaaS-produkt som genererar prenumerationslänkar för kunder."
         }
       ],
       "note": "Det här är våra egna produkter och plattformar — byggda, lanserade och underhållna internt. Kunduppdrag kommer att presenteras här allteftersom de slutförs.",

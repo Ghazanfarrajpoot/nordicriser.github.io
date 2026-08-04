@@ -668,6 +668,18 @@
           "stack": ["Flutter", "Node.js", "MongoDB"],
           "resultLabel": "Rezultat",
           "result": "Wielokrotnego użytku platforma dostawcza gotowa do dostosowania i wdrożenia dla firm klienckich."
+        },
+        {
+          "type": "Produkt SaaS (Wewnętrzny)",
+          "title": "NR-BOS",
+          "challengeLabel": "Wyzwanie",
+          "challenge": "Firmy potrzebują narzędzi operacyjnych klasy korporacyjnej — zarządzania sprawami, rozliczeniami, dostępem dla klientów — bez kosztów i złożoności systemów takich jak SAP.",
+          "buildLabel": "Realizacja",
+          "build": "Platforma operacji biznesowych oparta na subskrypcji, generująca dedykowane linki i portale dostępu dla klientów, obejmująca zarządzanie sprawami, rozliczenia, dokumenty i komunikację.",
+          "stackLabel": "Technologia",
+          "stack": ["React", "Node.js", "Firebase"],
+          "resultLabel": "Rezultat",
+          "result": "Działający produkt SaaS, generujący linki subskrypcyjne dla klientów."
         }
       ],
       "note": "To są nasze własne produkty i platformy — zbudowane, wdrożone i utrzymywane wewnętrznie. Prace dla klientów będą prezentowane tutaj w miarę ich ukończenia.",

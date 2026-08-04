@@ -668,6 +668,18 @@
           "stack": ["Flutter", "Node.js", "MongoDB"],
           "resultLabel": "Result",
           "result": "A reusable delivery platform ready to be customized and deployed for client businesses."
+        },
+        {
+          "type": "SaaS Product (In-House)",
+          "title": "NR-BOS",
+          "challengeLabel": "Challenge",
+          "challenge": "Businesses need enterprise-grade operations tooling — case management, billing, client access — without the cost and complexity of systems like SAP.",
+          "buildLabel": "Build",
+          "build": "A subscription-based business operations platform that generates dedicated client access links and portals, covering case management, billing, documents, and communications.",
+          "stackLabel": "Stack",
+          "stack": ["React", "Node.js", "Firebase"],
+          "resultLabel": "Result",
+          "result": "Live SaaS product, generating client subscription links."
         }
       ],
       "note": "These are our own products and platforms — built, launched, and maintained in-house. Client work will be featured here as engagements are completed.",
