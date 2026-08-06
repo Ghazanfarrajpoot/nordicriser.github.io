@@ -399,13 +399,33 @@
 
 .work-teaser-card {
   display: flex; flex-direction: column; background: var(--white); border: 1px solid var(--border);
-  border-radius: 10px; padding: 2rem; text-decoration: none; color: inherit; box-shadow: var(--shadow-sm);
+  border-radius: 10px; overflow: hidden; text-decoration: none; color: inherit; box-shadow: var(--shadow-sm);
+  position: relative; transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .work-teaser-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
-.work-teaser-card h3 { font-size: 1.05rem; font-weight: 700; color: var(--navy); margin-block: 0.6rem; }
+
+.work-teaser-card__band { background: var(--navy); padding: 1.5rem 1.5rem 1.1rem; border-bottom: 3px solid var(--gold); }
+.work-teaser-card__band h3 { font-family: var(--font-serif); font-size: 1.05rem; font-weight: 700; color: var(--white); margin: 0.4rem 0 0; }
+
+.work-teaser-card__body { padding: 1.4rem 1.5rem 1.6rem; display: flex; flex-direction: column; flex-grow: 1; }
 .work-teaser-card p { font-size: 0.9rem; color: var(--muted); line-height: 1.65; margin-block-end: 1rem; flex-grow: 1; }
 .work-teaser-cta { text-align: center; }
+
+.work-teaser-card--featured {
+  grid-column: 1 / -1; border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold), var(--shadow-md);
+}
+.work-teaser-card--featured .work-teaser-card__band { padding: 2rem 2.25rem 1.5rem; }
+.work-teaser-card--featured .work-teaser-card__band h3 { font-size: 1.45rem; }
+.work-teaser-card--featured .work-teaser-card__body { padding: 1.75rem 2.25rem 2rem; }
+.work-teaser-card--featured p { font-size: 1rem; max-width: 46ch; }
+
+.case-study-badge {
+  position: absolute; top: 1.15rem; right: 1.15rem; z-index: 2;
+  background: var(--gold); color: var(--navy); font-size: 0.66rem; font-weight: 700;
+  letter-spacing: 0.08em; text-transform: uppercase; padding: 0.35rem 0.75rem; border-radius: 999px;
+}
+[dir="rtl"] .case-study-badge { right: auto; left: 1.15rem; }
 
 /* ── HOMEPAGE: PRODUCT SPOTLIGHT BULLETS ── */
 .gr-teaser-bullets { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; margin-block-end: 1.5rem; }

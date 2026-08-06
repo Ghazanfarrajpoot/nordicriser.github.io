@@ -68,11 +68,16 @@ pageSlug: ""
     <h2 class="section-title">{{ home.featuredWork.title }}</h2>
     <div class="work-teaser-grid">
       {%- for item in home.featuredWork.items %}
-      <a href="{{ item.link | localeUrl(locale) }}" class="work-teaser-card">
-        <span class="case-study-type">{{ item.type }}</span>
-        <h3>{{ item.title }}</h3>
-        <p>{{ item.oneLiner }}</p>
-        <span class="service-link">{{ t.common.readMore }}</span>
+      <a href="{{ item.link | localeUrl(locale) }}" class="work-teaser-card{% if item.featured %} work-teaser-card--featured{% endif %}">
+        {%- if item.featured %}<span class="case-study-badge">{{ item.featuredLabel }}</span>{%- endif %}
+        <div class="work-teaser-card__band">
+          <span class="case-study-type">{{ item.type }}</span>
+          <h3>{{ item.title }}</h3>
+        </div>
+        <div class="work-teaser-card__body">
+          <p>{{ item.oneLiner }}</p>
+          <span class="service-link">{{ t.common.readMore }}</span>
+        </div>
       </a>
       {%- endfor %}
     </div>

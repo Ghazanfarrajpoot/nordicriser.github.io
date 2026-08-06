@@ -98,6 +98,7 @@
         "label": "Lavori Selezionati",
         "title": "Cosa Abbiamo Costruito",
         "items": [
+          { "type": "Prodotto SaaS (Interno)", "title": "NR-BOS", "featured": true, "featuredLabel": "Prodotto di Punta", "oneLiner": "Consegna dei progetti, operazioni sul campo e reportistica per i clienti — tutto su un'unica piattaforma, sviluppata e concessa in licenza da Nordic Riser AB.", "link": "work/nr-bos" },
           { "type": "Prodotto SaaS (Interno)", "title": "Global Reach", "oneLiner": "Stanze di collaborazione dal vivo con lavagne condivise e chat tradotta in tempo reale tra le lingue.", "link": "global-reach" },
           { "type": "Portale Clienti Sicuro", "title": "Portale Membri Nordic Riser", "oneLiner": "Un portale autenticato per lo scambio di documenti, il monitoraggio delle pratiche, la messaggistica sicura e i pagamenti.", "link": "work" },
           { "type": "Piattaforma di Marketing Multilingue", "title": "nordicriser.com", "oneLiner": "Un sito di produzione in undici lingue con supporto RTL, copertura meta completa e URL puliti per ogni lingua.", "link": "work" },
@@ -597,6 +598,22 @@
       "caseStudies": [
         {
           "type": "Prodotto SaaS (Interno)",
+          "title": "NR-BOS",
+          "featured": true,
+          "featuredLabel": "Prodotto di Punta",
+          "challengeLabel": "Sfida",
+          "challenge": "Le aziende hanno bisogno di strumenti operativi di livello enterprise — monitoraggio progetti, rapporti sul campo, controllo dei costi, report ai clienti — senza il costo e la complessità di sistemi come SAP.",
+          "buildLabel": "Realizzazione",
+          "build": "Una piattaforma di operazioni aziendali basata su abbonamento che copre progetti, bacheche attività, controllo del budget, rapporti sul campo con documentazione fotografica, approfondimenti su rischi e costi assistiti dall'IA e report PDF personalizzati per i clienti.",
+          "stackLabel": "Tecnologia",
+          "stack": ["Next.js", "NestJS", "PostgreSQL"],
+          "resultLabel": "Risultato",
+          "result": "Prodotto SaaS in produzione, concesso in licenza tramite codici di abbonamento riscattabili.",
+          "link": "work/nr-bos",
+          "linkLabel": "Vedi il Prodotto"
+        },
+        {
+          "type": "Prodotto SaaS (Interno)",
           "title": "Global Reach",
           "challengeLabel": "Sfida",
           "challenge": "Le persone che collaborano tra lingue diverse perdono significato nei ritardi di traduzione e nel passaggio tra strumenti diversi.",
@@ -668,20 +685,6 @@
           "stack": ["Flutter", "Node.js", "MongoDB"],
           "resultLabel": "Risultato",
           "result": "Una piattaforma di consegna riutilizzabile, pronta per essere personalizzata e distribuita per aziende clienti."
-        },
-        {
-          "type": "Prodotto SaaS (Interno)",
-          "title": "NR-BOS",
-          "challengeLabel": "Sfida",
-          "challenge": "Le aziende hanno bisogno di strumenti operativi di livello enterprise — monitoraggio progetti, rapporti sul campo, controllo dei costi, report ai clienti — senza il costo e la complessità di sistemi come SAP.",
-          "buildLabel": "Realizzazione",
-          "build": "Una piattaforma di operazioni aziendali basata su abbonamento che copre progetti, bacheche attività, controllo del budget, rapporti sul campo con documentazione fotografica, approfondimenti su rischi e costi assistiti dall'IA e report PDF personalizzati per i clienti.",
-          "stackLabel": "Tecnologia",
-          "stack": ["Next.js", "NestJS", "PostgreSQL"],
-          "resultLabel": "Risultato",
-          "result": "Prodotto SaaS in produzione, concesso in licenza tramite codici di abbonamento riscattabili.",
-          "link": "work/nr-bos",
-          "linkLabel": "Vedi il Prodotto"
         }
       ],
       "note": "Questi sono i nostri stessi prodotti e piattaforme — sviluppati, lanciati e mantenuti internamente. I lavori per i clienti verranno presentati qui man mano che gli incarichi saranno completati.",

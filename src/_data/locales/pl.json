@@ -98,6 +98,7 @@
         "label": "Wybrane Realizacje",
         "title": "Co Zbudowaliśmy",
         "items": [
+          { "type": "Produkt SaaS (Wewnętrzny)", "title": "NR-BOS", "featured": true, "featuredLabel": "Produkt Flagowy", "oneLiner": "Realizacja projektów, praca w terenie i raportowanie dla klientów — wszystko na jednej platformie, zbudowanej i licencjonowanej przez Nordic Riser AB.", "link": "work/nr-bos" },
           { "type": "Produkt SaaS (Wewnętrzny)", "title": "Global Reach", "oneLiner": "Pokoje współpracy na żywo ze wspólnymi tablicami i czatem tłumaczonym w czasie rzeczywistym między językami.", "link": "global-reach" },
           { "type": "Bezpieczny Portal Klienta", "title": "Portal Członków Nordic Riser", "oneLiner": "Uwierzytelniony portal do wymiany dokumentów, śledzenia spraw, bezpiecznej komunikacji i płatności.", "link": "work" },
           { "type": "Wielojęzyczna Platforma Marketingowa", "title": "nordicriser.com", "oneLiner": "Jedenastojęzyczna strona produkcyjna ze wsparciem RTL, pełnym pokryciem meta i czystymi adresami URL dla każdego języka.", "link": "work" },
@@ -597,6 +598,22 @@
       "caseStudies": [
         {
           "type": "Produkt SaaS (Wewnętrzny)",
+          "title": "NR-BOS",
+          "featured": true,
+          "featuredLabel": "Produkt Flagowy",
+          "challengeLabel": "Wyzwanie",
+          "challenge": "Firmy potrzebują narzędzi operacyjnych klasy korporacyjnej — śledzenia projektów, raportów terenowych, kontroli kosztów, raportów dla klientów — bez kosztów i złożoności systemów takich jak SAP.",
+          "buildLabel": "Realizacja",
+          "build": "Platforma operacji biznesowych oparta na subskrypcji, obejmująca projekty, tablice zadań, kontrolę budżetu, raporty terenowe z dokumentacją fotograficzną, wnioski dotyczące ryzyka i kosztów wspomagane przez AI oraz markowe raporty PDF dla klientów.",
+          "stackLabel": "Technologia",
+          "stack": ["Next.js", "NestJS", "PostgreSQL"],
+          "resultLabel": "Rezultat",
+          "result": "Działający produkt SaaS, licencjonowany za pomocą kodów subskrypcyjnych do wykorzystania.",
+          "link": "work/nr-bos",
+          "linkLabel": "Zobacz Produkt"
+        },
+        {
+          "type": "Produkt SaaS (Wewnętrzny)",
           "title": "Global Reach",
           "challengeLabel": "Wyzwanie",
           "challenge": "Osoby współpracujące ponad barierami językowymi tracą znaczenie z powodu opóźnień w tłumaczeniu i przełączania się między narzędziami.",
@@ -668,20 +685,6 @@
           "stack": ["Flutter", "Node.js", "MongoDB"],
           "resultLabel": "Rezultat",
           "result": "Wielokrotnego użytku platforma dostawcza gotowa do dostosowania i wdrożenia dla firm klienckich."
-        },
-        {
-          "type": "Produkt SaaS (Wewnętrzny)",
-          "title": "NR-BOS",
-          "challengeLabel": "Wyzwanie",
-          "challenge": "Firmy potrzebują narzędzi operacyjnych klasy korporacyjnej — śledzenia projektów, raportów terenowych, kontroli kosztów, raportów dla klientów — bez kosztów i złożoności systemów takich jak SAP.",
-          "buildLabel": "Realizacja",
-          "build": "Platforma operacji biznesowych oparta na subskrypcji, obejmująca projekty, tablice zadań, kontrolę budżetu, raporty terenowe z dokumentacją fotograficzną, wnioski dotyczące ryzyka i kosztów wspomagane przez AI oraz markowe raporty PDF dla klientów.",
-          "stackLabel": "Technologia",
-          "stack": ["Next.js", "NestJS", "PostgreSQL"],
-          "resultLabel": "Rezultat",
-          "result": "Działający produkt SaaS, licencjonowany za pomocą kodów subskrypcyjnych do wykorzystania.",
-          "link": "work/nr-bos",
-          "linkLabel": "Zobacz Produkt"
         }
       ],
       "note": "To są nasze własne produkty i platformy — zbudowane, wdrożone i utrzymywane wewnętrznie. Prace dla klientów będą prezentowane tutaj w miarę ich ukończenia.",

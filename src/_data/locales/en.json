@@ -98,6 +98,7 @@
         "label": "Selected Work",
         "title": "What We've Built",
         "items": [
+          { "type": "SaaS Product (In-House)", "title": "NR-BOS", "featured": true, "featuredLabel": "Flagship Product", "oneLiner": "Project delivery, field operations, and client reporting — run from one platform, built and licensed by Nordic Riser AB.", "link": "work/nr-bos" },
           { "type": "SaaS Product (In-House)", "title": "Global Reach", "oneLiner": "Live collaboration rooms with shared whiteboards and chat translated in real time between languages.", "link": "global-reach" },
           { "type": "Secure Client Portal", "title": "Nordic Riser Member Portal", "oneLiner": "An authenticated portal for document exchange, case tracking, secure messaging, and payments.", "link": "work" },
           { "type": "Multilingual Marketing Platform", "title": "nordicriser.com", "oneLiner": "An eleven-language production site with RTL support, full meta coverage, and clean per-language URLs.", "link": "work" },
@@ -597,6 +598,22 @@
       "caseStudies": [
         {
           "type": "SaaS Product (In-House)",
+          "title": "NR-BOS",
+          "featured": true,
+          "featuredLabel": "Flagship Product",
+          "challengeLabel": "Challenge",
+          "challenge": "Businesses need enterprise-grade operations tooling — project tracking, field reporting, cost control, client reporting — without the cost and complexity of systems like SAP.",
+          "buildLabel": "Build",
+          "build": "A subscription-based business operations platform covering projects, task boards, budget tracking, field reports with photo documentation, AI-assisted risk and cost insights, and branded PDF client reports.",
+          "stackLabel": "Stack",
+          "stack": ["Next.js", "NestJS", "PostgreSQL"],
+          "resultLabel": "Result",
+          "result": "Live SaaS product, licensed via redeemable subscription codes.",
+          "link": "work/nr-bos",
+          "linkLabel": "View the Product"
+        },
+        {
+          "type": "SaaS Product (In-House)",
           "title": "Global Reach",
           "challengeLabel": "Challenge",
           "challenge": "People collaborating across languages lose meaning in translation delays and switching between tools.",
@@ -668,20 +685,6 @@
           "stack": ["Flutter", "Node.js", "MongoDB"],
           "resultLabel": "Result",
           "result": "A reusable delivery platform ready to be customized and deployed for client businesses."
-        },
-        {
-          "type": "SaaS Product (In-House)",
-          "title": "NR-BOS",
-          "challengeLabel": "Challenge",
-          "challenge": "Businesses need enterprise-grade operations tooling — project tracking, field reporting, cost control, client reporting — without the cost and complexity of systems like SAP.",
-          "buildLabel": "Build",
-          "build": "A subscription-based business operations platform covering projects, task boards, budget tracking, field reports with photo documentation, AI-assisted risk and cost insights, and branded PDF client reports.",
-          "stackLabel": "Stack",
-          "stack": ["Next.js", "NestJS", "PostgreSQL"],
-          "resultLabel": "Result",
-          "result": "Live SaaS product, licensed via redeemable subscription codes.",
-          "link": "work/nr-bos",
-          "linkLabel": "View the Product"
         }
       ],
       "note": "These are our own products and platforms — built, launched, and maintained in-house. Client work will be featured here as engagements are completed.",

@@ -98,6 +98,7 @@
         "label": "Geselecteerd Werk",
         "title": "Wat Wij Hebben Gebouwd",
         "items": [
+          { "type": "SaaS-product (Intern)", "title": "NR-BOS", "featured": true, "featuredLabel": "Vlaggenschipproduct", "oneLiner": "Projectuitvoering, veldwerk en klantrapportages — alles op één platform, gebouwd en gelicentieerd door Nordic Riser AB.", "link": "work/nr-bos" },
           { "type": "SaaS-product (Intern)", "title": "Global Reach", "oneLiner": "Live samenwerkingsruimtes met gedeelde whiteboards en chat die in realtime wordt vertaald tussen talen.", "link": "global-reach" },
           { "type": "Veilig Klantportaal", "title": "Nordic Riser Ledenportaal", "oneLiner": "Een geauthenticeerd portaal voor documentuitwisseling, zaakopvolging, veilige berichten en betalingen.", "link": "work" },
           { "type": "Meertalig Marketingplatform", "title": "nordicriser.com", "oneLiner": "Een productiesite in elf talen met RTL-ondersteuning, volledige metadekking en schone URL's per taal.", "link": "work" },
@@ -597,6 +598,22 @@
       "caseStudies": [
         {
           "type": "SaaS-product (Intern)",
+          "title": "NR-BOS",
+          "featured": true,
+          "featuredLabel": "Vlaggenschipproduct",
+          "challengeLabel": "Uitdaging",
+          "challenge": "Bedrijven hebben operationele tools op ondernemingsniveau nodig — projectopvolging, veldrapportages, kostenbeheersing, klantrapportages — zonder de kosten en complexiteit van systemen zoals SAP.",
+          "buildLabel": "Bouw",
+          "build": "Een op abonnementen gebaseerd bedrijfsoperationeel platform met projecten, takenborden, budgetbeheer, veldrapportages met fotodocumentatie, AI-ondersteunde risico- en kosteninzichten, en gebrande PDF-klantrapporten.",
+          "stackLabel": "Techniek",
+          "stack": ["Next.js", "NestJS", "PostgreSQL"],
+          "resultLabel": "Resultaat",
+          "result": "Live SaaS-product, gelicentieerd via inwisselbare abonnementscodes.",
+          "link": "work/nr-bos",
+          "linkLabel": "Bekijk het Product"
+        },
+        {
+          "type": "SaaS-product (Intern)",
           "title": "Global Reach",
           "challengeLabel": "Uitdaging",
           "challenge": "Mensen die grensoverschrijdend samenwerken verliezen betekenis door vertaalvertragingen en het wisselen tussen tools.",
@@ -668,20 +685,6 @@
           "stack": ["Flutter", "Node.js", "MongoDB"],
           "resultLabel": "Resultaat",
           "result": "Een herbruikbaar bezorgplatform klaar om aangepast en uitgerold te worden voor klantbedrijven."
-        },
-        {
-          "type": "SaaS-product (Intern)",
-          "title": "NR-BOS",
-          "challengeLabel": "Uitdaging",
-          "challenge": "Bedrijven hebben operationele tools op ondernemingsniveau nodig — projectopvolging, veldrapportages, kostenbeheersing, klantrapportages — zonder de kosten en complexiteit van systemen zoals SAP.",
-          "buildLabel": "Bouw",
-          "build": "Een op abonnementen gebaseerd bedrijfsoperationeel platform met projecten, takenborden, budgetbeheer, veldrapportages met fotodocumentatie, AI-ondersteunde risico- en kosteninzichten, en gebrande PDF-klantrapporten.",
-          "stackLabel": "Techniek",
-          "stack": ["Next.js", "NestJS", "PostgreSQL"],
-          "resultLabel": "Resultaat",
-          "result": "Live SaaS-product, gelicentieerd via inwisselbare abonnementscodes.",
-          "link": "work/nr-bos",
-          "linkLabel": "Bekijk het Product"
         }
       ],
       "note": "Dit zijn onze eigen producten en platforms — intern gebouwd, gelanceerd en onderhouden. Klantwerk wordt hier uitgelicht zodra trajecten zijn afgerond.",

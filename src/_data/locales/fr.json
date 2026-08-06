@@ -98,6 +98,7 @@
         "label": "Réalisations sélectionnées",
         "title": "Ce que nous avons construit",
         "items": [
+          { "type": "Produit SaaS (interne)", "title": "NR-BOS", "featured": true, "featuredLabel": "Produit Phare", "oneLiner": "Livraison de projets, opérations de terrain et rapports client — le tout sur une seule plateforme, conçue et licenciée par Nordic Riser AB.", "link": "work/nr-bos" },
           { "type": "Produit SaaS (interne)", "title": "Global Reach", "oneLiner": "Des salons de collaboration en direct avec tableaux blancs partagés et chat traduit en temps réel entre les langues.", "link": "global-reach" },
           { "type": "Portail client sécurisé", "title": "Portail Membre Nordic Riser", "oneLiner": "Un portail authentifié pour l'échange de documents, le suivi des dossiers, la messagerie sécurisée et les paiements.", "link": "work" },
           { "type": "Plateforme marketing multilingue", "title": "nordicriser.com", "oneLiner": "Un site de production en onze langues avec prise en charge RTL, couverture méta complète et URL propres par langue.", "link": "work" },
@@ -597,6 +598,22 @@
       "caseStudies": [
         {
           "type": "Produit SaaS (interne)",
+          "title": "NR-BOS",
+          "featured": true,
+          "featuredLabel": "Produit Phare",
+          "challengeLabel": "Défi",
+          "challenge": "Les entreprises ont besoin d'outils de gestion de niveau professionnel — suivi de projets, rapports de terrain, contrôle des coûts, rapports client — sans le coût ni la complexité de systèmes comme SAP.",
+          "buildLabel": "Réalisation",
+          "build": "Une plateforme d'opérations commerciales par abonnement couvrant les projets, les tableaux de tâches, le suivi budgétaire, les rapports de terrain avec documentation photo, des analyses de risques et de coûts assistées par IA, et des rapports client PDF personnalisés.",
+          "stackLabel": "Technologie",
+          "stack": ["Next.js", "NestJS", "PostgreSQL"],
+          "resultLabel": "Résultat",
+          "result": "Produit SaaS en production, sous licence via des codes d'abonnement à échanger.",
+          "link": "work/nr-bos",
+          "linkLabel": "Voir le produit"
+        },
+        {
+          "type": "Produit SaaS (interne)",
           "title": "Global Reach",
           "challengeLabel": "Défi",
           "challenge": "Les personnes qui collaborent entre les langues perdent du sens dans les délais de traduction et le passage d'un outil à l'autre.",
@@ -668,20 +685,6 @@
           "stack": ["Flutter", "Node.js", "MongoDB"],
           "resultLabel": "Résultat",
           "result": "Une plateforme de livraison réutilisable, prête à être personnalisée et déployée pour des entreprises clientes."
-        },
-        {
-          "type": "Produit SaaS (interne)",
-          "title": "NR-BOS",
-          "challengeLabel": "Défi",
-          "challenge": "Les entreprises ont besoin d'outils de gestion de niveau professionnel — suivi de projets, rapports de terrain, contrôle des coûts, rapports client — sans le coût ni la complexité de systèmes comme SAP.",
-          "buildLabel": "Réalisation",
-          "build": "Une plateforme d'opérations commerciales par abonnement couvrant les projets, les tableaux de tâches, le suivi budgétaire, les rapports de terrain avec documentation photo, des analyses de risques et de coûts assistées par IA, et des rapports client PDF personnalisés.",
-          "stackLabel": "Technologie",
-          "stack": ["Next.js", "NestJS", "PostgreSQL"],
-          "resultLabel": "Résultat",
-          "result": "Produit SaaS en production, sous licence via des codes d'abonnement à échanger.",
-          "link": "work/nr-bos",
-          "linkLabel": "Voir le produit"
         }
       ],
       "note": "Il s'agit de nos propres produits et plateformes — conçus, lancés et maintenus en interne. Les travaux clients seront présentés ici au fur et à mesure de leur achèvement.",

@@ -34,32 +34,37 @@ pageSlug: work
   <div class="section-inner" data-animate>
     <div class="case-study-list">
       {%- for cs in p.caseStudies %}
-      <div class="case-study-card">
-        <span class="case-study-type">{{ cs.type }}</span>
-        <h2>{{ cs.title }}</h2>
-        <div class="case-study-meta">
-          <div class="case-study-row">
-            <span class="case-study-row-label">{{ cs.challengeLabel }}</span>
-            <p>{{ cs.challenge }}</p>
-          </div>
-          <div class="case-study-row">
-            <span class="case-study-row-label">{{ cs.buildLabel }}</span>
-            <p>{{ cs.build }}</p>
-          </div>
-          <div class="case-study-row">
-            <span class="case-study-row-label">{{ cs.stackLabel }}</span>
-            <div class="case-study-stack">
-              {%- for item in cs.stack %}<span class="stack-pill">{{ item }}</span>{% endfor %}
+      <div class="case-study-card{% if cs.featured %} case-study-card--featured{% endif %}">
+        {%- if cs.featured %}<span class="case-study-badge">{{ cs.featuredLabel }}</span>{%- endif %}
+        <div class="case-study-card__band">
+          <span class="case-study-type">{{ cs.type }}</span>
+          <h2>{{ cs.title }}</h2>
+        </div>
+        <div class="case-study-card__body">
+          <div class="case-study-meta">
+            <div class="case-study-row">
+              <span class="case-study-row-label">{{ cs.challengeLabel }}</span>
+              <p>{{ cs.challenge }}</p>
+            </div>
+            <div class="case-study-row">
+              <span class="case-study-row-label">{{ cs.buildLabel }}</span>
+              <p>{{ cs.build }}</p>
+            </div>
+            <div class="case-study-row">
+              <span class="case-study-row-label">{{ cs.stackLabel }}</span>
+              <div class="case-study-stack">
+                {%- for item in cs.stack %}<span class="stack-pill">{{ item }}</span>{% endfor %}
+              </div>
+            </div>
+            <div class="case-study-row">
+              <span class="case-study-row-label">{{ cs.resultLabel }}</span>
+              <p>{{ cs.result }}</p>
             </div>
           </div>
-          <div class="case-study-row">
-            <span class="case-study-row-label">{{ cs.resultLabel }}</span>
-            <p>{{ cs.result }}</p>
-          </div>
+          {%- if cs.link %}
+          <a href="{{ cs.link | localeUrl(locale) }}" class="service-link">{{ cs.linkLabel }} →</a>
+          {%- endif %}
         </div>
-        {%- if cs.link %}
-        <a href="{{ cs.link | localeUrl(locale) }}" class="service-link">{{ cs.linkLabel }} →</a>
-        {%- endif %}
       </div>
       {%- endfor %}
     </div>

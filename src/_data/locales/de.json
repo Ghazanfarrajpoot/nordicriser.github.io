@@ -98,6 +98,7 @@
         "label": "Ausgewählte Arbeiten",
         "title": "Was wir gebaut haben",
         "items": [
+          { "type": "SaaS-Produkt (intern entwickelt)", "title": "NR-BOS", "featured": true, "featuredLabel": "Vorzeigeprodukt", "oneLiner": "Projektabwicklung, Feldeinsätze und Kundenberichte — alles auf einer Plattform, entwickelt und lizenziert von Nordic Riser AB.", "link": "work/nr-bos" },
           { "type": "SaaS-Produkt (intern entwickelt)", "title": "Global Reach", "oneLiner": "Live-Kollaborationsräume mit gemeinsamen Whiteboards und Chat, der in Echtzeit zwischen Sprachen übersetzt wird.", "link": "global-reach" },
           { "type": "Sicheres Kundenportal", "title": "Nordic Riser Mitgliederportal", "oneLiner": "Ein authentifiziertes Portal für Dokumentenaustausch, Fallverfolgung, sichere Nachrichten und Zahlungen.", "link": "work" },
           { "type": "Mehrsprachige Marketingplattform", "title": "nordicriser.com", "oneLiner": "Eine elfsprachige Produktionswebsite mit RTL-Unterstützung, vollständiger Meta-Abdeckung und sauberen sprachspezifischen URLs.", "link": "work" },
@@ -597,6 +598,22 @@
       "caseStudies": [
         {
           "type": "SaaS-Produkt (intern entwickelt)",
+          "title": "NR-BOS",
+          "featured": true,
+          "featuredLabel": "Vorzeigeprodukt",
+          "challengeLabel": "Herausforderung",
+          "challenge": "Unternehmen benötigen professionelle Business-Software für Projektverfolgung, Feldberichte, Kostenkontrolle und Kundenberichte — ohne die Kosten und Komplexität von Systemen wie SAP.",
+          "buildLabel": "Umsetzung",
+          "build": "Eine abonnementbasierte Business-Operations-Plattform für Projekte, Aufgabenboards, Budgetverfolgung, Feldberichte mit Fotodokumentation, KI-gestützte Risiko- und Kosteneinblicke sowie gebrandete PDF-Kundenberichte.",
+          "stackLabel": "Technologie",
+          "stack": ["Next.js", "NestJS", "PostgreSQL"],
+          "resultLabel": "Ergebnis",
+          "result": "Live-SaaS-Produkt, lizenziert über einlösbare Abonnementcodes.",
+          "link": "work/nr-bos",
+          "linkLabel": "Zum Produkt"
+        },
+        {
+          "type": "SaaS-Produkt (intern entwickelt)",
           "title": "Global Reach",
           "challengeLabel": "Herausforderung",
           "challenge": "Menschen, die sprachübergreifend zusammenarbeiten, verlieren Bedeutung durch Übersetzungsverzögerungen und den Wechsel zwischen Tools.",
@@ -668,20 +685,6 @@
           "stack": ["Flutter", "Node.js", "MongoDB"],
           "resultLabel": "Ergebnis",
           "result": "Eine wiederverwendbare Lieferplattform, bereit zur Anpassung und Bereitstellung für Kundenunternehmen."
-        },
-        {
-          "type": "SaaS-Produkt (intern entwickelt)",
-          "title": "NR-BOS",
-          "challengeLabel": "Herausforderung",
-          "challenge": "Unternehmen benötigen professionelle Business-Software für Projektverfolgung, Feldberichte, Kostenkontrolle und Kundenberichte — ohne die Kosten und Komplexität von Systemen wie SAP.",
-          "buildLabel": "Umsetzung",
-          "build": "Eine abonnementbasierte Business-Operations-Plattform für Projekte, Aufgabenboards, Budgetverfolgung, Feldberichte mit Fotodokumentation, KI-gestützte Risiko- und Kosteneinblicke sowie gebrandete PDF-Kundenberichte.",
-          "stackLabel": "Technologie",
-          "stack": ["Next.js", "NestJS", "PostgreSQL"],
-          "resultLabel": "Ergebnis",
-          "result": "Live-SaaS-Produkt, lizenziert über einlösbare Abonnementcodes.",
-          "link": "work/nr-bos",
-          "linkLabel": "Zum Produkt"
         }
       ],
       "note": "Dies sind unsere eigenen Produkte und Plattformen — intern entwickelt, gelauncht und gepflegt. Mandantenprojekte werden hier vorgestellt, sobald sie abgeschlossen sind.",

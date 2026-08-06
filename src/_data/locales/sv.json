@@ -98,6 +98,7 @@
         "label": "Utvalt arbete",
         "title": "Vad vi har byggt",
         "items": [
+          { "type": "SaaS-produkt (internt byggd)", "title": "NR-BOS", "featured": true, "featuredLabel": "Flaggskeppsprodukt", "oneLiner": "Projektleverans, fältarbete och kundrapportering — allt på en plattform, byggd och licensierad av Nordic Riser AB.", "link": "work/nr-bos" },
           { "type": "SaaS-produkt (internt byggd)", "title": "Global Reach", "oneLiner": "Direktsända samarbetsrum med delade whiteboards och chatt som översätts i realtid mellan språk.", "link": "global-reach" },
           { "type": "Säker kundportal", "title": "Nordic Riser Medlemsportal", "oneLiner": "En autentiserad portal för dokumentutbyte, ärendespårning, säker meddelandehantering och betalningar.", "link": "work" },
           { "type": "Flerspråkig marknadsföringsplattform", "title": "nordicriser.com", "oneLiner": "En elvaspråkig produktionswebbplats med RTL-stöd, fullständig metatäckning och rena URL:er per språk.", "link": "work" },
@@ -597,6 +598,22 @@
       "caseStudies": [
         {
           "type": "SaaS-produkt (internt byggd)",
+          "title": "NR-BOS",
+          "featured": true,
+          "featuredLabel": "Flaggskeppsprodukt",
+          "challengeLabel": "Utmaning",
+          "challenge": "Företag behöver verksamhetsverktyg i företagsklass — projektuppföljning, fältrapporter, kostnadskontroll, kundrapporter — utan kostnaden och komplexiteten hos system som SAP.",
+          "buildLabel": "Bygge",
+          "build": "En prenumerationsbaserad plattform för affärsverksamhet med projekt, uppgiftstavlor, budgetuppföljning, fältrapporter med fotodokumentation, AI-assisterade risk- och kostnadsinsikter samt varumärkesanpassade PDF-kundrapporter.",
+          "stackLabel": "Teknikstack",
+          "stack": ["Next.js", "NestJS", "PostgreSQL"],
+          "resultLabel": "Resultat",
+          "result": "Live SaaS-produkt, licensierad via inlösbara prenumerationskoder.",
+          "link": "work/nr-bos",
+          "linkLabel": "Se produkten"
+        },
+        {
+          "type": "SaaS-produkt (internt byggd)",
           "title": "Global Reach",
           "challengeLabel": "Utmaning",
           "challenge": "Personer som samarbetar över språk förlorar innebörd i översättningsfördröjningar och genom att växla mellan verktyg.",
@@ -668,20 +685,6 @@
           "stack": ["Flutter", "Node.js", "MongoDB"],
           "resultLabel": "Resultat",
           "result": "En återanvändbar leveransplattform redo att anpassas och driftsättas för kundföretag."
-        },
-        {
-          "type": "SaaS-produkt (internt byggd)",
-          "title": "NR-BOS",
-          "challengeLabel": "Utmaning",
-          "challenge": "Företag behöver verksamhetsverktyg i företagsklass — projektuppföljning, fältrapporter, kostnadskontroll, kundrapporter — utan kostnaden och komplexiteten hos system som SAP.",
-          "buildLabel": "Bygge",
-          "build": "En prenumerationsbaserad plattform för affärsverksamhet med projekt, uppgiftstavlor, budgetuppföljning, fältrapporter med fotodokumentation, AI-assisterade risk- och kostnadsinsikter samt varumärkesanpassade PDF-kundrapporter.",
-          "stackLabel": "Teknikstack",
-          "stack": ["Next.js", "NestJS", "PostgreSQL"],
-          "resultLabel": "Resultat",
-          "result": "Live SaaS-produkt, licensierad via inlösbara prenumerationskoder.",
-          "link": "work/nr-bos",
-          "linkLabel": "Se produkten"
         }
       ],
       "note": "Det här är våra egna produkter och plattformar — byggda, lanserade och underhållna internt. Kunduppdrag kommer att presenteras här allteftersom de slutförs.",
