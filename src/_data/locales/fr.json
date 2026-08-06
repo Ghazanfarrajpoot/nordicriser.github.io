@@ -673,13 +673,15 @@
           "type": "Produit SaaS (interne)",
           "title": "NR-BOS",
           "challengeLabel": "Défi",
-          "challenge": "Les entreprises ont besoin d'outils de gestion de niveau professionnel — gestion des dossiers, facturation, accès client — sans le coût ni la complexité de systèmes comme SAP.",
+          "challenge": "Les entreprises ont besoin d'outils de gestion de niveau professionnel — suivi de projets, rapports de terrain, contrôle des coûts, rapports client — sans le coût ni la complexité de systèmes comme SAP.",
           "buildLabel": "Réalisation",
-          "build": "Une plateforme d'opérations commerciales par abonnement qui génère des liens et portails d'accès dédiés pour chaque client, couvrant la gestion des dossiers, la facturation, les documents et les communications.",
+          "build": "Une plateforme d'opérations commerciales par abonnement couvrant les projets, les tableaux de tâches, le suivi budgétaire, les rapports de terrain avec documentation photo, des analyses de risques et de coûts assistées par IA, et des rapports client PDF personnalisés.",
           "stackLabel": "Technologie",
-          "stack": ["React", "Node.js", "Firebase"],
+          "stack": ["Next.js", "NestJS", "PostgreSQL"],
           "resultLabel": "Résultat",
-          "result": "Produit SaaS en production, générant des liens d'abonnement pour les clients."
+          "result": "Produit SaaS en production, sous licence via des codes d'abonnement à échanger.",
+          "link": "work/nr-bos",
+          "linkLabel": "Voir le produit"
         }
       ],
       "note": "Il s'agit de nos propres produits et plateformes — conçus, lancés et maintenus en interne. Les travaux clients seront présentés ici au fur et à mesure de leur achèvement.",

@@ -1,0 +1,65 @@
+---
+pagination:
+  data: site.locales
+  size: 1
+  alias: loc
+permalink: "{{ 'work/nr-bos' | localePath(loc.code) }}index.html"
+eleventyComputed:
+  locale: "{{ loc.code }}"
+  dir: "{{ loc.dir }}"
+layout: layouts/page.njk
+pageKey: nrBos
+pageSlug: work/nr-bos
+---
+{%- set t = locales[locale] -%}
+{#- Falls back to English until this page is translated for this locale. -#}
+{%- set p = t.pages.nrBos or locales.en.pages.nrBos -%}
+
+<section class="page-hero">
+  <div class="page-hero-inner" data-animate>
+    <span class="page-hero-label">{{ p.hero.label }}</span>
+    <h1>{{ p.hero.h1 }}</h1>
+    <p>{{ p.hero.body }}</p>
+  </div>
+</section>
+
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="{{ '' | localeUrl(locale) }}">{{ t.common.home }}</a> &rsaquo;
+    <a href="{{ 'work' | localeUrl(locale) }}">{{ t.pages.work.breadcrumb or locales.en.pages.work.breadcrumb }}</a> &rsaquo;
+    <span>{{ p.breadcrumb }}</span>
+  </div>
+</div>
+
+<section class="section nrb-scope">
+  <div class="section-inner-narrow">
+    <a href="{{ 'work' | localeUrl(locale) }}" class="nrb-back">&larr; {{ p.backLink }}</a>
+
+    {%- for block in p.tour %}
+    <div class="nrb-block">
+      <div class="nrb-block-head">
+        <span class="section-label">{{ block.eyebrow }}</span>
+        <h2 class="nrb-block-title">{{ block.title }}</h2>
+        <p class="nrb-block-body">{{ block.body }}</p>
+      </div>
+      <div class="nrb-shots nrb-shots-{{ block.shots.length }}">
+        {%- for shot in block.shots %}
+        <figure class="nrb-frame">
+          <div class="nrb-frame-bar"><i></i><i></i><i></i></div>
+          <img src="/assets/img/nr-bos/{{ shot.file }}" alt="{{ shot.caption }}" loading="lazy" width="1568" height="710">
+          <figcaption>{{ shot.caption }}</figcaption>
+        </figure>
+        {%- endfor %}
+      </div>
+    </div>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="cta-box" data-animate>
+    <h2>{{ p.cta.title }}</h2>
+    <p>{{ p.cta.body }}</p>
+    <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-cta">{{ p.cta.cta }}</a>
+  </div>
+</section>

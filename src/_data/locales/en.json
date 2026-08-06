@@ -673,17 +673,101 @@
           "type": "SaaS Product (In-House)",
           "title": "NR-BOS",
           "challengeLabel": "Challenge",
-          "challenge": "Businesses need enterprise-grade operations tooling — case management, billing, client access — without the cost and complexity of systems like SAP.",
+          "challenge": "Businesses need enterprise-grade operations tooling — project tracking, field reporting, cost control, client reporting — without the cost and complexity of systems like SAP.",
           "buildLabel": "Build",
-          "build": "A subscription-based business operations platform that generates dedicated client access links and portals, covering case management, billing, documents, and communications.",
+          "build": "A subscription-based business operations platform covering projects, task boards, budget tracking, field reports with photo documentation, AI-assisted risk and cost insights, and branded PDF client reports.",
           "stackLabel": "Stack",
-          "stack": ["React", "Node.js", "Firebase"],
+          "stack": ["Next.js", "NestJS", "PostgreSQL"],
           "resultLabel": "Result",
-          "result": "Live SaaS product, generating client subscription links."
+          "result": "Live SaaS product, licensed via redeemable subscription codes.",
+          "link": "work/nr-bos",
+          "linkLabel": "View the Product"
         }
       ],
       "note": "These are our own products and platforms — built, launched, and maintained in-house. Client work will be featured here as engagements are completed.",
       "cta": { "title": "Have a Project in Mind?", "body": "Tell us what you're building. We'll come back with a clear scope, a realistic timeline, and a fixed price.", "cta": "Start a Project" }
+    },
+    "nrBos": {
+      "meta": {
+        "title": "NR-BOS — Business Operating System — Nordic Riser AB",
+        "description": "Inside NR-BOS: project and task tracking, budget control, field reports with photos, AI-assisted insights, branded client PDF reports, and code-based licensing."
+      },
+      "hero": {
+        "label": "In-House Product",
+        "h1": "Inside NR-BOS",
+        "body": "Nordic Riser Business Operating System — the platform we built to run our own project delivery, and license to other operators. The screenshots below are from a live build, seeded with example project data."
+      },
+      "breadcrumb": "NR-BOS",
+      "backLink": "Back to Work",
+      "tour": [
+        {
+          "eyebrow": "Overview",
+          "title": "A live read on every project",
+          "body": "Portfolio-wide KPIs, budget vs. actual spend, and team workload — the first thing anyone opens each morning.",
+          "shots": [
+            { "file": "dashboard-overview.jpg", "caption": "Dashboard — portfolio KPIs and budget vs. actual" },
+            { "file": "dashboard-team-workload.jpg", "caption": "Dashboard — team workload by status" }
+          ]
+        },
+        {
+          "eyebrow": "Projects",
+          "title": "Every job, tracked to the task",
+          "body": "Projects carry their own budget, client, and team. Work inside each one runs on a four-column board — to do, in progress, review, done.",
+          "shots": [
+            { "file": "projects-list.jpg", "caption": "Projects — portfolio at a glance" },
+            { "file": "project-kanban.jpg", "caption": "Project detail — task board" }
+          ]
+        },
+        {
+          "eyebrow": "Budget",
+          "title": "Spend tracked against budget, by category",
+          "body": "Every cost entry — materials, labor, subcontractors, permits — rolls up against the project budget in real time.",
+          "shots": [
+            { "file": "project-costs.jpg", "caption": "Project detail — cost ledger" }
+          ]
+        },
+        {
+          "eyebrow": "Field Work",
+          "title": "What happened on site, with proof",
+          "body": "Field crews log progress notes and photos straight from the site — including paired before/after shots for work that's easy to describe but hard to picture.",
+          "shots": [
+            { "file": "field-report-notes.jpg", "caption": "Field reports — site notes and photos" },
+            { "file": "field-report-before-after.jpg", "caption": "Field report — before / after" }
+          ]
+        },
+        {
+          "eyebrow": "AI Assistant",
+          "title": "Risk, cost, and productivity — read by AI",
+          "body": "On demand, an AI assistant reads a project's real tasks, costs, and team data and returns a structured risk, cost, or productivity briefing — not generic advice.",
+          "shots": [
+            { "file": "ai-insights.jpg", "caption": "AI Insights — risk analysis" }
+          ]
+        },
+        {
+          "eyebrow": "Client Reports",
+          "title": "A branded PDF, generated in one click",
+          "body": "Pull a project's tasks, costs, and recent field photos into a client-ready PDF report — draft first, then mark as sent when it's ready to go out.",
+          "shots": [
+            { "file": "client-report-generate.jpg", "caption": "Generating a client report" },
+            { "file": "client-report-pdf.jpg", "caption": "Generated client report PDF" }
+          ]
+        },
+        {
+          "eyebrow": "Team & Licensing",
+          "title": "Role-based access, licensed by code",
+          "body": "Admins, project managers, field workers, and clients each see only what's theirs. Access itself runs on redeemable subscription codes, issued in batches — no payment processor required.",
+          "shots": [
+            { "file": "team-users.jpg", "caption": "Users — company roster and roles" },
+            { "file": "subscription-plan.jpg", "caption": "Subscription — active plan" },
+            { "file": "license-batches.jpg", "caption": "License batches — redemption codes" }
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Want NR-BOS for your team?",
+        "body": "It's licensed by subscription code, not a public sign-up form — tell us about your operation and we'll set you up.",
+        "cta": "Talk to Us"
+      }
     },
     "globalReach": {
       "hero": {

@@ -673,13 +673,15 @@
           "type": "Produkt SaaS (Wewnętrzny)",
           "title": "NR-BOS",
           "challengeLabel": "Wyzwanie",
-          "challenge": "Firmy potrzebują narzędzi operacyjnych klasy korporacyjnej — zarządzania sprawami, rozliczeniami, dostępem dla klientów — bez kosztów i złożoności systemów takich jak SAP.",
+          "challenge": "Firmy potrzebują narzędzi operacyjnych klasy korporacyjnej — śledzenia projektów, raportów terenowych, kontroli kosztów, raportów dla klientów — bez kosztów i złożoności systemów takich jak SAP.",
           "buildLabel": "Realizacja",
-          "build": "Platforma operacji biznesowych oparta na subskrypcji, generująca dedykowane linki i portale dostępu dla klientów, obejmująca zarządzanie sprawami, rozliczenia, dokumenty i komunikację.",
+          "build": "Platforma operacji biznesowych oparta na subskrypcji, obejmująca projekty, tablice zadań, kontrolę budżetu, raporty terenowe z dokumentacją fotograficzną, wnioski dotyczące ryzyka i kosztów wspomagane przez AI oraz markowe raporty PDF dla klientów.",
           "stackLabel": "Technologia",
-          "stack": ["React", "Node.js", "Firebase"],
+          "stack": ["Next.js", "NestJS", "PostgreSQL"],
           "resultLabel": "Rezultat",
-          "result": "Działający produkt SaaS, generujący linki subskrypcyjne dla klientów."
+          "result": "Działający produkt SaaS, licencjonowany za pomocą kodów subskrypcyjnych do wykorzystania.",
+          "link": "work/nr-bos",
+          "linkLabel": "Zobacz Produkt"
         }
       ],
       "note": "To są nasze własne produkty i platformy — zbudowane, wdrożone i utrzymywane wewnętrznie. Prace dla klientów będą prezentowane tutaj w miarę ich ukończenia.",

@@ -673,13 +673,15 @@
           "type": "SaaS-produkt (internt byggd)",
           "title": "NR-BOS",
           "challengeLabel": "Utmaning",
-          "challenge": "Företag behöver verksamhetsverktyg i företagsklass — ärendehantering, fakturering, kundåtkomst — utan kostnaden och komplexiteten hos system som SAP.",
+          "challenge": "Företag behöver verksamhetsverktyg i företagsklass — projektuppföljning, fältrapporter, kostnadskontroll, kundrapporter — utan kostnaden och komplexiteten hos system som SAP.",
           "buildLabel": "Bygge",
-          "build": "En prenumerationsbaserad plattform för affärsverksamhet som genererar dedikerade kundåtkomstlänkar och portaler, med ärendehantering, fakturering, dokument och kommunikation.",
+          "build": "En prenumerationsbaserad plattform för affärsverksamhet med projekt, uppgiftstavlor, budgetuppföljning, fältrapporter med fotodokumentation, AI-assisterade risk- och kostnadsinsikter samt varumärkesanpassade PDF-kundrapporter.",
           "stackLabel": "Teknikstack",
-          "stack": ["React", "Node.js", "Firebase"],
+          "stack": ["Next.js", "NestJS", "PostgreSQL"],
           "resultLabel": "Resultat",
-          "result": "Live SaaS-produkt som genererar prenumerationslänkar för kunder."
+          "result": "Live SaaS-produkt, licensierad via inlösbara prenumerationskoder.",
+          "link": "work/nr-bos",
+          "linkLabel": "Se produkten"
         }
       ],
       "note": "Det här är våra egna produkter och plattformar — byggda, lanserade och underhållna internt. Kunduppdrag kommer att presenteras här allteftersom de slutförs.",

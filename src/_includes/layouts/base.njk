@@ -54,6 +54,9 @@
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/pillars.css">
   <link rel="stylesheet" href="/assets/css/pages.css">
+  {%- if pageKey == "nrBos" %}
+  <link rel="stylesheet" href="/assets/css/product-overview.css">
+  {%- endif %}
 </head>
 <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
 {{ content | safe }}

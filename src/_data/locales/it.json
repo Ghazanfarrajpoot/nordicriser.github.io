@@ -673,13 +673,15 @@
           "type": "Prodotto SaaS (Interno)",
           "title": "NR-BOS",
           "challengeLabel": "Sfida",
-          "challenge": "Le aziende hanno bisogno di strumenti operativi di livello enterprise — gestione pratiche, fatturazione, accesso clienti — senza il costo e la complessità di sistemi come SAP.",
+          "challenge": "Le aziende hanno bisogno di strumenti operativi di livello enterprise — monitoraggio progetti, rapporti sul campo, controllo dei costi, report ai clienti — senza il costo e la complessità di sistemi come SAP.",
           "buildLabel": "Realizzazione",
-          "build": "Una piattaforma di operazioni aziendali basata su abbonamento che genera link e portali di accesso dedicati per ogni cliente, coprendo gestione pratiche, fatturazione, documenti e comunicazioni.",
+          "build": "Una piattaforma di operazioni aziendali basata su abbonamento che copre progetti, bacheche attività, controllo del budget, rapporti sul campo con documentazione fotografica, approfondimenti su rischi e costi assistiti dall'IA e report PDF personalizzati per i clienti.",
           "stackLabel": "Tecnologia",
-          "stack": ["React", "Node.js", "Firebase"],
+          "stack": ["Next.js", "NestJS", "PostgreSQL"],
           "resultLabel": "Risultato",
-          "result": "Prodotto SaaS live, che genera link di abbonamento per i clienti."
+          "result": "Prodotto SaaS in produzione, concesso in licenza tramite codici di abbonamento riscattabili.",
+          "link": "work/nr-bos",
+          "linkLabel": "Vedi il Prodotto"
         }
       ],
       "note": "Questi sono i nostri stessi prodotti e piattaforme — sviluppati, lanciati e mantenuti internamente. I lavori per i clienti verranno presentati qui man mano che gli incarichi saranno completati.",
