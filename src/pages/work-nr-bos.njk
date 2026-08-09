@@ -14,6 +14,8 @@ pageSlug: work/nr-bos
 {%- set t = locales[locale] -%}
 {#- Falls back to English until this page is translated for this locale. -#}
 {%- set p = t.pages.nrBos or locales.en.pages.nrBos -%}
+{%- set ov = t.productOverviews.nrBos or locales.en.productOverviews.nrBos -%}
+{% import "partials/nrb-overview.njk" as nrb2 %}
 
 <section class="page-hero">
   <div class="page-hero-inner" data-animate>
@@ -30,6 +32,12 @@ pageSlug: work/nr-bos
     <span>{{ p.breadcrumb }}</span>
   </div>
 </div>
+
+<section class="section" style="padding-bottom: 0;">
+  <div class="section-inner-narrow">
+    {{ nrb2.overview(ov) }}
+  </div>
+</section>
 
 <section class="section nrb-scope">
   <div class="section-inner-narrow">

@@ -35,7 +35,9 @@
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/pillars.css">
   <link rel="stylesheet" href="/assets/css/pages.css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/product-overview.css">
+  <link rel="stylesheet" href="/assets/css/nrb-overview.css">
 </head>
 <body>
 <nav class="navbar" id="navbar">
@@ -105,6 +107,8 @@
   </div>
 </nav>
 
+
+
 <section class="page-hero">
   <div class="page-hero-inner" data-animate>
     <span class="page-hero-label">In-House Product</span>
@@ -120,6 +124,307 @@
     <span>NR-BOS</span>
   </div>
 </div>
+
+<section class="section" style="padding-bottom: 0;">
+  <div class="section-inner-narrow">
+    
+<button type="button" class="nrb2-launcher nrb2-scope" data-nrb2-open="nr-bos" aria-haspopup="dialog">
+  <span class="nrb2-launcher__text">
+    <span class="nrb2-launcher__eyebrow"><span class="nrb2-dot" aria-hidden="true"></span>Live Product</span>
+    <span class="nrb2-launcher__title">Explore NR-BOS</span>
+    <span class="nrb2-launcher__body">Open the interactive tour — seven panels, real screens from the live product.</span>
+  </span>
+  <span class="nrb2-launcher__cta">Open the Tour <span aria-hidden="true">→</span></span>
+</button>
+
+<div class="nrb2-overlay nrb2-scope" data-nrb2-overlay="nr-bos" hidden>
+  <div class="nrb2-modal" role="dialog" aria-modal="true" aria-labelledby="nrb2-title-nr-bos" data-nrb2-modal="nr-bos">
+    <div class="nrb2-head">
+      <div>
+        <p class="nrb2-head__id">In-House Product · NR-BOS</p>
+        <h2 class="nrb2-head__title" id="nrb2-title-nr-bos">NR-BOS — Interactive Tour</h2>
+      </div>
+      <button type="button" class="nrb2-close" data-nrb2-close aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </div>
+    <div class="nrb2-layout">
+      <div class="nrb2-rail" role="tablist" aria-label="NR-BOS feature categories" aria-orientation="vertical">
+        <button type="button"
+                role="tab"
+                id="nrb2-tab-nr-bos-dashboard"
+                aria-controls="nrb2-panel-nr-bos-dashboard"
+                aria-selected="true"
+                tabindex="0"
+                data-nrb2-tab="dashboard"
+                class="nrb2-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M12 20V4M20 20v-7"/><path d="M4 20h16"/></svg>
+          <span class="nrb2-tab__label">Dashboard</span>
+        </button>
+        <button type="button"
+                role="tab"
+                id="nrb2-tab-nr-bos-projects"
+                aria-controls="nrb2-panel-nr-bos-projects"
+                aria-selected="false"
+                tabindex="-1"
+                data-nrb2-tab="projects"
+                class="nrb2-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="4.5" width="14" height="16" rx="2"/><rect x="9" y="3" width="6" height="3" rx="1"/><path d="M8.5 11h7M8.5 14.5h7M8.5 18h4.5"/></svg>
+          <span class="nrb2-tab__label">Projects</span>
+        </button>
+        <button type="button"
+                role="tab"
+                id="nrb2-tab-nr-bos-field-reporting"
+                aria-controls="nrb2-panel-nr-bos-field-reporting"
+                aria-selected="false"
+                tabindex="-1"
+                data-nrb2-tab="field-reporting"
+                class="nrb2-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 6.5a4 4 0 0 0-5.4 4.9L4 16.5 7.5 20l5.1-5.1a4 4 0 0 0 4.9-5.4l-2.9 2.9-2.6-.6-.6-2.6 2.9-2.9Z"/></svg>
+          <span class="nrb2-tab__label">Field Reporting</span>
+        </button>
+        <button type="button"
+                role="tab"
+                id="nrb2-tab-nr-bos-client-reports"
+                aria-controls="nrb2-panel-nr-bos-client-reports"
+                aria-selected="false"
+                tabindex="-1"
+                data-nrb2-tab="client-reports"
+                class="nrb2-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6.5a1.5 1.5 0 0 1 1.5-1.5h4l2 2h7a1.5 1.5 0 0 1 1.5 1.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 17.5Z"/></svg>
+          <span class="nrb2-tab__label">Client Reports</span>
+        </button>
+        <button type="button"
+                role="tab"
+                id="nrb2-tab-nr-bos-analytics"
+                aria-controls="nrb2-panel-nr-bos-analytics"
+                aria-selected="false"
+                tabindex="-1"
+                data-nrb2-tab="analytics"
+                class="nrb2-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/></svg>
+          <span class="nrb2-tab__label">Analytics</span>
+        </button>
+        <button type="button"
+                role="tab"
+                id="nrb2-tab-nr-bos-ai-assistant"
+                aria-controls="nrb2-panel-nr-bos-ai-assistant"
+                aria-selected="false"
+                tabindex="-1"
+                data-nrb2-tab="ai-assistant"
+                class="nrb2-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5 13.4 9l5.6 1.4-5.6 1.4L12 17.4 10.6 11.8 5 10.4l5.6-1.4Z"/><path d="M18.5 16.5 19.1 18.5 21.1 19.1 19.1 19.7 18.5 21.7 17.9 19.7 15.9 19.1 17.9 18.5Z"/></svg>
+          <span class="nrb2-tab__label">AI Assistant</span>
+        </button>
+        <button type="button"
+                role="tab"
+                id="nrb2-tab-nr-bos-licensing"
+                aria-controls="nrb2-panel-nr-bos-licensing"
+                aria-selected="false"
+                tabindex="-1"
+                data-nrb2-tab="licensing"
+                class="nrb2-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/><circle cx="12" cy="15.5" r="1.4"/></svg>
+          <span class="nrb2-tab__label">Team &amp; Licensing</span>
+        </button>
+      </div>
+      <div class="nrb2-stage">
+        <div role="tabpanel"
+             id="nrb2-panel-nr-bos-dashboard"
+             aria-labelledby="nrb2-tab-nr-bos-dashboard"
+             data-nrb2-panel="dashboard"
+             class="nrb2-panel is-active"
+             tabindex="0">
+          <p class="nrb2-panel__eyebrow">Overview</p>
+          <h3 class="nrb2-panel__title">A live read on every project</h3>
+          <p class="nrb2-panel__body">Portfolio-wide KPIs, budget vs. actual spend, and completion — the first thing anyone opens each morning.</p>
+          <ul class="nrb2-feat">
+            <li>Total and active project counts, updated in real time</li>
+            <li>Completion percentage and profit margin across the whole portfolio</li>
+            <li>Budget vs. actual cost, side by side</li>
+          </ul>
+          <div class="nrb2-shots">
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/dashboard-overview.jpg" alt="NR-BOS dashboard showing four project counts, budget vs. actual cost bars, and a projects-by-status pie chart" loading="lazy" width="1568" height="710">
+              <figcaption>NR-BOS dashboard showing four project counts, budget vs. actual cost bars, and a projects-by-status pie chart</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div role="tabpanel"
+             id="nrb2-panel-nr-bos-projects"
+             aria-labelledby="nrb2-tab-nr-bos-projects"
+             data-nrb2-panel="projects"
+             class="nrb2-panel"
+             tabindex="0">
+          <p class="nrb2-panel__eyebrow">Delivery</p>
+          <h3 class="nrb2-panel__title">Every job, tracked to the task</h3>
+          <p class="nrb2-panel__body">Projects carry their own budget, client, and team. Work inside each one runs on a four-column board.</p>
+          <ul class="nrb2-feat">
+            <li>To do, in progress, review, done — one board per project</li>
+            <li>Each task carries an assignee, due date, and estimated hours</li>
+            <li>Project status — planning, active, on hold, completed — visible at a glance</li>
+          </ul>
+          <div class="nrb2-shots n2">
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/projects-list.jpg" alt="List of four NR-BOS projects with status badges — active, on hold, planning, and completed" loading="lazy" width="1568" height="710">
+              <figcaption>List of four NR-BOS projects with status badges — active, on hold, planning, and completed</figcaption>
+            </figure>
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/project-kanban.jpg" alt="Kanban board for a project showing tasks across To Do, In Progress, Review, and Done columns" loading="lazy" width="1568" height="710">
+              <figcaption>Kanban board for a project showing tasks across To Do, In Progress, Review, and Done columns</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div role="tabpanel"
+             id="nrb2-panel-nr-bos-field-reporting"
+             aria-labelledby="nrb2-tab-nr-bos-field-reporting"
+             data-nrb2-panel="field-reporting"
+             class="nrb2-panel"
+             tabindex="0">
+          <p class="nrb2-panel__eyebrow">On Site</p>
+          <h3 class="nrb2-panel__title">What happened on site, with proof</h3>
+          <p class="nrb2-panel__body">Field crews log progress notes and photos straight from the site — including paired before/after shots for work that&#39;s easy to describe but hard to picture.</p>
+          <ul class="nrb2-feat">
+            <li>Notes tied to a specific task, timestamped and geotagged</li>
+            <li>Before, after, and general photo types on every report</li>
+            <li>Drag the slider below — a real before/after pair from a field report</li>
+          </ul>
+          <div class="nrb2-shots">
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/field-report-notes.jpg" alt="Field report entry with a timestamped site note and an attached photo" loading="lazy" width="1568" height="710">
+              <figcaption>Field report entry with a timestamped site note and an attached photo</figcaption>
+            </figure>
+          </div>
+          <div class="nrb2-slider" data-nrb2-slider dir="ltr">
+            <div class="nrb2-slider__stage">
+              <img class="nrb2-slider__img" src="/assets/img/nr-bos/slider-before.jpg" alt="" loading="lazy">
+              <img class="nrb2-slider__img nrb2-slider__after" src="/assets/img/nr-bos/slider-after.jpg" alt="" loading="lazy">
+              <span class="nrb2-slider__tag" style="inset-inline-start:8px">Before</span>
+              <span class="nrb2-slider__tag" style="inset-inline-end:8px; inset-inline-start:auto">After</span>
+              <div class="nrb2-slider__handle" aria-hidden="true"></div>
+            </div>
+            <label class="nrb2-vh" for="nrb2-slider-range-nr-bos">Before / After</label>
+            <input type="range" id="nrb2-slider-range-nr-bos" min="0" max="100" value="50">
+            <p class="nrb2-slider__meta"><bdi>Drag to compare — a real before/after pair from a field report.</bdi></p>
+          </div>
+        </div>
+        <div role="tabpanel"
+             id="nrb2-panel-nr-bos-client-reports"
+             aria-labelledby="nrb2-tab-nr-bos-client-reports"
+             data-nrb2-panel="client-reports"
+             class="nrb2-panel"
+             tabindex="0">
+          <p class="nrb2-panel__eyebrow">Client-Facing</p>
+          <h3 class="nrb2-panel__title">A branded PDF, generated in one click</h3>
+          <p class="nrb2-panel__body">Pull a project&#39;s tasks, costs, and recent field photos into a client-ready PDF report — draft first, then mark as sent.</p>
+          <ul class="nrb2-feat">
+            <li>Comments field for a written progress narrative</li>
+            <li>Draft status until you&#39;re ready for the client to see it</li>
+            <li>The generated PDF embeds recent field-report photos automatically</li>
+          </ul>
+          <div class="nrb2-shots n2">
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/client-report-generate.jpg" alt="Generate Client Report dialog with a comments field for the client-facing narrative" loading="lazy" width="1568" height="710">
+              <figcaption>Generate Client Report dialog with a comments field for the client-facing narrative</figcaption>
+            </figure>
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/client-report-pdf.jpg" alt="Generated client report PDF showing company details, project information, and task status" loading="lazy" width="1568" height="710">
+              <figcaption>Generated client report PDF showing company details, project information, and task status</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div role="tabpanel"
+             id="nrb2-panel-nr-bos-analytics"
+             aria-labelledby="nrb2-tab-nr-bos-analytics"
+             data-nrb2-panel="analytics"
+             class="nrb2-panel"
+             tabindex="0">
+          <p class="nrb2-panel__eyebrow">Team &amp; Spend</p>
+          <h3 class="nrb2-panel__title">Where the time and money are going</h3>
+          <p class="nrb2-panel__body">Team workload by status and a full cost ledger by category — the numbers behind the dashboard.</p>
+          <ul class="nrb2-feat">
+            <li>Workload chart broken down by to do, in progress, review, and done per person</li>
+            <li>Cost entries by category — materials, labor, subcontractor, permits</li>
+            <li>Remaining budget calculated automatically as costs are logged</li>
+          </ul>
+          <div class="nrb2-shots n2">
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/dashboard-team-workload.jpg" alt="Team workload chart showing task counts by status for each team member" loading="lazy" width="1568" height="710">
+              <figcaption>Team workload chart showing task counts by status for each team member</figcaption>
+            </figure>
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/project-costs.jpg" alt="Cost ledger listing dated entries by category with running budget and remaining balance" loading="lazy" width="1568" height="710">
+              <figcaption>Cost ledger listing dated entries by category with running budget and remaining balance</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div role="tabpanel"
+             id="nrb2-panel-nr-bos-ai-assistant"
+             aria-labelledby="nrb2-tab-nr-bos-ai-assistant"
+             data-nrb2-panel="ai-assistant"
+             class="nrb2-panel"
+             tabindex="0">
+          <p class="nrb2-panel__eyebrow">AI-Assisted</p>
+          <h3 class="nrb2-panel__title">Risk, cost, and productivity — read by AI</h3>
+          <p class="nrb2-panel__body">On demand, an AI assistant reads a project&#39;s real tasks, costs, and team data and returns a structured briefing — not generic advice.</p>
+          <ul class="nrb2-feat">
+            <li>Risk analysis flags what&#39;s actually blocking the schedule</li>
+            <li>Cost insights break down spend by category with a plain-language summary</li>
+            <li>Productivity notes point out workload imbalance and bottlenecks</li>
+          </ul>
+          <div class="nrb2-shots">
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/ai-insights.jpg" alt="AI-generated risk analysis listing two flagged risks with severity and a workload note" loading="lazy" width="1568" height="710">
+              <figcaption>AI-generated risk analysis listing two flagged risks with severity and a workload note</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div role="tabpanel"
+             id="nrb2-panel-nr-bos-licensing"
+             aria-labelledby="nrb2-tab-nr-bos-licensing"
+             data-nrb2-panel="licensing"
+             class="nrb2-panel"
+             tabindex="0">
+          <p class="nrb2-panel__eyebrow">Access &amp; Billing</p>
+          <h3 class="nrb2-panel__title">Role-based access, licensed by code</h3>
+          <p class="nrb2-panel__body">Admins, project managers, field workers, and clients each see only what&#39;s theirs. Access itself runs on redeemable subscription codes — no payment processor required.</p>
+          <ul class="nrb2-feat">
+            <li>Four roles, each with a different view of the product</li>
+            <li>Subscription status and renewal date visible at a glance</li>
+            <li>License codes generated in batches and redeemed once per company</li>
+          </ul>
+          <div class="nrb2-shots n3">
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/team-users.jpg" alt="Company user list with names, emails, roles, and active/inactive status" loading="lazy" width="1568" height="710">
+              <figcaption>Company user list with names, emails, roles, and active/inactive status</figcaption>
+            </figure>
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/subscription-plan.jpg" alt="Active subscription plan with renewal date and a redeemable license code field" loading="lazy" width="1568" height="710">
+              <figcaption>Active subscription plan with renewal date and a redeemable license code field</figcaption>
+            </figure>
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/license-batches.jpg" alt="License batch list showing tier, redemption count, and creation date" loading="lazy" width="1568" height="710">
+              <figcaption>License batch list showing tier, redemption count, and creation date</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
 
 <section class="section nrb-scope">
   <div class="section-inner-narrow">
@@ -335,5 +640,6 @@
 <script src="/assets/js/main.js"></script>
 <script src="/assets/js/language-switcher.js"></script>
 
+<script src="/assets/js/nrb-overview.js" defer></script>
 </body>
 </html>

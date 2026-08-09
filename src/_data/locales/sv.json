@@ -63,6 +63,141 @@
       "memberPortal": "Medlemsportal"
     }
   },
+  "productOverviews": {
+    "nrBos": {
+      "id": "nr-bos",
+      "eyebrow": "Live produkt",
+      "title": "Utforska NR-BOS",
+      "body": "Öppna den interaktiva rundturen — sju paneler, riktiga skärmar från den skarpa produkten.",
+      "cta": "Öppna rundturen",
+      "modalId": "Egenutvecklad produkt · NR-BOS",
+      "modalTitle": "NR-BOS — Interaktiv rundtur",
+      "closeLabel": "Stäng",
+      "tabsLabel": "NR-BOS funktionskategorier",
+      "sliderBeforeLabel": "Före",
+      "sliderAfterLabel": "Efter",
+      "sliderNote": "Dra för att jämföra — ett riktigt före/efter-par från en fältrapport.",
+      "panels": [
+        {
+          "slug": "dashboard",
+          "icon": "chart",
+          "tabLabel": "Översikt",
+          "eyebrow": "Översikt",
+          "title": "En direktbild av varje projekt",
+          "body": "Nyckeltal för hela portföljen, budget mot faktisk kostnad och färdigställandegrad — det första alla öppnar varje morgon.",
+          "features": [
+            "Antal totala och aktiva projekt, uppdaterat i realtid",
+            "Färdigställandegrad och vinstmarginal för hela portföljen",
+            "Budget mot faktisk kostnad, sida vid sida"
+          ],
+          "shots": [
+            { "file": "dashboard-overview.jpg", "alt": "NR-BOS-instrumentpanel som visar fyra projekträkningar, staplar för budget mot faktisk kostnad och ett cirkeldiagram över projekt efter status" }
+          ]
+        },
+        {
+          "slug": "projects",
+          "icon": "clipboard",
+          "tabLabel": "Projekt",
+          "eyebrow": "Leverans",
+          "title": "Varje uppdrag, spårat ner till uppgiften",
+          "body": "Projekt har sin egen budget, kund och team. Arbetet inom varje projekt drivs på en tavla med fyra kolumner.",
+          "features": [
+            "Att göra, pågår, granskning, klart — en tavla per projekt",
+            "Varje uppgift har en ansvarig, ett förfallodatum och en tidsuppskattning",
+            "Projektstatus — planering, aktivt, pausat, avslutat — syns direkt"
+          ],
+          "shots": [
+            { "file": "projects-list.jpg", "alt": "Lista över fyra NR-BOS-projekt med statusmärken — aktivt, pausat, planering och avslutat" },
+            { "file": "project-kanban.jpg", "alt": "Kanban-tavla för ett projekt med uppgifter fördelade på kolumnerna Att göra, Pågår, Granskning och Klart" }
+          ]
+        },
+        {
+          "slug": "field-reporting",
+          "icon": "wrench",
+          "tabLabel": "Fältrapportering",
+          "eyebrow": "På plats",
+          "title": "Vad som hänt på plats, med bevis",
+          "body": "Fälttekniker loggar statusanteckningar och foton direkt från plats — inklusive matchande före/efter-bilder för arbete som är enkelt att beskriva men svårt att föreställa sig.",
+          "features": [
+            "Anteckningar kopplade till en specifik uppgift, tidsstämplade och geotaggade",
+            "Fototyperna före, efter och allmänt på varje rapport",
+            "Dra i reglaget nedan — ett riktigt före/efter-par från en fältrapport"
+          ],
+          "shots": [
+            { "file": "field-report-notes.jpg", "alt": "Fältrapportpost med en tidsstämplad platsanteckning och ett bifogat foto" }
+          ]
+        },
+        {
+          "slug": "client-reports",
+          "icon": "folder",
+          "tabLabel": "Kundrapporter",
+          "eyebrow": "Kundvänd",
+          "title": "En varumärkesanpassad PDF, skapad med ett klick",
+          "body": "Hämta ett projekts uppgifter, kostnader och senaste fältfoton till en kundklar PDF-rapport — utkast först, markera sedan som skickad.",
+          "features": [
+            "Kommentarsfält för en skriftlig statusbeskrivning",
+            "Utkaststatus tills du är redo att visa kunden",
+            "Den genererade PDF:en bäddar automatiskt in de senaste fältfotona"
+          ],
+          "shots": [
+            { "file": "client-report-generate.jpg", "alt": "Dialogruta för att skapa kundrapport med ett kommentarsfält för den kundvända berättelsen" },
+            { "file": "client-report-pdf.jpg", "alt": "Genererad kundrapport-PDF med företagsuppgifter, projektinformation och uppgiftsstatus" }
+          ]
+        },
+        {
+          "slug": "analytics",
+          "icon": "target",
+          "tabLabel": "Analys",
+          "eyebrow": "Team & kostnad",
+          "title": "Var tiden och pengarna tar vägen",
+          "body": "Teamets arbetsbelastning per status och en fullständig kostnadsbok per kategori — siffrorna bakom instrumentpanelen.",
+          "features": [
+            "Arbetsbelastningsdiagram uppdelat på att göra, pågår, granskning och klart per person",
+            "Kostnadsposter per kategori — material, arbete, underleverantör, tillstånd",
+            "Återstående budget beräknas automatiskt när kostnader loggas"
+          ],
+          "shots": [
+            { "file": "dashboard-team-workload.jpg", "alt": "Diagram över teamets arbetsbelastning som visar antal uppgifter per status för varje teammedlem" },
+            { "file": "project-costs.jpg", "alt": "Kostnadsbok med daterade poster per kategori samt löpande budget och återstående saldo" }
+          ]
+        },
+        {
+          "slug": "ai-assistant",
+          "icon": "sparkle",
+          "tabLabel": "AI-assistent",
+          "eyebrow": "AI-assisterat",
+          "title": "Risk, kostnad och produktivitet — lästa av AI",
+          "body": "På begäran läser en AI-assistent ett projekts riktiga uppgifter, kostnader och teamdata och lämnar en strukturerad sammanfattning — inte generiska råd.",
+          "features": [
+            "Riskanalys flaggar det som faktiskt bromsar tidsplanen",
+            "Kostnadsinsikter bryter ner utgifter per kategori med en sammanfattning i klartext",
+            "Produktivitetsanteckningar pekar ut obalans i arbetsbelastning och flaskhalsar"
+          ],
+          "shots": [
+            { "file": "ai-insights.jpg", "alt": "AI-genererad riskanalys som listar två flaggade risker med allvarlighetsgrad och en anteckning om arbetsbelastning" }
+          ]
+        },
+        {
+          "slug": "licensing",
+          "icon": "lock",
+          "tabLabel": "Team & licens",
+          "eyebrow": "Åtkomst & fakturering",
+          "title": "Rollbaserad åtkomst, licensierad med kod",
+          "body": "Administratörer, projektledare, fälttekniker och kunder ser var och en bara det som är deras. Åtkomsten i sig drivs av inlösbara prenumerationskoder — ingen betalningslösning krävs.",
+          "features": [
+            "Fyra roller, var och en med en egen vy av produkten",
+            "Prenumerationsstatus och förnyelsedatum syns direkt",
+            "Licenskoder genereras i omgångar och löses in en gång per företag"
+          ],
+          "shots": [
+            { "file": "team-users.jpg", "alt": "Företagets användarlista med namn, e-post, roller och aktiv/inaktiv status" },
+            { "file": "subscription-plan.jpg", "alt": "Aktiv prenumerationsplan med förnyelsedatum och ett fält för inlösbar licenskod" },
+            { "file": "license-batches.jpg", "alt": "Lista över licensomgångar med nivå, antal inlösta och skapandedatum" }
+          ]
+        }
+      ]
+    }
+  },
   "pages": {
     "home": {
       "meta": {

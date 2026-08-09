@@ -1,0 +1,90 @@
+{#-
+  NR-BOS interactive overview — launcher card + tabbed modal.
+  Data-driven from `productOverviews.nrBos` in the locale JSON (falls back
+  to English — see call site). Behaviour lives in assets/js/nrb-overview.js;
+  this macro only emits the markup + ARIA wiring that script expects.
+  Usage: {% import "partials/nrb-overview.njk" as nrb2 %}  {{ nrb2.overview(ov) }}
+-#}
+{% import "partials/icons.njk" as icons %}
+
+{% macro overview(ov) %}
+<button type="button" class="nrb2-launcher nrb2-scope" data-nrb2-open="{{ ov.id }}" aria-haspopup="dialog">
+  <span class="nrb2-launcher__text">
+    <span class="nrb2-launcher__eyebrow"><span class="nrb2-dot" aria-hidden="true"></span>{{ ov.eyebrow }}</span>
+    <span class="nrb2-launcher__title">{{ ov.title }}</span>
+    <span class="nrb2-launcher__body">{{ ov.body }}</span>
+  </span>
+  <span class="nrb2-launcher__cta">{{ ov.cta }} <span aria-hidden="true">→</span></span>
+</button>
+
+<div class="nrb2-overlay nrb2-scope" data-nrb2-overlay="{{ ov.id }}" hidden>
+  <div class="nrb2-modal" role="dialog" aria-modal="true" aria-labelledby="nrb2-title-{{ ov.id }}" data-nrb2-modal="{{ ov.id }}">
+    <div class="nrb2-head">
+      <div>
+        <p class="nrb2-head__id">{{ ov.modalId }}</p>
+        <h2 class="nrb2-head__title" id="nrb2-title-{{ ov.id }}">{{ ov.modalTitle }}</h2>
+      </div>
+      <button type="button" class="nrb2-close" data-nrb2-close aria-label="{{ ov.closeLabel }}">{{ icons.icon('close') }}</button>
+    </div>
+    <div class="nrb2-layout">
+      <div class="nrb2-rail" role="tablist" aria-label="{{ ov.tabsLabel }}" aria-orientation="vertical">
+        {%- for p in ov.panels %}
+        <button type="button"
+                role="tab"
+                id="nrb2-tab-{{ ov.id }}-{{ p.slug }}"
+                aria-controls="nrb2-panel-{{ ov.id }}-{{ p.slug }}"
+                aria-selected="{{ 'true' if loop.first else 'false' }}"
+                tabindex="{{ '0' if loop.first else '-1' }}"
+                data-nrb2-tab="{{ p.slug }}"
+                class="nrb2-tab">
+          {{ icons.icon(p.icon) }}
+          <span class="nrb2-tab__label">{{ p.tabLabel }}</span>
+        </button>
+        {%- endfor %}
+      </div>
+      <div class="nrb2-stage">
+        {%- for p in ov.panels %}
+        <div role="tabpanel"
+             id="nrb2-panel-{{ ov.id }}-{{ p.slug }}"
+             aria-labelledby="nrb2-tab-{{ ov.id }}-{{ p.slug }}"
+             data-nrb2-panel="{{ p.slug }}"
+             class="nrb2-panel{{ ' is-active' if loop.first else '' }}"
+             tabindex="0">
+          <p class="nrb2-panel__eyebrow">{{ p.eyebrow }}</p>
+          <h3 class="nrb2-panel__title">{{ p.title }}</h3>
+          <p class="nrb2-panel__body">{{ p.body }}</p>
+          <ul class="nrb2-feat">
+            {%- for f in p.features %}
+            <li>{{ f }}</li>
+            {%- endfor %}
+          </ul>
+          <div class="nrb2-shots{{ ' n2' if p.shots.length == 2 else (' n3' if p.shots.length == 3 else '') }}">
+            {%- for shot in p.shots %}
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/{{ shot.file }}" alt="{{ shot.alt }}" loading="lazy" width="1568" height="710">
+              <figcaption>{{ shot.alt }}</figcaption>
+            </figure>
+            {%- endfor %}
+          </div>
+          {%- if p.slug == "field-reporting" %}
+          <div class="nrb2-slider" data-nrb2-slider dir="ltr">
+            <div class="nrb2-slider__stage">
+              <img class="nrb2-slider__img" src="/assets/img/nr-bos/slider-before.jpg" alt="" loading="lazy">
+              <img class="nrb2-slider__img nrb2-slider__after" src="/assets/img/nr-bos/slider-after.jpg" alt="" loading="lazy">
+              <span class="nrb2-slider__tag" style="inset-inline-start:8px">{{ ov.sliderBeforeLabel }}</span>
+              <span class="nrb2-slider__tag" style="inset-inline-end:8px; inset-inline-start:auto">{{ ov.sliderAfterLabel }}</span>
+              <div class="nrb2-slider__handle" aria-hidden="true"></div>
+            </div>
+            <label class="nrb2-vh" for="nrb2-slider-range-{{ ov.id }}">{{ ov.sliderBeforeLabel }} / {{ ov.sliderAfterLabel }}</label>
+            <input type="range" id="nrb2-slider-range-{{ ov.id }}" min="0" max="100" value="50">
+            <p class="nrb2-slider__meta"><bdi>{{ ov.sliderNote }}</bdi></p>
+          </div>
+          {%- endif %}
+        </div>
+        {%- endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endmacro %}

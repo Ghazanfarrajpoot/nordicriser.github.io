@@ -55,10 +55,15 @@
   <link rel="stylesheet" href="/assets/css/pillars.css">
   <link rel="stylesheet" href="/assets/css/pages.css">
   {%- if pageKey == "nrBos" %}
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/product-overview.css">
+  <link rel="stylesheet" href="/assets/css/nrb-overview.css">
   {%- endif %}
 </head>
 <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
 {{ content | safe }}
+{%- if pageKey == "nrBos" %}
+<script src="/assets/js/nrb-overview.js" defer></script>
+{%- endif %}
 </body>
 </html>
