@@ -214,7 +214,7 @@
       "proofBar": {
         "stats": [
           { "value": "11", "label": "Språk levererade i produktion" },
-          { "value": "2", "label": "Produkter byggda internt" },
+          { "value": "5", "label": "Produkter byggda internt" },
           { "value": "Stockholm, Sweden", "label": "Baserade i" },
           { "value": "Design → Bygg → Support", "label": "Arbetssätt" }
         ]
@@ -235,11 +235,11 @@
         "items": [
           { "type": "SaaS-produkt (internt byggd)", "title": "NR-BOS", "featured": true, "featuredLabel": "Flaggskeppsprodukt", "oneLiner": "Projektleverans, fältarbete och kundrapportering — allt på en plattform, byggd och licensierad av Nordic Riser AB.", "link": "work/nr-bos" },
           { "type": "SaaS-produkt (internt byggd)", "title": "Global Reach", "oneLiner": "Direktsända samarbetsrum med delade whiteboards och chatt som översätts i realtid mellan språk.", "link": "global-reach" },
-          { "type": "Säker kundportal", "title": "Nordic Riser Medlemsportal", "oneLiner": "En autentiserad portal för dokumentutbyte, ärendespårning, säker meddelandehantering och betalningar.", "link": "work" },
-          { "type": "Flerspråkig marknadsföringsplattform", "title": "nordicriser.com", "oneLiner": "En elvaspråkig produktionswebbplats med RTL-stöd, fullständig metatäckning och rena URL:er per språk.", "link": "work" },
-          { "type": "Vårdapp (internt byggd)", "title": "4eDoctor", "oneLiner": "En telemedicinplattform med HD-videokonsultationer, tidsbokning och chatt under samtal.", "link": "work" },
-          { "type": "Leveransapp on-demand (internt byggd)", "title": "4eZone Pharmacy", "oneLiner": "Ett apoteksexpedieringssystem som kopplar läkarrecept till hantering och leverans.", "link": "work" },
-          { "type": "Leveransapp (internt byggd)", "title": "On-Demand Delivery App", "oneLiner": "En anpassningsbar leveransplattform för beställning, dirigering och budspårning för alla typer av företag.", "link": "work" }
+          { "type": "Säker kundportal", "title": "Nordic Riser Medlemsportal", "oneLiner": "En autentiserad portal för dokumentutbyte, ärendespårning, säker meddelandehantering och betalningar.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Flerspråkig marknadsföringsplattform", "title": "nordicriser.com", "oneLiner": "En elvaspråkig produktionswebbplats med RTL-stöd, fullständig metatäckning och rena URL:er per språk.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Vårdapp (internt byggd)", "title": "4eDoctor", "oneLiner": "En telemedicinplattform med HD-videokonsultationer, tidsbokning och chatt under samtal.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Leveransapp on-demand (internt byggd)", "title": "4eZone Pharmacy", "oneLiner": "Ett apoteksexpedieringssystem som kopplar läkarrecept till hantering och leverans.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Leveransapp (internt byggd)", "title": "On-Demand Delivery App", "oneLiner": "En anpassningsbar leveransplattform för beställning, dirigering och budspårning för alla typer av företag.", "link": "work", "linkLabel": "Se i vårt arbete →" }
         ],
         "cta": "Se allt arbete",
         "ctaLink": "work"
@@ -726,7 +726,7 @@
     "work": {
       "meta": {
         "title": "Vårt arbete — plattformar, portaler & produkter — Nordic Riser AB",
-        "description": "Utvalda projekt från Nordic Riser AB: en samarbetsplattform med direktöversättning, en säker kundportal och en elvaspråkig produktionswebbplats."
+        "description": "Utvalda projekt från Nordic Riser AB — inklusive NR-BOS, vår flaggskeppsplattform för affärsverksamhet, en samarbetsplattform med direktöversättning och en säker kundportal."
       },
       "hero": { "label": "Utvalt arbete", "h1": "Vad vi har byggt", "body": "Plattformar, portaler och produkter vi har designat, byggt och levererat — inklusive våra egna." },
       "breadcrumb": "Arbete",

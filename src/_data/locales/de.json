@@ -79,7 +79,7 @@
       "proofBar": {
         "stats": [
           { "value": "11", "label": "Sprachen in Produktion ausgeliefert" },
-          { "value": "2", "label": "Intern entwickelte Produkte" },
+          { "value": "5", "label": "Intern entwickelte Produkte" },
           { "value": "Stockholm, Sweden", "label": "Ansässig in" },
           { "value": "Design → Entwicklung → Support", "label": "Vorgehen" }
         ]
@@ -100,11 +100,11 @@
         "items": [
           { "type": "SaaS-Produkt (intern entwickelt)", "title": "NR-BOS", "featured": true, "featuredLabel": "Vorzeigeprodukt", "oneLiner": "Projektabwicklung, Feldeinsätze und Kundenberichte — alles auf einer Plattform, entwickelt und lizenziert von Nordic Riser AB.", "link": "work/nr-bos" },
           { "type": "SaaS-Produkt (intern entwickelt)", "title": "Global Reach", "oneLiner": "Live-Kollaborationsräume mit gemeinsamen Whiteboards und Chat, der in Echtzeit zwischen Sprachen übersetzt wird.", "link": "global-reach" },
-          { "type": "Sicheres Kundenportal", "title": "Nordic Riser Mitgliederportal", "oneLiner": "Ein authentifiziertes Portal für Dokumentenaustausch, Fallverfolgung, sichere Nachrichten und Zahlungen.", "link": "work" },
-          { "type": "Mehrsprachige Marketingplattform", "title": "nordicriser.com", "oneLiner": "Eine elfsprachige Produktionswebsite mit RTL-Unterstützung, vollständiger Meta-Abdeckung und sauberen sprachspezifischen URLs.", "link": "work" },
-          { "type": "Gesundheits-App (intern entwickelt)", "title": "4eDoctor", "oneLiner": "Eine Telemedizin-Plattform mit HD-Videokonsultationen, Terminbuchung und Chat während des Anrufs.", "link": "work" },
-          { "type": "On-Demand-Lieferapp (intern entwickelt)", "title": "4eZone Pharmacy", "oneLiner": "Ein Apotheken-Abwicklungssystem, das ärztliche Rezepte mit Bearbeitung und Lieferung verbindet.", "link": "work" },
-          { "type": "Lieferapp (intern entwickelt)", "title": "On-Demand Delivery App", "oneLiner": "Eine anpassbare Lieferplattform für Bestellung, Disposition und Fahrer-Tracking für jedes Unternehmen.", "link": "work" }
+          { "type": "Sicheres Kundenportal", "title": "Nordic Riser Mitgliederportal", "oneLiner": "Ein authentifiziertes Portal für Dokumentenaustausch, Fallverfolgung, sichere Nachrichten und Zahlungen.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
+          { "type": "Mehrsprachige Marketingplattform", "title": "nordicriser.com", "oneLiner": "Eine elfsprachige Produktionswebsite mit RTL-Unterstützung, vollständiger Meta-Abdeckung und sauberen sprachspezifischen URLs.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
+          { "type": "Gesundheits-App (intern entwickelt)", "title": "4eDoctor", "oneLiner": "Eine Telemedizin-Plattform mit HD-Videokonsultationen, Terminbuchung und Chat während des Anrufs.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
+          { "type": "On-Demand-Lieferapp (intern entwickelt)", "title": "4eZone Pharmacy", "oneLiner": "Ein Apotheken-Abwicklungssystem, das ärztliche Rezepte mit Bearbeitung und Lieferung verbindet.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
+          { "type": "Lieferapp (intern entwickelt)", "title": "On-Demand Delivery App", "oneLiner": "Eine anpassbare Lieferplattform für Bestellung, Disposition und Fahrer-Tracking für jedes Unternehmen.", "link": "work", "linkLabel": "Im Portfolio ansehen →" }
         ],
         "cta": "Alle Arbeiten ansehen",
         "ctaLink": "work"
@@ -591,7 +591,7 @@
     "work": {
       "meta": {
         "title": "Unsere Arbeiten — Plattformen, Portale & Produkte — Nordic Riser AB",
-        "description": "Ausgewählte Projekte von Nordic Riser AB: eine Echtzeit-Übersetzungsplattform, ein sicheres Kundenportal und eine elfsprachige Produktionswebsite."
+        "description": "Ausgewählte Projekte von Nordic Riser AB — darunter NR-BOS, unsere Vorzeigeplattform für Geschäftsprozesse, eine Echtzeit-Übersetzungsplattform und ein sicheres Kundenportal."
       },
       "hero": { "label": "Ausgewählte Arbeiten", "h1": "Was wir gebaut haben", "body": "Plattformen, Portale und Produkte, die wir entworfen, entwickelt und ausgeliefert haben — einschließlich unserer eigenen." },
       "breadcrumb": "Arbeiten",

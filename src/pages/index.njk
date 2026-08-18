@@ -76,7 +76,7 @@ pageSlug: ""
         </div>
         <div class="work-teaser-card__body">
           <p>{{ item.oneLiner }}</p>
-          <span class="service-link">{{ t.common.readMore }}</span>
+          <span class="service-link">{{ item.linkLabel or t.common.readMore }}</span>
         </div>
       </a>
       {%- endfor %}

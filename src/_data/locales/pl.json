@@ -79,7 +79,7 @@
       "proofBar": {
         "stats": [
           { "value": "11", "label": "Języków Wdrożonych w Produkcji" },
-          { "value": "2", "label": "Produkty Zbudowane Wewnętrznie" },
+          { "value": "5", "label": "Produkty Zbudowane Wewnętrznie" },
           { "value": "Stockholm, Sweden", "label": "Siedziba w" },
           { "value": "Projekt → Budowa → Wsparcie", "label": "Podejście" }
         ]
@@ -100,11 +100,11 @@
         "items": [
           { "type": "Produkt SaaS (Wewnętrzny)", "title": "NR-BOS", "featured": true, "featuredLabel": "Produkt Flagowy", "oneLiner": "Realizacja projektów, praca w terenie i raportowanie dla klientów — wszystko na jednej platformie, zbudowanej i licencjonowanej przez Nordic Riser AB.", "link": "work/nr-bos" },
           { "type": "Produkt SaaS (Wewnętrzny)", "title": "Global Reach", "oneLiner": "Pokoje współpracy na żywo ze wspólnymi tablicami i czatem tłumaczonym w czasie rzeczywistym między językami.", "link": "global-reach" },
-          { "type": "Bezpieczny Portal Klienta", "title": "Portal Członków Nordic Riser", "oneLiner": "Uwierzytelniony portal do wymiany dokumentów, śledzenia spraw, bezpiecznej komunikacji i płatności.", "link": "work" },
-          { "type": "Wielojęzyczna Platforma Marketingowa", "title": "nordicriser.com", "oneLiner": "Jedenastojęzyczna strona produkcyjna ze wsparciem RTL, pełnym pokryciem meta i czystymi adresami URL dla każdego języka.", "link": "work" },
-          { "type": "Aplikacja Zdrowotna (Wewnętrzna)", "title": "4eDoctor", "oneLiner": "Platforma telemedyczna z konsultacjami wideo w HD, rezerwacją wizyt i czatem podczas rozmowy.", "link": "work" },
-          { "type": "Aplikacja Dostawy na Żądanie (Wewnętrzna)", "title": "4eZone Pharmacy", "oneLiner": "System realizacji recept łączący recepty lekarskie z przetwarzaniem i dostawą.", "link": "work" },
-          { "type": "Aplikacja Dostawcza (Wewnętrzna)", "title": "On-Demand Delivery App", "oneLiner": "Konfigurowalna platforma dostawcza do zamawiania, dyspozycji i śledzenia kurierów dla dowolnej firmy.", "link": "work" }
+          { "type": "Bezpieczny Portal Klienta", "title": "Portal Członków Nordic Riser", "oneLiner": "Uwierzytelniony portal do wymiany dokumentów, śledzenia spraw, bezpiecznej komunikacji i płatności.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
+          { "type": "Wielojęzyczna Platforma Marketingowa", "title": "nordicriser.com", "oneLiner": "Jedenastojęzyczna strona produkcyjna ze wsparciem RTL, pełnym pokryciem meta i czystymi adresami URL dla każdego języka.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
+          { "type": "Aplikacja Zdrowotna (Wewnętrzna)", "title": "4eDoctor", "oneLiner": "Platforma telemedyczna z konsultacjami wideo w HD, rezerwacją wizyt i czatem podczas rozmowy.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
+          { "type": "Aplikacja Dostawy na Żądanie (Wewnętrzna)", "title": "4eZone Pharmacy", "oneLiner": "System realizacji recept łączący recepty lekarskie z przetwarzaniem i dostawą.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
+          { "type": "Aplikacja Dostawcza (Wewnętrzna)", "title": "On-Demand Delivery App", "oneLiner": "Konfigurowalna platforma dostawcza do zamawiania, dyspozycji i śledzenia kurierów dla dowolnej firmy.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" }
         ],
         "cta": "Zobacz Wszystkie Realizacje",
         "ctaLink": "work"
@@ -591,7 +591,7 @@
     "work": {
       "meta": {
         "title": "Nasze Realizacje — Platformy, Portale i Produkty — Nordic Riser AB",
-        "description": "Wybrane projekty Nordic Riser AB: platforma współpracy z tłumaczeniem w czasie rzeczywistym, bezpieczny portal klienta i jedenastojęzyczna strona produkcyjna."
+        "description": "Wybrane projekty Nordic Riser AB — w tym NR-BOS, nasza flagowa platforma operacji biznesowych, platforma współpracy z tłumaczeniem w czasie rzeczywistym i bezpieczny portal klienta."
       },
       "hero": { "label": "Wybrane Realizacje", "h1": "Co Zbudowaliśmy", "body": "Platformy, portale i produkty, które zaprojektowaliśmy, zbudowaliśmy i dostarczyliśmy — w tym nasze własne." },
       "breadcrumb": "Realizacje",

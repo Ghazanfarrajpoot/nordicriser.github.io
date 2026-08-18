@@ -572,6 +572,10 @@ img { display: block; max-width: 100%; }
   align-items: start;
 }
 
+/* No compliance/disclaimer column outside /consulting/ — redistribute the
+   freed width instead of leaving a dead fourth track. */
+.footer-main--3col { grid-template-columns: 1.8fr 2.4fr 1.8fr; }
+
 .footer-services-group {
   display: flex;
   flex-wrap: wrap;

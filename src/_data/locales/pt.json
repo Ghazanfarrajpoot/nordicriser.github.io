@@ -79,7 +79,7 @@
       "proofBar": {
         "stats": [
           { "value": "11", "label": "Idiomas Lançados em Produção" },
-          { "value": "2", "label": "Produtos Construídos Internamente" },
+          { "value": "5", "label": "Produtos Construídos Internamente" },
           { "value": "Stockholm, Sweden", "label": "Sediada em" },
           { "value": "Design → Construção → Suporte", "label": "Abordagem" }
         ]
@@ -100,11 +100,11 @@
         "items": [
           { "type": "Produto SaaS (Interno)", "title": "NR-BOS", "featured": true, "featuredLabel": "Produto Principal", "oneLiner": "Entrega de projetos, operações de campo e relatórios ao cliente — tudo numa única plataforma, construída e licenciada pela Nordic Riser AB.", "link": "work/nr-bos" },
           { "type": "Produto SaaS (Interno)", "title": "Global Reach", "oneLiner": "Salas de colaboração ao vivo com quadros brancos partilhados e chat traduzido em tempo real entre idiomas.", "link": "global-reach" },
-          { "type": "Portal de Cliente Seguro", "title": "Portal de Membros Nordic Riser", "oneLiner": "Um portal autenticado para partilha de documentos, acompanhamento de processos, mensagens seguras e pagamentos.", "link": "work" },
-          { "type": "Plataforma de Marketing Multilingue", "title": "nordicriser.com", "oneLiner": "Um site de produção em onze idiomas com suporte RTL, cobertura completa de metadados e URLs limpos por idioma.", "link": "work" },
-          { "type": "Aplicação de Saúde (Interna)", "title": "4eDoctor", "oneLiner": "Uma plataforma de telemedicina com consultas por vídeo em HD, marcação de consultas e chat durante a chamada.", "link": "work" },
-          { "type": "Aplicação de Entrega Sob Demanda (Interna)", "title": "4eZone Pharmacy", "oneLiner": "Um sistema de processamento farmacêutico que liga receitas médicas ao processamento e à entrega.", "link": "work" },
-          { "type": "Aplicação de Entrega (Interna)", "title": "On-Demand Delivery App", "oneLiner": "Uma plataforma de entrega personalizável para pedidos, despacho e rastreamento de estafetas, adequada a qualquer negócio.", "link": "work" }
+          { "type": "Portal de Cliente Seguro", "title": "Portal de Membros Nordic Riser", "oneLiner": "Um portal autenticado para partilha de documentos, acompanhamento de processos, mensagens seguras e pagamentos.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
+          { "type": "Plataforma de Marketing Multilingue", "title": "nordicriser.com", "oneLiner": "Um site de produção em onze idiomas com suporte RTL, cobertura completa de metadados e URLs limpos por idioma.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
+          { "type": "Aplicação de Saúde (Interna)", "title": "4eDoctor", "oneLiner": "Uma plataforma de telemedicina com consultas por vídeo em HD, marcação de consultas e chat durante a chamada.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
+          { "type": "Aplicação de Entrega Sob Demanda (Interna)", "title": "4eZone Pharmacy", "oneLiner": "Um sistema de processamento farmacêutico que liga receitas médicas ao processamento e à entrega.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
+          { "type": "Aplicação de Entrega (Interna)", "title": "On-Demand Delivery App", "oneLiner": "Uma plataforma de entrega personalizável para pedidos, despacho e rastreamento de estafetas, adequada a qualquer negócio.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" }
         ],
         "cta": "Ver Todo o Nosso Trabalho",
         "ctaLink": "work"
@@ -591,7 +591,7 @@
     "work": {
       "meta": {
         "title": "O Nosso Trabalho — Plataformas, Portais & Produtos — Nordic Riser AB",
-        "description": "Projetos selecionados da Nordic Riser AB: uma plataforma de colaboração com tradução em tempo real, um portal de cliente seguro e um site de produção em onze idiomas."
+        "description": "Projetos selecionados da Nordic Riser AB — incluindo o NR-BOS, a nossa plataforma principal de operações empresariais, uma plataforma de colaboração com tradução em tempo real e um portal de cliente seguro."
       },
       "hero": { "label": "Trabalho Selecionado", "h1": "O Que Construímos", "body": "Plataformas, portais e produtos que concebemos, construímos e lançámos — incluindo os nossos próprios." },
       "breadcrumb": "Trabalho",

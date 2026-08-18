@@ -79,7 +79,7 @@
       "proofBar": {
         "stats": [
           { "value": "11", "label": "Talen Uitgebracht in Productie" },
-          { "value": "2", "label": "Intern Gebouwde Producten" },
+          { "value": "5", "label": "Intern Gebouwde Producten" },
           { "value": "Stockholm, Sweden", "label": "Gevestigd in" },
           { "value": "Ontwerp → Bouw → Support", "label": "Aanpak" }
         ]
@@ -100,11 +100,11 @@
         "items": [
           { "type": "SaaS-product (Intern)", "title": "NR-BOS", "featured": true, "featuredLabel": "Vlaggenschipproduct", "oneLiner": "Projectuitvoering, veldwerk en klantrapportages — alles op één platform, gebouwd en gelicentieerd door Nordic Riser AB.", "link": "work/nr-bos" },
           { "type": "SaaS-product (Intern)", "title": "Global Reach", "oneLiner": "Live samenwerkingsruimtes met gedeelde whiteboards en chat die in realtime wordt vertaald tussen talen.", "link": "global-reach" },
-          { "type": "Veilig Klantportaal", "title": "Nordic Riser Ledenportaal", "oneLiner": "Een geauthenticeerd portaal voor documentuitwisseling, zaakopvolging, veilige berichten en betalingen.", "link": "work" },
-          { "type": "Meertalig Marketingplatform", "title": "nordicriser.com", "oneLiner": "Een productiesite in elf talen met RTL-ondersteuning, volledige metadekking en schone URL's per taal.", "link": "work" },
-          { "type": "Zorg-app (Intern)", "title": "4eDoctor", "oneLiner": "Een telemedicineplatform met HD-videoconsulten, afsprakenplanning en chat tijdens het gesprek.", "link": "work" },
-          { "type": "On-demand Bezorgapp (Intern)", "title": "4eZone Pharmacy", "oneLiner": "Een apotheekverwerkingssysteem dat doktersrecepten koppelt aan verwerking en bezorging.", "link": "work" },
-          { "type": "Bezorgapp (Intern)", "title": "On-Demand Delivery App", "oneLiner": "Een aanpasbaar bezorgplatform voor bestellen, dispatch en bezorgertracking, geschikt voor elk bedrijf.", "link": "work" }
+          { "type": "Veilig Klantportaal", "title": "Nordic Riser Ledenportaal", "oneLiner": "Een geauthenticeerd portaal voor documentuitwisseling, zaakopvolging, veilige berichten en betalingen.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
+          { "type": "Meertalig Marketingplatform", "title": "nordicriser.com", "oneLiner": "Een productiesite in elf talen met RTL-ondersteuning, volledige metadekking en schone URL's per taal.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
+          { "type": "Zorg-app (Intern)", "title": "4eDoctor", "oneLiner": "Een telemedicineplatform met HD-videoconsulten, afsprakenplanning en chat tijdens het gesprek.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
+          { "type": "On-demand Bezorgapp (Intern)", "title": "4eZone Pharmacy", "oneLiner": "Een apotheekverwerkingssysteem dat doktersrecepten koppelt aan verwerking en bezorging.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
+          { "type": "Bezorgapp (Intern)", "title": "On-Demand Delivery App", "oneLiner": "Een aanpasbaar bezorgplatform voor bestellen, dispatch en bezorgertracking, geschikt voor elk bedrijf.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" }
         ],
         "cta": "Bekijk Al Ons Werk",
         "ctaLink": "work"
@@ -591,7 +591,7 @@
     "work": {
       "meta": {
         "title": "Ons Werk — Platforms, Portalen & Producten — Nordic Riser AB",
-        "description": "Geselecteerde projecten van Nordic Riser AB: een samenwerkingsplatform met realtime vertaling, een veilig klantportaal en een productiewebsite in elf talen."
+        "description": "Geselecteerde projecten van Nordic Riser AB — waaronder NR-BOS, ons vlaggenschipplatform voor bedrijfsvoering, een samenwerkingsplatform met realtime vertaling en een veilig klantportaal."
       },
       "hero": { "label": "Geselecteerd Werk", "h1": "Wat Wij Hebben Gebouwd", "body": "Platforms, portalen en producten die wij hebben ontworpen, gebouwd en uitgebracht — inclusief onze eigen." },
       "breadcrumb": "Werk",

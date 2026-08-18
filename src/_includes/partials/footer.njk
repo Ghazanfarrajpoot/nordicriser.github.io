@@ -1,7 +1,7 @@
 {%- set t = locales[locale] -%}
 {%- set navWorkLabel = t.nav.work or locales.en.nav.work -%}
 <footer class="footer">
-  <div class="footer-main">
+  <div class="footer-main{% if pageKey != 'consulting' %} footer-main--3col{% endif %}">
     <div class="footer-brand">
       <a href="{{ '' | localeUrl(locale) }}" class="footer-logo">Nordic Riser <span>AB</span></a>
       <p>{{ t.footer.brandBlurb }}</p>
@@ -9,7 +9,9 @@
         <strong>{{ t.footer.addressHeading }}</strong>
         Nordic Riser AB<br>
         Stockholm, Sweden<br>
+        {%- if "[ORG_NR]" not in t.footer.orgNrValue %}
         {{ t.footer.orgNrLabel }} {{ t.footer.orgNrValue }}<br>
+        {%- endif %}
         <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
       </div>
     </div>
@@ -49,6 +51,7 @@
         <li><a href="https://portal.nordicriser.com">{{ t.footer.firmLinks.memberPortal }}</a></li>
       </ul>
     </div>
+    {%- if pageKey == "consulting" %}
     <div class="footer-col">
       <h4>{{ t.footer.complianceHeading }}</h4>
       <div class="footer-disclaimer-box">
@@ -56,6 +59,7 @@
         <p>{{ t.footer.disclaimer }}</p>
       </div>
     </div>
+    {%- endif %}
   </div>
   <div class="footer-bottom">
     <span>{{ t.footer.copyright }}</span>

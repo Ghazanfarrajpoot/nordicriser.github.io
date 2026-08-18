@@ -214,7 +214,7 @@
       "proofBar": {
         "stats": [
           { "value": "11", "label": "Languages Shipped in Production" },
-          { "value": "2", "label": "Products Built In-House" },
+          { "value": "5", "label": "Products Built In-House" },
           { "value": "Stockholm, Sweden", "label": "Based In" },
           { "value": "Design → Build → Support", "label": "Approach" }
         ]
@@ -235,11 +235,11 @@
         "items": [
           { "type": "SaaS Product (In-House)", "title": "NR-BOS", "featured": true, "featuredLabel": "Flagship Product", "oneLiner": "Project delivery, field operations, and client reporting — run from one platform, built and licensed by Nordic Riser AB.", "link": "work/nr-bos" },
           { "type": "SaaS Product (In-House)", "title": "Global Reach", "oneLiner": "Live collaboration rooms with shared whiteboards and chat translated in real time between languages.", "link": "global-reach" },
-          { "type": "Secure Client Portal", "title": "Nordic Riser Member Portal", "oneLiner": "An authenticated portal for document exchange, case tracking, secure messaging, and payments.", "link": "work" },
-          { "type": "Multilingual Marketing Platform", "title": "nordicriser.com", "oneLiner": "An eleven-language production site with RTL support, full meta coverage, and clean per-language URLs.", "link": "work" },
-          { "type": "Healthcare App (In-House)", "title": "4eDoctor", "oneLiner": "A telemedicine platform with HD video consultations, appointment booking, and in-call chat.", "link": "work" },
-          { "type": "On-Demand Delivery App (In-House)", "title": "4eZone Pharmacy", "oneLiner": "A pharmacy fulfillment system linking doctor prescriptions to processing and delivery.", "link": "work" },
-          { "type": "Delivery App (In-House)", "title": "On-Demand Delivery App", "oneLiner": "A customizable delivery platform covering ordering, dispatch, and rider tracking for any business.", "link": "work" }
+          { "type": "Secure Client Portal", "title": "Nordic Riser Member Portal", "oneLiner": "An authenticated portal for document exchange, case tracking, secure messaging, and payments.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Multilingual Marketing Platform", "title": "nordicriser.com", "oneLiner": "An eleven-language production site with RTL support, full meta coverage, and clean per-language URLs.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Healthcare App (In-House)", "title": "4eDoctor", "oneLiner": "A telemedicine platform with HD video consultations, appointment booking, and in-call chat.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "On-Demand Delivery App (In-House)", "title": "4eZone Pharmacy", "oneLiner": "A pharmacy fulfillment system linking doctor prescriptions to processing and delivery.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Delivery App (In-House)", "title": "On-Demand Delivery App", "oneLiner": "A customizable delivery platform covering ordering, dispatch, and rider tracking for any business.", "link": "work", "linkLabel": "See in our work →" }
         ],
         "cta": "See All Work",
         "ctaLink": "/work/"
@@ -726,7 +726,7 @@
     "work": {
       "meta": {
         "title": "Our Work — Platforms, Portals & Products — Nordic Riser AB",
-        "description": "Selected projects from Nordic Riser AB: a real-time translation collaboration platform, a secure client portal, and an eleven-language production website."
+        "description": "Selected projects from Nordic Riser AB — including NR-BOS, our flagship business operations platform, a real-time translation collaboration platform, and a secure client portal."
       },
       "hero": { "label": "Selected Work", "h1": "What We've Built", "body": "Platforms, portals, and products we've designed, built, and shipped — including our own." },
       "breadcrumb": "Work",

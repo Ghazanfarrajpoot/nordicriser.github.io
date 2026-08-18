@@ -119,6 +119,7 @@ pageSlug: contact
               <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
             </div>
           </div>
+          {%- if "[PHONE_NUMBER]" not in p.sidebar.phoneValue %}
           <div class="contact-detail-item">
             <div class="detail-icon">{{ icons.icon('phone') }}</div>
             <div class="detail-text">
@@ -126,6 +127,8 @@ pageSlug: contact
               <p>{{ p.sidebar.phoneValue }}</p>
             </div>
           </div>
+          {%- endif %}
+          {%- if "[STREET_ADDRESS]" not in p.sidebar.addressValue %}
           <div class="contact-detail-item">
             <div class="detail-icon">{{ icons.icon('pin') }}</div>
             <div class="detail-text">
@@ -133,6 +136,7 @@ pageSlug: contact
               <p>{{ p.sidebar.addressValue }}</p>
             </div>
           </div>
+          {%- endif %}
           <div class="contact-detail-item">
             <div class="detail-icon">{{ icons.icon('clock') }}</div>
             <div class="detail-text">
