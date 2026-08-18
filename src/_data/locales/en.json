@@ -11,7 +11,9 @@
     "emailLabel": "Email",
     "websiteLabel": "Website",
     "home": "Home",
-    "pricingOnRequest": "Pricing on request"
+    "pricingOnRequest": "Pricing on request",
+    "legalPendingTranslationPrefix": "This document is not yet available in ",
+    "legalPendingTranslationSuffix": ". The English text below is authoritative while a professional legal translation is prepared. Contact us with questions."
   },
   "nav": {
     "home": "Home",
@@ -61,6 +63,13 @@
       "contact": "Contact",
       "privacy": "Privacy Policy",
       "memberPortal": "Member Portal"
+    },
+    "legalHeading": "Legal",
+    "legalLinks": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "dpa": "Data Processing Agreement",
+      "subprocessors": "Sub-processors"
     }
   },
   "productOverviews": {
@@ -400,6 +409,7 @@
           { "value": "automation", "label": "Automation & Integrations" },
           { "value": "support", "label": "Ongoing Support & Maintenance" },
           { "value": "globalreach", "label": "Global Reach Subscription" },
+          { "value": "nrbos-trial", "label": "NR-BOS 3-Day Trial Code Request" },
           { "value": "consulting", "label": "Business Establishment Consulting" },
           { "value": "general", "label": "General Enquiry" }
         ],
@@ -426,6 +436,7 @@
         "message": "Brief Description of Your Situation",
         "messagePlaceholder": "Please describe your current situation, your objectives, and any specific questions you have. The more specific you are, the more productive our initial consultation will be.",
         "messageHint": "This information is treated as strictly confidential and is used solely to prepare for your consultation.",
+        "trialPrefillMessage": "Requesting a 3-day trial code for NR-BOS.\n\nCompany name: \nTeam size: \nWhat we'd like to evaluate during the trial: ",
         "consent": "By submitting this form, you confirm that the information provided is accurate and that you consent to Nordic Riser AB retaining your contact details for the purpose of responding to your inquiry. We do not share client information with third parties.",
         "submit": "Submit Consultation Request →"
       },
@@ -460,41 +471,66 @@
     "privacy": {
       "hero": { "label": "Legal", "h1": "Privacy Policy", "body": "How Nordic Riser AB collects, uses, and protects your personal information in accordance with the EU General Data Protection Regulation (GDPR)." },
       "breadcrumb": "Privacy Policy",
-      "updatedBadge": "Last Updated: 23 June 2026",
+      "updatedBadge": "Last Updated: 19 August 2026",
+      "whatChanged": "What changed in this update: this policy previously covered our consulting business only. It now also covers the Member Portal, NR-BOS, and Global Reach. We added a Controller vs. Processor section, a full named Sub-processor list, an explicit disclosure of the AI provider used in NR-BOS, and split the Cookies section between the marketing site and our authenticated products. A Terms of Service and a Data Processing Agreement are published alongside this policy for the first time — see the Legal index.",
       "translationNotice": "This page has been machine-translated. In case of any discrepancy, the English version is authoritative. Contact us with questions.",
       "tocLabel": "Contents",
       "toc": [
-        "1. Introduction", "2. Data Controller", "3. Information We Collect", "4. How We Use Your Data",
-        "5. Data Sharing", "6. Data Security", "7. Data Retention", "8. Your Rights (GDPR)",
-        "9. Cookies", "10. Children's Privacy", "11. Policy Changes", "12. Supervisory Authority", "13. Contact"
+        "1. Introduction", "2. Data Controller", "3. Controller vs. Processor", "4. Information We Collect", "5. How We Use Your Data",
+        "6. Data Sharing", "7. Sub-processors", "8. Data Security", "9. Data Retention", "10. Your Rights (GDPR)",
+        "11. Cookies", "12. Children's Privacy", "13. Policy Changes", "14. Supervisory Authority", "15. Contact"
       ],
       "sections": {
         "s1": { "title": "Introduction", "body": [
-          "Nordic Riser AB (“we”, “our”, or “us”) is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or engage with our advisory services.",
-          "This policy is designed to comply with the EU General Data Protection Regulation (GDPR) and applicable data protection legislation. By using our website or submitting an inquiry, you acknowledge that you have read and understood this policy."
+          "Nordic Riser AB (“we”, “our”, or “us”) is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard information across everything we operate: this website, our strategic consulting services, the Nordic Riser Member Portal, and the software products we build and license — including NR-BOS and Global Reach.",
+          "This policy is designed to comply with the EU General Data Protection Regulation (GDPR) and applicable data protection legislation. By using our website, our Member Portal, or any of our software products, or by submitting an inquiry, you acknowledge that you have read and understood this policy."
         ]},
-        "s2": { "title": "Data Controller", "body": [
-          "Nordic Riser AB is the data controller responsible for your personal information collected through our website and services.",
-          "Nordic Riser AB — Email: info@nordicriser.com — Website: www.nordicriser.com",
-          "For all data protection matters, please contact us using the details above with the subject line “Data Protection Inquiry”."
+        "s2": { "title": "Data Controller", "intro": [
+          "Nordic Riser AB is the data controller responsible for your personal information collected through this website, the Member Portal, and our consulting engagements. Section 3 explains the separate case — building and hosting software for a client — in which Nordic Riser AB instead acts as a data processor."
+        ], "contactNote": "For all data protection matters, please contact us using the details above with the subject line “Data Protection Inquiry”." },
+        "s3": { "title": "Controller vs. Processor — Which Applies to You", "body": [
+          "Nordic Riser AB relates to personal data in two different capacities, and which one applies depends on what you're using.",
+          "As a controller, we decide why and how personal data is processed for our own consulting business, this marketing website, and the Member Portal we operate under our own brand. This Privacy Policy governs that processing.",
+          "As a processor, when we build, host, or operate a system on a client's behalf — for example, an NR-BOS deployment run for a construction company's own workforce and clients — the client is the data controller for the personal data in that system, and Nordic Riser AB processes it only on the client's documented instructions, under a Data Processing Agreement. If you are an employee, subcontractor, or client of one of our software customers, this Privacy Policy is not the governing document for how your data is handled there — your relationship is with that customer, and our obligations run to them under the DPA, not directly to you.",
+          "We offer a Data Processing Agreement to any client on request — see our Legal index for the DPA."
         ]},
-        "s3": { "title": "Information We Collect", "subheadings": [
-          { "title": "3.1 Information You Provide Directly", "intro": "We collect information that you voluntarily provide to us, including:", "list": [
+        "s4": { "title": "Information We Collect", "subheadings": [
+          { "title": "4.1 Information You Provide Directly", "intro": "We collect information that you voluntarily provide to us, including:", "list": [
             "Contact Information: Name, email address, phone number",
             "Professional Information: Business type, professional background, business objectives",
             "Consultation Request Data: Purpose of consultation and description of your situation as submitted via our contact form",
             "Communication Data: Information contained in emails and other correspondence with our team"
           ]},
-          { "title": "3.2 Information Collected Automatically", "intro": "When you visit our website, we may automatically collect:", "list": [
+          { "title": "4.2 Information Collected Automatically", "intro": "When you visit our website, we may automatically collect:", "list": [
             "Technical Data: IP address, browser type, operating system, device information",
             "Usage Data: Pages visited, time spent on pages, navigation paths",
-            "Cookies: Small data files stored on your device (see Section 9)"
+            "Cookies: Small data files stored on your device (see Section 11)"
+          ]},
+          { "title": "4.3 Member Portal (portal.nordicriser.com)", "intro": "As a registered member, we collect:", "list": [
+            "Account Data: name, email address, authentication credentials, and role, managed through Firebase Authentication",
+            "Documents: files you upload for case processing",
+            "Messages: the content of secure messages you exchange through the portal",
+            "Case & Timeline Data: status and progress information related to your case",
+            "Payment Records: invoices, payment claims, and top-up requests you submit — we do not collect or store card numbers; payments are reviewed manually rather than through an automated payment processor"
+          ]},
+          { "title": "4.4 NR-BOS", "intro": "NR-BOS is typically operated by one of our clients for their own workforce, in which case Nordic Riser AB processes this data as a processor, not a controller (see Section 3). We describe it here so that anyone who is a data subject within an NR-BOS deployment understands what is collected:", "list": [
+            "Account & Company Data: the names, roles, and employment relationship of individuals a client organisation adds as NR-BOS users",
+            "Worksite Photographs: photographs uploaded through field reports. The photo file is stored exactly as uploaded, including any location or timestamp metadata (EXIF) already embedded by the device that took it. Separately, the field report itself records GPS coordinates and a timestamp reported by the submitting device at the moment of filing, for site-verification purposes. Worksite photographs are never made public — every photo is kept in a private file store and is only ever reachable through short-lived, authenticated links available to authorised members of the relevant project",
+            "Project & Task Records: project names, task titles, status, due dates, and assignee",
+            "Working Hours: hours logged against tasks by named employees",
+            "Cost Data: cost entries associated with projects and tasks"
+          ]},
+          { "title": "4.5 Global Reach", "intro": "As a Global Reach user:", "list": [
+            "Chat Messages: the content of messages sent through Global Reach's live collaboration rooms, including message text submitted for real-time translation — see Section 6.4 for how that translation is provided and Section 7 for the sub-processor involved"
           ]}
         ]},
-        "s4": { "title": "How We Use Your Information", "intro": "We process your personal data only for the purposes outlined below, each supported by a lawful basis under GDPR:",
+        "s5": { "title": "How We Use Your Information", "intro": "We process your personal data only for the purposes outlined below, each supported by a lawful basis under GDPR:",
           "table": { "headers": ["Purpose", "Legal Basis (GDPR)"], "rows": [
             ["Responding to consultation requests and inquiries", "Contract performance / Legitimate interest"],
             ["Providing strategic advisory, technology, and global collaboration services", "Contract performance"],
+            ["Operating and securing the Member Portal, including authentication and document/message storage", "Contract performance"],
+            ["Delivering NR-BOS to our licensing customers, including field reporting, project tracking, and AI-assisted analysis", "Contract performance (as processor, per our client's instructions)"],
+            ["Providing real-time translation within Global Reach", "Contract performance"],
             ["Communicating about our services and engagement progress", "Contract performance / Consent"],
             ["Improving our website and service quality", "Legitimate interest"],
             ["Coordinating with third-party professionals (legal, accounting)", "Contract performance / Legitimate interest"],
@@ -502,29 +538,41 @@
           ]},
           "note": "We will not sell, rent, or trade your personal information to third parties. We will not use your data for purposes incompatible with those stated above."
         },
-        "s5": { "title": "Data Sharing and Disclosure", "subheadings": [
-          { "title": "5.1 Professional Service Partners", "intro": "Where required to deliver our services, we may share relevant information with qualified third-party professionals, including:", "list": [
+        "s6": { "title": "Data Sharing and Disclosure", "subheadings": [
+          { "title": "6.1 Professional Service Partners", "intro": "Where required to deliver our services, we may share relevant information with qualified third-party professionals, including:", "list": [
             "Legal counsel and specialist advisors engaged in connection with your matter",
             "Accounting and tax professionals involved in business formation or compliance",
-            "Technology providers supporting our website hosting and communications infrastructure"
+            "Technology providers supporting our website, Member Portal, and software product hosting — see our full Sub-processor list, Section 7"
           ], "outro": "All third parties are required to maintain appropriate security measures and are permitted to process your data only as directed by us and within the scope of their professional obligations." },
-          { "title": "5.2 Legal Requirements", "intro": "We may disclose your personal information when required to do so by law, regulation, legal process, or a legitimate governmental request." },
-          { "title": "5.3 International Data Transfers", "intro": "We primarily process data within the EU/EEA. In the event that data is transferred outside the EU/EEA, we ensure that appropriate safeguards are in place — such as Standard Contractual Clauses or applicable adequacy decisions — prior to any such transfer." }
+          { "title": "6.2 Legal Requirements", "intro": "We may disclose your personal information when required to do so by law, regulation, legal process, or a legitimate governmental request." },
+          { "title": "6.3 International Data Transfers", "intro": "Where personal data is transferred outside the EU/EEA, we ensure an appropriate transfer mechanism — typically the European Commission's Standard Contractual Clauses — is in place before any such transfer takes place. Section 7 lists every sub-processor we use, including where each one is located and which transfer mechanism applies. One of those transfers, described in full below, is to a company based in China, a jurisdiction without an EU adequacy decision." },
+          { "title": "6.4 AI Processing in NR-BOS", "intro": "NR-BOS includes an optional AI Assistant that generates risk, cost, and productivity insights from a project's data. We are describing this plainly, including the parts that are not yet as protective as we'd like, rather than describing a safeguard that isn't actually in place:", "list": [
+            "When this feature is used, the relevant project data — including project and company names, budget figures, task details, cost entries, and the full names and roles of assigned team members — is sent to our AI provider, DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.), to generate the analysis.",
+            "We do not currently redact or anonymise personal identifiers before this data is transmitted. If this matters to how you use NR-BOS, contact us or your NR-BOS administrator — a client operating NR-BOS as controller can restrict use of the AI Assistant for their own deployment.",
+            "DeepSeek's own API data policy states that data submitted through its API is not used to train its models. This is DeepSeek's representation, not a guarantee we independently audit.",
+            "The output is advisory only. Nothing in NR-BOS acts on an AI-generated insight automatically — a person always reviews it and decides what, if anything, to do.",
+            "Because DeepSeek is based in China, this transfer relies on Standard Contractual Clauses as the GDPR Chapter V safeguard. China has no European Commission adequacy decision, and transfers of this kind are subject to heightened regulatory attention across the EU. We are disclosing this specifically, by name, so that you can decide with full information whether it matters to you — see Section 7 for the full sub-processor entry."
+          ]}
         ]},
-        "s6": { "title": "Data Security", "intro": "We implement appropriate technical and organisational measures to protect your personal information against unauthorised access, alteration, disclosure, or destruction. These measures include:", "list": [
+        "s7": { "title": "Sub-processors", "linkLabel": "View our Sub-processor list", "body": [
+          "To help meet our own transparency obligations and give you full visibility into who processes personal data on our behalf, we maintain a complete, current sub-processor list — what each one does, what data category it touches, where it's located, and what transfer safeguard applies — as its own page, linked from our Legal index.",
+          "If we add a new sub-processor, we will update that list and, for clients with a Data Processing Agreement in place, give notice before the change takes effect, consistent with the objection right described in that agreement."
+        ]},
+        "s8": { "title": "Data Security", "intro": "We implement appropriate technical and organisational measures to protect your personal information against unauthorised access, alteration, disclosure, or destruction. These measures include:", "list": [
           "Encrypted communication channels for the transmission of sensitive information",
           "Secure server infrastructure and data storage systems",
           "Access controls and authentication procedures for internal systems",
           "Regular review and updating of security practices",
           "Staff awareness of data protection obligations"
-        ], "outro": "While we take all reasonable precautions, no method of electronic transmission or storage is entirely secure. We cannot guarantee absolute security, but we are committed to protecting your data to the highest practicable standard." },
-        "s7": { "title": "Data Retention", "intro": "We retain your personal information only for as long as is necessary to fulfil the purposes outlined in this policy and to comply with our legal obligations:", "list": [
+        ], "outro": "For the Member Portal, this includes Firebase Authentication together with Firestore and Storage security rules that restrict each user to their own data. For NR-BOS worksite photographs, this includes keeping files in a private object store reachable only through short-lived signed links rather than any public path. While we take all reasonable precautions, no method of electronic transmission or storage is entirely secure. We cannot guarantee absolute security, but we are committed to protecting your data to the highest practicable standard." },
+        "s9": { "title": "Data Retention", "intro": "We retain your personal information only for as long as is necessary to fulfil the purposes outlined in this policy and to comply with our legal obligations:", "list": [
           "Active Client Data: Duration of the engagement plus 7 years (in accordance with applicable accounting and record-keeping legislation)",
           "Inquiry Data (non-converted): 2 years from the date of last contact",
           "Website Analytics Data: Maximum 26 months",
+          "Software Product Data (Member Portal, NR-BOS): retained for the duration of the account or licensing relationship, plus a reasonable period after termination for legal, accounting, and dispute-resolution purposes, unless a shorter period is agreed in a client's Data Processing Agreement",
           "Consent Records: Until consent is withdrawn, plus a reasonable period thereafter for record-keeping purposes"
         ], "outro": "Upon expiry of the applicable retention period, personal data is securely deleted or anonymised." },
-        "s8": { "title": "Your Rights Under GDPR", "intro": "As a data subject under the GDPR, you have the following rights in relation to your personal data:",
+        "s10": { "title": "Your Rights Under GDPR", "intro": "As a data subject under the GDPR, you have the following rights in relation to your personal data:",
           "rights": [
             { "title": "Right of Access", "body": "Request a copy of the personal data we hold about you." },
             { "title": "Right to Rectification", "body": "Request correction of inaccurate or incomplete data." },
@@ -533,28 +581,217 @@
             { "title": "Right to Data Portability", "body": "Receive your data in a structured, machine-readable format where applicable." },
             { "title": "Right to Object", "body": "Object to processing based on legitimate interests or for direct marketing purposes." },
             { "title": "Right to Withdraw Consent", "body": "Withdraw any consent given at any time, without affecting prior processing." },
-            { "title": "Right to Complain", "body": "Lodge a complaint with the relevant supervisory authority (see Section 12)." }
+            { "title": "Right to Complain", "body": "Lodge a complaint with the relevant supervisory authority (see Section 14)." }
           ],
-          "outro": "To exercise any of the above rights, please contact us at info@nordicriser.com with the subject line “Data Subject Request”. We will respond within one calendar month as required by GDPR."
+          "outro": "To exercise any of the above rights, please contact us at info@nordicriser.com with the subject line “Data Subject Request”. We will respond within one calendar month as required by GDPR. If you are a data subject within a client's NR-BOS deployment, please direct your request to that client first, since they are the controller for that data — see Section 3."
         },
-        "s9": { "title": "Cookies and Tracking Technologies", "body": [
-          "Our website is a static informational site with minimal tracking. We may use essential cookies required for the basic operation of the site, including remembering your selected language. We do not currently use third-party advertising or behavioural tracking cookies.",
-          "If we implement analytics or additional tracking technologies in the future, we will obtain your prior consent before setting any non-essential cookies, provide clear information about each cookie's purpose and duration, and offer straightforward mechanisms to manage or withdraw your cookie preferences.",
-          "You may control and delete cookies through your browser settings at any time. Please note that disabling certain cookies may affect the functionality of the website."
+        "s11": { "title": "Cookies and Tracking Technologies", "subheadings": [
+          { "title": "11.1 Marketing Website (nordicriser.com)", "intro": "This marketing website is a static informational site with minimal tracking. We may use essential cookies required for the basic operation of the site, including remembering your selected language. We do not currently use third-party advertising or behavioural tracking cookies. If we implement analytics or additional tracking technologies here in the future, we will obtain your prior consent before setting any non-essential cookie, disclose its purpose and duration, and offer a straightforward way to withdraw that consent." },
+          { "title": "11.2 Member Portal & NR-BOS", "intro": "The Member Portal and NR-BOS are authenticated applications, unlike the marketing website, and use cookies and equivalent local storage that are strictly necessary for them to function: maintaining your logged-in session, authentication tokens, and security measures such as CSRF protection. These are essential to the service and cannot be disabled without losing the ability to log in. We do not currently use analytics or advertising cookies in the Member Portal or NR-BOS; if that changes, the same consent-first commitment above applies there exactly as it does on the marketing website." }
+        ], "outro": "You may control and delete cookies through your browser settings at any time. Please note that disabling essential cookies will prevent you from logging in to the Portal or NR-BOS, and may affect the marketing website's functionality." },
+        "s12": { "title": "Children's Privacy", "body": [
+          "Our website, consulting services, and software products are directed exclusively at adults conducting professional and business activities. We do not knowingly collect personal data from individuals under the age of 18. If you believe we have inadvertently collected data from a minor, please contact us immediately and we will take appropriate steps to delete that information."
         ]},
-        "s10": { "title": "Children's Privacy", "body": [
-          "Our services are directed exclusively at adults conducting professional and business activities. We do not knowingly collect personal data from individuals under the age of 18. If you believe we have inadvertently collected data from a minor, please contact us immediately and we will take appropriate steps to delete that information."
-        ]},
-        "s11": { "title": "Changes to This Privacy Policy", "intro": "We may update this Privacy Policy periodically to reflect changes in our practices, applicable legislation, or operational procedures. Material changes will be communicated by:", "list": [
-          "Updating the “Last Updated” date at the top of this page",
+        "s13": { "title": "Changes to This Privacy Policy", "intro": "We may update this Privacy Policy periodically to reflect changes in our practices, applicable legislation, or operational procedures. Material changes will be communicated by:", "list": [
+          "Updating the “Last Updated” date and the “What changed” note at the top of this page",
           "Where appropriate, notifying active clients by email",
           "Posting a notice on our website"
-        ], "outro": "We encourage you to review this policy periodically. Your continued use of our website following any update constitutes acceptance of the revised policy." },
-        "s12": { "title": "Supervisory Authority", "intro": "If you have concerns about how we handle your personal data and you are not satisfied with our response, you have the right to lodge a complaint with the relevant supervisory authority:", "body": [
+        ], "outro": "We encourage you to review this policy periodically. Your continued use of our website, Member Portal, or software products following any update constitutes acceptance of the revised policy." },
+        "s14": { "title": "Supervisory Authority", "intro": "If you have concerns about how we handle your personal data and you are not satisfied with our response, you have the right to lodge a complaint with the relevant supervisory authority:", "body": [
           "Integritetsskyddsmyndigheten (IMY) — Swedish Authority for Privacy Protection",
           "Box 8114, 104 20 Stockholm — Phone: +46 8 657 61 00 — Website: www.imy.se"
         ]},
-        "s13": { "title": "Contact Us Regarding This Policy", "intro": "If you have any questions, concerns, or requests relating to this Privacy Policy or our data practices, please contact us directly:", "cardTitle": "Data Protection Enquiries", "cardBody": "Email us with the subject line “Privacy Policy Inquiry” and we will respond promptly." }
+        "s15": { "title": "Contact Us Regarding This Policy", "intro": "If you have any questions, concerns, or requests relating to this Privacy Policy or our data practices, please contact us directly:", "cardTitle": "Data Protection Enquiries", "cardBody": "Email us with the subject line “Privacy Policy Inquiry” and we will respond promptly." }
+      }
+    },
+    "legal": {
+      "meta": { "title": "Legal — Nordic Riser AB", "description": "Privacy Policy, Terms of Service, Data Processing Agreement, and Sub-processor list for Nordic Riser AB's website, Member Portal, and software products." },
+      "hero": { "label": "Legal", "h1": "Legal Documents", "body": "Everything governing how Nordic Riser AB handles your data and how our services may be used — kept in one place and updated openly." },
+      "breadcrumb": "Legal",
+      "docs": [
+        { "title": "Privacy Policy", "body": "How we collect, use, and protect personal data across our website, Member Portal, NR-BOS, and Global Reach.", "link": "legal/privacy" },
+        { "title": "Terms of Service", "body": "The terms governing use of our website, Member Portal, and software products, including NR-BOS licensing.", "link": "legal/terms" },
+        { "title": "Data Processing Agreement", "body": "For clients where Nordic Riser AB processes personal data on their behalf — available on request.", "link": "legal/dpa" },
+        { "title": "Sub-processors", "body": "The named third parties who process personal data on our behalf, what they do, and where they're located.", "link": "legal/subprocessors" }
+      ]
+    },
+    "legalSubprocessors": {
+      "meta": { "title": "Sub-processors — Nordic Riser AB", "description": "The named third parties who process personal data on Nordic Riser AB's behalf across the website, Member Portal, NR-BOS, and Global Reach." },
+      "hero": { "label": "Legal", "h1": "Sub-processors", "body": "Every third party we use to process personal data on your behalf — what they do, what data they touch, where they're located, and how the transfer is safeguarded." },
+      "breadcrumb": "Sub-processors",
+      "updatedBadge": "Last Updated: 19 August 2026",
+      "translationNotice": "This page has been machine-translated. In case of any discrepancy, the English version is authoritative. Contact us with questions.",
+      "intro": [
+        "This list exists to satisfy Article 13(1)(f) of the GDPR directly — not just to say safeguards exist, but to name who they're with. We keep it current and update the date below whenever it changes.",
+        "If we add a new sub-processor, we will update this list and, for clients with a Data Processing Agreement in place, give notice before the change takes effect, consistent with the objection right described in that agreement."
+      ],
+      "table": {
+        "headers": ["Sub-processor", "Purpose", "Data Categories", "Location", "Transfer Mechanism"],
+        "rows": [
+          ["Google Ireland Limited (Firebase / Google Cloud Platform)", "Authentication, database, file storage, and hosting for the Member Portal (portal.nordicriser.com)", "Account credentials, profile data, uploaded document contents, secure message content, case and payment records", "Google Cloud infrastructure — specific processing region pending internal confirmation (see note below)", "Google Cloud's Cloud Data Processing Addendum, incorporating the European Commission's Standard Contractual Clauses"],
+          ["DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.)", "AI-generated risk, cost, and productivity analysis in NR-BOS (optional feature)", "Project and company names, budget figures, task details, cost entries, full names and roles of assigned team members", "China", "Standard Contractual Clauses (controller-to-processor module). China has no European Commission adequacy decision — see Privacy Policy Section 6.4 for the full disclosure"],
+          ["PostgreSQL database (NR-BOS)", "Core relational data storage — users, companies, projects, tasks, cost entries, field reports, license records", "Broad — effectively all NR-BOS operational data, including personal data of client company staff", "Pending internal confirmation", "Pending internal confirmation"],
+          ["Object storage, S3-compatible (NR-BOS)", "Worksite photograph storage and generated PDF client reports", "Photograph files (may include camera-embedded EXIF such as GPS coordinates or a timestamp), PDF report documents", "Pending internal confirmation", "Pending internal confirmation"],
+          ["Translation API provider (Global Reach)", "Real-time translation of chat messages in Global Reach's collaboration rooms", "Chat message content", "Pending internal confirmation", "Pending internal confirmation"]
+        ]
+      },
+      "note": "Rows marked “pending internal confirmation” are confirmed to exist and to receive the stated data category — we verified this directly against our own source code before publishing this table. What isn't yet finalised is the exact hosting vendor and region for three of them. We are listing them rather than omitting them because Article 13(1)(f) requires disclosing the transfers we make, not only the ones we've fully documented, and because leaving a known gap off this table would be less honest than flagging it plainly. We will complete these entries and update the date above as soon as they're confirmed."
+    },
+    "legalTerms": {
+      "meta": { "title": "Terms of Service — Nordic Riser AB", "description": "The terms governing use of Nordic Riser AB's website, Member Portal, and software products, including NR-BOS licensing." },
+      "hero": { "label": "Legal", "h1": "Terms of Service", "body": "The terms governing your use of this website, the Member Portal, and the software products we build and license." },
+      "breadcrumb": "Terms of Service",
+      "updatedBadge": "Last Updated: 19 August 2026",
+      "translationNotice": "This page has been machine-translated. In case of any discrepancy, the English version is authoritative. Contact us with questions.",
+      "tocLabel": "Contents",
+      "toc": [
+        "1. Acceptance of These Terms", "2. Services Covered", "3. Accounts & Eligibility", "4. Acceptable Use",
+        "5. Your Data & Content", "6. Intellectual Property", "7. Availability & Support", "8. NR-BOS Licensing",
+        "9. Fees & Payment", "10. Liability", "11. Term & Termination", "12. Governing Law & Disputes",
+        "13. Changes to These Terms", "14. Contact"
+      ],
+      "sections": {
+        "s1": { "title": "Acceptance of These Terms", "body": [
+          "These Terms of Service (“Terms”) govern your use of the Nordic Riser AB website, the Member Portal (portal.nordicriser.com), and any software product we license to you, including NR-BOS and Global Reach (together, the “Services”).",
+          "By creating an account, redeeming a license code, or otherwise using the Services, you agree to these Terms. If you are agreeing on behalf of a company, you confirm you have the authority to bind that company."
+        ]},
+        "s2": { "title": "Services Covered", "body": [
+          "This website provides information about Nordic Riser AB and our consulting, technology, and product offerings.",
+          "The Member Portal is an authenticated client area for document exchange, case tracking, secure messaging, and payment records, related to our consulting engagements.",
+          "NR-BOS is project delivery, field operations, and client reporting software, licensed to companies for their own internal and client-facing use.",
+          "Global Reach is live collaboration software with shared whiteboards and real-time translated chat, licensed on a subscription basis."
+        ]},
+        "s3": { "title": "Accounts & Eligibility", "body": [
+          "The Services are directed at adults acting in a professional or business capacity. You must be at least 18 years old to create an account.",
+          "You are responsible for maintaining the confidentiality of your account credentials and for all activity under your account. Tell us immediately at info@nordicriser.com if you suspect unauthorised access.",
+          "You must provide accurate registration information and keep it up to date."
+        ]},
+        "s4": { "title": "Acceptable Use", "intro": "When using the Services, you agree not to:", "list": [
+          "Use the Services for any unlawful purpose or in violation of any applicable regulation",
+          "Attempt to gain unauthorised access to any account, system, or data that isn't yours",
+          "Upload malicious code, or interfere with or disrupt the integrity or performance of the Services",
+          "Reverse-engineer, decompile, or attempt to extract the source code of any software product, except to the extent applicable law expressly permits it",
+          "Resell, sublicense, or provide the Services to a third party outside the scope of your own license or account",
+          "Use the Services to store or transmit content you don't have the right to share, or that infringes another party's rights"
+        ], "outro": "We may suspend or terminate access for a violation of this section — see Section 11." },
+        "s5": { "title": "Your Data & Content", "body": [
+          "You retain ownership of the data and content you or your organisation submit through the Services — your documents, messages, project records, worksite photographs, task data, and everything else you put in. We do not claim ownership of it, and we do not use it for any purpose beyond delivering the Services to you, as described in our Privacy Policy and, where applicable, your Data Processing Agreement.",
+          "You are responsible for having the right to submit any content you upload, including any necessary consents from third parties whose personal data it might contain (for example, an employee named in a field report)."
+        ]},
+        "s6": { "title": "Intellectual Property", "body": [
+          "Nordic Riser AB owns all intellectual property rights in the Services themselves — the website, the Member Portal, and the NR-BOS and Global Reach software, including their design, code, and functionality. Nothing in these Terms transfers any of that to you.",
+          "Subject to these Terms and, for NR-BOS, Section 8 below, we grant you a limited, non-exclusive, non-transferable right to use the Services for your own internal business purposes for as long as your account or license is active."
+        ]},
+        "s7": { "title": "Availability & Support", "body": [
+          "We make reasonable commercial efforts to keep the Services available and to fix problems promptly, but we do not currently offer a formal uptime guarantee or a paid Service Level Agreement — we'd rather tell you that plainly than commit to a number we're not staffed to hold ourselves to.",
+          "Planned maintenance is carried out with advance notice where practical. Support is provided on a best-effort basis during our office hours, Monday–Friday, 09:00–17:00 CET, rather than as a 24/7 or guaranteed-response-time service."
+        ]},
+        "s8": { "title": "NR-BOS Licensing", "intro": "NR-BOS is licensed by single-use redemption code, not by subscription billing inside the product. This section describes exactly how that works, matched to how the licensing system actually behaves:", "subheadings": [
+          { "title": "8.1 Codes Are Single-Use and Non-Transferable", "body": "Each license code can be redeemed exactly once. Once redeemed, it is permanently bound to the redeeming company and cannot be reassigned, resold, or transferred to a different company or account." },
+          { "title": "8.2 Redemption Extends Your Period", "body": "Redeeming a code adds its duration to your current license period. If your existing period hasn't expired yet, the new period is added on top of it rather than replacing it; if it has expired, the new period starts from the moment of redemption." },
+          { "title": "8.3 No Automatic Renewal", "body": "A license period ends on its scheduled date. Nothing renews automatically — access is paused until a new code is redeemed. There is no recurring billing associated with NR-BOS licensing." },
+          { "title": "8.4 No Refunds on a Redeemed Code", "body": "Once a code has been redeemed, that redemption is final. We do not offer refunds on a redeemed license code, and redemption does not go through a payment processor capable of a reversal — treat redemption as a deliberate, final action." },
+          { "title": "8.5 Revocation", "body": "We can revoke a license code to prevent it from ever being redeemed — this matters if a code is leaked, issued in error, or no longer should be honoured. Revoking a code that has already been redeemed prevents that specific code from being used again, but does not claw back or suspend the access already granted from that earlier redemption. We are stating this precisely because it's a real limitation, not a stylistic choice: at present, we do not have a separate mechanism to suspend a company's already-granted NR-BOS access. If we need to end an active customer's access for cause, we will contact them directly to arrange it rather than relying on a revocation mechanism that isn't built for that." },
+          { "title": "8.6 Trial Codes", "body": "Certain codes are issued as 3-day trial codes. A company may redeem one trial code, ever — a company that has already redeemed a paid (monthly or annual) code is not eligible for a trial code, and a company that has already used a trial code cannot use a second one." }
+        ]},
+        "s9": { "title": "Fees & Payment", "body": [
+          "License codes for NR-BOS are issued by Nordic Riser AB following a separate purchase or agreement; the redemption process itself does not collect or process card payment data.",
+          "For consulting engagements and Member Portal payment records, invoices are issued and reviewed manually rather than through an automated payment gateway, as described in our Privacy Policy."
+        ]},
+        "s10": { "title": "Liability", "body": [
+          "To the fullest extent permitted by applicable law, Nordic Riser AB will not be liable for indirect, incidental, special, consequential, or punitive damages, or for any loss of profits, revenue, data, or business opportunity, arising from your use of the Services.",
+          "Our total liability arising from or relating to these Terms or the Services, for any single claim, will not exceed the amount you paid us for the specific Service giving rise to the claim in the 12 months preceding the event.",
+          "Nothing in these Terms limits liability where it cannot lawfully be limited, including liability for death or personal injury caused by negligence, or for fraud."
+        ]},
+        "s11": { "title": "Term & Termination", "body": [
+          "These Terms apply for as long as you use the Services. You may stop using the Services and close your account at any time.",
+          "We may suspend or terminate your access if you materially breach these Terms, including the Acceptable Use section, particularly where the breach creates a security or legal risk to us or to other users.",
+          "On termination, your right to use the Services ends. We will retain your data for the periods described in our Privacy Policy, and will delete or return it as described there or, where one applies, in your Data Processing Agreement."
+        ]},
+        "s12": { "title": "Governing Law & Disputes", "body": [
+          "These Terms are governed by the laws of Sweden, without regard to conflict-of-law principles.",
+          "Any dispute arising from or relating to these Terms or the Services will be submitted to the Stockholm District Court (Stockholms tingsrätt) as the court of first instance."
+        ]},
+        "s13": { "title": "Changes to These Terms", "intro": "We may update these Terms periodically to reflect changes in the Services or applicable law. Material changes will be communicated by:", "list": [
+          "Updating the “Last Updated” date at the top of this page",
+          "Where appropriate, notifying active clients by email",
+          "Posting a notice on our website"
+        ], "outro": "Your continued use of the Services following an update constitutes acceptance of the revised Terms." },
+        "s14": { "title": "Contact", "intro": "Questions about these Terms can be sent to us directly:", "cardTitle": "Terms of Service Enquiries", "cardBody": "Email us with the subject line “Terms of Service Inquiry” and we will respond promptly." }
+      }
+    },
+    "legalDpa": {
+      "meta": { "title": "Data Processing Agreement — Nordic Riser AB", "description": "The Data Processing Agreement Nordic Riser AB offers to clients for whom we process personal data as a processor, covering the Member Portal, NR-BOS, and Global Reach." },
+      "hero": { "label": "Legal", "h1": "Data Processing Agreement", "body": "For clients where Nordic Riser AB processes personal data on your behalf as a processor, not a controller. Available on request — contact us to have this executed alongside your engagement." },
+      "breadcrumb": "Data Processing Agreement",
+      "updatedBadge": "Last Updated: 19 August 2026",
+      "translationNotice": "This page has been machine-translated. In case of any discrepancy, the English version is authoritative. Contact us with questions.",
+      "intro": [
+        "This Data Processing Agreement (“DPA”) applies whenever Nordic Riser AB (“Processor”) processes personal data on behalf of a client (“Controller”) in connection with NR-BOS, the Member Portal, or another Nordic Riser software product, under Article 28 of the GDPR. It supplements — and does not replace — the underlying service agreement or Terms of Service between the parties.",
+        "This published version is a template. Contact us to have it executed as a signed agreement referencing your specific engagement."
+      ],
+      "tocLabel": "Contents",
+      "toc": [
+        "1. Subject Matter & Duration", "2. Nature & Purpose of Processing", "3. Categories of Data & Data Subjects",
+        "4. Controller's Instructions", "5. Processor Obligations", "6. Sub-processors", "7. Security Measures",
+        "8. Assistance & Data Subject Requests", "9. Personal Data Breach Notification", "10. Audit Rights",
+        "11. Deletion & Return on Termination", "12. Article 28(3) Compliance Statement", "13. Liability & Governing Law"
+      ],
+      "sections": {
+        "s1": { "title": "Subject Matter & Duration", "body": [
+          "The subject matter of this DPA is the processing of personal data by the Processor on behalf of the Controller in the course of providing the Services described in the parties' underlying agreement (for example, an NR-BOS license or Member Portal engagement).",
+          "This DPA takes effect on the date the underlying service agreement takes effect and remains in force for as long as the Processor processes personal data on the Controller's behalf, including during any post-termination period described in Section 11."
+        ]},
+        "s2": { "title": "Nature & Purpose of Processing", "body": [
+          "The Processor processes personal data to provide, maintain, and support the Services — including hosting, storage, field-report processing, project and task tracking, secure messaging, document exchange, and, where enabled, AI-assisted analysis as described in the Privacy Policy.",
+          "The Processor processes personal data only on the Controller's documented instructions, including as set out in the underlying agreement, this DPA, and the Controller's own configuration of the Service (for example, which features are enabled) — unless required to do otherwise by EU or Member State law, in which case the Processor will inform the Controller of that legal requirement before processing, unless that law prohibits such notice."
+        ]},
+        "s3": { "title": "Categories of Data & Data Subjects", "body": [
+          "Categories of personal data processed depend on which Service the Controller uses, and may include: account identifiers and contact details; employment and role information; worksite photographs and associated location/timestamp metadata; project, task, and cost records; logged working hours; uploaded documents; and message content.",
+          "Categories of data subjects may include: the Controller's employees, contractors, and subcontractors; the Controller's own clients or customers, where their data is entered into the Service by the Controller; and other individuals whose data the Controller submits in the course of using the Service."
+        ]},
+        "s4": { "title": "Controller's Instructions", "body": [
+          "The Controller instructs the Processor to process personal data to provide the Services, in accordance with the underlying agreement, this DPA, and the Controller's use of the Service's own configuration options.",
+          "The Controller warrants that it has a valid legal basis for the personal data it submits to the Service and, where applicable, has provided any notices to or obtained any consents from its own data subjects that its use of the Service requires."
+        ]},
+        "s5": { "title": "Processor Obligations", "intro": "The Processor:", "list": [
+          "Processes personal data only on the Controller's documented instructions, as described in Section 2",
+          "Ensures persons authorised to process personal data have committed to confidentiality",
+          "Implements the technical and organisational security measures described in Section 7",
+          "Assists the Controller as described in Sections 8 and 9",
+          "Does not engage a new sub-processor without providing notice as described in Section 6",
+          "Makes available the information necessary to demonstrate compliance with this Article 28 and allows for audits as described in Section 10"
+        ]},
+        "s6": { "title": "Sub-processors", "body": [
+          "The Controller gives the Processor general written authorisation to engage the sub-processors listed on the Processor's published Sub-processor list, available on the Nordic Riser AB website.",
+          "The Processor will give the Controller notice of any intended addition or replacement of a sub-processor, giving the Controller the opportunity to object on reasonable data-protection grounds before the change takes effect. Every sub-processor is bound by data-protection obligations no less protective than those in this DPA."
+        ]},
+        "s7": { "title": "Security Measures", "intro": "The Processor implements the technical and organisational measures described in the Privacy Policy's Data Security section, including, as applicable to the specific Service:", "list": [
+          "Encrypted communication channels for the transmission of sensitive information",
+          "Authentication and access controls restricting each user to their own data",
+          "Private, non-public storage for uploaded files, accessed only via short-lived signed links rather than a public path",
+          "Regular review of security practices and staff awareness of data protection obligations"
+        ]},
+        "s8": { "title": "Assistance & Data Subject Requests", "body": [
+          "Where a data subject exercises a GDPR right (access, rectification, erasure, restriction, portability, or objection) directly against the Processor concerning data the Processor holds as a processor for the Controller, the Processor will promptly forward that request to the Controller and will not itself respond substantively to the data subject, since the Controller is the appropriate party to respond.",
+          "The Processor will provide the Controller with reasonable assistance, taking into account the nature of the processing, to help the Controller fulfil its own obligations to respond to data subject requests and to fulfil its obligations under Articles 32–36 of the GDPR."
+        ]},
+        "s9": { "title": "Personal Data Breach Notification", "body": [
+          "The Processor will notify the Controller without undue delay after becoming aware of a personal data breach affecting the Controller's data, providing the information reasonably available to it to help the Controller meet its own breach-notification obligations under Articles 33 and 34 of the GDPR."
+        ]},
+        "s10": { "title": "Audit Rights", "body": [
+          "On reasonable prior written notice, and no more than once per calendar year unless a personal data breach or a regulatory investigation gives cause for more frequent review, the Controller may request information demonstrating the Processor's compliance with this DPA, and may conduct or mandate an audit of the Processor's relevant processing activities, subject to reasonable confidentiality and scheduling arrangements to avoid disrupting the Processor's operations or other clients' data."
+        ]},
+        "s11": { "title": "Deletion & Return on Termination", "body": [
+          "On termination of the underlying agreement, the Processor will, at the Controller's choice, delete or return all personal data processed on the Controller's behalf, and delete existing copies, within a reasonable period — except to the extent the Processor is required by EU or Member State law to retain some or all of that data, in which case it will continue to protect that data and process it only for the purposes that law requires."
+        ]},
+        "s12": { "title": "Article 28(3) Compliance Statement", "body": [
+          "This DPA is intended to give effect to the requirements of Article 28(3) of the GDPR for the processing described in this document. Where a specific engagement requires additional or different terms — for example, a Controller's own standard DPA, or terms specific to a regulated sector — the parties may agree a supplementary or substitute document in writing; that document will govern to the extent it conflicts with this one."
+        ]},
+        "s13": { "title": "Liability & Governing Law", "body": [
+          "Liability under this DPA is subject to the limitations set out in the Terms of Service between the parties, except where such limitation is not permitted by applicable data protection law.",
+          "This DPA is governed by the laws of Sweden, with the Stockholm District Court (Stockholms tingsrätt) as the court of first instance for any dispute arising from it, consistent with the Terms of Service."
+        ]}
       }
     },
     "consulting": {
@@ -904,7 +1141,8 @@
       "cta": {
         "title": "Want NR-BOS for your team?",
         "body": "It's licensed by subscription code, not a public sign-up form — tell us about your operation and we'll set you up.",
-        "cta": "Talk to Us"
+        "cta": "Talk to Us",
+        "trialCta": "Request a 3-Day Trial Code"
       }
     },
     "globalReach": {

@@ -265,6 +265,7 @@
           { "value": "automation", "label": "Automatisering & Integraties" },
           { "value": "support", "label": "Doorlopende Support & Onderhoud" },
           { "value": "globalreach", "label": "Global Reach-abonnement" },
+          { "value": "nrbos-trial", "label": "Aanvraag NR-BOS proefcode van 3 dagen" },
           { "value": "consulting", "label": "Consulting voor Bedrijfsvestiging" },
           { "value": "general", "label": "Algemene Vraag" }
         ],
@@ -290,6 +291,7 @@
         ],
         "message": "Korte Beschrijving van Uw Situatie",
         "messagePlaceholder": "Beschrijf uw huidige situatie, uw doelstellingen en eventuele specifieke vragen die u heeft. Hoe specifieker u bent, hoe productiever ons eerste consult zal zijn.",
+        "trialPrefillMessage": "Aanvraag voor een proefcode van 3 dagen voor NR-BOS.\n\nBedrijfsnaam: \nTeamgrootte: \nWat we tijdens de proefperiode willen evalueren: ",
         "messageHint": "Deze informatie wordt als strikt vertrouwelijk behandeld en uitsluitend gebruikt om uw consult voor te bereiden.",
         "consent": "Door dit formulier in te dienen bevestigt u dat de verstrekte informatie juist is en stemt u ermee in dat Nordic Riser AB uw contactgegevens bewaart met het oog op de behandeling van uw aanvraag. Wij delen klantgegevens niet met derden.",
         "submit": "Verstuur Aanvraag voor Consult →"
@@ -322,106 +324,7 @@
         ]
       }
     },
-    "privacy": {
-      "hero": { "label": "Juridisch", "h1": "Privacybeleid", "body": "Hoe Nordic Riser AB uw persoonsgegevens verzamelt, gebruikt en beschermt in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG/GDPR)." },
-      "breadcrumb": "Privacybeleid",
-      "updatedBadge": "Laatst Bijgewerkt: 23 juni 2026",
-      "translationNotice": "Deze pagina is machinaal vertaald. Bij afwijkingen is de Engelse versie leidend. Neem bij vragen contact met ons op.",
-      "tocLabel": "Inhoud",
-      "toc": [
-        "1. Inleiding", "2. Verwerkingsverantwoordelijke", "3. Informatie die Wij Verzamelen", "4. Hoe Wij Uw Gegevens Gebruiken",
-        "5. Delen van Gegevens", "6. Gegevensbeveiliging", "7. Bewaartermijn van Gegevens", "8. Uw Rechten (AVG)",
-        "9. Cookies", "10. Privacy van Kinderen", "11. Wijzigingen in het Beleid", "12. Toezichthoudende Autoriteit", "13. Contact"
-      ],
-      "sections": {
-        "s1": { "title": "Inleiding", "body": [
-          "Nordic Riser AB (“wij”, “ons” of “onze”) zet zich in voor de bescherming van uw privacy en de beveiliging van uw persoonsgegevens. Dit privacybeleid legt uit hoe wij uw gegevens verzamelen, gebruiken, openbaar maken en beschermen wanneer u onze website bezoekt of gebruikmaakt van onze adviesdiensten.",
-          "Dit beleid is opgesteld om te voldoen aan de Algemene Verordening Gegevensbescherming (AVG/GDPR) en toepasselijke wetgeving inzake gegevensbescherming. Door onze website te gebruiken of een aanvraag in te dienen, erkent u dat u dit beleid heeft gelezen en begrepen."
-        ]},
-        "s2": { "title": "Verwerkingsverantwoordelijke", "body": [
-          "Nordic Riser AB is de verwerkingsverantwoordelijke voor uw persoonsgegevens die via onze website en diensten worden verzameld.",
-          "Nordic Riser AB — E-mail: info@nordicriser.com — Website: www.nordicriser.com",
-          "Neem voor alle vragen over gegevensbescherming contact met ons op via bovenstaande gegevens, met als onderwerp “Data Protection Inquiry”."
-        ]},
-        "s3": { "title": "Informatie die Wij Verzamelen", "subheadings": [
-          { "title": "3.1 Informatie die U Rechtstreeks Verstrekt", "intro": "Wij verzamelen informatie die u vrijwillig aan ons verstrekt, waaronder:", "list": [
-            "Contactgegevens: naam, e-mailadres, telefoonnummer",
-            "Professionele Informatie: type onderneming, professionele achtergrond, zakelijke doelstellingen",
-            "Gegevens over Aanvragen voor Consulten: doel van het consult en beschrijving van uw situatie zoals ingediend via ons contactformulier",
-            "Communicatiegegevens: informatie in e-mails en andere correspondentie met ons team"
-          ]},
-          { "title": "3.2 Automatisch Verzamelde Informatie", "intro": "Wanneer u onze website bezoekt, kunnen wij automatisch het volgende verzamelen:", "list": [
-            "Technische Gegevens: IP-adres, browsertype, besturingssysteem, apparaatgegevens",
-            "Gebruiksgegevens: bezochte pagina's, tijd doorgebracht op pagina's, navigatiepaden",
-            "Cookies: kleine gegevensbestanden opgeslagen op uw apparaat (zie Sectie 9)"
-          ]}
-        ]},
-        "s4": { "title": "Hoe Wij Uw Gegevens Gebruiken", "intro": "Wij verwerken uw persoonsgegevens uitsluitend voor de hieronder genoemde doeleinden, elk gebaseerd op een rechtsgrond onder de AVG:",
-          "table": { "headers": ["Doel", "Rechtsgrond (AVG)"], "rows": [
-            ["Reageren op aanvragen voor consulten en vragen", "Uitvoering van de overeenkomst / Gerechtvaardigd belang"],
-            ["Leveren van strategisch advies, technologie- en samenwerkingsdiensten", "Uitvoering van de overeenkomst"],
-            ["Communiceren over onze diensten en de voortgang van het traject", "Uitvoering van de overeenkomst / Toestemming"],
-            ["Verbeteren van onze website en dienstverlening", "Gerechtvaardigd belang"],
-            ["Coördineren met externe professionals (juridisch, boekhoudkundig)", "Uitvoering van de overeenkomst / Gerechtvaardigd belang"],
-            ["Naleving van wettelijke en regelgevende verplichtingen", "Wettelijke verplichting"]
-          ]},
-          "note": "Wij verkopen, verhuren of verhandelen uw persoonsgegevens niet aan derden. Wij gebruiken uw gegevens niet voor doeleinden die onverenigbaar zijn met de hierboven genoemde doeleinden."
-        },
-        "s5": { "title": "Delen en Openbaarmaking van Gegevens", "subheadings": [
-          { "title": "5.1 Professionele Dienstverleningspartners", "intro": "Waar nodig voor het leveren van onze diensten, kunnen wij relevante informatie delen met gekwalificeerde externe professionals, waaronder:", "list": [
-            "Juridische raadslieden en gespecialiseerde adviseurs betrokken bij uw zaak",
-            "Boekhoudkundige en fiscale professionals betrokken bij bedrijfsoprichting of compliance",
-            "Technologieleveranciers die onze websitehosting en communicatie-infrastructuur ondersteunen"
-          ], "outro": "Alle derde partijen zijn verplicht passende beveiligingsmaatregelen te handhaven en mogen uw gegevens uitsluitend verwerken volgens onze instructies en binnen de reikwijdte van hun professionele verplichtingen." },
-          { "title": "5.2 Wettelijke Vereisten", "intro": "Wij kunnen uw persoonsgegevens openbaar maken wanneer dit wettelijk vereist is, op grond van regelgeving, een gerechtelijke procedure of een rechtmatig verzoek van een overheidsinstantie." },
-          { "title": "5.3 Internationale Gegevensoverdrachten", "intro": "Wij verwerken gegevens hoofdzakelijk binnen de EU/EER. Indien gegevens buiten de EU/EER worden overgedragen, zorgen wij ervoor dat passende waarborgen aanwezig zijn — zoals standaardcontractbepalingen of toepasselijke adequaatheidsbesluiten — voorafgaand aan een dergelijke overdracht." }
-        ]},
-        "s6": { "title": "Gegevensbeveiliging", "intro": "Wij nemen passende technische en organisatorische maatregelen om uw persoonsgegevens te beschermen tegen ongeoorloofde toegang, wijziging, openbaarmaking of vernietiging. Deze maatregelen omvatten onder meer:", "list": [
-          "Versleutelde communicatiekanalen voor de verzending van gevoelige informatie",
-          "Beveiligde serverinfrastructuur en gegevensopslagsystemen",
-          "Toegangscontroles en authenticatieprocedures voor interne systemen",
-          "Regelmatige beoordeling en actualisering van beveiligingspraktijken",
-          "Bewustwording bij medewerkers omtrent verplichtingen inzake gegevensbescherming"
-        ], "outro": "Hoewel wij alle redelijke voorzorgsmaatregelen nemen, is geen enkele methode van elektronische verzending of opslag volledig veilig. Wij kunnen absolute veiligheid niet garanderen, maar zetten ons in om uw gegevens naar het hoogst haalbare niveau te beschermen." },
-        "s7": { "title": "Bewaartermijn van Gegevens", "intro": "Wij bewaren uw persoonsgegevens alleen zolang als nodig is om de in dit beleid genoemde doeleinden te vervullen en om te voldoen aan onze wettelijke verplichtingen:", "list": [
-          "Gegevens van Actieve Klanten: duur van het traject plus 7 jaar (conform de toepasselijke boekhoudkundige en archiveringswetgeving)",
-          "Aanvraaggegevens (niet omgezet in klantrelatie): 2 jaar vanaf de datum van laatste contact",
-          "Gegevens van Websiteanalyse: maximaal 26 maanden",
-          "Toestemmingsregistraties: totdat de toestemming wordt ingetrokken, plus een redelijke periode daarna ten behoeve van archivering"
-        ], "outro": "Na afloop van de toepasselijke bewaartermijn worden persoonsgegevens veilig verwijderd of geanonimiseerd." },
-        "s8": { "title": "Uw Rechten Onder de AVG", "intro": "Als betrokkene onder de AVG heeft u de volgende rechten met betrekking tot uw persoonsgegevens:",
-          "rights": [
-            { "title": "Recht van Inzage", "body": "Een kopie opvragen van de persoonsgegevens die wij over u bewaren." },
-            { "title": "Recht op Rectificatie", "body": "Correctie van onjuiste of onvolledige gegevens vragen." },
-            { "title": "Recht op Verwijdering", "body": "Verwijdering van uw gegevens vragen in bepaalde omstandigheden (“recht om vergeten te worden”)." },
-            { "title": "Recht op Beperking van de Verwerking", "body": "Vragen dat wij het gebruik van uw gegevens beperken in specifieke omstandigheden." },
-            { "title": "Recht op Overdraagbaarheid van Gegevens", "body": "Uw gegevens ontvangen in een gestructureerd, machineleesbaar formaat, indien van toepassing." },
-            { "title": "Recht van Bezwaar", "body": "Bezwaar maken tegen verwerking op basis van gerechtvaardigd belang of voor directmarketingdoeleinden." },
-            { "title": "Recht om Toestemming In te Trekken", "body": "Elke gegeven toestemming op elk moment intrekken, zonder invloed op eerdere verwerking." },
-            { "title": "Recht om een Klacht In te Dienen", "body": "Een klacht indienen bij de bevoegde toezichthoudende autoriteit (zie Sectie 12)." }
-          ],
-          "outro": "Om een van bovenstaande rechten uit te oefenen, neemt u contact met ons op via info@nordicriser.com met als onderwerp “Data Subject Request”. Wij reageren binnen één kalendermaand, zoals vereist onder de AVG."
-        },
-        "s9": { "title": "Cookies en Trackingtechnologieën", "body": [
-          "Onze website is een statische informatieve site met minimale tracking. Wij kunnen essentiële cookies gebruiken die nodig zijn voor de basiswerking van de site, waaronder het onthouden van uw gekozen taal. Wij gebruiken momenteel geen advertentie- of gedragstrackingcookies van derden.",
-          "Indien wij in de toekomst analysetools of aanvullende trackingtechnologieën implementeren, vragen wij vooraf uw toestemming voordat niet-essentiële cookies worden geplaatst, geven wij duidelijke informatie over het doel en de duur van elke cookie, en bieden wij eenvoudige mogelijkheden om uw cookievoorkeuren te beheren of in te trekken.",
-          "U kunt cookies op elk moment beheren en verwijderen via uw browserinstellingen. Let op dat het uitschakelen van bepaalde cookies de werking van de website kan beïnvloeden."
-        ]},
-        "s10": { "title": "Privacy van Kinderen", "body": [
-          "Onze diensten zijn uitsluitend gericht op volwassenen die professionele en zakelijke activiteiten uitvoeren. Wij verzamelen niet bewust persoonsgegevens van personen jonger dan 18 jaar. Als u van mening bent dat wij onbedoeld gegevens van een minderjarige hebben verzameld, neem dan onmiddellijk contact met ons op, zodat wij passende stappen kunnen nemen om die informatie te verwijderen."
-        ]},
-        "s11": { "title": "Wijzigingen in dit Privacybeleid", "intro": "Wij kunnen dit privacybeleid periodiek bijwerken om wijzigingen in onze praktijken, toepasselijke wetgeving of operationele procedures weer te geven. Materiële wijzigingen worden gecommuniceerd door:", "list": [
-          "Het bijwerken van de datum “Laatst Bijgewerkt” bovenaan deze pagina",
-          "Waar passend, actieve klanten per e-mail te informeren",
-          "Een kennisgeving op onze website te plaatsen"
-        ], "outro": "Wij raden u aan dit beleid periodiek te raadplegen. Uw voortgezette gebruik van onze website na een update geldt als aanvaarding van het herziene beleid." },
-        "s12": { "title": "Toezichthoudende Autoriteit", "intro": "Indien u zich zorgen maakt over de manier waarop wij uw persoonsgegevens verwerken en u niet tevreden bent met ons antwoord, heeft u het recht een klacht in te dienen bij de bevoegde toezichthoudende autoriteit:", "body": [
-          "Integritetsskyddsmyndigheten (IMY) — Swedish Authority for Privacy Protection",
-          "Box 8114, 104 20 Stockholm — Telefoon: +46 8 657 61 00 — Website: www.imy.se"
-        ]},
-        "s13": { "title": "Neem Contact met Ons Op over Dit Beleid", "intro": "Als u vragen, zorgen of verzoeken heeft met betrekking tot dit privacybeleid of onze omgang met gegevens, neem dan rechtstreeks contact met ons op:", "cardTitle": "Vragen over Gegevensbescherming", "cardBody": "Mail ons met als onderwerp “Privacy Policy Inquiry” en wij reageren zo snel mogelijk." }
-      }
-    },
+
     "consulting": {
       "hero": { "label": "Consulting", "h1": "Strategisch Advies voor Internationale Bedrijfsvestiging", "body": "Wij bieden gestructureerd, professioneel advies op vijf kerngebieden — elk ontworpen om ondernemers en professionals te ondersteunen bij het opbouwen van een compliant bedrijfsaanwezigheid in Europa." },
       "breadcrumb": "Consulting",

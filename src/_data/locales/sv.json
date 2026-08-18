@@ -61,6 +61,13 @@
       "contact": "Kontakt",
       "privacy": "Integritetspolicy",
       "memberPortal": "Medlemsportal"
+    },
+    "legalHeading": "Juridik",
+    "legalLinks": {
+      "privacy": "Integritetspolicy",
+      "terms": "Användarvillkor",
+      "dpa": "Personuppgiftsbiträdesavtal",
+      "subprocessors": "Underbiträden"
     }
   },
   "productOverviews": {
@@ -400,6 +407,7 @@
           { "value": "automation", "label": "Automatisering & integrationer" },
           { "value": "support", "label": "Löpande support & underhåll" },
           { "value": "globalreach", "label": "Global Reach-abonnemang" },
+          { "value": "nrbos-trial", "label": "Begäran om 3-dagars provkod för NR-BOS" },
           { "value": "consulting", "label": "Konsulttjänster för företagsetablering" },
           { "value": "general", "label": "Allmän förfrågan" }
         ],
@@ -425,6 +433,7 @@
         ],
         "message": "Kort beskrivning av din situation",
         "messagePlaceholder": "Vänligen beskriv din nuvarande situation, dina mål och eventuella specifika frågor du har. Ju mer specifik du är, desto mer produktiv blir vår inledande konsultation.",
+        "trialPrefillMessage": "Begär en 3-dagars provkod för NR-BOS.\n\nFöretagsnamn: \nTeamstorlek: \nVad vi vill utvärdera under provperioden: ",
         "messageHint": "Denna information behandlas som strikt konfidentiell och används enbart för att förbereda din konsultation.",
         "consent": "Genom att skicka in detta formulär bekräftar du att den information som lämnats är korrekt och att du samtycker till att Nordic Riser AB sparar dina kontaktuppgifter i syfte att besvara din förfrågan. Vi delar inte kundinformation med tredje part.",
         "submit": "Skicka konsultationsförfrågan →"
@@ -458,103 +467,705 @@
       }
     },
     "privacy": {
-      "hero": { "label": "Juridiskt", "h1": "Integritetspolicy", "body": "Hur Nordic Riser AB samlar in, använder och skyddar din personliga information i enlighet med EU:s allmänna dataskyddsförordning (GDPR)." },
+      "hero": {
+        "label": "Juridik",
+        "h1": "Integritetspolicy",
+        "body": "Hur Nordic Riser AB samlar in, använder och skyddar dina personuppgifter i enlighet med EU:s dataskyddsförordning (GDPR)."
+      },
       "breadcrumb": "Integritetspolicy",
-      "updatedBadge": "Senast uppdaterad: 23 juni 2026",
-      "translationNotice": "Den här sidan har maskinöversatts. Vid eventuella avvikelser är den engelska versionen gällande. Kontakta oss om du har frågor.",
+      "updatedBadge": "Senast uppdaterad: 19 augusti 2026",
+      "whatChanged": "Vad som ändrats i denna uppdatering: policyn omfattade tidigare enbart vår konsultverksamhet. Den täcker nu även Medlemsportalen, NR-BOS och Global Reach. Vi har lagt till ett avsnitt om personuppgiftsansvarig kontra personuppgiftsbiträde, en fullständig namngiven förteckning över underbiträden, en uttrycklig redogörelse för vilken AI-leverantör som används i NR-BOS, samt delat upp avsnittet om cookies mellan marknadsföringswebbplatsen och våra inloggningsbaserade produkter. Användarvillkor och ett personuppgiftsbiträdesavtal publiceras tillsammans med denna policy för första gången — se juridiksidan.",
+      "translationNotice": "Denna sida är professionellt översatt till svenska och granskad av oss. Vid eventuella avvikelser gäller den engelska versionen. Kontakta oss om du har frågor.",
       "tocLabel": "Innehåll",
       "toc": [
-        "1. Inledning", "2. Personuppgiftsansvarig", "3. Information vi samlar in", "4. Hur vi använder din data",
-        "5. Delning av data", "6. Datasäkerhet", "7. Lagringstid", "8. Dina rättigheter (GDPR)",
-        "9. Cookies", "10. Barns integritet", "11. Ändringar av policyn", "12. Tillsynsmyndighet", "13. Kontakt"
+        "1. Inledning",
+        "2. Personuppgiftsansvarig",
+        "3. Personuppgiftsansvarig kontra personuppgiftsbiträde",
+        "4. Uppgifter vi samlar in",
+        "5. Hur vi använder dina uppgifter",
+        "6. Delning av uppgifter",
+        "7. Underbiträden",
+        "8. Datasäkerhet",
+        "9. Lagring av uppgifter",
+        "10. Dina rättigheter (GDPR)",
+        "11. Cookies",
+        "12. Barns integritet",
+        "13. Ändringar av policyn",
+        "14. Tillsynsmyndighet",
+        "15. Kontakt"
       ],
       "sections": {
-        "s1": { "title": "Inledning", "body": [
-          "Nordic Riser AB (”vi”, ”oss” eller ”vår/vårt”) värnar om att skydda din integritet och säkerställa säkerheten för din personliga information. Denna integritetspolicy förklarar hur vi samlar in, använder, lämnar ut och skyddar din information när du besöker vår webbplats eller anlitar våra rådgivningstjänster.",
-          "Denna policy är utformad för att uppfylla EU:s allmänna dataskyddsförordning (GDPR) och tillämplig dataskyddslagstiftning. Genom att använda vår webbplats eller skicka in en förfrågan bekräftar du att du har läst och förstått denna policy."
-        ]},
-        "s2": { "title": "Personuppgiftsansvarig", "body": [
-          "Nordic Riser AB är personuppgiftsansvarig för din personliga information som samlas in via vår webbplats och våra tjänster.",
-          "Nordic Riser AB — E-post: info@nordicriser.com — Webbplats: www.nordicriser.com",
-          "För alla frågor som rör dataskydd, vänligen kontakta oss via ovanstående uppgifter med ämnesraden ”Dataskyddsförfrågan”."
-        ]},
-        "s3": { "title": "Information vi samlar in", "subheadings": [
-          { "title": "3.1 Information du lämnar direkt", "intro": "Vi samlar in information som du frivilligt lämnar till oss, inklusive:", "list": [
-            "Kontaktinformation: Namn, e-postadress, telefonnummer",
-            "Yrkesinformation: Typ av verksamhet, yrkesbakgrund, affärsmål",
-            "Uppgifter från konsultationsförfrågan: Syftet med konsultationen och en beskrivning av din situation, enligt vad som lämnats via vårt kontaktformulär",
-            "Kommunikationsdata: Information i e-post och annan korrespondens med vårt team"
-          ]},
-          { "title": "3.2 Information som samlas in automatiskt", "intro": "När du besöker vår webbplats kan vi automatiskt samla in:", "list": [
-            "Teknisk data: IP-adress, webbläsartyp, operativsystem, enhetsinformation",
-            "Användningsdata: Besökta sidor, tid som spenderas på sidor, navigeringsmönster",
-            "Cookies: Små datafiler som lagras på din enhet (se avsnitt 9)"
-          ]}
-        ]},
-        "s4": { "title": "Hur vi använder din information", "intro": "Vi behandlar dina personuppgifter endast för de ändamål som anges nedan, var och en med stöd av en rättslig grund enligt GDPR:",
-          "table": { "headers": ["Ändamål", "Rättslig grund (GDPR)"], "rows": [
-            ["Besvara konsultationsförfrågningar och andra förfrågningar", "Fullgörande av avtal / Berättigat intresse"],
-            ["Tillhandahålla strategisk rådgivning, teknik och global samverkan", "Fullgörande av avtal"],
-            ["Kommunicera om våra tjänster och uppdragets framsteg", "Fullgörande av avtal / Samtycke"],
-            ["Förbättra vår webbplats och tjänstekvalitet", "Berättigat intresse"],
-            ["Samordning med utomstående yrkesutövare (jurister, revisorer)", "Fullgörande av avtal / Berättigat intresse"],
-            ["Efterlevnad av rättsliga och regulatoriska skyldigheter", "Rättslig förpliktelse"]
-          ]},
-          "note": "Vi kommer inte att sälja, hyra ut eller på annat sätt handla med din personliga information till tredje part. Vi kommer inte att använda dina uppgifter för ändamål som är oförenliga med de som anges ovan."
+        "s1": {
+          "title": "Inledning",
+          "body": [
+            "Nordic Riser AB (”vi”, ”vår” eller ”oss”) värnar om din integritet och arbetar för att säkerställa säkerheten kring dina personuppgifter. Denna integritetspolicy förklarar hur vi samlar in, använder, lämnar ut och skyddar uppgifter inom allt vi bedriver: denna webbplats, vår strategiska konsultverksamhet, Nordic Riser Medlemsportal samt de mjukvaruprodukter vi bygger och licensierar — inklusive NR-BOS och Global Reach.",
+            "Denna policy är utformad för att uppfylla EU:s dataskyddsförordning (GDPR) och tillämplig dataskyddslagstiftning. Genom att använda vår webbplats, Medlemsportalen eller någon av våra mjukvaruprodukter, eller genom att skicka in en förfrågan, bekräftar du att du har läst och förstått denna policy."
+          ]
         },
-        "s5": { "title": "Delning och utlämnande av data", "subheadings": [
-          { "title": "5.1 Professionella samarbetspartners", "intro": "När det krävs för att leverera våra tjänster kan vi dela relevant information med kvalificerade utomstående yrkesutövare, inklusive:", "list": [
-            "Jurister och specialistrådgivare som anlitas i samband med ditt ärende",
-            "Revisorer och skatterådgivare involverade i bolagsbildning eller regelefterlevnad",
-            "Teknikleverantörer som stödjer vår webbhotell- och kommunikationsinfrastruktur"
-          ], "outro": "Alla utomstående parter är skyldiga att upprätthålla lämpliga säkerhetsåtgärder och får endast behandla dina uppgifter enligt våra instruktioner och inom ramen för sina yrkesmässiga skyldigheter." },
-          { "title": "5.2 Rättsliga krav", "intro": "Vi kan komma att lämna ut din personliga information när det krävs enligt lag, förordning, rättsligt förfarande eller en legitim begäran från en myndighet." },
-          { "title": "5.3 Internationella dataöverföringar", "intro": "Vi behandlar i första hand data inom EU/EES. Om data i något fall överförs utanför EU/EES säkerställer vi att lämpliga skyddsåtgärder finns på plats — såsom standardavtalsklausuler eller tillämpliga beslut om adekvat skyddsnivå — innan en sådan överföring sker." }
-        ]},
-        "s6": { "title": "Datasäkerhet", "intro": "Vi vidtar lämpliga tekniska och organisatoriska åtgärder för att skydda din personliga information mot obehörig åtkomst, ändring, utlämnande eller förstörelse. Dessa åtgärder inkluderar:", "list": [
-          "Krypterade kommunikationskanaler för överföring av känslig information",
-          "Säker serverinfrastruktur och datalagringssystem",
-          "Åtkomstkontroller och autentiseringsrutiner för interna system",
-          "Regelbunden granskning och uppdatering av säkerhetsrutiner",
-          "Medarbetarnas medvetenhet om dataskyddsskyldigheter"
-        ], "outro": "Även om vi vidtar alla rimliga försiktighetsåtgärder är ingen metod för elektronisk överföring eller lagring helt säker. Vi kan inte garantera absolut säkerhet, men vi arbetar för att skydda dina uppgifter enligt högsta praktiskt möjliga standard." },
-        "s7": { "title": "Lagringstid", "intro": "Vi behåller din personliga information endast så länge som är nödvändigt för att uppfylla de ändamål som anges i denna policy och för att uppfylla våra rättsliga skyldigheter:", "list": [
-          "Aktiva kunduppgifter: Uppdragets löptid plus 7 år (i enlighet med tillämplig bokförings- och arkiveringslagstiftning)",
-          "Förfrågningsdata (ej konverterade): 2 år från datumet för senaste kontakt",
-          "Webbanalysdata: Högst 26 månader",
-          "Samtyckesregister: Fram till dess att samtycket återkallas, plus en rimlig period därefter för arkiveringsändamål"
-        ], "outro": "När den tillämpliga lagringstiden har löpt ut raderas eller anonymiseras personuppgifterna på ett säkert sätt." },
-        "s8": { "title": "Dina rättigheter enligt GDPR", "intro": "Som registrerad enligt GDPR har du följande rättigheter avseende dina personuppgifter:",
-          "rights": [
-            { "title": "Rätt till tillgång", "body": "Begära en kopia av de personuppgifter vi har om dig." },
-            { "title": "Rätt till rättelse", "body": "Begära rättelse av felaktiga eller ofullständiga uppgifter." },
-            { "title": "Rätt till radering", "body": "Begära radering av dina uppgifter under vissa omständigheter (”rätten att bli bortglömd”)." },
-            { "title": "Rätt till begränsning av behandling", "body": "Begära att vi begränsar hur vi använder dina uppgifter under specifika omständigheter." },
-            { "title": "Rätt till dataportabilitet", "body": "Få dina uppgifter i ett strukturerat, maskinläsbart format där tillämpligt." },
-            { "title": "Rätt att invända", "body": "Invända mot behandling som grundas på berättigat intresse eller för direktmarknadsföring." },
-            { "title": "Rätt att återkalla samtycke", "body": "Återkalla ett lämnat samtycke när som helst, utan att det påverkar tidigare behandling." },
-            { "title": "Rätt att klaga", "body": "Lämna in ett klagomål till relevant tillsynsmyndighet (se avsnitt 12)." }
+        "s2": {
+          "title": "Personuppgiftsansvarig",
+          "intro": [
+            "Nordic Riser AB är personuppgiftsansvarig för dina personuppgifter som samlas in via denna webbplats, Medlemsportalen och våra konsultuppdrag. Avsnitt 3 förklarar det separata fallet — att bygga och driva mjukvara åt en kund — där Nordic Riser AB i stället agerar som personuppgiftsbiträde."
           ],
-          "outro": "För att utöva någon av ovanstående rättigheter, vänligen kontakta oss på info@nordicriser.com med ämnesraden ”Begäran från registrerad”. Vi kommer att svara inom en kalendermånad enligt vad som krävs enligt GDPR."
+          "contactNote": "I alla frågor som rör dataskydd, vänligen kontakta oss via uppgifterna ovan med ämnesraden ”Fråga om dataskydd”."
         },
-        "s9": { "title": "Cookies och spårningsteknik", "body": [
-          "Vår webbplats är en statisk informationswebbplats med minimal spårning. Vi kan använda nödvändiga cookies som krävs för webbplatsens grundläggande funktion, inklusive att komma ihåg ditt valda språk. Vi använder för närvarande inte cookies för tredjepartsannonsering eller beteendespårning.",
-          "Om vi i framtiden inför analysverktyg eller ytterligare spårningsteknik kommer vi att inhämta ditt förhandssamtycke innan vi sätter några icke nödvändiga cookies, tillhandahålla tydlig information om varje cookies syfte och varaktighet, samt erbjuda enkla sätt att hantera eller återkalla dina cookie-inställningar.",
-          "Du kan kontrollera och radera cookies via dina webbläsarinställningar när som helst. Observera att inaktivering av vissa cookies kan påverka webbplatsens funktionalitet."
-        ]},
-        "s10": { "title": "Barns integritet", "body": [
-          "Våra tjänster riktar sig uteslutande till vuxna som bedriver yrkes- och näringsverksamhet. Vi samlar inte medvetet in personuppgifter från personer under 18 år. Om du tror att vi av misstag har samlat in uppgifter från en minderårig, vänligen kontakta oss omedelbart så vidtar vi lämpliga åtgärder för att radera den informationen."
-        ]},
-        "s11": { "title": "Ändringar av denna integritetspolicy", "intro": "Vi kan komma att uppdatera denna integritetspolicy regelbundet för att återspegla förändringar i vår praxis, tillämplig lagstiftning eller våra rutiner. Väsentliga ändringar kommer att kommuniceras genom att:", "list": [
-          "Uppdatera datumet ”Senast uppdaterad” högst upp på denna sida",
-          "Där det är lämpligt, meddela aktiva kunder via e-post",
-          "Publicera ett meddelande på vår webbplats"
-        ], "outro": "Vi uppmuntrar dig att regelbundet granska denna policy. Din fortsatta användning av vår webbplats efter en uppdatering innebär att du accepterar den reviderade policyn." },
-        "s12": { "title": "Tillsynsmyndighet", "intro": "Om du har synpunkter på hur vi hanterar dina personuppgifter och du inte är nöjd med vårt svar har du rätt att lämna in ett klagomål till relevant tillsynsmyndighet:", "body": [
-          "Integritetsskyddsmyndigheten (IMY) — svensk tillsynsmyndighet för dataskydd",
-          "Box 8114, 104 20 Stockholm — Telefon: +46 8 657 61 00 — Webbplats: www.imy.se"
-        ]},
-        "s13": { "title": "Kontakta oss angående denna policy", "intro": "Om du har frågor, synpunkter eller önskemål avseende denna integritetspolicy eller vår hantering av data, vänligen kontakta oss direkt:", "cardTitle": "Frågor om dataskydd", "cardBody": "Skicka e-post med ämnesraden ”Fråga om integritetspolicy” så återkommer vi omgående." }
+        "s3": {
+          "title": "Personuppgiftsansvarig kontra personuppgiftsbiträde — vad som gäller för dig",
+          "body": [
+            "Nordic Riser AB förhåller sig till personuppgifter i två olika roller, och vilken som gäller beror på vad du använder.",
+            "Som personuppgiftsansvarig avgör vi varför och hur personuppgifter behandlas för vår egen konsultverksamhet, denna marknadsföringswebbplats och Medlemsportalen som vi driver under eget varumärke. Denna integritetspolicy reglerar den behandlingen.",
+            "Som personuppgiftsbiträde — när vi bygger, driftar eller sköter ett system åt en kund, till exempel en NR-BOS-installation som drivs för ett byggföretags egen personal och kunder — är kunden personuppgiftsansvarig för personuppgifterna i det systemet, och Nordic Riser AB behandlar dem endast enligt kundens dokumenterade instruktioner, i enlighet med ett personuppgiftsbiträdesavtal. Om du är anställd, underleverantör eller kund hos en av våra mjukvarukunder är denna integritetspolicy inte det styrande dokumentet för hur dina uppgifter hanteras där — din relation är med den kunden, och våra skyldigheter gäller gentemot kunden enligt biträdesavtalet, inte direkt gentemot dig.",
+            "Vi erbjuder ett personuppgiftsbiträdesavtal till alla kunder på begäran — se vår juridiksida för biträdesavtalet."
+          ]
+        },
+        "s4": {
+          "title": "Uppgifter vi samlar in",
+          "subheadings": [
+            {
+              "title": "4.1 Uppgifter du lämnar direkt",
+              "intro": "Vi samlar in uppgifter som du frivilligt lämnar till oss, bland annat:",
+              "list": [
+                "Kontaktuppgifter: namn, e-postadress, telefonnummer",
+                "Yrkesrelaterad information: verksamhetstyp, yrkesbakgrund, affärsmål",
+                "Konsultationsförfrågan: syftet med konsultationen och beskrivning av din situation enligt vad som lämnats via vårt kontaktformulär",
+                "Kommunikationsdata: information i e-post och annan korrespondens med vårt team"
+              ]
+            },
+            {
+              "title": "4.2 Uppgifter som samlas in automatiskt",
+              "intro": "När du besöker vår webbplats kan vi automatiskt samla in:",
+              "list": [
+                "Teknisk data: IP-adress, webbläsartyp, operativsystem, enhetsinformation",
+                "Användningsdata: besökta sidor, tid på sidorna, navigeringsmönster",
+                "Cookies: små datafiler som lagras på din enhet (se avsnitt 11)"
+              ]
+            },
+            {
+              "title": "4.3 Medlemsportalen (portal.nordicriser.com)",
+              "intro": "Som registrerad medlem samlar vi in:",
+              "list": [
+                "Kontouppgifter: namn, e-postadress, autentiseringsuppgifter och roll, hanterat via Firebase Authentication",
+                "Dokument: filer du laddar upp för ärendehandläggning",
+                "Meddelanden: innehållet i säkra meddelanden du utbyter via portalen",
+                "Ärende- och tidslinjedata: status och framsteg kopplat till ditt ärende",
+                "Betalningsuppgifter: fakturor, betalningsanspråk och påfyllningsförfrågningar du lämnar in — vi samlar inte in eller lagrar kortnummer; betalningar granskas manuellt i stället för via en automatiserad betalningslösning"
+              ]
+            },
+            {
+              "title": "4.4 NR-BOS",
+              "intro": "NR-BOS drivs vanligtvis av en av våra kunder för deras egen personal, och i så fall behandlar Nordic Riser AB dessa uppgifter som personuppgiftsbiträde, inte som personuppgiftsansvarig (se avsnitt 3). Vi beskriver det här så att den som är registrerad inom en NR-BOS-installation förstår vad som samlas in:",
+              "list": [
+                "Konto- och företagsuppgifter: namn, roller och anställningsförhållande för de personer en kundorganisation lägger till som NR-BOS-användare",
+                "Fotografier från arbetsplatsen: fotografier som laddas upp genom fältrapporter. Bildfilen lagras exakt som den laddats upp, inklusive eventuell plats- eller tidsstämpelmetadata (EXIF) som redan är inbäddad av enheten som tog bilden. Separat registrerar själva fältrapporten GPS-koordinater och en tidsstämpel som rapporterats av den inlämnande enheten vid tillfället för inlämning, i syfte att verifiera arbetsplatsen. Fotografier från arbetsplatsen görs aldrig offentliga — varje bild lagras i en privat fillagring och är endast åtkomlig via korttidsgiltiga, autentiserade länkar tillgängliga för behöriga medlemmar i det aktuella projektet",
+                "Projekt- och uppgiftsdata: projektnamn, uppgiftstitlar, status, förfallodatum och tilldelad person",
+                "Arbetstid: timmar som registrerats mot uppgifter av namngivna anställda",
+                "Kostnadsdata: kostnadsposter kopplade till projekt och uppgifter"
+              ]
+            },
+            {
+              "title": "4.5 Global Reach",
+              "intro": "Som användare av Global Reach:",
+              "list": [
+                "Chattmeddelanden: innehållet i meddelanden som skickas genom Global Reachs samarbetsrum i realtid, inklusive meddelandetext som skickas för realtidsöversättning — se avsnitt 6.4 för hur den översättningen tillhandahålls och avsnitt 7 för vilket underbiträde som är inblandat"
+              ]
+            }
+          ]
+        },
+        "s5": {
+          "title": "Hur vi använder dina uppgifter",
+          "intro": "Vi behandlar dina personuppgifter endast för de ändamål som anges nedan, vart och ett med stöd av en rättslig grund enligt GDPR:",
+          "table": {
+            "headers": [
+              "Ändamål",
+              "Rättslig grund (GDPR)"
+            ],
+            "rows": [
+              [
+                "Besvara konsultationsförfrågningar och förfrågningar",
+                "Fullgörande av avtal / berättigat intresse"
+              ],
+              [
+                "Tillhandahålla strategisk rådgivning, teknik och globala samarbetstjänster",
+                "Fullgörande av avtal"
+              ],
+              [
+                "Drift och säkring av Medlemsportalen, inklusive autentisering samt lagring av dokument/meddelanden",
+                "Fullgörande av avtal"
+              ],
+              [
+                "Tillhandahålla NR-BOS till våra licenskunder, inklusive fältrapportering, projektuppföljning och AI-assisterad analys",
+                "Fullgörande av avtal (som personuppgiftsbiträde, enligt kundens instruktioner)"
+              ],
+              [
+                "Tillhandahålla realtidsöversättning inom Global Reach",
+                "Fullgörande av avtal"
+              ],
+              [
+                "Kommunikation om våra tjänster och pågående uppdrag",
+                "Fullgörande av avtal / samtycke"
+              ],
+              [
+                "Förbättra vår webbplats och tjänstekvalitet",
+                "Berättigat intresse"
+              ],
+              [
+                "Samordning med tredjepartsprofessionella (jurister, revisorer)",
+                "Fullgörande av avtal / berättigat intresse"
+              ],
+              [
+                "Efterlevnad av rättsliga och regulatoriska skyldigheter",
+                "Rättslig förpliktelse"
+              ]
+            ]
+          },
+          "note": "Vi säljer, hyr eller byter inte bort dina personuppgifter till tredje part. Vi använder inte dina uppgifter för ändamål som är oförenliga med de som anges ovan."
+        },
+        "s6": {
+          "title": "Delning och utlämnande av uppgifter",
+          "subheadings": [
+            {
+              "title": "6.1 Professionella samarbetspartners",
+              "intro": "Där det krävs för att leverera våra tjänster kan vi dela relevant information med kvalificerade tredjepartsprofessionella, till exempel:",
+              "list": [
+                "Jurister och specialistrådgivare som anlitas i samband med ditt ärende",
+                "Revisions- och skatteexperter involverade i bolagsbildning eller regelefterlevnad",
+                "Teknikleverantörer som stödjer vår webbplats, Medlemsportalen och drift av mjukvaruprodukter — se vår fullständiga förteckning över underbiträden, avsnitt 7"
+              ],
+              "outro": "Alla tredje parter är skyldiga att vidta lämpliga säkerhetsåtgärder och får endast behandla dina uppgifter enligt våra instruktioner och inom ramen för sina professionella skyldigheter."
+            },
+            {
+              "title": "6.2 Rättsliga krav",
+              "intro": "Vi kan lämna ut dina personuppgifter när det krävs enligt lag, förordning, rättsprocess eller en legitim myndighetsbegäran."
+            },
+            {
+              "title": "6.3 Internationella överföringar av uppgifter",
+              "intro": "När personuppgifter överförs utanför EU/EES säkerställer vi att en lämplig överföringsmekanism — vanligtvis EU-kommissionens standardavtalsklausuler — finns på plats innan någon sådan överföring sker. Avsnitt 7 listar samtliga underbiträden vi använder, inklusive var respektive är beläget och vilken överföringsmekanism som tillämpas. En av dessa överföringar, som beskrivs i sin helhet nedan, sker till ett företag baserat i Kina, en jurisdiktion utan beslut om adekvat skyddsnivå från EU."
+            },
+            {
+              "title": "6.4 AI-behandling i NR-BOS",
+              "intro": "NR-BOS innehåller en valfri AI-assistent som genererar insikter om risk, kostnad och produktivitet utifrån ett projekts data. Vi beskriver detta rakt på sak, inklusive de delar som ännu inte är så skyddande som vi skulle önska, snarare än att beskriva ett skydd som faktiskt inte finns på plats:",
+              "list": [
+                "När denna funktion används skickas relevant projektdata — inklusive projekt- och företagsnamn, budgetsiffror, uppgiftsdetaljer, kostnadsposter samt fullständiga namn och roller för tilldelade teammedlemmar — till vår AI-leverantör, DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.), för att generera analysen.",
+                "Vi maskerar eller anonymiserar för närvarande inte personidentifierande uppgifter innan denna data överförs. Om detta har betydelse för hur du använder NR-BOS, kontakta oss eller din NR-BOS-administratör — en kund som driver NR-BOS som personuppgiftsansvarig kan begränsa användningen av AI-assistenten i sin egen installation.",
+                "DeepSeeks egen policy för API-data anger att data som skickas via deras API inte används för att träna deras modeller. Detta är DeepSeeks eget uttalande, inte en garanti vi granskar oberoende.",
+                "Resultatet är endast rådgivande. Ingenting i NR-BOS agerar automatiskt på en AI-genererad insikt — en person granskar den alltid och avgör vad som, om något, ska göras.",
+                "Eftersom DeepSeek är baserat i Kina bygger denna överföring på standardavtalsklausuler som skydd enligt GDPR kapitel V. Kina saknar beslut om adekvat skyddsnivå från EU-kommissionen, och denna typ av överföringar är föremål för ökad regulatorisk uppmärksamhet inom EU. Vi redogör för detta specifikt, med namn, så att du kan avgöra med full information om det har betydelse för dig — se avsnitt 7 för den fullständiga uppgiften om underbiträdet."
+              ]
+            }
+          ]
+        },
+        "s7": {
+          "title": "Underbiträden",
+          "linkLabel": "Se vår förteckning över underbiträden",
+          "body": [
+            "För att uppfylla våra egna transparensskyldigheter och ge dig full insyn i vilka som behandlar personuppgifter för vår räkning, för vi en fullständig, aktuell förteckning över underbiträden — vad respektive gör, vilken datakategori som berörs, var de finns och vilket överföringsskydd som gäller — som en egen sida, länkad från vår juridiksida.",
+            "Om vi lägger till ett nytt underbiträde uppdaterar vi förteckningen och, för kunder med ett personuppgiftsbiträdesavtal på plats, meddelar vi innan ändringen träder i kraft, i enlighet med invändningsrätten som beskrivs i det avtalet."
+          ]
+        },
+        "s8": {
+          "title": "Datasäkerhet",
+          "intro": "Vi vidtar lämpliga tekniska och organisatoriska åtgärder för att skydda dina personuppgifter mot obehörig åtkomst, ändring, utlämnande eller förstörelse. Dessa åtgärder omfattar:",
+          "list": [
+            "Krypterade kommunikationskanaler för överföring av känslig information",
+            "Säker serverinfrastruktur och datalagringssystem",
+            "Åtkomstkontroller och autentiseringsrutiner för interna system",
+            "Regelbunden översyn och uppdatering av säkerhetsrutiner",
+            "Personalens medvetenhet om dataskyddsskyldigheter"
+          ],
+          "outro": "För Medlemsportalen omfattar detta Firebase Authentication tillsammans med säkerhetsregler i Firestore och Storage som begränsar varje användare till sina egna uppgifter. För fotografier från NR-BOS-arbetsplatser omfattar detta att filer lagras i en privat fillagring som endast är åtkomlig via korttidsgiltiga signerade länkar, inte via någon offentlig sökväg. Trots att vi vidtar alla rimliga försiktighetsåtgärder är ingen metod för elektronisk överföring eller lagring helt säker. Vi kan inte garantera fullständig säkerhet, men vi är fast beslutna att skydda dina uppgifter till högsta praktiskt möjliga standard."
+        },
+        "s9": {
+          "title": "Lagring av uppgifter",
+          "intro": "Vi lagrar dina personuppgifter endast så länge det är nödvändigt för att uppfylla de ändamål som anges i denna policy och för att fullgöra våra rättsliga skyldigheter:",
+          "list": [
+            "Aktiva kunduppgifter: uppdragets löptid plus 7 år (i enlighet med tillämplig bokförings- och arkiveringslagstiftning)",
+            "Förfrågningsdata (ej konverterade): 2 år från senaste kontakttillfället",
+            "Webbanalysdata: högst 26 månader",
+            "Mjukvaruproduktdata (Medlemsportalen, NR-BOS): lagras under kontots eller licensförhållandets löptid, plus en rimlig period efter avslut för rättsliga, bokföringsrelaterade och tvistelösningsändamål, om inte en kortare period avtalats i kundens personuppgiftsbiträdesavtal",
+            "Samtyckesregister: tills samtycket återkallas, plus en rimlig period därefter för arkiveringsändamål"
+          ],
+          "outro": "När den tillämpliga lagringsperioden löpt ut raderas eller anonymiseras personuppgifterna på ett säkert sätt."
+        },
+        "s10": {
+          "title": "Dina rättigheter enligt GDPR",
+          "intro": "Som registrerad enligt GDPR har du följande rättigheter avseende dina personuppgifter:",
+          "rights": [
+            {
+              "title": "Rätt till tillgång",
+              "body": "Begära en kopia av de personuppgifter vi har om dig."
+            },
+            {
+              "title": "Rätt till rättelse",
+              "body": "Begära korrigering av felaktiga eller ofullständiga uppgifter."
+            },
+            {
+              "title": "Rätt till radering",
+              "body": "Begära radering av dina uppgifter under vissa omständigheter (”rätten att bli glömd”)."
+            },
+            {
+              "title": "Rätt till begränsning av behandling",
+              "body": "Begära att vi begränsar hur vi använder dina uppgifter under angivna omständigheter."
+            },
+            {
+              "title": "Rätt till dataportabilitet",
+              "body": "Få ut dina uppgifter i ett strukturerat, maskinläsbart format där det är tillämpligt."
+            },
+            {
+              "title": "Rätt att invända",
+              "body": "Invända mot behandling som grundas på berättigat intresse eller mot direktmarknadsföring."
+            },
+            {
+              "title": "Rätt att återkalla samtycke",
+              "body": "Återkalla ett lämnat samtycke när som helst, utan att det påverkar tidigare behandling."
+            },
+            {
+              "title": "Rätt att klaga",
+              "body": "Lämna in ett klagomål till behörig tillsynsmyndighet (se avsnitt 14)."
+            }
+          ],
+          "outro": "För att utöva någon av ovanstående rättigheter, vänligen kontakta oss på info@nordicriser.com med ämnesraden ”Begäran från registrerad”. Vi svarar inom en kalendermånad enligt GDPR:s krav. Om du är registrerad inom en kunds NR-BOS-installation, vänligen rikta din begäran till den kunden i första hand, eftersom kunden är personuppgiftsansvarig för de uppgifterna — se avsnitt 3."
+        },
+        "s11": {
+          "title": "Cookies och spårningsteknik",
+          "subheadings": [
+            {
+              "title": "11.1 Marknadsföringswebbplatsen (nordicriser.com)",
+              "intro": "Denna marknadsföringswebbplats är en statisk informationswebbplats med minimal spårning. Vi kan använda nödvändiga cookies som krävs för webbplatsens grundläggande funktion, inklusive att komma ihåg ditt valda språk. Vi använder för närvarande inte cookies för tredjepartsannonsering eller beteendespårning. Om vi implementerar analys eller ytterligare spårningsteknik här i framtiden inhämtar vi ditt förhandssamtycke innan vi sätter någon icke-nödvändig cookie, redovisar dess syfte och varaktighet, och erbjuder ett enkelt sätt att återkalla det samtycket."
+            },
+            {
+              "title": "11.2 Medlemsportalen och NR-BOS",
+              "intro": "Medlemsportalen och NR-BOS är inloggningsbaserade applikationer, till skillnad från marknadsföringswebbplatsen, och använder cookies och motsvarande lokal lagring som är absolut nödvändiga för att de ska fungera: att upprätthålla din inloggade session, autentiseringstoken och säkerhetsåtgärder som CSRF-skydd. Dessa är nödvändiga för tjänsten och kan inte inaktiveras utan att du förlorar möjligheten att logga in. Vi använder för närvarande inte analys- eller annonscookies i Medlemsportalen eller NR-BOS; om det ändras gäller samma samtyckesbaserade åtagande som ovan där precis som på marknadsföringswebbplatsen."
+            }
+          ],
+          "outro": "Du kan kontrollera och radera cookies via dina webbläsarinställningar när som helst. Observera att inaktivering av nödvändiga cookies hindrar dig från att logga in på portalen eller NR-BOS, och kan påverka marknadsföringswebbplatsens funktionalitet."
+        },
+        "s12": {
+          "title": "Barns integritet",
+          "body": [
+            "Vår webbplats, våra konsulttjänster och mjukvaruprodukter riktar sig uteslutande till vuxna som bedriver yrkes- och affärsverksamhet. Vi samlar inte medvetet in personuppgifter från personer under 18 år. Om du tror att vi oavsiktligt har samlat in uppgifter från en minderårig, vänligen kontakta oss omedelbart så vidtar vi lämpliga åtgärder för att radera den informationen."
+          ]
+        },
+        "s13": {
+          "title": "Ändringar av denna integritetspolicy",
+          "intro": "Vi kan uppdatera denna integritetspolicy med jämna mellanrum för att återspegla förändringar i vår verksamhet, tillämplig lagstiftning eller operativa rutiner. Väsentliga ändringar kommuniceras genom att:",
+          "list": [
+            "Uppdatera datumet ”Senast uppdaterad” och noteringen ”Vad som ändrats” högst upp på sidan",
+            "Där det är lämpligt, meddela aktiva kunder via e-post",
+            "Publicera ett meddelande på vår webbplats"
+          ],
+          "outro": "Vi uppmuntrar dig att granska denna policy regelbundet. Din fortsatta användning av vår webbplats, Medlemsportalen eller våra mjukvaruprodukter efter en uppdatering utgör ett godkännande av den reviderade policyn."
+        },
+        "s14": {
+          "title": "Tillsynsmyndighet",
+          "intro": "Om du har synpunkter på hur vi hanterar dina personuppgifter och inte är nöjd med vårt svar, har du rätt att lämna in ett klagomål till behörig tillsynsmyndighet:",
+          "body": [
+            "Integritetsskyddsmyndigheten (IMY)",
+            "Box 8114, 104 20 Stockholm — Telefon: +46 8 657 61 00 — Webbplats: www.imy.se"
+          ]
+        },
+        "s15": {
+          "title": "Kontakta oss angående denna policy",
+          "intro": "Om du har frågor, synpunkter eller önskemål avseende denna integritetspolicy eller vår hantering av data, vänligen kontakta oss direkt:",
+          "cardTitle": "Frågor om dataskydd",
+          "cardBody": "Skicka e-post med ämnesraden ”Fråga om integritetspolicy” så återkommer vi omgående."
+        }
+      }
+    },
+    "legal": {
+      "meta": {
+        "title": "Juridik — Nordic Riser AB",
+        "description": "Integritetspolicy, användarvillkor, personuppgiftsbiträdesavtal och förteckning över underbiträden för Nordic Riser AB:s webbplats, Medlemsportal och mjukvaruprodukter."
+      },
+      "hero": {
+        "label": "Juridik",
+        "h1": "Juridiska dokument",
+        "body": "Allt som styr hur Nordic Riser AB hanterar dina uppgifter och hur våra tjänster får användas — samlat på ett ställe och öppet uppdaterat."
+      },
+      "breadcrumb": "Juridik",
+      "docs": [
+        {
+          "title": "Integritetspolicy",
+          "body": "Hur vi samlar in, använder och skyddar personuppgifter i vår webbplats, Medlemsportal, NR-BOS och Global Reach.",
+          "link": "legal/privacy"
+        },
+        {
+          "title": "Användarvillkor",
+          "body": "Villkoren för användning av vår webbplats, Medlemsportal och mjukvaruprodukter, inklusive licensiering av NR-BOS.",
+          "link": "legal/terms"
+        },
+        {
+          "title": "Personuppgiftsbiträdesavtal",
+          "body": "För kunder där Nordic Riser AB behandlar personuppgifter för deras räkning — tillgängligt på begäran.",
+          "link": "legal/dpa"
+        },
+        {
+          "title": "Underbiträden",
+          "body": "De namngivna tredje parter som behandlar personuppgifter för vår räkning, vad de gör och var de finns.",
+          "link": "legal/subprocessors"
+        }
+      ]
+    },
+    "legalSubprocessors": {
+      "meta": {
+        "title": "Underbiträden — Nordic Riser AB",
+        "description": "De namngivna tredje parter som behandlar personuppgifter för Nordic Riser AB:s räkning i vår webbplats, Medlemsportal, NR-BOS och Global Reach."
+      },
+      "hero": {
+        "label": "Juridik",
+        "h1": "Underbiträden",
+        "body": "Varje tredje part vi använder för att behandla personuppgifter för din räkning — vad de gör, vilka uppgifter de hanterar, var de finns och hur överföringen skyddas."
+      },
+      "breadcrumb": "Underbiträden",
+      "updatedBadge": "Senast uppdaterad: 19 augusti 2026",
+      "translationNotice": "Denna sida är professionellt översatt till svenska och granskad av oss. Vid eventuella avvikelser gäller den engelska versionen. Kontakta oss om du har frågor.",
+      "intro": [
+        "Denna förteckning finns för att uppfylla artikel 13.1 f i GDPR direkt — inte bara för att säga att skyddsåtgärder finns, utan för att namnge vem de gäller. Vi håller den aktuell och uppdaterar datumet nedan varje gång den ändras.",
+        "Om vi lägger till ett nytt underbiträde uppdaterar vi denna förteckning och, för kunder med ett personuppgiftsbiträdesavtal på plats, meddelar vi innan ändringen träder i kraft, i enlighet med invändningsrätten som beskrivs i det avtalet."
+      ],
+      "table": {
+        "headers": [
+          "Underbiträde",
+          "Ändamål",
+          "Datakategorier",
+          "Plats",
+          "Överföringsmekanism"
+        ],
+        "rows": [
+          [
+            "Google Ireland Limited (Firebase / Google Cloud Platform)",
+            "Autentisering, databas, fillagring och hosting för Medlemsportalen (portal.nordicriser.com)",
+            "Kontouppgifter, profildata, innehåll i uppladdade dokument, innehåll i säkra meddelanden, ärende- och betalningsuppgifter",
+            "Google Clouds infrastruktur — exakt behandlingsregion väntar på intern bekräftelse (se noteringen nedan)",
+            "Google Clouds Cloud Data Processing Addendum, som innefattar EU-kommissionens standardavtalsklausuler"
+          ],
+          [
+            "DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.)",
+            "AI-genererad analys av risk, kostnad och produktivitet i NR-BOS (valfri funktion)",
+            "Projekt- och företagsnamn, budgetsiffror, uppgiftsdetaljer, kostnadsposter, fullständiga namn och roller för tilldelade teammedlemmar",
+            "Kina",
+            "Standardavtalsklausuler (modulen för överföring mellan personuppgiftsansvarig och personuppgiftsbiträde). Kina saknar beslut om adekvat skyddsnivå från EU-kommissionen — se integritetspolicyns avsnitt 6.4 för den fullständiga redogörelsen"
+          ],
+          [
+            "PostgreSQL-databas (NR-BOS)",
+            "Central relationsdatabas — användare, företag, projekt, uppgifter, kostnadsposter, fältrapporter, licensregister",
+            "Brett — i praktiken all operativ NR-BOS-data, inklusive personuppgifter om kundföretagets personal",
+            "Väntar på intern bekräftelse",
+            "Väntar på intern bekräftelse"
+          ],
+          [
+            "Objektlagring, S3-kompatibel (NR-BOS)",
+            "Lagring av fotografier från arbetsplatsen och genererade PDF-kundrapporter",
+            "Bildfiler (kan innehålla kamerainbäddad EXIF-data som GPS-koordinater eller tidsstämpel), PDF-rapportdokument",
+            "Väntar på intern bekräftelse",
+            "Väntar på intern bekräftelse"
+          ],
+          [
+            "Leverantör av översättnings-API (Global Reach)",
+            "Realtidsöversättning av chattmeddelanden i Global Reachs samarbetsrum",
+            "Innehåll i chattmeddelanden",
+            "Väntar på intern bekräftelse",
+            "Väntar på intern bekräftelse"
+          ]
+        ]
+      },
+      "note": "Rader märkta ”väntar på intern bekräftelse” är bekräftade att existera och att ta emot den angivna datakategorin — vi har verifierat detta direkt mot vår egen källkod innan denna förteckning publicerades. Det som ännu inte är fastställt är exakt värdleverantör och region för tre av dem. Vi listar dem i stället för att utelämna dem eftersom artikel 13.1 f kräver att vi redogör för de överföringar vi faktiskt gör, inte bara de vi redan fullständigt dokumenterat, och eftersom det vore mindre ärligt att utelämna en känd lucka än att flagga den öppet. Vi kompletterar dessa uppgifter och uppdaterar datumet ovan så snart de är bekräftade."
+    },
+    "legalTerms": {
+      "meta": {
+        "title": "Användarvillkor — Nordic Riser AB",
+        "description": "Villkoren för användning av Nordic Riser AB:s webbplats, Medlemsportal och mjukvaruprodukter, inklusive licensiering av NR-BOS."
+      },
+      "hero": {
+        "label": "Juridik",
+        "h1": "Användarvillkor",
+        "body": "Villkoren som styr din användning av denna webbplats, Medlemsportalen och de mjukvaruprodukter vi bygger och licensierar."
+      },
+      "breadcrumb": "Användarvillkor",
+      "updatedBadge": "Senast uppdaterad: 19 augusti 2026",
+      "translationNotice": "Denna sida är professionellt översatt till svenska och granskad av oss. Vid eventuella avvikelser gäller den engelska versionen. Kontakta oss om du har frågor.",
+      "tocLabel": "Innehåll",
+      "toc": [
+        "1. Godkännande av dessa villkor",
+        "2. Tjänster som omfattas",
+        "3. Konton och behörighet",
+        "4. Tillåten användning",
+        "5. Dina uppgifter och ditt innehåll",
+        "6. Immateriella rättigheter",
+        "7. Tillgänglighet och support",
+        "8. Licensiering av NR-BOS",
+        "9. Avgifter och betalning",
+        "10. Ansvarsbegränsning",
+        "11. Löptid och uppsägning",
+        "12. Tillämplig lag och tvister",
+        "13. Ändringar av dessa villkor",
+        "14. Kontakt"
+      ],
+      "sections": {
+        "s1": {
+          "title": "Godkännande av dessa villkor",
+          "body": [
+            "Dessa användarvillkor (”villkoren”) styr din användning av Nordic Riser AB:s webbplats, Medlemsportalen (portal.nordicriser.com) och alla mjukvaruprodukter vi licensierar till dig, inklusive NR-BOS och Global Reach (tillsammans ”tjänsterna”).",
+            "Genom att skapa ett konto, lösa in en licenskod eller på annat sätt använda tjänsterna godkänner du dessa villkor. Om du godkänner villkoren å ett företags vägnar bekräftar du att du har behörighet att binda det företaget."
+          ]
+        },
+        "s2": {
+          "title": "Tjänster som omfattas",
+          "body": [
+            "Denna webbplats tillhandahåller information om Nordic Riser AB och vårt utbud av konsult-, teknik- och produkttjänster.",
+            "Medlemsportalen är ett inloggningsbaserat kundområde för dokumentutbyte, ärendeuppföljning, säker meddelandehantering och betalningsuppgifter kopplat till våra konsultuppdrag.",
+            "NR-BOS är mjukvara för projektleverans, fältarbete och kundrapportering, licensierad till företag för eget internt bruk och kundvänd användning.",
+            "Global Reach är mjukvara för samarbete i realtid med delade whiteboards och realtidsöversatt chatt, licensierad på abonnemangsbasis."
+          ]
+        },
+        "s3": {
+          "title": "Konton och behörighet",
+          "body": [
+            "Tjänsterna riktar sig till vuxna som agerar i yrkes- eller affärsmässig egenskap. Du måste vara minst 18 år för att skapa ett konto.",
+            "Du ansvarar för att hålla dina kontouppgifter konfidentiella och för all aktivitet under ditt konto. Meddela oss omedelbart på info@nordicriser.com om du misstänker obehörig åtkomst.",
+            "Du måste lämna korrekta registreringsuppgifter och hålla dem uppdaterade."
+          ]
+        },
+        "s4": {
+          "title": "Tillåten användning",
+          "intro": "Vid användning av tjänsterna åtar du dig att inte:",
+          "list": [
+            "Använda tjänsterna för olagligt ändamål eller i strid med tillämplig reglering",
+            "Försöka få obehörig åtkomst till konton, system eller uppgifter som inte är dina",
+            "Ladda upp skadlig kod, eller störa eller inkräkta på tjänsternas integritet eller funktion",
+            "Baklängeskompilera, dekompilera eller på annat sätt försöka utvinna källkoden för någon mjukvaruprodukt, förutom i den utsträckning tillämplig lag uttryckligen tillåter det",
+            "Sälja vidare, underlicensiera eller tillhandahålla tjänsterna till tredje part utanför omfattningen av din egen licens eller ditt konto",
+            "Använda tjänsterna för att lagra eller överföra innehåll du inte har rätt att dela, eller som gör intrång i annans rättigheter"
+          ],
+          "outro": "Vi kan stänga av eller avsluta åtkomsten vid brott mot detta avsnitt — se avsnitt 11."
+        },
+        "s5": {
+          "title": "Dina uppgifter och ditt innehåll",
+          "body": [
+            "Du behåller äganderätten till de uppgifter och det innehåll du eller din organisation lämnar in via tjänsterna — dina dokument, meddelanden, projektregister, fotografier från arbetsplatsen, uppgiftsdata och allt annat du lägger in. Vi gör inte anspråk på äganderätt till det, och vi använder det inte för något ändamål utöver att leverera tjänsterna till dig, enligt vad som beskrivs i vår integritetspolicy och, där tillämpligt, ditt personuppgiftsbiträdesavtal.",
+            "Du ansvarar för att ha rätt att lämna in allt innehåll du laddar upp, inklusive eventuella nödvändiga samtycken från tredje part vars personuppgifter det kan innehålla (till exempel en anställd som namnges i en fältrapport)."
+          ]
+        },
+        "s6": {
+          "title": "Immateriella rättigheter",
+          "body": [
+            "Nordic Riser AB äger samtliga immateriella rättigheter till själva tjänsterna — webbplatsen, Medlemsportalen samt mjukvaran NR-BOS och Global Reach, inklusive deras design, kod och funktionalitet. Ingenting i dessa villkor överför något av detta till dig.",
+            "Med förbehåll för dessa villkor och, för NR-BOS, avsnitt 8 nedan, beviljar vi dig en begränsad, icke-exklusiv, icke-överlåtbar rätt att använda tjänsterna för din egen interna affärsverksamhet så länge ditt konto eller din licens är aktiv."
+          ]
+        },
+        "s7": {
+          "title": "Tillgänglighet och support",
+          "body": [
+            "Vi gör rimliga kommersiella ansträngningar för att hålla tjänsterna tillgängliga och för att snabbt åtgärda problem, men vi erbjuder för närvarande ingen formell tillgänglighetsgaranti eller betalt servicenivåavtal (SLA) — vi vill hellre säga det rakt ut än att utlova en siffra vi inte är bemannade för att stå bakom.",
+            "Planerat underhåll genomförs med förhandsbesked där det är praktiskt möjligt. Support tillhandahålls efter bästa förmåga under våra kontorstider, måndag–fredag 09:00–17:00 CET, snarare än som en dygnet runt-tjänst med garanterad svarstid."
+          ]
+        },
+        "s8": {
+          "title": "Licensiering av NR-BOS",
+          "intro": "NR-BOS licensieras via engångskoder för inlösen, inte via abonnemangsfakturering inuti produkten. Detta avsnitt beskriver exakt hur det fungerar, i linje med hur licenssystemet faktiskt fungerar i praktiken:",
+          "subheadings": [
+            {
+              "title": "8.1 Koder är engångskoder och kan inte överlåtas",
+              "body": "Varje licenskod kan lösas in exakt en gång. När den väl lösts in är den permanent bunden till det inlösande företaget och kan inte omfördelas, säljas vidare eller överföras till ett annat företag eller konto."
+            },
+            {
+              "title": "8.2 Inlösen förlänger din period",
+              "body": "Att lösa in en kod lägger till dess varaktighet till din nuvarande licensperiod. Om din befintliga period ännu inte har löpt ut läggs den nya perioden till ovanpå den i stället för att ersätta den; om den har löpt ut börjar den nya perioden löpa från tidpunkten för inlösen."
+            },
+            {
+              "title": "8.3 Ingen automatisk förnyelse",
+              "body": "En licensperiod löper ut på sitt schemalagda datum. Ingenting förnyas automatiskt — åtkomsten pausas tills en ny kod löses in. Det finns ingen återkommande fakturering kopplad till licensiering av NR-BOS."
+            },
+            {
+              "title": "8.4 Ingen återbetalning för en inlöst kod",
+              "body": "När en kod väl har lösts in är den inlösen slutgiltig. Vi erbjuder ingen återbetalning för en inlöst licenskod, och inlösen sker inte via en betalningslösning som kan reverseras — betrakta inlösen som en medveten, slutgiltig handling."
+            },
+            {
+              "title": "8.5 Återkallelse",
+              "body": "Vi kan återkalla en licenskod för att förhindra att den någonsin löses in — detta är relevant om en kod läckt, utfärdats av misstag, eller inte längre bör vara giltig. Att återkalla en kod som redan lösts in förhindrar att just den koden används igen, men drar inte tillbaka eller pausar den åtkomst som redan beviljats genom den tidigare inlösen. Vi anger detta precist eftersom det är en verklig begränsning, inte ett stilistiskt val: för närvarande har vi ingen separat mekanism för att pausa ett företags redan beviljade åtkomst till NR-BOS. Om vi behöver avsluta en aktiv kunds åtkomst av grundad anledning kontaktar vi kunden direkt för att lösa det, i stället för att förlita oss på en återkallelsemekanism som inte är byggd för det ändamålet."
+            },
+            {
+              "title": "8.6 Provkoder",
+              "body": "Vissa koder utfärdas som 3-dagars provkoder. Ett företag får lösa in en provkod, någonsin — ett företag som redan löst in en betald kod (månads- eller årsvis) är inte berättigat till en provkod, och ett företag som redan använt en provkod kan inte använda ytterligare en."
+            }
+          ]
+        },
+        "s9": {
+          "title": "Avgifter och betalning",
+          "body": [
+            "Licenskoder för NR-BOS utfärdas av Nordic Riser AB efter ett separat köp eller avtal; själva inlösenprocessen samlar inte in eller behandlar kortbetalningsdata.",
+            "För konsultuppdrag och betalningsuppgifter i Medlemsportalen utfärdas och granskas fakturor manuellt i stället för via en automatiserad betalningslösning, enligt vad som beskrivs i vår integritetspolicy."
+          ]
+        },
+        "s10": {
+          "title": "Ansvarsbegränsning",
+          "body": [
+            "I den utsträckning som tillämplig lag tillåter ansvarar Nordic Riser AB inte för indirekta, oförutsedda, särskilda, följdskador eller straffskadestånd, eller för förlorad vinst, intäkt, data eller affärsmöjlighet till följd av din användning av tjänsterna.",
+            "Vårt sammanlagda ansvar med anledning av eller kopplat till dessa villkor eller tjänsterna, för varje enskilt krav, ska inte överstiga det belopp du betalat oss för den specifika tjänst som gett upphov till kravet under de 12 månader som föregår händelsen.",
+            "Ingenting i dessa villkor begränsar ansvar där det inte lagligen kan begränsas, inklusive ansvar för dödsfall eller personskada orsakad av vårdslöshet, eller för bedrägeri."
+          ]
+        },
+        "s11": {
+          "title": "Löptid och uppsägning",
+          "body": [
+            "Dessa villkor gäller så länge du använder tjänsterna. Du kan när som helst sluta använda tjänsterna och avsluta ditt konto.",
+            "Vi kan stänga av eller avsluta din åtkomst om du väsentligt bryter mot dessa villkor, inklusive avsnittet om tillåten användning, särskilt där brottet skapar en säkerhets- eller juridisk risk för oss eller andra användare.",
+            "Vid uppsägning upphör din rätt att använda tjänsterna. Vi lagrar dina uppgifter under de perioder som beskrivs i vår integritetspolicy, och raderar eller återlämnar dem enligt vad som beskrivs där eller, där tillämpligt, i ditt personuppgiftsbiträdesavtal."
+          ]
+        },
+        "s12": {
+          "title": "Tillämplig lag och tvister",
+          "body": [
+            "Dessa villkor regleras av svensk lag, utan hänsyn till lagvalsregler.",
+            "Varje tvist som uppstår med anledning av eller i samband med dessa villkor eller tjänsterna ska prövas av Stockholms tingsrätt som första instans."
+          ]
+        },
+        "s13": {
+          "title": "Ändringar av dessa villkor",
+          "intro": "Vi kan uppdatera dessa villkor med jämna mellanrum för att återspegla förändringar i tjänsterna eller tillämplig lag. Väsentliga ändringar kommuniceras genom att:",
+          "list": [
+            "Uppdatera datumet ”Senast uppdaterad” högst upp på sidan",
+            "Där det är lämpligt, meddela aktiva kunder via e-post",
+            "Publicera ett meddelande på vår webbplats"
+          ],
+          "outro": "Din fortsatta användning av tjänsterna efter en uppdatering utgör ett godkännande av de reviderade villkoren."
+        },
+        "s14": {
+          "title": "Kontakt",
+          "intro": "Frågor om dessa villkor kan skickas direkt till oss:",
+          "cardTitle": "Frågor om användarvillkor",
+          "cardBody": "Skicka e-post med ämnesraden ”Fråga om användarvillkor” så återkommer vi omgående."
+        }
+      }
+    },
+    "legalDpa": {
+      "meta": {
+        "title": "Personuppgiftsbiträdesavtal — Nordic Riser AB",
+        "description": "Det personuppgiftsbiträdesavtal Nordic Riser AB erbjuder kunder för vilka vi behandlar personuppgifter som personuppgiftsbiträde, omfattande Medlemsportalen, NR-BOS och Global Reach."
+      },
+      "hero": {
+        "label": "Juridik",
+        "h1": "Personuppgiftsbiträdesavtal",
+        "body": "För kunder där Nordic Riser AB behandlar personuppgifter för din räkning som personuppgiftsbiträde, inte som personuppgiftsansvarig. Tillgängligt på begäran — kontakta oss för att teckna detta i samband med ditt uppdrag."
+      },
+      "breadcrumb": "Personuppgiftsbiträdesavtal",
+      "updatedBadge": "Senast uppdaterad: 19 augusti 2026",
+      "translationNotice": "Denna sida är professionellt översatt till svenska och granskad av oss. Vid eventuella avvikelser gäller den engelska versionen. Kontakta oss om du har frågor.",
+      "intro": [
+        "Detta personuppgiftsbiträdesavtal (”biträdesavtalet”) gäller när Nordic Riser AB (”biträdet”) behandlar personuppgifter för en kunds räkning (”den personuppgiftsansvarige”) i samband med NR-BOS, Medlemsportalen eller en annan mjukvaruprodukt från Nordic Riser, enligt artikel 28 i GDPR. Det kompletterar — och ersätter inte — det underliggande tjänsteavtalet eller användarvillkoren mellan parterna.",
+        "Denna publicerade version är en mall. Kontakta oss för att teckna det som ett undertecknat avtal med hänvisning till ditt specifika uppdrag."
+      ],
+      "tocLabel": "Innehåll",
+      "toc": [
+        "1. Föremål och löptid",
+        "2. Behandlingens art och syfte",
+        "3. Kategorier av uppgifter och registrerade",
+        "4. Den personuppgiftsansvariges instruktioner",
+        "5. Biträdets skyldigheter",
+        "6. Underbiträden",
+        "7. Säkerhetsåtgärder",
+        "8. Bistånd och begäranden från registrerade",
+        "9. Underrättelse om personuppgiftsincident",
+        "10. Revisionsrätt",
+        "11. Radering och återlämnande vid avslut",
+        "12. Efterlevnadsförklaring enligt artikel 28.3",
+        "13. Ansvar och tillämplig lag"
+      ],
+      "sections": {
+        "s1": {
+          "title": "Föremål och löptid",
+          "body": [
+            "Föremålet för detta biträdesavtal är biträdets behandling av personuppgifter för den personuppgiftsansvariges räkning i samband med att tillhandahålla de tjänster som beskrivs i parternas underliggande avtal (till exempel en NR-BOS-licens eller ett uppdrag i Medlemsportalen).",
+            "Detta biträdesavtal träder i kraft den dag det underliggande tjänsteavtalet träder i kraft och gäller så länge biträdet behandlar personuppgifter för den personuppgiftsansvariges räkning, inklusive under eventuell period efter avslut som beskrivs i avsnitt 11."
+          ]
+        },
+        "s2": {
+          "title": "Behandlingens art och syfte",
+          "body": [
+            "Biträdet behandlar personuppgifter för att tillhandahålla, underhålla och supportera tjänsterna — inklusive hosting, lagring, hantering av fältrapporter, projekt- och uppgiftsuppföljning, säker meddelandehantering, dokumentutbyte och, där det är aktiverat, AI-assisterad analys enligt vad som beskrivs i integritetspolicyn.",
+            "Biträdet behandlar personuppgifter endast enligt den personuppgiftsansvariges dokumenterade instruktioner, inklusive vad som anges i det underliggande avtalet, detta biträdesavtal och den personuppgiftsansvariges egen konfiguration av tjänsten (till exempel vilka funktioner som är aktiverade) — om inte annat krävs enligt EU-rätt eller nationell rätt i en medlemsstat, i vilket fall biträdet informerar den personuppgiftsansvarige om det rättsliga kravet innan behandling sker, såvida inte den lagen förbjuder sådan underrättelse."
+          ]
+        },
+        "s3": {
+          "title": "Kategorier av uppgifter och registrerade",
+          "body": [
+            "Vilka kategorier av personuppgifter som behandlas beror på vilken tjänst den personuppgiftsansvarige använder, och kan omfatta: kontoidentifierare och kontaktuppgifter; anställnings- och rollinformation; fotografier från arbetsplatsen med tillhörande plats-/tidsstämpelmetadata; projekt-, uppgifts- och kostnadsregister; registrerad arbetstid; uppladdade dokument; och meddelandeinnehåll.",
+            "Kategorier av registrerade kan omfatta: den personuppgiftsansvariges anställda, uppdragstagare och underleverantörer; den personuppgiftsansvariges egna kunder, där deras uppgifter matas in i tjänsten av den personuppgiftsansvarige; samt andra personer vars uppgifter den personuppgiftsansvarige lämnar in i samband med sin användning av tjänsten."
+          ]
+        },
+        "s4": {
+          "title": "Den personuppgiftsansvariges instruktioner",
+          "body": [
+            "Den personuppgiftsansvarige instruerar biträdet att behandla personuppgifter för att tillhandahålla tjänsterna, i enlighet med det underliggande avtalet, detta biträdesavtal och den personuppgiftsansvariges användning av tjänstens egna konfigurationsalternativ.",
+            "Den personuppgiftsansvarige garanterar att denne har en giltig rättslig grund för de personuppgifter som lämnas in till tjänsten och, där tillämpligt, har lämnat de underrättelser till eller inhämtat de samtycken från sina egna registrerade som dennes användning av tjänsten kräver."
+          ]
+        },
+        "s5": {
+          "title": "Biträdets skyldigheter",
+          "intro": "Biträdet:",
+          "list": [
+            "Behandlar personuppgifter endast enligt den personuppgiftsansvariges dokumenterade instruktioner, enligt beskrivning i avsnitt 2",
+            "Säkerställer att personer som är behöriga att behandla personuppgifter har åtagit sig konfidentialitet",
+            "Genomför de tekniska och organisatoriska säkerhetsåtgärder som beskrivs i avsnitt 7",
+            "Bistår den personuppgiftsansvarige enligt vad som beskrivs i avsnitt 8 och 9",
+            "Anlitar inte ett nytt underbiträde utan att lämna underrättelse enligt avsnitt 6",
+            "Tillhandahåller den information som krävs för att visa efterlevnad av denna artikel 28 och möjliggör revisioner enligt avsnitt 10"
+          ]
+        },
+        "s6": {
+          "title": "Underbiträden",
+          "body": [
+            "Den personuppgiftsansvarige ger biträdet ett generellt skriftligt godkännande att anlita de underbiträden som anges i biträdets publicerade förteckning över underbiträden, tillgänglig på Nordic Riser AB:s webbplats.",
+            "Biträdet underrättar den personuppgiftsansvarige om varje avsedd tillkomst eller utbyte av underbiträde, och ger den personuppgiftsansvarige möjlighet att invända på rimliga dataskyddsgrunder innan ändringen träder i kraft. Varje underbiträde är bundet av dataskyddsskyldigheter som inte är mindre skyddande än de i detta biträdesavtal."
+          ]
+        },
+        "s7": {
+          "title": "Säkerhetsåtgärder",
+          "intro": "Biträdet genomför de tekniska och organisatoriska åtgärder som beskrivs i integritetspolicyns avsnitt om datasäkerhet, inklusive, i tillämpliga delar för respektive tjänst:",
+          "list": [
+            "Krypterade kommunikationskanaler för överföring av känslig information",
+            "Autentisering och åtkomstkontroller som begränsar varje användare till sina egna uppgifter",
+            "Privat, icke-offentlig lagring för uppladdade filer, åtkomlig endast via korttidsgiltiga signerade länkar snarare än en offentlig sökväg",
+            "Regelbunden översyn av säkerhetsrutiner och personalens medvetenhet om dataskyddsskyldigheter"
+          ]
+        },
+        "s8": {
+          "title": "Bistånd och begäranden från registrerade",
+          "body": [
+            "Om en registrerad utövar en rättighet enligt GDPR (tillgång, rättelse, radering, begränsning, portabilitet eller invändning) direkt gentemot biträdet avseende uppgifter som biträdet innehar som personuppgiftsbiträde för den personuppgiftsansvarige, vidarebefordrar biträdet skyndsamt den begäran till den personuppgiftsansvarige och besvarar den inte självständigt i sak gentemot den registrerade, eftersom den personuppgiftsansvarige är rätt part att svara.",
+            "Biträdet bistår den personuppgiftsansvarige med rimligt stöd, med hänsyn till behandlingens art, för att hjälpa den personuppgiftsansvarige att fullgöra sina egna skyldigheter att besvara begäranden från registrerade och att fullgöra sina skyldigheter enligt artikel 32–36 i GDPR."
+          ]
+        },
+        "s9": {
+          "title": "Underrättelse om personuppgiftsincident",
+          "body": [
+            "Biträdet underrättar den personuppgiftsansvarige utan onödigt dröjsmål efter att ha fått kännedom om en personuppgiftsincident som påverkar den personuppgiftsansvariges uppgifter, och lämnar den information som rimligen finns tillgänglig för att hjälpa den personuppgiftsansvarige att fullgöra sina egna skyldigheter om underrättelse enligt artikel 33 och 34 i GDPR."
+          ]
+        },
+        "s10": {
+          "title": "Revisionsrätt",
+          "body": [
+            "Efter rimligt föregående skriftligt meddelande, och högst en gång per kalenderår såvida inte en personuppgiftsincident eller en tillsynsutredning ger anledning till en tätare granskning, får den personuppgiftsansvarige begära information som visar biträdets efterlevnad av detta biträdesavtal, samt genomföra eller uppdra åt någon att genomföra en revision av biträdets relevanta behandlingsaktiviteter, med förbehåll för rimliga sekretess- och schemaläggningsarrangemang för att undvika att störa biträdets verksamhet eller andra kunders uppgifter."
+          ]
+        },
+        "s11": {
+          "title": "Radering och återlämnande vid avslut",
+          "body": [
+            "Vid uppsägning av det underliggande avtalet ska biträdet, enligt den personuppgiftsansvariges val, radera eller återlämna samtliga personuppgifter som behandlats för den personuppgiftsansvariges räkning, och radera befintliga kopior, inom rimlig tid — utom i den utsträckning biträdet är skyldigt enligt EU-rätt eller nationell rätt i en medlemsstat att bevara vissa eller samtliga sådana uppgifter, i vilket fall biträdet fortsätter att skydda uppgifterna och endast behandlar dem för de ändamål som lagen kräver."
+          ]
+        },
+        "s12": {
+          "title": "Efterlevnadsförklaring enligt artikel 28.3",
+          "body": [
+            "Detta biträdesavtal är avsett att ge verkan åt kraven i artikel 28.3 i GDPR för den behandling som beskrivs i detta dokument. Om ett specifikt uppdrag kräver ytterligare eller andra villkor — till exempel den personuppgiftsansvariges egen standardmall för biträdesavtal, eller villkor specifika för en reglerad bransch — kan parterna skriftligen komma överens om ett kompletterande eller ersättande dokument; det dokumentet gäller i den utsträckning det står i strid med detta."
+          ]
+        },
+        "s13": {
+          "title": "Ansvar och tillämplig lag",
+          "body": [
+            "Ansvar enligt detta biträdesavtal omfattas av de begränsningar som anges i användarvillkoren mellan parterna, utom där en sådan begränsning inte är tillåten enligt tillämplig dataskyddslagstiftning.",
+            "Detta biträdesavtal regleras av svensk lag, med Stockholms tingsrätt som första instans för varje tvist som uppstår med anledning av det, i linje med användarvillkoren."
+          ]
+        }
       }
     },
     "consulting": {

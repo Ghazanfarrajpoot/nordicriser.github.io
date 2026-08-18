@@ -20,6 +20,13 @@ module.exports = function (eleventyConfig) {
     return `/${path}`;
   });
 
+  // Looks up a locale's display name (e.g. "Deutsch") from site.locales by code —
+  // used for the "not yet translated" notice on legal pages falling back to English.
+  eleventyConfig.addFilter("localeName", (locales, code) => {
+    const match = (locales || []).find((l) => l.code === code);
+    return match ? match.name : code;
+  });
+
   return {
     dir: {
       input: "src",

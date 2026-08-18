@@ -22,6 +22,10 @@
     { "slug": "consulting", "key": "consulting", "changefreq": "monthly", "priority": "0.6" },
     { "slug": "about", "key": "about", "changefreq": "monthly", "priority": "0.7" },
     { "slug": "contact", "key": "contact", "changefreq": "monthly", "priority": "0.7" },
-    { "slug": "privacy", "key": "privacy", "changefreq": "yearly", "priority": "0.3" }
+    { "slug": "legal", "key": "legal", "changefreq": "yearly", "priority": "0.3" },
+    { "slug": "legal/privacy", "key": "privacy", "changefreq": "yearly", "priority": "0.3" },
+    { "slug": "legal/terms", "key": "legalTerms", "changefreq": "yearly", "priority": "0.3" },
+    { "slug": "legal/dpa", "key": "legalDpa", "changefreq": "yearly", "priority": "0.2" },
+    { "slug": "legal/subprocessors", "key": "legalSubprocessors", "changefreq": "monthly", "priority": "0.2" }
   ]
 }

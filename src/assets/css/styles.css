@@ -522,6 +522,8 @@ img { display: block; max-width: 100%; }
   line-height: 1.85;
 }
 
+.cta-box-buttons { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
+
 .contact-strip {
   display: flex;
   justify-content: center;
@@ -567,14 +569,14 @@ img { display: block; max-width: 100%; }
   margin: 0 auto;
   padding: 4.5rem 2rem 3.5rem;
   display: grid;
-  grid-template-columns: 1.8fr 2.4fr 1fr 1.6fr;
+  grid-template-columns: 1.5fr 2.2fr 0.9fr 1fr 1.3fr;
   gap: 3rem;
   align-items: start;
 }
 
 /* No compliance/disclaimer column outside /consulting/ — redistribute the
-   freed width instead of leaving a dead fourth track. */
-.footer-main--3col { grid-template-columns: 1.8fr 2.4fr 1.8fr; }
+   freed width instead of leaving a dead fifth track. */
+.footer-main--compact { grid-template-columns: 1.6fr 2.3fr 1fr 1.1fr; }
 
 .footer-services-group {
   display: flex;

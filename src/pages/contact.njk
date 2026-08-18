@@ -93,7 +93,7 @@ pageSlug: contact
 
         <div class="field">
           <label for="message">{{ f.message }} <span class="required">*</span></label>
-          <textarea id="message" name="message" placeholder="{{ f.messagePlaceholder }}" required></textarea>
+          <textarea id="message" name="message" placeholder="{{ f.messagePlaceholder }}" data-trial-prefill="{{ f.trialPrefillMessage }}" required></textarea>
           <span class="hint">{{ f.messageHint }}</span>
         </div>
 

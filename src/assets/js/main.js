@@ -28,6 +28,22 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.1 });
 document.querySelectorAll('[data-animate]').forEach(el => observer.observe(el));
 
+// Contact page: pre-select the enquiry purpose from a ?purpose= query param
+// (used by the NR-BOS trial CTA) and prefill the message field to match.
+const purposeSelect = document.getElementById('purpose');
+if (purposeSelect) {
+  const requestedPurpose = new URLSearchParams(window.location.search).get('purpose');
+  const matchingOption = requestedPurpose &&
+    Array.from(purposeSelect.options).find((opt) => opt.value === requestedPurpose);
+  if (matchingOption) {
+    purposeSelect.value = requestedPurpose;
+    const messageField = document.getElementById('message');
+    if (messageField && !messageField.value && messageField.dataset.trialPrefill && requestedPurpose === 'nrbos-trial') {
+      messageField.value = messageField.dataset.trialPrefill;
+    }
+  }
+}
+
 // Contact page: demo-only client-side "submit" (no backend wired up yet).
 const consultationForm = document.getElementById('consultationForm');
 if (consultationForm) {

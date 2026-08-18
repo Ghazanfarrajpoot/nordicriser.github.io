@@ -7,151 +7,19 @@ permalink: "{{ 'privacy' | localePath(loc.code) }}index.html"
 eleventyComputed:
   locale: "{{ loc.code }}"
   dir: "{{ loc.dir }}"
-layout: layouts/page.njk
-pageKey: privacy
-pageSlug: privacy
+eleventyExcludeFromCollections: true
 ---
-{%- set t = locales[locale] -%}
-{%- set p = t.pages.privacy -%}
-{%- set s = p.sections -%}
-{% import "partials/icons.njk" as icons %}
-
-<section class="page-hero">
-  <div class="page-hero-inner" data-animate>
-    <span class="page-hero-label">{{ p.hero.label }}</span>
-    <h1>{{ p.hero.h1 }}</h1>
-    <p>{{ p.hero.body }}</p>
-  </div>
-</section>
-
-<div class="breadcrumb">
-  <div class="breadcrumb-inner">
-    <a href="{{ '' | localeUrl(locale) }}">{{ t.common.home }}</a> &rsaquo; <span>{{ p.breadcrumb }}</span>
-  </div>
-</div>
-
-<div class="content-wrap">
-
-  {%- if locale != "en" %}
-  <div class="translation-notice">{{ p.translationNotice }}</div>
-  {%- endif %}
-
-  <aside class="toc">
-    <span class="toc-label">{{ p.tocLabel }}</span>
-    <ul class="toc-list">
-      {%- for item in p.toc %}
-      <li><a href="#s{{ loop.index }}">{{ item }}</a></li>
-      {%- endfor %}
-    </ul>
-  </aside>
-
-  <div class="doc-body">
-    <div class="updated-badge">{{ icons.icon('calendar') }} {{ p.updatedBadge }}</div>
-
-    <div class="doc-section" id="s1">
-      <h2><span class="sec-num">1</span> {{ s.s1.title }}</h2>
-      {%- for para in s.s1.body %}<p>{{ para }}</p>{% endfor %}
-    </div>
-
-    <div class="doc-section" id="s2">
-      <h2><span class="sec-num">2</span> {{ s.s2.title }}</h2>
-      {%- for para in s.s2.body %}<p>{{ para }}</p>{% endfor %}
-    </div>
-
-    <div class="doc-section" id="s3">
-      <h2><span class="sec-num">3</span> {{ s.s3.title }}</h2>
-      {%- for sub in s.s3.subheadings %}
-      <h3>{{ sub.title }}</h3>
-      <p>{{ sub.intro }}</p>
-      <ul>{% for li in sub.list %}<li>{{ li }}</li>{% endfor %}</ul>
-      {%- endfor %}
-    </div>
-
-    <div class="doc-section" id="s4">
-      <h2><span class="sec-num">4</span> {{ s.s4.title }}</h2>
-      <p>{{ s.s4.intro }}</p>
-      <table class="data-table">
-        <thead><tr>{% for h in s.s4.table.headers %}<th>{{ h }}</th>{% endfor %}</tr></thead>
-        <tbody>
-          {%- for row in s.s4.table.rows %}
-          <tr>{% for cell in row %}<td>{{ cell }}</td>{% endfor %}</tr>
-          {%- endfor %}
-        </tbody>
-      </table>
-      <div class="info-box"><p>{{ s.s4.note }}</p></div>
-    </div>
-
-    <div class="doc-section" id="s5">
-      <h2><span class="sec-num">5</span> {{ s.s5.title }}</h2>
-      {%- for sub in s.s5.subheadings %}
-      <h3>{{ sub.title }}</h3>
-      <p>{{ sub.intro }}</p>
-      {%- if sub.list %}
-      <ul>{% for li in sub.list %}<li>{{ li }}</li>{% endfor %}</ul>
-      {%- endif %}
-      {%- if sub.outro %}<p>{{ sub.outro }}</p>{% endif %}
-      {%- endfor %}
-    </div>
-
-    <div class="doc-section" id="s6">
-      <h2><span class="sec-num">6</span> {{ s.s6.title }}</h2>
-      <p>{{ s.s6.intro }}</p>
-      <ul>{% for li in s.s6.list %}<li>{{ li }}</li>{% endfor %}</ul>
-      <p>{{ s.s6.outro }}</p>
-    </div>
-
-    <div class="doc-section" id="s7">
-      <h2><span class="sec-num">7</span> {{ s.s7.title }}</h2>
-      <p>{{ s.s7.intro }}</p>
-      <ul>{% for li in s.s7.list %}<li>{{ li }}</li>{% endfor %}</ul>
-      <p>{{ s.s7.outro }}</p>
-    </div>
-
-    <div class="doc-section" id="s8">
-      <h2><span class="sec-num">8</span> {{ s.s8.title }}</h2>
-      <p>{{ s.s8.intro }}</p>
-      <div class="rights-grid">
-        {%- for r in s.s8.rights %}
-        <div class="right-card"><h4>{{ r.title }}</h4><p>{{ r.body }}</p></div>
-        {%- endfor %}
-      </div>
-      <p>{{ s.s8.outro }}</p>
-    </div>
-
-    <div class="doc-section" id="s9">
-      <h2><span class="sec-num">9</span> {{ s.s9.title }}</h2>
-      {%- for para in s.s9.body %}<p>{{ para }}</p>{% endfor %}
-    </div>
-
-    <div class="doc-section" id="s10">
-      <h2><span class="sec-num">10</span> {{ s.s10.title }}</h2>
-      {%- for para in s.s10.body %}<p>{{ para }}</p>{% endfor %}
-    </div>
-
-    <div class="doc-section" id="s11">
-      <h2><span class="sec-num">11</span> {{ s.s11.title }}</h2>
-      <p>{{ s.s11.intro }}</p>
-      <ul>{% for li in s.s11.list %}<li>{{ li }}</li>{% endfor %}</ul>
-      <p>{{ s.s11.outro }}</p>
-    </div>
-
-    <div class="doc-section" id="s12">
-      <h2><span class="sec-num">12</span> {{ s.s12.title }}</h2>
-      <p>{{ s.s12.intro }}</p>
-      {%- for para in s.s12.body %}<p>{{ para }}</p>{% endfor %}
-    </div>
-
-    <div class="doc-section" id="s13">
-      <h2><span class="sec-num">13</span> {{ s.s13.title }}</h2>
-      <p>{{ s.s13.intro }}</p>
-      <div class="contact-card">
-        <div>
-          <h4>{{ s.s13.cardTitle }}</h4>
-          <p>{{ s.s13.cardBody }}</p>
-        </div>
-        <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
-      </div>
-    </div>
-
-  </div>
-</div>
+{%- set target = site.baseUrl + ('legal/privacy' | localeUrl(locale)) -%}
+<!DOCTYPE html>
+<html lang="{{ locale }}" dir="{{ dir }}">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="refresh" content="0; url={{ target }}">
+<link rel="canonical" href="{{ target }}">
+<meta name="robots" content="noindex, follow">
+<title>Nordic Riser AB — Privacy Policy Has Moved</title>
+</head>
+<body>
+<p>Our Privacy Policy has moved to <a href="{{ target }}">{{ target }}</a>. If you are not redirected automatically, please click the link.</p>
+</body>
+</html>

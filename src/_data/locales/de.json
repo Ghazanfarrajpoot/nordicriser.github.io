@@ -265,6 +265,7 @@
           { "value": "automation", "label": "Automatisierung & Integrationen" },
           { "value": "support", "label": "Laufende Wartung & Support" },
           { "value": "globalreach", "label": "Global-Reach-Abonnement" },
+          { "value": "nrbos-trial", "label": "NR-BOS 3-Tage-Testcode-Anfrage" },
           { "value": "consulting", "label": "Beratung zur Unternehmensgründung" },
           { "value": "general", "label": "Allgemeine Anfrage" }
         ],
@@ -290,6 +291,7 @@
         ],
         "message": "Kurze Beschreibung Ihrer Situation",
         "messagePlaceholder": "Bitte beschreiben Sie Ihre aktuelle Situation, Ihre Ziele und etwaige konkrete Fragen. Je genauer Ihre Angaben, desto produktiver wird unser Erstgespräch.",
+        "trialPrefillMessage": "Anfrage für einen 3-tägigen Testcode für NR-BOS.\n\nFirmenname: \nTeamgröße: \nWas wir während der Testphase evaluieren möchten: ",
         "messageHint": "Diese Angaben werden streng vertraulich behandelt und dienen ausschließlich der Vorbereitung Ihres Beratungsgesprächs.",
         "consent": "Mit dem Absenden dieses Formulars bestätigen Sie, dass die gemachten Angaben zutreffend sind, und erklären sich damit einverstanden, dass Nordic Riser AB Ihre Kontaktdaten zum Zweck der Bearbeitung Ihrer Anfrage speichert. Wir geben Mandanteninformationen nicht an Dritte weiter.",
         "submit": "Beratungsanfrage absenden →"
@@ -322,106 +324,7 @@
         ]
       }
     },
-    "privacy": {
-      "hero": { "label": "Rechtliches", "h1": "Datenschutzerklärung", "body": "Wie Nordic Riser AB Ihre personenbezogenen Daten gemäß der EU-Datenschutz-Grundverordnung (DSGVO) erhebt, verwendet und schützt." },
-      "breadcrumb": "Datenschutzerklärung",
-      "updatedBadge": "Zuletzt aktualisiert: 23. Juni 2026",
-      "translationNotice": "Diese Seite wurde maschinell übersetzt. Bei Abweichungen ist die englische Fassung maßgeblich. Bei Fragen kontaktieren Sie uns bitte.",
-      "tocLabel": "Inhalt",
-      "toc": [
-        "1. Einleitung", "2. Verantwortlicher", "3. Von uns erhobene Informationen", "4. Wie wir Ihre Daten verwenden",
-        "5. Datenweitergabe", "6. Datensicherheit", "7. Speicherdauer", "8. Ihre Rechte (DSGVO)",
-        "9. Cookies", "10. Datenschutz für Kinder", "11. Änderungen der Richtlinie", "12. Aufsichtsbehörde", "13. Kontakt"
-      ],
-      "sections": {
-        "s1": { "title": "Einleitung", "body": [
-          "Nordic Riser AB („wir“, „uns“ oder „unser Unternehmen“) verpflichtet sich, Ihre Privatsphäre zu schützen und die Sicherheit Ihrer personenbezogenen Daten zu gewährleisten. Diese Datenschutzerklärung erläutert, wie wir Ihre Daten erheben, verwenden, offenlegen und schützen, wenn Sie unsere Website besuchen oder unsere Beratungsleistungen in Anspruch nehmen.",
-          "Diese Richtlinie soll die Anforderungen der EU-Datenschutz-Grundverordnung (DSGVO) sowie der geltenden Datenschutzgesetze erfüllen. Durch die Nutzung unserer Website oder das Absenden einer Anfrage bestätigen Sie, dass Sie diese Richtlinie gelesen und verstanden haben."
-        ]},
-        "s2": { "title": "Verantwortlicher", "body": [
-          "Nordic Riser AB ist der für Ihre über unsere Website und Dienstleistungen erhobenen personenbezogenen Daten Verantwortliche.",
-          "Nordic Riser AB — Email: info@nordicriser.com — Website: www.nordicriser.com",
-          "Für alle Angelegenheiten des Datenschutzes kontaktieren Sie uns bitte über die oben genannten Angaben mit dem Betreff „Datenschutzanfrage“."
-        ]},
-        "s3": { "title": "Von uns erhobene Informationen", "subheadings": [
-          { "title": "3.1 Informationen, die Sie uns direkt zur Verfügung stellen", "intro": "Wir erheben Informationen, die Sie uns freiwillig zur Verfügung stellen, darunter:", "list": [
-            "Kontaktinformationen: Name, E-Mail-Adresse, Telefonnummer",
-            "Berufliche Informationen: Art der Tätigkeit, beruflicher Hintergrund, geschäftliche Ziele",
-            "Daten zur Beratungsanfrage: Zweck der Beratung und Beschreibung Ihrer Situation, wie über unser Kontaktformular übermittelt",
-            "Kommunikationsdaten: Informationen aus E-Mails und sonstigem Schriftverkehr mit unserem Team"
-          ]},
-          { "title": "3.2 Automatisch erhobene Informationen", "intro": "Wenn Sie unsere Website besuchen, können wir automatisch Folgendes erheben:", "list": [
-            "Technische Daten: IP-Adresse, Browsertyp, Betriebssystem, Geräteinformationen",
-            "Nutzungsdaten: besuchte Seiten, Verweildauer, Navigationspfade",
-            "Cookies: kleine auf Ihrem Gerät gespeicherte Dateien (siehe Abschnitt 9)"
-          ]}
-        ]},
-        "s4": { "title": "Wie wir Ihre Informationen verwenden", "intro": "Wir verarbeiten Ihre personenbezogenen Daten ausschließlich für die nachfolgend genannten Zwecke, jeweils gestützt auf eine Rechtsgrundlage nach der DSGVO:",
-          "table": { "headers": ["Zweck", "Rechtsgrundlage (DSGVO)"], "rows": [
-            ["Bearbeitung von Beratungsanfragen und Anliegen", "Vertragserfüllung / Berechtigtes Interesse"],
-            ["Erbringung strategischer Beratungs-, Technologie- und globaler Kollaborationsleistungen", "Vertragserfüllung"],
-            ["Kommunikation über unsere Leistungen und den Fortschritt des Mandats", "Vertragserfüllung / Einwilligung"],
-            ["Verbesserung unserer Website und Servicequalität", "Berechtigtes Interesse"],
-            ["Koordination mit externen Fachpartnern (Recht, Buchhaltung)", "Vertragserfüllung / Berechtigtes Interesse"],
-            ["Einhaltung gesetzlicher und regulatorischer Pflichten", "Rechtliche Verpflichtung"]
-          ]},
-          "note": "Wir verkaufen, vermieten oder handeln nicht mit Ihren personenbezogenen Daten an Dritte. Wir verwenden Ihre Daten nicht für Zwecke, die mit den oben genannten unvereinbar sind."
-        },
-        "s5": { "title": "Datenweitergabe und -offenlegung", "subheadings": [
-          { "title": "5.1 Professionelle Servicepartner", "intro": "Soweit dies für die Erbringung unserer Leistungen erforderlich ist, geben wir relevante Informationen gegebenenfalls an qualifizierte externe Fachleute weiter, darunter:", "list": [
-            "Rechtsberater und Fachspezialisten, die im Zusammenhang mit Ihrem Anliegen tätig werden",
-            "Buchhaltungs- und Steuerfachleute, die an der Unternehmensgründung oder Compliance beteiligt sind",
-            "Technologiepartner, die unser Website-Hosting und unsere Kommunikationsinfrastruktur unterstützen"
-          ], "outro": "Alle Dritten sind verpflichtet, angemessene Sicherheitsmaßnahmen einzuhalten, und dürfen Ihre Daten nur nach unseren Vorgaben und im Rahmen ihrer beruflichen Pflichten verarbeiten." },
-          { "title": "5.2 Gesetzliche Anforderungen", "intro": "Wir können Ihre personenbezogenen Daten offenlegen, wenn wir gesetzlich, behördlich, im Rahmen eines gerichtlichen Verfahrens oder aufgrund einer berechtigten behördlichen Anfrage dazu verpflichtet sind." },
-          { "title": "5.3 Internationale Datenübermittlungen", "intro": "Wir verarbeiten Daten in erster Linie innerhalb der EU/des EWR. Sollten Daten außerhalb der EU/des EWR übermittelt werden, stellen wir vor jeder solchen Übermittlung sicher, dass angemessene Garantien bestehen — etwa Standardvertragsklauseln oder geltende Angemessenheitsbeschlüsse." }
-        ]},
-        "s6": { "title": "Datensicherheit", "intro": "Wir setzen angemessene technische und organisatorische Maßnahmen ein, um Ihre personenbezogenen Daten vor unbefugtem Zugriff, Veränderung, Offenlegung oder Vernichtung zu schützen. Diese Maßnahmen umfassen:", "list": [
-          "Verschlüsselte Kommunikationskanäle für die Übermittlung sensibler Informationen",
-          "Sichere Serverinfrastruktur und Datenspeichersysteme",
-          "Zugriffskontrollen und Authentifizierungsverfahren für interne Systeme",
-          "Regelmäßige Überprüfung und Aktualisierung der Sicherheitspraktiken",
-          "Sensibilisierung der Mitarbeitenden für Datenschutzpflichten"
-        ], "outro": "Obwohl wir alle angemessenen Vorkehrungen treffen, ist keine Methode der elektronischen Übermittlung oder Speicherung vollständig sicher. Wir können keine absolute Sicherheit garantieren, setzen uns jedoch dafür ein, Ihre Daten nach dem höchstmöglichen praktikablen Standard zu schützen." },
-        "s7": { "title": "Speicherdauer", "intro": "Wir speichern Ihre personenbezogenen Daten nur so lange, wie es zur Erfüllung der in dieser Richtlinie genannten Zwecke und zur Einhaltung unserer gesetzlichen Pflichten erforderlich ist:", "list": [
-          "Aktive Mandantendaten: Dauer des Mandats zuzüglich 7 Jahre (gemäß geltendem Buchführungs- und Aufbewahrungsrecht)",
-          "Anfragedaten (nicht in ein Mandat übergegangen): 2 Jahre ab dem Datum des letzten Kontakts",
-          "Website-Analysedaten: höchstens 26 Monate",
-          "Einwilligungsnachweise: bis zum Widerruf der Einwilligung, zuzüglich eines angemessenen Zeitraums für Aufbewahrungszwecke"
-        ], "outro": "Nach Ablauf der jeweiligen Aufbewahrungsfrist werden personenbezogene Daten sicher gelöscht oder anonymisiert." },
-        "s8": { "title": "Ihre Rechte nach der DSGVO", "intro": "Als betroffene Person im Sinne der DSGVO haben Sie in Bezug auf Ihre personenbezogenen Daten folgende Rechte:",
-          "rights": [
-            { "title": "Recht auf Auskunft", "body": "Sie können eine Kopie der über Sie gespeicherten personenbezogenen Daten anfordern." },
-            { "title": "Recht auf Berichtigung", "body": "Sie können die Berichtigung unrichtiger oder unvollständiger Daten verlangen." },
-            { "title": "Recht auf Löschung", "body": "Sie können unter bestimmten Umständen die Löschung Ihrer Daten verlangen („Recht auf Vergessenwerden“)." },
-            { "title": "Recht auf Einschränkung der Verarbeitung", "body": "Sie können verlangen, dass wir die Nutzung Ihrer Daten in bestimmten Fällen einschränken." },
-            { "title": "Recht auf Datenübertragbarkeit", "body": "Sie können Ihre Daten, soweit anwendbar, in einem strukturierten, maschinenlesbaren Format erhalten." },
-            { "title": "Widerspruchsrecht", "body": "Sie können der Verarbeitung widersprechen, die auf berechtigten Interessen beruht oder zu Zwecken der Direktwerbung erfolgt." },
-            { "title": "Recht auf Widerruf der Einwilligung", "body": "Sie können jederzeit eine erteilte Einwilligung widerrufen, ohne dass dies die Rechtmäßigkeit der bis dahin erfolgten Verarbeitung berührt." },
-            { "title": "Beschwerderecht", "body": "Sie können bei der zuständigen Aufsichtsbehörde Beschwerde einlegen (siehe Abschnitt 12)." }
-          ],
-          "outro": "Um eines der oben genannten Rechte auszuüben, kontaktieren Sie uns bitte unter info@nordicriser.com mit dem Betreff „Anfrage einer betroffenen Person“. Wir antworten innerhalb eines Monats, wie von der DSGVO vorgeschrieben."
-        },
-        "s9": { "title": "Cookies und Tracking-Technologien", "body": [
-          "Unsere Website ist eine statische Informationsseite mit minimalem Tracking. Wir verwenden gegebenenfalls essenzielle Cookies, die für den grundlegenden Betrieb der Website erforderlich sind, etwa um Ihre gewählte Sprache zu speichern. Derzeit verwenden wir keine Cookies von Drittanbietern für Werbung oder Verhaltensverfolgung.",
-          "Sollten wir künftig Analyse- oder zusätzliche Tracking-Technologien einsetzen, holen wir vor dem Setzen nicht essenzieller Cookies Ihre vorherige Einwilligung ein, informieren klar über Zweck und Dauer jedes einzelnen Cookies und bieten unkomplizierte Möglichkeiten, Ihre Cookie-Einstellungen zu verwalten oder zu widerrufen.",
-          "Sie können Cookies jederzeit über Ihre Browsereinstellungen verwalten und löschen. Bitte beachten Sie, dass die Deaktivierung bestimmter Cookies die Funktionalität der Website beeinträchtigen kann."
-        ]},
-        "s10": { "title": "Datenschutz für Kinder", "body": [
-          "Unsere Dienstleistungen richten sich ausschließlich an Erwachsene, die berufliche und geschäftliche Tätigkeiten ausüben. Wir erheben wissentlich keine personenbezogenen Daten von Personen unter 18 Jahren. Sollten wir versehentlich Daten von einer minderjährigen Person erhoben haben, kontaktieren Sie uns bitte umgehend; wir werden geeignete Schritte zur Löschung dieser Informationen einleiten."
-        ]},
-        "s11": { "title": "Änderungen dieser Datenschutzerklärung", "intro": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren, um Änderungen unserer Praktiken, der geltenden Gesetzgebung oder unserer betrieblichen Abläufe widerzuspiegeln. Wesentliche Änderungen werden wie folgt kommuniziert:", "list": [
-          "Aktualisierung des Datums „Zuletzt aktualisiert“ oben auf dieser Seite",
-          "Gegebenenfalls Benachrichtigung aktiver Mandanten per E-Mail",
-          "Veröffentlichung eines Hinweises auf unserer Website"
-        ], "outro": "Wir empfehlen Ihnen, diese Richtlinie regelmäßig zu überprüfen. Ihre fortgesetzte Nutzung unserer Website nach einer Aktualisierung gilt als Zustimmung zur überarbeiteten Richtlinie." },
-        "s12": { "title": "Aufsichtsbehörde", "intro": "Wenn Sie Bedenken hinsichtlich der Verarbeitung Ihrer personenbezogenen Daten haben und mit unserer Antwort nicht zufrieden sind, haben Sie das Recht, bei der zuständigen Aufsichtsbehörde Beschwerde einzulegen:", "body": [
-          "Integritetsskyddsmyndigheten (IMY) — Schwedische Behörde für den Schutz der Privatsphäre",
-          "Box 8114, 104 20 Stockholm — Telefon: +46 8 657 61 00 — Website: www.imy.se"
-        ]},
-        "s13": { "title": "Kontaktieren Sie uns bezüglich dieser Richtlinie", "intro": "Wenn Sie Fragen, Bedenken oder Anliegen zu dieser Datenschutzerklärung oder unseren Datenschutzpraktiken haben, kontaktieren Sie uns bitte direkt:", "cardTitle": "Anfragen zum Datenschutz", "cardBody": "Schreiben Sie uns mit dem Betreff „Anfrage zur Datenschutzerklärung“, und wir antworten umgehend." }
-      }
-    },
+
     "consulting": {
       "hero": { "label": "Beratung", "h1": "Strategische Beratung für die internationale Geschäftsansiedlung", "body": "Wir bieten strukturierte, professionelle Beratung in fünf Kernbereichen — jeder davon konzipiert, um Unternehmerinnen, Unternehmer und Fachkräfte beim Aufbau einer rechtskonformen Geschäftspräsenz in Europa zu unterstützen." },
       "breadcrumb": "Beratung",

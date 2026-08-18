@@ -265,6 +265,7 @@
           { "value": "automation", "label": "Automação e Integrações" },
           { "value": "support", "label": "Suporte e Manutenção Contínuos" },
           { "value": "globalreach", "label": "Subscrição Alcance Global" },
+          { "value": "nrbos-trial", "label": "Pedido de código de teste de 3 dias do NR-BOS" },
           { "value": "consulting", "label": "Consultoria para Estabelecimento de Negócios" },
           { "value": "general", "label": "Consulta Geral" }
         ],
@@ -290,6 +291,7 @@
         ],
         "message": "Breve Descrição da Sua Situação",
         "messagePlaceholder": "Descreva a sua situação atual, os seus objetivos e quaisquer questões específicas que tenha. Quanto mais específico for, mais produtiva será a nossa consulta inicial.",
+        "trialPrefillMessage": "Pedido de um código de teste de 3 dias para o NR-BOS.\n\nNome da empresa: \nTamanho da equipa: \nO que gostaríamos de avaliar durante o teste: ",
         "messageHint": "Esta informação é tratada como estritamente confidencial e é utilizada exclusivamente para preparar a sua consulta.",
         "consent": "Ao submeter este formulário, confirma que a informação fornecida é exata e que consente que a Nordic Riser AB conserve os seus dados de contacto com a finalidade de responder à sua consulta. Não partilhamos informação dos clientes com terceiros.",
         "submit": "Submeter Pedido de Consulta →"
@@ -322,106 +324,7 @@
         ]
       }
     },
-    "privacy": {
-      "hero": { "label": "Legal", "h1": "Política de Privacidade", "body": "Como a Nordic Riser AB recolhe, utiliza e protege as suas informações pessoais em conformidade com o Regulamento Geral sobre a Proteção de Dados (RGPD) da UE." },
-      "breadcrumb": "Política de Privacidade",
-      "updatedBadge": "Última Atualização: 23 de junho de 2026",
-      "translationNotice": "Esta página foi traduzida automaticamente. Em caso de discrepância, a versão em inglês prevalece. Contacte-nos com quaisquer questões.",
-      "tocLabel": "Índice",
-      "toc": [
-        "1. Introdução", "2. Responsável pelo Tratamento de Dados", "3. Informação que Recolhemos", "4. Como Utilizamos os Seus Dados",
-        "5. Partilha de Dados", "6. Segurança dos Dados", "7. Retenção de Dados", "8. Os Seus Direitos (RGPD)",
-        "9. Cookies", "10. Privacidade de Menores", "11. Alterações à Política", "12. Autoridade de Controlo", "13. Contacto"
-      ],
-      "sections": {
-        "s1": { "title": "Introdução", "body": [
-          "A Nordic Riser AB (“nós”, “a nossa empresa” ou “nos”) compromete-se a proteger a sua privacidade e a garantir a segurança das suas informações pessoais. Esta Política de Privacidade explica como recolhemos, utilizamos, divulgamos e protegemos as suas informações quando visita o nosso website ou recorre aos nossos serviços de consultoria.",
-          "Esta política foi concebida para cumprir o Regulamento Geral sobre a Proteção de Dados (RGPD) da UE e a legislação de proteção de dados aplicável. Ao utilizar o nosso website ou submeter uma consulta, reconhece que leu e compreendeu esta política."
-        ]},
-        "s2": { "title": "Responsável pelo Tratamento de Dados", "body": [
-          "A Nordic Riser AB é o responsável pelo tratamento das suas informações pessoais recolhidas através do nosso website e serviços.",
-          "Nordic Riser AB — Email: info@nordicriser.com — Website: www.nordicriser.com",
-          "Para todas as questões relacionadas com a proteção de dados, contacte-nos utilizando os dados acima, com a linha de assunto “Consulta sobre Proteção de Dados”."
-        ]},
-        "s3": { "title": "Informação que Recolhemos", "subheadings": [
-          { "title": "3.1 Informação que Fornece Diretamente", "intro": "Recolhemos informação que nos fornece voluntariamente, incluindo:", "list": [
-            "Informação de Contacto: Nome, endereço de email, número de telefone",
-            "Informação Profissional: Tipo de negócio, percurso profissional, objetivos empresariais",
-            "Dados do Pedido de Consulta: Finalidade da consulta e descrição da sua situação, tal como submetidas através do nosso formulário de contacto",
-            "Dados de Comunicação: Informação contida em emails e outra correspondência com a nossa equipa"
-          ]},
-          { "title": "3.2 Informação Recolhida Automaticamente", "intro": "Quando visita o nosso website, podemos recolher automaticamente:", "list": [
-            "Dados Técnicos: Endereço IP, tipo de navegador, sistema operativo, informação do dispositivo",
-            "Dados de Utilização: Páginas visitadas, tempo despendido nas páginas, percursos de navegação",
-            "Cookies: Pequenos ficheiros de dados armazenados no seu dispositivo (ver Secção 9)"
-          ]}
-        ]},
-        "s4": { "title": "Como Utilizamos a Sua Informação", "intro": "Tratamos os seus dados pessoais apenas para as finalidades a seguir indicadas, cada uma sustentada por um fundamento jurídico ao abrigo do RGPD:",
-          "table": { "headers": ["Finalidade", "Fundamento Jurídico (RGPD)"], "rows": [
-            ["Responder a pedidos de consulta e questões", "Execução de contrato / Interesse legítimo"],
-            ["Prestar serviços estratégicos de consultoria, tecnologia e colaboração global", "Execução de contrato"],
-            ["Comunicar sobre os nossos serviços e o progresso da colaboração", "Execução de contrato / Consentimento"],
-            ["Melhorar o nosso website e a qualidade dos serviços", "Interesse legítimo"],
-            ["Coordenar com profissionais terceiros (jurídicos, contabilísticos)", "Execução de contrato / Interesse legítimo"],
-            ["Cumprimento de obrigações legais e regulamentares", "Obrigação legal"]
-          ]},
-          "note": "Não venderemos, alugaremos ou trocaremos as suas informações pessoais com terceiros. Não utilizaremos os seus dados para finalidades incompatíveis com as acima indicadas."
-        },
-        "s5": { "title": "Partilha e Divulgação de Dados", "subheadings": [
-          { "title": "5.1 Parceiros de Serviços Profissionais", "intro": "Sempre que necessário para prestar os nossos serviços, podemos partilhar informação relevante com profissionais terceiros qualificados, incluindo:", "list": [
-            "Advogados e consultores especialistas envolvidos no seu processo",
-            "Profissionais de contabilidade e fiscalidade envolvidos na constituição de empresas ou na conformidade",
-            "Fornecedores de tecnologia que apoiam o alojamento do nosso website e a infraestrutura de comunicações"
-          ], "outro": "Todos os terceiros são obrigados a manter medidas de segurança adequadas e apenas podem tratar os seus dados conforme as nossas instruções e dentro do âmbito das suas obrigações profissionais." },
-          { "title": "5.2 Requisitos Legais", "intro": "Podemos divulgar as suas informações pessoais quando tal for exigido por lei, regulamento, processo judicial ou por um pedido legítimo de uma autoridade governamental." },
-          { "title": "5.3 Transferências Internacionais de Dados", "intro": "Tratamos os dados essencialmente dentro da UE/EEE. Caso os dados sejam transferidos para fora da UE/EEE, asseguramos que existem salvaguardas adequadas — tais como Cláusulas Contratuais-Tipo ou decisões de adequação aplicáveis — antes de qualquer transferência dessa natureza." }
-        ]},
-        "s6": { "title": "Segurança dos Dados", "intro": "Implementamos medidas técnicas e organizativas adequadas para proteger as suas informações pessoais contra acesso não autorizado, alteração, divulgação ou destruição. Estas medidas incluem:", "list": [
-          "Canais de comunicação encriptados para a transmissão de informação sensível",
-          "Infraestrutura de servidores segura e sistemas de armazenamento de dados",
-          "Controlos de acesso e procedimentos de autenticação para sistemas internos",
-          "Revisão e atualização regulares das práticas de segurança",
-          "Sensibilização da equipa para as obrigações de proteção de dados"
-        ], "outro": "Embora tomemos todas as precauções razoáveis, nenhum método de transmissão ou armazenamento eletrónico é totalmente seguro. Não podemos garantir segurança absoluta, mas comprometemo-nos a proteger os seus dados ao mais alto nível praticável." },
-        "s7": { "title": "Retenção de Dados", "intro": "Conservamos as suas informações pessoais apenas durante o período necessário para cumprir as finalidades descritas nesta política e para cumprir as nossas obrigações legais:", "list": [
-          "Dados de Clientes Ativos: Duração da colaboração mais 7 anos (em conformidade com a legislação contabilística e de manutenção de registos aplicável)",
-          "Dados de Consultas (não convertidas): 2 anos a partir da data do último contacto",
-          "Dados de Análise do Website: Máximo de 26 meses",
-          "Registos de Consentimento: Até o consentimento ser retirado, mais um período razoável subsequente para efeitos de manutenção de registos"
-        ], "outro": "Após o termo do período de retenção aplicável, os dados pessoais são eliminados de forma segura ou anonimizados." },
-        "s8": { "title": "Os Seus Direitos ao Abrigo do RGPD", "intro": "Enquanto titular de dados ao abrigo do RGPD, tem os seguintes direitos relativamente aos seus dados pessoais:",
-          "rights": [
-            { "title": "Direito de Acesso", "body": "Solicitar uma cópia dos dados pessoais que detemos sobre si." },
-            { "title": "Direito de Retificação", "body": "Solicitar a correção de dados inexatos ou incompletos." },
-            { "title": "Direito ao Apagamento", "body": "Solicitar a eliminação dos seus dados em determinadas circunstâncias (“direito ao esquecimento”)." },
-            { "title": "Direito à Limitação do Tratamento", "body": "Solicitar que limitemos a forma como utilizamos os seus dados em circunstâncias específicas." },
-            { "title": "Direito à Portabilidade dos Dados", "body": "Receber os seus dados num formato estruturado e de leitura automática, sempre que aplicável." },
-            { "title": "Direito de Oposição", "body": "Opor-se ao tratamento baseado em interesses legítimos ou para fins de marketing direto." },
-            { "title": "Direito de Retirar o Consentimento", "body": "Retirar, a qualquer momento, qualquer consentimento dado, sem afetar o tratamento anterior." },
-            { "title": "Direito de Reclamação", "body": "Apresentar uma reclamação junto da autoridade de controlo competente (ver Secção 12)." }
-          ],
-          "outro": "Para exercer qualquer um dos direitos acima, contacte-nos através de info@nordicriser.com com a linha de assunto “Pedido do Titular dos Dados”. Responderemos no prazo de um mês de calendário, conforme exigido pelo RGPD."
-        },
-        "s9": { "title": "Cookies e Tecnologias de Rastreio", "body": [
-          "O nosso website é um site informativo estático com rastreio mínimo. Podemos utilizar cookies essenciais necessários para o funcionamento básico do site, incluindo a memorização do idioma selecionado. Atualmente, não utilizamos cookies de publicidade de terceiros ou de rastreio comportamental.",
-          "Se, no futuro, implementarmos análises ou tecnologias de rastreio adicionais, obteremos o seu consentimento prévio antes de definir quaisquer cookies não essenciais, forneceremos informação clara sobre a finalidade e a duração de cada cookie, e disponibilizaremos mecanismos simples para gerir ou retirar as suas preferências de cookies.",
-          "Pode controlar e eliminar cookies através das definições do seu navegador a qualquer momento. Note que a desativação de determinados cookies pode afetar a funcionalidade do website."
-        ]},
-        "s10": { "title": "Privacidade de Menores", "body": [
-          "Os nossos serviços destinam-se exclusivamente a adultos que exercem atividades profissionais e empresariais. Não recolhemos, conscientemente, dados pessoais de indivíduos com menos de 18 anos. Se acredita que recolhemos inadvertidamente dados de um menor, contacte-nos de imediato e tomaremos as medidas adequadas para eliminar essa informação."
-        ]},
-        "s11": { "title": "Alterações a Esta Política de Privacidade", "intro": "Podemos atualizar esta Política de Privacidade periodicamente, para refletir alterações nas nossas práticas, na legislação aplicável ou nos procedimentos operacionais. As alterações materiais serão comunicadas através de:", "list": [
-          "Atualização da data de “Última Atualização” no topo desta página",
-          "Sempre que apropriado, notificação dos clientes ativos por email",
-          "Publicação de um aviso no nosso website"
-        ], "outro": "Recomendamos que reveja esta política periodicamente. A utilização continuada do nosso website após qualquer atualização constitui aceitação da política revista." },
-        "s12": { "title": "Autoridade de Controlo", "intro": "Se tiver preocupações sobre a forma como tratamos os seus dados pessoais e não estiver satisfeito com a nossa resposta, tem o direito de apresentar uma reclamação junto da autoridade de controlo competente:", "body": [
-          "Integritetsskyddsmyndigheten (IMY) — Autoridade Sueca de Proteção da Privacidade",
-          "Box 8114, 104 20 Stockholm — Telefone: +46 8 657 61 00 — Website: www.imy.se"
-        ]},
-        "s13": { "title": "Contacte-nos Relativamente a Esta Política", "intro": "Se tiver quaisquer questões, preocupações ou pedidos relacionados com esta Política de Privacidade ou com as nossas práticas de dados, contacte-nos diretamente:", "cardTitle": "Consultas sobre Proteção de Dados", "cardBody": "Envie-nos um email com a linha de assunto “Consulta sobre Política de Privacidade” e responderemos prontamente." }
-      }
-    },
+
     "consulting": {
       "hero": { "label": "Consultoria", "h1": "Consultoria Estratégica para o Estabelecimento de Negócios Internacionais", "body": "Prestamos consultoria estruturada e profissional em cinco áreas de serviço fundamentais — cada uma concebida para apoiar empreendedores e profissionais que constroem uma presença empresarial conforme na Europa." },
       "breadcrumb": "Consultoria",

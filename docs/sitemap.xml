@@ -1310,190 +1310,938 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/contact/" />
   </url>
   <url>
-    <loc>https://nordicriser.com/privacy/</loc>
+    <loc>https://nordicriser.com/legal/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/privacy/" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/privacy/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/privacy/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/privacy/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/privacy/" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/privacy/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/" />
   </url>
   <url>
-    <loc>https://nordicriser.com/sv/privacy/</loc>
+    <loc>https://nordicriser.com/sv/legal/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/privacy/" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/privacy/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/privacy/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/privacy/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/privacy/" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/privacy/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/" />
   </url>
   <url>
-    <loc>https://nordicriser.com/de/privacy/</loc>
+    <loc>https://nordicriser.com/de/legal/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/privacy/" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/privacy/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/privacy/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/privacy/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/privacy/" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/privacy/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/" />
   </url>
   <url>
-    <loc>https://nordicriser.com/fr/privacy/</loc>
+    <loc>https://nordicriser.com/fr/legal/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/privacy/" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/privacy/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/privacy/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/privacy/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/privacy/" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/privacy/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/" />
   </url>
   <url>
-    <loc>https://nordicriser.com/es/privacy/</loc>
+    <loc>https://nordicriser.com/es/legal/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/privacy/" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/privacy/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/privacy/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/privacy/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/privacy/" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/privacy/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/" />
   </url>
   <url>
-    <loc>https://nordicriser.com/it/privacy/</loc>
+    <loc>https://nordicriser.com/it/legal/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/privacy/" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/privacy/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/privacy/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/privacy/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/privacy/" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/privacy/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/" />
   </url>
   <url>
-    <loc>https://nordicriser.com/pl/privacy/</loc>
+    <loc>https://nordicriser.com/pl/legal/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/privacy/" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/privacy/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/privacy/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/privacy/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/privacy/" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/privacy/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/" />
   </url>
   <url>
-    <loc>https://nordicriser.com/nl/privacy/</loc>
+    <loc>https://nordicriser.com/nl/legal/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/privacy/" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/privacy/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/privacy/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/privacy/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/privacy/" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/privacy/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/" />
   </url>
   <url>
-    <loc>https://nordicriser.com/pt/privacy/</loc>
+    <loc>https://nordicriser.com/pt/legal/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/privacy/" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/privacy/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/privacy/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/privacy/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/privacy/" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/privacy/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/" />
   </url>
   <url>
-    <loc>https://nordicriser.com/ur/privacy/</loc>
+    <loc>https://nordicriser.com/ur/legal/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/privacy/" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/privacy/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/privacy/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/privacy/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/privacy/" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/privacy/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/" />
   </url>
   <url>
-    <loc>https://nordicriser.com/ar/privacy/</loc>
+    <loc>https://nordicriser.com/ar/legal/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/privacy/" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/privacy/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/privacy/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/privacy/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/privacy/" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/privacy/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/privacy/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/legal/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/privacy/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/sv/legal/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/privacy/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/de/legal/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/privacy/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/fr/legal/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/privacy/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/es/legal/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/privacy/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/it/legal/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/privacy/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/pl/legal/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/privacy/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/nl/legal/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/privacy/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/pt/legal/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/privacy/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/ur/legal/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/privacy/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/ar/legal/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/privacy/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/legal/terms/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/terms/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/sv/legal/terms/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/terms/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/de/legal/terms/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/terms/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/fr/legal/terms/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/terms/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/es/legal/terms/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/terms/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/it/legal/terms/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/terms/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/pl/legal/terms/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/terms/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/nl/legal/terms/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/terms/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/pt/legal/terms/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/terms/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/ur/legal/terms/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/terms/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/ar/legal/terms/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/terms/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/legal/dpa/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/dpa/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/sv/legal/dpa/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/dpa/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/de/legal/dpa/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/dpa/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/fr/legal/dpa/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/dpa/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/es/legal/dpa/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/dpa/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/it/legal/dpa/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/dpa/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/pl/legal/dpa/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/dpa/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/nl/legal/dpa/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/dpa/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/pt/legal/dpa/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/dpa/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/ur/legal/dpa/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/dpa/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/ar/legal/dpa/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/dpa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/dpa/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/legal/subprocessors/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/subprocessors/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/sv/legal/subprocessors/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/subprocessors/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/de/legal/subprocessors/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/subprocessors/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/fr/legal/subprocessors/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/subprocessors/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/es/legal/subprocessors/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/subprocessors/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/it/legal/subprocessors/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/subprocessors/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/pl/legal/subprocessors/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/subprocessors/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/nl/legal/subprocessors/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/subprocessors/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/pt/legal/subprocessors/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/subprocessors/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/ur/legal/subprocessors/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/subprocessors/" />
+  </url>
+  <url>
+    <loc>https://nordicriser.com/ar/legal/subprocessors/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nordicriser.com/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nordicriser.com/de/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nordicriser.com/es/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://nordicriser.com/it/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/legal/subprocessors/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nordicriser.com/legal/subprocessors/" />
   </url>
 </urlset>

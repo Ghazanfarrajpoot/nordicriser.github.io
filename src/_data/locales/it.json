@@ -265,6 +265,7 @@
           { "value": "automation", "label": "Automazione & Integrazioni" },
           { "value": "support", "label": "Manutenzione & Assistenza Continuativa" },
           { "value": "globalreach", "label": "Abbonamento Global Reach" },
+          { "value": "nrbos-trial", "label": "Richiesta codice di prova di 3 giorni per NR-BOS" },
           { "value": "consulting", "label": "Consulenza per la Costituzione d'Impresa" },
           { "value": "general", "label": "Richiesta Generica" }
         ],
@@ -290,6 +291,7 @@
         ],
         "message": "Breve Descrizione della Tua Situazione",
         "messagePlaceholder": "Descrivi la tua situazione attuale, i tuoi obiettivi ed eventuali domande specifiche. Più sei specifico, più sarà produttiva la nostra consulenza iniziale.",
+        "trialPrefillMessage": "Richiesta di un codice di prova di 3 giorni per NR-BOS.\n\nNome dell'azienda: \nDimensione del team: \nCosa vorremmo valutare durante la prova: ",
         "messageHint": "Queste informazioni sono trattate in modo strettamente confidenziale e utilizzate esclusivamente per preparare la tua consulenza.",
         "consent": "Inviando questo modulo, confermi che le informazioni fornite sono accurate e acconsenti a che Nordic Riser AB conservi i tuoi dati di contatto ai fini di rispondere alla tua richiesta. Non condividiamo le informazioni dei clienti con terze parti.",
         "submit": "Invia Richiesta di Consulenza →"
@@ -322,106 +324,7 @@
         ]
       }
     },
-    "privacy": {
-      "hero": { "label": "Informazioni Legali", "h1": "Informativa sulla Privacy", "body": "Come Nordic Riser AB raccoglie, utilizza e protegge i tuoi dati personali in conformità al Regolamento Generale sulla Protezione dei Dati dell'UE (GDPR)." },
-      "breadcrumb": "Informativa sulla Privacy",
-      "updatedBadge": "Ultimo Aggiornamento: 23 giugno 2026",
-      "translationNotice": "Questa pagina è stata tradotta automaticamente. In caso di discrepanze, fa fede la versione in lingua inglese. Contattaci per qualsiasi domanda.",
-      "tocLabel": "Indice",
-      "toc": [
-        "1. Introduzione", "2. Titolare del Trattamento", "3. Informazioni Raccolte", "4. Come Utilizziamo i Tuoi Dati",
-        "5. Condivisione dei Dati", "6. Sicurezza dei Dati", "7. Conservazione dei Dati", "8. I Tuoi Diritti (GDPR)",
-        "9. Cookie", "10. Privacy dei Minori", "11. Modifiche alla Presente Informativa", "12. Autorità di Controllo", "13. Contatti"
-      ],
-      "sections": {
-        "s1": { "title": "Introduzione", "body": [
-          "Nordic Riser AB (“noi”, “nostro” o “ci”) si impegna a proteggere la tua privacy e a garantire la sicurezza dei tuoi dati personali. La presente Informativa sulla Privacy spiega come raccogliamo, utilizziamo, comunichiamo e proteggiamo le tue informazioni quando visiti il nostro sito web o ricorri ai nostri servizi di consulenza.",
-          "Questa informativa è redatta in conformità al Regolamento Generale sulla Protezione dei Dati dell'UE (GDPR) e alla normativa applicabile in materia di protezione dei dati. Utilizzando il nostro sito web o inviando una richiesta, riconosci di aver letto e compreso questa informativa."
-        ]},
-        "s2": { "title": "Titolare del Trattamento", "body": [
-          "Nordic Riser AB è il titolare del trattamento responsabile dei tuoi dati personali raccolti tramite il nostro sito web e i nostri servizi.",
-          "Nordic Riser AB — Email: info@nordicriser.com — Sito Web: www.nordicriser.com",
-          "Per qualsiasi questione relativa alla protezione dei dati, contattaci utilizzando i recapiti sopra indicati con oggetto “Richiesta Protezione Dati”."
-        ]},
-        "s3": { "title": "Informazioni Raccolte", "subheadings": [
-          { "title": "3.1 Informazioni Fornite Direttamente", "intro": "Raccogliamo le informazioni che ci fornisci volontariamente, tra cui:", "list": [
-            "Informazioni di Contatto: nome, indirizzo email, numero di telefono",
-            "Informazioni Professionali: tipo di attività, profilo professionale, obiettivi d'impresa",
-            "Dati della Richiesta di Consulenza: motivo della consulenza e descrizione della tua situazione, come inviati tramite il nostro modulo di contatto",
-            "Dati di Comunicazione: informazioni contenute in email e altra corrispondenza con il nostro team"
-          ]},
-          { "title": "3.2 Informazioni Raccolte Automaticamente", "intro": "Quando visiti il nostro sito web, possiamo raccogliere automaticamente:", "list": [
-            "Dati Tecnici: indirizzo IP, tipo di browser, sistema operativo, informazioni sul dispositivo",
-            "Dati di Utilizzo: pagine visitate, tempo trascorso sulle pagine, percorsi di navigazione",
-            "Cookie: piccoli file di dati memorizzati sul tuo dispositivo (vedi Sezione 9)"
-          ]}
-        ]},
-        "s4": { "title": "Come Utilizziamo le Tue Informazioni", "intro": "Trattiamo i tuoi dati personali esclusivamente per le finalità indicate di seguito, ciascuna supportata da una base giuridica ai sensi del GDPR:",
-          "table": { "headers": ["Finalità", "Base Giuridica (GDPR)"], "rows": [
-            ["Rispondere a richieste di consulenza e informazioni", "Esecuzione del contratto / Legittimo interesse"],
-            ["Fornire servizi di consulenza strategica, tecnologia e collaborazione globale", "Esecuzione del contratto"],
-            ["Comunicare in merito ai nostri servizi e all'avanzamento dell'incarico", "Esecuzione del contratto / Consenso"],
-            ["Migliorare il nostro sito web e la qualità dei servizi", "Legittimo interesse"],
-            ["Coordinarsi con professionisti terzi (legali, contabili)", "Esecuzione del contratto / Legittimo interesse"],
-            ["Conformità agli obblighi legali e normativi", "Obbligo legale"]
-          ]},
-          "note": "Non venderemo, affitteremo o cederemo i tuoi dati personali a terzi. Non utilizzeremo i tuoi dati per finalità incompatibili con quelle sopra indicate."
-        },
-        "s5": { "title": "Condivisione e Comunicazione dei Dati", "subheadings": [
-          { "title": "5.1 Partner Professionali", "intro": "Ove necessario per l'erogazione dei nostri servizi, potremmo condividere informazioni pertinenti con professionisti terzi qualificati, tra cui:", "list": [
-            "Consulenti legali e specialisti coinvolti in relazione alla tua pratica",
-            "Professionisti contabili e fiscali coinvolti nella costituzione societaria o nella conformità normativa",
-            "Fornitori tecnologici che supportano l'hosting del nostro sito web e l'infrastruttura di comunicazione"
-          ], "outro": "Tutte le terze parti sono tenute a mantenere adeguate misure di sicurezza e sono autorizzate a trattare i tuoi dati solo secondo le nostre istruzioni e nell'ambito dei loro obblighi professionali." },
-          { "title": "5.2 Obblighi di Legge", "intro": "Potremmo divulgare i tuoi dati personali qualora richiesto dalla legge, da un regolamento, da un procedimento legale o da una legittima richiesta governativa." },
-          { "title": "5.3 Trasferimenti Internazionali di Dati", "intro": "Trattiamo i dati principalmente all'interno dello Spazio Economico Europeo (UE/SEE). Nel caso in cui i dati vengano trasferiti al di fuori dello Spazio UE/SEE, garantiamo che siano in atto adeguate garanzie — quali Clausole Contrattuali Standard o decisioni di adeguatezza applicabili — prima di tale trasferimento." }
-        ]},
-        "s6": { "title": "Sicurezza dei Dati", "intro": "Adottiamo misure tecniche e organizzative adeguate per proteggere i tuoi dati personali da accessi, modifiche, divulgazioni o distruzioni non autorizzati. Tali misure includono:", "list": [
-          "Canali di comunicazione crittografati per la trasmissione di informazioni sensibili",
-          "Infrastrutture server sicure e sistemi di archiviazione dati",
-          "Controlli degli accessi e procedure di autenticazione per i sistemi interni",
-          "Revisione e aggiornamento periodici delle prassi di sicurezza",
-          "Formazione del personale sugli obblighi in materia di protezione dei dati"
-        ], "outro": "Pur adottando ogni ragionevole precauzione, nessun metodo di trasmissione o archiviazione elettronica è totalmente sicuro. Non possiamo garantire una sicurezza assoluta, ma siamo impegnati a proteggere i tuoi dati secondo lo standard più elevato praticabile." },
-        "s7": { "title": "Conservazione dei Dati", "intro": "Conserviamo i tuoi dati personali solo per il tempo necessario a soddisfare le finalità indicate nella presente informativa e a rispettare i nostri obblighi legali:", "list": [
-          "Dati dei Clienti Attivi: durata dell'incarico più 7 anni (in conformità alla normativa contabile e di conservazione documentale applicabile)",
-          "Dati delle Richieste (non concretizzate): 2 anni dalla data dell'ultimo contatto",
-          "Dati di Analisi del Sito Web: massimo 26 mesi",
-          "Registrazioni del Consenso: fino al ritiro del consenso, più un periodo ragionevole successivo ai fini della conservazione documentale"
-        ], "outro": "Alla scadenza del periodo di conservazione applicabile, i dati personali vengono cancellati in modo sicuro o resi anonimi." },
-        "s8": { "title": "I Tuoi Diritti ai Sensi del GDPR", "intro": "In qualità di interessato ai sensi del GDPR, hai i seguenti diritti in relazione ai tuoi dati personali:",
-          "rights": [
-            { "title": "Diritto di Accesso", "body": "Richiedere una copia dei dati personali che deteniamo su di te." },
-            { "title": "Diritto di Rettifica", "body": "Richiedere la correzione di dati inesatti o incompleti." },
-            { "title": "Diritto alla Cancellazione", "body": "Richiedere la cancellazione dei tuoi dati in determinate circostanze (“diritto all'oblio”)." },
-            { "title": "Diritto di Limitazione del Trattamento", "body": "Richiedere che limitiamo l'uso dei tuoi dati in circostanze specifiche." },
-            { "title": "Diritto alla Portabilità dei Dati", "body": "Ricevere i tuoi dati in un formato strutturato e leggibile da dispositivo automatico, ove applicabile." },
-            { "title": "Diritto di Opposizione", "body": "Opporti al trattamento basato su legittimo interesse o per finalità di marketing diretto." },
-            { "title": "Diritto di Revoca del Consenso", "body": "Revocare in qualsiasi momento un consenso prestato, senza pregiudicare i trattamenti già effettuati." },
-            { "title": "Diritto di Reclamo", "body": "Presentare reclamo all'autorità di controllo competente (vedi Sezione 12)." }
-          ],
-          "outro": "Per esercitare uno qualsiasi dei diritti sopra indicati, contattaci all'indirizzo info@nordicriser.com con oggetto “Richiesta dell'Interessato”. Risponderemo entro un mese di calendario, come previsto dal GDPR."
-        },
-        "s9": { "title": "Cookie e Tecnologie di Tracciamento", "body": [
-          "Il nostro sito web è un sito informativo statico con un utilizzo minimo di tracciamento. Potremmo utilizzare cookie essenziali necessari al funzionamento di base del sito, incluso il ricordo della lingua selezionata. Attualmente non utilizziamo cookie pubblicitari di terze parti né cookie di tracciamento comportamentale.",
-          "Qualora in futuro implementassimo strumenti di analisi o ulteriori tecnologie di tracciamento, otterremo il tuo consenso preventivo prima di impostare qualsiasi cookie non essenziale, forniremo informazioni chiare sullo scopo e sulla durata di ciascun cookie e offriremo meccanismi semplici per gestire o revocare le tue preferenze in materia di cookie.",
-          "Puoi controllare ed eliminare i cookie tramite le impostazioni del tuo browser in qualsiasi momento. Ti segnaliamo che disabilitare alcuni cookie potrebbe compromettere la funzionalità del sito web."
-        ]},
-        "s10": { "title": "Privacy dei Minori", "body": [
-          "I nostri servizi sono rivolti esclusivamente ad adulti impegnati in attività professionali e imprenditoriali. Non raccogliamo consapevolmente dati personali da persone di età inferiore ai 18 anni. Qualora ritenessi che abbiamo inavvertitamente raccolto dati relativi a un minore, ti preghiamo di contattarci immediatamente: adotteremo le misure appropriate per eliminare tali informazioni."
-        ]},
-        "s11": { "title": "Modifiche alla Presente Informativa sulla Privacy", "intro": "Potremmo aggiornare periodicamente questa Informativa sulla Privacy per riflettere modifiche alle nostre prassi, alla normativa applicabile o alle procedure operative. Le modifiche sostanziali saranno comunicate mediante:", "list": [
-          "Aggiornamento della data “Ultimo Aggiornamento” in cima a questa pagina",
-          "Ove opportuno, notifica via email ai clienti attivi",
-          "Pubblicazione di un avviso sul nostro sito web"
-        ], "outro": "Ti invitiamo a consultare periodicamente questa informativa. L'uso continuato del nostro sito web successivamente a qualsiasi aggiornamento costituisce accettazione della versione rivista." },
-        "s12": { "title": "Autorità di Controllo", "intro": "Se hai delle preoccupazioni in merito al trattamento dei tuoi dati personali da parte nostra e non sei soddisfatto della nostra risposta, hai il diritto di presentare reclamo all'autorità di controllo competente:", "body": [
-          "Integritetsskyddsmyndigheten (IMY) — Autorità Svedese per la Protezione della Privacy",
-          "Box 8114, 104 20 Stockholm — Telefono: +46 8 657 61 00 — Sito Web: www.imy.se"
-        ]},
-        "s13": { "title": "Contattaci in Merito alla Presente Informativa", "intro": "Per qualsiasi domanda, dubbio o richiesta relativa alla presente Informativa sulla Privacy o alle nostre prassi in materia di dati, contattaci direttamente:", "cardTitle": "Richieste in Materia di Protezione dei Dati", "cardBody": "Scrivici con oggetto “Richiesta Informativa sulla Privacy” e ti risponderemo tempestivamente." }
-      }
-    },
+
     "consulting": {
       "hero": { "label": "Consulenza", "h1": "Consulenza Strategica per la Costituzione d'Impresa Internazionale", "body": "Offriamo consulenza professionale e strutturata in cinque aree di servizio fondamentali — ciascuna pensata per sostenere imprenditori e professionisti nella costruzione di una presenza d'impresa conforme in Europa." },
       "breadcrumb": "Consulenza",

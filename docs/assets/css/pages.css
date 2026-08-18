@@ -406,6 +406,8 @@
 .doc-section ul, .doc-section ol { padding-inline-start: 1.5rem; margin-bottom: 0.9rem; }
 .doc-section li { font-size: 0.95rem; color: var(--muted); line-height: 1.8; margin-bottom: 0.35rem; }
 .doc-section strong { color: var(--text); }
+.table-scroll { overflow-x: auto; margin: 1.25rem 0; }
+.table-scroll .data-table { margin: 0; min-width: 640px; }
 .data-table { width: 100%; border-collapse: collapse; margin: 1.25rem 0; font-size: 0.9rem; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
 .data-table thead tr { background: var(--navy); }
 .data-table th { padding: 0.9rem 1.1rem; text-align: start; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.5px; color: var(--white); }
@@ -416,6 +418,8 @@
 .right-card { background: var(--sky); border: 1px solid var(--border); border-radius: 8px; padding: 1.1rem 1.25rem; }
 .right-card h4 { font-size: 0.875rem; font-weight: 700; color: var(--navy); margin-bottom: 0.3rem; }
 .right-card p  { font-size: 0.825rem; color: var(--muted); line-height: 1.6; margin-bottom: 0; }
+a.right-card { display: block; text-decoration: none; color: inherit; transition: transform 0.2s, box-shadow 0.2s; }
+a.right-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
 .info-box { background: var(--sky); border-left: 3px solid var(--gold); border-radius: 0 6px 6px 0; padding: 1.25rem 1.5rem; margin: 1.25rem 0; }
 .info-box p { font-size: 0.9rem; color: var(--navy); margin-bottom: 0; font-weight: 500; }
 .contact-card { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; margin-top: 1.25rem; }

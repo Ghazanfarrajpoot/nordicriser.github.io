@@ -68,6 +68,9 @@ pageSlug: work/nr-bos
   <div class="cta-box" data-animate>
     <h2>{{ p.cta.title }}</h2>
     <p>{{ p.cta.body }}</p>
-    <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-cta">{{ p.cta.cta }}</a>
+    <div class="cta-box-buttons">
+      <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-cta">{{ p.cta.cta }}</a>
+      <a href="{{ 'contact' | localeUrl(locale) }}?purpose=nrbos-trial" class="btn-secondary">{{ p.cta.trialCta }}</a>
+    </div>
   </div>
 </section>

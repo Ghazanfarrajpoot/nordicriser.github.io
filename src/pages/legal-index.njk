@@ -1,0 +1,46 @@
+---
+pagination:
+  data: site.locales
+  size: 1
+  alias: loc
+permalink: "{{ 'legal' | localePath(loc.code) }}index.html"
+eleventyComputed:
+  locale: "{{ loc.code }}"
+  dir: "{{ loc.dir }}"
+layout: layouts/page.njk
+pageKey: legal
+pageSlug: legal
+---
+{%- set t = locales[locale] -%}
+{%- set isFallback = not t.pages.legal -%}
+{%- set p = t.pages.legal or locales.en.pages.legal -%}
+
+<section class="page-hero">
+  <div class="page-hero-inner" data-animate>
+    <span class="page-hero-label">{{ p.hero.label }}</span>
+    <h1>{{ p.hero.h1 }}</h1>
+    <p>{{ p.hero.body }}</p>
+  </div>
+</section>
+
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="{{ '' | localeUrl(locale) }}">{{ t.common.home }}</a> &rsaquo; <span>{{ p.breadcrumb }}</span>
+  </div>
+</div>
+
+<section class="section">
+  <div class="section-inner"{% if isFallback %} dir="ltr"{% endif %} data-animate>
+    {%- if isFallback %}
+    <div class="translation-notice">{{ locales.en.common.legalPendingTranslationPrefix }}{{ site.locales | localeName(locale) }}{{ locales.en.common.legalPendingTranslationSuffix }}</div>
+    {%- endif %}
+    <div class="rights-grid">
+      {%- for doc in p.docs %}
+      <a class="right-card" href="{{ doc.link | localeUrl(locale) }}">
+        <h4>{{ doc.title }}</h4>
+        <p>{{ doc.body }}</p>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

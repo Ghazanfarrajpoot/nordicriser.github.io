@@ -166,6 +166,7 @@
             <option value="automation">الأتمتة والتكاملات</option>
             <option value="support">دعم وصيانة مستمرة</option>
             <option value="globalreach">اشتراك التواصل العالمي</option>
+            <option value="nrbos-trial">طلب رمز تجريبي لمدة 3 أيام لـ NR-BOS</option>
             <option value="consulting">استشارات التأسيس التجاري</option>
             <option value="general">استفسار عام</option>
           </select>
@@ -200,7 +201,11 @@
 
         <div class="field">
           <label for="message">وصف موجز لوضعك <span class="required">*</span></label>
-          <textarea id="message" name="message" placeholder="يرجى وصف وضعك الحالي وأهدافك وأي أسئلة محددة لديك. كلما كنت أكثر تحديداً، كانت استشارتنا الأولية أكثر فائدة." required></textarea>
+          <textarea id="message" name="message" placeholder="يرجى وصف وضعك الحالي وأهدافك وأي أسئلة محددة لديك. كلما كنت أكثر تحديداً، كانت استشارتنا الأولية أكثر فائدة." data-trial-prefill="طلب رمز تجريبي لمدة 3 أيام لـ NR-BOS.
+
+اسم الشركة: 
+حجم الفريق: 
+ما الذي نرغب في تقييمه خلال الفترة التجريبية: " required></textarea>
           <span class="hint">تُعامل هذه المعلومات بسرية تامة وتُستخدم فقط للتحضير لاستشارتك.</span>
         </div>
 
@@ -291,7 +296,7 @@
 </section>
 
 <footer class="footer">
-  <div class="footer-main footer-main--3col">
+  <div class="footer-main footer-main--compact">
     <div class="footer-brand">
       <a href="/ar/" class="footer-logo">Nordic Riser <span>AB</span></a>
       <p>شركة Nordic Riser AB هي استوديو برمجيات مقره ستوكهولم يبني منصات ويب متعددة اللغات وبوابات عملاء آمنة ومنتجات عابرة للحدود للشركات العاملة بأكثر من لغة واحدة.</p>
@@ -336,15 +341,24 @@
       <ul>
         <li><a href="/ar/about/">من نحن</a></li>
         <li><a href="/ar/contact/">اتصل بنا</a></li>
-        <li><a href="/ar/privacy/">سياسة الخصوصية</a></li>
         <li><a href="https://portal.nordicriser.com">بوابة الأعضاء</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4></h4>
+      <ul>
+        <li><a href="/ar/legal/privacy/"></a></li>
+        <li><a href="/ar/legal/terms/"></a></li>
+        <li><a href="/ar/legal/dpa/"></a></li>
+        <li><a href="/ar/legal/subprocessors/"></a></li>
       </ul>
     </div>
   </div>
   <div class="footer-bottom">
     <span>© 2026 Nordic Riser AB. جميع الحقوق محفوظة. ستوكهولم، السويد.</span>
     <ul class="footer-bottom-links">
-      <li><a href="/ar/privacy/">سياسة الخصوصية</a></li>
+      <li><a href="/ar/legal/privacy/"></a></li>
+      <li><a href="/ar/legal/terms/"></a></li>
       <li><a href="/ar/contact/">اتصل بنا</a></li>
       <li><a href="https://portal.nordicriser.com">بوابة الأعضاء</a></li>
     </ul>

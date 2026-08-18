@@ -165,6 +165,7 @@
             <option value="automation">Automatisering &amp; integrationer</option>
             <option value="support">Löpande support &amp; underhåll</option>
             <option value="globalreach">Global Reach-abonnemang</option>
+            <option value="nrbos-trial">Begäran om 3-dagars provkod för NR-BOS</option>
             <option value="consulting">Konsulttjänster för företagsetablering</option>
             <option value="general">Allmän förfrågan</option>
           </select>
@@ -199,7 +200,11 @@
 
         <div class="field">
           <label for="message">Kort beskrivning av din situation <span class="required">*</span></label>
-          <textarea id="message" name="message" placeholder="Vänligen beskriv din nuvarande situation, dina mål och eventuella specifika frågor du har. Ju mer specifik du är, desto mer produktiv blir vår inledande konsultation." required></textarea>
+          <textarea id="message" name="message" placeholder="Vänligen beskriv din nuvarande situation, dina mål och eventuella specifika frågor du har. Ju mer specifik du är, desto mer produktiv blir vår inledande konsultation." data-trial-prefill="Begär en 3-dagars provkod för NR-BOS.
+
+Företagsnamn: 
+Teamstorlek: 
+Vad vi vill utvärdera under provperioden: " required></textarea>
           <span class="hint">Denna information behandlas som strikt konfidentiell och används enbart för att förbereda din konsultation.</span>
         </div>
 
@@ -290,7 +295,7 @@
 </section>
 
 <footer class="footer">
-  <div class="footer-main footer-main--3col">
+  <div class="footer-main footer-main--compact">
     <div class="footer-brand">
       <a href="/sv/" class="footer-logo">Nordic Riser <span>AB</span></a>
       <p>Nordic Riser AB är en Stockholmsbaserad mjukvarustudio som bygger flerspråkiga webbplattformar, säkra kundportaler och gränsöverskridande produkter för företag som verkar på mer än ett språk.</p>
@@ -335,15 +340,24 @@
       <ul>
         <li><a href="/sv/about/">Om oss</a></li>
         <li><a href="/sv/contact/">Kontakt</a></li>
-        <li><a href="/sv/privacy/">Integritetspolicy</a></li>
         <li><a href="https://portal.nordicriser.com">Medlemsportal</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Juridik</h4>
+      <ul>
+        <li><a href="/sv/legal/privacy/">Integritetspolicy</a></li>
+        <li><a href="/sv/legal/terms/">Användarvillkor</a></li>
+        <li><a href="/sv/legal/dpa/">Personuppgiftsbiträdesavtal</a></li>
+        <li><a href="/sv/legal/subprocessors/">Underbiträden</a></li>
       </ul>
     </div>
   </div>
   <div class="footer-bottom">
     <span>© 2026 Nordic Riser AB. Alla rättigheter förbehållna. Stockholm, Sweden.</span>
     <ul class="footer-bottom-links">
-      <li><a href="/sv/privacy/">Integritetspolicy</a></li>
+      <li><a href="/sv/legal/privacy/">Integritetspolicy</a></li>
+      <li><a href="/sv/legal/terms/">Användarvillkor</a></li>
       <li><a href="/sv/contact/">Kontakt</a></li>
       <li><a href="https://portal.nordicriser.com">Medlemsportal</a></li>
     </ul>

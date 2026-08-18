@@ -1,0 +1,58 @@
+---
+pagination:
+  data: site.locales
+  size: 1
+  alias: loc
+permalink: "{{ 'legal/subprocessors' | localePath(loc.code) }}index.html"
+eleventyComputed:
+  locale: "{{ loc.code }}"
+  dir: "{{ loc.dir }}"
+layout: layouts/page.njk
+pageKey: legalSubprocessors
+pageSlug: legal/subprocessors
+---
+{%- set t = locales[locale] -%}
+{%- set isFallback = not t.pages.legalSubprocessors -%}
+{%- set p = t.pages.legalSubprocessors or locales.en.pages.legalSubprocessors -%}
+{%- set legalIndex = t.pages.legal or locales.en.pages.legal -%}
+{% import "partials/icons.njk" as icons %}
+
+<section class="page-hero">
+  <div class="page-hero-inner" data-animate>
+    <span class="page-hero-label">{{ p.hero.label }}</span>
+    <h1>{{ p.hero.h1 }}</h1>
+    <p>{{ p.hero.body }}</p>
+  </div>
+</section>
+
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="{{ '' | localeUrl(locale) }}">{{ t.common.home }}</a> &rsaquo; <a href="{{ 'legal' | localeUrl(locale) }}">{{ legalIndex.breadcrumb }}</a> &rsaquo; <span>{{ p.breadcrumb }}</span>
+  </div>
+</div>
+
+<section class="section">
+  <div class="section-inner"{% if isFallback %} dir="ltr"{% endif %} data-animate>
+    {%- if isFallback %}
+    <div class="translation-notice">{{ locales.en.common.legalPendingTranslationPrefix }}{{ site.locales | localeName(locale) }}{{ locales.en.common.legalPendingTranslationSuffix }}</div>
+    {%- elif locale != "en" %}
+    <div class="translation-notice">{{ p.translationNotice }}</div>
+    {%- endif %}
+
+    <div class="doc-section">
+      <div class="updated-badge">{{ icons.icon('calendar') }} {{ p.updatedBadge }}</div>
+      {%- for para in p.intro %}<p>{{ para }}</p>{% endfor %}
+      <div class="table-scroll">
+        <table class="data-table">
+          <thead><tr>{% for h in p.table.headers %}<th>{{ h }}</th>{% endfor %}</tr></thead>
+          <tbody>
+            {%- for row in p.table.rows %}
+            <tr>{% for cell in row %}<td>{{ cell }}</td>{% endfor %}</tr>
+            {%- endfor %}
+          </tbody>
+        </table>
+      </div>
+      <div class="info-box"><p>{{ p.note }}</p></div>
+    </div>
+  </div>
+</section>

@@ -165,6 +165,7 @@
             <option value="automation">Automatyzacja i integracje</option>
             <option value="support">Bieżące utrzymanie i wsparcie</option>
             <option value="globalreach">Subskrypcja Global Reach</option>
+            <option value="nrbos-trial">Prośba o 3-dniowy kod próbny NR-BOS</option>
             <option value="consulting">Doradztwo w zakresie zakładania działalności</option>
             <option value="general">Zapytanie ogólne</option>
           </select>
@@ -199,7 +200,11 @@
 
         <div class="field">
           <label for="message">Krótki opis Twojej sytuacji <span class="required">*</span></label>
-          <textarea id="message" name="message" placeholder="Opisz swoją obecną sytuację, cele oraz wszelkie konkretne pytania, jakie masz. Im bardziej precyzyjny opis, tym bardziej owocna będzie nasza wstępna konsultacja." required></textarea>
+          <textarea id="message" name="message" placeholder="Opisz swoją obecną sytuację, cele oraz wszelkie konkretne pytania, jakie masz. Im bardziej precyzyjny opis, tym bardziej owocna będzie nasza wstępna konsultacja." data-trial-prefill="Prośba o 3-dniowy kod próbny dla NR-BOS.
+
+Nazwa firmy: 
+Wielkość zespołu: 
+Co chcielibyśmy ocenić podczas okresu próbnego: " required></textarea>
           <span class="hint">Te informacje są traktowane jako ściśle poufne i wykorzystywane wyłącznie w celu przygotowania się do Twojej konsultacji.</span>
         </div>
 
@@ -290,7 +295,7 @@
 </section>
 
 <footer class="footer">
-  <div class="footer-main footer-main--3col">
+  <div class="footer-main footer-main--compact">
     <div class="footer-brand">
       <a href="/pl/" class="footer-logo">Nordic Riser <span>AB</span></a>
       <p>Nordic Riser AB to studio oprogramowania z siedzibą w Sztokholmie, tworzące wielojęzyczne platformy internetowe, bezpieczne portale klienta i produkty transgraniczne dla firm działających w więcej niż jednym języku.</p>
@@ -335,15 +340,24 @@
       <ul>
         <li><a href="/pl/about/">O nas</a></li>
         <li><a href="/pl/contact/">Kontakt</a></li>
-        <li><a href="/pl/privacy/">Polityka prywatności</a></li>
         <li><a href="https://portal.nordicriser.com">Portal klienta</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4></h4>
+      <ul>
+        <li><a href="/pl/legal/privacy/"></a></li>
+        <li><a href="/pl/legal/terms/"></a></li>
+        <li><a href="/pl/legal/dpa/"></a></li>
+        <li><a href="/pl/legal/subprocessors/"></a></li>
       </ul>
     </div>
   </div>
   <div class="footer-bottom">
     <span>© 2026 Nordic Riser AB. Wszelkie prawa zastrzeżone. Stockholm, Sweden.</span>
     <ul class="footer-bottom-links">
-      <li><a href="/pl/privacy/">Polityka prywatności</a></li>
+      <li><a href="/pl/legal/privacy/"></a></li>
+      <li><a href="/pl/legal/terms/"></a></li>
       <li><a href="/pl/contact/">Kontakt</a></li>
       <li><a href="https://portal.nordicriser.com">Portal klienta</a></li>
     </ul>

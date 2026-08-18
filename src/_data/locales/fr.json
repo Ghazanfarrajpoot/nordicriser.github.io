@@ -265,6 +265,7 @@
           { "value": "automation", "label": "Automatisation & intégrations" },
           { "value": "support", "label": "Support & maintenance continus" },
           { "value": "globalreach", "label": "Abonnement Global Reach" },
+          { "value": "nrbos-trial", "label": "Demande de code d'essai NR-BOS de 3 jours" },
           { "value": "consulting", "label": "Conseil en établissement d'entreprise" },
           { "value": "general", "label": "Demande générale" }
         ],
@@ -290,6 +291,7 @@
         ],
         "message": "Brève description de votre situation",
         "messagePlaceholder": "Merci de décrire votre situation actuelle, vos objectifs et toute question spécifique. Plus vous serez précis, plus notre première consultation sera productive.",
+        "trialPrefillMessage": "Demande de code d'essai de 3 jours pour NR-BOS.\n\nNom de l'entreprise : \nTaille de l'équipe : \nCe que nous souhaitons évaluer pendant l'essai : ",
         "messageHint": "Ces informations sont traitées de manière strictement confidentielle et utilisées uniquement pour préparer votre consultation.",
         "consent": "En soumettant ce formulaire, vous confirmez que les informations fournies sont exactes et vous consentez à ce que Nordic Riser AB conserve vos coordonnées afin de répondre à votre demande. Nous ne partageons pas les informations de nos clients avec des tiers.",
         "submit": "Envoyer la demande de consultation →"
@@ -322,106 +324,7 @@
         ]
       }
     },
-    "privacy": {
-      "hero": { "label": "Mentions légales", "h1": "Politique de confidentialité", "body": "Comment Nordic Riser AB collecte, utilise et protège vos informations personnelles conformément au Règlement général sur la protection des données (RGPD) de l'UE." },
-      "breadcrumb": "Politique de confidentialité",
-      "updatedBadge": "Dernière mise à jour : 23 juin 2026",
-      "translationNotice": "Cette page a fait l'objet d'une traduction automatique. En cas de divergence, la version anglaise fait foi. Contactez-nous pour toute question.",
-      "tocLabel": "Sommaire",
-      "toc": [
-        "1. Introduction", "2. Responsable du traitement", "3. Informations que nous collectons", "4. Utilisation de vos données",
-        "5. Partage des données", "6. Sécurité des données", "7. Conservation des données", "8. Vos droits (RGPD)",
-        "9. Cookies", "10. Confidentialité des mineurs", "11. Modifications de la politique", "12. Autorité de contrôle", "13. Contact"
-      ],
-      "sections": {
-        "s1": { "title": "Introduction", "body": [
-          "Nordic Riser AB (« nous », « notre » ou « nos ») s'engage à protéger votre vie privée et à garantir la sécurité de vos informations personnelles. Cette politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous consultez notre site web ou faites appel à nos services de conseil.",
-          "Cette politique est conçue pour être conforme au Règlement général sur la protection des données (RGPD) de l'UE et à la législation applicable en matière de protection des données. En utilisant notre site web ou en soumettant une demande, vous reconnaissez avoir lu et compris cette politique."
-        ]},
-        "s2": { "title": "Responsable du traitement", "body": [
-          "Nordic Riser AB est le responsable du traitement des informations personnelles collectées via notre site web et nos services.",
-          "Nordic Riser AB — E-mail : info@nordicriser.com — Site web : www.nordicriser.com",
-          "Pour toute question relative à la protection des données, veuillez nous contacter aux coordonnées ci-dessus avec pour objet « Demande relative à la protection des données »."
-        ]},
-        "s3": { "title": "Informations que nous collectons", "subheadings": [
-          { "title": "3.1 Informations que vous nous communiquez directement", "intro": "Nous collectons les informations que vous nous fournissez volontairement, notamment :", "list": [
-            "Coordonnées : nom, adresse e-mail, numéro de téléphone",
-            "Informations professionnelles : type d'activité, parcours professionnel, objectifs d'entreprise",
-            "Données relatives à la demande de consultation : objet de la consultation et description de votre situation, telles que soumises via notre formulaire de contact",
-            "Données de communication : informations contenues dans les e-mails et autres correspondances avec notre équipe"
-          ]},
-          { "title": "3.2 Informations collectées automatiquement", "intro": "Lorsque vous visitez notre site web, nous pouvons collecter automatiquement :", "list": [
-            "Données techniques : adresse IP, type de navigateur, système d'exploitation, informations sur l'appareil",
-            "Données d'utilisation : pages consultées, temps passé sur les pages, parcours de navigation",
-            "Cookies : petits fichiers de données stockés sur votre appareil (voir Section 9)"
-          ]}
-        ]},
-        "s4": { "title": "Comment nous utilisons vos informations", "intro": "Nous traitons vos données personnelles uniquement aux fins décrites ci-dessous, chacune reposant sur une base légale en vertu du RGPD :",
-          "table": { "headers": ["Finalité", "Base légale (RGPD)"], "rows": [
-            ["Répondre aux demandes de consultation et aux questions", "Exécution du contrat / Intérêt légitime"],
-            ["Fournir des services de conseil stratégique, technologiques et de collaboration mondiale", "Exécution du contrat"],
-            ["Communiquer sur nos services et l'avancement de la mission", "Exécution du contrat / Consentement"],
-            ["Améliorer notre site web et la qualité de nos services", "Intérêt légitime"],
-            ["Coordonner l'intervention de professionnels tiers (juridique, comptable)", "Exécution du contrat / Intérêt légitime"],
-            ["Respect des obligations légales et réglementaires", "Obligation légale"]
-          ]},
-          "note": "Nous ne vendrons, ne louerons ni n'échangerons vos informations personnelles avec des tiers. Nous n'utiliserons pas vos données à des fins incompatibles avec celles énoncées ci-dessus."
-        },
-        "s5": { "title": "Partage et divulgation des données", "subheadings": [
-          { "title": "5.1 Partenaires de services professionnels", "intro": "Lorsque cela est nécessaire à la fourniture de nos services, nous pouvons partager les informations pertinentes avec des professionnels tiers qualifiés, notamment :", "list": [
-            "Des avocats et conseillers spécialisés intervenant dans le cadre de votre dossier",
-            "Des experts-comptables et fiscalistes impliqués dans la création d'entreprise ou la conformité",
-            "Des prestataires technologiques assurant l'hébergement de notre site web et notre infrastructure de communication"
-          ], "outro": "Tous les tiers sont tenus de maintenir des mesures de sécurité appropriées et ne sont autorisés à traiter vos données que selon nos instructions et dans le cadre de leurs obligations professionnelles." },
-          { "title": "5.2 Obligations légales", "intro": "Nous pouvons divulguer vos informations personnelles lorsque la loi, un règlement, une procédure judiciaire ou une demande légitime d'une autorité publique nous y contraint." },
-          { "title": "5.3 Transferts internationaux de données", "intro": "Nous traitons principalement les données au sein de l'UE/EEE. Dans le cas où des données seraient transférées hors de l'UE/EEE, nous veillons à ce que des garanties appropriées soient en place — telles que des clauses contractuelles types ou des décisions d'adéquation applicables — préalablement à tout transfert de ce type." }
-        ]},
-        "s6": { "title": "Sécurité des données", "intro": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées afin de protéger vos informations personnelles contre tout accès non autorisé, toute altération, divulgation ou destruction. Ces mesures comprennent :", "list": [
-          "Des canaux de communication chiffrés pour la transmission des informations sensibles",
-          "Une infrastructure serveur sécurisée et des systèmes de stockage des données",
-          "Des contrôles d'accès et des procédures d'authentification pour les systèmes internes",
-          "Un examen et une mise à jour réguliers des pratiques de sécurité",
-          "La sensibilisation du personnel aux obligations en matière de protection des données"
-        ], "outro": "Bien que nous prenions toutes les précautions raisonnables, aucune méthode de transmission ou de stockage électronique n'est entièrement sécurisée. Nous ne pouvons garantir une sécurité absolue, mais nous nous engageons à protéger vos données selon les normes les plus élevées possibles." },
-        "s7": { "title": "Conservation des données", "intro": "Nous conservons vos informations personnelles uniquement pendant la durée nécessaire à la réalisation des finalités décrites dans cette politique et au respect de nos obligations légales :", "list": [
-          "Données clients actifs : durée de la mission plus 7 ans (conformément à la législation comptable et d'archivage applicable)",
-          "Données de demandes (non converties) : 2 ans à compter de la date du dernier contact",
-          "Données d'analyse du site web : 26 mois maximum",
-          "Registres de consentement : jusqu'au retrait du consentement, plus une période raisonnable à des fins d'archivage"
-        ], "outro": "À l'expiration de la période de conservation applicable, les données personnelles sont supprimées ou anonymisées de manière sécurisée." },
-        "s8": { "title": "Vos droits en vertu du RGPD", "intro": "En tant que personne concernée au sens du RGPD, vous disposez des droits suivants concernant vos données personnelles :",
-          "rights": [
-            { "title": "Droit d'accès", "body": "Demander une copie des données personnelles que nous détenons à votre sujet." },
-            { "title": "Droit de rectification", "body": "Demander la correction de données inexactes ou incomplètes." },
-            { "title": "Droit à l'effacement", "body": "Demander la suppression de vos données dans certaines circonstances (« droit à l'oubli »)." },
-            { "title": "Droit à la limitation du traitement", "body": "Demander que nous limitions l'utilisation de vos données dans des circonstances déterminées." },
-            { "title": "Droit à la portabilité des données", "body": "Recevoir vos données dans un format structuré et lisible par machine, le cas échéant." },
-            { "title": "Droit d'opposition", "body": "Vous opposer à un traitement fondé sur un intérêt légitime ou réalisé à des fins de prospection directe." },
-            { "title": "Droit de retirer votre consentement", "body": "Retirer à tout moment tout consentement donné, sans incidence sur les traitements antérieurs." },
-            { "title": "Droit de réclamation", "body": "Déposer une réclamation auprès de l'autorité de contrôle compétente (voir Section 12)." }
-          ],
-          "outro": "Pour exercer l'un de ces droits, veuillez nous contacter à info@nordicriser.com avec pour objet « Demande de personne concernée ». Nous répondrons dans un délai d'un mois calendaire conformément au RGPD."
-        },
-        "s9": { "title": "Cookies et technologies de suivi", "body": [
-          "Notre site web est un site d'information statique recourant à un suivi minimal. Nous pouvons utiliser des cookies essentiels nécessaires au fonctionnement de base du site, notamment pour mémoriser la langue sélectionnée. Nous n'utilisons actuellement aucun cookie publicitaire tiers ni cookie de suivi comportemental.",
-          "Si nous mettons en place à l'avenir des outils d'analyse ou des technologies de suivi supplémentaires, nous obtiendrons votre consentement préalable avant de déposer tout cookie non essentiel, fournirons des informations claires sur la finalité et la durée de chaque cookie, et proposerons des moyens simples de gérer ou de retirer vos préférences en matière de cookies.",
-          "Vous pouvez à tout moment contrôler et supprimer les cookies via les paramètres de votre navigateur. Veuillez noter que la désactivation de certains cookies peut affecter le fonctionnement du site."
-        ]},
-        "s10": { "title": "Confidentialité des mineurs", "body": [
-          "Nos services s'adressent exclusivement aux adultes exerçant des activités professionnelles et commerciales. Nous ne collectons pas sciemment de données personnelles auprès de personnes de moins de 18 ans. Si vous pensez que nous avons collecté par inadvertance des données concernant un mineur, veuillez nous contacter immédiatement afin que nous prenions les mesures appropriées pour supprimer ces informations."
-        ]},
-        "s11": { "title": "Modifications de la présente politique de confidentialité", "intro": "Nous pouvons mettre à jour périodiquement cette politique de confidentialité afin de refléter les évolutions de nos pratiques, de la législation applicable ou de nos procédures opérationnelles. Les modifications importantes seront communiquées par :", "list": [
-          "La mise à jour de la date « Dernière mise à jour » en haut de cette page",
-          "Le cas échéant, la notification par e-mail des clients actifs",
-          "La publication d'un avis sur notre site web"
-        ], "outro": "Nous vous encourageons à consulter régulièrement cette politique. La poursuite de votre utilisation de notre site web après toute mise à jour vaut acceptation de la politique révisée." },
-        "s12": { "title": "Autorité de contrôle", "intro": "Si vous avez des préoccupations concernant la manière dont nous traitons vos données personnelles et que notre réponse ne vous satisfait pas, vous avez le droit de déposer une réclamation auprès de l'autorité de contrôle compétente :", "body": [
-          "Integritetsskyddsmyndigheten (IMY) — Autorité suédoise de protection de la vie privée",
-          "Box 8114, 104 20 Stockholm — Téléphone : +46 8 657 61 00 — Site web : www.imy.se"
-        ]},
-        "s13": { "title": "Nous contacter au sujet de cette politique", "intro": "Pour toute question, préoccupation ou demande relative à cette politique de confidentialité ou à nos pratiques en matière de données, veuillez nous contacter directement :", "cardTitle": "Demandes relatives à la protection des données", "cardBody": "Écrivez-nous avec pour objet « Demande relative à la politique de confidentialité » et nous vous répondrons rapidement." }
-      }
-    },
+
     "consulting": {
       "hero": { "label": "Conseil", "h1": "Conseil stratégique pour l'établissement d'entreprises à l'international", "body": "Nous proposons un accompagnement structuré et professionnel dans cinq domaines de service clés — chacun conçu pour aider les entrepreneurs et professionnels à construire une présence commerciale conforme en Europe." },
       "breadcrumb": "Conseil",

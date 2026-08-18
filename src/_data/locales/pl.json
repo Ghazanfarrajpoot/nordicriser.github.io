@@ -265,6 +265,7 @@
           { "value": "automation", "label": "Automatyzacja i integracje" },
           { "value": "support", "label": "Bieżące utrzymanie i wsparcie" },
           { "value": "globalreach", "label": "Subskrypcja Global Reach" },
+          { "value": "nrbos-trial", "label": "Prośba o 3-dniowy kod próbny NR-BOS" },
           { "value": "consulting", "label": "Doradztwo w zakresie zakładania działalności" },
           { "value": "general", "label": "Zapytanie ogólne" }
         ],
@@ -290,6 +291,7 @@
         ],
         "message": "Krótki opis Twojej sytuacji",
         "messagePlaceholder": "Opisz swoją obecną sytuację, cele oraz wszelkie konkretne pytania, jakie masz. Im bardziej precyzyjny opis, tym bardziej owocna będzie nasza wstępna konsultacja.",
+        "trialPrefillMessage": "Prośba o 3-dniowy kod próbny dla NR-BOS.\n\nNazwa firmy: \nWielkość zespołu: \nCo chcielibyśmy ocenić podczas okresu próbnego: ",
         "messageHint": "Te informacje są traktowane jako ściśle poufne i wykorzystywane wyłącznie w celu przygotowania się do Twojej konsultacji.",
         "consent": "Przesyłając ten formularz, potwierdzasz, że podane informacje są prawdziwe, oraz wyrażasz zgodę na przechowywanie przez Nordic Riser AB Twoich danych kontaktowych w celu udzielenia odpowiedzi na Twoje zapytanie. Nie udostępniamy danych klientów podmiotom trzecim.",
         "submit": "Wyślij zgłoszenie na konsultację →"
@@ -322,106 +324,7 @@
         ]
       }
     },
-    "privacy": {
-      "hero": { "label": "Prawne", "h1": "Polityka prywatności", "body": "W jaki sposób Nordic Riser AB gromadzi, wykorzystuje i chroni Twoje dane osobowe zgodnie z Ogólnym Rozporządzeniem o Ochronie Danych UE (RODO)." },
-      "breadcrumb": "Polityka prywatności",
-      "updatedBadge": "Ostatnia aktualizacja: 23 czerwca 2026",
-      "translationNotice": "Ta strona została przetłumaczona maszynowo. W przypadku jakichkolwiek rozbieżności wersja angielska jest wiążąca. W razie pytań prosimy o kontakt.",
-      "tocLabel": "Spis treści",
-      "toc": [
-        "1. Wprowadzenie", "2. Administrator danych", "3. Informacje, które gromadzimy", "4. Jak wykorzystujemy Twoje dane",
-        "5. Udostępnianie danych", "6. Bezpieczeństwo danych", "7. Okres przechowywania danych", "8. Twoje prawa (RODO)",
-        "9. Pliki cookie", "10. Prywatność dzieci", "11. Zmiany w polityce", "12. Organ nadzorczy", "13. Kontakt"
-      ],
-      "sections": {
-        "s1": { "title": "Wprowadzenie", "body": [
-          "Nordic Riser AB („my”, „nasze” lub „nas”) dokłada starań, aby chronić Twoją prywatność i zapewnić bezpieczeństwo Twoich danych osobowych. Niniejsza Polityka prywatności wyjaśnia, w jaki sposób gromadzimy, wykorzystujemy, ujawniamy i zabezpieczamy Twoje dane podczas korzystania z naszej strony internetowej lub usług doradczych.",
-          "Niniejsza polityka została opracowana zgodnie z Ogólnym Rozporządzeniem o Ochronie Danych UE (RODO) oraz obowiązującymi przepisami o ochronie danych. Korzystając z naszej strony internetowej lub przesyłając zapytanie, potwierdzasz, że zapoznałeś się z niniejszą polityką i ją rozumiesz."
-        ]},
-        "s2": { "title": "Administrator danych", "body": [
-          "Nordic Riser AB jest administratorem danych odpowiedzialnym za Twoje dane osobowe gromadzone za pośrednictwem naszej strony internetowej i usług.",
-          "Nordic Riser AB — Email: info@nordicriser.com — Website: www.nordicriser.com",
-          "We wszystkich sprawach dotyczących ochrony danych prosimy o kontakt z wykorzystaniem powyższych danych, wpisując w temacie „Zapytanie dotyczące ochrony danych”."
-        ]},
-        "s3": { "title": "Informacje, które gromadzimy", "subheadings": [
-          { "title": "3.1 Informacje przekazywane bezpośrednio przez Ciebie", "intro": "Gromadzimy informacje, które dobrowolnie nam przekazujesz, w tym:", "list": [
-            "Dane kontaktowe: imię i nazwisko, adres e-mail, numer telefonu",
-            "Informacje zawodowe: rodzaj działalności, doświadczenie zawodowe, cele biznesowe",
-            "Dane dotyczące zgłoszenia konsultacyjnego: cel konsultacji oraz opis Twojej sytuacji przekazany za pośrednictwem formularza kontaktowego",
-            "Dane komunikacyjne: informacje zawarte w wiadomościach e-mail i innej korespondencji z naszym zespołem"
-          ]},
-          { "title": "3.2 Informacje gromadzone automatycznie", "intro": "Podczas korzystania z naszej strony internetowej możemy automatycznie gromadzić:", "list": [
-            "Dane techniczne: adres IP, typ przeglądarki, system operacyjny, informacje o urządzeniu",
-            "Dane dotyczące korzystania ze strony: odwiedzane strony, czas spędzony na stronach, ścieżki nawigacji",
-            "Pliki cookie: niewielkie pliki danych zapisywane na Twoim urządzeniu (patrz Sekcja 9)"
-          ]}
-        ]},
-        "s4": { "title": "Jak wykorzystujemy Twoje dane", "intro": "Przetwarzamy Twoje dane osobowe wyłącznie w celach określonych poniżej, z których każdy oparty jest na podstawie prawnej wynikającej z RODO:",
-          "table": { "headers": ["Cel", "Podstawa prawna (RODO)"], "rows": [
-            ["Odpowiadanie na zapytania i prośby o konsultację", "Wykonanie umowy / Prawnie uzasadniony interes"],
-            ["Świadczenie usług strategicznego doradztwa, technologii i globalnej współpracy", "Wykonanie umowy"],
-            ["Komunikacja dotycząca naszych usług i postępu zlecenia", "Wykonanie umowy / Zgoda"],
-            ["Poprawa jakości naszej strony internetowej i usług", "Prawnie uzasadniony interes"],
-            ["Koordynacja ze specjalistami zewnętrznymi (prawnicy, księgowi)", "Wykonanie umowy / Prawnie uzasadniony interes"],
-            ["Zgodność z obowiązkami prawnymi i regulacyjnymi", "Obowiązek prawny"]
-          ]},
-          "note": "Nie będziemy sprzedawać, wynajmować ani wymieniać Twoich danych osobowych podmiotom trzecim. Nie będziemy wykorzystywać Twoich danych do celów niezgodnych z celami wskazanymi powyżej."
-        },
-        "s5": { "title": "Udostępnianie i ujawnianie danych", "subheadings": [
-          { "title": "5.1 Partnerzy świadczący usługi profesjonalne", "intro": "W przypadkach niezbędnych do świadczenia naszych usług możemy udostępniać odpowiednie informacje wykwalifikowanym specjalistom zewnętrznym, w tym:", "list": [
-            "Prawnikom i doradcom specjalistycznym zaangażowanym w związku z Twoją sprawą",
-            "Księgowym i doradcom podatkowym zaangażowanym w zakładanie działalności lub zgodność z przepisami",
-            "Dostawcom technologii wspierającym hosting naszej strony internetowej oraz infrastrukturę komunikacyjną"
-          ], "outro": "Wszystkie podmioty trzecie są zobowiązane do utrzymywania odpowiednich środków bezpieczeństwa i mogą przetwarzać Twoje dane wyłącznie zgodnie z naszymi wytycznymi oraz w zakresie swoich obowiązków zawodowych." },
-          { "title": "5.2 Wymogi prawne", "intro": "Możemy ujawnić Twoje dane osobowe, gdy jest to wymagane przez prawo, przepisy, postępowanie prawne lub uzasadnione żądanie organu władzy." },
-          { "title": "5.3 Międzynarodowe przekazywanie danych", "intro": "Przetwarzamy dane przede wszystkim na terenie UE/EOG. W przypadku przekazania danych poza UE/EOG zapewniamy, że przed takim przekazaniem wdrożone zostaną odpowiednie zabezpieczenia — takie jak standardowe klauzule umowne lub obowiązujące decyzje o odpowiednim poziomie ochrony." }
-        ]},
-        "s6": { "title": "Bezpieczeństwo danych", "intro": "Wdrażamy odpowiednie środki techniczne i organizacyjne w celu ochrony Twoich danych osobowych przed nieuprawnionym dostępem, zmianą, ujawnieniem lub zniszczeniem. Środki te obejmują:", "list": [
-          "Szyfrowane kanały komunikacji do przesyłania wrażliwych informacji",
-          "Bezpieczną infrastrukturę serwerową i systemy przechowywania danych",
-          "Kontrolę dostępu i procedury uwierzytelniania w systemach wewnętrznych",
-          "Regularny przegląd i aktualizację praktyk w zakresie bezpieczeństwa",
-          "Podnoszenie świadomości pracowników w zakresie obowiązków dotyczących ochrony danych"
-        ], "outro": "Mimo zachowania wszelkich uzasadnionych środków ostrożności, żadna metoda transmisji lub przechowywania danych elektronicznych nie jest w pełni bezpieczna. Nie możemy zagwarantować absolutnego bezpieczeństwa, jesteśmy jednak zaangażowani w ochronę Twoich danych na najwyższym możliwym do osiągnięcia poziomie." },
-        "s7": { "title": "Okres przechowywania danych", "intro": "Przechowujemy Twoje dane osobowe wyłącznie tak długo, jak jest to konieczne do realizacji celów określonych w niniejszej polityce oraz do wypełnienia naszych obowiązków prawnych:", "list": [
-          "Dane aktywnych klientów: okres trwania zlecenia plus 7 lat (zgodnie z obowiązującymi przepisami o rachunkowości i przechowywaniu dokumentacji)",
-          "Dane dotyczące zapytań (bez konwersji): 2 lata od daty ostatniego kontaktu",
-          "Dane analityczne strony internetowej: maksymalnie 26 miesięcy",
-          "Zapisy dotyczące zgody: do czasu wycofania zgody, plus odpowiedni okres na potrzeby prowadzenia dokumentacji"
-        ], "outro": "Po upływie odpowiedniego okresu przechowywania dane osobowe są bezpiecznie usuwane lub anonimizowane." },
-        "s8": { "title": "Twoje prawa wynikające z RODO", "intro": "Jako osoba, której dane dotyczą w rozumieniu RODO, przysługują Ci następujące prawa w odniesieniu do Twoich danych osobowych:",
-          "rights": [
-            { "title": "Prawo dostępu", "body": "Prawo do uzyskania kopii danych osobowych, które przechowujemy na Twój temat." },
-            { "title": "Prawo do sprostowania", "body": "Prawo do żądania poprawienia nieprawidłowych lub niekompletnych danych." },
-            { "title": "Prawo do usunięcia danych", "body": "Prawo do żądania usunięcia Twoich danych w określonych okolicznościach („prawo do bycia zapomnianym”)." },
-            { "title": "Prawo do ograniczenia przetwarzania", "body": "Prawo do żądania ograniczenia sposobu wykorzystywania Twoich danych w określonych okolicznościach." },
-            { "title": "Prawo do przenoszenia danych", "body": "Prawo do otrzymania danych w ustrukturyzowanym, nadającym się do odczytu maszynowego formacie, o ile ma to zastosowanie." },
-            { "title": "Prawo do sprzeciwu", "body": "Prawo do sprzeciwu wobec przetwarzania opartego na prawnie uzasadnionym interesie lub na potrzeby marketingu bezpośredniego." },
-            { "title": "Prawo do wycofania zgody", "body": "Prawo do wycofania w dowolnym momencie udzielonej zgody, bez wpływu na zgodność z prawem przetwarzania dokonanego wcześniej." },
-            { "title": "Prawo do wniesienia skargi", "body": "Prawo do wniesienia skargi do właściwego organu nadzorczego (patrz Sekcja 12)." }
-          ],
-          "outro": "Aby skorzystać z któregokolwiek z powyższych praw, prosimy o kontakt pod adresem info@nordicriser.com, wpisując w temacie „Wniosek osoby, której dane dotyczą”. Odpowiemy w ciągu jednego miesiąca kalendarzowego, zgodnie z wymogami RODO."
-        },
-        "s9": { "title": "Pliki cookie i technologie śledzące", "body": [
-          "Nasza strona internetowa jest statyczną witryną informacyjną z minimalnym śledzeniem. Możemy wykorzystywać niezbędne pliki cookie wymagane do podstawowego działania strony, w tym do zapamiętywania wybranego przez Ciebie języka. Obecnie nie stosujemy plików cookie reklamowych ani śledzących zachowania użytkowników pochodzących od podmiotów trzecich.",
-          "Jeśli w przyszłości wdrożymy narzędzia analityczne lub dodatkowe technologie śledzące, uzyskamy Twoją uprzednią zgodę przed ustawieniem jakichkolwiek plików cookie innych niż niezbędne, przekażemy jasne informacje o celu i czasie trwania każdego pliku cookie oraz zapewnimy proste mechanizmy zarządzania preferencjami dotyczącymi plików cookie lub ich wycofania.",
-          "W dowolnym momencie możesz kontrolować i usuwać pliki cookie za pomocą ustawień swojej przeglądarki. Należy pamiętać, że wyłączenie niektórych plików cookie może wpłynąć na funkcjonalność strony internetowej."
-        ]},
-        "s10": { "title": "Prywatność dzieci", "body": [
-          "Nasze usługi są skierowane wyłącznie do osób dorosłych prowadzących działalność zawodową i gospodarczą. Nie gromadzimy świadomie danych osobowych osób poniżej 18. roku życia. Jeśli uważasz, że przypadkowo zgromadziliśmy dane osoby małoletniej, prosimy o niezwłoczny kontakt — podejmiemy odpowiednie kroki w celu usunięcia tych informacji."
-        ]},
-        "s11": { "title": "Zmiany w niniejszej Polityce prywatności", "intro": "Możemy okresowo aktualizować niniejszą Politykę prywatności, aby odzwierciedlić zmiany w naszych praktykach, obowiązujących przepisach lub procedurach operacyjnych. Istotne zmiany będą komunikowane poprzez:", "list": [
-          "Aktualizację daty „Ostatnia aktualizacja” na górze tej strony",
-          "W stosownych przypadkach powiadomienie aktywnych klientów drogą e-mailową",
-          "Zamieszczenie stosownej informacji na naszej stronie internetowej"
-        ], "outro": "Zachęcamy do okresowego przeglądania niniejszej polityki. Dalsze korzystanie z naszej strony internetowej po wprowadzeniu jakiejkolwiek aktualizacji oznacza akceptację zmienionej polityki." },
-        "s12": { "title": "Organ nadzorczy", "intro": "Jeśli masz zastrzeżenia co do sposobu, w jaki przetwarzamy Twoje dane osobowe, i nie jesteś zadowolony z naszej odpowiedzi, masz prawo wnieść skargę do właściwego organu nadzorczego:", "body": [
-          "Integritetsskyddsmyndigheten (IMY) — Szwedzki Urząd Ochrony Danych Osobowych",
-          "Box 8114, 104 20 Stockholm — Phone: +46 8 657 61 00 — Website: www.imy.se"
-        ]},
-        "s13": { "title": "Kontakt w sprawie niniejszej polityki", "intro": "Jeśli masz pytania, wątpliwości lub wnioski dotyczące niniejszej Polityki prywatności lub naszych praktyk w zakresie ochrony danych, prosimy o bezpośredni kontakt:", "cardTitle": "Zapytania dotyczące ochrony danych", "cardBody": "Napisz do nas, wpisując w temacie „Zapytanie dotyczące Polityki prywatności” — odpowiemy niezwłocznie." }
-      }
-    },
+
     "consulting": {
       "hero": { "label": "Doradztwo", "h1": "Strategiczne doradztwo w zakresie zakładania międzynarodowej działalności gospodarczej", "body": "Zapewniamy ustrukturyzowane, profesjonalne doradztwo w pięciu kluczowych obszarach usług — każdy z nich został zaprojektowany, by wspierać przedsiębiorców i profesjonalistów budujących zgodną z prawem obecność biznesową w Europie." },
       "breadcrumb": "Doradztwo",

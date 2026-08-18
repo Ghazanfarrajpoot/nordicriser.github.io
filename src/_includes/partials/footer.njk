@@ -1,7 +1,7 @@
 {%- set t = locales[locale] -%}
 {%- set navWorkLabel = t.nav.work or locales.en.nav.work -%}
 <footer class="footer">
-  <div class="footer-main{% if pageKey != 'consulting' %} footer-main--3col{% endif %}">
+  <div class="footer-main{% if pageKey != 'consulting' %} footer-main--compact{% endif %}">
     <div class="footer-brand">
       <a href="{{ '' | localeUrl(locale) }}" class="footer-logo">Nordic Riser <span>AB</span></a>
       <p>{{ t.footer.brandBlurb }}</p>
@@ -47,8 +47,16 @@
       <ul>
         <li><a href="{{ 'about' | localeUrl(locale) }}">{{ t.footer.firmLinks.about }}</a></li>
         <li><a href="{{ 'contact' | localeUrl(locale) }}">{{ t.footer.firmLinks.contact }}</a></li>
-        <li><a href="{{ 'privacy' | localeUrl(locale) }}">{{ t.footer.firmLinks.privacy }}</a></li>
         <li><a href="https://portal.nordicriser.com">{{ t.footer.firmLinks.memberPortal }}</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>{{ t.footer.legalHeading }}</h4>
+      <ul>
+        <li><a href="{{ 'legal/privacy' | localeUrl(locale) }}">{{ t.footer.legalLinks.privacy }}</a></li>
+        <li><a href="{{ 'legal/terms' | localeUrl(locale) }}">{{ t.footer.legalLinks.terms }}</a></li>
+        <li><a href="{{ 'legal/dpa' | localeUrl(locale) }}">{{ t.footer.legalLinks.dpa }}</a></li>
+        <li><a href="{{ 'legal/subprocessors' | localeUrl(locale) }}">{{ t.footer.legalLinks.subprocessors }}</a></li>
       </ul>
     </div>
     {%- if pageKey == "consulting" %}
@@ -64,7 +72,8 @@
   <div class="footer-bottom">
     <span>{{ t.footer.copyright }}</span>
     <ul class="footer-bottom-links">
-      <li><a href="{{ 'privacy' | localeUrl(locale) }}">{{ t.footer.firmLinks.privacy }}</a></li>
+      <li><a href="{{ 'legal/privacy' | localeUrl(locale) }}">{{ t.footer.legalLinks.privacy }}</a></li>
+      <li><a href="{{ 'legal/terms' | localeUrl(locale) }}">{{ t.footer.legalLinks.terms }}</a></li>
       <li><a href="{{ 'contact' | localeUrl(locale) }}">{{ t.footer.firmLinks.contact }}</a></li>
       <li><a href="https://portal.nordicriser.com">{{ t.footer.firmLinks.memberPortal }}</a></li>
     </ul>
