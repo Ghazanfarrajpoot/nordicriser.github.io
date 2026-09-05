@@ -7,7 +7,7 @@
 -#}
 {% import "partials/icons.njk" as icons %}
 
-{% macro overview(ov) %}
+{% macro overview(ov, statusAvailable) %}
 <button type="button" class="nrb2-launcher nrb2-scope" data-nrb2-open="{{ ov.id }}" aria-haspopup="dialog">
   <span class="nrb2-launcher__text">
     <span class="nrb2-launcher__eyebrow"><span class="nrb2-dot" aria-hidden="true"></span>{{ ov.eyebrow }}</span>
@@ -51,6 +51,7 @@
              class="nrb2-panel{{ ' is-active' if loop.first else '' }}"
              tabindex="0">
           <p class="nrb2-panel__eyebrow">{{ p.eyebrow }}</p>
+          {%- if statusAvailable %}<span class="status-badge status-badge--available">{{ statusAvailable }}</span>{%- endif %}
           <h3 class="nrb2-panel__title">{{ p.title }}</h3>
           <p class="nrb2-panel__body">{{ p.body }}</p>
           <ul class="nrb2-feat">

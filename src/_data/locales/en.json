@@ -2,6 +2,9 @@
   "meta": { "code": "en", "name": "English", "dir": "ltr", "status": "SOURCE" },
   "common": {
     "bookConsultation": "Book a Consultation",
+    "statusAvailable": "Available Now",
+    "statusInDevelopment": "In Development",
+    "statusPlanned": "Planned",
     "learnMore": "Learn more →",
     "readMore": "Read more →",
     "requestQuote": "Request a Quote",
@@ -1148,6 +1151,36 @@
           ]
         }
       ],
+      "workflow": {
+        "label": "How It Actually Runs",
+        "title": "From Assignment to Client Report — One Connected Flow",
+        "steps": [
+          { "title": "Project Created", "body": "A project is set up with its own budget, client, and team." },
+          { "title": "Work Assigned", "body": "Tasks are assigned with a due date and estimated hours." },
+          { "title": "Field Report Logged", "body": "Site notes, photos, and a geotagged timestamp are recorded from the field." },
+          { "title": "Reviewed", "body": "The task moves through the board's Review stage before it's marked done." },
+          { "title": "Dashboard Updates", "body": "Portfolio KPIs and budget-vs-actual refresh automatically as the data comes in." },
+          { "title": "AI Analysis", "body": "On demand, an AI assistant reads the updated project data and returns a risk, cost, and productivity briefing — decision support, not an autonomous action." },
+          { "title": "Client Report Generated", "body": "A branded PDF pulls in the project's tasks, costs, and recent field photos." }
+        ]
+      },
+      "moduleMap": {
+        "label": "Module Map",
+        "title": "What's Built, What's Coming",
+        "items": [
+          { "icon": "handshake", "name": "CRM", "status": "planned", "body": "Client and contact relationship tracking. Not yet built — client details currently live inside each project record." },
+          { "icon": "clipboard", "name": "Projects", "status": "available", "body": "Every job tracked with its own budget, client, and team on a four-stage board." },
+          { "icon": "check", "name": "Tasks", "status": "available", "body": "Assignee, due date, and estimated hours on every task, moving through To Do → In Progress → Review → Done." },
+          { "icon": "briefcase", "name": "People", "status": "available", "body": "Company user accounts with role-based access — admin, project manager, field worker, client." },
+          { "icon": "wrench", "name": "Field Ops", "status": "available", "body": "Site notes, timestamps, geotagging, and before/after photos logged straight from the field." },
+          { "icon": "chart", "name": "Costs", "status": "available", "body": "A running cost ledger by category, with remaining budget calculated automatically." },
+          { "icon": "folder", "name": "Documents", "status": "planned", "body": "A dedicated document vault. Not yet built — client reports currently ship as standalone PDFs." },
+          { "icon": "lock", "name": "Client Portal", "status": "available", "body": "Clients log in to see only their own project's status and reports." },
+          { "icon": "pencil", "name": "Reporting", "status": "available", "body": "Branded PDF reports generated in one click from a project's tasks, costs, and field photos." },
+          { "icon": "target", "name": "Analytics", "status": "available", "body": "Portfolio-wide KPIs, team workload, and budget-vs-actual, updated in real time." },
+          { "icon": "gear", "name": "AI", "status": "available", "body": "An AI assistant reads real project data on demand and returns a structured briefing for decision support — it doesn't act on its own." }
+        ]
+      },
       "cta": {
         "title": "Want NR-BOS for your team?",
         "body": "It's licensed by subscription code, not a public sign-up form — tell us about your operation and we'll set you up.",

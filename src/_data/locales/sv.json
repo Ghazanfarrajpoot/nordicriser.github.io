@@ -2,6 +2,9 @@
   "meta": { "code": "sv", "name": "Svenska", "dir": "ltr", "status": "MACHINE_TRANSLATED_NEEDS_REVIEW" },
   "common": {
     "bookConsultation": "Boka en konsultation",
+    "statusAvailable": "Tillgänglig nu",
+    "statusInDevelopment": "Under utveckling",
+    "statusPlanned": "Planerad",
     "learnMore": "Läs mer →",
     "readMore": "Läs mer →",
     "requestQuote": "Begär en offert",

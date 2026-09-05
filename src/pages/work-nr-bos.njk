@@ -15,7 +15,14 @@ pageSlug: work/nr-bos
 {#- Falls back to English until this page is translated for this locale. -#}
 {%- set p = t.pages.nrBos or locales.en.pages.nrBos -%}
 {%- set ov = t.productOverviews.nrBos or locales.en.productOverviews.nrBos -%}
+{#- Status-badge labels must match whichever language p/ov actually fell back to, not the page's own locale. -#}
+{%- set pCommon = t.common if t.pages.nrBos else locales.en.common -%}
+{%- set ovCommon = t.common if t.productOverviews.nrBos else locales.en.common -%}
+{%- set statusAvailable = pCommon.statusAvailable -%}
+{%- set statusPlanned = pCommon.statusPlanned -%}
+{%- set ovStatusAvailable = ovCommon.statusAvailable -%}
 {% import "partials/nrb-overview.njk" as nrb2 %}
+{% import "partials/icons.njk" as icons %}
 
 <section class="page-hero">
   <div class="page-hero-inner" data-animate>
@@ -33,9 +40,46 @@ pageSlug: work/nr-bos
   </div>
 </div>
 
+{%- if p.workflow %}
+<section class="section">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.workflow.label }}</span>
+    <h2 class="section-title">{{ p.workflow.title }}</h2>
+    <div class="steps-grid nrb-workflow-grid">
+      {%- for step in p.workflow.steps %}
+      <div class="step">
+        <div class="step-number">{{ loop.index }}</div>
+        <h3>{{ step.title }}</h3>
+        <p>{{ step.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+{%- if p.moduleMap %}
+<section class="section section-alt">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.moduleMap.label }}</span>
+    <h2 class="section-title">{{ p.moduleMap.title }}</h2>
+    <div class="portfolio-grid nrb-module-grid">
+      {%- for m in p.moduleMap.items %}
+      <div class="portfolio-card">
+        <div class="portfolio-icon">{{ icons.icon(m.icon) }}</div>
+        <span class="status-badge status-badge--{{ m.status }}">{{ statusAvailable if m.status == 'available' else statusPlanned }}</span>
+        <h3>{{ m.name }}</h3>
+        <p>{{ m.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
 <section class="section" style="padding-bottom: 0;">
   <div class="section-inner-narrow">
-    {{ nrb2.overview(ov) }}
+    {{ nrb2.overview(ov, ovStatusAvailable) }}
   </div>
 </section>
 
@@ -47,6 +91,7 @@ pageSlug: work/nr-bos
     <div class="nrb-block">
       <div class="nrb-block-head">
         <span class="section-label">{{ block.eyebrow }}</span>
+        <span class="status-badge status-badge--available">{{ statusAvailable }}</span>
         <h2 class="nrb-block-title">{{ block.title }}</h2>
         <p class="nrb-block-body">{{ block.body }}</p>
       </div>
