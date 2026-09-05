@@ -28,33 +28,9 @@ pageSlug: consulting
   </div>
 </div>
 
-<section class="section">
-  <div class="section-inner" data-animate>
-    <span class="section-label">{{ p.servicesLabel }}</span>
-    <h2 class="section-title" id="establishment">{{ p.servicesTitle }}</h2>
-    <p class="section-sub">{{ p.servicesSub }}</p>
-
-    <div class="services-list">
-      {%- for svc in p.services %}
-      <div class="service-card" id="{{ svc.anchor }}">
-        <div class="service-number">{{ svc.number }}</div>
-        <div class="service-body">
-          <span class="service-tagline">{{ svc.tagline }}</span>
-          <h2>{{ svc.title }}</h2>
-          {%- for para in svc.body %}<p>{{ para }}</p>{% endfor %}
-          <div class="service-includes">
-            <h4>{{ svc.includesHeading }}</h4>
-            <div class="includes-list">
-              {%- for inc in svc.includes %}<span>{{ inc }}</span>{% endfor %}
-            </div>
-          </div>
-        </div>
-      </div>
-      {%- endfor %}
-    </div>
-  </div>
-</section>
-
+{#- Reordered to Problem -> Solution -> Process -> Deliverables -> CTA: client
+    profile/challenges (Problem) now leads, followed by service offerings
+    (Solution). Content unchanged, only the section order. -#}
 <section class="section section-alt">
   <div class="section-inner" data-animate>
     <span class="section-label">{{ p.whoThisIsFor.label }}</span>
@@ -74,6 +50,33 @@ pageSlug: consulting
             <h4>{{ g.challengesHeading }}</h4>
             <div class="challenge-list">
               {%- for c in g.challenges %}<div class="challenge-item">{{ c }}</div>{% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.servicesLabel }}</span>
+    <h2 class="section-title" id="establishment">{{ p.servicesTitle }}</h2>
+    <p class="section-sub">{{ p.servicesSub }}</p>
+
+    <div class="services-list">
+      {%- for svc in p.services %}
+      <div class="service-card" id="{{ svc.anchor }}">
+        <div class="service-number">{{ svc.number }}</div>
+        <div class="service-body">
+          <span class="service-tagline">{{ svc.tagline }}</span>
+          <h2>{{ svc.title }}</h2>
+          {%- for para in svc.body %}<p>{{ para }}</p>{% endfor %}
+          <div class="service-includes">
+            <h4>{{ svc.includesHeading }}</h4>
+            <div class="includes-list">
+              {%- for inc in svc.includes %}<span>{{ inc }}</span>{% endfor %}
             </div>
           </div>
         </div>
