@@ -1325,10 +1325,11 @@
       "howWeWorkTitle": "En strukturerad väg från idé till lansering",
       "howWeWorkSub": "Samma disciplin som vi tillämpar i konsultuppdrag följer med i hur vi planerar och bygger teknik.",
       "howWeWork": [
-        { "title": "Omfång", "body": "Vi bedömer dina affärsbehov och definierar ett tydligt, skriftligt omfång innan någon utveckling påbörjas." },
-        { "title": "Offert", "body": "Du får en transparent offert kopplad direkt till det överenskomna omfånget — ingen öppen fakturering." },
+        { "title": "Upptäck", "body": "Vi bedömer dina affärsbehov och tar fram ett tydligt, skriftligt omfång samt en transparent offert innan någon utveckling påbörjas." },
+        { "title": "Design", "body": "Gränssnittsdesign och teknisk arkitektur, utarbetade och godkända av dig innan vi skriver en rad kod." },
         { "title": "Bygga", "body": "Vi bygger i strukturerade etapper med regelbundna avstämningar, så att du alltid vet var projektet står." },
-        { "title": "Support", "body": "Efter lansering finns vi tillgängliga för underhåll, uppdateringar och framtida förbättringar." }
+        { "title": "Lansering", "body": "Driftsättning, domän- och SSL-konfiguration samt överlämningsdokumentation. Du äger koden och kontona." },
+        { "title": "Förbättra", "body": "Efter lansering finns vi tillgängliga för övervakning, uppdateringar och löpande förbättringar allteftersom dina behov förändras." }
       ],
       "capabilitiesLabel": "Vad vi kan bygga",
       "capabilitiesTitle": "Förmågor, inte löften",

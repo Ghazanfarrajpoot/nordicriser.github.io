@@ -479,10 +479,11 @@
       "howWeWorkTitle": "Een Gestructureerd Traject van Idee tot Lancering",
       "howWeWorkSub": "Dezelfde discipline die wij toepassen op consultingtrajecten, passen wij ook toe op de manier waarop wij technologie plannen en bouwen.",
       "howWeWork": [
-        { "title": "Scope", "body": "Wij beoordelen uw bedrijfsbehoeften en bepalen een duidelijke, schriftelijke scope voordat de ontwikkeling begint." },
-        { "title": "Offerte", "body": "U ontvangt een transparante offerte die rechtstreeks is gekoppeld aan de overeengekomen scope — geen open-einde facturering." },
+        { "title": "Ontdekken", "body": "Wij beoordelen uw bedrijfsbehoeften en stellen een duidelijke, schriftelijke scope op, samen met een transparante offerte, voordat de ontwikkeling begint." },
+        { "title": "Design", "body": "Interfaceontwerp en technische architectuur, uitgewerkt en met u afgestemd voordat wij een regel code schrijven." },
         { "title": "Bouw", "body": "Wij bouwen in gestructureerde fasen met regelmatige check-ins, zodat u altijd weet hoe het project ervoor staat." },
-        { "title": "Ondersteuning", "body": "Na de lancering blijven wij beschikbaar voor onderhoud, updates en toekomstige verbeteringen." }
+        { "title": "Lancering", "body": "Implementatie, domein- en SSL-configuratie, en overdrachtsdocumentatie. U bent eigenaar van de code en de accounts." },
+        { "title": "Verbeteren", "body": "Na de lancering blijven wij beschikbaar voor monitoring, updates en doorlopende verbeteringen naarmate uw behoeften veranderen." }
       ],
       "capabilitiesLabel": "Wat Wij Kunnen Bouwen",
       "capabilitiesTitle": "Mogelijkheden, Geen Beloftes",

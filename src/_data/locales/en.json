@@ -951,10 +951,11 @@
       "howWeWorkTitle": "A Structured Path from Idea to Launch",
       "howWeWorkSub": "The same discipline we apply to consulting engagements carries over to how we plan and build technology.",
       "howWeWork": [
-        { "title": "Scope", "body": "We assess your business needs and define a clear, written scope before any development begins." },
-        { "title": "Quote", "body": "You receive a transparent quote tied directly to the agreed scope — no open-ended billing." },
+        { "title": "Discover", "body": "We assess your business needs and define a clear, written scope and a transparent quote before any development begins." },
+        { "title": "Design", "body": "Interface design and technical architecture, worked out and agreed with you before we write a line of code." },
         { "title": "Build", "body": "We build in structured stages with regular check-ins, so you always know where the project stands." },
-        { "title": "Support", "body": "After launch, we remain available for maintenance, updates, and future enhancements." }
+        { "title": "Launch", "body": "Deployment, domain and SSL setup, and handover documentation. You own the code and the accounts." },
+        { "title": "Improve", "body": "After launch, we remain available for monitoring, updates, and ongoing enhancements as your needs evolve." }
       ],
       "capabilitiesLabel": "What We Can Build",
       "capabilitiesTitle": "Capabilities, Not Promises",

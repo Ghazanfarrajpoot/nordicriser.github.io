@@ -479,10 +479,11 @@
       "howWeWorkTitle": "Ustrukturyzowana droga od pomysłu do wdrożenia",
       "howWeWorkSub": "Ta sama dyscyplina, którą stosujemy w zleceniach doradczych, przekłada się na sposób, w jaki planujemy i budujemy technologię.",
       "howWeWork": [
-        { "title": "Zakres", "body": "Oceniamy potrzeby Twojej firmy i określamy jasny, pisemny zakres prac, zanim rozpoczniemy jakikolwiek rozwój." },
-        { "title": "Wycena", "body": "Otrzymujesz przejrzystą wycenę powiązaną bezpośrednio z uzgodnionym zakresem — bez rozliczeń o niejasnych granicach." },
+        { "title": "Odkrycie", "body": "Oceniamy potrzeby Twojej firmy i określamy jasny, pisemny zakres prac wraz z przejrzystą wyceną, zanim rozpoczniemy jakikolwiek rozwój." },
+        { "title": "Projektowanie", "body": "Projektowanie interfejsu i architektury technicznej, opracowane i zatwierdzone z Tobą, zanim napiszemy pierwszą linijkę kodu." },
         { "title": "Budowa", "body": "Budujemy w ustrukturyzowanych etapach z regularnymi konsultacjami, dzięki czemu zawsze wiesz, na jakim etapie znajduje się projekt." },
-        { "title": "Wsparcie", "body": "Po uruchomieniu pozostajemy dostępni w zakresie utrzymania, aktualizacji i przyszłych ulepszeń." }
+        { "title": "Wdrożenie", "body": "Wdrożenie, konfiguracja domeny i SSL oraz dokumentacja przekazania. Jesteś właścicielem kodu i kont." },
+        { "title": "Rozwój", "body": "Po wdrożeniu pozostajemy dostępni w zakresie monitorowania, aktualizacji i ciągłych ulepszeń w miarę zmieniających się potrzeb." }
       ],
       "capabilitiesLabel": "Co możemy zbudować",
       "capabilitiesTitle": "Możliwości, nie obietnice",

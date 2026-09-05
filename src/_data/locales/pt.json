@@ -479,10 +479,11 @@
       "howWeWorkTitle": "Um Percurso Estruturado da Ideia ao Lançamento",
       "howWeWorkSub": "A mesma disciplina que aplicamos às colaborações de consultoria estende-se à forma como planeamos e construímos tecnologia.",
       "howWeWork": [
-        { "title": "Âmbito", "body": "Avaliamos as necessidades do seu negócio e definimos um âmbito claro e escrito antes de iniciar qualquer desenvolvimento." },
-        { "title": "Orçamento", "body": "Recebe um orçamento transparente diretamente associado ao âmbito acordado — sem faturação em aberto." },
+        { "title": "Descoberta", "body": "Avaliamos as necessidades do seu negócio e definimos um âmbito claro e escrito, juntamente com um orçamento transparente, antes de iniciar qualquer desenvolvimento." },
+        { "title": "Design", "body": "Design de interface e arquitetura técnica, elaborados e acordados consigo antes de escrevermos uma única linha de código." },
         { "title": "Construção", "body": "Construímos em fases estruturadas, com pontos de situação regulares, para que saiba sempre em que ponto se encontra o projeto." },
-        { "title": "Suporte", "body": "Após o lançamento, permanecemos disponíveis para manutenção, atualizações e melhorias futuras." }
+        { "title": "Lançamento", "body": "Implementação, configuração de domínio e SSL, e documentação de transição. É proprietário do código e das contas." },
+        { "title": "Melhoria", "body": "Após o lançamento, permanecemos disponíveis para monitorização, atualizações e melhorias contínuas à medida que as suas necessidades evoluem." }
       ],
       "capabilitiesLabel": "O Que Podemos Construir",
       "capabilitiesTitle": "Capacidades, Não Promessas",

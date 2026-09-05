@@ -479,10 +479,11 @@
       "howWeWorkTitle": "Un parcours structuré de l'idée au lancement",
       "howWeWorkSub": "La même rigueur que nous appliquons à nos missions de conseil se retrouve dans notre façon de planifier et de développer nos solutions technologiques.",
       "howWeWork": [
-        { "title": "Cadrage", "body": "Nous évaluons les besoins de votre entreprise et définissons un périmètre clair et écrit avant tout développement." },
-        { "title": "Devis", "body": "Vous recevez un devis transparent directement lié au périmètre convenu — sans facturation à durée indéterminée." },
+        { "title": "Découverte", "body": "Nous évaluons les besoins de votre entreprise et établissons un périmètre clair et écrit ainsi qu'un devis transparent avant tout développement." },
+        { "title": "Design", "body": "Design d'interface et architecture technique, élaborés et validés avec vous avant la première ligne de code." },
         { "title": "Développement", "body": "Nous développons par étapes structurées avec des points d'avancement réguliers, afin que vous sachiez toujours où en est le projet." },
-        { "title": "Support", "body": "Après le lancement, nous restons disponibles pour la maintenance, les mises à jour et les évolutions futures." }
+        { "title": "Lancement", "body": "Déploiement, configuration du domaine et du SSL, et documentation de transfert. Vous êtes propriétaire du code et des comptes." },
+        { "title": "Amélioration", "body": "Après le lancement, nous restons disponibles pour le suivi, les mises à jour et les améliorations continues, à mesure que vos besoins évoluent." }
       ],
       "capabilitiesLabel": "Ce que nous pouvons développer",
       "capabilitiesTitle": "Des capacités concrètes, pas des promesses",

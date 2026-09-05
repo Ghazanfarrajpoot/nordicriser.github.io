@@ -479,10 +479,11 @@
       "howWeWorkTitle": "Ein strukturierter Weg von der Idee zum Launch",
       "howWeWorkSub": "Dieselbe Sorgfalt, die wir in unseren Beratungsmandaten anwenden, übertragen wir auf die Planung und Entwicklung von Technologie.",
       "howWeWork": [
-        { "title": "Umfang", "body": "Wir bewerten Ihre unternehmerischen Bedürfnisse und definieren einen klaren, schriftlich festgehaltenen Umfang, bevor die Entwicklung beginnt." },
-        { "title": "Angebot", "body": "Sie erhalten ein transparentes Angebot, das direkt an den vereinbarten Umfang gekoppelt ist — keine offene Abrechnung." },
+        { "title": "Entdecken", "body": "Wir bewerten Ihre unternehmerischen Bedürfnisse und erstellen einen klaren, schriftlichen Umfang sowie ein transparentes Angebot, bevor die Entwicklung beginnt." },
+        { "title": "Design", "body": "Interface-Design und technische Architektur, ausgearbeitet und von Ihnen freigegeben, bevor wir eine Zeile Code schreiben." },
         { "title": "Entwicklung", "body": "Wir entwickeln in strukturierten Phasen mit regelmäßigen Abstimmungen, damit Sie stets wissen, wo das Projekt steht." },
-        { "title": "Support", "body": "Nach dem Launch stehen wir weiterhin für Wartung, Updates und künftige Erweiterungen zur Verfügung." }
+        { "title": "Launch", "body": "Bereitstellung, Domain- und SSL-Einrichtung sowie Übergabedokumentation. Sie besitzen den Code und alle Konten." },
+        { "title": "Weiterentwickeln", "body": "Nach dem Launch stehen wir weiterhin für Monitoring, Updates und laufende Verbesserungen zur Verfügung, während sich Ihre Anforderungen weiterentwickeln." }
       ],
       "capabilitiesLabel": "Was wir entwickeln können",
       "capabilitiesTitle": "Fähigkeiten statt Versprechen",

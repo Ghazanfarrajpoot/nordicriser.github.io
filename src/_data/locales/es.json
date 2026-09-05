@@ -479,10 +479,11 @@
       "howWeWorkTitle": "Un Camino Estructurado desde la Idea hasta el Lanzamiento",
       "howWeWorkSub": "La misma disciplina que aplicamos a nuestras colaboraciones de consultoría se traslada a la forma en que planificamos y construimos tecnología.",
       "howWeWork": [
-        { "title": "Alcance", "body": "Evaluamos las necesidades de su negocio y definimos un alcance claro y por escrito antes de comenzar cualquier desarrollo." },
-        { "title": "Presupuesto", "body": "Recibe un presupuesto transparente vinculado directamente al alcance acordado — sin facturación indefinida." },
+        { "title": "Descubrimiento", "body": "Evaluamos las necesidades de su negocio y definimos un alcance claro y por escrito, junto con un presupuesto transparente, antes de comenzar cualquier desarrollo." },
+        { "title": "Diseño", "body": "Diseño de interfaz y arquitectura técnica, elaborados y acordados con usted antes de escribir una sola línea de código." },
         { "title": "Construcción", "body": "Construimos en etapas estructuradas con revisiones periódicas, para que siempre sepa en qué punto se encuentra el proyecto." },
-        { "title": "Soporte", "body": "Tras el lanzamiento, seguimos disponibles para el mantenimiento, las actualizaciones y las futuras mejoras." }
+        { "title": "Lanzamiento", "body": "Despliegue, configuración de dominio y SSL, y documentación de traspaso. Usted es propietario del código y de las cuentas." },
+        { "title": "Mejora", "body": "Tras el lanzamiento, seguimos disponibles para monitorización, actualizaciones y mejoras continuas a medida que evolucionan sus necesidades." }
       ],
       "capabilitiesLabel": "Qué Podemos Construir",
       "capabilitiesTitle": "Capacidades, No Promesas",
