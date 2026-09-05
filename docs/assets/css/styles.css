@@ -47,6 +47,14 @@
 
 html { scroll-behavior: smooth; }
 
+/* ── FOCUS STATES — sitewide keyboard-navigation visibility, same treatment
+   already used inside the NR-BOS modal (nrb-overview.css) ── */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible,
+textarea:focus-visible, [tabindex]:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
 /* ── BASE ── */
 body {
   font-family: var(--font-sans);
