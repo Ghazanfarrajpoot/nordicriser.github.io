@@ -18,6 +18,7 @@
     "consulting": "Consulenza",
     "itServices": "Servizi",
     "work": "Lavori",
+    "nrBos": "NR-BOS",
     "globalReach": "Global Reach",
     "about": "Chi Siamo",
     "contact": "Contatti",
@@ -61,6 +62,14 @@
       "contact": "Contatti",
       "privacy": "Informativa sulla Privacy",
       "memberPortal": "Portale Membri"
+    },
+    "legalHeading": "Legale",
+    "legalLinks": {
+      "privacy": "Informativa sulla Privacy",
+      "terms": "Termini di Servizio",
+      "dpa": "Accordo sul Trattamento dei Dati",
+      "subprocessors": "Subresponsabili",
+      "security": "Sicurezza"
     }
   },
   "pages": {
@@ -70,11 +79,20 @@
         "description": "Studio di software con sede a Stoccolma che sviluppa piattaforme web multilingue, portali clienti sicuri e prodotti su misura per aziende che operano tra lingue e mercati diversi."
       },
       "hero": {
-        "label": "Software · Piattaforme · Prodotti",
-        "h1": "Sviluppiamo Software per Aziende che Attraversano i Confini",
-        "body": "Piattaforme web multilingue, portali clienti sicuri e prodotti su misura — progettati e sviluppati a Stoccolma per aziende che operano tra lingue, valute e giurisdizioni diverse.",
-        "cta": "Guarda i Nostri Lavori",
-        "ctaSecondary": "Avvia un Progetto"
+        "label": "Software · NR-BOS · Consulenza",
+        "h1": "Tecnologia per il Business delle Aziende che Attraversano i Confini",
+        "body": "Costruiamo la tecnologia, gestiamo le operazioni e guidiamo l'espansione — un unico partner per aziende che operano tra lingue, valute e giurisdizioni diverse.",
+        "cta": "Scopri NR-BOS",
+        "ctaSecondary": "Avvia un Progetto Software"
+      },
+      "pillars": {
+        "label": "Come Lavoriamo con Te",
+        "title": "Tre Modi Connessi per Aiutarti a Crescere",
+        "items": [
+          { "tag": "Software", "icon": "code", "variant": "it", "title": "Costruiamo la Tecnologia", "body": "Sistemi su misura, prodotti SaaS, portali sicuri, automazione e API — progettati e sviluppati internamente, non esternalizzati.", "cta": "Avvia un Progetto Software", "link": "services" },
+          { "tag": "NR-BOS", "icon": "gear", "variant": "global", "title": "Gestiamo le Operazioni", "body": "Il nostro prodotto di punta per la gestione dei progetti, le operazioni sul campo e la reportistica ai clienti. Operatività di livello enterprise senza la complessità di un ERP tradizionale.", "cta": "Scopri NR-BOS", "link": "work/nr-bos" },
+          { "tag": "Consulenza", "icon": "handshake", "variant": "consulting", "title": "Guidiamo l'Espansione", "body": "Consulenza per imprenditori e aziende internazionali che costituiscono e gestiscono strutture d'impresa conformi in Europa.", "cta": "Prenota una Consulenza", "link": "consulting" }
+        ]
       },
       "proofBar": {
         "stats": [
@@ -469,10 +487,11 @@
       "howWeWorkTitle": "Un Percorso Strutturato dall'Idea al Lancio",
       "howWeWorkSub": "La stessa disciplina che applichiamo agli incarichi di consulenza si riflette nel modo in cui pianifichiamo e sviluppiamo la tecnologia.",
       "howWeWork": [
-        { "title": "Definizione dell'Ambito", "body": "Valutiamo le esigenze della tua impresa e definiamo un ambito chiaro e scritto prima dell'inizio dello sviluppo." },
-        { "title": "Preventivo", "body": "Ricevi un preventivo trasparente legato direttamente all'ambito concordato — nessuna fatturazione a tempo indeterminato." },
+        { "title": "Scoperta", "body": "Valutiamo le esigenze della tua impresa e definiamo un ambito chiaro e scritto insieme a un preventivo trasparente, prima dell'inizio dello sviluppo." },
+        { "title": "Design", "body": "Design dell'interfaccia e architettura tecnica, elaborati e concordati con te prima di scrivere una sola riga di codice." },
         { "title": "Sviluppo", "body": "Sviluppiamo in fasi strutturate con verifiche regolari, così saprai sempre a che punto si trova il progetto." },
-        { "title": "Assistenza", "body": "Dopo il lancio, restiamo disponibili per manutenzione, aggiornamenti e futuri miglioramenti." }
+        { "title": "Lancio", "body": "Distribuzione, configurazione di dominio e SSL, e documentazione di passaggio. Sei proprietario del codice e degli account." },
+        { "title": "Miglioramento", "body": "Dopo il lancio, restiamo disponibili per monitoraggio, aggiornamenti e miglioramenti continui man mano che le tue esigenze evolvono." }
       ],
       "capabilitiesLabel": "Cosa Possiamo Sviluppare",
       "capabilitiesTitle": "Capacità, Non Promesse",

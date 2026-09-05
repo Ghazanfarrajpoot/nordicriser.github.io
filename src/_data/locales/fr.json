@@ -18,6 +18,7 @@
     "consulting": "Conseil",
     "itServices": "Services",
     "work": "Réalisations",
+    "nrBos": "NR-BOS",
     "globalReach": "Global Reach",
     "about": "À propos",
     "contact": "Contact",
@@ -61,6 +62,14 @@
       "contact": "Contact",
       "privacy": "Politique de confidentialité",
       "memberPortal": "Portail membre"
+    },
+    "legalHeading": "Mentions légales",
+    "legalLinks": {
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "dpa": "Accord de traitement des données",
+      "subprocessors": "Sous-traitants",
+      "security": "Sécurité"
     }
   },
   "pages": {
@@ -70,11 +79,20 @@
         "description": "Studio logiciel basé à Stockholm concevant des plateformes web multilingues, des portails clients sécurisés et des produits sur mesure pour des entreprises opérant à travers langues et marchés."
       },
       "hero": {
-        "label": "Logiciel · Plateformes · Produits",
-        "h1": "Nous concevons des logiciels pour les entreprises qui franchissent les frontières",
-        "body": "Plateformes web multilingues, portails clients sécurisés et produits sur mesure — conçus et développés à Stockholm pour des entreprises opérant à travers langues, devises et juridictions.",
-        "cta": "Voir nos réalisations",
-        "ctaSecondary": "Démarrer un projet"
+        "label": "Logiciel · NR-BOS · Conseil",
+        "h1": "Technologie d'entreprise pour les sociétés qui franchissent les frontières",
+        "body": "Nous concevons la technologie, exploitons les opérations et accompagnons l'expansion — un seul partenaire pour les entreprises opérant à travers langues, devises et juridictions.",
+        "cta": "Découvrir NR-BOS",
+        "ctaSecondary": "Démarrer un projet logiciel"
+      },
+      "pillars": {
+        "label": "Comment nous travaillons avec vous",
+        "title": "Trois volets connectés pour vous aider à grandir",
+        "items": [
+          { "tag": "Logiciel", "icon": "code", "variant": "it", "title": "Nous concevons la technologie", "body": "Systèmes sur mesure, produits SaaS, portails sécurisés, automatisation et API — conçus et développés en interne, non externalisés.", "cta": "Démarrer un projet logiciel", "link": "services" },
+          { "tag": "NR-BOS", "icon": "gear", "variant": "global", "title": "Nous exploitons les opérations", "body": "Notre produit phare pour la gestion de projets, les opérations de terrain et le reporting client. Une exploitation de niveau entreprise sans la complexité d'un ERP classique.", "cta": "Découvrir NR-BOS", "link": "work/nr-bos" },
+          { "tag": "Conseil", "icon": "handshake", "variant": "consulting", "title": "Nous accompagnons l'expansion", "body": "Conseil pour les entrepreneurs et entreprises internationaux qui établissent et exploitent des structures d'entreprise conformes en Europe.", "cta": "Prendre rendez-vous pour une consultation", "link": "consulting" }
+        ]
       },
       "proofBar": {
         "stats": [
@@ -469,10 +487,11 @@
       "howWeWorkTitle": "Un parcours structuré de l'idée au lancement",
       "howWeWorkSub": "La même rigueur que nous appliquons à nos missions de conseil se retrouve dans notre façon de planifier et de développer nos solutions technologiques.",
       "howWeWork": [
-        { "title": "Cadrage", "body": "Nous évaluons les besoins de votre entreprise et définissons un périmètre clair et écrit avant tout développement." },
-        { "title": "Devis", "body": "Vous recevez un devis transparent directement lié au périmètre convenu — sans facturation à durée indéterminée." },
+        { "title": "Découverte", "body": "Nous évaluons les besoins de votre entreprise et établissons un périmètre clair et écrit ainsi qu'un devis transparent avant tout développement." },
+        { "title": "Design", "body": "Design d'interface et architecture technique, élaborés et validés avec vous avant la première ligne de code." },
         { "title": "Développement", "body": "Nous développons par étapes structurées avec des points d'avancement réguliers, afin que vous sachiez toujours où en est le projet." },
-        { "title": "Support", "body": "Après le lancement, nous restons disponibles pour la maintenance, les mises à jour et les évolutions futures." }
+        { "title": "Lancement", "body": "Déploiement, configuration du domaine et du SSL, et documentation de transfert. Vous êtes propriétaire du code et des comptes." },
+        { "title": "Amélioration", "body": "Après le lancement, nous restons disponibles pour le suivi, les mises à jour et les améliorations continues, à mesure que vos besoins évoluent." }
       ],
       "capabilitiesLabel": "Ce que nous pouvons développer",
       "capabilitiesTitle": "Des capacités concrètes, pas des promesses",

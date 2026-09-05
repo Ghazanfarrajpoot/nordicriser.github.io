@@ -53,6 +53,7 @@
       <li><a href="/ur/">ہوم</a></li>
       <li><a href="/ur/services/">خدمات</a></li>
       <li><a href="/ur/work/">ہمارا کام</a></li>
+      <li><a href="/ur/work/nr-bos/">NR-BOS</a></li>
       <li><a href="/ur/global-reach/">عالمی رسائی</a></li>
       <li><a href="/ur/consulting/">مشاورت</a></li>
       <li><a href="/ur/about/">ہمارے بارے میں</a></li>
@@ -128,17 +129,17 @@
       <div class="updated-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5.5" width="16" height="14.5" rx="2"/><path d="M4 9.5h16M8 3.5v4M16 3.5v4"/></svg> Last Updated: 19 August 2026</div><p>This list exists to satisfy Article 13(1)(f) of the GDPR directly — not just to say safeguards exist, but to name who they&#39;re with. We keep it current and update the date below whenever it changes.</p><p>If we add a new sub-processor, we will update this list and, for clients with a Data Processing Agreement in place, give notice before the change takes effect, consistent with the objection right described in that agreement.</p>
       <div class="table-scroll">
         <table class="data-table">
-          <thead><tr><th>Sub-processor</th><th>Purpose</th><th>Data Categories</th><th>Location</th><th>Transfer Mechanism</th></tr></thead>
+          <thead><tr><th>Sub-processor</th><th>Purpose</th><th>Data Categories</th><th>Location</th><th>Transfer Mechanism</th><th>Status</th></tr></thead>
           <tbody>
-            <tr><td>Google Ireland Limited (Firebase / Google Cloud Platform)</td><td>Authentication, database, file storage, and hosting for the Member Portal (portal.nordicriser.com)</td><td>Account credentials, profile data, uploaded document contents, secure message content, case and payment records</td><td>Google Cloud infrastructure — specific processing region pending internal confirmation (see note below)</td><td>Google Cloud&#39;s Cloud Data Processing Addendum, incorporating the European Commission&#39;s Standard Contractual Clauses</td></tr>
-            <tr><td>DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.)</td><td>AI-generated risk, cost, and productivity analysis in NR-BOS (optional feature)</td><td>Project and company names, budget figures, task details, cost entries, full names and roles of assigned team members</td><td>China</td><td>Standard Contractual Clauses (controller-to-processor module). China has no European Commission adequacy decision — see Privacy Policy Section 6.4 for the full disclosure</td></tr>
-            <tr><td>PostgreSQL database (NR-BOS)</td><td>Core relational data storage — users, companies, projects, tasks, cost entries, field reports, license records</td><td>Broad — effectively all NR-BOS operational data, including personal data of client company staff</td><td>Pending internal confirmation</td><td>Pending internal confirmation</td></tr>
-            <tr><td>Object storage, S3-compatible (NR-BOS)</td><td>Worksite photograph storage and generated PDF client reports</td><td>Photograph files (may include camera-embedded EXIF such as GPS coordinates or a timestamp), PDF report documents</td><td>Pending internal confirmation</td><td>Pending internal confirmation</td></tr>
-            <tr><td>Translation API provider (Global Reach)</td><td>Real-time translation of chat messages in Global Reach&#39;s collaboration rooms</td><td>Chat message content</td><td>Pending internal confirmation</td><td>Pending internal confirmation</td></tr>
+            <tr><td>Google Ireland Limited (Firebase / Google Cloud Platform)</td><td>Authentication, database, file storage, and hosting for the Member Portal (portal.nordicriser.com)</td><td>Account credentials, profile data, uploaded document contents, secure message content, case and payment records</td><td>Google Cloud infrastructure — specific processing region pending internal confirmation (see note below)</td><td>Google Cloud&#39;s Cloud Data Processing Addendum, incorporating the European Commission&#39;s Standard Contractual Clauses</td><td>Verification Required</td></tr>
+            <tr><td>DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.)</td><td>AI-generated risk, cost, and productivity analysis in NR-BOS (optional feature)</td><td>Project and company names, budget figures, task details, cost entries, full names and roles of assigned team members</td><td>China</td><td>Standard Contractual Clauses (controller-to-processor module). China has no European Commission adequacy decision — see Privacy Policy Section 6.4 for the full disclosure</td><td>Confirmed</td></tr>
+            <tr><td>PostgreSQL database (NR-BOS)</td><td>Core relational data storage — users, companies, projects, tasks, cost entries, field reports, license records</td><td>Broad — effectively all NR-BOS operational data, including personal data of client company staff</td><td>Pending internal confirmation</td><td>Pending internal confirmation</td><td>Verification Required</td></tr>
+            <tr><td>Object storage, S3-compatible (NR-BOS)</td><td>Worksite photograph storage and generated PDF client reports</td><td>Photograph files (may include camera-embedded EXIF such as GPS coordinates or a timestamp), PDF report documents</td><td>Pending internal confirmation</td><td>Pending internal confirmation</td><td>Verification Required</td></tr>
+            <tr><td>Translation API provider (Global Reach)</td><td>Real-time translation of chat messages in Global Reach&#39;s collaboration rooms</td><td>Chat message content</td><td>Pending internal confirmation</td><td>Pending internal confirmation</td><td>Verification Required</td></tr>
           </tbody>
         </table>
       </div>
-      <div class="info-box"><p>Rows marked “pending internal confirmation” are confirmed to exist and to receive the stated data category — we verified this directly against our own source code before publishing this table. What isn&#39;t yet finalised is the exact hosting vendor and region for three of them. We are listing them rather than omitting them because Article 13(1)(f) requires disclosing the transfers we make, not only the ones we&#39;ve fully documented, and because leaving a known gap off this table would be less honest than flagging it plainly. We will complete these entries and update the date above as soon as they&#39;re confirmed.</p></div>
+      <div class="info-box"><p>Rows marked “Verification Required” are confirmed to exist and to receive the stated data category — we verified this directly against our own source code before publishing this table. What isn&#39;t yet finalised is the exact hosting vendor and region for these entries. We are listing them rather than omitting them because Article 13(1)(f) requires disclosing the transfers we make, not only the ones we&#39;ve fully documented, and because leaving a known gap off this table would be less honest than flagging it plainly. We will update the Status column and the date above as soon as they&#39;re confirmed.</p></div>
     </div>
   </div>
 </section>
@@ -191,22 +192,22 @@
         <li><a href="/ur/contact/">رابطہ</a></li>
         <li><a href="https://portal.nordicriser.com">ممبر پورٹل</a></li>
       </ul>
-    </div>
-    <div class="footer-col">
-      <h4></h4>
+    </div><div class="footer-col">
+      <h4>قانونی</h4>
       <ul>
-        <li><a href="/ur/legal/privacy/"></a></li>
-        <li><a href="/ur/legal/terms/"></a></li>
-        <li><a href="/ur/legal/dpa/"></a></li>
-        <li><a href="/ur/legal/subprocessors/"></a></li>
+        <li><a href="/ur/legal/privacy/">پرائیویسی پالیسی</a></li>
+        <li><a href="/ur/legal/terms/">شرائطِ خدمت</a></li>
+        <li><a href="/ur/legal/dpa/">ڈیٹا پروسیسنگ معاہدہ</a></li>
+        <li><a href="/ur/legal/subprocessors/">ذیلی پروسیسرز</a></li>
+        <li><a href="/ur/security/">سیکیورٹی</a></li>
       </ul>
     </div>
   </div>
   <div class="footer-bottom">
     <span>© 2026 Nordic Riser AB۔ جملہ حقوق محفوظ ہیں۔ Stockholm, Sweden۔</span>
     <ul class="footer-bottom-links">
-      <li><a href="/ur/legal/privacy/"></a></li>
-      <li><a href="/ur/legal/terms/"></a></li>
+      <li><a href="/ur/legal/privacy/">پرائیویسی پالیسی</a></li>
+      <li><a href="/ur/legal/terms/">شرائطِ خدمت</a></li>
       <li><a href="/ur/contact/">رابطہ</a></li>
       <li><a href="https://portal.nordicriser.com">ممبر پورٹل</a></li>
     </ul>

@@ -18,6 +18,7 @@
     "consulting": "Consulting",
     "itServices": "Diensten",
     "work": "Werk",
+    "nrBos": "NR-BOS",
     "globalReach": "Global Reach",
     "about": "Over Ons",
     "contact": "Contact",
@@ -61,6 +62,14 @@
       "contact": "Contact",
       "privacy": "Privacybeleid",
       "memberPortal": "Ledenportaal"
+    },
+    "legalHeading": "Juridisch",
+    "legalLinks": {
+      "privacy": "Privacybeleid",
+      "terms": "Gebruiksvoorwaarden",
+      "dpa": "Verwerkersovereenkomst",
+      "subprocessors": "Subverwerkers",
+      "security": "Beveiliging"
     }
   },
   "pages": {
@@ -70,11 +79,20 @@
         "description": "Softwarestudio in Stockholm die meertalige webplatforms, veilige klantportalen en producten op maat bouwt voor bedrijven die over talen en markten heen actief zijn."
       },
       "hero": {
-        "label": "Software · Platforms · Producten",
-        "h1": "Wij Bouwen Software voor Bedrijven die Grenzen Overschrijden",
-        "body": "Meertalige webplatforms, veilige klantportalen en producten op maat — ontworpen en gebouwd in Stockholm voor bedrijven die actief zijn over talen, valuta's en rechtsgebieden heen.",
-        "cta": "Bekijk Ons Werk",
-        "ctaSecondary": "Start een Project"
+        "label": "Software · NR-BOS · Consulting",
+        "h1": "Bedrijfstechnologie voor Ondernemingen die Grenzen Overschrijden",
+        "body": "Wij bouwen de technologie, runnen de operatie en begeleiden de expansie — één partner voor bedrijven die actief zijn over talen, valuta's en rechtsgebieden heen.",
+        "cta": "Ontdek NR-BOS",
+        "ctaSecondary": "Start een Softwareproject"
+      },
+      "pillars": {
+        "label": "Hoe Wij Met Jou Samenwerken",
+        "title": "Drie Verbonden Manieren Waarop Wij Je Helpen Groeien",
+        "items": [
+          { "tag": "Software", "icon": "code", "variant": "it", "title": "Wij Bouwen de Technologie", "body": "Systemen op maat, SaaS-producten, veilige portalen, automatisering en API's — intern ontworpen en gebouwd, niet uitbesteed.", "cta": "Start een Softwareproject", "link": "services" },
+          { "tag": "NR-BOS", "icon": "gear", "variant": "global", "title": "Wij Runnen de Operatie", "body": "Ons vlaggenschipproduct voor projectlevering, veldwerk en klantrapportage. Operaties op ondernemingsniveau zonder de complexiteit van een traditioneel ERP-systeem.", "cta": "Ontdek NR-BOS", "link": "work/nr-bos" },
+          { "tag": "Consulting", "icon": "handshake", "variant": "consulting", "title": "Wij Begeleiden de Expansie", "body": "Advies voor internationale ondernemers en bedrijven die compliant bedrijfsstructuren opzetten en beheren in Europa.", "cta": "Boek een Consult", "link": "consulting" }
+        ]
       },
       "proofBar": {
         "stats": [
@@ -469,10 +487,11 @@
       "howWeWorkTitle": "Een Gestructureerd Traject van Idee tot Lancering",
       "howWeWorkSub": "Dezelfde discipline die wij toepassen op consultingtrajecten, passen wij ook toe op de manier waarop wij technologie plannen en bouwen.",
       "howWeWork": [
-        { "title": "Scope", "body": "Wij beoordelen uw bedrijfsbehoeften en bepalen een duidelijke, schriftelijke scope voordat de ontwikkeling begint." },
-        { "title": "Offerte", "body": "U ontvangt een transparante offerte die rechtstreeks is gekoppeld aan de overeengekomen scope — geen open-einde facturering." },
+        { "title": "Ontdekken", "body": "Wij beoordelen uw bedrijfsbehoeften en stellen een duidelijke, schriftelijke scope op, samen met een transparante offerte, voordat de ontwikkeling begint." },
+        { "title": "Design", "body": "Interfaceontwerp en technische architectuur, uitgewerkt en met u afgestemd voordat wij een regel code schrijven." },
         { "title": "Bouw", "body": "Wij bouwen in gestructureerde fasen met regelmatige check-ins, zodat u altijd weet hoe het project ervoor staat." },
-        { "title": "Ondersteuning", "body": "Na de lancering blijven wij beschikbaar voor onderhoud, updates en toekomstige verbeteringen." }
+        { "title": "Lancering", "body": "Implementatie, domein- en SSL-configuratie, en overdrachtsdocumentatie. U bent eigenaar van de code en de accounts." },
+        { "title": "Verbeteren", "body": "Na de lancering blijven wij beschikbaar voor monitoring, updates en doorlopende verbeteringen naarmate uw behoeften veranderen." }
       ],
       "capabilitiesLabel": "Wat Wij Kunnen Bouwen",
       "capabilitiesTitle": "Mogelijkheden, Geen Beloftes",

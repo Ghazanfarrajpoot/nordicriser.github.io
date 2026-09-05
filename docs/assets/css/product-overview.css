@@ -84,6 +84,9 @@
   background: var(--navy);
 }
 
+/* ── NR-BOS WORKFLOW / MODULE MAP — reuse .steps-grid / .portfolio-grid as-is ── */
+.nrb-module-grid .portfolio-card { display: flex; flex-direction: column; align-items: flex-start; }
+
 @media (max-width: 860px) {
   .nrb-shots-2, .nrb-shots-3 { grid-template-columns: 1fr; }
 }

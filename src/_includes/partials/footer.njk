@@ -50,13 +50,16 @@
         <li><a href="https://portal.nordicriser.com">{{ t.footer.firmLinks.memberPortal }}</a></li>
       </ul>
     </div>
+    {%- set legalHeading = t.footer.legalHeading or locales.en.footer.legalHeading -%}
+    {%- set legalLinks = t.footer.legalLinks or locales.en.footer.legalLinks -%}
     <div class="footer-col">
-      <h4>{{ t.footer.legalHeading }}</h4>
+      <h4>{{ legalHeading }}</h4>
       <ul>
-        <li><a href="{{ 'legal/privacy' | localeUrl(locale) }}">{{ t.footer.legalLinks.privacy }}</a></li>
-        <li><a href="{{ 'legal/terms' | localeUrl(locale) }}">{{ t.footer.legalLinks.terms }}</a></li>
-        <li><a href="{{ 'legal/dpa' | localeUrl(locale) }}">{{ t.footer.legalLinks.dpa }}</a></li>
-        <li><a href="{{ 'legal/subprocessors' | localeUrl(locale) }}">{{ t.footer.legalLinks.subprocessors }}</a></li>
+        <li><a href="{{ 'legal/privacy' | localeUrl(locale) }}">{{ legalLinks.privacy }}</a></li>
+        <li><a href="{{ 'legal/terms' | localeUrl(locale) }}">{{ legalLinks.terms }}</a></li>
+        <li><a href="{{ 'legal/dpa' | localeUrl(locale) }}">{{ legalLinks.dpa }}</a></li>
+        <li><a href="{{ 'legal/subprocessors' | localeUrl(locale) }}">{{ legalLinks.subprocessors }}</a></li>
+        <li><a href="{{ 'security' | localeUrl(locale) }}">{{ legalLinks.security }}</a></li>
       </ul>
     </div>
     {%- if pageKey == "consulting" %}

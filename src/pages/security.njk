@@ -1,0 +1,86 @@
+---
+pagination:
+  data: site.locales
+  size: 1
+  alias: loc
+permalink: "{{ 'security' | localePath(loc.code) }}index.html"
+eleventyComputed:
+  locale: "{{ loc.code }}"
+  dir: "{{ loc.dir }}"
+layout: layouts/page.njk
+pageKey: security
+pageSlug: security
+---
+{%- set t = locales[locale] -%}
+{%- set isFallback = not t.pages.security -%}
+{%- set p = t.pages.security or locales.en.pages.security -%}
+{% import "partials/icons.njk" as icons %}
+
+<section class="page-hero">
+  <div class="page-hero-inner" data-animate>
+    <span class="page-hero-label">{{ p.hero.label }}</span>
+    <h1>{{ p.hero.h1 }}</h1>
+    <p>{{ p.hero.body }}</p>
+  </div>
+</section>
+
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="{{ '' | localeUrl(locale) }}">{{ t.common.home }}</a> &rsaquo; <span>{{ p.breadcrumb }}</span>
+  </div>
+</div>
+
+<section class="section"{% if isFallback %} dir="ltr"{% endif %}>
+  <div class="section-inner-narrow" data-animate>
+    {%- if isFallback %}
+    <div class="translation-notice">{{ locales.en.common.legalPendingTranslationPrefix }}{{ site.locales | localeName(locale) }}{{ locales.en.common.legalPendingTranslationSuffix }}</div>
+    {%- endif %}
+
+    <div class="doc-section">
+      <div class="updated-badge">{{ icons.icon('calendar') }} {{ p.updatedBadge }}</div>
+      {%- for para in p.intro %}<p>{{ para }}</p>{% endfor %}
+    </div>
+
+    <div class="doc-section">
+      <h2>{{ p.sections.auth.title }} <span class="status-badge status-badge--available">{{ p.statusLabels.available }}</span></h2>
+      <p><strong>{{ p.sections.auth.nrbosLabel }}</strong> {{ p.sections.auth.nrbosBody }}</p>
+      <p><strong>{{ p.sections.auth.portalLabel }}</strong> {{ p.sections.auth.portalBody }}</p>
+    </div>
+
+    <div class="doc-section">
+      <h2>{{ p.sections.transit.title }} <span class="status-badge status-badge--available">{{ p.statusLabels.available }}</span></h2>
+      {%- for para in p.sections.transit.body %}<p>{{ para }}</p>{% endfor %}
+    </div>
+
+    <div class="doc-section">
+      <h2>{{ p.sections.rest.title }} <span class="status-badge status-badge--planned">{{ p.statusLabels.verificationRequired }}</span></h2>
+      <p>{{ p.sections.rest.body }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.building.label }}</span>
+    <h2 class="section-title">{{ p.building.title }}</h2>
+    <div class="portfolio-grid">
+      {%- for item in p.building.items %}
+      <div class="portfolio-card">
+        <span class="status-badge status-badge--planned">{{ p.statusLabels.planned }}</span>
+        <h3>{{ item.name }}</h3>
+        <p>{{ item.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner-narrow" data-animate>
+    <div class="doc-section">
+      <h2>{{ p.report.title }}</h2>
+      <p>{{ p.report.body }}</p>
+      <p>{{ p.report.subprocessorsCta }} <a href="{{ 'legal/subprocessors' | localeUrl(locale) }}">{{ t.footer.legalLinks.subprocessors or locales.en.footer.legalLinks.subprocessors }} &rarr;</a></p>
+    </div>
+  </div>
+</section>

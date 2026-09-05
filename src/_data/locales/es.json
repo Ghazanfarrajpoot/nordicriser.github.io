@@ -18,6 +18,7 @@
     "consulting": "Consultoría",
     "itServices": "Servicios",
     "work": "Trabajo",
+    "nrBos": "NR-BOS",
     "globalReach": "Alcance Global",
     "about": "Sobre Nosotros",
     "contact": "Contacto",
@@ -61,6 +62,14 @@
       "contact": "Contacto",
       "privacy": "Política de Privacidad",
       "memberPortal": "Portal de Miembros"
+    },
+    "legalHeading": "Legal",
+    "legalLinks": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "dpa": "Acuerdo de Tratamiento de Datos",
+      "subprocessors": "Subencargados",
+      "security": "Seguridad"
     }
   },
   "pages": {
@@ -70,11 +79,20 @@
         "description": "Estudio de software con sede en Estocolmo que construye plataformas web multilingües, portales de clientes seguros y productos a medida para empresas que operan entre idiomas y mercados."
       },
       "hero": {
-        "label": "Software · Plataformas · Productos",
-        "h1": "Construimos Software para Empresas que Cruzan Fronteras",
-        "body": "Plataformas web multilingües, portales de clientes seguros y productos a medida — diseñados y construidos en Estocolmo para empresas que operan entre idiomas, monedas y jurisdicciones.",
-        "cta": "Ver Nuestro Trabajo",
-        "ctaSecondary": "Iniciar un Proyecto"
+        "label": "Software · NR-BOS · Consultoría",
+        "h1": "Tecnología Empresarial para Compañías que Cruzan Fronteras",
+        "body": "Construimos la tecnología, operamos la gestión y guiamos la expansión — un solo socio para empresas que operan entre idiomas, monedas y jurisdicciones.",
+        "cta": "Explorar NR-BOS",
+        "ctaSecondary": "Iniciar un Proyecto de Software"
+      },
+      "pillars": {
+        "label": "Cómo Trabajamos Contigo",
+        "title": "Tres Formas Conectadas de Ayudarte a Crecer",
+        "items": [
+          { "tag": "Software", "icon": "code", "variant": "it", "title": "Construimos la Tecnología", "body": "Sistemas a medida, productos SaaS, portales seguros, automatización y APIs — diseñados y construidos internamente, no subcontratados.", "cta": "Iniciar un Proyecto de Software", "link": "services" },
+          { "tag": "NR-BOS", "icon": "gear", "variant": "global", "title": "Operamos la Gestión", "body": "Nuestro producto insignia para la gestión de proyectos, operaciones de campo e informes a clientes. Operaciones de nivel empresarial sin la complejidad de un ERP tradicional.", "cta": "Explorar NR-BOS", "link": "work/nr-bos" },
+          { "tag": "Consultoría", "icon": "handshake", "variant": "consulting", "title": "Guiamos la Expansión", "body": "Asesoría para emprendedores y empresas internacionales que establecen y operan estructuras empresariales conformes en Europa.", "cta": "Reservar una Consulta", "link": "consulting" }
+        ]
       },
       "proofBar": {
         "stats": [
@@ -469,10 +487,11 @@
       "howWeWorkTitle": "Un Camino Estructurado desde la Idea hasta el Lanzamiento",
       "howWeWorkSub": "La misma disciplina que aplicamos a nuestras colaboraciones de consultoría se traslada a la forma en que planificamos y construimos tecnología.",
       "howWeWork": [
-        { "title": "Alcance", "body": "Evaluamos las necesidades de su negocio y definimos un alcance claro y por escrito antes de comenzar cualquier desarrollo." },
-        { "title": "Presupuesto", "body": "Recibe un presupuesto transparente vinculado directamente al alcance acordado — sin facturación indefinida." },
+        { "title": "Descubrimiento", "body": "Evaluamos las necesidades de su negocio y definimos un alcance claro y por escrito, junto con un presupuesto transparente, antes de comenzar cualquier desarrollo." },
+        { "title": "Diseño", "body": "Diseño de interfaz y arquitectura técnica, elaborados y acordados con usted antes de escribir una sola línea de código." },
         { "title": "Construcción", "body": "Construimos en etapas estructuradas con revisiones periódicas, para que siempre sepa en qué punto se encuentra el proyecto." },
-        { "title": "Soporte", "body": "Tras el lanzamiento, seguimos disponibles para el mantenimiento, las actualizaciones y las futuras mejoras." }
+        { "title": "Lanzamiento", "body": "Despliegue, configuración de dominio y SSL, y documentación de traspaso. Usted es propietario del código y de las cuentas." },
+        { "title": "Mejora", "body": "Tras el lanzamiento, seguimos disponibles para monitorización, actualizaciones y mejoras continuas a medida que evolucionan sus necesidades." }
       ],
       "capabilitiesLabel": "Qué Podemos Construir",
       "capabilitiesTitle": "Capacidades, No Promesas",

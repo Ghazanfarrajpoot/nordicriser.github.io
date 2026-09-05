@@ -2,6 +2,9 @@
   "meta": { "code": "sv", "name": "Svenska", "dir": "ltr", "status": "MACHINE_TRANSLATED_NEEDS_REVIEW" },
   "common": {
     "bookConsultation": "Boka en konsultation",
+    "statusAvailable": "Tillgänglig nu",
+    "statusInDevelopment": "Under utveckling",
+    "statusPlanned": "Planerad",
     "learnMore": "Läs mer →",
     "readMore": "Läs mer →",
     "requestQuote": "Begär en offert",
@@ -18,6 +21,7 @@
     "consulting": "Konsulttjänster",
     "itServices": "Tjänster",
     "work": "Arbete",
+    "nrBos": "NR-BOS",
     "globalReach": "Global Reach",
     "about": "Om oss",
     "contact": "Kontakt",
@@ -67,7 +71,8 @@
       "privacy": "Integritetspolicy",
       "terms": "Användarvillkor",
       "dpa": "Personuppgiftsbiträdesavtal",
-      "subprocessors": "Underbiträden"
+      "subprocessors": "Underbiträden",
+      "security": "Säkerhet"
     }
   },
   "productOverviews": {
@@ -212,11 +217,20 @@
         "description": "Stockholmsbaserad mjukvarustudio som bygger flerspråkiga webbplattformar, säkra kundportaler och skräddarsydda produkter för företag som verkar över språk och marknader."
       },
       "hero": {
-        "label": "Mjukvara · Plattformar · Produkter",
-        "h1": "Vi bygger mjukvara för företag som verkar över gränser",
-        "body": "Flerspråkiga webbplattformar, säkra kundportaler och skräddarsydda produkter — designade och byggda i Stockholm för företag som verkar över språk, valutor och jurisdiktioner.",
-        "cta": "Se vårt arbete",
-        "ctaSecondary": "Starta ett projekt"
+        "label": "Mjukvara · NR-BOS · Konsulttjänster",
+        "h1": "Affärsteknik för företag som verkar över gränser",
+        "body": "Vi bygger tekniken, driver verksamheten och navigerar expansionen — en partner för företag som verkar över språk, valutor och jurisdiktioner.",
+        "cta": "Utforska NR-BOS",
+        "ctaSecondary": "Starta ett mjukvaruprojekt"
+      },
+      "pillars": {
+        "label": "Så arbetar vi med dig",
+        "title": "Tre sammanlänkade sätt vi hjälper dig växa",
+        "items": [
+          { "tag": "Mjukvara", "icon": "code", "variant": "it", "title": "Vi bygger tekniken", "body": "Skräddarsydda system, SaaS-produkter, säkra portaler, automatisering och API:er — designade och byggda in-house, inte outsourcade.", "cta": "Starta ett mjukvaruprojekt", "link": "services" },
+          { "tag": "NR-BOS", "icon": "gear", "variant": "global", "title": "Vi driver verksamheten", "body": "Vår flaggskeppsprodukt för projektleverans, fältarbete och kundrapportering. Företagsanpassad drift utan komplexiteten hos ett traditionellt affärssystem.", "cta": "Utforska NR-BOS", "link": "work/nr-bos" },
+          { "tag": "Konsulttjänster", "icon": "handshake", "variant": "consulting", "title": "Vi navigerar expansionen", "body": "Rådgivning för internationella entreprenörer och företag som etablerar och driver regelefterlevande bolagsstrukturer i Europa.", "cta": "Boka en konsultation", "link": "consulting" }
+        ]
       },
       "proofBar": {
         "stats": [
@@ -802,6 +816,11 @@
           "title": "Underbiträden",
           "body": "De namngivna tredje parter som behandlar personuppgifter för vår räkning, vad de gör och var de finns.",
           "link": "legal/subprocessors"
+        },
+        {
+          "title": "Säkerhet",
+          "body": "En faktabaserad redogörelse för hur våra produkter skyddar data i dag — inklusive det som ännu inte är klart.",
+          "link": "security"
         }
       ]
     },
@@ -828,7 +847,8 @@
           "Ändamål",
           "Datakategorier",
           "Plats",
-          "Överföringsmekanism"
+          "Överföringsmekanism",
+          "Status"
         ],
         "rows": [
           [
@@ -836,39 +856,92 @@
             "Autentisering, databas, fillagring och hosting för Medlemsportalen (portal.nordicriser.com)",
             "Kontouppgifter, profildata, innehåll i uppladdade dokument, innehåll i säkra meddelanden, ärende- och betalningsuppgifter",
             "Google Clouds infrastruktur — exakt behandlingsregion väntar på intern bekräftelse (se noteringen nedan)",
-            "Google Clouds Cloud Data Processing Addendum, som innefattar EU-kommissionens standardavtalsklausuler"
+            "Google Clouds Cloud Data Processing Addendum, som innefattar EU-kommissionens standardavtalsklausuler",
+            "Verifiering krävs"
           ],
           [
             "DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.)",
             "AI-genererad analys av risk, kostnad och produktivitet i NR-BOS (valfri funktion)",
             "Projekt- och företagsnamn, budgetsiffror, uppgiftsdetaljer, kostnadsposter, fullständiga namn och roller för tilldelade teammedlemmar",
             "Kina",
-            "Standardavtalsklausuler (modulen för överföring mellan personuppgiftsansvarig och personuppgiftsbiträde). Kina saknar beslut om adekvat skyddsnivå från EU-kommissionen — se integritetspolicyns avsnitt 6.4 för den fullständiga redogörelsen"
+            "Standardavtalsklausuler (modulen för överföring mellan personuppgiftsansvarig och personuppgiftsbiträde). Kina saknar beslut om adekvat skyddsnivå från EU-kommissionen — se integritetspolicyns avsnitt 6.4 för den fullständiga redogörelsen",
+            "Bekräftad"
           ],
           [
             "PostgreSQL-databas (NR-BOS)",
             "Central relationsdatabas — användare, företag, projekt, uppgifter, kostnadsposter, fältrapporter, licensregister",
             "Brett — i praktiken all operativ NR-BOS-data, inklusive personuppgifter om kundföretagets personal",
             "Väntar på intern bekräftelse",
-            "Väntar på intern bekräftelse"
+            "Väntar på intern bekräftelse",
+            "Verifiering krävs"
           ],
           [
             "Objektlagring, S3-kompatibel (NR-BOS)",
             "Lagring av fotografier från arbetsplatsen och genererade PDF-kundrapporter",
             "Bildfiler (kan innehålla kamerainbäddad EXIF-data som GPS-koordinater eller tidsstämpel), PDF-rapportdokument",
             "Väntar på intern bekräftelse",
-            "Väntar på intern bekräftelse"
+            "Väntar på intern bekräftelse",
+            "Verifiering krävs"
           ],
           [
             "Leverantör av översättnings-API (Global Reach)",
             "Realtidsöversättning av chattmeddelanden i Global Reachs samarbetsrum",
             "Innehåll i chattmeddelanden",
             "Väntar på intern bekräftelse",
-            "Väntar på intern bekräftelse"
+            "Väntar på intern bekräftelse",
+            "Verifiering krävs"
           ]
         ]
       },
-      "note": "Rader märkta ”väntar på intern bekräftelse” är bekräftade att existera och att ta emot den angivna datakategorin — vi har verifierat detta direkt mot vår egen källkod innan denna förteckning publicerades. Det som ännu inte är fastställt är exakt värdleverantör och region för tre av dem. Vi listar dem i stället för att utelämna dem eftersom artikel 13.1 f kräver att vi redogör för de överföringar vi faktiskt gör, inte bara de vi redan fullständigt dokumenterat, och eftersom det vore mindre ärligt att utelämna en känd lucka än att flagga den öppet. Vi kompletterar dessa uppgifter och uppdaterar datumet ovan så snart de är bekräftade."
+      "note": "Rader märkta ”Verifiering krävs” är bekräftade att existera och att ta emot den angivna datakategorin — vi har verifierat detta direkt mot vår egen källkod innan denna förteckning publicerades. Det som ännu inte är fastställt är exakt värdleverantör och region för dessa poster. Vi listar dem i stället för att utelämna dem eftersom artikel 13.1 f kräver att vi redogör för de överföringar vi faktiskt gör, inte bara de vi redan fullständigt dokumenterat, och eftersom det vore mindre ärligt att utelämna en känd lucka än att flagga den öppet. Vi uppdaterar Status-kolumnen och datumet ovan så snart de är bekräftade."
+    },
+    "security": {
+      "meta": { "title": "Säkerhet — Nordic Riser AB", "description": "En faktabaserad, verifierad redogörelse för säkerhetspraxis bakom NR-BOS och Medlemsportalen — inklusive det som ännu inte är klart." },
+      "hero": { "label": "Säkerhet", "h1": "Säkerhet på Nordic Riser AB", "body": "En faktabaserad redogörelse för hur våra produkter skyddar data i dag — inklusive det som ännu inte är klart. Om något inte listas här, anta att vi inte har byggt det." },
+      "breadcrumb": "Säkerhet",
+      "updatedBadge": "Senast uppdaterad: 5 september 2026",
+      "intro": [
+        "Den här sidan beskriver de säkerhetsrutiner som faktiskt är implementerade i våra produkter — Medlemsportalen och NR-BOS — verifierade direkt mot vår egen källkod innan publicering. Det är inte ett certifieringsintyg, och det ersätter inte din egen due diligence.",
+        "Där något ännu håller på att färdigställas snarare än att vara helt byggt säger vi det rakt ut, med samma statusetiketter som används på andra ställen på webbplatsen."
+      ],
+      "statusLabels": { "available": "Tillgänglig nu", "planned": "Planerad", "verificationRequired": "Verifiering krävs" },
+      "sections": {
+        "auth": {
+          "title": "Autentisering och åtkomstkontroll",
+          "nrbosLabel": "NR-BOS:",
+          "nrbosBody": "Autentiserar användare med kortlivade JWT-åtkomsttoken och roterande refresh-token. Lösenord hashas med bcrypt — lagras aldrig i klartext. Varje förfrågan kontrolleras mot en av fyra roller (Admin, Projektledare, Fältarbetare, Kund), och användare ser endast det deras roll tillåter.",
+          "portalLabel": "Medlemsportalen:",
+          "portalBody": "Använder Firebase Authentication (e-post och lösenord). Säkerhetsregler i Firestore och Storage begränsar varje användare till sina egna dokument, ärenden, fakturor och filer — verkställt på serversidan, inte bara dolt i gränssnittet. Administratörsåtkomst är begränsad till Nordic Riser AB:s e-postadresser."
+        },
+        "transit": {
+          "title": "Data under överföring",
+          "body": [
+            "Båda produkterna levereras via HTTPS som standard — Firebase Hosting kräver detta för Medlemsportalen, och vår infrastruktur gör detsamma för NR-BOS. Cross-origin-förfrågningar till NR-BOS API:et begränsas till en uttrycklig lista över tillåtna ursprung, inte öppet för vilken webbplats som helst.",
+            "Varje förfrågan till NR-BOS API:et valideras, och oväntade fält avvisas direkt, vilket minskar ytan för felaktig eller skadlig indata."
+          ]
+        },
+        "rest": {
+          "title": "Data i vila",
+          "body": "Uppladdade filer i Medlemsportalen är storleks- och typbegränsade vid uppladdning. Kryptering av data i vila beror på våra underliggande värdleverantörers egen infrastrukturnivåkryptering — vi har ännu inte fastställt och granskat den exakta konfigurationen, så vi kommer inte att hävda en skyddsnivå vi inte själva har verifierat."
+        }
+      },
+      "building": {
+        "label": "Färdplan",
+        "title": "Det vi fortfarande bygger",
+        "items": [
+          { "name": "Formell certifiering", "body": "Vi har ännu inte ansökt om någon formell säkerhetscertifiering (t.ex. ISO 27001, SOC 2)." },
+          { "name": "Automatiserad sårbarhetsskanning", "body": "Skanning av beroenden och sårbarheter är ännu inte inkopplad i vår byggprocess." },
+          { "name": "Hastighetsbegränsning för inloggning", "body": "Skydd mot brute-force-attacker på inloggningsendpoints, utöver lösenordshashning, är ännu inte på plats." },
+          { "name": "Säkerhetsrelaterade svarshuvuden", "body": "Huvuden som HSTS och en Content Security Policy är ännu inte konfigurerade i NR-BOS API:et." },
+          { "name": "Granskningslogg för NR-BOS", "body": "Medlemsportalen loggar ärende- och dokumentaktivitet; NR-BOS saknar ännu en motsvarande granskningslogg." },
+          { "name": "Dokumenterad säkerhetskopiering och incidenthantering", "body": "Vi säkerhetskopierar vår infrastruktur, men en skriftlig, testad plan för återställning och incidenthantering är ännu inte tillräckligt färdigställd för att publiceras här." }
+        ]
+      },
+      "report": {
+        "title": "Rapportera ett säkerhetsproblem",
+        "body": "Har du hittat något? Berätta för oss innan någon annan — mejla info@nordicriser.com med vad du hittat och hur det kan återskapas. Vi har ännu inget bug bounty-program, men vi tar rapporter på allvar och svarar direkt.",
+        "subprocessorsCta": "För en fullständig lista över vilka som behandlar data för vår räkning, se vår"
+      }
     },
     "legalTerms": {
       "meta": {
@@ -1312,10 +1385,11 @@
       "howWeWorkTitle": "En strukturerad väg från idé till lansering",
       "howWeWorkSub": "Samma disciplin som vi tillämpar i konsultuppdrag följer med i hur vi planerar och bygger teknik.",
       "howWeWork": [
-        { "title": "Omfång", "body": "Vi bedömer dina affärsbehov och definierar ett tydligt, skriftligt omfång innan någon utveckling påbörjas." },
-        { "title": "Offert", "body": "Du får en transparent offert kopplad direkt till det överenskomna omfånget — ingen öppen fakturering." },
+        { "title": "Upptäck", "body": "Vi bedömer dina affärsbehov och tar fram ett tydligt, skriftligt omfång samt en transparent offert innan någon utveckling påbörjas." },
+        { "title": "Design", "body": "Gränssnittsdesign och teknisk arkitektur, utarbetade och godkända av dig innan vi skriver en rad kod." },
         { "title": "Bygga", "body": "Vi bygger i strukturerade etapper med regelbundna avstämningar, så att du alltid vet var projektet står." },
-        { "title": "Support", "body": "Efter lansering finns vi tillgängliga för underhåll, uppdateringar och framtida förbättringar." }
+        { "title": "Lansering", "body": "Driftsättning, domän- och SSL-konfiguration samt överlämningsdokumentation. Du äger koden och kontona." },
+        { "title": "Förbättra", "body": "Efter lansering finns vi tillgängliga för övervakning, uppdateringar och löpande förbättringar allteftersom dina behov förändras." }
       ],
       "capabilitiesLabel": "Vad vi kan bygga",
       "capabilitiesTitle": "Förmågor, inte löften",

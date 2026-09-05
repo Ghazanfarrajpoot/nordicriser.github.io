@@ -18,6 +18,7 @@
     { "slug": "", "key": "home", "changefreq": "monthly", "priority": "1.0" },
     { "slug": "services", "key": "itServices", "changefreq": "monthly", "priority": "0.9" },
     { "slug": "work", "key": "work", "changefreq": "monthly", "priority": "0.9" },
+    { "slug": "work/nr-bos", "key": "nrBos", "changefreq": "monthly", "priority": "0.8" },
     { "slug": "global-reach", "key": "globalReach", "changefreq": "monthly", "priority": "0.9" },
     { "slug": "consulting", "key": "consulting", "changefreq": "monthly", "priority": "0.6" },
     { "slug": "about", "key": "about", "changefreq": "monthly", "priority": "0.7" },
@@ -26,6 +27,7 @@
     { "slug": "legal/privacy", "key": "privacy", "changefreq": "yearly", "priority": "0.3" },
     { "slug": "legal/terms", "key": "legalTerms", "changefreq": "yearly", "priority": "0.3" },
     { "slug": "legal/dpa", "key": "legalDpa", "changefreq": "yearly", "priority": "0.2" },
-    { "slug": "legal/subprocessors", "key": "legalSubprocessors", "changefreq": "monthly", "priority": "0.2" }
+    { "slug": "legal/subprocessors", "key": "legalSubprocessors", "changefreq": "monthly", "priority": "0.2" },
+    { "slug": "security", "key": "security", "changefreq": "yearly", "priority": "0.3" }
   ]
 }

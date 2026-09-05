@@ -2,6 +2,9 @@
   "meta": { "code": "en", "name": "English", "dir": "ltr", "status": "SOURCE" },
   "common": {
     "bookConsultation": "Book a Consultation",
+    "statusAvailable": "Available Now",
+    "statusInDevelopment": "In Development",
+    "statusPlanned": "Planned",
     "learnMore": "Learn more →",
     "readMore": "Read more →",
     "requestQuote": "Request a Quote",
@@ -20,6 +23,7 @@
     "consulting": "Consulting",
     "itServices": "Services",
     "work": "Work",
+    "nrBos": "NR-BOS",
     "globalReach": "Global Reach",
     "about": "About",
     "contact": "Contact",
@@ -69,7 +73,8 @@
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
       "dpa": "Data Processing Agreement",
-      "subprocessors": "Sub-processors"
+      "subprocessors": "Sub-processors",
+      "security": "Security"
     }
   },
   "productOverviews": {
@@ -214,11 +219,20 @@
         "description": "Stockholm software studio building multilingual web platforms, secure client portals, and custom products for businesses operating across languages and markets."
       },
       "hero": {
-        "label": "Software · Platforms · Products",
-        "h1": "We Build Software for Businesses That Cross Borders",
-        "body": "Multilingual web platforms, secure client portals, and custom products — designed and built in Stockholm for companies operating across languages, currencies, and jurisdictions.",
-        "cta": "See Our Work",
-        "ctaSecondary": "Start a Project"
+        "label": "Software · NR-BOS · Consulting",
+        "h1": "Business Technology for Companies That Cross Borders",
+        "body": "We build the technology, run the operations, and navigate the expansion — one partner for companies operating across languages, currencies, and jurisdictions.",
+        "cta": "Explore NR-BOS",
+        "ctaSecondary": "Start a Software Project"
+      },
+      "pillars": {
+        "label": "How We Work With You",
+        "title": "Three Connected Ways We Help You Grow",
+        "items": [
+          { "tag": "Software", "icon": "code", "variant": "it", "title": "We Build the Technology", "body": "Custom systems, SaaS products, secure portals, automation, and APIs — designed and built in-house, not outsourced.", "cta": "Start a Software Project", "link": "services" },
+          { "tag": "NR-BOS", "icon": "gear", "variant": "global", "title": "We Run the Operations", "body": "Our flagship product for project delivery, field operations, and client reporting. Enterprise-style operations without enterprise ERP complexity.", "cta": "Explore NR-BOS", "link": "work/nr-bos" },
+          { "tag": "Consulting", "icon": "handshake", "variant": "consulting", "title": "We Navigate the Expansion", "body": "Advisory for international entrepreneurs and companies establishing and operating compliant business structures across Europe.", "cta": "Book a Consultation", "link": "consulting" }
+        ]
       },
       "proofBar": {
         "stats": [
@@ -612,7 +626,8 @@
         { "title": "Privacy Policy", "body": "How we collect, use, and protect personal data across our website, Member Portal, NR-BOS, and Global Reach.", "link": "legal/privacy" },
         { "title": "Terms of Service", "body": "The terms governing use of our website, Member Portal, and software products, including NR-BOS licensing.", "link": "legal/terms" },
         { "title": "Data Processing Agreement", "body": "For clients where Nordic Riser AB processes personal data on their behalf — available on request.", "link": "legal/dpa" },
-        { "title": "Sub-processors", "body": "The named third parties who process personal data on our behalf, what they do, and where they're located.", "link": "legal/subprocessors" }
+        { "title": "Sub-processors", "body": "The named third parties who process personal data on our behalf, what they do, and where they're located.", "link": "legal/subprocessors" },
+        { "title": "Security", "body": "A factual account of how our products protect data today — including what isn't finished yet.", "link": "security" }
       ]
     },
     "legalSubprocessors": {
@@ -626,16 +641,64 @@
         "If we add a new sub-processor, we will update this list and, for clients with a Data Processing Agreement in place, give notice before the change takes effect, consistent with the objection right described in that agreement."
       ],
       "table": {
-        "headers": ["Sub-processor", "Purpose", "Data Categories", "Location", "Transfer Mechanism"],
+        "headers": ["Sub-processor", "Purpose", "Data Categories", "Location", "Transfer Mechanism", "Status"],
         "rows": [
-          ["Google Ireland Limited (Firebase / Google Cloud Platform)", "Authentication, database, file storage, and hosting for the Member Portal (portal.nordicriser.com)", "Account credentials, profile data, uploaded document contents, secure message content, case and payment records", "Google Cloud infrastructure — specific processing region pending internal confirmation (see note below)", "Google Cloud's Cloud Data Processing Addendum, incorporating the European Commission's Standard Contractual Clauses"],
-          ["DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.)", "AI-generated risk, cost, and productivity analysis in NR-BOS (optional feature)", "Project and company names, budget figures, task details, cost entries, full names and roles of assigned team members", "China", "Standard Contractual Clauses (controller-to-processor module). China has no European Commission adequacy decision — see Privacy Policy Section 6.4 for the full disclosure"],
-          ["PostgreSQL database (NR-BOS)", "Core relational data storage — users, companies, projects, tasks, cost entries, field reports, license records", "Broad — effectively all NR-BOS operational data, including personal data of client company staff", "Pending internal confirmation", "Pending internal confirmation"],
-          ["Object storage, S3-compatible (NR-BOS)", "Worksite photograph storage and generated PDF client reports", "Photograph files (may include camera-embedded EXIF such as GPS coordinates or a timestamp), PDF report documents", "Pending internal confirmation", "Pending internal confirmation"],
-          ["Translation API provider (Global Reach)", "Real-time translation of chat messages in Global Reach's collaboration rooms", "Chat message content", "Pending internal confirmation", "Pending internal confirmation"]
+          ["Google Ireland Limited (Firebase / Google Cloud Platform)", "Authentication, database, file storage, and hosting for the Member Portal (portal.nordicriser.com)", "Account credentials, profile data, uploaded document contents, secure message content, case and payment records", "Google Cloud infrastructure — specific processing region pending internal confirmation (see note below)", "Google Cloud's Cloud Data Processing Addendum, incorporating the European Commission's Standard Contractual Clauses", "Verification Required"],
+          ["DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.)", "AI-generated risk, cost, and productivity analysis in NR-BOS (optional feature)", "Project and company names, budget figures, task details, cost entries, full names and roles of assigned team members", "China", "Standard Contractual Clauses (controller-to-processor module). China has no European Commission adequacy decision — see Privacy Policy Section 6.4 for the full disclosure", "Confirmed"],
+          ["PostgreSQL database (NR-BOS)", "Core relational data storage — users, companies, projects, tasks, cost entries, field reports, license records", "Broad — effectively all NR-BOS operational data, including personal data of client company staff", "Pending internal confirmation", "Pending internal confirmation", "Verification Required"],
+          ["Object storage, S3-compatible (NR-BOS)", "Worksite photograph storage and generated PDF client reports", "Photograph files (may include camera-embedded EXIF such as GPS coordinates or a timestamp), PDF report documents", "Pending internal confirmation", "Pending internal confirmation", "Verification Required"],
+          ["Translation API provider (Global Reach)", "Real-time translation of chat messages in Global Reach's collaboration rooms", "Chat message content", "Pending internal confirmation", "Pending internal confirmation", "Verification Required"]
         ]
       },
-      "note": "Rows marked “pending internal confirmation” are confirmed to exist and to receive the stated data category — we verified this directly against our own source code before publishing this table. What isn't yet finalised is the exact hosting vendor and region for three of them. We are listing them rather than omitting them because Article 13(1)(f) requires disclosing the transfers we make, not only the ones we've fully documented, and because leaving a known gap off this table would be less honest than flagging it plainly. We will complete these entries and update the date above as soon as they're confirmed."
+      "note": "Rows marked “Verification Required” are confirmed to exist and to receive the stated data category — we verified this directly against our own source code before publishing this table. What isn't yet finalised is the exact hosting vendor and region for these entries. We are listing them rather than omitting them because Article 13(1)(f) requires disclosing the transfers we make, not only the ones we've fully documented, and because leaving a known gap off this table would be less honest than flagging it plainly. We will update the Status column and the date above as soon as they're confirmed."
+    },
+    "security": {
+      "meta": { "title": "Security — Nordic Riser AB", "description": "A factual, verified account of the security practices behind NR-BOS and the Member Portal — including what isn't finished yet." },
+      "hero": { "label": "Security", "h1": "Security at Nordic Riser AB", "body": "A factual account of how our products protect data today — including what isn't finished yet. If something isn't listed here, assume we haven't built it." },
+      "breadcrumb": "Security",
+      "updatedBadge": "Last Updated: 5 September 2026",
+      "intro": [
+        "This page describes the security practices actually implemented in our products — the Member Portal and NR-BOS — verified directly against our own source code before publishing. It is not a compliance certification, and it isn't a substitute for your own due diligence.",
+        "Where something is still being finalized rather than fully built, we say so plainly, using the same status labels used elsewhere on this site."
+      ],
+      "statusLabels": { "available": "Available Now", "planned": "Planned", "verificationRequired": "Verification Required" },
+      "sections": {
+        "auth": {
+          "title": "Authentication & Access Control",
+          "nrbosLabel": "NR-BOS:",
+          "nrbosBody": "Authenticates users with short-lived JWT access tokens and rotating refresh tokens. Passwords are hashed with bcrypt — never stored in plain text. Every request is checked against one of four roles (Admin, Project Manager, Field Worker, Client), and users only see what their role permits.",
+          "portalLabel": "Member Portal:",
+          "portalBody": "Uses Firebase Authentication (email and password). Firestore and Storage security rules restrict each user to their own documents, cases, invoices, and files — enforced server-side, not just hidden in the interface. Admin access is restricted to Nordic Riser AB email addresses."
+        },
+        "transit": {
+          "title": "Data in Transit",
+          "body": [
+            "Both products are served over HTTPS by default — Firebase Hosting enforces this for the Member Portal, and our infrastructure does the same for NR-BOS. Cross-origin requests to the NR-BOS API are restricted to an explicit allow-list of origins, not left open to any website.",
+            "Every request to the NR-BOS API is validated, and unexpected fields are rejected outright, reducing the surface for malformed or malicious input."
+          ]
+        },
+        "rest": {
+          "title": "Data at Rest",
+          "body": "Uploaded files in the Member Portal are size- and type-restricted at upload. Encryption of data at rest depends on our underlying hosting providers' own infrastructure-level encryption — we have not yet finalized and audited the specific configuration, so we aren't going to claim a level of protection we haven't verified ourselves."
+        }
+      },
+      "building": {
+        "label": "Roadmap",
+        "title": "What We're Still Building",
+        "items": [
+          { "name": "Formal Certification", "body": "We have not pursued any formal security certification (e.g. ISO 27001, SOC 2) yet." },
+          { "name": "Automated Vulnerability Scanning", "body": "Dependency and vulnerability scanning is not yet wired into our build process." },
+          { "name": "Login Rate Limiting", "body": "Brute-force protection on login endpoints, beyond password hashing, is not yet in place." },
+          { "name": "Security Response Headers", "body": "Headers such as HSTS and a Content Security Policy are not yet configured on the NR-BOS API." },
+          { "name": "NR-BOS Audit Log", "body": "The Member Portal logs case and document activity; NR-BOS itself does not yet have an equivalent audit trail." },
+          { "name": "Documented Backup & Incident Response", "body": "We back up our infrastructure, but a written, tested recovery and incident-response plan is not yet finalized enough to publish here." }
+        ]
+      },
+      "report": {
+        "title": "Reporting a Security Issue",
+        "body": "Found something? Tell us before anyone else — email info@nordicriser.com with what you found and how to reproduce it. We don't yet have a bug bounty program, but we take reports seriously and respond directly.",
+        "subprocessorsCta": "For a full list of who processes data on our behalf, see our"
+      }
     },
     "legalTerms": {
       "meta": { "title": "Terms of Service — Nordic Riser AB", "description": "The terms governing use of Nordic Riser AB's website, Member Portal, and software products, including NR-BOS licensing." },
@@ -938,10 +1001,11 @@
       "howWeWorkTitle": "A Structured Path from Idea to Launch",
       "howWeWorkSub": "The same discipline we apply to consulting engagements carries over to how we plan and build technology.",
       "howWeWork": [
-        { "title": "Scope", "body": "We assess your business needs and define a clear, written scope before any development begins." },
-        { "title": "Quote", "body": "You receive a transparent quote tied directly to the agreed scope — no open-ended billing." },
+        { "title": "Discover", "body": "We assess your business needs and define a clear, written scope and a transparent quote before any development begins." },
+        { "title": "Design", "body": "Interface design and technical architecture, worked out and agreed with you before we write a line of code." },
         { "title": "Build", "body": "We build in structured stages with regular check-ins, so you always know where the project stands." },
-        { "title": "Support", "body": "After launch, we remain available for maintenance, updates, and future enhancements." }
+        { "title": "Launch", "body": "Deployment, domain and SSL setup, and handover documentation. You own the code and the accounts." },
+        { "title": "Improve", "body": "After launch, we remain available for monitoring, updates, and ongoing enhancements as your needs evolve." }
       ],
       "capabilitiesLabel": "What We Can Build",
       "capabilitiesTitle": "Capabilities, Not Promises",
@@ -1138,6 +1202,75 @@
           ]
         }
       ],
+      "workflow": {
+        "label": "How It Actually Runs",
+        "title": "From Assignment to Client Report — One Connected Flow",
+        "steps": [
+          { "title": "Project Created", "body": "A project is set up with its own budget, client, and team." },
+          { "title": "Work Assigned", "body": "Tasks are assigned with a due date and estimated hours." },
+          { "title": "Field Report Logged", "body": "Site notes, photos, and a geotagged timestamp are recorded from the field." },
+          { "title": "Reviewed", "body": "The task moves through the board's Review stage before it's marked done." },
+          { "title": "Dashboard Updates", "body": "Portfolio KPIs and budget-vs-actual refresh automatically as the data comes in." },
+          { "title": "AI Analysis", "body": "On demand, an AI assistant reads the updated project data and returns a risk, cost, and productivity briefing — decision support, not an autonomous action." },
+          { "title": "Client Report Generated", "body": "A branded PDF pulls in the project's tasks, costs, and recent field photos." }
+        ]
+      },
+      "moduleMap": {
+        "label": "Module Map",
+        "title": "What's Built, What's Coming",
+        "items": [
+          { "icon": "handshake", "name": "CRM", "status": "planned", "body": "Client and contact relationship tracking. Not yet built — client details currently live inside each project record." },
+          { "icon": "clipboard", "name": "Projects", "status": "available", "body": "Every job tracked with its own budget, client, and team on a four-stage board." },
+          { "icon": "check", "name": "Tasks", "status": "available", "body": "Assignee, due date, and estimated hours on every task, moving through To Do → In Progress → Review → Done." },
+          { "icon": "briefcase", "name": "People", "status": "available", "body": "Company user accounts with role-based access — admin, project manager, field worker, client." },
+          { "icon": "wrench", "name": "Field Ops", "status": "available", "body": "Site notes, timestamps, geotagging, and before/after photos logged straight from the field." },
+          { "icon": "chart", "name": "Costs", "status": "available", "body": "A running cost ledger by category, with remaining budget calculated automatically." },
+          { "icon": "folder", "name": "Documents", "status": "planned", "body": "A dedicated document vault. Not yet built — client reports currently ship as standalone PDFs." },
+          { "icon": "lock", "name": "Client Portal", "status": "available", "body": "Clients log in to see only their own project's status and reports." },
+          { "icon": "pencil", "name": "Reporting", "status": "available", "body": "Branded PDF reports generated in one click from a project's tasks, costs, and field photos." },
+          { "icon": "target", "name": "Analytics", "status": "available", "body": "Portfolio-wide KPIs, team workload, and budget-vs-actual, updated in real time." },
+          { "icon": "gear", "name": "AI", "status": "available", "body": "An AI assistant reads real project data on demand and returns a structured briefing for decision support — it doesn't act on its own." }
+        ]
+      },
+      "demoForm": {
+        "label": "Request a Demo",
+        "title": "See NR-BOS Running on Your Kind of Work",
+        "intro": "Tell us about your operation and we'll walk you through the parts of NR-BOS that matter to you.",
+        "name": "Full Name",
+        "namePlaceholder": "Your full name",
+        "company": "Company Name",
+        "companyPlaceholder": "Your company",
+        "email": "Work Email",
+        "emailPlaceholder": "you@company.com",
+        "size": "Company Size",
+        "sizeOptions": [
+          { "value": "", "label": "Select company size" },
+          { "value": "1-10", "label": "1–10 employees" },
+          { "value": "11-50", "label": "11–50 employees" },
+          { "value": "51-200", "label": "51–200 employees" },
+          { "value": "201-500", "label": "201–500 employees" },
+          { "value": "500plus", "label": "500+ employees" }
+        ],
+        "industry": "Industry",
+        "industryOptions": [
+          { "value": "", "label": "Select your industry" },
+          { "value": "construction", "label": "Construction & Field Services" },
+          { "value": "facilities", "label": "Facilities & Property Management" },
+          { "value": "logistics", "label": "Logistics & Delivery" },
+          { "value": "professional", "label": "Professional Services" },
+          { "value": "it", "label": "IT & Software" },
+          { "value": "other", "label": "Other" }
+        ],
+        "mainChallenge": "Main Challenge",
+        "mainChallengePlaceholder": "What's the biggest operational problem you're trying to solve?",
+        "users": "Estimated Users",
+        "usersPlaceholder": "e.g. 15",
+        "message": "Anything Else We Should Know?",
+        "messagePlaceholder": "Optional — any specifics that would help us prepare for the call.",
+        "consent": "By submitting this form, you confirm the information provided is accurate and consent to Nordic Riser AB retaining your contact details to respond to this request. We do not share client information with third parties.",
+        "submit": "Request a Demo →",
+        "success": { "title": "Thanks — We'll Be in Touch", "body": "We've received your request and will reach out to schedule your NR-BOS demo." }
+      },
       "cta": {
         "title": "Want NR-BOS for your team?",
         "body": "It's licensed by subscription code, not a public sign-up form — tell us about your operation and we'll set you up.",
