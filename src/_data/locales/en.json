@@ -1232,6 +1232,45 @@
           { "icon": "gear", "name": "AI", "status": "available", "body": "An AI assistant reads real project data on demand and returns a structured briefing for decision support — it doesn't act on its own." }
         ]
       },
+      "demoForm": {
+        "label": "Request a Demo",
+        "title": "See NR-BOS Running on Your Kind of Work",
+        "intro": "Tell us about your operation and we'll walk you through the parts of NR-BOS that matter to you.",
+        "name": "Full Name",
+        "namePlaceholder": "Your full name",
+        "company": "Company Name",
+        "companyPlaceholder": "Your company",
+        "email": "Work Email",
+        "emailPlaceholder": "you@company.com",
+        "size": "Company Size",
+        "sizeOptions": [
+          { "value": "", "label": "Select company size" },
+          { "value": "1-10", "label": "1–10 employees" },
+          { "value": "11-50", "label": "11–50 employees" },
+          { "value": "51-200", "label": "51–200 employees" },
+          { "value": "201-500", "label": "201–500 employees" },
+          { "value": "500plus", "label": "500+ employees" }
+        ],
+        "industry": "Industry",
+        "industryOptions": [
+          { "value": "", "label": "Select your industry" },
+          { "value": "construction", "label": "Construction & Field Services" },
+          { "value": "facilities", "label": "Facilities & Property Management" },
+          { "value": "logistics", "label": "Logistics & Delivery" },
+          { "value": "professional", "label": "Professional Services" },
+          { "value": "it", "label": "IT & Software" },
+          { "value": "other", "label": "Other" }
+        ],
+        "mainChallenge": "Main Challenge",
+        "mainChallengePlaceholder": "What's the biggest operational problem you're trying to solve?",
+        "users": "Estimated Users",
+        "usersPlaceholder": "e.g. 15",
+        "message": "Anything Else We Should Know?",
+        "messagePlaceholder": "Optional — any specifics that would help us prepare for the call.",
+        "consent": "By submitting this form, you confirm the information provided is accurate and consent to Nordic Riser AB retaining your contact details to respond to this request. We do not share client information with third parties.",
+        "submit": "Request a Demo →",
+        "success": { "title": "Thanks — We'll Be in Touch", "body": "We've received your request and will reach out to schedule your NR-BOS demo." }
+      },
       "cta": {
         "title": "Want NR-BOS for your team?",
         "body": "It's licensed by subscription code, not a public sign-up form — tell us about your operation and we'll set you up.",

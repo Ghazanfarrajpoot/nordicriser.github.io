@@ -684,6 +684,84 @@
     </div>
   </div>
 </section>
+<section class="contact-section">
+  <div class="contact-inner contact-inner--single" data-animate>
+    <div class="form-block">
+      <span class="section-label">Request a Demo</span>
+      <h2>See NR-BOS Running on Your Kind of Work</h2>
+      <p class="form-intro">Tell us about your operation and we&#39;ll walk you through the parts of NR-BOS that matter to you.</p>
+
+      <form class="consultation-form" id="nrbosDemoForm">
+        <div class="form-row">
+          <div class="field">
+            <label for="nrbosName">Full Name <span class="required">*</span></label>
+            <input type="text" id="nrbosName" name="name" placeholder="Your full name" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="nrbosCompany">Company Name <span class="required">*</span></label>
+            <input type="text" id="nrbosCompany" name="company" placeholder="Your company" required autocomplete="organization">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="nrbosEmail">Work Email <span class="required">*</span></label>
+          <input type="email" id="nrbosEmail" name="email" placeholder="you@company.com" required autocomplete="email">
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="nrbosSize">Company Size <span class="required">*</span></label>
+            <select id="nrbosSize" name="size" required>
+              <option value="" disabled selected>Select company size</option>
+              <option value="1-10">1–10 employees</option>
+              <option value="11-50">11–50 employees</option>
+              <option value="51-200">51–200 employees</option>
+              <option value="201-500">201–500 employees</option>
+              <option value="500plus">500+ employees</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="nrbosIndustry">Industry <span class="required">*</span></label>
+            <select id="nrbosIndustry" name="industry" required>
+              <option value="" disabled selected>Select your industry</option>
+              <option value="construction">Construction &amp; Field Services</option>
+              <option value="facilities">Facilities &amp; Property Management</option>
+              <option value="logistics">Logistics &amp; Delivery</option>
+              <option value="professional">Professional Services</option>
+              <option value="it">IT &amp; Software</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="nrbosMainChallenge">Main Challenge <span class="required">*</span></label>
+            <input type="text" id="nrbosMainChallenge" name="mainChallenge" placeholder="What&#39;s the biggest operational problem you&#39;re trying to solve?" required>
+          </div>
+          <div class="field">
+            <label for="nrbosUsers">Estimated Users <span class="required">*</span></label>
+            <input type="number" id="nrbosUsers" name="users" placeholder="e.g. 15" min="1" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="nrbosMessage">Anything Else We Should Know?</label>
+          <textarea id="nrbosMessage" name="message" placeholder="Optional — any specifics that would help us prepare for the call."></textarea>
+        </div>
+
+        <p class="form-consent">By submitting this form, you confirm the information provided is accurate and consent to Nordic Riser AB retaining your contact details to respond to this request. We do not share client information with third parties.</p>
+
+        <button type="submit" class="btn-submit">Request a Demo →</button>
+      </form>
+
+      <div class="form-success" id="nrbosDemoFormSuccess">
+        <h3>Thanks — We&#39;ll Be in Touch</h3>
+        <p>We&#39;ve received your request and will reach out to schedule your NR-BOS demo.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="cta-section">
   <div class="cta-box" data-animate>

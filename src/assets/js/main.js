@@ -54,3 +54,14 @@ if (consultationForm) {
     if (success) success.style.display = 'block';
   });
 }
+
+// NR-BOS demo request form: same demo-only client-side "submit" pattern.
+const nrbosDemoForm = document.getElementById('nrbosDemoForm');
+if (nrbosDemoForm) {
+  nrbosDemoForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    nrbosDemoForm.style.display = 'none';
+    const success = document.getElementById('nrbosDemoFormSuccess');
+    if (success) success.style.display = 'block';
+  });
+}
