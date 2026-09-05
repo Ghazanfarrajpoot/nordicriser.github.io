@@ -841,7 +841,8 @@
           "Ändamål",
           "Datakategorier",
           "Plats",
-          "Överföringsmekanism"
+          "Överföringsmekanism",
+          "Status"
         ],
         "rows": [
           [
@@ -849,39 +850,44 @@
             "Autentisering, databas, fillagring och hosting för Medlemsportalen (portal.nordicriser.com)",
             "Kontouppgifter, profildata, innehåll i uppladdade dokument, innehåll i säkra meddelanden, ärende- och betalningsuppgifter",
             "Google Clouds infrastruktur — exakt behandlingsregion väntar på intern bekräftelse (se noteringen nedan)",
-            "Google Clouds Cloud Data Processing Addendum, som innefattar EU-kommissionens standardavtalsklausuler"
+            "Google Clouds Cloud Data Processing Addendum, som innefattar EU-kommissionens standardavtalsklausuler",
+            "Verifiering krävs"
           ],
           [
             "DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.)",
             "AI-genererad analys av risk, kostnad och produktivitet i NR-BOS (valfri funktion)",
             "Projekt- och företagsnamn, budgetsiffror, uppgiftsdetaljer, kostnadsposter, fullständiga namn och roller för tilldelade teammedlemmar",
             "Kina",
-            "Standardavtalsklausuler (modulen för överföring mellan personuppgiftsansvarig och personuppgiftsbiträde). Kina saknar beslut om adekvat skyddsnivå från EU-kommissionen — se integritetspolicyns avsnitt 6.4 för den fullständiga redogörelsen"
+            "Standardavtalsklausuler (modulen för överföring mellan personuppgiftsansvarig och personuppgiftsbiträde). Kina saknar beslut om adekvat skyddsnivå från EU-kommissionen — se integritetspolicyns avsnitt 6.4 för den fullständiga redogörelsen",
+            "Bekräftad"
           ],
           [
             "PostgreSQL-databas (NR-BOS)",
             "Central relationsdatabas — användare, företag, projekt, uppgifter, kostnadsposter, fältrapporter, licensregister",
             "Brett — i praktiken all operativ NR-BOS-data, inklusive personuppgifter om kundföretagets personal",
             "Väntar på intern bekräftelse",
-            "Väntar på intern bekräftelse"
+            "Väntar på intern bekräftelse",
+            "Verifiering krävs"
           ],
           [
             "Objektlagring, S3-kompatibel (NR-BOS)",
             "Lagring av fotografier från arbetsplatsen och genererade PDF-kundrapporter",
             "Bildfiler (kan innehålla kamerainbäddad EXIF-data som GPS-koordinater eller tidsstämpel), PDF-rapportdokument",
             "Väntar på intern bekräftelse",
-            "Väntar på intern bekräftelse"
+            "Väntar på intern bekräftelse",
+            "Verifiering krävs"
           ],
           [
             "Leverantör av översättnings-API (Global Reach)",
             "Realtidsöversättning av chattmeddelanden i Global Reachs samarbetsrum",
             "Innehåll i chattmeddelanden",
             "Väntar på intern bekräftelse",
-            "Väntar på intern bekräftelse"
+            "Väntar på intern bekräftelse",
+            "Verifiering krävs"
           ]
         ]
       },
-      "note": "Rader märkta ”väntar på intern bekräftelse” är bekräftade att existera och att ta emot den angivna datakategorin — vi har verifierat detta direkt mot vår egen källkod innan denna förteckning publicerades. Det som ännu inte är fastställt är exakt värdleverantör och region för tre av dem. Vi listar dem i stället för att utelämna dem eftersom artikel 13.1 f kräver att vi redogör för de överföringar vi faktiskt gör, inte bara de vi redan fullständigt dokumenterat, och eftersom det vore mindre ärligt att utelämna en känd lucka än att flagga den öppet. Vi kompletterar dessa uppgifter och uppdaterar datumet ovan så snart de är bekräftade."
+      "note": "Rader märkta ”Verifiering krävs” är bekräftade att existera och att ta emot den angivna datakategorin — vi har verifierat detta direkt mot vår egen källkod innan denna förteckning publicerades. Det som ännu inte är fastställt är exakt värdleverantör och region för dessa poster. Vi listar dem i stället för att utelämna dem eftersom artikel 13.1 f kräver att vi redogör för de överföringar vi faktiskt gör, inte bara de vi redan fullständigt dokumenterat, och eftersom det vore mindre ärligt att utelämna en känd lucka än att flagga den öppet. Vi uppdaterar Status-kolumnen och datumet ovan så snart de är bekräftade."
     },
     "legalTerms": {
       "meta": {
