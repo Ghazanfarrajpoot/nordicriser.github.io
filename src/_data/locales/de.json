@@ -62,6 +62,14 @@
       "contact": "Kontakt",
       "privacy": "Datenschutzerklärung",
       "memberPortal": "Mitgliederportal"
+    },
+    "legalHeading": "Rechtliches",
+    "legalLinks": {
+      "privacy": "Datenschutzerklärung",
+      "terms": "Nutzungsbedingungen",
+      "dpa": "Auftragsverarbeitungsvertrag",
+      "subprocessors": "Unterauftragsverarbeiter",
+      "security": "Sicherheit"
     }
   },
   "pages": {

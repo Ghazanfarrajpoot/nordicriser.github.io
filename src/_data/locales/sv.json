@@ -71,7 +71,8 @@
       "privacy": "Integritetspolicy",
       "terms": "Användarvillkor",
       "dpa": "Personuppgiftsbiträdesavtal",
-      "subprocessors": "Underbiträden"
+      "subprocessors": "Underbiträden",
+      "security": "Säkerhet"
     }
   },
   "productOverviews": {
@@ -815,6 +816,11 @@
           "title": "Underbiträden",
           "body": "De namngivna tredje parter som behandlar personuppgifter för vår räkning, vad de gör och var de finns.",
           "link": "legal/subprocessors"
+        },
+        {
+          "title": "Säkerhet",
+          "body": "En faktabaserad redogörelse för hur våra produkter skyddar data i dag — inklusive det som ännu inte är klart.",
+          "link": "security"
         }
       ]
     },
@@ -888,6 +894,54 @@
         ]
       },
       "note": "Rader märkta ”Verifiering krävs” är bekräftade att existera och att ta emot den angivna datakategorin — vi har verifierat detta direkt mot vår egen källkod innan denna förteckning publicerades. Det som ännu inte är fastställt är exakt värdleverantör och region för dessa poster. Vi listar dem i stället för att utelämna dem eftersom artikel 13.1 f kräver att vi redogör för de överföringar vi faktiskt gör, inte bara de vi redan fullständigt dokumenterat, och eftersom det vore mindre ärligt att utelämna en känd lucka än att flagga den öppet. Vi uppdaterar Status-kolumnen och datumet ovan så snart de är bekräftade."
+    },
+    "security": {
+      "meta": { "title": "Säkerhet — Nordic Riser AB", "description": "En faktabaserad, verifierad redogörelse för säkerhetspraxis bakom NR-BOS och Medlemsportalen — inklusive det som ännu inte är klart." },
+      "hero": { "label": "Säkerhet", "h1": "Säkerhet på Nordic Riser AB", "body": "En faktabaserad redogörelse för hur våra produkter skyddar data i dag — inklusive det som ännu inte är klart. Om något inte listas här, anta att vi inte har byggt det." },
+      "breadcrumb": "Säkerhet",
+      "updatedBadge": "Senast uppdaterad: 5 september 2026",
+      "intro": [
+        "Den här sidan beskriver de säkerhetsrutiner som faktiskt är implementerade i våra produkter — Medlemsportalen och NR-BOS — verifierade direkt mot vår egen källkod innan publicering. Det är inte ett certifieringsintyg, och det ersätter inte din egen due diligence.",
+        "Där något ännu håller på att färdigställas snarare än att vara helt byggt säger vi det rakt ut, med samma statusetiketter som används på andra ställen på webbplatsen."
+      ],
+      "statusLabels": { "available": "Tillgänglig nu", "planned": "Planerad", "verificationRequired": "Verifiering krävs" },
+      "sections": {
+        "auth": {
+          "title": "Autentisering och åtkomstkontroll",
+          "nrbosLabel": "NR-BOS:",
+          "nrbosBody": "Autentiserar användare med kortlivade JWT-åtkomsttoken och roterande refresh-token. Lösenord hashas med bcrypt — lagras aldrig i klartext. Varje förfrågan kontrolleras mot en av fyra roller (Admin, Projektledare, Fältarbetare, Kund), och användare ser endast det deras roll tillåter.",
+          "portalLabel": "Medlemsportalen:",
+          "portalBody": "Använder Firebase Authentication (e-post och lösenord). Säkerhetsregler i Firestore och Storage begränsar varje användare till sina egna dokument, ärenden, fakturor och filer — verkställt på serversidan, inte bara dolt i gränssnittet. Administratörsåtkomst är begränsad till Nordic Riser AB:s e-postadresser."
+        },
+        "transit": {
+          "title": "Data under överföring",
+          "body": [
+            "Båda produkterna levereras via HTTPS som standard — Firebase Hosting kräver detta för Medlemsportalen, och vår infrastruktur gör detsamma för NR-BOS. Cross-origin-förfrågningar till NR-BOS API:et begränsas till en uttrycklig lista över tillåtna ursprung, inte öppet för vilken webbplats som helst.",
+            "Varje förfrågan till NR-BOS API:et valideras, och oväntade fält avvisas direkt, vilket minskar ytan för felaktig eller skadlig indata."
+          ]
+        },
+        "rest": {
+          "title": "Data i vila",
+          "body": "Uppladdade filer i Medlemsportalen är storleks- och typbegränsade vid uppladdning. Kryptering av data i vila beror på våra underliggande värdleverantörers egen infrastrukturnivåkryptering — vi har ännu inte fastställt och granskat den exakta konfigurationen, så vi kommer inte att hävda en skyddsnivå vi inte själva har verifierat."
+        }
+      },
+      "building": {
+        "label": "Färdplan",
+        "title": "Det vi fortfarande bygger",
+        "items": [
+          { "name": "Formell certifiering", "body": "Vi har ännu inte ansökt om någon formell säkerhetscertifiering (t.ex. ISO 27001, SOC 2)." },
+          { "name": "Automatiserad sårbarhetsskanning", "body": "Skanning av beroenden och sårbarheter är ännu inte inkopplad i vår byggprocess." },
+          { "name": "Hastighetsbegränsning för inloggning", "body": "Skydd mot brute-force-attacker på inloggningsendpoints, utöver lösenordshashning, är ännu inte på plats." },
+          { "name": "Säkerhetsrelaterade svarshuvuden", "body": "Huvuden som HSTS och en Content Security Policy är ännu inte konfigurerade i NR-BOS API:et." },
+          { "name": "Granskningslogg för NR-BOS", "body": "Medlemsportalen loggar ärende- och dokumentaktivitet; NR-BOS saknar ännu en motsvarande granskningslogg." },
+          { "name": "Dokumenterad säkerhetskopiering och incidenthantering", "body": "Vi säkerhetskopierar vår infrastruktur, men en skriftlig, testad plan för återställning och incidenthantering är ännu inte tillräckligt färdigställd för att publiceras här." }
+        ]
+      },
+      "report": {
+        "title": "Rapportera ett säkerhetsproblem",
+        "body": "Har du hittat något? Berätta för oss innan någon annan — mejla info@nordicriser.com med vad du hittat och hur det kan återskapas. Vi har ännu inget bug bounty-program, men vi tar rapporter på allvar och svarar direkt.",
+        "subprocessorsCta": "För en fullständig lista över vilka som behandlar data för vår räkning, se vår"
+      }
     },
     "legalTerms": {
       "meta": {

@@ -73,7 +73,8 @@
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
       "dpa": "Data Processing Agreement",
-      "subprocessors": "Sub-processors"
+      "subprocessors": "Sub-processors",
+      "security": "Security"
     }
   },
   "productOverviews": {
@@ -625,7 +626,8 @@
         { "title": "Privacy Policy", "body": "How we collect, use, and protect personal data across our website, Member Portal, NR-BOS, and Global Reach.", "link": "legal/privacy" },
         { "title": "Terms of Service", "body": "The terms governing use of our website, Member Portal, and software products, including NR-BOS licensing.", "link": "legal/terms" },
         { "title": "Data Processing Agreement", "body": "For clients where Nordic Riser AB processes personal data on their behalf — available on request.", "link": "legal/dpa" },
-        { "title": "Sub-processors", "body": "The named third parties who process personal data on our behalf, what they do, and where they're located.", "link": "legal/subprocessors" }
+        { "title": "Sub-processors", "body": "The named third parties who process personal data on our behalf, what they do, and where they're located.", "link": "legal/subprocessors" },
+        { "title": "Security", "body": "A factual account of how our products protect data today — including what isn't finished yet.", "link": "security" }
       ]
     },
     "legalSubprocessors": {
@@ -649,6 +651,54 @@
         ]
       },
       "note": "Rows marked “Verification Required” are confirmed to exist and to receive the stated data category — we verified this directly against our own source code before publishing this table. What isn't yet finalised is the exact hosting vendor and region for these entries. We are listing them rather than omitting them because Article 13(1)(f) requires disclosing the transfers we make, not only the ones we've fully documented, and because leaving a known gap off this table would be less honest than flagging it plainly. We will update the Status column and the date above as soon as they're confirmed."
+    },
+    "security": {
+      "meta": { "title": "Security — Nordic Riser AB", "description": "A factual, verified account of the security practices behind NR-BOS and the Member Portal — including what isn't finished yet." },
+      "hero": { "label": "Security", "h1": "Security at Nordic Riser AB", "body": "A factual account of how our products protect data today — including what isn't finished yet. If something isn't listed here, assume we haven't built it." },
+      "breadcrumb": "Security",
+      "updatedBadge": "Last Updated: 5 September 2026",
+      "intro": [
+        "This page describes the security practices actually implemented in our products — the Member Portal and NR-BOS — verified directly against our own source code before publishing. It is not a compliance certification, and it isn't a substitute for your own due diligence.",
+        "Where something is still being finalized rather than fully built, we say so plainly, using the same status labels used elsewhere on this site."
+      ],
+      "statusLabels": { "available": "Available Now", "planned": "Planned", "verificationRequired": "Verification Required" },
+      "sections": {
+        "auth": {
+          "title": "Authentication & Access Control",
+          "nrbosLabel": "NR-BOS:",
+          "nrbosBody": "Authenticates users with short-lived JWT access tokens and rotating refresh tokens. Passwords are hashed with bcrypt — never stored in plain text. Every request is checked against one of four roles (Admin, Project Manager, Field Worker, Client), and users only see what their role permits.",
+          "portalLabel": "Member Portal:",
+          "portalBody": "Uses Firebase Authentication (email and password). Firestore and Storage security rules restrict each user to their own documents, cases, invoices, and files — enforced server-side, not just hidden in the interface. Admin access is restricted to Nordic Riser AB email addresses."
+        },
+        "transit": {
+          "title": "Data in Transit",
+          "body": [
+            "Both products are served over HTTPS by default — Firebase Hosting enforces this for the Member Portal, and our infrastructure does the same for NR-BOS. Cross-origin requests to the NR-BOS API are restricted to an explicit allow-list of origins, not left open to any website.",
+            "Every request to the NR-BOS API is validated, and unexpected fields are rejected outright, reducing the surface for malformed or malicious input."
+          ]
+        },
+        "rest": {
+          "title": "Data at Rest",
+          "body": "Uploaded files in the Member Portal are size- and type-restricted at upload. Encryption of data at rest depends on our underlying hosting providers' own infrastructure-level encryption — we have not yet finalized and audited the specific configuration, so we aren't going to claim a level of protection we haven't verified ourselves."
+        }
+      },
+      "building": {
+        "label": "Roadmap",
+        "title": "What We're Still Building",
+        "items": [
+          { "name": "Formal Certification", "body": "We have not pursued any formal security certification (e.g. ISO 27001, SOC 2) yet." },
+          { "name": "Automated Vulnerability Scanning", "body": "Dependency and vulnerability scanning is not yet wired into our build process." },
+          { "name": "Login Rate Limiting", "body": "Brute-force protection on login endpoints, beyond password hashing, is not yet in place." },
+          { "name": "Security Response Headers", "body": "Headers such as HSTS and a Content Security Policy are not yet configured on the NR-BOS API." },
+          { "name": "NR-BOS Audit Log", "body": "The Member Portal logs case and document activity; NR-BOS itself does not yet have an equivalent audit trail." },
+          { "name": "Documented Backup & Incident Response", "body": "We back up our infrastructure, but a written, tested recovery and incident-response plan is not yet finalized enough to publish here." }
+        ]
+      },
+      "report": {
+        "title": "Reporting a Security Issue",
+        "body": "Found something? Tell us before anyone else — email info@nordicriser.com with what you found and how to reproduce it. We don't yet have a bug bounty program, but we take reports seriously and respond directly.",
+        "subprocessorsCta": "For a full list of who processes data on our behalf, see our"
+      }
     },
     "legalTerms": {
       "meta": { "title": "Terms of Service — Nordic Riser AB", "description": "The terms governing use of Nordic Riser AB's website, Member Portal, and software products, including NR-BOS licensing." },

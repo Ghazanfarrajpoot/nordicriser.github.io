@@ -62,6 +62,14 @@
       "contact": "رابطہ",
       "privacy": "پرائیویسی پالیسی",
       "memberPortal": "ممبر پورٹل"
+    },
+    "legalHeading": "قانونی",
+    "legalLinks": {
+      "privacy": "پرائیویسی پالیسی",
+      "terms": "شرائطِ خدمت",
+      "dpa": "ڈیٹا پروسیسنگ معاہدہ",
+      "subprocessors": "ذیلی پروسیسرز",
+      "security": "سیکیورٹی"
     }
   },
   "pages": {

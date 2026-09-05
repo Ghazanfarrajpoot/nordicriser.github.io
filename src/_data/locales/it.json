@@ -62,6 +62,14 @@
       "contact": "Contatti",
       "privacy": "Informativa sulla Privacy",
       "memberPortal": "Portale Membri"
+    },
+    "legalHeading": "Legale",
+    "legalLinks": {
+      "privacy": "Informativa sulla Privacy",
+      "terms": "Termini di Servizio",
+      "dpa": "Accordo sul Trattamento dei Dati",
+      "subprocessors": "Subresponsabili",
+      "security": "Sicurezza"
     }
   },
   "pages": {

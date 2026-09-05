@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="sv" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Säkerhet — Nordic Riser AB</title>
+  <meta name="description" content="En faktabaserad, verifierad redogörelse för säkerhetspraxis bakom NR-BOS och Medlemsportalen — inklusive det som ännu inte är klart.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nordicriser.com/sv/security/">
+  <meta property="og:site_name" content="Nordic Riser AB">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="sv">
+  <meta property="og:url" content="https://nordicriser.com/sv/security/">
+  <meta property="og:title" content="Säkerhet — Nordic Riser AB">
+  <meta property="og:description" content="En faktabaserad, verifierad redogörelse för säkerhetspraxis bakom NR-BOS och Medlemsportalen — inklusive det som ännu inte är klart.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Säkerhet — Nordic Riser AB">
+  <meta name="twitter:description" content="En faktabaserad, verifierad redogörelse för säkerhetspraxis bakom NR-BOS och Medlemsportalen — inklusive det som ännu inte är klart.">
+  <link rel="alternate" hreflang="en" href="https://nordicriser.com/security/">
+  <link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/security/">
+  <link rel="alternate" hreflang="de" href="https://nordicriser.com/de/security/">
+  <link rel="alternate" hreflang="fr" href="https://nordicriser.com/fr/security/">
+  <link rel="alternate" hreflang="es" href="https://nordicriser.com/es/security/">
+  <link rel="alternate" hreflang="it" href="https://nordicriser.com/it/security/">
+  <link rel="alternate" hreflang="pl" href="https://nordicriser.com/pl/security/">
+  <link rel="alternate" hreflang="nl" href="https://nordicriser.com/nl/security/">
+  <link rel="alternate" hreflang="pt" href="https://nordicriser.com/pt/security/">
+  <link rel="alternate" hreflang="ur" href="https://nordicriser.com/ur/security/">
+  <link rel="alternate" hreflang="ar" href="https://nordicriser.com/ar/security/">
+  <link rel="alternate" hreflang="x-default" href="https://nordicriser.com/security/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/pillars.css">
+  <link rel="stylesheet" href="/assets/css/pages.css">
+</head>
+<body>
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="/sv/" class="logo">
+      <svg class="logo-mark" width="32" height="36" viewBox="0 0 32 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M16 0.8L30.5 6.4V17.2C30.5 25.9 24.3 32.1 16 35.2C7.7 32.1 1.5 25.9 1.5 17.2V6.4L16 0.8Z" style="fill:var(--navy);stroke:var(--gold);stroke-width:0.75"/>
+        <text x="16" y="14.5" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="700" style="fill:var(--gold)" text-anchor="middle" dominant-baseline="central">NR</text>
+      </svg>
+      Nordic Riser <span>AB</span>
+    </a>
+    <button class="mobile-toggle" onclick="toggleMenu()" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="/sv/">Hem</a></li>
+      <li><a href="/sv/services/">Tjänster</a></li>
+      <li><a href="/sv/work/">Arbete</a></li>
+      <li><a href="/sv/work/nr-bos/">NR-BOS</a></li>
+      <li><a href="/sv/global-reach/">Global Reach</a></li>
+      <li><a href="/sv/consulting/">Konsulttjänster</a></li>
+      <li><a href="/sv/about/">Om oss</a></li>
+      <li><a href="/sv/contact/">Kontakt</a></li>
+      <li class="nr-lang-mobile">
+<div class="nr-lang-switch" id="langSwitch-mobile">
+  <button type="button" class="nr-lang-btn" onclick="toggleLangMenu(this)" aria-haspopup="true" aria-expanded="false" aria-controls="langSwitch-mobile-menu" aria-label="Språk">
+    <span class="nr-lang-globe" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17"/><path d="M12 3.5c2.5 2.3 3.8 5.2 3.8 8.5s-1.3 6.2-3.8 8.5c-2.5-2.3-3.8-5.2-3.8-8.5S9.5 5.8 12 3.5Z"/></svg></span>
+    <span class="nr-lang-code">SV</span>
+  </button>
+  <ul class="nr-lang-menu" id="langSwitch-mobile-menu">
+    <li><a href="/security/" data-lang="en">English</a></li>
+    <li><a href="/sv/security/" data-lang="sv" class="current">Svenska</a></li>
+    <li><a href="/de/security/" data-lang="de">Deutsch</a></li>
+    <li><a href="/fr/security/" data-lang="fr">Français</a></li>
+    <li><a href="/es/security/" data-lang="es">Español</a></li>
+    <li><a href="/it/security/" data-lang="it">Italiano</a></li>
+    <li><a href="/pl/security/" data-lang="pl">Polski</a></li>
+    <li><a href="/nl/security/" data-lang="nl">Nederlands</a></li>
+    <li><a href="/pt/security/" data-lang="pt">Português</a></li>
+    <li><a href="/ur/security/" data-lang="ur">اردو</a></li>
+    <li><a href="/ar/security/" data-lang="ar">العربية</a></li>
+  </ul>
+</div>
+</li>
+      <li><a href="https://portal.nordicriser.com" class="btn-login">Medlemsinloggning</a></li>
+    </ul>
+    <div class="nr-lang-desktop">
+<div class="nr-lang-switch" id="langSwitch-desktop">
+  <button type="button" class="nr-lang-btn" onclick="toggleLangMenu(this)" aria-haspopup="true" aria-expanded="false" aria-controls="langSwitch-desktop-menu" aria-label="Språk">
+    <span class="nr-lang-globe" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17"/><path d="M12 3.5c2.5 2.3 3.8 5.2 3.8 8.5s-1.3 6.2-3.8 8.5c-2.5-2.3-3.8-5.2-3.8-8.5S9.5 5.8 12 3.5Z"/></svg></span>
+    <span class="nr-lang-code">SV</span>
+  </button>
+  <ul class="nr-lang-menu" id="langSwitch-desktop-menu">
+    <li><a href="/security/" data-lang="en">English</a></li>
+    <li><a href="/sv/security/" data-lang="sv" class="current">Svenska</a></li>
+    <li><a href="/de/security/" data-lang="de">Deutsch</a></li>
+    <li><a href="/fr/security/" data-lang="fr">Français</a></li>
+    <li><a href="/es/security/" data-lang="es">Español</a></li>
+    <li><a href="/it/security/" data-lang="it">Italiano</a></li>
+    <li><a href="/pl/security/" data-lang="pl">Polski</a></li>
+    <li><a href="/nl/security/" data-lang="nl">Nederlands</a></li>
+    <li><a href="/pt/security/" data-lang="pt">Português</a></li>
+    <li><a href="/ur/security/" data-lang="ur">اردو</a></li>
+    <li><a href="/ar/security/" data-lang="ar">العربية</a></li>
+  </ul>
+</div>
+</div>
+  </div>
+</nav>
+
+
+
+<section class="page-hero">
+  <div class="page-hero-inner" data-animate>
+    <span class="page-hero-label">Säkerhet</span>
+    <h1>Säkerhet på Nordic Riser AB</h1>
+    <p>En faktabaserad redogörelse för hur våra produkter skyddar data i dag — inklusive det som ännu inte är klart. Om något inte listas här, anta att vi inte har byggt det.</p>
+  </div>
+</section>
+
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="/sv/">Hem</a> &rsaquo; <span>Säkerhet</span>
+  </div>
+</div>
+
+<section class="section">
+  <div class="section-inner-narrow" data-animate>
+
+    <div class="doc-section">
+      <div class="updated-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5.5" width="16" height="14.5" rx="2"/><path d="M4 9.5h16M8 3.5v4M16 3.5v4"/></svg> Senast uppdaterad: 5 september 2026</div><p>Den här sidan beskriver de säkerhetsrutiner som faktiskt är implementerade i våra produkter — Medlemsportalen och NR-BOS — verifierade direkt mot vår egen källkod innan publicering. Det är inte ett certifieringsintyg, och det ersätter inte din egen due diligence.</p><p>Där något ännu håller på att färdigställas snarare än att vara helt byggt säger vi det rakt ut, med samma statusetiketter som används på andra ställen på webbplatsen.</p>
+    </div>
+
+    <div class="doc-section">
+      <h2>Autentisering och åtkomstkontroll <span class="status-badge status-badge--available">Tillgänglig nu</span></h2>
+      <p><strong>NR-BOS:</strong> Autentiserar användare med kortlivade JWT-åtkomsttoken och roterande refresh-token. Lösenord hashas med bcrypt — lagras aldrig i klartext. Varje förfrågan kontrolleras mot en av fyra roller (Admin, Projektledare, Fältarbetare, Kund), och användare ser endast det deras roll tillåter.</p>
+      <p><strong>Medlemsportalen:</strong> Använder Firebase Authentication (e-post och lösenord). Säkerhetsregler i Firestore och Storage begränsar varje användare till sina egna dokument, ärenden, fakturor och filer — verkställt på serversidan, inte bara dolt i gränssnittet. Administratörsåtkomst är begränsad till Nordic Riser AB:s e-postadresser.</p>
+    </div>
+
+    <div class="doc-section">
+      <h2>Data under överföring <span class="status-badge status-badge--available">Tillgänglig nu</span></h2><p>Båda produkterna levereras via HTTPS som standard — Firebase Hosting kräver detta för Medlemsportalen, och vår infrastruktur gör detsamma för NR-BOS. Cross-origin-förfrågningar till NR-BOS API:et begränsas till en uttrycklig lista över tillåtna ursprung, inte öppet för vilken webbplats som helst.</p><p>Varje förfrågan till NR-BOS API:et valideras, och oväntade fält avvisas direkt, vilket minskar ytan för felaktig eller skadlig indata.</p>
+    </div>
+
+    <div class="doc-section">
+      <h2>Data i vila <span class="status-badge status-badge--planned">Verifiering krävs</span></h2>
+      <p>Uppladdade filer i Medlemsportalen är storleks- och typbegränsade vid uppladdning. Kryptering av data i vila beror på våra underliggande värdleverantörers egen infrastrukturnivåkryptering — vi har ännu inte fastställt och granskat den exakta konfigurationen, så vi kommer inte att hävda en skyddsnivå vi inte själva har verifierat.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="section-inner" data-animate>
+    <span class="section-label">Färdplan</span>
+    <h2 class="section-title">Det vi fortfarande bygger</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-card">
+        <span class="status-badge status-badge--planned">Planerad</span>
+        <h3>Formell certifiering</h3>
+        <p>Vi har ännu inte ansökt om någon formell säkerhetscertifiering (t.ex. ISO 27001, SOC 2).</p>
+      </div>
+      <div class="portfolio-card">
+        <span class="status-badge status-badge--planned">Planerad</span>
+        <h3>Automatiserad sårbarhetsskanning</h3>
+        <p>Skanning av beroenden och sårbarheter är ännu inte inkopplad i vår byggprocess.</p>
+      </div>
+      <div class="portfolio-card">
+        <span class="status-badge status-badge--planned">Planerad</span>
+        <h3>Hastighetsbegränsning för inloggning</h3>
+        <p>Skydd mot brute-force-attacker på inloggningsendpoints, utöver lösenordshashning, är ännu inte på plats.</p>
+      </div>
+      <div class="portfolio-card">
+        <span class="status-badge status-badge--planned">Planerad</span>
+        <h3>Säkerhetsrelaterade svarshuvuden</h3>
+        <p>Huvuden som HSTS och en Content Security Policy är ännu inte konfigurerade i NR-BOS API:et.</p>
+      </div>
+      <div class="portfolio-card">
+        <span class="status-badge status-badge--planned">Planerad</span>
+        <h3>Granskningslogg för NR-BOS</h3>
+        <p>Medlemsportalen loggar ärende- och dokumentaktivitet; NR-BOS saknar ännu en motsvarande granskningslogg.</p>
+      </div>
+      <div class="portfolio-card">
+        <span class="status-badge status-badge--planned">Planerad</span>
+        <h3>Dokumenterad säkerhetskopiering och incidenthantering</h3>
+        <p>Vi säkerhetskopierar vår infrastruktur, men en skriftlig, testad plan för återställning och incidenthantering är ännu inte tillräckligt färdigställd för att publiceras här.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner-narrow" data-animate>
+    <div class="doc-section">
+      <h2>Rapportera ett säkerhetsproblem</h2>
+      <p>Har du hittat något? Berätta för oss innan någon annan — mejla info@nordicriser.com med vad du hittat och hur det kan återskapas. Vi har ännu inget bug bounty-program, men vi tar rapporter på allvar och svarar direkt.</p>
+      <p>För en fullständig lista över vilka som behandlar data för vår räkning, se vår <a href="/sv/legal/subprocessors/">Underbiträden &rarr;</a></p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-main footer-main--compact">
+    <div class="footer-brand">
+      <a href="/sv/" class="footer-logo">Nordic Riser <span>AB</span></a>
+      <p>Nordic Riser AB är en Stockholmsbaserad mjukvarustudio som bygger flerspråkiga webbplattformar, säkra kundportaler och gränsöverskridande produkter för företag som verkar på mer än ett språk.</p>
+      <div class="footer-address">
+        <strong>Registrerat säte</strong>
+        Nordic Riser AB<br>
+        Stockholm, Sweden<br>
+        <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
+      </div>
+    </div>
+    <div class="footer-services-group">
+      <div class="footer-col">
+        <h4>Tjänster</h4>
+        <ul>
+          <li><a href="/sv/services/">Webbplattformar &amp; portaler</a></li>
+          <li><a href="/sv/services/">Automation &amp; integrationer</a></li>
+          <li><a href="/sv/services/">Löpande support</a></li>
+          <li><a href="/sv/contact/">Begär offert</a></li>
+          <li><a href="/sv/work/">Arbete</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Global Reach</h4>
+        <ul>
+          <li><a href="/sv/global-reach/">Så fungerar det</a></li>
+          <li><a href="/sv/global-reach/">Planer &amp; priser</a></li>
+          <li><a href="https://portal.nordicriser.com">Prova gratis — 100 meddelanden</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Konsultverksamhet</h4>
+        <ul>
+          <li><a href="/sv/consulting/#establishment">Företagsetablering</a></li>
+          <li><a href="/sv/consulting/#formation">Bolagsbildning</a></li>
+          <li><a href="/sv/consulting/#relocation">Flyttstrategi</a></li>
+          <li><a href="/sv/consulting/#international">Gränsöverskridande rådgivning</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Företaget</h4>
+      <ul>
+        <li><a href="/sv/about/">Om oss</a></li>
+        <li><a href="/sv/contact/">Kontakt</a></li>
+        <li><a href="https://portal.nordicriser.com">Medlemsportal</a></li>
+      </ul>
+    </div><div class="footer-col">
+      <h4>Juridik</h4>
+      <ul>
+        <li><a href="/sv/legal/privacy/">Integritetspolicy</a></li>
+        <li><a href="/sv/legal/terms/">Användarvillkor</a></li>
+        <li><a href="/sv/legal/dpa/">Personuppgiftsbiträdesavtal</a></li>
+        <li><a href="/sv/legal/subprocessors/">Underbiträden</a></li>
+        <li><a href="/sv/security/">Säkerhet</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Nordic Riser AB. Alla rättigheter förbehållna. Stockholm, Sweden.</span>
+    <ul class="footer-bottom-links">
+      <li><a href="/sv/legal/privacy/">Integritetspolicy</a></li>
+      <li><a href="/sv/legal/terms/">Användarvillkor</a></li>
+      <li><a href="/sv/contact/">Kontakt</a></li>
+      <li><a href="https://portal.nordicriser.com">Medlemsportal</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/language-switcher.js"></script>
+
+</body>
+</html>

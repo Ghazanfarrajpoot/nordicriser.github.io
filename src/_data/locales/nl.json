@@ -62,6 +62,14 @@
       "contact": "Contact",
       "privacy": "Privacybeleid",
       "memberPortal": "Ledenportaal"
+    },
+    "legalHeading": "Juridisch",
+    "legalLinks": {
+      "privacy": "Privacybeleid",
+      "terms": "Gebruiksvoorwaarden",
+      "dpa": "Verwerkersovereenkomst",
+      "subprocessors": "Subverwerkers",
+      "security": "Beveiliging"
     }
   },
   "pages": {

@@ -85,6 +85,21 @@
 .audience-card h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.6rem; }
 .audience-card p  { font-size: 0.9rem; color: var(--muted); line-height: 1.7; }
 
+/* ── FEATURE STATUS BADGES — Available Now / In Development / Planned / Verification Required — used on the NR-BOS product page and the Security page ── */
+.status-badge {
+  display: inline-block;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.7rem;
+  border-radius: 20px;
+  margin-block: 0.5rem 0.35rem;
+}
+.status-badge--available { background: var(--sky); color: var(--navy); }
+.status-badge--in-development { background: rgba(201, 169, 110, 0.18); color: #855f28; }
+.status-badge--planned { background: transparent; border: 1px solid var(--border); color: var(--muted); }
+
 /* ── HOMEPAGE / CONSULTING / IT-SERVICES: PROCESS / HOW-WE-WORK STEPS ── */
 .steps-grid {
   display: grid;

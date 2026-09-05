@@ -62,6 +62,14 @@
       "contact": "Contact",
       "privacy": "Politique de confidentialité",
       "memberPortal": "Portail membre"
+    },
+    "legalHeading": "Mentions légales",
+    "legalLinks": {
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "dpa": "Accord de traitement des données",
+      "subprocessors": "Sous-traitants",
+      "security": "Sécurité"
     }
   },
   "pages": {

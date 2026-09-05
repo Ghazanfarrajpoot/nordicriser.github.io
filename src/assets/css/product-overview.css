@@ -84,21 +84,6 @@
   background: var(--navy);
 }
 
-/* ── FEATURE STATUS BADGES — Available Now / In Development / Planned ── */
-.status-badge {
-  display: inline-block;
-  font-size: 0.66rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  padding: 0.3rem 0.7rem;
-  border-radius: 20px;
-  margin-block: 0.5rem 0.35rem;
-}
-.status-badge--available { background: var(--sky); color: var(--navy); }
-.status-badge--in-development { background: rgba(201, 169, 110, 0.18); color: #855f28; }
-.status-badge--planned { background: transparent; border: 1px solid var(--border); color: var(--muted); }
-
 /* ── NR-BOS WORKFLOW / MODULE MAP — reuse .steps-grid / .portfolio-grid as-is ── */
 .nrb-module-grid .portfolio-card { display: flex; flex-direction: column; align-items: flex-start; }
 
