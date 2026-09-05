@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://nordicriser.com/sitemap.xml
