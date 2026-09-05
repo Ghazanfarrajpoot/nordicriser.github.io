@@ -18,6 +18,7 @@
     "consulting": "Beratung",
     "itServices": "Dienstleistungen",
     "work": "Arbeiten",
+    "nrBos": "NR-BOS",
     "globalReach": "Global Reach",
     "about": "Über uns",
     "contact": "Kontakt",
@@ -70,11 +71,20 @@
         "description": "Software-Studio mit Sitz in Stockholm für mehrsprachige Webplattformen, sichere Kundenportale und maßgeschneiderte Produkte für Unternehmen, die über Sprachen und Märkte hinweg tätig sind."
       },
       "hero": {
-        "label": "Software · Plattformen · Produkte",
-        "h1": "Wir entwickeln Software für Unternehmen, die Grenzen überschreiten",
-        "body": "Mehrsprachige Webplattformen, sichere Kundenportale und maßgeschneiderte Produkte — konzipiert und entwickelt in Stockholm für Unternehmen, die über Sprachen, Währungen und Rechtsordnungen hinweg tätig sind.",
-        "cta": "Unsere Arbeiten ansehen",
-        "ctaSecondary": "Projekt starten"
+        "label": "Software · NR-BOS · Beratung",
+        "h1": "Business-Technologie für Unternehmen, die Grenzen überschreiten",
+        "body": "Wir entwickeln die Technologie, betreiben den operativen Betrieb und begleiten die Expansion — ein Partner für Unternehmen, die über Sprachen, Währungen und Rechtsordnungen hinweg tätig sind.",
+        "cta": "NR-BOS entdecken",
+        "ctaSecondary": "Softwareprojekt starten"
+      },
+      "pillars": {
+        "label": "So arbeiten wir mit Ihnen",
+        "title": "Drei miteinander verbundene Wege, wie wir Ihnen helfen zu wachsen",
+        "items": [
+          { "tag": "Software", "icon": "code", "variant": "it", "title": "Wir entwickeln die Technologie", "body": "Maßgeschneiderte Systeme, SaaS-Produkte, sichere Portale, Automatisierung und APIs — im eigenen Haus konzipiert und entwickelt, nicht ausgelagert.", "cta": "Softwareprojekt starten", "link": "services" },
+          { "tag": "NR-BOS", "icon": "gear", "variant": "global", "title": "Wir betreiben den operativen Betrieb", "body": "Unser Flaggschiffprodukt für Projektabwicklung, Außendiensteinsätze und Kundenberichte. Betrieb auf Unternehmensniveau ohne die Komplexität eines klassischen ERP-Systems.", "cta": "NR-BOS entdecken", "link": "work/nr-bos" },
+          { "tag": "Beratung", "icon": "handshake", "variant": "consulting", "title": "Wir begleiten die Expansion", "body": "Beratung für internationale Unternehmerinnen, Unternehmer und Firmen bei der Gründung und dem Betrieb rechtskonformer Unternehmensstrukturen in Europa.", "cta": "Beratungstermin vereinbaren", "link": "consulting" }
+        ]
       },
       "proofBar": {
         "stats": [

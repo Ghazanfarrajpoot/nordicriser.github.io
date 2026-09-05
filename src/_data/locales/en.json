@@ -20,6 +20,7 @@
     "consulting": "Consulting",
     "itServices": "Services",
     "work": "Work",
+    "nrBos": "NR-BOS",
     "globalReach": "Global Reach",
     "about": "About",
     "contact": "Contact",
@@ -214,11 +215,20 @@
         "description": "Stockholm software studio building multilingual web platforms, secure client portals, and custom products for businesses operating across languages and markets."
       },
       "hero": {
-        "label": "Software · Platforms · Products",
-        "h1": "We Build Software for Businesses That Cross Borders",
-        "body": "Multilingual web platforms, secure client portals, and custom products — designed and built in Stockholm for companies operating across languages, currencies, and jurisdictions.",
-        "cta": "See Our Work",
-        "ctaSecondary": "Start a Project"
+        "label": "Software · NR-BOS · Consulting",
+        "h1": "Business Technology for Companies That Cross Borders",
+        "body": "We build the technology, run the operations, and navigate the expansion — one partner for companies operating across languages, currencies, and jurisdictions.",
+        "cta": "Explore NR-BOS",
+        "ctaSecondary": "Start a Software Project"
+      },
+      "pillars": {
+        "label": "How We Work With You",
+        "title": "Three Connected Ways We Help You Grow",
+        "items": [
+          { "tag": "Software", "icon": "code", "variant": "it", "title": "We Build the Technology", "body": "Custom systems, SaaS products, secure portals, automation, and APIs — designed and built in-house, not outsourced.", "cta": "Start a Software Project", "link": "services" },
+          { "tag": "NR-BOS", "icon": "gear", "variant": "global", "title": "We Run the Operations", "body": "Our flagship product for project delivery, field operations, and client reporting. Enterprise-style operations without enterprise ERP complexity.", "cta": "Explore NR-BOS", "link": "work/nr-bos" },
+          { "tag": "Consulting", "icon": "handshake", "variant": "consulting", "title": "We Navigate the Expansion", "body": "Advisory for international entrepreneurs and companies establishing and operating compliant business structures across Europe.", "cta": "Book a Consultation", "link": "consulting" }
+        ]
       },
       "proofBar": {
         "stats": [

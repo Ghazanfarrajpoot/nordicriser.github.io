@@ -18,6 +18,7 @@
     "consulting": "Konsulttjänster",
     "itServices": "Tjänster",
     "work": "Arbete",
+    "nrBos": "NR-BOS",
     "globalReach": "Global Reach",
     "about": "Om oss",
     "contact": "Kontakt",
@@ -212,11 +213,20 @@
         "description": "Stockholmsbaserad mjukvarustudio som bygger flerspråkiga webbplattformar, säkra kundportaler och skräddarsydda produkter för företag som verkar över språk och marknader."
       },
       "hero": {
-        "label": "Mjukvara · Plattformar · Produkter",
-        "h1": "Vi bygger mjukvara för företag som verkar över gränser",
-        "body": "Flerspråkiga webbplattformar, säkra kundportaler och skräddarsydda produkter — designade och byggda i Stockholm för företag som verkar över språk, valutor och jurisdiktioner.",
-        "cta": "Se vårt arbete",
-        "ctaSecondary": "Starta ett projekt"
+        "label": "Mjukvara · NR-BOS · Konsulttjänster",
+        "h1": "Affärsteknik för företag som verkar över gränser",
+        "body": "Vi bygger tekniken, driver verksamheten och navigerar expansionen — en partner för företag som verkar över språk, valutor och jurisdiktioner.",
+        "cta": "Utforska NR-BOS",
+        "ctaSecondary": "Starta ett mjukvaruprojekt"
+      },
+      "pillars": {
+        "label": "Så arbetar vi med dig",
+        "title": "Tre sammanlänkade sätt vi hjälper dig växa",
+        "items": [
+          { "tag": "Mjukvara", "icon": "code", "variant": "it", "title": "Vi bygger tekniken", "body": "Skräddarsydda system, SaaS-produkter, säkra portaler, automatisering och API:er — designade och byggda in-house, inte outsourcade.", "cta": "Starta ett mjukvaruprojekt", "link": "services" },
+          { "tag": "NR-BOS", "icon": "gear", "variant": "global", "title": "Vi driver verksamheten", "body": "Vår flaggskeppsprodukt för projektleverans, fältarbete och kundrapportering. Företagsanpassad drift utan komplexiteten hos ett traditionellt affärssystem.", "cta": "Utforska NR-BOS", "link": "work/nr-bos" },
+          { "tag": "Konsulttjänster", "icon": "handshake", "variant": "consulting", "title": "Vi navigerar expansionen", "body": "Rådgivning för internationella entreprenörer och företag som etablerar och driver regelefterlevande bolagsstrukturer i Europa.", "cta": "Boka en konsultation", "link": "consulting" }
+        ]
       },
       "proofBar": {
         "stats": [

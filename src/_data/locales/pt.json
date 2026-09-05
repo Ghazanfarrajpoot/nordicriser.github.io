@@ -18,6 +18,7 @@
     "consulting": "Consultoria",
     "itServices": "Serviços",
     "work": "Trabalho",
+    "nrBos": "NR-BOS",
     "globalReach": "Alcance Global",
     "about": "Sobre Nós",
     "contact": "Contacto",
@@ -70,11 +71,20 @@
         "description": "Software studio sediada em Estocolmo que constrói plataformas web multilingues, portais de clientes seguros e produtos à medida para empresas que operam entre idiomas e mercados."
       },
       "hero": {
-        "label": "Software · Plataformas · Produtos",
-        "h1": "Construímos Software para Negócios que Atravessam Fronteiras",
-        "body": "Plataformas web multilingues, portais de clientes seguros e produtos à medida — concebidos e construídos em Estocolmo para empresas que operam entre idiomas, moedas e jurisdições.",
-        "cta": "Ver o Nosso Trabalho",
-        "ctaSecondary": "Iniciar um Projeto"
+        "label": "Software · NR-BOS · Consultoria",
+        "h1": "Tecnologia Empresarial para Negócios que Atravessam Fronteiras",
+        "body": "Construímos a tecnologia, operamos a gestão e orientamos a expansão — um único parceiro para empresas que operam entre idiomas, moedas e jurisdições.",
+        "cta": "Explorar NR-BOS",
+        "ctaSecondary": "Iniciar um Projeto de Software"
+      },
+      "pillars": {
+        "label": "Como Trabalhamos Consigo",
+        "title": "Três Formas Conectadas de o Ajudar a Crescer",
+        "items": [
+          { "tag": "Software", "icon": "code", "variant": "it", "title": "Construímos a Tecnologia", "body": "Sistemas à medida, produtos SaaS, portais seguros, automação e APIs — concebidos e construídos internamente, não subcontratados.", "cta": "Iniciar um Projeto de Software", "link": "services" },
+          { "tag": "NR-BOS", "icon": "gear", "variant": "global", "title": "Operamos a Gestão", "body": "O nosso produto principal para gestão de projetos, operações de campo e relatórios a clientes. Operações de nível empresarial sem a complexidade de um ERP tradicional.", "cta": "Explorar NR-BOS", "link": "work/nr-bos" },
+          { "tag": "Consultoria", "icon": "handshake", "variant": "consulting", "title": "Orientamos a Expansão", "body": "Consultoria para empreendedores e empresas internacionais que estabelecem e operam estruturas empresariais conformes na Europa.", "cta": "Marcar uma Consulta", "link": "consulting" }
+        ]
       },
       "proofBar": {
         "stats": [

@@ -18,6 +18,7 @@
     "consulting": "Doradztwo",
     "itServices": "Usługi",
     "work": "Realizacje",
+    "nrBos": "NR-BOS",
     "globalReach": "Global Reach",
     "about": "O nas",
     "contact": "Kontakt",
@@ -70,11 +71,20 @@
         "description": "Studio oprogramowania z siedzibą w Sztokholmie, tworzące wielojęzyczne platformy internetowe, bezpieczne portale klienta i produkty na zamówienie dla firm działających na wielu językach i rynkach."
       },
       "hero": {
-        "label": "Oprogramowanie · Platformy · Produkty",
-        "h1": "Tworzymy Oprogramowanie dla Firm, Które Przekraczają Granice",
-        "body": "Wielojęzyczne platformy internetowe, bezpieczne portale klienta i produkty na zamówienie — projektowane i budowane w Sztokholmie dla firm działających na wielu językach, walutach i w wielu jurysdykcjach.",
-        "cta": "Zobacz Nasze Realizacje",
-        "ctaSecondary": "Rozpocznij Projekt"
+        "label": "Oprogramowanie · NR-BOS · Doradztwo",
+        "h1": "Technologia Biznesowa dla Firm, Które Przekraczają Granice",
+        "body": "Budujemy technologię, prowadzimy operacje i wspieramy ekspansję — jeden partner dla firm działających w wielu językach, walutach i jurysdykcjach.",
+        "cta": "Poznaj NR-BOS",
+        "ctaSecondary": "Rozpocznij Projekt Oprogramowania"
+      },
+      "pillars": {
+        "label": "Jak z Tobą Pracujemy",
+        "title": "Trzy Powiązane Sposoby, w Jakie Pomagamy Ci Rosnąć",
+        "items": [
+          { "tag": "Oprogramowanie", "icon": "code", "variant": "it", "title": "Budujemy Technologię", "body": "Systemy na zamówienie, produkty SaaS, bezpieczne portale, automatyzacja i API — projektowane i tworzone wewnętrznie, bez outsourcingu.", "cta": "Rozpocznij Projekt Oprogramowania", "link": "services" },
+          { "tag": "NR-BOS", "icon": "gear", "variant": "global", "title": "Prowadzimy Operacje", "body": "Nasz flagowy produkt do zarządzania projektami, pracy w terenie i raportowania dla klientów. Operacje na poziomie korporacyjnym bez złożoności tradycyjnego systemu ERP.", "cta": "Poznaj NR-BOS", "link": "work/nr-bos" },
+          { "tag": "Doradztwo", "icon": "handshake", "variant": "consulting", "title": "Wspieramy Ekspansję", "body": "Doradztwo dla międzynarodowych przedsiębiorców i firm zakładających oraz prowadzących zgodne z prawem struktury biznesowe w Europie.", "cta": "Umów Konsultację", "link": "consulting" }
+        ]
       },
       "proofBar": {
         "stats": [

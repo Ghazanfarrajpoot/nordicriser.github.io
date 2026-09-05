@@ -18,6 +18,7 @@
     "consulting": "Consulenza",
     "itServices": "Servizi",
     "work": "Lavori",
+    "nrBos": "NR-BOS",
     "globalReach": "Global Reach",
     "about": "Chi Siamo",
     "contact": "Contatti",
@@ -70,11 +71,20 @@
         "description": "Studio di software con sede a Stoccolma che sviluppa piattaforme web multilingue, portali clienti sicuri e prodotti su misura per aziende che operano tra lingue e mercati diversi."
       },
       "hero": {
-        "label": "Software · Piattaforme · Prodotti",
-        "h1": "Sviluppiamo Software per Aziende che Attraversano i Confini",
-        "body": "Piattaforme web multilingue, portali clienti sicuri e prodotti su misura — progettati e sviluppati a Stoccolma per aziende che operano tra lingue, valute e giurisdizioni diverse.",
-        "cta": "Guarda i Nostri Lavori",
-        "ctaSecondary": "Avvia un Progetto"
+        "label": "Software · NR-BOS · Consulenza",
+        "h1": "Tecnologia per il Business delle Aziende che Attraversano i Confini",
+        "body": "Costruiamo la tecnologia, gestiamo le operazioni e guidiamo l'espansione — un unico partner per aziende che operano tra lingue, valute e giurisdizioni diverse.",
+        "cta": "Scopri NR-BOS",
+        "ctaSecondary": "Avvia un Progetto Software"
+      },
+      "pillars": {
+        "label": "Come Lavoriamo con Te",
+        "title": "Tre Modi Connessi per Aiutarti a Crescere",
+        "items": [
+          { "tag": "Software", "icon": "code", "variant": "it", "title": "Costruiamo la Tecnologia", "body": "Sistemi su misura, prodotti SaaS, portali sicuri, automazione e API — progettati e sviluppati internamente, non esternalizzati.", "cta": "Avvia un Progetto Software", "link": "services" },
+          { "tag": "NR-BOS", "icon": "gear", "variant": "global", "title": "Gestiamo le Operazioni", "body": "Il nostro prodotto di punta per la gestione dei progetti, le operazioni sul campo e la reportistica ai clienti. Operatività di livello enterprise senza la complessità di un ERP tradizionale.", "cta": "Scopri NR-BOS", "link": "work/nr-bos" },
+          { "tag": "Consulenza", "icon": "handshake", "variant": "consulting", "title": "Guidiamo l'Espansione", "body": "Consulenza per imprenditori e aziende internazionali che costituiscono e gestiscono strutture d'impresa conformi in Europa.", "cta": "Prenota una Consulenza", "link": "consulting" }
+        ]
       },
       "proofBar": {
         "stats": [

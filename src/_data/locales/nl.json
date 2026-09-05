@@ -18,6 +18,7 @@
     "consulting": "Consulting",
     "itServices": "Diensten",
     "work": "Werk",
+    "nrBos": "NR-BOS",
     "globalReach": "Global Reach",
     "about": "Over Ons",
     "contact": "Contact",
@@ -70,11 +71,20 @@
         "description": "Softwarestudio in Stockholm die meertalige webplatforms, veilige klantportalen en producten op maat bouwt voor bedrijven die over talen en markten heen actief zijn."
       },
       "hero": {
-        "label": "Software · Platforms · Producten",
-        "h1": "Wij Bouwen Software voor Bedrijven die Grenzen Overschrijden",
-        "body": "Meertalige webplatforms, veilige klantportalen en producten op maat — ontworpen en gebouwd in Stockholm voor bedrijven die actief zijn over talen, valuta's en rechtsgebieden heen.",
-        "cta": "Bekijk Ons Werk",
-        "ctaSecondary": "Start een Project"
+        "label": "Software · NR-BOS · Consulting",
+        "h1": "Bedrijfstechnologie voor Ondernemingen die Grenzen Overschrijden",
+        "body": "Wij bouwen de technologie, runnen de operatie en begeleiden de expansie — één partner voor bedrijven die actief zijn over talen, valuta's en rechtsgebieden heen.",
+        "cta": "Ontdek NR-BOS",
+        "ctaSecondary": "Start een Softwareproject"
+      },
+      "pillars": {
+        "label": "Hoe Wij Met Jou Samenwerken",
+        "title": "Drie Verbonden Manieren Waarop Wij Je Helpen Groeien",
+        "items": [
+          { "tag": "Software", "icon": "code", "variant": "it", "title": "Wij Bouwen de Technologie", "body": "Systemen op maat, SaaS-producten, veilige portalen, automatisering en API's — intern ontworpen en gebouwd, niet uitbesteed.", "cta": "Start een Softwareproject", "link": "services" },
+          { "tag": "NR-BOS", "icon": "gear", "variant": "global", "title": "Wij Runnen de Operatie", "body": "Ons vlaggenschipproduct voor projectlevering, veldwerk en klantrapportage. Operaties op ondernemingsniveau zonder de complexiteit van een traditioneel ERP-systeem.", "cta": "Ontdek NR-BOS", "link": "work/nr-bos" },
+          { "tag": "Consulting", "icon": "handshake", "variant": "consulting", "title": "Wij Begeleiden de Expansie", "body": "Advies voor internationale ondernemers en bedrijven die compliant bedrijfsstructuren opzetten en beheren in Europa.", "cta": "Boek een Consult", "link": "consulting" }
+        ]
       },
       "proofBar": {
         "stats": [

@@ -29,6 +29,26 @@ pageSlug: ""
   </div>
 </section>
 
+{%- if home.pillars %}
+<section class="section pillars-section">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ home.pillars.label }}</span>
+    <h2 class="section-title">{{ home.pillars.title }}</h2>
+    <div class="pillars-grid">
+      {%- for p in home.pillars.items %}
+      <a href="{{ p.link | localeUrl(locale) }}" class="pillar-card pillar-card-{{ p.variant }}">
+        <div class="pillar-card-icon">{{ icons.icon(p.icon) }}</div>
+        <span class="section-label">{{ p.tag }}</span>
+        <h3>{{ p.title }}</h3>
+        <p class="pillar-card-promise">{{ p.body }}</p>
+        <span class="pillar-card-link">{{ p.cta }} →</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
 <section class="proof-bar">
   <div class="proof-bar-inner" data-animate>
     {%- for s in home.proofBar.stats %}
