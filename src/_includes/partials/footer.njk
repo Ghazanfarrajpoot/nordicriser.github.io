@@ -29,7 +29,7 @@
         <h4>{{ t.footer.divisions.globalReachHeading }}</h4>
         <ul>
           {%- for link in t.footer.divisions.globalReachLinks %}
-          <li><a href="{{ link.external or (('global-reach' | localeUrl(locale))) }}">{{ link.label }}</a></li>
+          <li><a href="{{ link.external or (('global-reach' | localeUrl(locale)) + (link.anchor or '')) }}">{{ link.label }}</a></li>
           {%- endfor %}
         </ul>
       </div>

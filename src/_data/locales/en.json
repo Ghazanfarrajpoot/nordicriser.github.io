@@ -57,9 +57,9 @@
       ],
       "globalReachHeading": "Global Reach",
       "globalReachLinks": [
-        { "label": "How It Works" },
-        { "label": "Plans & Pricing" },
-        { "label": "Start Free — 100 Messages", "external": "https://portal.nordicriser.com" }
+        { "label": "How It Works", "anchor": "#how-it-works" },
+        { "label": "Plans & Pricing", "anchor": "#pricing" },
+        { "label": "Get Started", "external": "https://portal.nordicriser.com" }
       ]
     },
     "firmLinks": {
@@ -219,7 +219,7 @@
         "description": "Stockholm software studio building multilingual web platforms, secure client portals, and custom products for businesses operating across languages and markets."
       },
       "hero": {
-        "label": "Software · NR-BOS · Consulting",
+        "label": "Nordic Riser — Software · NR-BOS · Consulting",
         "h1": "Business Technology for Companies That Cross Borders",
         "body": "We build the technology, run the operations, and navigate the expansion — one partner for companies operating across languages, currencies, and jurisdictions.",
         "cta": "Explore NR-BOS",
@@ -248,7 +248,7 @@
         "cards": [
           { "icon": "globe", "title": "Multilingual Web Platforms", "body": "Production websites built to work in every market you serve. Proper hreflang, RTL support, localised content structure — not machine-translated afterthoughts.", "builtWith": "Static site generation, CDN delivery, sub-second load times" },
           { "icon": "lock", "title": "Secure Client Portals", "body": "Authenticated portals for document exchange, case tracking, and client communication. Role-based access, encrypted storage, audit trails.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
-          { "icon": "code", "title": "Custom Products & SaaS", "body": "Full product development, from concept to launch. Real-time features, subscription billing, admin tooling.", "seeLabel": "See:", "seeText": "Global Reach — our own live-translation collaboration platform", "seeLink": "global-reach" },
+          { "icon": "code", "title": "Custom Products & SaaS", "body": "Full product development, from concept to launch. Real-time features, subscription billing, admin tooling.", "seeLabel": "See:", "seeText": "Global Reach — our own live study & work rooms platform", "seeLink": "global-reach" },
           { "icon": "gear", "title": "Automation & Integrations", "body": "Connect the tools you already use. Eliminate manual re-entry. Automate the workflows that eat your team's week.", "builtWith": "APIs, webhooks, serverless functions" }
         ]
       },
@@ -257,9 +257,9 @@
         "title": "What We've Built",
         "items": [
           { "type": "SaaS Product (In-House)", "title": "NR-BOS", "featured": true, "featuredLabel": "Flagship Product", "oneLiner": "Project delivery, field operations, and client reporting — run from one platform, built and licensed by Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS Product (In-House)", "title": "Global Reach", "oneLiner": "Live collaboration rooms with shared whiteboards and chat translated in real time between languages.", "link": "global-reach" },
-          { "type": "Secure Client Portal", "title": "Nordic Riser Member Portal", "oneLiner": "An authenticated portal for document exchange, case tracking, secure messaging, and payments.", "link": "work", "linkLabel": "See in our work →" },
-          { "type": "Multilingual Marketing Platform", "title": "nordicriser.com", "oneLiner": "An eleven-language production site with RTL support, full meta coverage, and clean per-language URLs.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "SaaS Product (In-House)", "title": "Global Reach", "oneLiner": "Live study and work rooms with real-time presence and shared session notes, billed by the minute.", "link": "global-reach" },
+          { "type": "Secure Client Portal (In-House)", "title": "Nordic Riser Member Portal", "oneLiner": "An authenticated portal for document exchange, case tracking, secure messaging, and payments.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Multilingual Marketing Platform (In-House)", "title": "nordicriser.com", "oneLiner": "An eleven-language production site with RTL support, full meta coverage, and clean per-language URLs.", "link": "work", "linkLabel": "See in our work →" },
           { "type": "Healthcare App (In-House)", "title": "4eDoctor", "oneLiner": "A telemedicine platform with HD video consultations, appointment booking, and in-call chat.", "link": "work", "linkLabel": "See in our work →" },
           { "type": "On-Demand Delivery App (In-House)", "title": "4eZone Pharmacy", "oneLiner": "A pharmacy fulfillment system linking doctor prescriptions to processing and delivery.", "link": "work", "linkLabel": "See in our work →" },
           { "type": "Delivery App (In-House)", "title": "On-Demand Delivery App", "oneLiner": "A customizable delivery platform covering ordering, dispatch, and rider tracking for any business.", "link": "work", "linkLabel": "See in our work →" }
@@ -269,14 +269,14 @@
       },
       "productSpotlight": {
         "label": "Our Product",
-        "title": "Global Reach — Collaboration Without a Language Barrier",
-        "body": "Live rooms with shared whiteboards and chat translated in real time. Built for study groups, research teams, and project work spanning countries.",
+        "title": "Global Reach — Live Rooms for Cross-Border Teams",
+        "body": "Live study and work rooms with real-time presence and shared session notes. Built for study groups, research teams, and project work spanning countries.",
         "bullets": [
-          "Shared whiteboards for live collaboration",
-          "Chat translated live between languages",
-          "First 100 messages free — no card required"
+          "Shared session notes for live collaboration",
+          "Real-time presence — see who's in the room",
+          "Plans from $29/month, billed by the minute"
         ],
-        "cta": "Start Free — 100 Messages"
+        "cta": "Get Started"
       },
       "howWeWork": {
         "label": "Process",
@@ -969,6 +969,18 @@
           { "title": "Implementation Coordination", "body": "We coordinate the implementation phase with qualified legal, accounting, and specialist partners — ensuring the strategy is executed with accuracy and compliance." }
         ]
       },
+      "deliverables": {
+        "label": "What You Receive",
+        "title": "Concrete Outputs From Every Engagement",
+        "sub": "Consulting from Nordic Riser produces specific, usable outputs — not just a conversation.",
+        "items": [
+          "A documented strategic framework specific to your business, objectives, and constraints",
+          "A structured business plan or formation strategy, prepared to institutional standards where relevant",
+          "A written summary of recommendations and next steps at each engagement stage",
+          "Coordination with qualified legal, accounting, or specialist professionals where your situation requires it",
+          "Ongoing advisory access as your business or circumstances evolve"
+        ]
+      },
       "packages": {
         "label": "Engagement Options",
         "title": "Ways to Work With Us",
@@ -977,6 +989,14 @@
           { "name": "Initial Consultation", "body": "A structured assessment of your situation, objectives, and the most viable pathway forward, with a written summary of recommendations." },
           { "name": "Full Engagement", "body": "End-to-end strategic support across business structure, documentation, and relocation planning, coordinated with professional partners." },
           { "name": "Ongoing Advisory", "body": "Continued strategic support after your initial establishment — for evolving business needs, cross-border questions, or expansion planning." }
+        ]
+      },
+      "boundaries": {
+        "label": "Professional Boundaries",
+        "title": "What We Are — and Are Not",
+        "body": [
+          "We do not provide immigration advice or legal representation. We provide the strategic consulting framework from which qualified specialists can operate effectively.",
+          "Where legal, tax, or regulatory specialist input is required — as it often is in relocation and cross-border matters — we coordinate engagement with qualified professionals, who carry out that work within their own licensed capacity."
         ]
       },
       "cta": { "title": "Discuss Your Requirements", "body": "If you are planning to establish a business presence in Europe, we invite you to arrange a consultation. We will assess your situation and provide a clear, structured view of the pathway and services relevant to your objectives." }
@@ -989,11 +1009,12 @@
       "hero": { "label": "Services", "h1": "Web Platforms, Portals & Custom Software", "body": "Multilingual websites, secure client portals, custom product development, and workflow automation. Built in Stockholm, delivered worldwide." },
       "breadcrumb": "Services",
       "offeringsLabel": "What We Build",
-      "offeringsTitle": "Four Core Offerings",
+      "offeringsTitle": "Five Core Offerings",
       "offeringsSub": "From a first business website to the systems that run daily operations, we build technology that matches the scale and stage of your business.",
       "offerings": [
         { "icon": "globe", "title": "Web Platforms & Business Websites", "body": "Professionally designed, multilingual-ready websites that give your business a credible, structured presence online from day one." },
         { "icon": "lock", "title": "Client & Business Portals", "body": "Secure member and client portals for managing documents, communication, and case or project status in one place." },
+        { "icon": "code", "title": "Custom Products & SaaS Development", "body": "Full product builds from concept to launch — subscription billing, admin tooling, and real-time features for a product line of your own." },
         { "icon": "gear", "title": "Workflow Automation & Integrations", "body": "Automation of repetitive operational work and integration between the tools your business already uses." },
         { "icon": "wrench", "title": "Ongoing Maintenance & Support", "body": "Continued technical support, updates, and monitoring after launch, so your platform stays reliable as your business grows." }
       ],
@@ -1009,25 +1030,25 @@
       ],
       "capabilitiesLabel": "What We Can Build",
       "capabilitiesTitle": "Capabilities, Not Promises",
-      "capabilitiesSub": "Rather than case studies we can't yet share, here is a direct, honest view of what our technology team is equipped to build for you.",
+      "capabilitiesSub": "A direct view of what our technology team is equipped to build for you — see it in action on our Work page.",
       "capabilities": [
         "Multilingual marketing and business websites with structured content management",
-        "Secure client portals with authentication, document storage, and messaging",
+        "Secure client portals with authentication, document storage, and messaging — so your team and clients work from one trusted system instead of email threads and shared drives",
         "Business dashboards for tracking cases, projects, or subscriptions",
-        "Integrations between web platforms and the tools you already use for accounting, CRM, or communication",
-        "Automation of recurring administrative or operational workflows",
+        "Integrations between web platforms and the tools you already use for accounting, CRM, or communication — so data moves automatically instead of being re-typed by hand",
+        "Automation of recurring administrative or operational workflows — freeing your team's time for work that actually needs a person",
         "Ongoing hosting, monitoring, and technical support arrangements"
       ],
       "portfolioLabel": "Our Work",
       "portfolioTitle": "See What We've Built",
-      "portfolioSub": "Rather than case studies for other clients, the clearest example of what we build is what you're using right now — and our own products.",
+      "portfolioSub": "The clearest example of what we build is our own work — including NR-BOS and Global Reach, both live products we designed, built, and run ourselves.",
       "portfolioCta": "See All Work",
-      "cta": { "title": "Request a Quote", "body": "Tell us about your business and what you're looking to build. We'll assess the scope and provide a clear, structured quote — the same way we approach every consulting engagement." }
+      "cta": { "title": "Request a Quote", "body": "Tell us about your business and what you're looking to build. We'll assess the scope and provide a clear, structured quote — the same way we approach every consulting engagement.", "cta": "Start a Software Project" }
     },
     "work": {
       "meta": {
         "title": "Our Work — Platforms, Portals & Products — Nordic Riser AB",
-        "description": "Selected projects from Nordic Riser AB — including NR-BOS, our flagship business operations platform, a real-time translation collaboration platform, and a secure client portal."
+        "description": "Selected projects from Nordic Riser AB — including NR-BOS, our flagship business operations platform, a live study & work rooms platform, and a secure client portal."
       },
       "hero": { "label": "Selected Work", "h1": "What We've Built", "body": "Platforms, portals, and products we've designed, built, and shipped — including our own." },
       "breadcrumb": "Work",
@@ -1052,18 +1073,18 @@
           "type": "SaaS Product (In-House)",
           "title": "Global Reach",
           "challengeLabel": "Challenge",
-          "challenge": "People collaborating across languages lose meaning in translation delays and switching between tools.",
+          "challenge": "Teams working across borders need a shared space to study or work together live, without booking a call or juggling separate tools.",
           "buildLabel": "Build",
-          "build": "Live collaboration rooms with shared whiteboards and chat translated in real time between languages, with a freemium entry tier.",
+          "build": "Open study and work rooms with live presence and shared session notes, billed by the minute.",
           "stackLabel": "Stack",
-          "stack": ["React", "Real-time sync", "Translation API", "Subscription billing"],
+          "stack": ["React", "Firebase Realtime Database", "Subscription billing"],
           "resultLabel": "Result",
-          "result": "Live product with a free tier at 100 messages, no card required.",
+          "result": "Live product with paid plans starting at $29/month.",
           "link": "global-reach",
           "linkLabel": "View the Product"
         },
         {
-          "type": "Secure Client Portal",
+          "type": "Secure Client Portal (In-House)",
           "title": "Nordic Riser Member Portal",
           "challengeLabel": "Challenge",
           "challenge": "Advisory clients needed a single place for documents, case status, and communication — with strict access control.",
@@ -1075,7 +1096,7 @@
           "result": "Live at portal.nordicriser.com with custom domain and automatic SSL."
         },
         {
-          "type": "Multilingual Marketing Platform",
+          "type": "Multilingual Marketing Platform (In-House)",
           "title": "nordicriser.com",
           "challengeLabel": "Challenge",
           "challenge": "Reach entrepreneurs across Europe, the Middle East, and South Asia in their own languages.",
@@ -1313,15 +1334,15 @@
     "globalReach": {
       "hero": {
         "label": "Global Reach",
-        "h1": "Collaborate Across Borders — Your First 100 Messages Are Free",
-        "body": "Join live rooms with shared whiteboards and chat that translates in real time — everyone reads and writes in their own language.",
-        "ctaPrimary": "Start Free — 100 Messages",
+        "h1": "Collaborate Across Borders, Live",
+        "body": "Join live study and work rooms with real-time presence and shared session notes — built for people collaborating across time zones and languages.",
+        "ctaPrimary": "Get Started",
         "ctaSecondary": "See How It Works",
         "trustLine": "No credit card required · Cancel anytime · GDPR-compliant",
         "earlyAccessBadge": "Now in Early Access",
         "mockCaption": "Illustrative preview",
         "visual": {
-          "whiteboardLabel": "Shared Whiteboard",
+          "notesLabel": "Shared Session Notes",
           "participants": [
             { "lang": "SV", "name": "Elin" },
             { "lang": "UR", "name": "Ahmed" },
@@ -1329,55 +1350,51 @@
             { "lang": "AR", "name": "Layla" },
             { "lang": "DE", "name": "Jonas" },
             { "lang": "PL", "name": "Kasia" }
-          ],
-          "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
-          "chatTranslated": "The file is ready for review",
-          "chatTag": "Translated from Urdu · tap to see original"
+          ]
         }
       },
       "breadcrumb": "Global Reach",
       "howItWorksLabel": "How It Works",
       "howItWorksTitle": "Three Steps to Start Collaborating",
-      "howItWorksSub": "Global Reach turns a subscription into direct, live, cross-language collaboration — no scheduling back-and-forth required.",
+      "howItWorksSub": "Global Reach turns a subscription into a live shared room — no scheduling back-and-forth required.",
       "howItWorks": [
         { "title": "Create or Join a Room", "body": "Start a new room or join one built around your topic — exam prep, a research group, or a cross-border project." },
-        { "title": "Collaborate on Shared Whiteboards", "body": "Sketch, annotate, and work through problems together on a whiteboard everyone in the room can see and edit live." },
-        { "title": "Chat With Live Translation", "body": "Send messages in your own language — everyone else reads them in theirs, translated instantly." }
+        { "title": "Take Shared Notes Together", "body": "Keep one shared notes panel everyone in the room can see and edit live, so nothing gets lost between separate tools." },
+        { "title": "Track Your Session Time", "body": "See exactly how much of your monthly session-minute allowance is left while the room's timer runs." }
       ],
       "ctaBand1": {
         "title": "Ready to Collaborate Across Borders?",
-        "body": "Create your free account and start your first room in minutes.",
-        "cta": "Start Free — 100 Messages"
+        "body": "Create your account and start your first room in minutes.",
+        "cta": "Get Started"
       },
       "useCasesLabel": "Who It's For",
       "useCasesTitle": "Built for Cross-Border Collaboration",
       "useCases": [
-        { "title": "Exam Prep", "body": "A Swedish-speaking student and an Urdu-speaking classmate quiz each other the night before an exam — chat translated instantly, both ways." },
-        { "title": "Tutoring", "body": "An English-speaking tutor walks a German-speaking student through a problem set on the shared whiteboard." },
-        { "title": "Research Groups", "body": "Polish- and Arabic-speaking researchers compare notes in one room, each reading and writing in their own language." },
-        { "title": "Cross-Border Project Teams", "body": "A Dutch project lead and a Pakistani developer coordinate a sprint, with whiteboard and chat both shared live." }
+        { "title": "Exam Prep", "body": "Two classmates quiz each other the night before an exam in a shared room, jotting down what to review next in the shared notes." },
+        { "title": "Tutoring", "body": "A tutor walks a student through a problem set live, with shared notes both can see and edit as they go." },
+        { "title": "Research Groups", "body": "Researchers based in different countries compare notes together in one room, all working from the same shared notes panel." },
+        { "title": "Cross-Border Project Teams", "body": "A project lead and a developer in different countries coordinate a sprint together in a live room, tracking notes and time as they work." }
       ],
       "plansLabel": "Pricing",
-      "plansTitle": "Start Free. Upgrade When You Need More.",
-      "plansSub": "Every plan includes full access to rooms and shared whiteboards — plans differ only in monthly message allowance.",
-      "freePlan": { "name": "Free", "price": "0", "period": "forever", "features": ["100 messages included", "Full access to rooms & whiteboards", "No credit card required"] },
+      "plansTitle": "Simple Plans, Straightforward Pricing",
+      "plansSub": "Every plan includes full access to rooms and shared notes — plans differ in monthly session-minute allowance.",
       "plans": [
-        { "name": "Basic", "price": "29", "period": "/ month", "features": ["100 messages / month", "2 hours of live sessions / month", "Document vault access", "Case tracking"], "popular": false },
-        { "name": "Pro", "price": "79", "period": "/ month", "features": ["500 messages / month", "10 hours of live sessions / month", "Priority support", "All Basic features"], "popular": true }
+        { "name": "Basic", "price": "29", "period": "/ month", "features": ["2 hours of live sessions / month", "Full access to rooms & shared notes", "Document vault and case tracking included with your account"], "popular": false },
+        { "name": "Pro", "price": "79", "period": "/ month", "features": ["10 hours of live sessions / month", "Priority support", "All Basic features"], "popular": true }
       ],
-      "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
-      "limitNote": "Rooms and whiteboards stay accessible after your 100 free messages — sending more translated chat messages requires a paid plan.",
+      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "limitNote": "Need more session minutes than your plan includes? You can top up anytime from your account.",
       "faqLabel": "Frequently Asked Questions",
       "faqTitle": "Common Questions",
       "faq": [
-        { "q": "What counts as a message?", "a": "Each chat message you send in a room, or in 1:1 messaging, counts toward your monthly allowance. Translating it for other participants doesn't cost extra messages." },
-        { "q": "What happens when my free messages run out?", "a": "Your rooms, whiteboards, and message history stay fully accessible. Sending additional translated chat messages requires upgrading to a paid plan." },
-        { "q": "Which languages are supported?", "a": "Full interface support for English, Swedish, German, French, Spanish, Italian, Polish, Dutch, Portuguese, Urdu, and Arabic, with chat translation available to further languages." },
-        { "q": "Is my data private?", "a": "Yes — messages and documents are handled under our GDPR-compliant Privacy Policy, which covers exactly what we collect and why." }
+        { "q": "How is usage measured?", "a": "Your plan includes a monthly session-minutes allowance. Time in a room counts from when you join a session until you leave it." },
+        { "q": "What happens when I use up my monthly minutes?", "a": "Your rooms and shared notes stay fully accessible. Starting a new timed session requires topping up or waiting for your next billing cycle." },
+        { "q": "Which languages are supported?", "a": "Full interface support for English, Swedish, German, French, Spanish, Italian, Polish, Dutch, Portuguese, Urdu, and Arabic." },
+        { "q": "Is my data private?", "a": "Yes — your session data is handled under our GDPR-compliant Privacy Policy, which covers exactly what we collect and why." }
       ],
-      "emailCapture": { "title": "Not Ready Yet?", "body": "Get notified when new languages launch.", "placeholder": "Your email address", "button": "Notify Me" },
-      "stickyBar": { "text": "Your first 100 messages are free", "cta": "Start Free" },
-      "cta": { "title": "Start Collaborating Today", "body": "Create your free account — no credit card required — and join your first room in minutes.", "trustLine": "No credit card required · Cancel anytime · GDPR-compliant" }
+      "emailCapture": { "title": "Not Ready Yet?", "body": "Get notified about new Global Reach features.", "placeholder": "Your email address", "button": "Notify Me" },
+      "stickyBar": { "text": "Ready to start collaborating?", "cta": "Get Started" },
+      "cta": { "title": "Start Collaborating Today", "body": "Create your account — no credit card required — and join your first room in minutes.", "trustLine": "No credit card required · Cancel anytime · GDPR-compliant" }
     },
     "portal": {
       "hero": { "label": "Client Access", "h1": "Member Portal", "body": "Secure access for registered Nordic Riser AB clients to manage their engagement, documents, and communications." },

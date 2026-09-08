@@ -34,16 +34,9 @@ bodyClass: "has-gr-sticky"
         <span class="gr-lang-badge"><span class="gr-lang-badge-code">{{ participant.lang }}</span> {{ participant.name }}</span>
         {%- endfor %}
       </div>
-      <div class="gr-hero-whiteboard">
-        {{ icons.icon('whiteboard') }}
-        <span>{{ p.hero.visual.whiteboardLabel }}</span>
-      </div>
-      <div class="gr-hero-chat">
-        <div class="gr-chat-bubble">
-          <span class="gr-chat-original">{{ p.hero.visual.chatOriginal }}</span>
-          <span class="gr-chat-translated">{{ p.hero.visual.chatTranslated }}</span>
-          <span class="gr-chat-tag">{{ p.hero.visual.chatTag }}</span>
-        </div>
+      <div class="gr-hero-notes">
+        {{ icons.icon('pencil') }}
+        <span>{{ p.hero.visual.notesLabel }}</span>
       </div>
     </div>
     <p class="gr-mock-caption">{{ p.hero.mockCaption }}</p>
@@ -102,13 +95,6 @@ bodyClass: "has-gr-sticky"
     <h2 class="section-title">{{ p.plansTitle }}</h2>
     <p class="section-sub">{{ p.plansSub }}</p>
     <div class="gr-plans-grid">
-      <div class="gr-plan-card free">
-        <div class="gr-plan-name">{{ p.freePlan.name }}</div>
-        <div class="gr-plan-price">${{ p.freePlan.price }} <span>{{ p.freePlan.period }}</span></div>
-        <ul class="gr-plan-features">
-          {%- for f in p.freePlan.features %}<li>{{ f }}</li>{% endfor %}
-        </ul>
-      </div>
       {%- for plan in p.plans %}
       <div class="gr-plan-card{% if plan.popular %} popular{% endif %}">
         {%- if plan.popular %}<span class="gr-plan-badge">★</span>{% endif %}

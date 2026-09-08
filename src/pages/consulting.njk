@@ -104,6 +104,19 @@ pageSlug: consulting
 </section>
 
 <section class="section">
+  <div class="section-inner-narrow" data-animate>
+    <span class="section-label">{{ p.deliverables.label }}</span>
+    <h2 class="section-title">{{ p.deliverables.title }}</h2>
+    <p class="section-sub">{{ p.deliverables.sub }}</p>
+    <ul class="challenge-list">
+      {%- for item in p.deliverables.items %}
+      <li class="challenge-item">{{ item }}</li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="section">
   <div class="section-inner" data-animate>
     <span class="section-label">{{ p.packages.label }}</span>
     <h2 class="section-title">{{ p.packages.title }}</h2>
@@ -117,6 +130,16 @@ pageSlug: consulting
       </div>
       {%- endfor %}
     </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="section-inner-narrow" data-animate>
+    <span class="section-label">{{ p.boundaries.label }}</span>
+    <h2 class="section-title">{{ p.boundaries.title }}</h2>
+    {%- for para in p.boundaries.body %}
+    <p class="section-sub">{{ para }}</p>
+    {%- endfor %}
   </div>
 </section>
 

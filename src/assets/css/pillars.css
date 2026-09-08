@@ -224,22 +224,12 @@
 
 .gr-mock-compact { max-width: 380px; }
 
-.gr-mock-whiteboard {
+.gr-mock-notes {
   background: rgba(255,255,255,0.08); border: 1px dashed rgba(255,255,255,0.3);
   border-radius: 8px; padding: 1.5rem; display: flex; align-items: center; justify-content: center;
   margin-block-end: 1rem;
 }
-.gr-mock-whiteboard svg { width: 40px; height: 40px; color: rgba(255,255,255,0.6); }
-
-.gr-chat-bubble {
-  background: var(--white); border-radius: 10px 10px 10px 2px;
-  padding: 0.85rem 1rem; display: flex; flex-direction: column; gap: 0.25rem;
-  max-width: 90%;
-}
-
-.gr-chat-original { font-size: 0.8rem; color: var(--muted); }
-.gr-chat-translated { font-size: 0.9rem; color: var(--navy); font-weight: 600; }
-.gr-chat-tag { font-size: 0.68rem; color: var(--gold-hover); letter-spacing: 0.02em; }
+.gr-mock-notes svg { width: 40px; height: 40px; color: rgba(255,255,255,0.6); }
 
 /* ── GLOBAL REACH LANDING PAGE — hero visual with language badges ── */
 .gr-hero-visual {
@@ -264,15 +254,13 @@
 
 .gr-lang-badge-code { color: var(--gold); }
 
-.gr-hero-whiteboard {
+.gr-hero-notes {
   background: rgba(255,255,255,0.06); border: 1px dashed rgba(255,255,255,0.28);
   border-radius: 10px; padding: 1.5rem; margin-block-end: 1.25rem;
   display: flex; align-items: center; justify-content: center; gap: 0.75rem;
   color: rgba(255,255,255,0.65); font-size: 0.8rem; letter-spacing: 0.03em;
 }
-.gr-hero-whiteboard svg { width: 32px; height: 32px; }
-
-.gr-hero-chat { display: flex; justify-content: center; }
+.gr-hero-notes svg { width: 32px; height: 32px; }
 
 .gr-early-access-badge {
   display: inline-block; background: var(--gold); color: var(--navy);
@@ -284,10 +272,6 @@
   text-align: center; font-size: 0.8rem; color: rgba(255,255,255,0.55);
   margin-block-start: 1rem;
 }
-
-/* ── GLOBAL REACH — free plan card + limit note ── */
-.gr-plan-card.free { border-color: var(--pillar-global); }
-.gr-plan-card.free .gr-plan-name { color: var(--pillar-global); }
 
 .gr-limit-note {
   text-align: center; font-size: 0.9rem; color: var(--text);
