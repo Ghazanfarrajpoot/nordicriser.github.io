@@ -336,6 +336,19 @@ img { display: block; max-width: 100%; }
   letter-spacing: 0.02em;
 }
 
+/* Short action-verb strapline between an h1 and its supporting body copy. */
+.page-hero-tagline {
+  font-weight: 600;
+  color: var(--gold);
+  max-width: none;
+  margin-bottom: 1rem;
+  letter-spacing: 0.03em;
+}
+
+.page-hero .hero-ctas {
+  margin-top: 0.5rem;
+}
+
 /* ── SHARED SECTION STYLES ── */
 .section         { padding: 6rem 2rem; }
 .section-alt     { background: var(--sky); }
@@ -432,15 +445,20 @@ img { display: block; max-width: 100%; }
   box-shadow: var(--shadow-md);
 }
 
-/* Hero variant — solid gold, the primary conversion action on the page */
-.hero .btn-primary {
+/* Hero variant — solid gold, the primary conversion action on the page.
+   .page-hero shares .hero's navy gradient background (see HERO / PAGE-HERO
+   above), so it needs the same override — the base .btn-primary/.btn-cta
+   style below is navy-on-transparent, meant for light backgrounds only. */
+.hero .btn-primary,
+.page-hero .btn-primary {
   background: var(--gold);
   border-color: var(--gold);
   color: var(--navy);
   font-weight: 600;
 }
 
-.hero .btn-primary:hover {
+.hero .btn-primary:hover,
+.page-hero .btn-primary:hover {
   background: var(--gold-hover);
   border-color: var(--gold-hover);
   color: var(--navy);
