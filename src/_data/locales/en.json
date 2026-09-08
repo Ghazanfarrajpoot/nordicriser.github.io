@@ -181,7 +181,7 @@
           "tabLabel": "AI Assistant",
           "eyebrow": "AI-Assisted",
           "title": "Risk, cost, and productivity — read by AI",
-          "body": "On demand, an AI assistant reads a project's real tasks, costs, and team data and returns a structured briefing — not generic advice.",
+          "body": "A built-in AI assistant, enabled per company, reads a project's real tasks, costs, and team data on demand and returns a structured briefing — not generic advice.",
           "features": [
             "Risk analysis flags what's actually blocking the schedule",
             "Cost insights break down spend by category with a plain-language summary",
@@ -1132,9 +1132,10 @@
         "description": "Inside NR-BOS: project and task tracking, budget control, field reports with photos, AI-assisted insights, branded client PDF reports, and code-based licensing."
       },
       "hero": {
-        "label": "In-House Product",
-        "h1": "Inside NR-BOS",
-        "body": "Nordic Riser Business Operating System — the platform we built to run our own project delivery, and license to other operators. The screenshots below are from a live build, seeded with example project data."
+        "label": "NR-BOS",
+        "h1": "The Business Operating System for Project-Driven Companies",
+        "tagline": "Plan. Execute. Monitor. Report. Analyse.",
+        "body": "Run projects, field operations, costs, teams, and client reporting from one connected platform. Built and run in-house at Nordic Riser first — the screenshots below are from that live build, seeded with example project data."
       },
       "breadcrumb": "NR-BOS",
       "backLink": "Back to Work",
@@ -1204,15 +1205,17 @@
       ],
       "workflow": {
         "label": "How It Actually Runs",
-        "title": "From Assignment to Client Report — One Connected Flow",
+        "title": "From Plan to Client Report — One Connected Flow",
         "steps": [
-          { "title": "Project Created", "body": "A project is set up with its own budget, client, and team." },
-          { "title": "Work Assigned", "body": "Tasks are assigned with a due date and estimated hours." },
-          { "title": "Field Report Logged", "body": "Site notes, photos, and a geotagged timestamp are recorded from the field." },
-          { "title": "Reviewed", "body": "The task moves through the board's Review stage before it's marked done." },
-          { "title": "Dashboard Updates", "body": "Portfolio KPIs and budget-vs-actual refresh automatically as the data comes in." },
-          { "title": "AI Analysis", "body": "On demand, an AI assistant reads the updated project data and returns a risk, cost, and productivity briefing — decision support, not an autonomous action." },
-          { "title": "Client Report Generated", "body": "A branded PDF pulls in the project's tasks, costs, and recent field photos." }
+          { "title": "Plan", "body": "A project is set up with its own budget, client, and team." },
+          { "title": "Assign", "body": "Tasks are assigned with a due date and estimated hours." },
+          { "title": "Execute", "body": "The team works the job — tasks move through the board as the work gets done." },
+          { "title": "Capture", "body": "Field crews log site notes, photos, a timestamp, and location straight from the job." },
+          { "title": "Review", "body": "The task moves through the board's Review stage before it's marked done." },
+          { "title": "Monitor", "body": "Portfolio KPIs, workload, and budget-vs-actual refresh automatically as the data comes in." },
+          { "title": "Analyse", "body": "On demand, AI reads the updated project data and returns a risk, cost, and productivity briefing — decision support, not an autonomous action." },
+          { "title": "Report", "body": "A branded PDF pulls in the project's tasks, costs, and recent field photos." },
+          { "title": "Client", "body": "The client sees the report — and, on their own login, only what's theirs." }
         ]
       },
       "moduleMap": {
@@ -1229,7 +1232,36 @@
           { "icon": "lock", "name": "Client Portal", "status": "available", "body": "Clients log in to see only their own project's status and reports." },
           { "icon": "pencil", "name": "Reporting", "status": "available", "body": "Branded PDF reports generated in one click from a project's tasks, costs, and field photos." },
           { "icon": "target", "name": "Analytics", "status": "available", "body": "Portfolio-wide KPIs, team workload, and budget-vs-actual, updated in real time." },
-          { "icon": "gear", "name": "AI", "status": "available", "body": "An AI assistant reads real project data on demand and returns a structured briefing for decision support — it doesn't act on its own." }
+          { "icon": "gear", "name": "AI", "status": "available", "body": "A built-in AI assistant reads real project data on demand and returns a structured briefing for decision support — it doesn't act on its own. Enabled per company." }
+        ]
+      },
+      "industries": {
+        "label": "Built For",
+        "title": "The Same Workflow, Applied to Your Trade",
+        "items": [
+          { "name": "Construction", "body": "Track every job against its budget, log site progress with photos, and hand the client a branded report without leaving the platform." },
+          { "name": "Contractors", "body": "Run multiple client jobs at once — each with its own budget, team, and task board — without losing track of who's doing what." },
+          { "name": "Property Maintenance", "body": "Assign recurring work orders, capture before/after proof from every visit, and keep a running cost ledger per property." },
+          { "name": "Facilities Management", "body": "Coordinate a distributed team across sites, with a live read on workload and budget across the whole portfolio." },
+          { "name": "Field Services", "body": "Dispatch tasks with due dates and estimated hours, then capture field notes, photos, and location the moment the work is done." },
+          { "name": "Installation", "body": "Move a job from scheduled to complete with photo evidence at every stage, backed by a cost ledger for materials and labour." },
+          { "name": "Engineering", "body": "Keep tasks, budgets, and field documentation connected to the same project record — no separate spreadsheet to reconcile." },
+          { "name": "Cleaning & Maintenance", "body": "Track recurring visits, log site notes and photos on the spot, and give clients a clear report of what was done and when." }
+        ]
+      },
+      "integrations": {
+        "label": "Integrations Roadmap",
+        "title": "What Connects to NR-BOS, and When",
+        "items": [
+          { "icon": "chart", "name": "Accounting", "status": "planned", "body": "Sync cost entries and invoicing with your accounting system." },
+          { "icon": "briefcase", "name": "Payroll", "status": "planned", "body": "Feed approved hours into payroll — NR-BOS won't run payroll itself." },
+          { "icon": "handshake", "name": "CRM", "status": "planned", "body": "Keep client and contact records in sync with your CRM." },
+          { "icon": "gear", "name": "ERP", "status": "planned", "body": "Connect project and cost data to a broader ERP system." },
+          { "icon": "clipboard", "name": "Calendar", "status": "planned", "body": "Push task due dates and field visits to your team's calendar." },
+          { "icon": "folder", "name": "Email", "status": "planned", "body": "Send client reports and notifications straight from your own inbox." },
+          { "icon": "lock", "name": "Cloud Storage", "status": "planned", "body": "Mirror field-report photos and PDFs to your own storage provider." },
+          { "icon": "check", "name": "APIs", "status": "planned", "body": "A documented API for reading and writing NR-BOS data from your own tools." },
+          { "icon": "pencil", "name": "Webhooks", "status": "planned", "body": "Notify your own systems the moment a report is generated or a task changes status." }
         ]
       },
       "demoForm": {
@@ -1274,8 +1306,8 @@
       "cta": {
         "title": "Want NR-BOS for your team?",
         "body": "It's licensed by subscription code, not a public sign-up form — tell us about your operation and we'll set you up.",
-        "cta": "Talk to Us",
-        "trialCta": "Request a 3-Day Trial Code"
+        "cta": "Book a Demo",
+        "trialCta": "Request a 3-Day Trial"
       }
     },
     "globalReach": {

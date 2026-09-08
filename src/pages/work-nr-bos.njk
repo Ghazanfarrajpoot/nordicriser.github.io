@@ -28,7 +28,14 @@ pageSlug: work/nr-bos
   <div class="page-hero-inner" data-animate>
     <span class="page-hero-label">{{ p.hero.label }}</span>
     <h1>{{ p.hero.h1 }}</h1>
+    {%- if p.hero.tagline %}
+    <p class="page-hero-tagline">{{ p.hero.tagline }}</p>
+    {%- endif %}
     <p>{{ p.hero.body }}</p>
+    <div class="hero-ctas">
+      <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-primary">{{ p.cta.cta }}</a>
+      <a href="{{ 'contact' | localeUrl(locale) }}?purpose=nrbos-trial" class="btn-secondary">{{ p.cta.trialCta }}</a>
+    </div>
   </div>
 </section>
 
@@ -70,6 +77,42 @@ pageSlug: work/nr-bos
         <span class="status-badge status-badge--{{ m.status }}">{{ statusAvailable if m.status == 'available' else statusPlanned }}</span>
         <h3>{{ m.name }}</h3>
         <p>{{ m.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+{%- if p.industries %}
+<section class="section">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.industries.label }}</span>
+    <h2 class="section-title">{{ p.industries.title }}</h2>
+    <div class="portfolio-grid nrb-industry-grid">
+      {%- for ind in p.industries.items %}
+      <div class="portfolio-card">
+        <h3>{{ ind.name }}</h3>
+        <p>{{ ind.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+{%- if p.integrations %}
+<section class="section section-alt">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ p.integrations.label }}</span>
+    <h2 class="section-title">{{ p.integrations.title }}</h2>
+    <div class="portfolio-grid nrb-module-grid">
+      {%- for i in p.integrations.items %}
+      <div class="portfolio-card">
+        <div class="portfolio-icon">{{ icons.icon(i.icon) }}</div>
+        <span class="status-badge status-badge--{{ i.status }}">{{ statusAvailable if i.status == 'available' else statusPlanned }}</span>
+        <h3>{{ i.name }}</h3>
+        <p>{{ i.body }}</p>
       </div>
       {%- endfor %}
     </div>
