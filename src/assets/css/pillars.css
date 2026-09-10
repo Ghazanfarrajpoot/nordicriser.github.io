@@ -373,7 +373,7 @@
 /* ── HOMEPAGE: BUILT-WITH LINE ON SERVICE CARDS ── */
 .built-with { font-size: 0.8rem; color: var(--muted); margin-block-start: 0.85rem; line-height: 1.6; }
 .built-with strong { color: var(--navy); font-weight: 700; }
-.built-with a { color: var(--gold-hover); font-weight: 600; }
+.built-with a { color: #855f28; font-weight: 600; } /* 5.35:1 on white/paper, WCAG AA — var(--gold-hover) was 2.66:1 */
 
 /* ── HOMEPAGE: FEATURED WORK TEASER ── */
 .work-teaser-grid {

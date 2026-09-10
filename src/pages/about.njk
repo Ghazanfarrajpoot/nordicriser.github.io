@@ -30,6 +30,9 @@ pageSlug: about
 </div>
 
 {%- set wwd = p.whatWeDo or locales.en.pages.about.whatWeDo -%}
+{#- title is newer than most locales' whatWeDo translations — fall back
+    per-field rather than losing the rest of the (already translated) section. -#}
+{%- set wwdTitle = wwd.title or locales.en.pages.about.whatWeDo.title -%}
 
 <section class="section">
   <div class="section-inner-narrow" data-animate>
@@ -46,6 +49,7 @@ pageSlug: about
 <section class="section section-alt">
   <div class="section-inner" data-animate>
     <span class="section-label">{{ wwd.label }}</span>
+    <h2 class="section-title">{{ wwdTitle }}</h2>
     <div class="what-we-do-grid">
       <div class="what-we-do-card">
         <h3>{{ wwd.software.title }}</h3>

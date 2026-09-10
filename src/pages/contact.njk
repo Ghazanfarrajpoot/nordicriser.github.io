@@ -37,7 +37,7 @@ pageSlug: contact
       <h2>{{ f.title }}</h2>
       <p class="form-intro">{{ f.intro }}</p>
 
-      <form class="consultation-form" id="consultationForm">
+      <form class="consultation-form" id="consultationForm" data-analytics-event="contact_form_submit">
         <div class="form-row">
           <div class="field">
             <label for="firstName">{{ f.firstName }} <span class="required">*</span></label>

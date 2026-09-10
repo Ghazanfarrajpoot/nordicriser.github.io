@@ -14,6 +14,9 @@ bodyClass: "has-gr-sticky"
 ---
 {%- set t = locales[locale] -%}
 {%- set p = t.pages.globalReach -%}
+{#- notesLabel is newer than most locales' translations — fall back to the
+    English caption rather than rendering an empty label. -#}
+{%- set heroNotesLabel = p.hero.visual.notesLabel or locales.en.pages.globalReach.hero.visual.notesLabel -%}
 {% import "partials/icons.njk" as icons %}
 
 <section class="page-hero">
@@ -23,7 +26,7 @@ bodyClass: "has-gr-sticky"
     <h1>{{ p.hero.h1 }}</h1>
     <p>{{ p.hero.body }}</p>
     <div class="hero-ctas">
-      <a href="https://portal.nordicriser.com" class="btn-primary">{{ p.hero.ctaPrimary }}</a>
+      <a href="https://portal.nordicriser.com" class="btn-primary" data-analytics-event="global_reach_start">{{ p.hero.ctaPrimary }}</a>
       <a href="#how-it-works" class="btn-secondary">{{ p.hero.ctaSecondary }}</a>
     </div>
     <p class="gr-trust-line">{{ p.hero.trustLine }}</p>
@@ -36,7 +39,7 @@ bodyClass: "has-gr-sticky"
       </div>
       <div class="gr-hero-notes">
         {{ icons.icon('pencil') }}
-        <span>{{ p.hero.visual.notesLabel }}</span>
+        <span>{{ heroNotesLabel }}</span>
       </div>
     </div>
     <p class="gr-mock-caption">{{ p.hero.mockCaption }}</p>
@@ -70,7 +73,7 @@ bodyClass: "has-gr-sticky"
   <div class="cta-box" data-animate>
     <h2>{{ p.ctaBand1.title }}</h2>
     <p>{{ p.ctaBand1.body }}</p>
-    <a href="https://portal.nordicriser.com" class="btn-cta">{{ p.ctaBand1.cta }}</a>
+    <a href="https://portal.nordicriser.com" class="btn-cta" data-analytics-event="global_reach_start">{{ p.ctaBand1.cta }}</a>
   </div>
 </section>
 
@@ -144,12 +147,12 @@ bodyClass: "has-gr-sticky"
   <div class="cta-box" data-animate>
     <h2>{{ p.cta.title }}</h2>
     <p>{{ p.cta.body }}</p>
-    <a href="https://portal.nordicriser.com" class="btn-cta">{{ t.common.signUp }}</a>
+    <a href="https://portal.nordicriser.com" class="btn-cta" data-analytics-event="global_reach_start">{{ t.common.signUp }}</a>
     <p class="gr-trust-line">{{ p.cta.trustLine }}</p>
   </div>
 </section>
 
 <div class="gr-sticky-cta" role="complementary" aria-label="{{ p.hero.ctaPrimary }}">
   <span>{{ p.stickyBar.text }}</span>
-  <a href="https://portal.nordicriser.com">{{ p.stickyBar.cta }}</a>
+  <a href="https://portal.nordicriser.com" data-analytics-event="global_reach_start">{{ p.stickyBar.cta }}</a>
 </div>

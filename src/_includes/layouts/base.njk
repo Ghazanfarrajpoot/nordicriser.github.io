@@ -5,6 +5,16 @@
 {#- meta.title/description let a page override the punchy hero copy with SEO-tuned text; falls back to hero.h1/body for pages without an override. -#}
 {%- set pageTitle = pageData.meta.title if pageData.meta else (pageData.hero.h1 + " — Nordic Riser AB") -%}
 {%- set pageDesc = pageData.meta.description if pageData.meta else pageData.hero.body -%}
+{#- True when this locale has no translation of this page at all, i.e. the
+    pageData fallback above just kicked in — the URL still resolves and
+    renders (in English), but it's a byte-for-byte duplicate of the English
+    original, not a distinct translated page. Canonicalize to the English
+    URL and don't index the duplicate, rather than telling search engines
+    this locale URL is original, canonical content. A page's own explicit
+    `robots` front matter (e.g. the noindex portal bridge page) still wins
+    via the `default()` below. -#}
+{%- set isEnglishFallback = (locale != 'en') and (not t.pages[pageKey]) -%}
+{%- set canonicalLocale = 'en' if isEnglishFallback else locale -%}
 <!DOCTYPE html>
 <html lang="{{ locale }}" dir="{{ dir }}">
 <head>
@@ -12,8 +22,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ pageTitle }}</title>
   <meta name="description" content="{{ pageDesc }}">
-  <meta name="robots" content="{{ robots | default('index, follow') }}">
-  <link rel="canonical" href="{{ site.baseUrl }}{{ pageSlug | localeUrl(locale) }}">
+  <meta name="robots" content="{{ robots | default('noindex, follow' if isEnglishFallback else 'index, follow') }}">
+  <link rel="canonical" href="{{ site.baseUrl }}{{ pageSlug | localeUrl(canonicalLocale) }}">
   <meta property="og:site_name" content="Nordic Riser AB">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="{{ locale }}">
@@ -36,6 +46,26 @@
       "addressLocality": "Stockholm",
       "addressCountry": "SE"
     }
+  }
+  </script>
+  {%- endif %}
+  {%- if pageKey == "globalReach" and pageData.faq %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {%- for item in pageData.faq %}
+      {
+        "@type": "Question",
+        "name": {{ item.q | dump | safe }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ item.a | dump | safe }}
+        }
+      }{% if not loop.last %},{% endif %}
+      {%- endfor %}
+    ]
   }
   </script>
   {%- endif %}

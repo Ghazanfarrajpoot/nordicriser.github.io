@@ -10,10 +10,10 @@
     {%- if singleLocale %}
     {#- This page only exists in one locale (e.g. the noindex portal bridge page) —
         other-locale links would 404, so just list the current one. -#}
-    <li><a href="{{ pageSlug | localeUrl(locale) }}" data-lang="{{ locale }}" class="current">{{ site.locales | localeName(locale) }}</a></li>
+    <li><a href="{{ pageSlug | localeUrl(locale) }}" data-lang="{{ locale }}" class="current" data-analytics-event="language_change">{{ site.locales | localeName(locale) }}</a></li>
     {%- else %}
     {%- for l in site.locales %}
-    <li><a href="{{ pageSlug | localeUrl(l.code) }}" data-lang="{{ l.code }}"{% if l.code == locale %} class="current"{% endif %}>{{ l.name }}</a></li>
+    <li><a href="{{ pageSlug | localeUrl(l.code) }}" data-lang="{{ l.code }}"{% if l.code == locale %} class="current"{% endif %} data-analytics-event="language_change">{{ l.name }}</a></li>
     {%- endfor %}
     {%- endif %}
   </ul>

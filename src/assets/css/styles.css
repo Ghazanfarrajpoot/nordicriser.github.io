@@ -3,8 +3,9 @@
    Elite Identity System — Quiet Luxury Edition
    ═══════════════════════════════════════════════════════════════ */
 
-/* ── GOOGLE FONTS ── */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+/* ── GOOGLE FONTS ──
+   Loaded via <link rel="preconnect"> + <link rel="stylesheet"> in base.njk,
+   not @import here — avoids a redundant blocking second fetch of the same fonts. */
 
 /* ── CSS VARIABLES ── */
 :root {
@@ -770,7 +771,8 @@ img { display: block; max-width: 100%; }
 [dir="rtl"] .group-sidebar { border-right: none; border-left: 1px solid var(--border); }
 [dir="rtl"] .group-card { border-left: none; border-right: 4px solid transparent; }
 [dir="rtl"] .group-card:hover { border-right-color: var(--navy); transform: translateX(-4px); }
-[dir="rtl"] .service-card[id] { border-left: none; }
+[dir="rtl"] .service-card[id] { border-left: none; border-right: 4px solid transparent; }
+[dir="rtl"] .service-card[id]:hover { border-right-color: var(--gold); }
 [dir="rtl"] .info-box { border-left: none; border-right: 3px solid var(--gold); border-radius: 6px 0 0 6px; }
 [dir="rtl"] .toc-list a { border-left: none; border-right: 2px solid transparent; }
 [dir="rtl"] .toc-list a:hover { border-right-color: var(--gold); }

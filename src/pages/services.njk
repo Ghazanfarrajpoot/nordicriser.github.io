@@ -13,6 +13,9 @@ pageSlug: services
 ---
 {%- set t = locales[locale] -%}
 {%- set p = t.pages.itServices -%}
+{#- p.cta.cta is newer than most locales' translations — fall back to the
+    English button text rather than rendering an empty CTA button. -#}
+{%- set ctaButtonText = p.cta.cta or locales.en.pages.itServices.cta.cta -%}
 {% import "partials/icons.njk" as icons %}
 {%- set howWeWorkIcons = ["pencil", "ruler", "wrench", "globe", "chart"] -%}
 
@@ -92,7 +95,7 @@ pageSlug: services
   <div class="cta-box" data-animate>
     <h2>{{ p.cta.title }}</h2>
     <p>{{ p.cta.body }}</p>
-    <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-cta">{{ p.cta.cta }}</a>
+    <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-cta" data-analytics-event="software_project_cta">{{ ctaButtonText }}</a>
     <div class="contact-strip">
       <div class="contact-item">
         <span>{{ t.common.emailLabel }}</span>

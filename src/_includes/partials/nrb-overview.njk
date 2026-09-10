@@ -8,7 +8,7 @@
 {% import "partials/icons.njk" as icons %}
 
 {% macro overview(ov, statusAvailable) %}
-<button type="button" class="nrb2-launcher nrb2-scope" data-nrb2-open="{{ ov.id }}" aria-haspopup="dialog">
+<button type="button" class="nrb2-launcher nrb2-scope" data-nrb2-open="{{ ov.id }}" aria-haspopup="dialog" data-analytics-event="nr_bos_tour_open">
   <span class="nrb2-launcher__text">
     <span class="nrb2-launcher__eyebrow"><span class="nrb2-dot" aria-hidden="true"></span>{{ ov.eyebrow }}</span>
     <span class="nrb2-launcher__title">{{ ov.title }}</span>
@@ -71,8 +71,8 @@
           {%- if p.slug == "field-reporting" %}
           <div class="nrb2-slider" data-nrb2-slider dir="ltr">
             <div class="nrb2-slider__stage">
-              <img class="nrb2-slider__img" src="/assets/img/nr-bos/slider-before.jpg" alt="" loading="lazy">
-              <img class="nrb2-slider__img nrb2-slider__after" src="/assets/img/nr-bos/slider-after.jpg" alt="" loading="lazy">
+              <img class="nrb2-slider__img" src="/assets/img/nr-bos/slider-before.jpg" alt="" loading="lazy" width="1200" height="900">
+              <img class="nrb2-slider__img nrb2-slider__after" src="/assets/img/nr-bos/slider-after.jpg" alt="" loading="lazy" width="1200" height="900">
               <span class="nrb2-slider__tag" style="inset-inline-start:8px">{{ ov.sliderBeforeLabel }}</span>
               <span class="nrb2-slider__tag" style="inset-inline-end:8px; inset-inline-start:auto">{{ ov.sliderAfterLabel }}</span>
               <div class="nrb2-slider__handle" aria-hidden="true"></div>

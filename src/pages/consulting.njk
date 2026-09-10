@@ -13,6 +13,12 @@ pageSlug: consulting
 ---
 {%- set t = locales[locale] -%}
 {%- set p = t.pages.consulting -%}
+{#- deliverables/boundaries are newer than most locales' translations — the
+    page object itself exists everywhere, so the whole-page `or` fallback
+    used elsewhere doesn't help here; fall back per-field instead so this
+    doesn't regress already-translated content on the rest of the page. -#}
+{%- set deliverables = p.deliverables or locales.en.pages.consulting.deliverables -%}
+{%- set boundaries = p.boundaries or locales.en.pages.consulting.boundaries -%}
 
 <section class="page-hero">
   <div class="page-hero-inner" data-animate>
@@ -42,7 +48,7 @@ pageSlug: consulting
         <div class="group-sidebar">
           <div class="group-num">{{ g.num }}</div>
           <span class="group-tag">{{ g.tag }}</span>
-          <h2>{{ g.title }}</h2>
+          <h3>{{ g.title }}</h3>
         </div>
         <div class="group-content">
           {%- for para in g.body %}<p>{{ para }}</p>{% endfor %}
@@ -71,7 +77,7 @@ pageSlug: consulting
         <div class="service-number">{{ svc.number }}</div>
         <div class="service-body">
           <span class="service-tagline">{{ svc.tagline }}</span>
-          <h2>{{ svc.title }}</h2>
+          <h3>{{ svc.title }}</h3>
           {%- for para in svc.body %}<p>{{ para }}</p>{% endfor %}
           <div class="service-includes">
             <h4>{{ svc.includesHeading }}</h4>
@@ -105,11 +111,11 @@ pageSlug: consulting
 
 <section class="section">
   <div class="section-inner-narrow" data-animate>
-    <span class="section-label">{{ p.deliverables.label }}</span>
-    <h2 class="section-title">{{ p.deliverables.title }}</h2>
-    <p class="section-sub">{{ p.deliverables.sub }}</p>
+    <span class="section-label">{{ deliverables.label }}</span>
+    <h2 class="section-title">{{ deliverables.title }}</h2>
+    <p class="section-sub">{{ deliverables.sub }}</p>
     <ul class="challenge-list">
-      {%- for item in p.deliverables.items %}
+      {%- for item in deliverables.items %}
       <li class="challenge-item">{{ item }}</li>
       {%- endfor %}
     </ul>
@@ -135,9 +141,9 @@ pageSlug: consulting
 
 <section class="section section-alt">
   <div class="section-inner-narrow" data-animate>
-    <span class="section-label">{{ p.boundaries.label }}</span>
-    <h2 class="section-title">{{ p.boundaries.title }}</h2>
-    {%- for para in p.boundaries.body %}
+    <span class="section-label">{{ boundaries.label }}</span>
+    <h2 class="section-title">{{ boundaries.title }}</h2>
+    {%- for para in boundaries.body %}
     <p class="section-sub">{{ para }}</p>
     {%- endfor %}
   </div>
@@ -147,7 +153,7 @@ pageSlug: consulting
   <div class="cta-box" data-animate>
     <h2>{{ p.cta.title }}</h2>
     <p>{{ p.cta.body }}</p>
-    <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-cta">{{ t.common.bookConsultation }}</a>
+    <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-cta" data-analytics-event="consulting_cta">{{ t.common.bookConsultation }}</a>
     <div class="contact-strip">
       <div class="contact-item">
         <span>{{ t.common.emailLabel }}</span>

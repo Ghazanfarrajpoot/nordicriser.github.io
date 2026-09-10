@@ -323,6 +323,10 @@
       }
     },
     "about": {
+      "meta": {
+        "title": "About Nordic Riser — Software Studio in Stockholm",
+        "description": "A Stockholm software studio building multilingual platforms, client portals, and custom products — backed by real cross-border business consulting expertise."
+      },
       "hero": { "label": "About the Studio", "h1": "A Stockholm Software Studio for Businesses That Cross Borders", "body": "Nordic Riser AB designs and builds multilingual web platforms, secure client portals, and custom products — backed by in-house business advisory expertise most software studios don't have." },
       "breadcrumb": "About Us",
       "whoWeAre": {
@@ -334,6 +338,7 @@
       },
       "whatWeDo": {
         "label": "What We Do",
+        "title": "Software Development & Business Consulting",
         "software": {
           "title": "Software & Products",
           "body": "Multilingual web platforms, secure client portals, custom products, and workflow automation — for clients, and for ourselves.",
@@ -394,6 +399,10 @@
       "cta": { "title": "Have a Project in Mind?", "body": "Tell us what you're building — or, if you're establishing a business in Europe, tell us about that instead. Either way, we'll come back with a clear, structured next step.", "ctaSecondary": "Explore Consulting" }
     },
     "contact": {
+      "meta": {
+        "title": "Contact Nordic Riser AB — Stockholm",
+        "description": "Tell us about your software project or business consulting needs. We'll come back with a clear, structured next step — a quote or a consultation."
+      },
       "hero": { "label": "Get in Touch", "h1": "Tell Us About Your Project — or Your Situation", "body": "Whether you're building software or establishing a business in Europe, we start by understanding what you actually need. Complete the form below and we'll come back with a clear, structured next step." },
       "breadcrumb": "Contact",
       "form": {
@@ -858,6 +867,10 @@
       }
     },
     "consulting": {
+      "meta": {
+        "title": "Business Consulting Sweden — Nordic Riser AB",
+        "description": "Strategic consulting for international business establishment in Europe — company formation, relocation strategy, and cross-border advisory from Nordic Riser AB, Stockholm."
+      },
       "hero": { "label": "Consulting", "h1": "Strategic Consulting for International Business Establishment", "body": "We provide structured, professional advisory across five core service areas — each designed to support entrepreneurs and professionals building a compliant business presence in Europe." },
       "breadcrumb": "Consulting",
       "servicesLabel": "What We Offer",
