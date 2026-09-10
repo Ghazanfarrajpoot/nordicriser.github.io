@@ -485,8 +485,8 @@
     "privacy": {
       "hero": { "label": "Legal", "h1": "Privacy Policy", "body": "How Nordic Riser AB collects, uses, and protects your personal information in accordance with the EU General Data Protection Regulation (GDPR)." },
       "breadcrumb": "Privacy Policy",
-      "updatedBadge": "Last Updated: 19 August 2026",
-      "whatChanged": "What changed in this update: this policy previously covered our consulting business only. It now also covers the Member Portal, NR-BOS, and Global Reach. We added a Controller vs. Processor section, a full named Sub-processor list, an explicit disclosure of the AI provider used in NR-BOS, and split the Cookies section between the marketing site and our authenticated products. A Terms of Service and a Data Processing Agreement are published alongside this policy for the first time — see the Legal index.",
+      "updatedBadge": "Last Updated: 9 September 2026",
+      "whatChanged": "What changed in this update: this policy previously covered our consulting business only. It now also covers the Member Portal, NR-BOS, and Global Reach. We added a Controller vs. Processor section, a full named Sub-processor list, an explicit disclosure of the AI provider used in NR-BOS, and split the Cookies section between the marketing site and our authenticated products. A Terms of Service and a Data Processing Agreement are published alongside this policy for the first time — see the Legal index. We also corrected Section 4.5: Global Reach does not have a chat feature, so the data it processes is session and usage data, not chat messages — see the Sub-processors page for a related correction. Most recently, we updated Section 6.4: NR-BOS now pseudonymizes team member names before sending project data to our AI provider, so the AI sees a generic label instead of a real name.",
       "translationNotice": "This page has been machine-translated. In case of any discrepancy, the English version is authoritative. Contact us with questions.",
       "tocLabel": "Contents",
       "toc": [
@@ -535,7 +535,8 @@
             "Cost Data: cost entries associated with projects and tasks"
           ]},
           { "title": "4.5 Global Reach", "intro": "As a Global Reach user:", "list": [
-            "Chat Messages: the content of messages sent through Global Reach's live collaboration rooms, including message text submitted for real-time translation — see Section 6.4 for how that translation is provided and Section 7 for the sub-processor involved"
+            "Room & Session Data: the name of any room you create, your presence in a room, and the content of the shared session notes for rooms you participate in",
+            "Usage Data: session minutes used, to calculate your plan's monthly allowance"
           ]}
         ]},
         "s5": { "title": "How We Use Your Information", "intro": "We process your personal data only for the purposes outlined below, each supported by a lawful basis under GDPR:",
@@ -544,7 +545,7 @@
             ["Providing strategic advisory, technology, and global collaboration services", "Contract performance"],
             ["Operating and securing the Member Portal, including authentication and document/message storage", "Contract performance"],
             ["Delivering NR-BOS to our licensing customers, including field reporting, project tracking, and AI-assisted analysis", "Contract performance (as processor, per our client's instructions)"],
-            ["Providing real-time translation within Global Reach", "Contract performance"],
+            ["Operating Global Reach, including shared session notes and usage-based billing", "Contract performance"],
             ["Communicating about our services and engagement progress", "Contract performance / Consent"],
             ["Improving our website and service quality", "Legitimate interest"],
             ["Coordinating with third-party professionals (legal, accounting)", "Contract performance / Legitimate interest"],
@@ -561,8 +562,8 @@
           { "title": "6.2 Legal Requirements", "intro": "We may disclose your personal information when required to do so by law, regulation, legal process, or a legitimate governmental request." },
           { "title": "6.3 International Data Transfers", "intro": "Where personal data is transferred outside the EU/EEA, we ensure an appropriate transfer mechanism — typically the European Commission's Standard Contractual Clauses — is in place before any such transfer takes place. Section 7 lists every sub-processor we use, including where each one is located and which transfer mechanism applies. One of those transfers, described in full below, is to a company based in China, a jurisdiction without an EU adequacy decision." },
           { "title": "6.4 AI Processing in NR-BOS", "intro": "NR-BOS includes an optional AI Assistant that generates risk, cost, and productivity insights from a project's data. We are describing this plainly, including the parts that are not yet as protective as we'd like, rather than describing a safeguard that isn't actually in place:", "list": [
-            "When this feature is used, the relevant project data — including project and company names, budget figures, task details, cost entries, and the full names and roles of assigned team members — is sent to our AI provider, DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.), to generate the analysis.",
-            "We do not currently redact or anonymise personal identifiers before this data is transmitted. If this matters to how you use NR-BOS, contact us or your NR-BOS administrator — a client operating NR-BOS as controller can restrict use of the AI Assistant for their own deployment.",
+            "When this feature is used, the relevant project data — including project and company names, budget figures, task details, and cost entries — is sent to our AI provider, DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.), to generate the analysis. Team members are identified by a generic per-project label (e.g. \"Member A\"), not by name.",
+            "We pseudonymize team member names before this data is transmitted — the AI never receives a real name, only the generic label. Project and company names, and cost/budget figures, are not pseudonymized, since the analysis genuinely depends on them. If this matters to how you use NR-BOS, contact us or your NR-BOS administrator — a client operating NR-BOS as controller can restrict use of the AI Assistant for their own deployment.",
             "DeepSeek's own API data policy states that data submitted through its API is not used to train its models. This is DeepSeek's representation, not a guarantee we independently audit.",
             "The output is advisory only. Nothing in NR-BOS acts on an AI-generated insight automatically — a person always reviews it and decides what, if anything, to do.",
             "Because DeepSeek is based in China, this transfer relies on Standard Contractual Clauses as the GDPR Chapter V safeguard. China has no European Commission adequacy decision, and transfers of this kind are subject to heightened regulatory attention across the EU. We are disclosing this specifically, by name, so that you can decide with full information whether it matters to you — see Section 7 for the full sub-processor entry."
@@ -634,7 +635,7 @@
       "meta": { "title": "Sub-processors — Nordic Riser AB", "description": "The named third parties who process personal data on Nordic Riser AB's behalf across the website, Member Portal, NR-BOS, and Global Reach." },
       "hero": { "label": "Legal", "h1": "Sub-processors", "body": "Every third party we use to process personal data on your behalf — what they do, what data they touch, where they're located, and how the transfer is safeguarded." },
       "breadcrumb": "Sub-processors",
-      "updatedBadge": "Last Updated: 19 August 2026",
+      "updatedBadge": "Last Updated: 9 September 2026",
       "translationNotice": "This page has been machine-translated. In case of any discrepancy, the English version is authoritative. Contact us with questions.",
       "intro": [
         "This list exists to satisfy Article 13(1)(f) of the GDPR directly — not just to say safeguards exist, but to name who they're with. We keep it current and update the date below whenever it changes.",
@@ -644,13 +645,12 @@
         "headers": ["Sub-processor", "Purpose", "Data Categories", "Location", "Transfer Mechanism", "Status"],
         "rows": [
           ["Google Ireland Limited (Firebase / Google Cloud Platform)", "Authentication, database, file storage, and hosting for the Member Portal (portal.nordicriser.com)", "Account credentials, profile data, uploaded document contents, secure message content, case and payment records", "Google Cloud infrastructure — specific processing region pending internal confirmation (see note below)", "Google Cloud's Cloud Data Processing Addendum, incorporating the European Commission's Standard Contractual Clauses", "Verification Required"],
-          ["DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.)", "AI-generated risk, cost, and productivity analysis in NR-BOS (optional feature)", "Project and company names, budget figures, task details, cost entries, full names and roles of assigned team members", "China", "Standard Contractual Clauses (controller-to-processor module). China has no European Commission adequacy decision — see Privacy Policy Section 6.4 for the full disclosure", "Confirmed"],
+          ["DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.)", "AI-generated risk, cost, and productivity analysis in NR-BOS (optional feature)", "Project and company names, budget figures, task details, cost entries, and generic per-project labels for team members (real names are pseudonymized before transmission)", "China", "Standard Contractual Clauses (controller-to-processor module). China has no European Commission adequacy decision — see Privacy Policy Section 6.4 for the full disclosure", "Confirmed"],
           ["PostgreSQL database (NR-BOS)", "Core relational data storage — users, companies, projects, tasks, cost entries, field reports, license records", "Broad — effectively all NR-BOS operational data, including personal data of client company staff", "Pending internal confirmation", "Pending internal confirmation", "Verification Required"],
-          ["Object storage, S3-compatible (NR-BOS)", "Worksite photograph storage and generated PDF client reports", "Photograph files (may include camera-embedded EXIF such as GPS coordinates or a timestamp), PDF report documents", "Pending internal confirmation", "Pending internal confirmation", "Verification Required"],
-          ["Translation API provider (Global Reach)", "Real-time translation of chat messages in Global Reach's collaboration rooms", "Chat message content", "Pending internal confirmation", "Pending internal confirmation", "Verification Required"]
+          ["Object storage, S3-compatible (NR-BOS)", "Worksite photograph storage and generated PDF client reports", "Photograph files (may include camera-embedded EXIF such as GPS coordinates or a timestamp), PDF report documents", "Pending internal confirmation", "Pending internal confirmation", "Verification Required"]
         ]
       },
-      "note": "Rows marked “Verification Required” are confirmed to exist and to receive the stated data category — we verified this directly against our own source code before publishing this table. What isn't yet finalised is the exact hosting vendor and region for these entries. We are listing them rather than omitting them because Article 13(1)(f) requires disclosing the transfers we make, not only the ones we've fully documented, and because leaving a known gap off this table would be less honest than flagging it plainly. We will update the Status column and the date above as soon as they're confirmed."
+      "note": "Rows marked “Verification Required” are confirmed to exist and to receive the stated data category — we verified this directly against our own source code before publishing this table. What isn't yet finalised is the exact hosting vendor and region for these entries. We are listing them rather than omitting them because Article 13(1)(f) requires disclosing the transfers we make, not only the ones we've fully documented, and because leaving a known gap off this table would be less honest than flagging it plainly. We will update the Status column and the date above as soon as they're confirmed. A previously-listed “Translation API provider (Global Reach)” row has been removed: a later review found Global Reach has no chat feature, so that row did not match what the product actually does. We are checking whether any comparable third-party processing exists elsewhere in our systems before publishing an accurate replacement entry."
     },
     "security": {
       "meta": { "title": "Security — Nordic Riser AB", "description": "A factual, verified account of the security practices behind NR-BOS and the Member Portal — including what isn't finished yet." },
@@ -704,7 +704,7 @@
       "meta": { "title": "Terms of Service — Nordic Riser AB", "description": "The terms governing use of Nordic Riser AB's website, Member Portal, and software products, including NR-BOS licensing." },
       "hero": { "label": "Legal", "h1": "Terms of Service", "body": "The terms governing your use of this website, the Member Portal, and the software products we build and license." },
       "breadcrumb": "Terms of Service",
-      "updatedBadge": "Last Updated: 19 August 2026",
+      "updatedBadge": "Last Updated: 9 September 2026",
       "translationNotice": "This page has been machine-translated. In case of any discrepancy, the English version is authoritative. Contact us with questions.",
       "tocLabel": "Contents",
       "toc": [
@@ -722,7 +722,7 @@
           "This website provides information about Nordic Riser AB and our consulting, technology, and product offerings.",
           "The Member Portal is an authenticated client area for document exchange, case tracking, secure messaging, and payment records, related to our consulting engagements.",
           "NR-BOS is project delivery, field operations, and client reporting software, licensed to companies for their own internal and client-facing use.",
-          "Global Reach is live collaboration software with shared whiteboards and real-time translated chat, licensed on a subscription basis."
+          "Global Reach is live collaboration software for shared study and work rooms, billed by session minutes and licensed on a subscription basis."
         ]},
         "s3": { "title": "Accounts & Eligibility", "body": [
           "The Services are directed at adults acting in a professional or business capacity. You must be at least 18 years old to create an account.",
