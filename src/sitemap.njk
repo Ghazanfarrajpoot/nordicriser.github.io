@@ -6,6 +6,11 @@ eleventyExcludeFromCollections: true
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 {%- for page in site.pages %}
 {%- for loc in site.locales %}
+{#- Skip English-fallback locale duplicates — base.njk marks these
+    noindex and canonicalizes them to the English URL (see the
+    isEnglishFallback logic there), so listing them here would tell
+    crawlers to index a URL that itself says not to. -#}
+{%- if loc.code == 'en' or locales[loc.code].pages[page.key] %}
   <url>
     <loc>{{ site.baseUrl }}{{ page.slug | localeUrl(loc.code) }}</loc>
     <changefreq>{{ page.changefreq }}</changefreq>
@@ -15,6 +20,7 @@ eleventyExcludeFromCollections: true
     {%- endfor %}
     <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.baseUrl }}{{ page.slug | localeUrl('en') }}" />
   </url>
+{%- endif %}
 {%- endfor %}
 {%- endfor %}
 </urlset>
