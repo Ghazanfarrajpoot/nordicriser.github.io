@@ -132,12 +132,12 @@
   <div class="section-inner-narrow" data-animate>
 
     <div class="doc-section">
-      <div class="updated-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5.5" width="16" height="14.5" rx="2"/><path d="M4 9.5h16M8 3.5v4M16 3.5v4"/></svg> Senast uppdaterad: 5 september 2026</div><p>Den här sidan beskriver de säkerhetsrutiner som faktiskt är implementerade i våra produkter — Medlemsportalen och NR-BOS — verifierade direkt mot vår egen källkod innan publicering. Det är inte ett certifieringsintyg, och det ersätter inte din egen due diligence.</p><p>Där något ännu håller på att färdigställas snarare än att vara helt byggt säger vi det rakt ut, med samma statusetiketter som används på andra ställen på webbplatsen.</p>
+      <div class="updated-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5.5" width="16" height="14.5" rx="2"/><path d="M4 9.5h16M8 3.5v4M16 3.5v4"/></svg> Senast uppdaterad: 16 september 2026</div><p>Den här sidan beskriver de säkerhetsrutiner som faktiskt är implementerade i våra produkter — Medlemsportalen och NR-BOS — verifierade direkt mot vår egen källkod innan publicering. Det är inte ett certifieringsintyg, och det ersätter inte din egen due diligence.</p><p>Där något ännu håller på att färdigställas snarare än att vara helt byggt säger vi det rakt ut, med samma statusetiketter som används på andra ställen på webbplatsen.</p>
     </div>
 
     <div class="doc-section">
       <h2>Autentisering och åtkomstkontroll <span class="status-badge status-badge--available">Tillgänglig nu</span></h2>
-      <p><strong>NR-BOS:</strong> Autentiserar användare med kortlivade JWT-åtkomsttoken och roterande refresh-token. Lösenord hashas med bcrypt — lagras aldrig i klartext. Varje förfrågan kontrolleras mot en av fyra roller (Admin, Projektledare, Fältarbetare, Kund), och användare ser endast det deras roll tillåter.</p>
+      <p><strong>NR-BOS:</strong> Autentiserar användare med kortlivade JWT-åtkomsttoken och roterande refresh-token. Lösenord hashas med bcrypt — lagras aldrig i klartext. Varje förfrågan kontrolleras mot en av fyra roller (Admin, Projektledare, Fältarbetare, Kund), och användare ser endast det deras roll tillåter. Inloggning är hastighetsbegränsad — fem inloggningsförsök och tio förnyelser av token per minut — så ett stulet eller gissat lösenord kan inte provas i snabb takt.</p>
       <p><strong>Medlemsportalen:</strong> Använder Firebase Authentication (e-post och lösenord). Säkerhetsregler i Firestore och Storage begränsar varje användare till sina egna dokument, ärenden, fakturor och filer — verkställt på serversidan, inte bara dolt i gränssnittet. Administratörsåtkomst är begränsad till Nordic Riser AB:s e-postadresser.</p>
     </div>
 
@@ -147,7 +147,7 @@
 
     <div class="doc-section">
       <h2>Data i vila <span class="status-badge status-badge--planned">Verifiering krävs</span></h2>
-      <p>Uppladdade filer i Medlemsportalen är storleks- och typbegränsade vid uppladdning. Kryptering av data i vila beror på våra underliggande värdleverantörers egen infrastrukturnivåkryptering — vi har ännu inte fastställt och granskat den exakta konfigurationen, så vi kommer inte att hävda en skyddsnivå vi inte själva har verifierat.</p>
+      <p>Uppladdade filer i Medlemsportalen är storleks- och typbegränsade vid uppladdning. Kryptering av data i vila beror på våra underliggande värdleverantörers egen infrastrukturnivåkryptering — vi har ännu inte fastställt och granskat den exakta konfigurationen, så vi kommer inte att hävda en skyddsnivå vi inte själva har verifierat. En hemlighet i NR-BOS lagras medvetet i klartext: signeringsnyckeln för en utgående webhook-prenumeration. Den måste användas för att beräkna HMAC-signaturen vid varje leverans, inte bara jämföras med, vilket är den modell med delad hemlighet som webhook-system i allmänhet använder. Den visas för administratören en gång, när prenumerationen skapas, och returneras aldrig av något endpoint därefter.</p>
     </div>
   </div>
 </section>
@@ -166,11 +166,6 @@
         <span class="status-badge status-badge--planned">Planerad</span>
         <h3>Automatiserad sårbarhetsskanning</h3>
         <p>Skanning av beroenden och sårbarheter är ännu inte inkopplad i vår byggprocess.</p>
-      </div>
-      <div class="portfolio-card">
-        <span class="status-badge status-badge--planned">Planerad</span>
-        <h3>Hastighetsbegränsning för inloggning</h3>
-        <p>Skydd mot brute-force-attacker på inloggningsendpoints, utöver lösenordshashning, är ännu inte på plats.</p>
       </div>
       <div class="portfolio-card">
         <span class="status-badge status-badge--planned">Planerad</span>
