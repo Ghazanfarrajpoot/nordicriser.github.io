@@ -1074,7 +1074,7 @@
           "challengeLabel": "Challenge",
           "challenge": "Businesses need enterprise-grade operations tooling — project tracking, field reporting, cost control, client reporting — without the cost and complexity of systems like SAP.",
           "buildLabel": "Build",
-          "build": "A subscription-based business operations platform covering projects, task boards, budget tracking, field reports with photo documentation, AI-assisted risk and cost insights, and branded PDF client reports.",
+          "build": "A subscription-based business operations platform covering projects and task boards, dispatched work orders with scheduling, time tracking with approvals, budget tracking, field reports with photo documentation, AI-assisted risk and cost insights, and branded PDF client reports.",
           "stackLabel": "Stack",
           "stack": ["Next.js", "NestJS", "PostgreSQL"],
           "resultLabel": "Result",
@@ -1163,13 +1163,13 @@
     "nrBos": {
       "meta": {
         "title": "NR-BOS — Business Operating System — Nordic Riser AB",
-        "description": "Inside NR-BOS: project and task tracking, budget control, field reports with photos, AI-assisted insights, branded client PDF reports, and code-based licensing."
+        "description": "Inside NR-BOS: projects, work orders, scheduling, time approvals, budget control, field reports with photos, AI insights, and branded client PDF reports."
       },
       "hero": {
         "label": "NR-BOS",
         "h1": "The Business Operating System for Project-Driven Companies",
         "tagline": "Plan. Execute. Monitor. Report. Analyse.",
-        "body": "Run projects, field operations, costs, teams, and client reporting from one connected platform. Built and run in-house at Nordic Riser first — the screenshots below are from that live build, seeded with example project data."
+        "body": "Run projects, work orders, scheduling, time, field operations, costs, teams, and client reporting from one connected platform. Built and run in-house at Nordic Riser first — the screenshots below are from that live build, seeded with example project data."
       },
       "breadcrumb": "NR-BOS",
       "backLink": "Back to Work",
@@ -1243,13 +1243,15 @@
         "steps": [
           { "title": "Plan", "body": "A project is set up with its own budget, client, and team." },
           { "title": "Assign", "body": "Tasks are assigned with a due date and estimated hours." },
+          { "title": "Schedule", "body": "Work orders are placed on the week's calendar and dispatched to the crew who will run them." },
           { "title": "Execute", "body": "The team works the job — tasks move through the board as the work gets done." },
-          { "title": "Capture", "body": "Field crews log site notes, photos, a timestamp, and location straight from the job." },
+          { "title": "Capture", "body": "Field crews log site notes, photos, a timestamp, and location straight from the job — working through the work order and its checklist step by step." },
+          { "title": "Log", "body": "Hours go on with a start/stop timer or by hand, and are approved by someone other than the person who logged them." },
           { "title": "Review", "body": "The task moves through the board's Review stage before it's marked done." },
           { "title": "Monitor", "body": "Portfolio KPIs, workload, and budget-vs-actual refresh automatically as the data comes in." },
           { "title": "Analyse", "body": "On demand, AI reads the updated project data and returns a risk, cost, and productivity briefing — decision support, not an autonomous action." },
           { "title": "Report", "body": "A branded PDF pulls in the project's tasks, costs, and recent field photos." },
-          { "title": "Client", "body": "The client sees the report — and, on their own login, only what's theirs." }
+          { "title": "Client", "body": "The client sees the report — and, on their own login, only what's theirs — then signs it off on screen." }
         ]
       },
       "moduleMap": {
@@ -1260,7 +1262,11 @@
           { "icon": "clipboard", "name": "Projects", "status": "available", "body": "Every job tracked with its own budget, client, and team on a four-stage board." },
           { "icon": "check", "name": "Tasks", "status": "available", "body": "Assignee, due date, and estimated hours on every task, moving through To Do → In Progress → Review → Done." },
           { "icon": "briefcase", "name": "People", "status": "available", "body": "Company user accounts with role-based access — admin, project manager, field worker, client." },
-          { "icon": "wrench", "name": "Field Ops", "status": "available", "body": "Site notes, timestamps, geotagging, and before/after photos logged straight from the field." },
+          { "icon": "wrench", "name": "Field Ops", "status": "available", "body": "Site notes, timestamps, geotagging, and before/after photos logged straight from the field. Reports, checklists, status changes, and time entries queue on the device when the signal drops and sync when it returns." },
+          { "icon": "ruler", "name": "Work Orders", "status": "available", "body": "Dispatchable jobs with a priority and their own lifecycle — draft, scheduled, assigned, in progress, on hold, review, completed. Field crews run them through a guided step-by-step flow, and recurring work regenerates daily, weekly, or monthly." },
+          { "icon": "calendar", "name": "Scheduling", "status": "available", "body": "A week view of who is booked on what, with work orders dragged onto the days they are due." },
+          { "icon": "clock", "name": "Time Tracking", "status": "available", "body": "A start/stop timer that survives a pause, plus manual entries — submitted by the worker, then approved or rejected in bulk by someone else, with a reason required on every rejection." },
+          { "icon": "check", "name": "Checklists", "status": "available", "body": "Reusable templates of checkbox and free-text items, completed against a work order so every visit is recorded the same way." },
           { "icon": "chart", "name": "Costs", "status": "available", "body": "A running cost ledger by category, with remaining budget calculated automatically." },
           { "icon": "folder", "name": "Documents", "status": "planned", "body": "A dedicated document vault. Not yet built — client reports currently ship as standalone PDFs." },
           { "icon": "lock", "name": "Client Portal", "status": "available", "body": "Clients log in to see only their own project's status and reports." },
@@ -1295,7 +1301,7 @@
           { "icon": "folder", "name": "Email", "status": "planned", "body": "Send client reports and notifications straight from your own inbox." },
           { "icon": "lock", "name": "Cloud Storage", "status": "planned", "body": "Mirror field-report photos and PDFs to your own storage provider." },
           { "icon": "check", "name": "APIs", "status": "planned", "body": "A documented API for reading and writing NR-BOS data from your own tools." },
-          { "icon": "pencil", "name": "Webhooks", "status": "planned", "body": "Notify your own systems the moment a report is generated or a task changes status." }
+          { "icon": "link", "name": "Webhooks", "status": "available", "body": "Register an endpoint and NR-BOS posts to it when a work order completes, time is approved, or a client report is approved — with a delivery log per subscription." }
         ]
       },
       "demoForm": {
@@ -1339,7 +1345,7 @@
       },
       "cta": {
         "title": "Want NR-BOS for your team?",
-        "body": "It's licensed by subscription code, not a public sign-up form — tell us about your operation and we'll set you up.",
+        "body": "Anyone can create a company account; a subscription code is what unlocks the modules. Tell us about your operation and we'll issue one.",
         "cta": "Book a Demo",
         "trialCta": "Request a 3-Day Trial"
       }
