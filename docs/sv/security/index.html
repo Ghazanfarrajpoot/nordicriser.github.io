@@ -3,6 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#00234B">
   <title>Säkerhet — Nordic Riser AB</title>
   <meta name="description" content="En faktabaserad, verifierad redogörelse för säkerhetspraxis bakom NR-BOS och Medlemsportalen — inklusive det som ännu inte är klart.">
   <meta name="robots" content="index, follow">
@@ -64,17 +71,17 @@
     <span class="nr-lang-code">SV</span>
   </button>
   <ul class="nr-lang-menu" id="langSwitch-mobile-menu">
-    <li><a href="/security/" data-lang="en">English</a></li>
-    <li><a href="/sv/security/" data-lang="sv" class="current">Svenska</a></li>
-    <li><a href="/de/security/" data-lang="de">Deutsch</a></li>
-    <li><a href="/fr/security/" data-lang="fr">Français</a></li>
-    <li><a href="/es/security/" data-lang="es">Español</a></li>
-    <li><a href="/it/security/" data-lang="it">Italiano</a></li>
-    <li><a href="/pl/security/" data-lang="pl">Polski</a></li>
-    <li><a href="/nl/security/" data-lang="nl">Nederlands</a></li>
-    <li><a href="/pt/security/" data-lang="pt">Português</a></li>
-    <li><a href="/ur/security/" data-lang="ur">اردو</a></li>
-    <li><a href="/ar/security/" data-lang="ar">العربية</a></li>
+    <li><a href="/security/" data-lang="en" data-analytics-event="language_change">English</a></li>
+    <li><a href="/sv/security/" data-lang="sv" class="current" data-analytics-event="language_change">Svenska</a></li>
+    <li><a href="/de/security/" data-lang="de" data-analytics-event="language_change">Deutsch</a></li>
+    <li><a href="/fr/security/" data-lang="fr" data-analytics-event="language_change">Français</a></li>
+    <li><a href="/es/security/" data-lang="es" data-analytics-event="language_change">Español</a></li>
+    <li><a href="/it/security/" data-lang="it" data-analytics-event="language_change">Italiano</a></li>
+    <li><a href="/pl/security/" data-lang="pl" data-analytics-event="language_change">Polski</a></li>
+    <li><a href="/nl/security/" data-lang="nl" data-analytics-event="language_change">Nederlands</a></li>
+    <li><a href="/pt/security/" data-lang="pt" data-analytics-event="language_change">Português</a></li>
+    <li><a href="/ur/security/" data-lang="ur" data-analytics-event="language_change">اردو</a></li>
+    <li><a href="/ar/security/" data-lang="ar" data-analytics-event="language_change">العربية</a></li>
   </ul>
 </div>
 </li>
@@ -87,23 +94,24 @@
     <span class="nr-lang-code">SV</span>
   </button>
   <ul class="nr-lang-menu" id="langSwitch-desktop-menu">
-    <li><a href="/security/" data-lang="en">English</a></li>
-    <li><a href="/sv/security/" data-lang="sv" class="current">Svenska</a></li>
-    <li><a href="/de/security/" data-lang="de">Deutsch</a></li>
-    <li><a href="/fr/security/" data-lang="fr">Français</a></li>
-    <li><a href="/es/security/" data-lang="es">Español</a></li>
-    <li><a href="/it/security/" data-lang="it">Italiano</a></li>
-    <li><a href="/pl/security/" data-lang="pl">Polski</a></li>
-    <li><a href="/nl/security/" data-lang="nl">Nederlands</a></li>
-    <li><a href="/pt/security/" data-lang="pt">Português</a></li>
-    <li><a href="/ur/security/" data-lang="ur">اردو</a></li>
-    <li><a href="/ar/security/" data-lang="ar">العربية</a></li>
+    <li><a href="/security/" data-lang="en" data-analytics-event="language_change">English</a></li>
+    <li><a href="/sv/security/" data-lang="sv" class="current" data-analytics-event="language_change">Svenska</a></li>
+    <li><a href="/de/security/" data-lang="de" data-analytics-event="language_change">Deutsch</a></li>
+    <li><a href="/fr/security/" data-lang="fr" data-analytics-event="language_change">Français</a></li>
+    <li><a href="/es/security/" data-lang="es" data-analytics-event="language_change">Español</a></li>
+    <li><a href="/it/security/" data-lang="it" data-analytics-event="language_change">Italiano</a></li>
+    <li><a href="/pl/security/" data-lang="pl" data-analytics-event="language_change">Polski</a></li>
+    <li><a href="/nl/security/" data-lang="nl" data-analytics-event="language_change">Nederlands</a></li>
+    <li><a href="/pt/security/" data-lang="pt" data-analytics-event="language_change">Português</a></li>
+    <li><a href="/ur/security/" data-lang="ur" data-analytics-event="language_change">اردو</a></li>
+    <li><a href="/ar/security/" data-lang="ar" data-analytics-event="language_change">العربية</a></li>
   </ul>
 </div>
 </div>
   </div>
 </nav>
 
+<main>
 
 
 <section class="page-hero">
@@ -124,12 +132,12 @@
   <div class="section-inner-narrow" data-animate>
 
     <div class="doc-section">
-      <div class="updated-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5.5" width="16" height="14.5" rx="2"/><path d="M4 9.5h16M8 3.5v4M16 3.5v4"/></svg> Senast uppdaterad: 5 september 2026</div><p>Den här sidan beskriver de säkerhetsrutiner som faktiskt är implementerade i våra produkter — Medlemsportalen och NR-BOS — verifierade direkt mot vår egen källkod innan publicering. Det är inte ett certifieringsintyg, och det ersätter inte din egen due diligence.</p><p>Där något ännu håller på att färdigställas snarare än att vara helt byggt säger vi det rakt ut, med samma statusetiketter som används på andra ställen på webbplatsen.</p>
+      <div class="updated-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5.5" width="16" height="14.5" rx="2"/><path d="M4 9.5h16M8 3.5v4M16 3.5v4"/></svg> Senast uppdaterad: 16 september 2026</div><p>Den här sidan beskriver de säkerhetsrutiner som faktiskt är implementerade i våra produkter — Medlemsportalen och NR-BOS — verifierade direkt mot vår egen källkod innan publicering. Det är inte ett certifieringsintyg, och det ersätter inte din egen due diligence.</p><p>Där något ännu håller på att färdigställas snarare än att vara helt byggt säger vi det rakt ut, med samma statusetiketter som används på andra ställen på webbplatsen.</p>
     </div>
 
     <div class="doc-section">
       <h2>Autentisering och åtkomstkontroll <span class="status-badge status-badge--available">Tillgänglig nu</span></h2>
-      <p><strong>NR-BOS:</strong> Autentiserar användare med kortlivade JWT-åtkomsttoken och roterande refresh-token. Lösenord hashas med bcrypt — lagras aldrig i klartext. Varje förfrågan kontrolleras mot en av fyra roller (Admin, Projektledare, Fältarbetare, Kund), och användare ser endast det deras roll tillåter.</p>
+      <p><strong>NR-BOS:</strong> Autentiserar användare med kortlivade JWT-åtkomsttoken och roterande refresh-token. Lösenord hashas med bcrypt — lagras aldrig i klartext. Varje förfrågan kontrolleras mot en av fyra roller (Admin, Projektledare, Fältarbetare, Kund), och användare ser endast det deras roll tillåter. Inloggning är hastighetsbegränsad — fem inloggningsförsök och tio förnyelser av token per minut — så ett stulet eller gissat lösenord kan inte provas i snabb takt.</p>
       <p><strong>Medlemsportalen:</strong> Använder Firebase Authentication (e-post och lösenord). Säkerhetsregler i Firestore och Storage begränsar varje användare till sina egna dokument, ärenden, fakturor och filer — verkställt på serversidan, inte bara dolt i gränssnittet. Administratörsåtkomst är begränsad till Nordic Riser AB:s e-postadresser.</p>
     </div>
 
@@ -139,7 +147,7 @@
 
     <div class="doc-section">
       <h2>Data i vila <span class="status-badge status-badge--planned">Verifiering krävs</span></h2>
-      <p>Uppladdade filer i Medlemsportalen är storleks- och typbegränsade vid uppladdning. Kryptering av data i vila beror på våra underliggande värdleverantörers egen infrastrukturnivåkryptering — vi har ännu inte fastställt och granskat den exakta konfigurationen, så vi kommer inte att hävda en skyddsnivå vi inte själva har verifierat.</p>
+      <p>Uppladdade filer i Medlemsportalen är storleks- och typbegränsade vid uppladdning. Kryptering av data i vila beror på våra underliggande värdleverantörers egen infrastrukturnivåkryptering — vi har ännu inte fastställt och granskat den exakta konfigurationen, så vi kommer inte att hävda en skyddsnivå vi inte själva har verifierat. En hemlighet i NR-BOS lagras medvetet i klartext: signeringsnyckeln för en utgående webhook-prenumeration. Den måste användas för att beräkna HMAC-signaturen vid varje leverans, inte bara jämföras med, vilket är den modell med delad hemlighet som webhook-system i allmänhet använder. Den visas för administratören en gång, när prenumerationen skapas, och returneras aldrig av något endpoint därefter.</p>
     </div>
   </div>
 </section>
@@ -158,11 +166,6 @@
         <span class="status-badge status-badge--planned">Planerad</span>
         <h3>Automatiserad sårbarhetsskanning</h3>
         <p>Skanning av beroenden och sårbarheter är ännu inte inkopplad i vår byggprocess.</p>
-      </div>
-      <div class="portfolio-card">
-        <span class="status-badge status-badge--planned">Planerad</span>
-        <h3>Hastighetsbegränsning för inloggning</h3>
-        <p>Skydd mot brute-force-attacker på inloggningsendpoints, utöver lösenordshashning, är ännu inte på plats.</p>
       </div>
       <div class="portfolio-card">
         <span class="status-badge status-badge--planned">Planerad</span>
@@ -193,6 +196,7 @@
   </div>
 </section>
 
+</main>
 <footer class="footer">
   <div class="footer-main footer-main--compact">
     <div class="footer-brand">
@@ -263,8 +267,9 @@
   </div>
 </footer>
 
-<script src="/assets/js/main.js"></script>
-<script src="/assets/js/language-switcher.js"></script>
+<script src="/assets/js/main.js" defer></script>
+<script src="/assets/js/language-switcher.js" defer></script>
+<script src="/assets/js/analytics.js" defer></script>
 
 </body>
 </html>

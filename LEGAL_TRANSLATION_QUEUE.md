@@ -42,10 +42,17 @@ every other language:
    *personuppgiftsbiträde*, not a literal word-for-word rendering). Use each language's
    established GDPR/data-protection-authority terminology, not a fresh translation.
 2. **Section 6.4 of the Privacy Policy (AI Processing in NR-BOS)** discloses, by name, that
-   NR-BOS sends project data — including full employee names — to DeepSeek, a China-based AI
-   provider, with Standard Contractual Clauses as the only transfer safeguard, and that personal
-   identifiers are **not** currently redacted before transmission. This must be translated as
-   plainly and specifically as the English. Do not soften it.
+   NR-BOS sends project data to DeepSeek, a China-based AI provider, with Standard Contractual
+   Clauses as the only transfer safeguard. This must be translated as plainly and specifically
+   as the English. Do not soften it.
+
+   Note, if you worked from an earlier copy of this file: it used to say employee names are sent
+   unredacted. That is no longer what the policy says. "V2.1 Part 4: correct Privacy Policy AI
+   disclosure to match code" (4ef6176) brought it in line with the implementation, which
+   pseudonymizes team members per request before transmission (`buildPseudonymMap` in
+   `ai-insights.service.ts` — the provider only ever receives a generic label). What is *not*
+   pseudonymized, and must stay explicit in translation, is project and company names and
+   cost/budget figures.
 3. **ToS Section 8.5 (Revocation)** states that revoking an NR-BOS license code prevents future
    redemption but does **not** claw back access already granted by an earlier redemption of that
    code — a real product limitation, not a stylistic hedge. Translate it with the same plainness.
