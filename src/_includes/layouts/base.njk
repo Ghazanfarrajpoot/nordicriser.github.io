@@ -20,6 +20,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {# Sitewide favicon. The .ico carries 16/32/48 frames (the 16px one is the
+      shield silhouette alone — "NR" is illegible at that size); the SVG is
+      what modern browsers actually pick up and scales cleanly. Both live in
+      assets/, and the .ico is additionally served from / because browsers
+      and crawlers request /favicon.ico without being told to. #}
+  <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#00234B">
   <title>{{ pageTitle }}</title>
   <meta name="description" content="{{ pageDesc }}">
   <meta name="robots" content="{{ robots | default('noindex, follow' if isEnglishFallback else 'index, follow') }}">
