@@ -665,7 +665,7 @@
       "meta": { "title": "Security — Nordic Riser AB", "description": "A factual, verified account of the security practices behind NR-BOS and the Member Portal — including what isn't finished yet." },
       "hero": { "label": "Security", "h1": "Security at Nordic Riser AB", "body": "A factual account of how our products protect data today — including what isn't finished yet. If something isn't listed here, assume we haven't built it." },
       "breadcrumb": "Security",
-      "updatedBadge": "Last Updated: 5 September 2026",
+      "updatedBadge": "Last Updated: 16 September 2026",
       "intro": [
         "This page describes the security practices actually implemented in our products — the Member Portal and NR-BOS — verified directly against our own source code before publishing. It is not a compliance certification, and it isn't a substitute for your own due diligence.",
         "Where something is still being finalized rather than fully built, we say so plainly, using the same status labels used elsewhere on this site."
@@ -675,7 +675,7 @@
         "auth": {
           "title": "Authentication & Access Control",
           "nrbosLabel": "NR-BOS:",
-          "nrbosBody": "Authenticates users with short-lived JWT access tokens and rotating refresh tokens. Passwords are hashed with bcrypt — never stored in plain text. Every request is checked against one of four roles (Admin, Project Manager, Field Worker, Client), and users only see what their role permits.",
+          "nrbosBody": "Authenticates users with short-lived JWT access tokens and rotating refresh tokens. Passwords are hashed with bcrypt — never stored in plain text. Every request is checked against one of four roles (Admin, Project Manager, Field Worker, Client), and users only see what their role permits. Sign-in is rate-limited — five login attempts and ten token refreshes per minute — so a stolen or guessed password cannot be tried at speed.",
           "portalLabel": "Member Portal:",
           "portalBody": "Uses Firebase Authentication (email and password). Firestore and Storage security rules restrict each user to their own documents, cases, invoices, and files — enforced server-side, not just hidden in the interface. Admin access is restricted to Nordic Riser AB email addresses."
         },
@@ -688,7 +688,7 @@
         },
         "rest": {
           "title": "Data at Rest",
-          "body": "Uploaded files in the Member Portal are size- and type-restricted at upload. Encryption of data at rest depends on our underlying hosting providers' own infrastructure-level encryption — we have not yet finalized and audited the specific configuration, so we aren't going to claim a level of protection we haven't verified ourselves."
+          "body": "Uploaded files in the Member Portal are size- and type-restricted at upload. Encryption of data at rest depends on our underlying hosting providers' own infrastructure-level encryption — we have not yet finalized and audited the specific configuration, so we aren't going to claim a level of protection we haven't verified ourselves. One NR-BOS secret is deliberately stored in plain text: the signing key for an outbound webhook subscription. It has to be used to compute the HMAC signature on every delivery rather than merely compared against, which is the shared-secret model webhook systems generally use. It is shown to the administrator once, when the subscription is created, and is never returned by any endpoint afterwards."
         }
       },
       "building": {
@@ -697,7 +697,6 @@
         "items": [
           { "name": "Formal Certification", "body": "We have not pursued any formal security certification (e.g. ISO 27001, SOC 2) yet." },
           { "name": "Automated Vulnerability Scanning", "body": "Dependency and vulnerability scanning is not yet wired into our build process." },
-          { "name": "Login Rate Limiting", "body": "Brute-force protection on login endpoints, beyond password hashing, is not yet in place." },
           { "name": "Security Response Headers", "body": "Headers such as HSTS and a Content Security Policy are not yet configured on the NR-BOS API." },
           { "name": "NR-BOS Audit Log", "body": "The Member Portal logs case and document activity; NR-BOS itself does not yet have an equivalent audit trail." },
           { "name": "Documented Backup & Incident Response", "body": "We back up our infrastructure, but a written, tested recovery and incident-response plan is not yet finalized enough to publish here." }
