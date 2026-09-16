@@ -3,6 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#00234B">
   <title>Parlez-nous de votre projet — ou de votre situation — Nordic Riser AB</title>
   <meta name="description" content="Que vous développiez un logiciel ou établissiez une entreprise en Europe, nous commençons par comprendre ce dont vous avez réellement besoin. Complétez le formulaire ci-dessous et nous reviendrons vers vous avec une prochaine étape claire et structurée.">
   <meta name="robots" content="index, follow">
@@ -64,17 +71,17 @@
     <span class="nr-lang-code">FR</span>
   </button>
   <ul class="nr-lang-menu" id="langSwitch-mobile-menu">
-    <li><a href="/contact/" data-lang="en">English</a></li>
-    <li><a href="/sv/contact/" data-lang="sv">Svenska</a></li>
-    <li><a href="/de/contact/" data-lang="de">Deutsch</a></li>
-    <li><a href="/fr/contact/" data-lang="fr" class="current">Français</a></li>
-    <li><a href="/es/contact/" data-lang="es">Español</a></li>
-    <li><a href="/it/contact/" data-lang="it">Italiano</a></li>
-    <li><a href="/pl/contact/" data-lang="pl">Polski</a></li>
-    <li><a href="/nl/contact/" data-lang="nl">Nederlands</a></li>
-    <li><a href="/pt/contact/" data-lang="pt">Português</a></li>
-    <li><a href="/ur/contact/" data-lang="ur">اردو</a></li>
-    <li><a href="/ar/contact/" data-lang="ar">العربية</a></li>
+    <li><a href="/contact/" data-lang="en" data-analytics-event="language_change">English</a></li>
+    <li><a href="/sv/contact/" data-lang="sv" data-analytics-event="language_change">Svenska</a></li>
+    <li><a href="/de/contact/" data-lang="de" data-analytics-event="language_change">Deutsch</a></li>
+    <li><a href="/fr/contact/" data-lang="fr" class="current" data-analytics-event="language_change">Français</a></li>
+    <li><a href="/es/contact/" data-lang="es" data-analytics-event="language_change">Español</a></li>
+    <li><a href="/it/contact/" data-lang="it" data-analytics-event="language_change">Italiano</a></li>
+    <li><a href="/pl/contact/" data-lang="pl" data-analytics-event="language_change">Polski</a></li>
+    <li><a href="/nl/contact/" data-lang="nl" data-analytics-event="language_change">Nederlands</a></li>
+    <li><a href="/pt/contact/" data-lang="pt" data-analytics-event="language_change">Português</a></li>
+    <li><a href="/ur/contact/" data-lang="ur" data-analytics-event="language_change">اردو</a></li>
+    <li><a href="/ar/contact/" data-lang="ar" data-analytics-event="language_change">العربية</a></li>
   </ul>
 </div>
 </li>
@@ -87,23 +94,24 @@
     <span class="nr-lang-code">FR</span>
   </button>
   <ul class="nr-lang-menu" id="langSwitch-desktop-menu">
-    <li><a href="/contact/" data-lang="en">English</a></li>
-    <li><a href="/sv/contact/" data-lang="sv">Svenska</a></li>
-    <li><a href="/de/contact/" data-lang="de">Deutsch</a></li>
-    <li><a href="/fr/contact/" data-lang="fr" class="current">Français</a></li>
-    <li><a href="/es/contact/" data-lang="es">Español</a></li>
-    <li><a href="/it/contact/" data-lang="it">Italiano</a></li>
-    <li><a href="/pl/contact/" data-lang="pl">Polski</a></li>
-    <li><a href="/nl/contact/" data-lang="nl">Nederlands</a></li>
-    <li><a href="/pt/contact/" data-lang="pt">Português</a></li>
-    <li><a href="/ur/contact/" data-lang="ur">اردو</a></li>
-    <li><a href="/ar/contact/" data-lang="ar">العربية</a></li>
+    <li><a href="/contact/" data-lang="en" data-analytics-event="language_change">English</a></li>
+    <li><a href="/sv/contact/" data-lang="sv" data-analytics-event="language_change">Svenska</a></li>
+    <li><a href="/de/contact/" data-lang="de" data-analytics-event="language_change">Deutsch</a></li>
+    <li><a href="/fr/contact/" data-lang="fr" class="current" data-analytics-event="language_change">Français</a></li>
+    <li><a href="/es/contact/" data-lang="es" data-analytics-event="language_change">Español</a></li>
+    <li><a href="/it/contact/" data-lang="it" data-analytics-event="language_change">Italiano</a></li>
+    <li><a href="/pl/contact/" data-lang="pl" data-analytics-event="language_change">Polski</a></li>
+    <li><a href="/nl/contact/" data-lang="nl" data-analytics-event="language_change">Nederlands</a></li>
+    <li><a href="/pt/contact/" data-lang="pt" data-analytics-event="language_change">Português</a></li>
+    <li><a href="/ur/contact/" data-lang="ur" data-analytics-event="language_change">اردو</a></li>
+    <li><a href="/ar/contact/" data-lang="ar" data-analytics-event="language_change">العربية</a></li>
   </ul>
 </div>
 </div>
   </div>
 </nav>
 
+<main>
 
 
 <section class="page-hero">
@@ -127,7 +135,7 @@
       <h2>Formulaire de projet et de demande</h2>
       <p class="form-intro">Merci de fournir des informations précises sur votre projet ou votre situation. Cela nous permet d&#39;évaluer le périmètre et de préparer un premier échange productif — qu&#39;il s&#39;agisse d&#39;un devis à prix fixe ou d&#39;une consultation structurée.</p>
 
-      <form class="consultation-form" id="consultationForm">
+      <form class="consultation-form" id="consultationForm" data-analytics-event="contact_form_submit">
         <div class="form-row">
           <div class="field">
             <label for="firstName">Prénom <span class="required">*</span></label>
@@ -295,6 +303,7 @@ Ce que nous souhaitons évaluer pendant l&#39;essai : " required></textarea>
   </div>
 </section>
 
+</main>
 <footer class="footer">
   <div class="footer-main footer-main--compact">
     <div class="footer-brand">
@@ -365,8 +374,9 @@ Ce que nous souhaitons évaluer pendant l&#39;essai : " required></textarea>
   </div>
 </footer>
 
-<script src="/assets/js/main.js"></script>
-<script src="/assets/js/language-switcher.js"></script>
+<script src="/assets/js/main.js" defer></script>
+<script src="/assets/js/language-switcher.js" defer></script>
+<script src="/assets/js/analytics.js" defer></script>
 
 </body>
 </html>

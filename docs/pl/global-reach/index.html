@@ -3,6 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#00234B">
   <title>Współpracuj ponad granicami — Twoje pierwsze 100 wiadomości jest darmowe — Nordic Riser AB</title>
   <meta name="description" content="Dołącz do pokoi live ze wspólnymi tablicami i czatem tłumaczonym w czasie rzeczywistym — każdy czyta i pisze w swoim własnym języku.">
   <meta name="robots" content="index, follow">
@@ -16,6 +23,46 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Współpracuj ponad granicami — Twoje pierwsze 100 wiadomości jest darmowe — Nordic Riser AB">
   <meta name="twitter:description" content="Dołącz do pokoi live ze wspólnymi tablicami i czatem tłumaczonym w czasie rzeczywistym — każdy czyta i pisze w swoim własnym języku.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Co liczy się jako wiadomość?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Każda wiadomość czatu wysłana w pokoju lub w wiadomościach 1 do 1 liczy się do Twojego miesięcznego limitu. Przetłumaczenie jej dla innych uczestników nie zużywa dodatkowych wiadomości."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Co się dzieje, gdy skończą mi się darmowe wiadomości?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Twoje pokoje, tablice i historia wiadomości pozostają w pełni dostępne. Wysyłanie kolejnych tłumaczonych wiadomości czatu wymaga uaktualnienia do płatnego planu."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Jakie języki są obsługiwane?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pełne wsparcie interfejsu w językach angielskim, szwedzkim, niemieckim, francuskim, hiszpańskim, włoskim, polskim, niderlandzkim, portugalskim, urdu i arabskim, z tłumaczeniem czatu dostępnym również w innych językach."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Czy moje dane są prywatne?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tak — wiadomości i dokumenty są przetwarzane zgodnie z naszą Polityką prywatności, zgodną z RODO, która dokładnie określa, co gromadzimy i dlaczego."
+        }
+      }
+    ]
+  }
+  </script>
   <link rel="alternate" hreflang="en" href="https://nordicriser.com/global-reach/">
   <link rel="alternate" hreflang="sv" href="https://nordicriser.com/sv/global-reach/">
   <link rel="alternate" hreflang="de" href="https://nordicriser.com/de/global-reach/">
@@ -64,17 +111,17 @@
     <span class="nr-lang-code">PL</span>
   </button>
   <ul class="nr-lang-menu" id="langSwitch-mobile-menu">
-    <li><a href="/global-reach/" data-lang="en">English</a></li>
-    <li><a href="/sv/global-reach/" data-lang="sv">Svenska</a></li>
-    <li><a href="/de/global-reach/" data-lang="de">Deutsch</a></li>
-    <li><a href="/fr/global-reach/" data-lang="fr">Français</a></li>
-    <li><a href="/es/global-reach/" data-lang="es">Español</a></li>
-    <li><a href="/it/global-reach/" data-lang="it">Italiano</a></li>
-    <li><a href="/pl/global-reach/" data-lang="pl" class="current">Polski</a></li>
-    <li><a href="/nl/global-reach/" data-lang="nl">Nederlands</a></li>
-    <li><a href="/pt/global-reach/" data-lang="pt">Português</a></li>
-    <li><a href="/ur/global-reach/" data-lang="ur">اردو</a></li>
-    <li><a href="/ar/global-reach/" data-lang="ar">العربية</a></li>
+    <li><a href="/global-reach/" data-lang="en" data-analytics-event="language_change">English</a></li>
+    <li><a href="/sv/global-reach/" data-lang="sv" data-analytics-event="language_change">Svenska</a></li>
+    <li><a href="/de/global-reach/" data-lang="de" data-analytics-event="language_change">Deutsch</a></li>
+    <li><a href="/fr/global-reach/" data-lang="fr" data-analytics-event="language_change">Français</a></li>
+    <li><a href="/es/global-reach/" data-lang="es" data-analytics-event="language_change">Español</a></li>
+    <li><a href="/it/global-reach/" data-lang="it" data-analytics-event="language_change">Italiano</a></li>
+    <li><a href="/pl/global-reach/" data-lang="pl" class="current" data-analytics-event="language_change">Polski</a></li>
+    <li><a href="/nl/global-reach/" data-lang="nl" data-analytics-event="language_change">Nederlands</a></li>
+    <li><a href="/pt/global-reach/" data-lang="pt" data-analytics-event="language_change">Português</a></li>
+    <li><a href="/ur/global-reach/" data-lang="ur" data-analytics-event="language_change">اردو</a></li>
+    <li><a href="/ar/global-reach/" data-lang="ar" data-analytics-event="language_change">العربية</a></li>
   </ul>
 </div>
 </li>
@@ -87,23 +134,24 @@
     <span class="nr-lang-code">PL</span>
   </button>
   <ul class="nr-lang-menu" id="langSwitch-desktop-menu">
-    <li><a href="/global-reach/" data-lang="en">English</a></li>
-    <li><a href="/sv/global-reach/" data-lang="sv">Svenska</a></li>
-    <li><a href="/de/global-reach/" data-lang="de">Deutsch</a></li>
-    <li><a href="/fr/global-reach/" data-lang="fr">Français</a></li>
-    <li><a href="/es/global-reach/" data-lang="es">Español</a></li>
-    <li><a href="/it/global-reach/" data-lang="it">Italiano</a></li>
-    <li><a href="/pl/global-reach/" data-lang="pl" class="current">Polski</a></li>
-    <li><a href="/nl/global-reach/" data-lang="nl">Nederlands</a></li>
-    <li><a href="/pt/global-reach/" data-lang="pt">Português</a></li>
-    <li><a href="/ur/global-reach/" data-lang="ur">اردو</a></li>
-    <li><a href="/ar/global-reach/" data-lang="ar">العربية</a></li>
+    <li><a href="/global-reach/" data-lang="en" data-analytics-event="language_change">English</a></li>
+    <li><a href="/sv/global-reach/" data-lang="sv" data-analytics-event="language_change">Svenska</a></li>
+    <li><a href="/de/global-reach/" data-lang="de" data-analytics-event="language_change">Deutsch</a></li>
+    <li><a href="/fr/global-reach/" data-lang="fr" data-analytics-event="language_change">Français</a></li>
+    <li><a href="/es/global-reach/" data-lang="es" data-analytics-event="language_change">Español</a></li>
+    <li><a href="/it/global-reach/" data-lang="it" data-analytics-event="language_change">Italiano</a></li>
+    <li><a href="/pl/global-reach/" data-lang="pl" class="current" data-analytics-event="language_change">Polski</a></li>
+    <li><a href="/nl/global-reach/" data-lang="nl" data-analytics-event="language_change">Nederlands</a></li>
+    <li><a href="/pt/global-reach/" data-lang="pt" data-analytics-event="language_change">Português</a></li>
+    <li><a href="/ur/global-reach/" data-lang="ur" data-analytics-event="language_change">اردو</a></li>
+    <li><a href="/ar/global-reach/" data-lang="ar" data-analytics-event="language_change">العربية</a></li>
   </ul>
 </div>
 </div>
   </div>
 </nav>
 
+<main>
 
 
 <section class="page-hero">
@@ -113,7 +161,7 @@
     <h1>Współpracuj ponad granicami — Twoje pierwsze 100 wiadomości jest darmowe</h1>
     <p>Dołącz do pokoi live ze wspólnymi tablicami i czatem tłumaczonym w czasie rzeczywistym — każdy czyta i pisze w swoim własnym języku.</p>
     <div class="hero-ctas">
-      <a href="https://portal.nordicriser.com" class="btn-primary">Zacznij za darmo — 100 wiadomości</a>
+      <a href="https://portal.nordicriser.com" class="btn-primary" data-analytics-event="global_reach_start">Zacznij za darmo — 100 wiadomości</a>
       <a href="#how-it-works" class="btn-secondary">Zobacz, jak to działa</a>
     </div>
     <p class="gr-trust-line">Bez karty płatniczej · Anuluj w każdej chwili · Zgodność z RODO</p>
@@ -129,7 +177,7 @@
       </div>
       <div class="gr-hero-notes">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20 4.6 16.2 15.3 5.5a1.7 1.7 0 0 1 2.4 0l1.8 1.8a1.7 1.7 0 0 1 0 2.4L8.8 19.4 4 20Z"/><path d="M13.7 7 17 10.3"/></svg>
-        <span></span>
+        <span>Shared Session Notes</span>
       </div>
     </div>
     <p class="gr-mock-caption">Przykładowy podgląd</p>
@@ -171,7 +219,7 @@
   <div class="cta-box" data-animate>
     <h2>Gotowy na współpracę ponad granicami?</h2>
     <p>Utwórz darmowe konto i uruchom swój pierwszy pokój w kilka minut.</p>
-    <a href="https://portal.nordicriser.com" class="btn-cta">Zacznij za darmo — 100 wiadomości</a>
+    <a href="https://portal.nordicriser.com" class="btn-cta" data-analytics-event="global_reach_start">Zacznij za darmo — 100 wiadomości</a>
   </div>
 </section>
 
@@ -266,16 +314,17 @@
   <div class="cta-box" data-animate>
     <h2>Zacznij współpracować już dziś</h2>
     <p>Utwórz darmowe konto — bez karty płatniczej — i dołącz do swojego pierwszego pokoju w kilka minut.</p>
-    <a href="https://portal.nordicriser.com" class="btn-cta">Zarejestruj się</a>
+    <a href="https://portal.nordicriser.com" class="btn-cta" data-analytics-event="global_reach_start">Zarejestruj się</a>
     <p class="gr-trust-line">Bez karty płatniczej · Anuluj w każdej chwili · Zgodność z RODO</p>
   </div>
 </section>
 
 <div class="gr-sticky-cta" role="complementary" aria-label="Zacznij za darmo — 100 wiadomości">
   <span>Twoje pierwsze 100 wiadomości jest darmowe</span>
-  <a href="https://portal.nordicriser.com">Zacznij za darmo</a>
+  <a href="https://portal.nordicriser.com" data-analytics-event="global_reach_start">Zacznij za darmo</a>
 </div>
 
+</main>
 <footer class="footer">
   <div class="footer-main footer-main--compact">
     <div class="footer-brand">
@@ -346,8 +395,9 @@
   </div>
 </footer>
 
-<script src="/assets/js/main.js"></script>
-<script src="/assets/js/language-switcher.js"></script>
+<script src="/assets/js/main.js" defer></script>
+<script src="/assets/js/language-switcher.js" defer></script>
+<script src="/assets/js/analytics.js" defer></script>
 
 </body>
 </html>

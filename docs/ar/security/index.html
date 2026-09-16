@@ -3,10 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#00234B">
   <title>Security — Nordic Riser AB</title>
   <meta name="description" content="A factual, verified account of the security practices behind NR-BOS and the Member Portal — including what isn&#39;t finished yet.">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://nordicriser.com/ar/security/">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://nordicriser.com/security/">
   <meta property="og:site_name" content="Nordic Riser AB">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ar">
@@ -65,17 +72,17 @@
     <span class="nr-lang-code">AR</span>
   </button>
   <ul class="nr-lang-menu" id="langSwitch-mobile-menu">
-    <li><a href="/security/" data-lang="en">English</a></li>
-    <li><a href="/sv/security/" data-lang="sv">Svenska</a></li>
-    <li><a href="/de/security/" data-lang="de">Deutsch</a></li>
-    <li><a href="/fr/security/" data-lang="fr">Français</a></li>
-    <li><a href="/es/security/" data-lang="es">Español</a></li>
-    <li><a href="/it/security/" data-lang="it">Italiano</a></li>
-    <li><a href="/pl/security/" data-lang="pl">Polski</a></li>
-    <li><a href="/nl/security/" data-lang="nl">Nederlands</a></li>
-    <li><a href="/pt/security/" data-lang="pt">Português</a></li>
-    <li><a href="/ur/security/" data-lang="ur">اردو</a></li>
-    <li><a href="/ar/security/" data-lang="ar" class="current">العربية</a></li>
+    <li><a href="/security/" data-lang="en" data-analytics-event="language_change">English</a></li>
+    <li><a href="/sv/security/" data-lang="sv" data-analytics-event="language_change">Svenska</a></li>
+    <li><a href="/de/security/" data-lang="de" data-analytics-event="language_change">Deutsch</a></li>
+    <li><a href="/fr/security/" data-lang="fr" data-analytics-event="language_change">Français</a></li>
+    <li><a href="/es/security/" data-lang="es" data-analytics-event="language_change">Español</a></li>
+    <li><a href="/it/security/" data-lang="it" data-analytics-event="language_change">Italiano</a></li>
+    <li><a href="/pl/security/" data-lang="pl" data-analytics-event="language_change">Polski</a></li>
+    <li><a href="/nl/security/" data-lang="nl" data-analytics-event="language_change">Nederlands</a></li>
+    <li><a href="/pt/security/" data-lang="pt" data-analytics-event="language_change">Português</a></li>
+    <li><a href="/ur/security/" data-lang="ur" data-analytics-event="language_change">اردو</a></li>
+    <li><a href="/ar/security/" data-lang="ar" class="current" data-analytics-event="language_change">العربية</a></li>
   </ul>
 </div>
 </li>
@@ -88,23 +95,24 @@
     <span class="nr-lang-code">AR</span>
   </button>
   <ul class="nr-lang-menu" id="langSwitch-desktop-menu">
-    <li><a href="/security/" data-lang="en">English</a></li>
-    <li><a href="/sv/security/" data-lang="sv">Svenska</a></li>
-    <li><a href="/de/security/" data-lang="de">Deutsch</a></li>
-    <li><a href="/fr/security/" data-lang="fr">Français</a></li>
-    <li><a href="/es/security/" data-lang="es">Español</a></li>
-    <li><a href="/it/security/" data-lang="it">Italiano</a></li>
-    <li><a href="/pl/security/" data-lang="pl">Polski</a></li>
-    <li><a href="/nl/security/" data-lang="nl">Nederlands</a></li>
-    <li><a href="/pt/security/" data-lang="pt">Português</a></li>
-    <li><a href="/ur/security/" data-lang="ur">اردو</a></li>
-    <li><a href="/ar/security/" data-lang="ar" class="current">العربية</a></li>
+    <li><a href="/security/" data-lang="en" data-analytics-event="language_change">English</a></li>
+    <li><a href="/sv/security/" data-lang="sv" data-analytics-event="language_change">Svenska</a></li>
+    <li><a href="/de/security/" data-lang="de" data-analytics-event="language_change">Deutsch</a></li>
+    <li><a href="/fr/security/" data-lang="fr" data-analytics-event="language_change">Français</a></li>
+    <li><a href="/es/security/" data-lang="es" data-analytics-event="language_change">Español</a></li>
+    <li><a href="/it/security/" data-lang="it" data-analytics-event="language_change">Italiano</a></li>
+    <li><a href="/pl/security/" data-lang="pl" data-analytics-event="language_change">Polski</a></li>
+    <li><a href="/nl/security/" data-lang="nl" data-analytics-event="language_change">Nederlands</a></li>
+    <li><a href="/pt/security/" data-lang="pt" data-analytics-event="language_change">Português</a></li>
+    <li><a href="/ur/security/" data-lang="ur" data-analytics-event="language_change">اردو</a></li>
+    <li><a href="/ar/security/" data-lang="ar" class="current" data-analytics-event="language_change">العربية</a></li>
   </ul>
 </div>
 </div>
   </div>
 </nav>
 
+<main>
 
 
 <section class="page-hero">
@@ -195,6 +203,7 @@
   </div>
 </section>
 
+</main>
 <footer class="footer">
   <div class="footer-main footer-main--compact">
     <div class="footer-brand">
@@ -265,8 +274,9 @@
   </div>
 </footer>
 
-<script src="/assets/js/main.js"></script>
-<script src="/assets/js/language-switcher.js"></script>
+<script src="/assets/js/main.js" defer></script>
+<script src="/assets/js/language-switcher.js" defer></script>
+<script src="/assets/js/analytics.js" defer></script>
 
 </body>
 </html>
