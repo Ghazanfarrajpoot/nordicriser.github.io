@@ -292,13 +292,27 @@
       "technology": {
         "label": "Stack",
         "title": "What We Build With",
-        "groups": [
-          { "category": "Frontend", "items": "React, Vite, modern CSS" },
-          { "category": "Backend & Data", "items": "Node.js, Firebase, Firestore" },
-          { "category": "Infrastructure", "items": "Firebase Hosting, CDN delivery, automated SSL" },
-          { "category": "Auth & Security", "items": "Firebase Authentication, role-based access control, encrypted storage" },
-          { "category": "Practices", "items": "Git version control, staged deployments, GDPR-compliant data handling" }
-        ]
+        "productGroups": [
+          {
+            "product": "Marketing Site & Client Portal",
+            "items": [
+              { "category": "Frontend", "items": "React, Vite, modern CSS" },
+              { "category": "Backend & Data", "items": "Node.js, Firebase, Firestore" },
+              { "category": "Infrastructure", "items": "Firebase Hosting, CDN delivery, automated SSL" },
+              { "category": "Auth & Security", "items": "Firebase Authentication, role-based access control, encrypted storage" }
+            ]
+          },
+          {
+            "product": "NR-BOS Platform",
+            "items": [
+              { "category": "Frontend", "items": "Next.js 15, React 19" },
+              { "category": "Backend & Data", "items": "NestJS, PostgreSQL, Prisma ORM" },
+              { "category": "Storage & Reporting", "items": "S3-compatible object storage, server-rendered PDF reports" },
+              { "category": "Auth & Security", "items": "JWT authentication, role-based access control per company" }
+            ]
+          }
+        ],
+        "practices": { "category": "Practices", "items": "Git version control, staged deployments, GDPR-compliant data handling" }
       },
       "whyUs": {
         "label": "Why Nordic Riser",
@@ -1193,9 +1207,14 @@
           ]
         },
         {
+          "eyebrow": "Time Tracking",
+          "title": "Hours captured once, trusted everywhere",
+          "body": "A field worker starts and pauses a timer from their phone on site; back office corrects or fills in gaps on a weekly grid. Every entry moves through submitted, approved, or rejected before it feeds anything downstream."
+        },
+        {
           "eyebrow": "Budget",
           "title": "Spend tracked against budget, by category",
-          "body": "Every cost entry — materials, labor, subcontractors, permits — rolls up against the project budget in real time.",
+          "body": "Every cost entry — materials, labor, subcontractors, permits — rolls up against the project budget in real time. Labor cost itself is derived from approved time entries against each employee's pay rate at the time the work was done, not keyed in by hand — and because rates are historised, a pay rise next quarter never silently rewrites what a job cost last quarter. Most tools overwrite the rate in place and quietly corrupt last quarter's numbers; this one doesn't.",
           "shots": [
             { "file": "project-costs.jpg", "caption": "Project detail — cost ledger" }
           ]
@@ -1259,13 +1278,19 @@
           { "icon": "handshake", "name": "CRM", "status": "planned", "body": "Client and contact relationship tracking. Not yet built — client details currently live inside each project record." },
           { "icon": "clipboard", "name": "Projects", "status": "available", "body": "Every job tracked with its own budget, client, and team on a four-stage board." },
           { "icon": "check", "name": "Tasks", "status": "available", "body": "Assignee, due date, and estimated hours on every task, moving through To Do → In Progress → Review → Done." },
-          { "icon": "briefcase", "name": "People", "status": "available", "body": "Company user accounts with role-based access — admin, project manager, field worker, client." },
+          { "icon": "briefcase", "name": "People", "status": "available", "body": "Company user accounts with role-based access, plus employee records with pay rates held against the period they applied to — a rate change never rewrites last quarter's numbers." },
+          { "icon": "clock", "name": "Time Tracking", "status": "available", "body": "Field workers start and pause a timer on site, or a manager corrects hours on a weekly grid — every entry is submitted, approved, or rejected before it counts." },
           { "icon": "wrench", "name": "Field Ops", "status": "available", "body": "Site notes, timestamps, geotagging, and before/after photos logged straight from the field." },
-          { "icon": "chart", "name": "Costs", "status": "available", "body": "A running cost ledger by category, with remaining budget calculated automatically." },
+          { "icon": "pin", "name": "Work Orders", "status": "available", "body": "Dispatch work to a job with a priority and a scheduled date, tracked by status and assignee across every project." },
+          { "icon": "calendar", "name": "Schedule", "status": "available", "body": "Every work order laid out on a day, week, or month calendar, filterable by project, worker, or status." },
+          { "icon": "check", "name": "Checklists", "status": "available", "body": "Reusable checklist templates attached to a work order, so field workers complete the same steps every time." },
+          { "icon": "chart", "name": "Costs", "status": "available", "body": "A running cost ledger by category — including labour cost derived from approved hours, not keyed in by hand — with remaining budget calculated automatically." },
           { "icon": "folder", "name": "Documents", "status": "planned", "body": "A dedicated document vault. Not yet built — client reports currently ship as standalone PDFs." },
           { "icon": "lock", "name": "Client Portal", "status": "available", "body": "Clients log in to see only their own project's status and reports." },
           { "icon": "pencil", "name": "Reporting", "status": "available", "body": "Branded PDF reports generated in one click from a project's tasks, costs, and field photos." },
           { "icon": "target", "name": "Analytics", "status": "available", "body": "Portfolio-wide KPIs, team workload, and budget-vs-actual, updated in real time." },
+          { "icon": "scale", "name": "Revenue & Margin", "status": "planned", "body": "Revenue tracking and true margin, alongside the existing cost side. Not yet built — analytics currently shows budget vs. actual spend only." },
+          { "icon": "calendar", "name": "Forecasting", "status": "planned", "body": "Forward-looking projections for cost, revenue, and delivery. Not yet built." },
           { "icon": "gear", "name": "AI", "status": "available", "body": "A built-in AI assistant reads real project data on demand and returns a structured briefing for decision support — it doesn't act on its own. Enabled per company." }
         ]
       },
@@ -1295,7 +1320,7 @@
           { "icon": "folder", "name": "Email", "status": "planned", "body": "Send client reports and notifications straight from your own inbox." },
           { "icon": "lock", "name": "Cloud Storage", "status": "planned", "body": "Mirror field-report photos and PDFs to your own storage provider." },
           { "icon": "check", "name": "APIs", "status": "planned", "body": "A documented API for reading and writing NR-BOS data from your own tools." },
-          { "icon": "pencil", "name": "Webhooks", "status": "planned", "body": "Notify your own systems the moment a report is generated or a task changes status." }
+          { "icon": "link", "name": "Webhooks", "status": "available", "body": "Outbound webhooks — NR-BOS POSTs a signed payload to your endpoint the moment an event you picked happens, no polling required." }
         ]
       },
       "demoForm": {
@@ -1339,9 +1364,9 @@
       },
       "cta": {
         "title": "Want NR-BOS for your team?",
-        "body": "It's licensed by subscription code, not a public sign-up form — tell us about your operation and we'll set you up.",
-        "cta": "Book a Demo",
-        "trialCta": "Request a 3-Day Trial"
+        "body": "Create your company account free, then unlock it with a subscription code when you're ready — or book a guided walkthrough first if you'd rather see it running before you commit.",
+        "cta": "Create Your Account",
+        "trialCta": "Book a Demo"
       }
     },
     "globalReach": {

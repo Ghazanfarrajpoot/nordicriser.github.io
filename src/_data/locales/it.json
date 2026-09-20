@@ -54,7 +54,7 @@
       "globalReachLinks": [
         { "label": "Come funziona" },
         { "label": "Piani e prezzi" },
-        { "label": "Inizia gratis — 100 messaggi", "external": "https://portal.nordicriser.com" }
+        { "label": "Inizia", "external": "https://portal.nordicriser.com" }
       ]
     },
     "firmLinks": {
@@ -136,7 +136,7 @@
           "Chat tradotta in diretta tra le lingue",
           "I primi 100 messaggi gratuiti — nessuna carta richiesta"
         ],
-        "cta": "Inizia gratis — 100 messaggi"
+        "cta": "Inizia"
       },
       "howWeWork": {
         "label": "Processo",
@@ -152,13 +152,54 @@
       "technology": {
         "label": "Tecnologia",
         "title": "Con Cosa Costruiamo",
-        "groups": [
-          { "category": "Frontend", "items": "React, Vite, CSS moderno" },
-          { "category": "Backend & Dati", "items": "Node.js, Firebase, Firestore" },
-          { "category": "Infrastruttura", "items": "Firebase Hosting, distribuzione CDN, SSL automatizzato" },
-          { "category": "Autenticazione & Sicurezza", "items": "Firebase Authentication, controllo degli accessi basato sui ruoli, archiviazione crittografata" },
-          { "category": "Pratiche", "items": "Controllo versione Git, distribuzioni graduali, gestione dei dati conforme al GDPR" }
-        ]
+        "productGroups": [
+          {
+            "product": "Sito di marketing e portale clienti",
+            "items": [
+              {
+                "category": "Frontend",
+                "items": "React, Vite, CSS moderno"
+              },
+              {
+                "category": "Backend & Dati",
+                "items": "Node.js, Firebase, Firestore"
+              },
+              {
+                "category": "Infrastruttura",
+                "items": "Firebase Hosting, distribuzione CDN, SSL automatizzato"
+              },
+              {
+                "category": "Autenticazione & Sicurezza",
+                "items": "Firebase Authentication, controllo degli accessi basato sui ruoli, archiviazione crittografata"
+              }
+            ]
+          },
+          {
+            "product": "Piattaforma NR-BOS",
+            "items": [
+              {
+                "category": "Frontend",
+                "items": "Next.js 15, React 19"
+              },
+              {
+                "category": "Backend & Dati",
+                "items": "NestJS, PostgreSQL, Prisma ORM"
+              },
+              {
+                "category": "Archiviazione e reportistica",
+                "items": "Archiviazione oggetti compatibile con S3, report PDF renderizzati lato server"
+              },
+              {
+                "category": "Autenticazione & Sicurezza",
+                "items": "Autenticazione JWT, controllo degli accessi basato sui ruoli per azienda"
+              }
+            ]
+          }
+        ],
+        "practices": {
+          "category": "Pratiche",
+          "items": "Controllo versione Git, distribuzioni graduali, gestione dei dati conforme al GDPR"
+        }
       },
       "whyUs": {
         "label": "Perché Nordic Riser",
@@ -612,12 +653,339 @@
       "note": "Questi sono i nostri stessi prodotti e piattaforme — sviluppati, lanciati e mantenuti internamente. I lavori per i clienti verranno presentati qui man mano che gli incarichi saranno completati.",
       "cta": { "title": "Hai un Progetto in Mente?", "body": "Raccontaci cosa stai costruendo. Torneremo da te con un ambito chiaro, una tempistica realistica e un prezzo fisso.", "cta": "Avvia un Progetto" }
     },
+    "nrBos": {
+      "meta": {
+        "title": "NR-BOS — Sistema Operativo Aziendale — Nordic Riser AB",
+        "description": "Dentro NR-BOS: tracciamento di progetti e attività, controllo del budget, report di campo con foto, insight assistiti dall'IA, report PDF brandizzati per i clienti e licenze basate su codice."
+      },
+      "hero": {
+        "label": "NR-BOS",
+        "h1": "Il sistema operativo aziendale per le imprese guidate da progetti",
+        "tagline": "Pianifica. Esegui. Monitora. Rendiconta. Analizza.",
+        "body": "Gestisci progetti, operazioni sul campo, costi, team e reportistica clienti da un'unica piattaforma connessa. Costruito e utilizzato prima internamente presso Nordic Riser — le schermate qui sotto provengono da quell'ambiente reale, popolato con dati di progetto di esempio."
+      },
+      "breadcrumb": "NR-BOS",
+      "backLink": "Torna a Lavori",
+      "tour": [
+        {
+          "eyebrow": "Panoramica",
+          "title": "Una lettura in tempo reale di ogni progetto",
+          "body": "KPI a livello di portafoglio, budget rispetto alla spesa effettiva e carico di lavoro del team — la prima cosa che chiunque apre ogni mattina.",
+          "shots": [
+            {
+              "file": "dashboard-overview.jpg",
+              "caption": "Dashboard — KPI di portafoglio e budget vs effettivo"
+            },
+            {
+              "file": "dashboard-team-workload.jpg",
+              "caption": "Dashboard — carico del team per stato"
+            }
+          ]
+        },
+        {
+          "eyebrow": "Progetti",
+          "title": "Ogni commessa, tracciata fino all'attività",
+          "body": "I progetti hanno un proprio budget, cliente e team. Il lavoro all'interno di ciascuno gira su una bacheca a quattro colonne — da fare, in corso, revisione, fatto.",
+          "shots": [
+            {
+              "file": "projects-list.jpg",
+              "caption": "Progetti — portafoglio a colpo d'occhio"
+            },
+            {
+              "file": "project-kanban.jpg",
+              "caption": "Dettaglio progetto — bacheca attività"
+            }
+          ]
+        },
+        {
+          "eyebrow": "Rilevazione ore",
+          "title": "Ore registrate una volta, affidabili ovunque",
+          "body": "Un operatore sul campo avvia e mette in pausa un timer dal telefono in cantiere; l'ufficio corregge o completa i vuoti su una griglia settimanale. Ogni voce passa per inviata, approvata o respinta prima di alimentare qualsiasi cosa a valle."
+        },
+        {
+          "eyebrow": "Budget",
+          "title": "Spesa tracciata rispetto al budget, per categoria",
+          "body": "Ogni voce di costo — materiali, manodopera, subappaltatori, permessi — confluisce in tempo reale nel budget del progetto. Il costo del lavoro stesso è derivato dalle ore approvate rispetto alla tariffa di ciascun dipendente al momento in cui il lavoro è stato svolto, non inserito a mano — e poiché le tariffe sono storicizzate, un aumento salariale il trimestre successivo non riscrive mai silenziosamente quanto è costato un lavoro il trimestre scorso. La maggior parte degli strumenti sovrascrive la tariffa sul posto e corrompe silenziosamente i numeri del trimestre precedente; questo no.",
+          "shots": [
+            {
+              "file": "project-costs.jpg",
+              "caption": "Dettaglio progetto — registro costi"
+            }
+          ]
+        },
+        {
+          "eyebrow": "Lavoro sul campo",
+          "title": "Cosa è successo in cantiere, con prova",
+          "body": "I team sul campo registrano note di avanzamento e foto direttamente dal sito — incluse coppie di foto prima/dopo per lavori facili da descrivere ma difficili da immaginare.",
+          "shots": [
+            {
+              "file": "field-report-notes.jpg",
+              "caption": "Report di campo — note di sito e foto"
+            },
+            {
+              "file": "field-report-before-after.jpg",
+              "caption": "Report di campo — prima / dopo"
+            }
+          ]
+        },
+        {
+          "eyebrow": "Assistente IA",
+          "title": "Rischio, costo e produttività — letti dall'IA",
+          "body": "Su richiesta, un assistente IA legge le attività, i costi e i dati del team reali di un progetto e restituisce un briefing strutturato su rischio, costo o produttività — non consigli generici.",
+          "shots": [
+            {
+              "file": "ai-insights.jpg",
+              "caption": "Insight IA — analisi del rischio"
+            }
+          ]
+        },
+        {
+          "eyebrow": "Report clienti",
+          "title": "Un PDF brandizzato, generato con un clic",
+          "body": "Raccogli le attività, i costi e le foto di campo recenti di un progetto in un report PDF pronto per il cliente — prima come bozza, poi contrassegnato come inviato quando è pronto.",
+          "shots": [
+            {
+              "file": "client-report-generate.jpg",
+              "caption": "Generazione di un report cliente"
+            },
+            {
+              "file": "client-report-pdf.jpg",
+              "caption": "Report cliente generato (PDF)"
+            }
+          ]
+        },
+        {
+          "eyebrow": "Team e licenze",
+          "title": "Accesso basato sui ruoli, concesso in licenza tramite codice",
+          "body": "Amministratori, project manager, operatori sul campo e clienti vedono ciascuno solo ciò che è loro. L'accesso stesso funziona con codici di abbonamento riscattabili, emessi in lotti — nessun fornitore di pagamenti richiesto.",
+          "shots": [
+            {
+              "file": "team-users.jpg",
+              "caption": "Utenti — organico e ruoli aziendali"
+            },
+            {
+              "file": "subscription-plan.jpg",
+              "caption": "Abbonamento — piano attivo"
+            },
+            {
+              "file": "license-batches.jpg",
+              "caption": "Lotti di licenze — codici di riscatto"
+            }
+          ]
+        }
+      ],
+      "workflow": {
+        "label": "Come funziona davvero",
+        "title": "Dalla pianificazione al report cliente — un flusso connesso",
+        "steps": [
+          {
+            "title": "Pianifica",
+            "body": "Un progetto viene impostato con un proprio budget, cliente e team."
+          },
+          {
+            "title": "Assegna",
+            "body": "Le attività vengono assegnate con una scadenza e ore stimate."
+          },
+          {
+            "title": "Esegui",
+            "body": "Il team lavora sulla commessa — le attività avanzano sulla bacheca man mano che il lavoro procede."
+          },
+          {
+            "title": "Cattura",
+            "body": "I team sul campo registrano note di sito, foto, timestamp e posizione direttamente dal lavoro."
+          },
+          {
+            "title": "Rivedi",
+            "body": "L'attività passa per la fase di revisione della bacheca prima di essere contrassegnata come completata."
+          },
+          {
+            "title": "Monitora",
+            "body": "KPI di portafoglio, carico di lavoro e budget vs effettivo si aggiornano automaticamente man mano che arrivano i dati."
+          },
+          {
+            "title": "Analizza",
+            "body": "Su richiesta, l'IA legge i dati di progetto aggiornati e restituisce un briefing su rischio, costo e produttività — supporto alla decisione, non un'azione autonoma."
+          },
+          {
+            "title": "Rendiconta",
+            "body": "Un PDF brandizzato raccoglie le attività, i costi e le foto di campo recenti del progetto."
+          },
+          {
+            "title": "Cliente",
+            "body": "Il cliente vede il report — e, nel proprio accesso, solo ciò che è suo."
+          }
+        ]
+      },
+      "moduleMap": {
+        "label": "Mappa dei moduli",
+        "title": "Cosa è stato costruito, cosa sta arrivando",
+        "items": [
+          {"icon":"handshake","name":"CRM","status":"planned","body":"Tracciamento delle relazioni con clienti e contatti. Non ancora costruito — i dati cliente vivono attualmente in ogni scheda progetto."},
+          {"icon":"clipboard","name":"Progetti","status":"available","body":"Ogni commessa tracciata con un proprio budget, cliente e team su una bacheca a quattro fasi."},
+          {"icon":"check","name":"Attività","status":"available","body":"Responsabile, scadenza e ore stimate su ogni attività, che avanza tra Da fare → In corso → Revisione → Fatto."},
+          {"icon":"briefcase","name":"Personale","status":"available","body":"Account utente aziendali con accesso basato sui ruoli, più schede dipendente con tariffe salariali legate al periodo in cui erano valide — una modifica di tariffa non riscrive mai i numeri del trimestre scorso."},
+          {"icon":"clock","name":"Rilevazione ore","status":"available","body":"Gli operatori sul campo avviano e mettono in pausa un timer in cantiere, oppure un responsabile corregge le ore su una griglia settimanale — ogni voce viene inviata, approvata o respinta prima di contare."},
+          {"icon":"wrench","name":"Operazioni sul campo","status":"available","body":"Note di sito, timestamp, geolocalizzazione e foto prima/dopo registrate direttamente dal campo."},
+          {"icon":"pin","name":"Ordini di lavoro","status":"available","body":"Assegna il lavoro a una commessa con una priorità e una data programmata, tracciato per stato e assegnatario in tutti i progetti."},
+          {"icon":"calendar","name":"Pianificazione","status":"available","body":"Ogni ordine di lavoro disposto su un calendario giornaliero, settimanale o mensile, filtrabile per progetto, operatore o stato."},
+          {"icon":"check","name":"Liste di controllo","status":"available","body":"Modelli di liste di controllo riutilizzabili allegati a un ordine di lavoro, così gli operatori sul campo seguono sempre gli stessi passaggi."},
+          {"icon":"chart","name":"Costi","status":"available","body":"Un registro costi continuo per categoria — incluso il costo del lavoro derivato dalle ore approvate, non inserito a mano — con budget residuo calcolato automaticamente."},
+          {"icon":"folder","name":"Documenti","status":"planned","body":"Un archivio documentale dedicato. Non ancora costruito — i report clienti vengono attualmente consegnati come PDF autonomi."},
+          {"icon":"lock","name":"Portale cliente","status":"available","body":"I clienti accedono e vedono solo lo stato e i report del proprio progetto."},
+          {"icon":"pencil","name":"Reportistica","status":"available","body":"Report PDF brandizzati generati con un clic dalle attività, dai costi e dalle foto di campo di un progetto."},
+          {"icon":"target","name":"Analisi","status":"available","body":"KPI di portafoglio, carico del team e budget vs effettivo, aggiornati in tempo reale."},
+          {"icon":"scale","name":"Ricavi e margine","status":"planned","body":"Tracciamento dei ricavi e margine reale, accanto al lato costi esistente. Non ancora costruito — l'analisi attualmente mostra solo budget vs spesa effettiva."},
+          {"icon":"calendar","name":"Previsioni","status":"planned","body":"Proiezioni prospettiche per costi, ricavi e consegna. Non ancora costruito."},
+          {"icon":"gear","name":"IA","status":"available","body":"Un assistente IA integrato legge dati di progetto reali su richiesta e restituisce un briefing strutturato a supporto della decisione — non agisce di propria iniziativa. Attivabile per azienda."}
+        ]
+      },
+      "industries": {
+        "label": "Progettato per",
+        "title": "Lo stesso flusso di lavoro, applicato al tuo settore",
+        "items": [
+          {
+            "name": "Edilizia",
+            "body": "Traccia ogni commessa rispetto al suo budget, registra l'avanzamento in cantiere con foto e consegna al cliente un report brandizzato senza lasciare la piattaforma."
+          },
+          {
+            "name": "Imprese appaltatrici",
+            "body": "Gestisci più commesse cliente contemporaneamente — ciascuna con proprio budget, team e bacheca attività — senza perdere traccia di chi fa cosa."
+          },
+          {
+            "name": "Manutenzione immobiliare",
+            "body": "Assegna ordini di lavoro ricorrenti, cattura prove prima/dopo a ogni visita e mantieni un registro costi continuo per immobile."
+          },
+          {
+            "name": "Facility management",
+            "body": "Coordina un team distribuito su più sedi, con una lettura in tempo reale del carico e del budget sull'intero portafoglio."
+          },
+          {
+            "name": "Servizi sul campo",
+            "body": "Distribuisci attività con scadenza e ore stimate, poi cattura note, foto e posizione nel momento in cui il lavoro è completato."
+          },
+          {
+            "name": "Installazione",
+            "body": "Sposta una commessa da pianificata a completata con prova fotografica a ogni fase, supportata da un registro costi per materiali e manodopera."
+          },
+          {
+            "name": "Ingegneria",
+            "body": "Mantieni attività, budget e documentazione di campo collegati alla stessa scheda progetto — niente più foglio di calcolo separato da riconciliare."
+          },
+          {
+            "name": "Pulizia e manutenzione",
+            "body": "Traccia le visite ricorrenti, registra note e foto sul posto, e offri ai clienti un report chiaro di cosa è stato fatto e quando."
+          }
+        ]
+      },
+      "integrations": {
+        "label": "Roadmap di integrazione",
+        "title": "Cosa si collega a NR-BOS, e quando",
+        "items": [
+          {"icon":"chart","name":"Contabilità","status":"planned","body":"Sincronizza le voci di costo e la fatturazione con il tuo sistema contabile."},
+          {"icon":"briefcase","name":"Buste paga","status":"planned","body":"Alimenta le ore approvate nelle buste paga — NR-BOS non gestisce le buste paga direttamente."},
+          {"icon":"handshake","name":"CRM","status":"planned","body":"Mantieni sincronizzate le schede clienti e contatti con il tuo CRM."},
+          {"icon":"gear","name":"ERP","status":"planned","body":"Collega i dati di progetto e costo a un sistema ERP più ampio."},
+          {"icon":"clipboard","name":"Calendario","status":"planned","body":"Invia le scadenze delle attività e le visite di campo al calendario del tuo team."},
+          {"icon":"folder","name":"E-mail","status":"planned","body":"Invia report clienti e notifiche direttamente dalla tua casella di posta."},
+          {"icon":"lock","name":"Archiviazione cloud","status":"planned","body":"Rispecchia foto e PDF dei report di campo sul tuo provider di archiviazione."},
+          {"icon":"check","name":"API","status":"planned","body":"Un'API documentata per leggere e scrivere dati NR-BOS dai tuoi strumenti."},
+          {"icon":"link","name":"Webhook","status":"available","body":"Webhook in uscita — NR-BOS invia un payload firmato al tuo endpoint nel momento in cui si verifica un evento che hai scelto, senza bisogno di polling."}
+        ]
+      },
+      "demoForm": {
+        "label": "Richiedi una demo",
+        "title": "Guarda NR-BOS funzionare con il tuo tipo di lavoro",
+        "intro": "Raccontaci della tua attività e ti guideremo attraverso le parti di NR-BOS che contano per te.",
+        "name": "Nome completo",
+        "namePlaceholder": "Il tuo nome completo",
+        "company": "Nome azienda",
+        "companyPlaceholder": "La tua azienda",
+        "email": "E-mail aziendale",
+        "emailPlaceholder": "tu@azienda.it",
+        "size": "Dimensione azienda",
+        "sizeOptions": [
+          {
+            "value": "",
+            "label": "Seleziona la dimensione dell'azienda"
+          },
+          {
+            "value": "1-10",
+            "label": "1–10 dipendenti"
+          },
+          {
+            "value": "11-50",
+            "label": "11–50 dipendenti"
+          },
+          {
+            "value": "51-200",
+            "label": "51–200 dipendenti"
+          },
+          {
+            "value": "201-500",
+            "label": "201–500 dipendenti"
+          },
+          {
+            "value": "500plus",
+            "label": "500+ dipendenti"
+          }
+        ],
+        "industry": "Settore",
+        "industryOptions": [
+          {
+            "value": "",
+            "label": "Seleziona il tuo settore"
+          },
+          {
+            "value": "construction",
+            "label": "Edilizia e servizi sul campo"
+          },
+          {
+            "value": "facilities",
+            "label": "Facility e gestione immobiliare"
+          },
+          {
+            "value": "logistics",
+            "label": "Logistica e consegne"
+          },
+          {
+            "value": "professional",
+            "label": "Servizi professionali"
+          },
+          {
+            "value": "it",
+            "label": "IT e software"
+          },
+          {
+            "value": "other",
+            "label": "Altro"
+          }
+        ],
+        "mainChallenge": "Sfida principale",
+        "mainChallengePlaceholder": "Qual è il problema operativo più grande che stai cercando di risolvere?",
+        "users": "Utenti stimati",
+        "usersPlaceholder": "es. 15",
+        "message": "C'è altro che dovremmo sapere?",
+        "messagePlaceholder": "Facoltativo — eventuali dettagli che ci aiuterebbero a preparare la chiamata.",
+        "consent": "Inviando questo modulo, confermi che le informazioni fornite sono accurate e acconsenti che Nordic Riser AB conservi i tuoi dati di contatto per rispondere a questa richiesta. Non condividiamo le informazioni dei clienti con terze parti.",
+        "submit": "Richiedi una demo →",
+        "success": {
+          "title": "Grazie — ti contatteremo",
+          "body": "Abbiamo ricevuto la tua richiesta e ti contatteremo per programmare la tua demo di NR-BOS."
+        }
+      },
+      "cta": {
+        "title": "Vuoi NR-BOS per il tuo team?",
+        "body": "Crea gratuitamente l'account della tua azienda, quindi sbloccalo con un codice di abbonamento quando sei pronto — oppure prenota prima una visita guidata se preferisci vederlo in funzione prima di impegnarti.",
+        "cta": "Crea il tuo account",
+        "trialCta": "Prenota una demo"
+      }
+    },
     "globalReach": {
       "hero": {
         "label": "Global Reach",
         "h1": "Collabora Oltre Confine — I Tuoi Primi 100 Messaggi Sono Gratuiti",
         "body": "Partecipa a stanze live con lavagne condivise e una chat tradotta in tempo reale — ognuno legge e scrive nella propria lingua.",
-        "ctaPrimary": "Inizia gratis — 100 messaggi",
+        "ctaPrimary": "Inizia",
         "ctaSecondary": "Scopri come funziona",
         "trustLine": "Nessuna carta richiesta · Annulla quando vuoi · Conforme al GDPR",
         "earlyAccessBadge": "Ora in Accesso Anticipato",
@@ -649,7 +1017,7 @@
       "ctaBand1": {
         "title": "Pronto a Collaborare Oltre Confine?",
         "body": "Crea il tuo account gratuito e avvia la tua prima sala in pochi minuti.",
-        "cta": "Inizia gratis — 100 messaggi"
+        "cta": "Inizia"
       },
       "useCasesLabel": "A Chi È Rivolto",
       "useCasesTitle": "Pensato per la Collaborazione Transfrontaliera",
@@ -678,7 +1046,7 @@
         { "q": "I miei dati sono privati?", "a": "Sì — messaggi e documenti sono gestiti secondo la nostra Informativa sulla Privacy conforme al GDPR, che specifica esattamente cosa raccogliamo e perché." }
       ],
       "emailCapture": { "title": "Non Sei Ancora Pronto?", "body": "Ricevi una notifica quando vengono lanciate nuove lingue.", "placeholder": "Il tuo indirizzo email", "button": "Avvisami" },
-      "stickyBar": { "text": "I tuoi primi 100 messaggi sono gratuiti", "cta": "Inizia gratis" },
+      "stickyBar": { "text": "Pronto per iniziare a collaborare?", "cta": "Inizia" },
       "cta": { "title": "Inizia a Collaborare Oggi", "body": "Crea il tuo account gratuito — nessuna carta richiesta — ed entra nella tua prima sala in pochi minuti.", "trustLine": "Nessuna carta richiesta · Annulla quando vuoi · Conforme al GDPR" }
     },
     "portal": {

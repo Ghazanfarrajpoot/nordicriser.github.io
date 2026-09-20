@@ -57,7 +57,7 @@
       "globalReachLinks": [
         { "label": "Så fungerar det" },
         { "label": "Planer & priser" },
-        { "label": "Prova gratis — 100 meddelanden", "external": "https://portal.nordicriser.com" }
+        { "label": "Kom igång", "external": "https://portal.nordicriser.com" }
       ]
     },
     "firmLinks": {
@@ -274,7 +274,7 @@
           "Chatt som översätts live mellan språk",
           "De första 100 meddelandena gratis — inget kort krävs"
         ],
-        "cta": "Prova gratis — 100 meddelanden"
+        "cta": "Kom igång"
       },
       "howWeWork": {
         "label": "Process",
@@ -290,13 +290,54 @@
       "technology": {
         "label": "Teknikstack",
         "title": "Vad vi bygger med",
-        "groups": [
-          { "category": "Frontend", "items": "React, Vite, modern CSS" },
-          { "category": "Backend & data", "items": "Node.js, Firebase, Firestore" },
-          { "category": "Infrastruktur", "items": "Firebase Hosting, CDN-leverans, automatiserad SSL" },
-          { "category": "Autentisering & säkerhet", "items": "Firebase Authentication, rollbaserad åtkomstkontroll, krypterad lagring" },
-          { "category": "Arbetssätt", "items": "Git-versionshantering, stegvisa driftsättningar, GDPR-kompatibel datahantering" }
-        ]
+        "productGroups": [
+          {
+            "product": "Marknadssida & kundportal",
+            "items": [
+              {
+                "category": "Frontend",
+                "items": "React, Vite, modern CSS"
+              },
+              {
+                "category": "Backend & data",
+                "items": "Node.js, Firebase, Firestore"
+              },
+              {
+                "category": "Infrastruktur",
+                "items": "Firebase Hosting, CDN-leverans, automatiserad SSL"
+              },
+              {
+                "category": "Autentisering & säkerhet",
+                "items": "Firebase Authentication, rollbaserad åtkomstkontroll, krypterad lagring"
+              }
+            ]
+          },
+          {
+            "product": "NR-BOS-plattformen",
+            "items": [
+              {
+                "category": "Frontend",
+                "items": "Next.js 15, React 19"
+              },
+              {
+                "category": "Backend & data",
+                "items": "NestJS, PostgreSQL, Prisma ORM"
+              },
+              {
+                "category": "Lagring & rapportering",
+                "items": "S3-kompatibel objektlagring, serverrenderade PDF-rapporter"
+              },
+              {
+                "category": "Autentisering & säkerhet",
+                "items": "JWT-autentisering, rollbaserad åtkomstkontroll per företag"
+              }
+            ]
+          }
+        ],
+        "practices": {
+          "category": "Arbetssätt",
+          "items": "Git-versionshantering, stegvisa driftsättningar, GDPR-kompatibel datahantering"
+        }
       },
       "whyUs": {
         "label": "Varför Nordic Riser",
@@ -1510,12 +1551,339 @@
       "note": "Det här är våra egna produkter och plattformar — byggda, lanserade och underhållna internt. Kunduppdrag kommer att presenteras här allteftersom de slutförs.",
       "cta": { "title": "Har du ett projekt i åtanke?", "body": "Berätta vad du bygger. Vi återkommer med en tydlig omfattning, en realistisk tidsplan och ett fast pris.", "cta": "Starta ett projekt" }
     },
+    "nrBos": {
+      "meta": {
+        "title": "NR-BOS — Affärssystemet — Nordic Riser AB",
+        "description": "Inuti NR-BOS: projekt- och uppgiftsspårning, budgetkontroll, fältrapporter med foton, AI-assisterade insikter, varumärkesanpassade PDF-rapporter till kund, och kodbaserad licensiering."
+      },
+      "hero": {
+        "label": "NR-BOS",
+        "h1": "Affärssystemet för projektdrivna företag",
+        "tagline": "Planera. Genomför. Följ upp. Rapportera. Analysera.",
+        "body": "Driv projekt, fältarbete, kostnader, team och kundrapportering från en sammankopplad plattform. Byggt och använt internt hos Nordic Riser först — skärmbilderna nedan är från den skarpa driften, fyllda med exempeldata."
+      },
+      "breadcrumb": "NR-BOS",
+      "backLink": "Tillbaka till Arbete",
+      "tour": [
+        {
+          "eyebrow": "Översikt",
+          "title": "En levande bild av varje projekt",
+          "body": "Portföljövergripande nyckeltal, budget mot faktiskt utfall och teambeläggning — det första man öppnar varje morgon.",
+          "shots": [
+            {
+              "file": "dashboard-overview.jpg",
+              "caption": "Instrumentpanel — portföljens nyckeltal och budget mot utfall"
+            },
+            {
+              "file": "dashboard-team-workload.jpg",
+              "caption": "Instrumentpanel — teambeläggning per status"
+            }
+          ]
+        },
+        {
+          "eyebrow": "Projekt",
+          "title": "Varje jobb, spårat ner till uppgiften",
+          "body": "Projekt har sin egen budget, kund och team. Arbetet inom varje projekt körs på en fyrkolumnstavla — att göra, pågår, granskning, klart.",
+          "shots": [
+            {
+              "file": "projects-list.jpg",
+              "caption": "Projekt — hela portföljen på en gång"
+            },
+            {
+              "file": "project-kanban.jpg",
+              "caption": "Projektdetalj — uppgiftstavla"
+            }
+          ]
+        },
+        {
+          "eyebrow": "Tidrapportering",
+          "title": "Timmar registrerade en gång, betrodda överallt",
+          "body": "En fältarbetare startar och pausar en timer från sin telefon på plats; kontoret rättar eller fyller i luckor i ett veckoschema. Varje registrering går genom inskickad, godkänd eller avvisad innan den påverkar något nedströms."
+        },
+        {
+          "eyebrow": "Budget",
+          "title": "Kostnader spårade mot budget, per kategori",
+          "body": "Varje kostnadspost — material, arbete, underentreprenörer, tillstånd — rullas upp mot projektbudgeten i realtid. Arbetskostnaden härleds i sin tur från godkända tidsregistreringar mot varje anställds lönesats vid den tidpunkt arbetet utfördes, inte inknappad för hand — och eftersom satserna är historiserade skriver en löneökning nästa kvartal aldrig om vad ett jobb kostade förra kvartalet. De flesta verktyg skriver över satsen på plats och förvanskar tyst förra kvartalets siffror; det här gör inte det.",
+          "shots": [
+            {
+              "file": "project-costs.jpg",
+              "caption": "Projektdetalj — kostnadsbok"
+            }
+          ]
+        },
+        {
+          "eyebrow": "Fältarbete",
+          "title": "Vad som hände på plats, med bevis",
+          "body": "Fältteam loggar statusanteckningar och foton direkt från platsen — inklusive parade före/efter-bilder för arbete som är lätt att beskriva men svårt att föreställa sig.",
+          "shots": [
+            {
+              "file": "field-report-notes.jpg",
+              "caption": "Fältrapporter — platsanteckningar och foton"
+            },
+            {
+              "file": "field-report-before-after.jpg",
+              "caption": "Fältrapport — före / efter"
+            }
+          ]
+        },
+        {
+          "eyebrow": "AI-assistent",
+          "title": "Risk, kostnad och produktivitet — läst av AI",
+          "body": "På begäran läser en AI-assistent ett projekts faktiska uppgifter, kostnader och teamdata och returnerar en strukturerad risk-, kostnads- eller produktivitetsrapport — inte generiska råd.",
+          "shots": [
+            {
+              "file": "ai-insights.jpg",
+              "caption": "AI-insikter — riskanalys"
+            }
+          ]
+        },
+        {
+          "eyebrow": "Kundrapporter",
+          "title": "En varumärkesanpassad PDF, genererad med ett klick",
+          "body": "Dra in ett projekts uppgifter, kostnader och senaste fältfoton i en kundklar PDF-rapport — utkast först, markera sedan som skickad när den är redo att gå ut.",
+          "shots": [
+            {
+              "file": "client-report-generate.jpg",
+              "caption": "Genererar en kundrapport"
+            },
+            {
+              "file": "client-report-pdf.jpg",
+              "caption": "Genererad kundrapport (PDF)"
+            }
+          ]
+        },
+        {
+          "eyebrow": "Team & licensiering",
+          "title": "Rollbaserad åtkomst, licensierad med kod",
+          "body": "Administratörer, projektledare, fältarbetare och kunder ser bara det som är deras. Åtkomsten i sig körs på inlösbara prenumerationskoder, utfärdade i omgångar — ingen betalningsleverantör krävs.",
+          "shots": [
+            {
+              "file": "team-users.jpg",
+              "caption": "Användare — företagets roster och roller"
+            },
+            {
+              "file": "subscription-plan.jpg",
+              "caption": "Prenumeration — aktiv plan"
+            },
+            {
+              "file": "license-batches.jpg",
+              "caption": "Licensomgångar — inlösenkoder"
+            }
+          ]
+        }
+      ],
+      "workflow": {
+        "label": "Så fungerar det i praktiken",
+        "title": "Från plan till kundrapport — ett sammankopplat flöde",
+        "steps": [
+          {
+            "title": "Planera",
+            "body": "Ett projekt sätts upp med sin egen budget, kund och team."
+          },
+          {
+            "title": "Tilldela",
+            "body": "Uppgifter tilldelas med förfallodatum och beräknade timmar."
+          },
+          {
+            "title": "Genomför",
+            "body": "Teamet arbetar med jobbet — uppgifter rör sig genom tavlan allteftersom arbetet blir klart."
+          },
+          {
+            "title": "Fånga",
+            "body": "Fältteam loggar platsanteckningar, foton, tidsstämpel och plats direkt från jobbet."
+          },
+          {
+            "title": "Granska",
+            "body": "Uppgiften går genom tavlans granskningssteg innan den markeras som klar."
+          },
+          {
+            "title": "Följ upp",
+            "body": "Portföljens nyckeltal, beläggning och budget mot utfall uppdateras automatiskt allteftersom data kommer in."
+          },
+          {
+            "title": "Analysera",
+            "body": "På begäran läser AI den uppdaterade projektdatan och returnerar en risk-, kostnads- och produktivitetsrapport — beslutsstöd, inte en autonom åtgärd."
+          },
+          {
+            "title": "Rapportera",
+            "body": "En varumärkesanpassad PDF drar in projektets uppgifter, kostnader och senaste fältfoton."
+          },
+          {
+            "title": "Kund",
+            "body": "Kunden ser rapporten — och, i sin egen inloggning, bara det som är deras."
+          }
+        ]
+      },
+      "moduleMap": {
+        "label": "Modulkarta",
+        "title": "Vad som är byggt, vad som är på väg",
+        "items": [
+          {"icon":"handshake","name":"CRM","status":"planned","body":"Spårning av kund- och kontaktrelationer. Inte byggt än — kunduppgifter ligger idag i varje projektpost."},
+          {"icon":"clipboard","name":"Projekt","status":"available","body":"Varje jobb spårat med egen budget, kund och team på en fyrstegstavla."},
+          {"icon":"check","name":"Uppgifter","status":"available","body":"Ansvarig, förfallodatum och beräknade timmar på varje uppgift, genom Att göra → Pågår → Granskning → Klart."},
+          {"icon":"briefcase","name":"Personal","status":"available","body":"Företagets användarkonton med rollbaserad åtkomst, plus anställdaposter med lönesatser knutna till den period de gällde — en satsändring skriver aldrig om förra kvartalets siffror."},
+          {"icon":"clock","name":"Tidrapportering","status":"available","body":"Fältarbetare startar och pausar en timer på plats, eller en chef rättar timmar i ett veckoschema — varje registrering skickas in, godkänns eller avvisas innan den räknas."},
+          {"icon":"wrench","name":"Fältdrift","status":"available","body":"Platsanteckningar, tidsstämplar, geotaggning och före/efter-foton loggade direkt från fältet."},
+          {"icon":"pin","name":"Arbetsordrar","status":"available","body":"Fördela arbete till ett jobb med prioritet och planerat datum, spårat efter status och tilldelad person över alla projekt."},
+          {"icon":"calendar","name":"Schema","status":"available","body":"Varje arbetsorder utlagd på en dags-, vecko- eller månadskalender, filtrerbar efter projekt, medarbetare eller status."},
+          {"icon":"check","name":"Checklistor","status":"available","body":"Återanvändbara checklistemallar kopplade till en arbetsorder, så att fältarbetare följer samma steg varje gång."},
+          {"icon":"chart","name":"Kostnader","status":"available","body":"En löpande kostnadsbok per kategori — inklusive arbetskostnad härledd från godkända timmar, inte inknappad för hand — med återstående budget beräknad automatiskt."},
+          {"icon":"folder","name":"Dokument","status":"planned","body":"Ett dedikerat dokumentvalv. Inte byggt än — kundrapporter levereras idag som fristående PDF:er."},
+          {"icon":"lock","name":"Kundportal","status":"available","body":"Kunder loggar in och ser bara status och rapporter för sitt eget projekt."},
+          {"icon":"pencil","name":"Rapportering","status":"available","body":"Varumärkesanpassade PDF-rapporter genererade med ett klick från ett projekts uppgifter, kostnader och fältfoton."},
+          {"icon":"target","name":"Analys","status":"available","body":"Portföljövergripande nyckeltal, teambeläggning och budget mot utfall, uppdaterat i realtid."},
+          {"icon":"scale","name":"Intäkt & marginal","status":"planned","body":"Intäktsspårning och verklig marginal, vid sidan av den befintliga kostnadssidan. Inte byggt än — analys visar idag bara budget mot faktiskt utfall."},
+          {"icon":"calendar","name":"Prognos","status":"planned","body":"Framåtblickande prognoser för kostnad, intäkt och leverans. Inte byggt än."},
+          {"icon":"gear","name":"AI","status":"available","body":"En inbyggd AI-assistent läser faktisk projektdata på begäran och returnerar en strukturerad rapport som beslutsstöd — den agerar inte på egen hand. Aktiveras per företag."}
+        ]
+      },
+      "industries": {
+        "label": "Byggt för",
+        "title": "Samma arbetsflöde, applicerat på din bransch",
+        "items": [
+          {
+            "name": "Bygg",
+            "body": "Spåra varje jobb mot sin budget, logga platsstatus med foton och lämna kunden en varumärkesanpassad rapport utan att lämna plattformen."
+          },
+          {
+            "name": "Entreprenörer",
+            "body": "Driv flera kunduppdrag samtidigt — vart och ett med egen budget, team och uppgiftstavla — utan att tappa koll på vem som gör vad."
+          },
+          {
+            "name": "Fastighetsförvaltning",
+            "body": "Tilldela återkommande arbetsordrar, fånga före/efter-bevis från varje besök och håll en löpande kostnadsbok per fastighet."
+          },
+          {
+            "name": "Facility management",
+            "body": "Koordinera ett utspritt team över flera platser, med en levande bild av beläggning och budget över hela portföljen."
+          },
+          {
+            "name": "Fälttjänster",
+            "body": "Skicka ut uppgifter med förfallodatum och beräknade timmar, fånga sedan platsanteckningar, foton och plats i samma stund arbetet är klart."
+          },
+          {
+            "name": "Installation",
+            "body": "Flytta ett jobb från planerat till klart med fotobevis i varje steg, backat av en kostnadsbok för material och arbete."
+          },
+          {
+            "name": "Ingenjörstjänster",
+            "body": "Håll uppgifter, budgetar och fältdokumentation kopplade till samma projektpost — inget separat kalkylark att stämma av."
+          },
+          {
+            "name": "Städ & underhåll",
+            "body": "Spåra återkommande besök, logga platsanteckningar och foton på plats, och ge kunder en tydlig rapport om vad som gjordes och när."
+          }
+        ]
+      },
+      "integrations": {
+        "label": "Integrationsplan",
+        "title": "Vad som kopplas till NR-BOS, och när",
+        "items": [
+          {"icon":"chart","name":"Bokföring","status":"planned","body":"Synka kostnadsposter och fakturering med ditt bokföringssystem."},
+          {"icon":"briefcase","name":"Lön","status":"planned","body":"Mata godkända timmar till löneprocessen — NR-BOS kör inte lön själv."},
+          {"icon":"handshake","name":"CRM","status":"planned","body":"Håll kund- och kontaktposter synkade med ditt CRM."},
+          {"icon":"gear","name":"ERP","status":"planned","body":"Koppla projekt- och kostnadsdata till ett bredare affärssystem."},
+          {"icon":"clipboard","name":"Kalender","status":"planned","body":"Skicka uppgifters förfallodatum och fältbesök till teamets kalender."},
+          {"icon":"folder","name":"E-post","status":"planned","body":"Skicka kundrapporter och notiser direkt från din egen inkorg."},
+          {"icon":"lock","name":"Molnlagring","status":"planned","body":"Spegla fältrapporters foton och PDF:er till din egen lagringsleverantör."},
+          {"icon":"check","name":"API:er","status":"planned","body":"Ett dokumenterat API för att läsa och skriva NR-BOS-data från dina egna verktyg."},
+          {"icon":"link","name":"Webhooks","status":"available","body":"Utgående webhooks — NR-BOS skickar en signerad payload till din endpoint i samma stund en händelse du valt inträffar, ingen polling krävs."}
+        ]
+      },
+      "demoForm": {
+        "label": "Boka en demo",
+        "title": "Se NR-BOS köra på ditt sorts arbete",
+        "intro": "Berätta om din verksamhet så går vi igenom de delar av NR-BOS som är relevanta för dig.",
+        "name": "Fullständigt namn",
+        "namePlaceholder": "Ditt fullständiga namn",
+        "company": "Företagsnamn",
+        "companyPlaceholder": "Ditt företag",
+        "email": "Jobbmejl",
+        "emailPlaceholder": "du@företag.se",
+        "size": "Företagsstorlek",
+        "sizeOptions": [
+          {
+            "value": "",
+            "label": "Välj företagsstorlek"
+          },
+          {
+            "value": "1-10",
+            "label": "1–10 anställda"
+          },
+          {
+            "value": "11-50",
+            "label": "11–50 anställda"
+          },
+          {
+            "value": "51-200",
+            "label": "51–200 anställda"
+          },
+          {
+            "value": "201-500",
+            "label": "201–500 anställda"
+          },
+          {
+            "value": "500plus",
+            "label": "500+ anställda"
+          }
+        ],
+        "industry": "Bransch",
+        "industryOptions": [
+          {
+            "value": "",
+            "label": "Välj din bransch"
+          },
+          {
+            "value": "construction",
+            "label": "Bygg & fälttjänster"
+          },
+          {
+            "value": "facilities",
+            "label": "Fastighets- & förvaltningstjänster"
+          },
+          {
+            "value": "logistics",
+            "label": "Logistik & leverans"
+          },
+          {
+            "value": "professional",
+            "label": "Professionella tjänster"
+          },
+          {
+            "value": "it",
+            "label": "IT & mjukvara"
+          },
+          {
+            "value": "other",
+            "label": "Annat"
+          }
+        ],
+        "mainChallenge": "Huvudutmaning",
+        "mainChallengePlaceholder": "Vad är det största operativa problemet du försöker lösa?",
+        "users": "Uppskattat antal användare",
+        "usersPlaceholder": "t.ex. 15",
+        "message": "Något annat vi bör veta?",
+        "messagePlaceholder": "Valfritt — specifika detaljer som hjälper oss förbereda samtalet.",
+        "consent": "Genom att skicka in detta formulär bekräftar du att informationen är korrekt och samtycker till att Nordic Riser AB sparar dina kontaktuppgifter för att besvara denna förfrågan. Vi delar inte kunduppgifter med tredje part.",
+        "submit": "Boka en demo →",
+        "success": {
+          "title": "Tack — vi hör av oss",
+          "body": "Vi har tagit emot din förfrågan och kontaktar dig för att boka din NR-BOS-demo."
+        }
+      },
+      "cta": {
+        "title": "Vill du ha NR-BOS för ditt team?",
+        "body": "Skapa ditt företagskonto gratis, lås sedan upp det med en prenumerationskod när du är redo — eller boka en guidad genomgång först om du hellre vill se det köra innan du bestämmer dig.",
+        "cta": "Skapa ditt konto",
+        "trialCta": "Boka en demo"
+      }
+    },
     "globalReach": {
       "hero": {
         "label": "Global Reach",
         "h1": "Samarbeta över gränser — dina första 100 meddelanden är gratis",
         "body": "Gå med i direktsända rum med delade whiteboards och chatt som översätts i realtid — alla läser och skriver på sitt eget språk.",
-        "ctaPrimary": "Prova gratis — 100 meddelanden",
+        "ctaPrimary": "Kom igång",
         "ctaSecondary": "Se hur det fungerar",
         "trustLine": "Inget kort krävs · Avsluta när du vill · GDPR-kompatibelt",
         "earlyAccessBadge": "Nu i tidig tillgång",
@@ -1547,7 +1915,7 @@
       "ctaBand1": {
         "title": "Redo att samarbeta över gränser?",
         "body": "Skapa ditt gratiskonto och starta ditt första rum på några minuter.",
-        "cta": "Prova gratis — 100 meddelanden"
+        "cta": "Kom igång"
       },
       "useCasesLabel": "Vem det är till för",
       "useCasesTitle": "Byggt för gränsöverskridande samarbete",
@@ -1576,7 +1944,7 @@
         { "q": "Är mina uppgifter privata?", "a": "Ja — meddelanden och dokument hanteras enligt vår GDPR-kompatibla integritetspolicy, som beskriver exakt vad vi samlar in och varför." }
       ],
       "emailCapture": { "title": "Inte redo än?", "body": "Få ett meddelande när nya språk lanseras.", "placeholder": "Din e-postadress", "button": "Meddela mig" },
-      "stickyBar": { "text": "Dina första 100 meddelanden är gratis", "cta": "Prova gratis" },
+      "stickyBar": { "text": "Redo att börja samarbeta?", "cta": "Kom igång" },
       "cta": { "title": "Börja samarbeta idag", "body": "Skapa ditt gratiskonto — inget kort krävs — och gå med i ditt första rum på några minuter.", "trustLine": "Inget kort krävs · Avsluta när du vill · GDPR-kompatibelt" }
     },
     "portal": {

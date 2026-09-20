@@ -24,6 +24,11 @@
   <meta name="description" content="{{ pageDesc }}">
   <meta name="robots" content="{{ robots | default('noindex, follow' if isEnglishFallback else 'index, follow') }}">
   <link rel="canonical" href="{{ site.baseUrl }}{{ pageSlug | localeUrl(canonicalLocale) }}">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#1B2A4A">
   <meta property="og:site_name" content="Nordic Riser AB">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="{{ locale }}">
