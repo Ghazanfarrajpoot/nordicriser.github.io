@@ -152,13 +152,22 @@ pageSlug: ""
   <div class="section-inner" data-animate>
     <span class="section-label">{{ home.technology.label }}</span>
     <h2 class="section-title">{{ home.technology.title }}</h2>
+    {%- for pg in home.technology.productGroups %}
+    <h3 class="tech-stack-product">{{ pg.product }}</h3>
     <div class="tech-stack-grid">
-      {%- for g in home.technology.groups %}
+      {%- for g in pg.items %}
       <div class="tech-stack-group">
         <h4>{{ g.category }}</h4>
         <p>{{ g.items }}</p>
       </div>
       {%- endfor %}
+    </div>
+    {%- endfor %}
+    <div class="tech-stack-grid tech-stack-grid--practices">
+      <div class="tech-stack-group">
+        <h4>{{ home.technology.practices.category }}</h4>
+        <p>{{ home.technology.practices.items }}</p>
+      </div>
     </div>
   </div>
 </section>

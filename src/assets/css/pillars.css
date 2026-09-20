@@ -422,10 +422,18 @@
 }
 
 /* ── HOMEPAGE: TECHNOLOGY STACK ── */
+.tech-stack-product {
+  font-size: 0.95rem; font-weight: 700; color: var(--navy);
+  margin-block: 1.75rem 0.9rem;
+}
+.tech-stack-product:first-of-type { margin-block-start: 0; }
+
 .tech-stack-grid {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
 }
+
+.tech-stack-grid--practices { margin-block-start: 1.75rem; }
 
 .tech-stack-group {
   background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem 1.75rem;

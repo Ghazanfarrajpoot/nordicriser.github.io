@@ -21,6 +21,10 @@ pageSlug: work/nr-bos
 {%- set statusAvailable = pCommon.statusAvailable -%}
 {%- set statusPlanned = pCommon.statusPlanned -%}
 {%- set ovStatusAvailable = ovCommon.statusAvailable -%}
+{#- Public self-service registration on the live NR-BOS app itself — a
+    separate deployment from this marketing site, hence the absolute URL
+    rather than localeUrl(). Verified live 2026-09-16. -#}
+{%- set nrbosRegisterUrl = "https://nr-bos.vercel.app/register" -%}
 {% import "partials/nrb-overview.njk" as nrb2 %}
 {% import "partials/icons.njk" as icons %}
 
@@ -33,8 +37,8 @@ pageSlug: work/nr-bos
     {%- endif %}
     <p>{{ p.hero.body }}</p>
     <div class="hero-ctas">
-      <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-primary" data-analytics-event="nr_bos_demo_cta">{{ p.cta.cta }}</a>
-      <a href="{{ 'contact' | localeUrl(locale) }}?purpose=nrbos-trial" class="btn-secondary" data-analytics-event="nr_bos_trial_cta">{{ p.cta.trialCta }}</a>
+      <a href="{{ nrbosRegisterUrl }}" class="btn-primary" rel="noopener" data-analytics-event="nr_bos_register_cta">{{ p.cta.cta }}</a>
+      <a href="#nrbosDemoForm" class="btn-secondary" data-analytics-event="nr_bos_demo_cta">{{ p.cta.trialCta }}</a>
     </div>
   </div>
 </section>
@@ -138,6 +142,7 @@ pageSlug: work/nr-bos
         <h2 class="nrb-block-title">{{ block.title }}</h2>
         <p class="nrb-block-body">{{ block.body }}</p>
       </div>
+      {%- if block.shots %}
       <div class="nrb-shots nrb-shots-{{ block.shots.length }}">
         {%- for shot in block.shots %}
         <figure class="nrb-frame">
@@ -147,6 +152,7 @@ pageSlug: work/nr-bos
         </figure>
         {%- endfor %}
       </div>
+      {%- endif %}
     </div>
     {%- endfor %}
   </div>
@@ -232,8 +238,8 @@ pageSlug: work/nr-bos
     <h2>{{ p.cta.title }}</h2>
     <p>{{ p.cta.body }}</p>
     <div class="cta-box-buttons">
-      <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-cta" data-analytics-event="nr_bos_demo_cta">{{ p.cta.cta }}</a>
-      <a href="{{ 'contact' | localeUrl(locale) }}?purpose=nrbos-trial" class="btn-secondary" data-analytics-event="nr_bos_trial_cta">{{ p.cta.trialCta }}</a>
+      <a href="{{ nrbosRegisterUrl }}" class="btn-cta" rel="noopener" data-analytics-event="nr_bos_register_cta">{{ p.cta.cta }}</a>
+      <a href="#nrbosDemoForm" class="btn-secondary" data-analytics-event="nr_bos_demo_cta">{{ p.cta.trialCta }}</a>
     </div>
   </div>
 </section>

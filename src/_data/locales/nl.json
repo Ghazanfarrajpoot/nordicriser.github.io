@@ -54,7 +54,7 @@
       "globalReachLinks": [
         { "label": "Hoe het werkt" },
         { "label": "Abonnementen & prijzen" },
-        { "label": "Start gratis — 100 berichten", "external": "https://portal.nordicriser.com" }
+        { "label": "Aan de slag", "external": "https://portal.nordicriser.com" }
       ]
     },
     "firmLinks": {
@@ -136,7 +136,7 @@
           "Chat die live tussen talen wordt vertaald",
           "De eerste 100 berichten gratis — geen kaart nodig"
         ],
-        "cta": "Start gratis — 100 berichten"
+        "cta": "Aan de slag"
       },
       "howWeWork": {
         "label": "Proces",
@@ -152,13 +152,54 @@
       "technology": {
         "label": "Technologie",
         "title": "Waarmee Wij Bouwen",
-        "groups": [
-          { "category": "Frontend", "items": "React, Vite, moderne CSS" },
-          { "category": "Backend & Data", "items": "Node.js, Firebase, Firestore" },
-          { "category": "Infrastructuur", "items": "Firebase Hosting, CDN-levering, geautomatiseerde SSL" },
-          { "category": "Authenticatie & Beveiliging", "items": "Firebase Authentication, rolgebaseerde toegangscontrole, versleutelde opslag" },
-          { "category": "Werkwijzen", "items": "Git-versiebeheer, gefaseerde implementaties, AVG-conforme gegevensverwerking" }
-        ]
+        "productGroups": [
+          {
+            "product": "Marketingsite & klantportaal",
+            "items": [
+              {
+                "category": "Frontend",
+                "items": "React, Vite, moderne CSS"
+              },
+              {
+                "category": "Backend & Data",
+                "items": "Node.js, Firebase, Firestore"
+              },
+              {
+                "category": "Infrastructuur",
+                "items": "Firebase Hosting, CDN-levering, geautomatiseerde SSL"
+              },
+              {
+                "category": "Authenticatie & Beveiliging",
+                "items": "Firebase Authentication, rolgebaseerde toegangscontrole, versleutelde opslag"
+              }
+            ]
+          },
+          {
+            "product": "NR-BOS-platform",
+            "items": [
+              {
+                "category": "Frontend",
+                "items": "Next.js 15, React 19"
+              },
+              {
+                "category": "Backend & Data",
+                "items": "NestJS, PostgreSQL, Prisma ORM"
+              },
+              {
+                "category": "Opslag & rapportage",
+                "items": "S3-compatibele objectopslag, server-gerenderde PDF-rapporten"
+              },
+              {
+                "category": "Authenticatie & Beveiliging",
+                "items": "JWT-authenticatie, rolgebaseerde toegangscontrole per bedrijf"
+              }
+            ]
+          }
+        ],
+        "practices": {
+          "category": "Werkwijzen",
+          "items": "Git-versiebeheer, gefaseerde implementaties, AVG-conforme gegevensverwerking"
+        }
       },
       "whyUs": {
         "label": "Waarom Nordic Riser",
@@ -612,12 +653,339 @@
       "note": "Dit zijn onze eigen producten en platforms — intern gebouwd, gelanceerd en onderhouden. Klantwerk wordt hier uitgelicht zodra trajecten zijn afgerond.",
       "cta": { "title": "Heeft u een Project in Gedachten?", "body": "Vertel ons wat u bouwt. Wij komen terug met een duidelijke scope, een realistische planning en een vaste prijs.", "cta": "Start een Project" }
     },
+    "nrBos": {
+      "meta": {
+        "title": "NR-BOS — Bedrijfsbesturingssysteem — Nordic Riser AB",
+        "description": "Binnen NR-BOS: project- en taaktracking, budgetbeheersing, veldrapporten met foto's, AI-ondersteunde inzichten, gebrandmerkte PDF-rapporten voor klanten en codegebaseerde licentiëring."
+      },
+      "hero": {
+        "label": "NR-BOS",
+        "h1": "Het bedrijfsbesturingssysteem voor projectgedreven bedrijven",
+        "tagline": "Plan. Voer uit. Bewaak. Rapporteer. Analyseer.",
+        "body": "Beheer projecten, veldwerk, kosten, teams en klantrapportage vanaf één verbonden platform. Eerst intern gebouwd en gebruikt bij Nordic Riser — de screenshots hieronder komen uit die live omgeving, gevuld met voorbeeldprojectgegevens."
+      },
+      "breadcrumb": "NR-BOS",
+      "backLink": "Terug naar Werk",
+      "tour": [
+        {
+          "eyebrow": "Overzicht",
+          "title": "Een live beeld van elk project",
+          "body": "Portefeuillebrede KPI's, budget versus werkelijke uitgaven en teambelasting — het eerste wat iedereen elke ochtend opent.",
+          "shots": [
+            {
+              "file": "dashboard-overview.jpg",
+              "caption": "Dashboard — portefeuille-KPI's en budget vs. werkelijk"
+            },
+            {
+              "file": "dashboard-team-workload.jpg",
+              "caption": "Dashboard — teambelasting per status"
+            }
+          ]
+        },
+        {
+          "eyebrow": "Projecten",
+          "title": "Elke klus, gevolgd tot op de taak",
+          "body": "Projecten hebben hun eigen budget, klant en team. Het werk binnen elk project draait op een bord met vier kolommen — te doen, bezig, beoordeling, klaar.",
+          "shots": [
+            {
+              "file": "projects-list.jpg",
+              "caption": "Projecten — portefeuille in één oogopslag"
+            },
+            {
+              "file": "project-kanban.jpg",
+              "caption": "Projectdetail — takenbord"
+            }
+          ]
+        },
+        {
+          "eyebrow": "Urenregistratie",
+          "title": "Uren eenmalig vastgelegd, overal betrouwbaar",
+          "body": "Een veldmedewerker start en pauzeert een timer vanaf de telefoon op locatie; het kantoor corrigeert of vult hiaten aan op een weekrooster. Elke registratie doorloopt ingediend, goedgekeurd of afgewezen voordat deze iets stroomafwaarts beïnvloedt."
+        },
+        {
+          "eyebrow": "Budget",
+          "title": "Uitgaven bijgehouden tegen budget, per categorie",
+          "body": "Elke kostenpost — materiaal, arbeid, onderaannemers, vergunningen — telt in realtime op tegen het projectbudget. De arbeidskosten zelf worden afgeleid uit goedgekeurde tijdregistraties tegen het tarief van elke medewerker op het moment dat het werk werd verricht, niet handmatig ingevoerd — en omdat tarieven gehistoriseerd zijn, herschrijft een loonsverhoging volgend kwartaal nooit stilzwijgend wat een klus vorig kwartaal kostte. De meeste tools overschrijven het tarief ter plekke en corrumperen stilzwijgend de cijfers van vorig kwartaal; deze niet.",
+          "shots": [
+            {
+              "file": "project-costs.jpg",
+              "caption": "Projectdetail — kostenboek"
+            }
+          ]
+        },
+        {
+          "eyebrow": "Veldwerk",
+          "title": "Wat er op locatie is gebeurd, met bewijs",
+          "body": "Veldteams leggen voortgangsnotities en foto's direct vanaf de locatie vast — inclusief gepaarde voor/na-foto's voor werk dat makkelijk te beschrijven maar moeilijk voor te stellen is.",
+          "shots": [
+            {
+              "file": "field-report-notes.jpg",
+              "caption": "Veldrapporten — locatienotities en foto's"
+            },
+            {
+              "file": "field-report-before-after.jpg",
+              "caption": "Veldrapport — voor / na"
+            }
+          ]
+        },
+        {
+          "eyebrow": "AI-assistent",
+          "title": "Risico, kosten en productiviteit — gelezen door AI",
+          "body": "Op aanvraag leest een AI-assistent de werkelijke taken, kosten en teamgegevens van een project en levert een gestructureerde risico-, kosten- of productiviteitsbriefing — geen generiek advies.",
+          "shots": [
+            {
+              "file": "ai-insights.jpg",
+              "caption": "AI-inzichten — risicoanalyse"
+            }
+          ]
+        },
+        {
+          "eyebrow": "Klantrapporten",
+          "title": "Een gebrandmerkte PDF, met één klik gegenereerd",
+          "body": "Trek de taken, kosten en recente veldfoto's van een project in een klantklaar PDF-rapport — eerst als concept, daarna gemarkeerd als verzonden zodra het klaar is.",
+          "shots": [
+            {
+              "file": "client-report-generate.jpg",
+              "caption": "Een klantrapport genereren"
+            },
+            {
+              "file": "client-report-pdf.jpg",
+              "caption": "Gegenereerd klantrapport (PDF)"
+            }
+          ]
+        },
+        {
+          "eyebrow": "Team & licenties",
+          "title": "Rolgebaseerde toegang, gelicentieerd via code",
+          "body": "Beheerders, projectleiders, veldmedewerkers en klanten zien elk alleen wat van hen is. Toegang zelf draait op inwisselbare abonnementscodes, in batches uitgegeven — geen betalingsverwerker nodig.",
+          "shots": [
+            {
+              "file": "team-users.jpg",
+              "caption": "Gebruikers — bedrijfsbezetting en rollen"
+            },
+            {
+              "file": "subscription-plan.jpg",
+              "caption": "Abonnement — actief plan"
+            },
+            {
+              "file": "license-batches.jpg",
+              "caption": "Licentiebatches — inwisselcodes"
+            }
+          ]
+        }
+      ],
+      "workflow": {
+        "label": "Hoe het echt werkt",
+        "title": "Van plan tot klantrapport — één verbonden flow",
+        "steps": [
+          {
+            "title": "Plannen",
+            "body": "Een project wordt opgezet met een eigen budget, klant en team."
+          },
+          {
+            "title": "Toewijzen",
+            "body": "Taken worden toegewezen met een vervaldatum en geschatte uren."
+          },
+          {
+            "title": "Uitvoeren",
+            "body": "Het team werkt de klus af — taken bewegen over het bord terwijl het werk wordt gedaan."
+          },
+          {
+            "title": "Vastleggen",
+            "body": "Veldteams leggen locatienotities, foto's, tijdstempel en locatie direct vanaf de klus vast."
+          },
+          {
+            "title": "Beoordelen",
+            "body": "De taak doorloopt de beoordelingsfase van het bord voordat deze als klaar wordt gemarkeerd."
+          },
+          {
+            "title": "Bewaken",
+            "body": "Portefeuille-KPI's, belasting en budget vs. werkelijk werken automatisch bij zodra gegevens binnenkomen."
+          },
+          {
+            "title": "Analyseren",
+            "body": "Op aanvraag leest AI de bijgewerkte projectgegevens en levert een risico-, kosten- en productiviteitsbriefing — beslissingsondersteuning, geen autonome actie."
+          },
+          {
+            "title": "Rapporteren",
+            "body": "Een gebrandmerkte PDF trekt de taken, kosten en recente veldfoto's van het project samen."
+          },
+          {
+            "title": "Klant",
+            "body": "De klant ziet het rapport — en, op zijn eigen login, alleen wat van hem is."
+          }
+        ]
+      },
+      "moduleMap": {
+        "label": "Modulekaart",
+        "title": "Wat gebouwd is, wat eraan komt",
+        "items": [
+          {"icon":"handshake","name":"CRM","status":"planned","body":"Bijhouden van klant- en contactrelaties. Nog niet gebouwd — klantgegevens staan momenteel in elk projectrecord."},
+          {"icon":"clipboard","name":"Projecten","status":"available","body":"Elke klus bijgehouden met eigen budget, klant en team op een bord met vier fasen."},
+          {"icon":"check","name":"Taken","status":"available","body":"Toegewezene, vervaldatum en geschatte uren op elke taak, via Te doen → Bezig → Beoordeling → Klaar."},
+          {"icon":"briefcase","name":"Personeel","status":"available","body":"Bedrijfsgebruikersaccounts met rolgebaseerde toegang, plus medewerkersrecords met loontarieven gekoppeld aan de periode waarin ze golden — een tariefwijziging herschrijft nooit de cijfers van vorig kwartaal."},
+          {"icon":"clock","name":"Urenregistratie","status":"available","body":"Veldmedewerkers starten en pauzeren een timer op locatie, of een manager corrigeert uren op een weekrooster — elke registratie wordt ingediend, goedgekeurd of afgewezen voordat deze meetelt."},
+          {"icon":"wrench","name":"Veldoperaties","status":"available","body":"Locatienotities, tijdstempels, geotagging en voor/na-foto's rechtstreeks vanuit het veld vastgelegd."},
+          {"icon":"pin","name":"Werkorders","status":"available","body":"Wijs werk toe aan een klus met een prioriteit en een geplande datum, gevolgd op status en toegewezene over alle projecten."},
+          {"icon":"calendar","name":"Planning","status":"available","body":"Elke werkorder uitgezet op een dag-, week- of maandkalender, filterbaar op project, medewerker of status."},
+          {"icon":"check","name":"Checklists","status":"available","body":"Herbruikbare checklistsjablonen gekoppeld aan een werkorder, zodat veldmedewerkers elke keer dezelfde stappen doorlopen."},
+          {"icon":"chart","name":"Kosten","status":"available","body":"Een doorlopend kostenboek per categorie — inclusief arbeidskosten afgeleid van goedgekeurde uren, niet handmatig ingevoerd — met automatisch berekend resterend budget."},
+          {"icon":"folder","name":"Documenten","status":"planned","body":"Een speciale documentenkluis. Nog niet gebouwd — klantrapporten worden momenteel als losse PDF's verzonden."},
+          {"icon":"lock","name":"Klantportaal","status":"available","body":"Klanten loggen in en zien alleen de status en rapporten van hun eigen project."},
+          {"icon":"pencil","name":"Rapportage","status":"available","body":"Gebrandmerkte PDF-rapporten met één klik gegenereerd uit de taken, kosten en veldfoto's van een project."},
+          {"icon":"target","name":"Analytics","status":"available","body":"Portefeuillebrede KPI's, teambelasting en budget vs. werkelijk, in realtime bijgewerkt."},
+          {"icon":"scale","name":"Omzet & marge","status":"planned","body":"Omzettracking en werkelijke marge, naast de bestaande kostenkant. Nog niet gebouwd — analytics toont momenteel alleen budget versus werkelijke uitgaven."},
+          {"icon":"calendar","name":"Prognose","status":"planned","body":"Vooruitkijkende prognoses voor kosten, omzet en levering. Nog niet gebouwd."},
+          {"icon":"gear","name":"AI","status":"available","body":"Een ingebouwde AI-assistent leest op aanvraag echte projectgegevens en levert een gestructureerde briefing ter ondersteuning van besluitvorming — hij handelt niet op eigen initiatief. Per bedrijf te activeren."}
+        ]
+      },
+      "industries": {
+        "label": "Gebouwd voor",
+        "title": "Dezelfde workflow, toegepast op uw branche",
+        "items": [
+          {
+            "name": "Bouw",
+            "body": "Volg elke klus tegen zijn budget, leg voortgang op locatie vast met foto's en geef de klant een gebrandmerkt rapport zonder het platform te verlaten."
+          },
+          {
+            "name": "Aannemers",
+            "body": "Beheer meerdere klantklussen tegelijk — elk met eigen budget, team en takenbord — zonder het overzicht te verliezen wie wat doet."
+          },
+          {
+            "name": "Vastgoedonderhoud",
+            "body": "Wijs terugkerende werkorders toe, leg voor/na-bewijs vast bij elk bezoek en houd een doorlopend kostenboek per pand bij."
+          },
+          {
+            "name": "Facility management",
+            "body": "Coördineer een verspreid team over locaties, met een live beeld van belasting en budget over de hele portefeuille."
+          },
+          {
+            "name": "Veldservices",
+            "body": "Verdeel taken met vervaldatum en geschatte uren, leg vervolgens veldnotities, foto's en locatie vast op het moment dat het werk klaar is."
+          },
+          {
+            "name": "Installatie",
+            "body": "Verplaats een klus van gepland naar voltooid met fotobewijs bij elke fase, ondersteund door een kostenboek voor materiaal en arbeid."
+          },
+          {
+            "name": "Engineering",
+            "body": "Houd taken, budgetten en velddocumentatie gekoppeld aan hetzelfde projectrecord — geen apart spreadsheet meer om te verzoenen."
+          },
+          {
+            "name": "Schoonmaak & onderhoud",
+            "body": "Volg terugkerende bezoeken, leg locatienotities en foto's ter plekke vast en geef klanten een duidelijk rapport van wat er is gedaan en wanneer."
+          }
+        ]
+      },
+      "integrations": {
+        "label": "Integratieroutekaart",
+        "title": "Wat verbindt met NR-BOS, en wanneer",
+        "items": [
+          {"icon":"chart","name":"Boekhouding","status":"planned","body":"Synchroniseer kostenposten en facturering met uw boekhoudsysteem."},
+          {"icon":"briefcase","name":"Salarisadministratie","status":"planned","body":"Voer goedgekeurde uren door naar de salarisadministratie — NR-BOS voert de salarisadministratie niet zelf uit."},
+          {"icon":"handshake","name":"CRM","status":"planned","body":"Houd klant- en contactrecords gesynchroniseerd met uw CRM."},
+          {"icon":"gear","name":"ERP","status":"planned","body":"Verbind project- en kostengegevens met een breder ERP-systeem."},
+          {"icon":"clipboard","name":"Agenda","status":"planned","body":"Stuur taakvervaldata en veldbezoeken door naar de agenda van uw team."},
+          {"icon":"folder","name":"E-mail","status":"planned","body":"Verstuur klantrapporten en meldingen rechtstreeks vanuit uw eigen inbox."},
+          {"icon":"lock","name":"Cloudopslag","status":"planned","body":"Spiegel foto's en PDF's van veldrapporten naar uw eigen opslagleverancier."},
+          {"icon":"check","name":"API's","status":"planned","body":"Een gedocumenteerde API om NR-BOS-gegevens te lezen en te schrijven vanuit uw eigen tools."},
+          {"icon":"link","name":"Webhooks","status":"available","body":"Uitgaande webhooks — NR-BOS stuurt een ondertekende payload naar uw endpoint op het moment dat een door u gekozen gebeurtenis plaatsvindt, geen polling nodig."}
+        ]
+      },
+      "demoForm": {
+        "label": "Demo aanvragen",
+        "title": "Zie NR-BOS werken met uw soort werk",
+        "intro": "Vertel ons over uw bedrijf en wij lopen met u door de onderdelen van NR-BOS die voor u van belang zijn.",
+        "name": "Volledige naam",
+        "namePlaceholder": "Uw volledige naam",
+        "company": "Bedrijfsnaam",
+        "companyPlaceholder": "Uw bedrijf",
+        "email": "Zakelijke e-mail",
+        "emailPlaceholder": "u@bedrijf.nl",
+        "size": "Bedrijfsgrootte",
+        "sizeOptions": [
+          {
+            "value": "",
+            "label": "Selecteer bedrijfsgrootte"
+          },
+          {
+            "value": "1-10",
+            "label": "1–10 medewerkers"
+          },
+          {
+            "value": "11-50",
+            "label": "11–50 medewerkers"
+          },
+          {
+            "value": "51-200",
+            "label": "51–200 medewerkers"
+          },
+          {
+            "value": "201-500",
+            "label": "201–500 medewerkers"
+          },
+          {
+            "value": "500plus",
+            "label": "500+ medewerkers"
+          }
+        ],
+        "industry": "Branche",
+        "industryOptions": [
+          {
+            "value": "",
+            "label": "Selecteer uw branche"
+          },
+          {
+            "value": "construction",
+            "label": "Bouw & veldservices"
+          },
+          {
+            "value": "facilities",
+            "label": "Facility- & vastgoedbeheer"
+          },
+          {
+            "value": "logistics",
+            "label": "Logistiek & bezorging"
+          },
+          {
+            "value": "professional",
+            "label": "Professionele dienstverlening"
+          },
+          {
+            "value": "it",
+            "label": "IT & software"
+          },
+          {
+            "value": "other",
+            "label": "Anders"
+          }
+        ],
+        "mainChallenge": "Belangrijkste uitdaging",
+        "mainChallengePlaceholder": "Wat is het grootste operationele probleem dat u probeert op te lossen?",
+        "users": "Geschat aantal gebruikers",
+        "usersPlaceholder": "bijv. 15",
+        "message": "Nog iets anders dat we moeten weten?",
+        "messagePlaceholder": "Optioneel — details die ons helpen het gesprek voor te bereiden.",
+        "consent": "Door dit formulier in te dienen, bevestigt u dat de verstrekte informatie juist is en stemt u ermee in dat Nordic Riser AB uw contactgegevens bewaart om op dit verzoek te reageren. Wij delen klantinformatie niet met derden.",
+        "submit": "Demo aanvragen →",
+        "success": {
+          "title": "Bedankt — we nemen contact op",
+          "body": "We hebben uw verzoek ontvangen en nemen contact met u op om uw NR-BOS-demo in te plannen."
+        }
+      },
+      "cta": {
+        "title": "Wilt u NR-BOS voor uw team?",
+        "body": "Maak gratis uw bedrijfsaccount aan en ontgrendel het met een abonnementscode zodra u er klaar voor bent — of boek eerst een begeleide rondleiding als u het liever in actie ziet voordat u zich vastlegt.",
+        "cta": "Maak uw account aan",
+        "trialCta": "Boek een demo"
+      }
+    },
     "globalReach": {
       "hero": {
         "label": "Global Reach",
         "h1": "Werk Grensoverschrijdend Samen — Uw Eerste 100 Berichten Zijn Gratis",
         "body": "Neem deel aan live ruimtes met gedeelde whiteboards en chat die in realtime wordt vertaald — iedereen leest en schrijft in zijn eigen taal.",
-        "ctaPrimary": "Start gratis — 100 berichten",
+        "ctaPrimary": "Aan de slag",
         "ctaSecondary": "Bekijk hoe het werkt",
         "trustLine": "Geen creditcard nodig · Altijd opzegbaar · AVG-conform",
         "earlyAccessBadge": "Nu in Vroege Toegang",
@@ -649,7 +1017,7 @@
       "ctaBand1": {
         "title": "Klaar om Grensoverschrijdend Samen Te Werken?",
         "body": "Maak uw gratis account aan en start uw eerste ruimte in enkele minuten.",
-        "cta": "Start gratis — 100 berichten"
+        "cta": "Aan de slag"
       },
       "useCasesLabel": "Voor Wie Het Is",
       "useCasesTitle": "Ontworpen voor Grensoverschrijdende Samenwerking",
@@ -678,7 +1046,7 @@
         { "q": "Zijn mijn gegevens privé?", "a": "Ja — berichten en documenten worden verwerkt volgens ons AVG-conforme privacybeleid, dat precies aangeeft wat wij verzamelen en waarom." }
       ],
       "emailCapture": { "title": "Nog Niet Klaar?", "body": "Ontvang een melding wanneer nieuwe talen worden gelanceerd.", "placeholder": "Uw e-mailadres", "button": "Meld Mij" },
-      "stickyBar": { "text": "Uw eerste 100 berichten zijn gratis", "cta": "Start gratis" },
+      "stickyBar": { "text": "Klaar om te beginnen met samenwerken?", "cta": "Aan de slag" },
       "cta": { "title": "Begin Vandaag met Samenwerken", "body": "Maak uw gratis account aan — geen creditcard nodig — en sluit u binnen enkele minuten aan bij uw eerste ruimte.", "trustLine": "Geen creditcard nodig · Altijd opzegbaar · AVG-conform" }
     },
     "portal": {
