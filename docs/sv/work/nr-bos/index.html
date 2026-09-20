@@ -409,7 +409,7 @@
   <span class="nrb2-launcher__text">
     <span class="nrb2-launcher__eyebrow"><span class="nrb2-dot" aria-hidden="true"></span>Live produkt</span>
     <span class="nrb2-launcher__title">Utforska NR-BOS</span>
-    <span class="nrb2-launcher__body">Öppna den interaktiva rundturen — sex paneler, riktiga skärmar från den skarpa produkten.</span>
+    <span class="nrb2-launcher__body">Öppna den interaktiva rundturen — tio paneler, riktiga skärmar från den skarpa produkten.</span>
   </span>
   <span class="nrb2-launcher__cta">Öppna rundturen <span aria-hidden="true">→</span></span>
 </button>
@@ -449,6 +449,39 @@
         </button>
         <button type="button"
                 role="tab"
+                id="nrb2-tab-nr-bos-work-orders"
+                aria-controls="nrb2-panel-nr-bos-work-orders"
+                aria-selected="false"
+                tabindex="-1"
+                data-nrb2-tab="work-orders"
+                class="nrb2-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-6.1-6.5-11A6.5 6.5 0 0 1 18.5 10c0 4.9-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.2"/></svg>
+          <span class="nrb2-tab__label">Arbetsordrar</span>
+        </button>
+        <button type="button"
+                role="tab"
+                id="nrb2-tab-nr-bos-time-tracking"
+                aria-controls="nrb2-panel-nr-bos-time-tracking"
+                aria-selected="false"
+                tabindex="-1"
+                data-nrb2-tab="time-tracking"
+                class="nrb2-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3.2 2"/></svg>
+          <span class="nrb2-tab__label">Tid &amp; godkännanden</span>
+        </button>
+        <button type="button"
+                role="tab"
+                id="nrb2-tab-nr-bos-checklists"
+                aria-controls="nrb2-panel-nr-bos-checklists"
+                aria-selected="false"
+                tabindex="-1"
+                data-nrb2-tab="checklists"
+                class="nrb2-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12.5 9.5 17.5 19.5 6.5"/></svg>
+          <span class="nrb2-tab__label">Checklistor</span>
+        </button>
+        <button type="button"
+                role="tab"
                 id="nrb2-tab-nr-bos-field-reporting"
                 aria-controls="nrb2-panel-nr-bos-field-reporting"
                 aria-selected="false"
@@ -479,6 +512,17 @@
                 class="nrb2-tab">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/></svg>
           <span class="nrb2-tab__label">Analys</span>
+        </button>
+        <button type="button"
+                role="tab"
+                id="nrb2-tab-nr-bos-integrations"
+                aria-controls="nrb2-panel-nr-bos-integrations"
+                aria-selected="false"
+                tabindex="-1"
+                data-nrb2-tab="integrations"
+                class="nrb2-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.5 14.5 14.5 9.5"/><path d="M11 7.5 12.6 5.9a3.5 3.5 0 0 1 5 5L16 12.5"/><path d="M13 16.5 11.4 18.1a3.5 3.5 0 0 1-5-5L8 11.5"/></svg>
+          <span class="nrb2-tab__label">Integrationer</span>
         </button>
         <button type="button"
                 role="tab"
@@ -541,6 +585,87 @@
               <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
               <img src="/assets/img/nr-bos/project-kanban.jpg" alt="Kanban-tavla för ett projekt med uppgifter fördelade på kolumnerna Att göra, Pågår, Granskning och Klart" loading="lazy" width="1568" height="710">
               <figcaption>Kanban-tavla för ett projekt med uppgifter fördelade på kolumnerna Att göra, Pågår, Granskning och Klart</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div role="tabpanel"
+             id="nrb2-panel-nr-bos-work-orders"
+             aria-labelledby="nrb2-tab-nr-bos-work-orders"
+             data-nrb2-panel="work-orders"
+             class="nrb2-panel"
+             tabindex="0">
+          <p class="nrb2-panel__eyebrow">Utskick</p><span class="status-badge status-badge--available">Tillgänglig nu</span>
+          <h3 class="nrb2-panel__title">Varje jobb utskickat, schemalagt och spårat</h3>
+          <p class="nrb2-panel__body">Arbetsordrar har en prioritet, en plats och ett schemalagt tidsfönster — utlagda på en dags-, vecko- eller månadskalender så att inget faller mellan stolarna.</p>
+          <ul class="nrb2-feat">
+            <li>Fyra prioritetsnivåer, från Låg till Akut, synliga direkt</li>
+            <li>En fullständig statuslivscykel — från Utkast till Schemalagd, Tilldelad, Pågår, Granskning, Klar</li>
+            <li>Valfri checklistmall bifogas, så fältteam följer samma steg varje gång</li>
+          </ul>
+          <div class="nrb2-shots n2">
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/work-orders-list.jpg" alt="Lista över NR-BOS arbetsordrar med prioritets- och statusmärken" loading="lazy" width="1568" height="710">
+              <figcaption>Lista över NR-BOS arbetsordrar med prioritets- och statusmärken</figcaption>
+            </figure>
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/schedule-month.jpg" alt="Månadskalender som visar arbetsordrar schemalagda under september" loading="lazy" width="1568" height="710">
+              <figcaption>Månadskalender som visar arbetsordrar schemalagda under september</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div role="tabpanel"
+             id="nrb2-panel-nr-bos-time-tracking"
+             aria-labelledby="nrb2-tab-nr-bos-time-tracking"
+             data-nrb2-panel="time-tracking"
+             class="nrb2-panel"
+             tabindex="0">
+          <p class="nrb2-panel__eyebrow">Fälttimmar</p><span class="status-badge status-badge--available">Tillgänglig nu</span>
+          <h3 class="nrb2-panel__title">Timmar registrerade en gång, godkända innan de räknas</h3>
+          <p class="nrb2-panel__body">Ett veckoschema för att registrera tid mot ett projekt, och en dedikerad godkännandekö grupperad efter anställd och vecka — inget når löneadministration eller kostnadsrapportering ogodkänt.</p>
+          <ul class="nrb2-feat">
+            <li>Registrera tid per projekt, per dag, direkt i veckoschemat</li>
+            <li>Skicka in veckan med ett klick; en chef godkänner eller avvisar med en anledning</li>
+            <li>Godkännanden grupperade efter anställd och vecka, med löpande summor</li>
+          </ul>
+          <div class="nrb2-shots n2">
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/time-weekly-grid.jpg" alt="Veckoschema med registrerade timmar mot ett projekt per dag" loading="lazy" width="1568" height="710">
+              <figcaption>Veckoschema med registrerade timmar mot ett projekt per dag</figcaption>
+            </figure>
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/time-approvals.jpg" alt="Godkännandekö för tid grupperad efter anställd och vecka med löpande summor" loading="lazy" width="1568" height="710">
+              <figcaption>Godkännandekö för tid grupperad efter anställd och vecka med löpande summor</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div role="tabpanel"
+             id="nrb2-panel-nr-bos-checklists"
+             aria-labelledby="nrb2-tab-nr-bos-checklists"
+             data-nrb2-panel="checklists"
+             class="nrb2-panel"
+             tabindex="0">
+          <p class="nrb2-panel__eyebrow">Standardiserade Steg</p><span class="status-badge status-badge--available">Tillgänglig nu</span>
+          <h3 class="nrb2-panel__title">Samma steg, varje gång, på varje jobb</h3>
+          <p class="nrb2-panel__body">Återanvändbara checklistemallar kopplas till en arbetsorder, så att fältteam utför — och kan bevisa att de utfört — samma steg oavsett vem som är på plats.</p>
+          <ul class="nrb2-feat">
+            <li>Kryssruta eller fritextfält, var och en markerad som obligatorisk eller valfri</li>
+            <li>En mall återanvänd över så många arbetsordrar som behövs</li>
+            <li>Bifogas direkt när en arbetsorder skapas</li>
+          </ul>
+          <div class="nrb2-shots n2">
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/checklists-list.jpg" alt="Lista över checklistemallar som visar antal punkter och aktiv status" loading="lazy" width="1568" height="710">
+              <figcaption>Lista över checklistemallar som visar antal punkter och aktiv status</figcaption>
+            </figure>
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/checklist-editor.jpg" alt="Redigerare för checklistemall med kryssrute- och textpunkter markerade som obligatoriska" loading="lazy" width="1568" height="710">
+              <figcaption>Redigerare för checklistemall med kryssrute- och textpunkter markerade som obligatoriska</figcaption>
             </figure>
           </div>
         </div>
@@ -629,6 +754,28 @@
               <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
               <img src="/assets/img/nr-bos/project-costs.jpg" alt="Kostnadsbok med daterade poster per kategori samt löpande budget och återstående saldo" loading="lazy" width="1568" height="710">
               <figcaption>Kostnadsbok med daterade poster per kategori samt löpande budget och återstående saldo</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div role="tabpanel"
+             id="nrb2-panel-nr-bos-integrations"
+             aria-labelledby="nrb2-tab-nr-bos-integrations"
+             data-nrb2-panel="integrations"
+             class="nrb2-panel"
+             tabindex="0">
+          <p class="nrb2-panel__eyebrow">Koppla Din Stack</p><span class="status-badge status-badge--available">Tillgänglig nu</span>
+          <h3 class="nrb2-panel__title">Utgående webhooks, signerade och händelsestyrda</h3>
+          <p class="nrb2-panel__body">NR-BOS skickar en signerad payload till din endpoint i samma stund en händelse du valt inträffar — en slutförd arbetsorder, en godkänd tidsregistrering — ingen polling krävs.</p>
+          <ul class="nrb2-feat">
+            <li>Välj vilka händelsetyper varje webhook ska utlösas av</li>
+            <li>Pausa en prenumeration utan att radera den</li>
+            <li>Varje payload signerad, så din endpoint kan verifiera att den verkligen kommer från NR-BOS</li>
+          </ul>
+          <div class="nrb2-shots">
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/integrations-webhooks.jpg" alt="Aktiv utgående webhook-prenumeration med valda händelsetyper" loading="lazy" width="1568" height="710">
+              <figcaption>Aktiv utgående webhook-prenumeration med valda händelsetyper</figcaption>
             </figure>
           </div>
         </div>

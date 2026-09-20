@@ -80,7 +80,7 @@
       "id": "nr-bos",
       "eyebrow": "Live produkt",
       "title": "Utforska NR-BOS",
-      "body": "Öppna den interaktiva rundturen — sex paneler, riktiga skärmar från den skarpa produkten.",
+      "body": "Öppna den interaktiva rundturen — tio paneler, riktiga skärmar från den skarpa produkten.",
       "cta": "Öppna rundturen",
       "modalId": "Egenutvecklad produkt · NR-BOS",
       "modalTitle": "NR-BOS — Interaktiv rundtur",
@@ -90,12 +90,230 @@
       "sliderAfterLabel": "Efter",
       "sliderNote": "Dra för att jämföra — ett riktigt före/efter-par från en fältrapport.",
       "panels": [
-        {"slug":"dashboard","icon":"chart","tabLabel":"Översikt","eyebrow":"Översikt","title":"En direktbild av varje projekt","body":"Nyckeltal för hela portföljen, budget mot faktisk kostnad och färdigställandegrad — det första alla öppnar varje morgon.","features":["Antal totala och aktiva projekt, uppdaterat i realtid","Färdigställandegrad för hela portföljen, uppdaterad automatiskt när uppgifter slutförs","Budget mot faktisk kostnad, sida vid sida","Vinstmarginal och lönsamhet, beräknat från budget mot faktisk kostnad — ännu inte kopplat till fakturerad intäkt"],"shots":[{"file":"dashboard-overview.jpg","alt":"NR-BOS-instrumentpanel som visar projekträkningar, färdigställandegrad, vinstmarginal, budget mot faktisk kostnad och ett cirkeldiagram över projekt efter status"}]},
-        {"slug":"projects","icon":"clipboard","tabLabel":"Projekt","eyebrow":"Leverans","title":"Varje uppdrag, spårat ner till uppgiften","body":"Projekt har sin egen budget, kund och team. Arbetet inom varje projekt drivs på en tavla med fyra kolumner.","features":["Att göra, pågår, granskning, klart — en tavla per projekt","Varje uppgift har en ansvarig, ett förfallodatum och en tidsuppskattning","Projektstatus — planering, aktivt, pausat, avslutat — syns direkt","Arbetsordrar tilldelas med prioritet och planerat datum, synliga i en dags-, vecko- eller månadskalender"],"shots":[{"file":"projects-list.jpg","alt":"Lista över fyra NR-BOS-projekt med statusmärken — aktivt, pausat, planering och avslutat"},{"file":"project-kanban.jpg","alt":"Kanban-tavla för ett projekt med uppgifter fördelade på kolumnerna Att göra, Pågår, Granskning och Klart"}]},
-        {"slug":"field-reporting","icon":"wrench","tabLabel":"Fältrapportering","eyebrow":"På plats","title":"Vad som hänt på plats, med bevis","body":"Fälttekniker loggar statusanteckningar och foton direkt från plats — inklusive matchande före/efter-bilder för arbete som är enkelt att beskriva men svårt att föreställa sig.","features":["Anteckningar kopplade till en specifik uppgift, tidsstämplade och geotaggade","Fototyperna före, efter och allmänt på varje rapport","Dra i reglaget nedan — ett riktigt före/efter-par från en fältrapport"],"shots":[{"file":"field-report-notes.jpg","alt":"Fältrapportpost med en tidsstämplad platsanteckning och ett bifogat foto"}]},
-        {"slug":"client-reports","icon":"folder","tabLabel":"Kundrapporter","eyebrow":"Kundvänd","title":"En varumärkesanpassad PDF, skapad med ett klick","body":"Hämta ett projekts uppgifter, kostnader och senaste fältfoton till en kundklar PDF-rapport — utkast först, markera sedan som skickad.","features":["Kommentarsfält för en skriftlig statusbeskrivning","Utkaststatus tills du är redo att visa kunden","Den genererade PDF:en bäddar automatiskt in de senaste fältfotona"],"shots":[{"file":"client-report-generate.jpg","alt":"Dialogruta för att skapa kundrapport med ett kommentarsfält för den kundvända berättelsen"},{"file":"client-report-pdf.jpg","alt":"Genererad kundrapport-PDF med företagsuppgifter, projektinformation och uppgiftsstatus"}]},
-        {"slug":"analytics","icon":"target","tabLabel":"Analys","eyebrow":"Team & kostnad","title":"Var tiden och pengarna tar vägen","body":"Teamets arbetsbelastning per status och en fullständig kostnadsbok per kategori — siffrorna bakom instrumentpanelen.","features":["Arbetsbelastningsdiagram uppdelat på att göra, pågår, granskning och klart per person","Kostnadsposter per kategori — material, arbete, underleverantör, tillstånd","Återstående budget beräknas automatiskt när kostnader loggas"],"shots":[{"file":"dashboard-team-workload.jpg","alt":"Diagram över teamets arbetsbelastning som visar antal uppgifter per status för varje teammedlem"},{"file":"project-costs.jpg","alt":"Kostnadsbok med daterade poster per kategori samt löpande budget och återstående saldo"}]},
-        {"slug":"licensing","icon":"lock","tabLabel":"Team & licens","eyebrow":"Åtkomst & fakturering","title":"Rollbaserad åtkomst, licensierad med kod","body":"Administratörer, projektledare, fälttekniker och kunder ser var och en bara det som är deras. Åtkomsten i sig drivs av inlösbara prenumerationskoder — ingen betalningslösning krävs.","features":["Fyra roller, var och en med en egen vy av produkten","Prenumerationsstatus och förnyelsedatum syns direkt","Licenskoder genereras i omgångar och löses in en gång per företag"],"shots":[{"file":"team-users.jpg","alt":"Företagets användarlista med namn, e-post, roller och aktiv/inaktiv status"},{"file":"subscription-plan.jpg","alt":"Aktiv prenumerationsplan med förnyelsedatum och ett fält för inlösbar licenskod"},{"file":"license-batches.jpg","alt":"Lista över licensomgångar med nivå, antal inlösta och skapandedatum"}]}
+        {
+          "slug": "dashboard",
+          "icon": "chart",
+          "tabLabel": "Översikt",
+          "eyebrow": "Översikt",
+          "title": "En direktbild av varje projekt",
+          "body": "Nyckeltal för hela portföljen, budget mot faktisk kostnad och färdigställandegrad — det första alla öppnar varje morgon.",
+          "features": [
+            "Antal totala och aktiva projekt, uppdaterat i realtid",
+            "Färdigställandegrad för hela portföljen, uppdaterad automatiskt när uppgifter slutförs",
+            "Budget mot faktisk kostnad, sida vid sida",
+            "Vinstmarginal och lönsamhet, beräknat från budget mot faktisk kostnad — ännu inte kopplat till fakturerad intäkt"
+          ],
+          "shots": [
+            {
+              "file": "dashboard-overview.jpg",
+              "alt": "NR-BOS-instrumentpanel som visar projekträkningar, färdigställandegrad, vinstmarginal, budget mot faktisk kostnad och ett cirkeldiagram över projekt efter status"
+            }
+          ]
+        },
+        {
+          "slug": "projects",
+          "icon": "clipboard",
+          "tabLabel": "Projekt",
+          "eyebrow": "Leverans",
+          "title": "Varje uppdrag, spårat ner till uppgiften",
+          "body": "Projekt har sin egen budget, kund och team. Arbetet inom varje projekt drivs på en tavla med fyra kolumner.",
+          "features": [
+            "Att göra, pågår, granskning, klart — en tavla per projekt",
+            "Varje uppgift har en ansvarig, ett förfallodatum och en tidsuppskattning",
+            "Projektstatus — planering, aktivt, pausat, avslutat — syns direkt",
+            "Arbetsordrar tilldelas med prioritet och planerat datum, synliga i en dags-, vecko- eller månadskalender"
+          ],
+          "shots": [
+            {
+              "file": "projects-list.jpg",
+              "alt": "Lista över fyra NR-BOS-projekt med statusmärken — aktivt, pausat, planering och avslutat"
+            },
+            {
+              "file": "project-kanban.jpg",
+              "alt": "Kanban-tavla för ett projekt med uppgifter fördelade på kolumnerna Att göra, Pågår, Granskning och Klart"
+            }
+          ]
+        },
+        {
+          "slug": "work-orders",
+          "icon": "pin",
+          "tabLabel": "Arbetsordrar",
+          "eyebrow": "Utskick",
+          "title": "Varje jobb utskickat, schemalagt och spårat",
+          "body": "Arbetsordrar har en prioritet, en plats och ett schemalagt tidsfönster — utlagda på en dags-, vecko- eller månadskalender så att inget faller mellan stolarna.",
+          "features": [
+            "Fyra prioritetsnivåer, från Låg till Akut, synliga direkt",
+            "En fullständig statuslivscykel — från Utkast till Schemalagd, Tilldelad, Pågår, Granskning, Klar",
+            "Valfri checklistmall bifogas, så fältteam följer samma steg varje gång"
+          ],
+          "shots": [
+            {
+              "file": "work-orders-list.jpg",
+              "alt": "Lista över NR-BOS arbetsordrar med prioritets- och statusmärken"
+            },
+            {
+              "file": "schedule-month.jpg",
+              "alt": "Månadskalender som visar arbetsordrar schemalagda under september"
+            }
+          ]
+        },
+        {
+          "slug": "time-tracking",
+          "icon": "clock",
+          "tabLabel": "Tid & godkännanden",
+          "eyebrow": "Fälttimmar",
+          "title": "Timmar registrerade en gång, godkända innan de räknas",
+          "body": "Ett veckoschema för att registrera tid mot ett projekt, och en dedikerad godkännandekö grupperad efter anställd och vecka — inget når löneadministration eller kostnadsrapportering ogodkänt.",
+          "features": [
+            "Registrera tid per projekt, per dag, direkt i veckoschemat",
+            "Skicka in veckan med ett klick; en chef godkänner eller avvisar med en anledning",
+            "Godkännanden grupperade efter anställd och vecka, med löpande summor"
+          ],
+          "shots": [
+            {
+              "file": "time-weekly-grid.jpg",
+              "alt": "Veckoschema med registrerade timmar mot ett projekt per dag"
+            },
+            {
+              "file": "time-approvals.jpg",
+              "alt": "Godkännandekö för tid grupperad efter anställd och vecka med löpande summor"
+            }
+          ]
+        },
+        {
+          "slug": "checklists",
+          "icon": "check",
+          "tabLabel": "Checklistor",
+          "eyebrow": "Standardiserade Steg",
+          "title": "Samma steg, varje gång, på varje jobb",
+          "body": "Återanvändbara checklistemallar kopplas till en arbetsorder, så att fältteam utför — och kan bevisa att de utfört — samma steg oavsett vem som är på plats.",
+          "features": [
+            "Kryssruta eller fritextfält, var och en markerad som obligatorisk eller valfri",
+            "En mall återanvänd över så många arbetsordrar som behövs",
+            "Bifogas direkt när en arbetsorder skapas"
+          ],
+          "shots": [
+            {
+              "file": "checklists-list.jpg",
+              "alt": "Lista över checklistemallar som visar antal punkter och aktiv status"
+            },
+            {
+              "file": "checklist-editor.jpg",
+              "alt": "Redigerare för checklistemall med kryssrute- och textpunkter markerade som obligatoriska"
+            }
+          ]
+        },
+        {
+          "slug": "field-reporting",
+          "icon": "wrench",
+          "tabLabel": "Fältrapportering",
+          "eyebrow": "På plats",
+          "title": "Vad som hänt på plats, med bevis",
+          "body": "Fälttekniker loggar statusanteckningar och foton direkt från plats — inklusive matchande före/efter-bilder för arbete som är enkelt att beskriva men svårt att föreställa sig.",
+          "features": [
+            "Anteckningar kopplade till en specifik uppgift, tidsstämplade och geotaggade",
+            "Fototyperna före, efter och allmänt på varje rapport",
+            "Dra i reglaget nedan — ett riktigt före/efter-par från en fältrapport"
+          ],
+          "shots": [
+            {
+              "file": "field-report-notes.jpg",
+              "alt": "Fältrapportpost med en tidsstämplad platsanteckning och ett bifogat foto"
+            }
+          ]
+        },
+        {
+          "slug": "client-reports",
+          "icon": "folder",
+          "tabLabel": "Kundrapporter",
+          "eyebrow": "Kundvänd",
+          "title": "En varumärkesanpassad PDF, skapad med ett klick",
+          "body": "Hämta ett projekts uppgifter, kostnader och senaste fältfoton till en kundklar PDF-rapport — utkast först, markera sedan som skickad.",
+          "features": [
+            "Kommentarsfält för en skriftlig statusbeskrivning",
+            "Utkaststatus tills du är redo att visa kunden",
+            "Den genererade PDF:en bäddar automatiskt in de senaste fältfotona"
+          ],
+          "shots": [
+            {
+              "file": "client-report-generate.jpg",
+              "alt": "Dialogruta för att skapa kundrapport med ett kommentarsfält för den kundvända berättelsen"
+            },
+            {
+              "file": "client-report-pdf.jpg",
+              "alt": "Genererad kundrapport-PDF med företagsuppgifter, projektinformation och uppgiftsstatus"
+            }
+          ]
+        },
+        {
+          "slug": "analytics",
+          "icon": "target",
+          "tabLabel": "Analys",
+          "eyebrow": "Team & kostnad",
+          "title": "Var tiden och pengarna tar vägen",
+          "body": "Teamets arbetsbelastning per status och en fullständig kostnadsbok per kategori — siffrorna bakom instrumentpanelen.",
+          "features": [
+            "Arbetsbelastningsdiagram uppdelat på att göra, pågår, granskning och klart per person",
+            "Kostnadsposter per kategori — material, arbete, underleverantör, tillstånd",
+            "Återstående budget beräknas automatiskt när kostnader loggas"
+          ],
+          "shots": [
+            {
+              "file": "dashboard-team-workload.jpg",
+              "alt": "Diagram över teamets arbetsbelastning som visar antal uppgifter per status för varje teammedlem"
+            },
+            {
+              "file": "project-costs.jpg",
+              "alt": "Kostnadsbok med daterade poster per kategori samt löpande budget och återstående saldo"
+            }
+          ]
+        },
+        {
+          "slug": "integrations",
+          "icon": "link",
+          "tabLabel": "Integrationer",
+          "eyebrow": "Koppla Din Stack",
+          "title": "Utgående webhooks, signerade och händelsestyrda",
+          "body": "NR-BOS skickar en signerad payload till din endpoint i samma stund en händelse du valt inträffar — en slutförd arbetsorder, en godkänd tidsregistrering — ingen polling krävs.",
+          "features": [
+            "Välj vilka händelsetyper varje webhook ska utlösas av",
+            "Pausa en prenumeration utan att radera den",
+            "Varje payload signerad, så din endpoint kan verifiera att den verkligen kommer från NR-BOS"
+          ],
+          "shots": [
+            {
+              "file": "integrations-webhooks.jpg",
+              "alt": "Aktiv utgående webhook-prenumeration med valda händelsetyper"
+            }
+          ]
+        },
+        {
+          "slug": "licensing",
+          "icon": "lock",
+          "tabLabel": "Team & licens",
+          "eyebrow": "Åtkomst & fakturering",
+          "title": "Rollbaserad åtkomst, licensierad med kod",
+          "body": "Administratörer, projektledare, fälttekniker och kunder ser var och en bara det som är deras. Åtkomsten i sig drivs av inlösbara prenumerationskoder — ingen betalningslösning krävs.",
+          "features": [
+            "Fyra roller, var och en med en egen vy av produkten",
+            "Prenumerationsstatus och förnyelsedatum syns direkt",
+            "Licenskoder genereras i omgångar och löses in en gång per företag"
+          ],
+          "shots": [
+            {
+              "file": "team-users.jpg",
+              "alt": "Företagets användarlista med namn, e-post, roller och aktiv/inaktiv status"
+            },
+            {
+              "file": "subscription-plan.jpg",
+              "alt": "Aktiv prenumerationsplan med förnyelsedatum och ett fält för inlösbar licenskod"
+            },
+            {
+              "file": "license-batches.jpg",
+              "alt": "Lista över licensomgångar med nivå, antal inlösta och skapandedatum"
+            }
+          ]
+        }
       ]
     }
   },

@@ -410,7 +410,7 @@
   <span class="nrb2-launcher__text">
     <span class="nrb2-launcher__eyebrow"><span class="nrb2-dot" aria-hidden="true"></span>Live Product</span>
     <span class="nrb2-launcher__title">Explore NR-BOS</span>
-    <span class="nrb2-launcher__body">Open the interactive tour — six panels, real screens from the live product.</span>
+    <span class="nrb2-launcher__body">Open the interactive tour — ten panels, real screens from the live product.</span>
   </span>
   <span class="nrb2-launcher__cta">Open the Tour <span aria-hidden="true">→</span></span>
 </button>
@@ -450,6 +450,39 @@
         </button>
         <button type="button"
                 role="tab"
+                id="nrb2-tab-nr-bos-work-orders"
+                aria-controls="nrb2-panel-nr-bos-work-orders"
+                aria-selected="false"
+                tabindex="-1"
+                data-nrb2-tab="work-orders"
+                class="nrb2-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-6.1-6.5-11A6.5 6.5 0 0 1 18.5 10c0 4.9-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.2"/></svg>
+          <span class="nrb2-tab__label">Work Orders</span>
+        </button>
+        <button type="button"
+                role="tab"
+                id="nrb2-tab-nr-bos-time-tracking"
+                aria-controls="nrb2-panel-nr-bos-time-tracking"
+                aria-selected="false"
+                tabindex="-1"
+                data-nrb2-tab="time-tracking"
+                class="nrb2-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3.2 2"/></svg>
+          <span class="nrb2-tab__label">Time &amp; Approvals</span>
+        </button>
+        <button type="button"
+                role="tab"
+                id="nrb2-tab-nr-bos-checklists"
+                aria-controls="nrb2-panel-nr-bos-checklists"
+                aria-selected="false"
+                tabindex="-1"
+                data-nrb2-tab="checklists"
+                class="nrb2-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12.5 9.5 17.5 19.5 6.5"/></svg>
+          <span class="nrb2-tab__label">Checklists</span>
+        </button>
+        <button type="button"
+                role="tab"
                 id="nrb2-tab-nr-bos-field-reporting"
                 aria-controls="nrb2-panel-nr-bos-field-reporting"
                 aria-selected="false"
@@ -480,6 +513,17 @@
                 class="nrb2-tab">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/></svg>
           <span class="nrb2-tab__label">Analytics</span>
+        </button>
+        <button type="button"
+                role="tab"
+                id="nrb2-tab-nr-bos-integrations"
+                aria-controls="nrb2-panel-nr-bos-integrations"
+                aria-selected="false"
+                tabindex="-1"
+                data-nrb2-tab="integrations"
+                class="nrb2-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.5 14.5 14.5 9.5"/><path d="M11 7.5 12.6 5.9a3.5 3.5 0 0 1 5 5L16 12.5"/><path d="M13 16.5 11.4 18.1a3.5 3.5 0 0 1-5-5L8 11.5"/></svg>
+          <span class="nrb2-tab__label">Integrations</span>
         </button>
         <button type="button"
                 role="tab"
@@ -542,6 +586,87 @@
               <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
               <img src="/assets/img/nr-bos/project-kanban.jpg" alt="Kanban board for a project showing tasks across To Do, In Progress, Review, and Done columns" loading="lazy" width="1568" height="710">
               <figcaption>Kanban board for a project showing tasks across To Do, In Progress, Review, and Done columns</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div role="tabpanel"
+             id="nrb2-panel-nr-bos-work-orders"
+             aria-labelledby="nrb2-tab-nr-bos-work-orders"
+             data-nrb2-panel="work-orders"
+             class="nrb2-panel"
+             tabindex="0">
+          <p class="nrb2-panel__eyebrow">Dispatch</p><span class="status-badge status-badge--available">Available Now</span>
+          <h3 class="nrb2-panel__title">Every job dispatched, scheduled, and tracked</h3>
+          <p class="nrb2-panel__body">Work orders carry a priority, a site location, and a scheduled window — laid out on a day, week, or month calendar so nothing falls through.</p>
+          <ul class="nrb2-feat">
+            <li>Four priority levels, from Low to Urgent, visible at a glance</li>
+            <li>A full status lifecycle — Draft through Scheduled, Assigned, In Progress, Review, Completed</li>
+            <li>Optional checklist template attached, so field crews follow the same steps every time</li>
+          </ul>
+          <div class="nrb2-shots n2">
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/work-orders-list.jpg" alt="List of NR-BOS work orders with priority and status badges" loading="lazy" width="1568" height="710">
+              <figcaption>List of NR-BOS work orders with priority and status badges</figcaption>
+            </figure>
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/schedule-month.jpg" alt="Month calendar showing work orders scheduled across September" loading="lazy" width="1568" height="710">
+              <figcaption>Month calendar showing work orders scheduled across September</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div role="tabpanel"
+             id="nrb2-panel-nr-bos-time-tracking"
+             aria-labelledby="nrb2-tab-nr-bos-time-tracking"
+             data-nrb2-panel="time-tracking"
+             class="nrb2-panel"
+             tabindex="0">
+          <p class="nrb2-panel__eyebrow">Field Hours</p><span class="status-badge status-badge--available">Available Now</span>
+          <h3 class="nrb2-panel__title">Hours logged once, approved before they count</h3>
+          <p class="nrb2-panel__body">A weekly grid for logging time against a project, and a dedicated approval queue grouped by employee and week — nothing reaches payroll or cost reporting unapproved.</p>
+          <ul class="nrb2-feat">
+            <li>Log time per project, per day, directly in the weekly grid</li>
+            <li>Submit week in one click; a manager approves or rejects with a reason</li>
+            <li>Approvals grouped by employee and week, with running totals</li>
+          </ul>
+          <div class="nrb2-shots n2">
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/time-weekly-grid.jpg" alt="Weekly timesheet with hours logged against a project by day" loading="lazy" width="1568" height="710">
+              <figcaption>Weekly timesheet with hours logged against a project by day</figcaption>
+            </figure>
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/time-approvals.jpg" alt="Time approval queue grouped by employee and week with running totals" loading="lazy" width="1568" height="710">
+              <figcaption>Time approval queue grouped by employee and week with running totals</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div role="tabpanel"
+             id="nrb2-panel-nr-bos-checklists"
+             aria-labelledby="nrb2-tab-nr-bos-checklists"
+             data-nrb2-panel="checklists"
+             class="nrb2-panel"
+             tabindex="0">
+          <p class="nrb2-panel__eyebrow">Standardized Steps</p><span class="status-badge status-badge--available">Available Now</span>
+          <h3 class="nrb2-panel__title">The same steps, every time, on every job</h3>
+          <p class="nrb2-panel__body">Reusable checklist templates attach to a work order, so field crews complete — and can prove they completed — the same steps regardless of who&#39;s on site.</p>
+          <ul class="nrb2-feat">
+            <li>Checkbox or free-text items, each marked required or optional</li>
+            <li>One template reused across as many work orders as needed</li>
+            <li>Attached directly when a work order is created</li>
+          </ul>
+          <div class="nrb2-shots n2">
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/checklists-list.jpg" alt="Checklist template list showing item count and active status" loading="lazy" width="1568" height="710">
+              <figcaption>Checklist template list showing item count and active status</figcaption>
+            </figure>
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/checklist-editor.jpg" alt="Checklist template editor with checkbox and text items marked required" loading="lazy" width="1568" height="710">
+              <figcaption>Checklist template editor with checkbox and text items marked required</figcaption>
             </figure>
           </div>
         </div>
@@ -630,6 +755,28 @@
               <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
               <img src="/assets/img/nr-bos/project-costs.jpg" alt="Cost ledger listing dated entries by category with running budget and remaining balance" loading="lazy" width="1568" height="710">
               <figcaption>Cost ledger listing dated entries by category with running budget and remaining balance</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div role="tabpanel"
+             id="nrb2-panel-nr-bos-integrations"
+             aria-labelledby="nrb2-tab-nr-bos-integrations"
+             data-nrb2-panel="integrations"
+             class="nrb2-panel"
+             tabindex="0">
+          <p class="nrb2-panel__eyebrow">Connect Your Stack</p><span class="status-badge status-badge--available">Available Now</span>
+          <h3 class="nrb2-panel__title">Outbound webhooks, signed and event-driven</h3>
+          <p class="nrb2-panel__body">NR-BOS POSTs a signed payload to your endpoint the moment an event you picked happens — a completed work order, an approved time entry — no polling required.</p>
+          <ul class="nrb2-feat">
+            <li>Pick the event types each webhook should fire on</li>
+            <li>Pause a subscription without deleting it</li>
+            <li>Every payload signed, so your endpoint can verify it&#39;s really from NR-BOS</li>
+          </ul>
+          <div class="nrb2-shots">
+            <figure class="nrb2-frame">
+              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
+              <img src="/assets/img/nr-bos/integrations-webhooks.jpg" alt="Active outbound webhook subscription with selected event types" loading="lazy" width="1568" height="710">
+              <figcaption>Active outbound webhook subscription with selected event types</figcaption>
             </figure>
           </div>
         </div>
