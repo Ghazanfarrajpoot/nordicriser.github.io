@@ -101,7 +101,7 @@
           "body": "Portfolio-wide KPIs, budget vs. actual spend, and completion — the first thing anyone opens each morning.",
           "features": [
             "Total and active project counts, updated in real time",
-            "Completion percentage and profit margin across the whole portfolio",
+            "Completion percentage across the whole portfolio, tracked automatically as tasks close",
             "Budget vs. actual cost, side by side"
           ],
           "shots": [
@@ -118,7 +118,8 @@
           "features": [
             "To do, in progress, review, done — one board per project",
             "Each task carries an assignee, due date, and estimated hours",
-            "Project status — planning, active, on hold, completed — visible at a glance"
+            "Project status — planning, active, on hold, completed — visible at a glance",
+            "Work orders dispatched with a priority and scheduled date, visible on a day, week, or month calendar"
           ],
           "shots": [
             { "file": "projects-list.jpg", "alt": "List of four NR-BOS projects with status badges — active, on hold, planning, and completed" },

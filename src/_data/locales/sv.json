@@ -99,7 +99,7 @@
           "body": "Nyckeltal för hela portföljen, budget mot faktisk kostnad och färdigställandegrad — det första alla öppnar varje morgon.",
           "features": [
             "Antal totala och aktiva projekt, uppdaterat i realtid",
-            "Färdigställandegrad och vinstmarginal för hela portföljen",
+            "Färdigställandegrad för hela portföljen, uppdaterad automatiskt när uppgifter slutförs",
             "Budget mot faktisk kostnad, sida vid sida"
           ],
           "shots": [
@@ -116,7 +116,8 @@
           "features": [
             "Att göra, pågår, granskning, klart — en tavla per projekt",
             "Varje uppgift har en ansvarig, ett förfallodatum och en tidsuppskattning",
-            "Projektstatus — planering, aktivt, pausat, avslutat — syns direkt"
+            "Projektstatus — planering, aktivt, pausat, avslutat — syns direkt",
+            "Arbetsordrar tilldelas med prioritet och planerat datum, synliga i en dags-, vecko- eller månadskalender"
           ],
           "shots": [
             { "file": "projects-list.jpg", "alt": "Lista över fyra NR-BOS-projekt med statusmärken — aktivt, pausat, planering och avslutat" },
