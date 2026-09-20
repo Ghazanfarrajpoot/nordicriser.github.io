@@ -147,8 +147,8 @@
           { "type": "SaaS-produkt (internt byggd)", "title": "Global Reach", "oneLiner": "Direktsända samarbetsrum med delade whiteboards och chatt som översätts i realtid mellan språk.", "link": "global-reach" },
           { "type": "Säker kundportal", "title": "Nordic Riser Medlemsportal", "oneLiner": "En autentiserad portal för dokumentutbyte, ärendespårning, säker meddelandehantering och betalningar.", "link": "work", "linkLabel": "Se i vårt arbete →" },
           { "type": "Flerspråkig marknadsföringsplattform", "title": "nordicriser.com", "oneLiner": "En elvaspråkig produktionswebbplats med RTL-stöd, fullständig metatäckning och rena URL:er per språk.", "link": "work", "linkLabel": "Se i vårt arbete →" },
-          { "type": "Vårdapp (internt byggd)", "title": "4eDoctor", "oneLiner": "En telemedicinplattform med HD-videokonsultationer, tidsbokning och chatt under samtal.", "link": "work", "linkLabel": "Se i vårt arbete →" },
-          { "type": "Leveransapp on-demand (internt byggd)", "title": "4eZone Pharmacy", "oneLiner": "Ett apoteksexpedieringssystem som kopplar läkarrecept till hantering och leverans.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Vårdapp", "title": "Telemedicinapp", "oneLiner": "En telemedicinplattform vi byggt från grunden — HD-videokonsultationer, tidsbokning och chatt under samtal — redo att anpassas för valfritt vårdvarumärke.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Apoteksexpedieringsapp", "title": "Apoteksplattform", "oneLiner": "Ett apoteksexpedieringssystem vi byggt som kopplar recept till hantering och leverans, redo att anpassas för valfri aktör.", "link": "work", "linkLabel": "Se i vårt arbete →" },
           { "type": "Leveransapp (internt byggd)", "title": "On-Demand Delivery App", "oneLiner": "En anpassningsbar leveransplattform för beställning, dirigering och budspårning för alla typer av företag.", "link": "work", "linkLabel": "Se i vårt arbete →" }
         ],
         "cta": "Se allt arbete",
@@ -1401,8 +1401,8 @@
           "result": "Varje sida tillgänglig på 11 språk med rena, indexerbara URL:er."
         },
         {
-          "type": "Vårdapp (internt byggd)",
-          "title": "4eDoctor",
+          "type": "Vårdapp",
+          "title": "Telemedicinapp",
           "challengeLabel": "Utmaning",
           "challenge": "Patienter behövde tillgång till läkarkonsultationer — med läkare, psykologer och sjuksköterskor — utan väntetider och friktion från fysiska besök.",
           "buildLabel": "Bygge",
@@ -1410,11 +1410,11 @@
           "stackLabel": "Teknikstack",
           "stack": ["Flutter", "Firebase", "Agora", "ZEGOCLOUD"],
           "resultLabel": "Resultat",
-          "result": "Live produkt som låter patienter boka och konsultera en läkare var som helst, när som helst."
+          "result": "En fungerande telemedicinplattform, byggd från grunden av oss och redo att anpassas för valfritt vårdvarumärke."
         },
         {
-          "type": "Leveransapp on-demand (internt byggd)",
-          "title": "4eZone Pharmacy",
+          "type": "Apoteksexpedieringsapp",
+          "title": "Apoteksplattform",
           "challengeLabel": "Utmaning",
           "challenge": "Patienter med recept från läkare hade inget snabbt sätt att få sin medicin expedierad och levererad.",
           "buildLabel": "Bygge",
@@ -1437,7 +1437,7 @@
           "result": "En återanvändbar leveransplattform redo att anpassas och driftsättas för kundföretag."
         }
       ],
-      "note": "Det här är våra egna produkter och plattformar — byggda, lanserade och underhållna internt. Kunduppdrag kommer att presenteras här allteftersom de slutförs.",
+      "note": "Det här är system vi har designat och byggt från grunden — vissa drivs idag som våra egna produkter, andra byggda åt kunder att driva under sitt eget varumärke.",
       "cta": { "title": "Har du ett projekt i åtanke?", "body": "Berätta vad du bygger. Vi återkommer med en tydlig omfattning, en realistisk tidsplan och ett fast pris.", "cta": "Starta ett projekt" }
     },
     "nrBos": {

@@ -120,8 +120,8 @@
           { "type": "Prodotto SaaS (Interno)", "title": "Global Reach", "oneLiner": "Stanze di collaborazione dal vivo con lavagne condivise e chat tradotta in tempo reale tra le lingue.", "link": "global-reach" },
           { "type": "Portale Clienti Sicuro", "title": "Portale Membri Nordic Riser", "oneLiner": "Un portale autenticato per lo scambio di documenti, il monitoraggio delle pratiche, la messaggistica sicura e i pagamenti.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
           { "type": "Piattaforma di Marketing Multilingue", "title": "nordicriser.com", "oneLiner": "Un sito di produzione in undici lingue con supporto RTL, copertura meta completa e URL puliti per ogni lingua.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
-          { "type": "App Sanitaria (Interna)", "title": "4eDoctor", "oneLiner": "Una piattaforma di telemedicina con consulti video in HD, prenotazione degli appuntamenti e chat durante la chiamata.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
-          { "type": "App di Consegna On-Demand (Interna)", "title": "4eZone Pharmacy", "oneLiner": "Un sistema di evasione farmaceutica che collega le prescrizioni mediche all'elaborazione e alla consegna.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
+          { "type": "App Sanitaria", "title": "App di Telemedicina", "oneLiner": "Una piattaforma di telemedicina costruita da noi da zero — consulti video in HD, prenotazione degli appuntamenti e chat durante la chiamata — pronta per essere personalizzata per qualsiasi marchio sanitario.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
+          { "type": "App di Evasione Farmaceutica", "title": "Piattaforma Farmaceutica", "oneLiner": "Un sistema di evasione farmaceutica costruito da noi che collega le prescrizioni all'elaborazione e alla consegna, pronto per essere personalizzato per qualsiasi operatore.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
           { "type": "App di Consegna (Interna)", "title": "On-Demand Delivery App", "oneLiner": "Una piattaforma di consegna personalizzabile per ordini, dispacciamento e tracciamento dei fattorini, adatta a qualsiasi attività.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" }
         ],
         "cta": "Vedi Tutti i Lavori",
@@ -614,8 +614,8 @@
           "result": "Ogni pagina disponibile in 11 lingue con URL puliti e indicizzabili."
         },
         {
-          "type": "App Sanitaria (Interna)",
-          "title": "4eDoctor",
+          "type": "App Sanitaria",
+          "title": "App di Telemedicina",
           "challengeLabel": "Sfida",
           "challenge": "I pazienti avevano bisogno di accedere a consulti medici — con medici, psicologi e infermieri — senza le attese e la frizione delle visite in presenza.",
           "buildLabel": "Realizzazione",
@@ -623,11 +623,11 @@
           "stackLabel": "Tecnologia",
           "stack": ["Flutter", "Firebase", "Agora", "ZEGOCLOUD"],
           "resultLabel": "Risultato",
-          "result": "Prodotto live che permette ai pazienti di prenotare e consultare un medico da qualsiasi luogo, in qualsiasi momento."
+          "result": "Una piattaforma di telemedicina funzionante, costruita interamente da noi e pronta per essere personalizzata per qualsiasi marchio sanitario."
         },
         {
-          "type": "App di Consegna On-Demand (Interna)",
-          "title": "4eZone Pharmacy",
+          "type": "App di Evasione Farmaceutica",
+          "title": "Piattaforma Farmaceutica",
           "challengeLabel": "Sfida",
           "challenge": "I pazienti con una prescrizione medica non avevano un modo rapido per farsi preparare e consegnare i farmaci.",
           "buildLabel": "Realizzazione",
@@ -635,7 +635,7 @@
           "stackLabel": "Tecnologia",
           "stack": ["React", "Node.js", "MongoDB"],
           "resultLabel": "Risultato",
-          "result": "Sistema live che collega le prescrizioni all'evasione farmaceutica e alla consegna."
+          "result": "Un sistema funzionante che collega le prescrizioni all'evasione farmaceutica e alla consegna, costruito da noi e pronto per essere personalizzato per qualsiasi operatore."
         },
         {
           "type": "App di Consegna (Interna)",
@@ -650,7 +650,7 @@
           "result": "Una piattaforma di consegna riutilizzabile, pronta per essere personalizzata e distribuita per aziende clienti."
         }
       ],
-      "note": "Questi sono i nostri stessi prodotti e piattaforme — sviluppati, lanciati e mantenuti internamente. I lavori per i clienti verranno presentati qui man mano che gli incarichi saranno completati.",
+      "note": "Questi sono sistemi che abbiamo progettato e costruito da zero — alcuni funzionano oggi come nostri prodotti, altri sono stati costruiti per clienti che li gestiscono con il proprio marchio.",
       "cta": { "title": "Hai un Progetto in Mente?", "body": "Raccontaci cosa stai costruendo. Torneremo da te con un ambito chiaro, una tempistica realistica e un prezzo fisso.", "cta": "Avvia un Progetto" }
     },
     "nrBos": {

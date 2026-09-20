@@ -120,8 +120,8 @@
           { "type": "SaaS-Produkt (intern entwickelt)", "title": "Global Reach", "oneLiner": "Live-Kollaborationsräume mit gemeinsamen Whiteboards und Chat, der in Echtzeit zwischen Sprachen übersetzt wird.", "link": "global-reach" },
           { "type": "Sicheres Kundenportal", "title": "Nordic Riser Mitgliederportal", "oneLiner": "Ein authentifiziertes Portal für Dokumentenaustausch, Fallverfolgung, sichere Nachrichten und Zahlungen.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
           { "type": "Mehrsprachige Marketingplattform", "title": "nordicriser.com", "oneLiner": "Eine elfsprachige Produktionswebsite mit RTL-Unterstützung, vollständiger Meta-Abdeckung und sauberen sprachspezifischen URLs.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
-          { "type": "Gesundheits-App (intern entwickelt)", "title": "4eDoctor", "oneLiner": "Eine Telemedizin-Plattform mit HD-Videokonsultationen, Terminbuchung und Chat während des Anrufs.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
-          { "type": "On-Demand-Lieferapp (intern entwickelt)", "title": "4eZone Pharmacy", "oneLiner": "Ein Apotheken-Abwicklungssystem, das ärztliche Rezepte mit Bearbeitung und Lieferung verbindet.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
+          { "type": "Gesundheits-App", "title": "Telemedizin-App", "oneLiner": "Eine Telemedizin-Plattform, die wir von Grund auf gebaut haben — HD-Videokonsultationen, Terminbuchung und Chat während des Anrufs — bereit zur Anpassung für jede Gesundheitsmarke.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
+          { "type": "Apotheken-Abwicklungs-App", "title": "Apotheken-Plattform", "oneLiner": "Ein Apotheken-Abwicklungssystem, das wir gebaut haben und das Rezepte mit Bearbeitung und Lieferung verbindet, bereit zur Anpassung für jeden Betreiber.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
           { "type": "Lieferapp (intern entwickelt)", "title": "On-Demand Delivery App", "oneLiner": "Eine anpassbare Lieferplattform für Bestellung, Disposition und Fahrer-Tracking für jedes Unternehmen.", "link": "work", "linkLabel": "Im Portfolio ansehen →" }
         ],
         "cta": "Alle Arbeiten ansehen",
@@ -614,8 +614,8 @@
           "result": "Jede Seite in 11 Sprachen mit sauberen, indexierbaren URLs verfügbar."
         },
         {
-          "type": "Gesundheits-App (intern entwickelt)",
-          "title": "4eDoctor",
+          "type": "Gesundheits-App",
+          "title": "Telemedizin-App",
           "challengeLabel": "Herausforderung",
           "challenge": "Patientinnen und Patienten benötigten Zugang zu medizinischen Konsultationen — mit Ärzten, Psychologen und Pflegekräften — ohne Wartezeiten und Aufwand persönlicher Termine.",
           "buildLabel": "Umsetzung",
@@ -623,11 +623,11 @@
           "stackLabel": "Technologie",
           "stack": ["Flutter", "Firebase", "Agora", "ZEGOCLOUD"],
           "resultLabel": "Ergebnis",
-          "result": "Live-Produkt, mit dem Patienten von überall und jederzeit einen Arzt buchen und konsultieren können."
+          "result": "Eine funktionierende Telemedizin-Plattform, von uns komplett entwickelt und bereit zur Anpassung für jede Gesundheitsmarke."
         },
         {
-          "type": "On-Demand-Lieferapp (intern entwickelt)",
-          "title": "4eZone Pharmacy",
+          "type": "Apotheken-Abwicklungs-App",
+          "title": "Apotheken-Plattform",
           "challengeLabel": "Herausforderung",
           "challenge": "Patienten mit einem ärztlichen Rezept hatten keine schnelle Möglichkeit, ihre Medikamente ausgeben und liefern zu lassen.",
           "buildLabel": "Umsetzung",
@@ -635,7 +635,7 @@
           "stackLabel": "Technologie",
           "stack": ["React", "Node.js", "MongoDB"],
           "resultLabel": "Ergebnis",
-          "result": "Live-System, das Rezepte mit Apothekenabwicklung und Lieferung verbindet."
+          "result": "Ein funktionierendes System, das Rezepte mit Apothekenabwicklung und Lieferung verbindet, von uns gebaut und bereit zur Anpassung für jeden Betreiber."
         },
         {
           "type": "Lieferapp (intern entwickelt)",
@@ -650,7 +650,7 @@
           "result": "Eine wiederverwendbare Lieferplattform, bereit zur Anpassung und Bereitstellung für Kundenunternehmen."
         }
       ],
-      "note": "Dies sind unsere eigenen Produkte und Plattformen — intern entwickelt, gelauncht und gepflegt. Mandantenprojekte werden hier vorgestellt, sobald sie abgeschlossen sind.",
+      "note": "Das sind Systeme, die wir von Grund auf entworfen und gebaut haben — manche laufen heute als unsere eigenen Produkte, andere wurden für Kunden gebaut, die sie unter ihrer eigenen Marke betreiben.",
       "cta": { "title": "Haben Sie ein Projekt im Kopf?", "body": "Erzählen Sie uns, was Sie bauen möchten. Wir melden uns mit einem klaren Umfang, einem realistischen Zeitplan und einem Festpreis zurück.", "cta": "Projekt starten" }
     },
     "nrBos": {

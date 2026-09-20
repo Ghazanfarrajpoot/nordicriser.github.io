@@ -120,8 +120,8 @@
           { "type": "Produto SaaS (Interno)", "title": "Global Reach", "oneLiner": "Salas de colaboração ao vivo com quadros brancos partilhados e chat traduzido em tempo real entre idiomas.", "link": "global-reach" },
           { "type": "Portal de Cliente Seguro", "title": "Portal de Membros Nordic Riser", "oneLiner": "Um portal autenticado para partilha de documentos, acompanhamento de processos, mensagens seguras e pagamentos.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
           { "type": "Plataforma de Marketing Multilingue", "title": "nordicriser.com", "oneLiner": "Um site de produção em onze idiomas com suporte RTL, cobertura completa de metadados e URLs limpos por idioma.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
-          { "type": "Aplicação de Saúde (Interna)", "title": "4eDoctor", "oneLiner": "Uma plataforma de telemedicina com consultas por vídeo em HD, marcação de consultas e chat durante a chamada.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
-          { "type": "Aplicação de Entrega Sob Demanda (Interna)", "title": "4eZone Pharmacy", "oneLiner": "Um sistema de processamento farmacêutico que liga receitas médicas ao processamento e à entrega.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
+          { "type": "Aplicação de Saúde", "title": "Aplicação de Telemedicina", "oneLiner": "Uma plataforma de telemedicina que construímos do início ao fim — consultas por vídeo em HD, marcação de consultas e chat durante a chamada — pronta a personalizar para qualquer marca de saúde.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
+          { "type": "Aplicação de Processamento Farmacêutico", "title": "Plataforma Farmacêutica", "oneLiner": "Um sistema de processamento farmacêutico que construímos, ligando receitas ao processamento e à entrega, pronto a personalizar para qualquer operador.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
           { "type": "Aplicação de Entrega (Interna)", "title": "On-Demand Delivery App", "oneLiner": "Uma plataforma de entrega personalizável para pedidos, despacho e rastreamento de estafetas, adequada a qualquer negócio.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" }
         ],
         "cta": "Ver Todo o Nosso Trabalho",
@@ -614,8 +614,8 @@
           "result": "Cada página disponível em 11 idiomas com URLs limpos e indexáveis."
         },
         {
-          "type": "Aplicação de Saúde (Interna)",
-          "title": "4eDoctor",
+          "type": "Aplicação de Saúde",
+          "title": "Aplicação de Telemedicina",
           "challengeLabel": "Desafio",
           "challenge": "Os pacientes precisavam de acesso a consultas médicas — com médicos, psicólogos e enfermeiros — sem os tempos de espera e o atrito das consultas presenciais.",
           "buildLabel": "Construção",
@@ -623,11 +623,11 @@
           "stackLabel": "Stack",
           "stack": ["Flutter", "Firebase", "Agora", "ZEGOCLOUD"],
           "resultLabel": "Resultado",
-          "result": "Produto ao vivo que permite aos pacientes marcar e consultar um médico a partir de qualquer lugar, a qualquer momento."
+          "result": "Uma plataforma de telemedicina funcional, construída do início ao fim por nós e pronta a personalizar para qualquer marca de saúde."
         },
         {
-          "type": "Aplicação de Entrega Sob Demanda (Interna)",
-          "title": "4eZone Pharmacy",
+          "type": "Aplicação de Processamento Farmacêutico",
+          "title": "Plataforma Farmacêutica",
           "challengeLabel": "Desafio",
           "challenge": "Os pacientes com uma receita médica não tinham uma forma rápida de fazer com que o seu medicamento fosse preparado e entregue.",
           "buildLabel": "Construção",
@@ -635,7 +635,7 @@
           "stackLabel": "Stack",
           "stack": ["React", "Node.js", "MongoDB"],
           "resultLabel": "Resultado",
-          "result": "Sistema ao vivo que liga as receitas ao processamento farmacêutico e à entrega."
+          "result": "Um sistema funcional que liga receitas ao processamento farmacêutico e à entrega, construído por nós e pronto a personalizar para qualquer operador."
         },
         {
           "type": "Aplicação de Entrega (Interna)",
@@ -650,7 +650,7 @@
           "result": "Uma plataforma de entrega reutilizável, pronta a ser personalizada e implementada para empresas clientes."
         }
       ],
-      "note": "Estes são os nossos próprios produtos e plataformas — construídos, lançados e mantidos internamente. O trabalho para clientes será apresentado aqui à medida que as colaborações forem concluídas.",
+      "note": "Estes são sistemas que concebemos e construímos do início ao fim — alguns funcionam hoje como nossos próprios produtos, outros foram construídos para clientes operarem sob a sua própria marca.",
       "cta": { "title": "Tem um Projeto em Mente?", "body": "Diga-nos o que está a construir. Voltaremos com um âmbito claro, um calendário realista e um preço fixo.", "cta": "Iniciar um Projeto" }
     },
     "nrBos": {

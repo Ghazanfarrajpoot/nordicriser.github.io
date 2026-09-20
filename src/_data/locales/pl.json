@@ -120,8 +120,8 @@
           { "type": "Produkt SaaS (Wewnętrzny)", "title": "Global Reach", "oneLiner": "Pokoje współpracy na żywo ze wspólnymi tablicami i czatem tłumaczonym w czasie rzeczywistym między językami.", "link": "global-reach" },
           { "type": "Bezpieczny Portal Klienta", "title": "Portal Członków Nordic Riser", "oneLiner": "Uwierzytelniony portal do wymiany dokumentów, śledzenia spraw, bezpiecznej komunikacji i płatności.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
           { "type": "Wielojęzyczna Platforma Marketingowa", "title": "nordicriser.com", "oneLiner": "Jedenastojęzyczna strona produkcyjna ze wsparciem RTL, pełnym pokryciem meta i czystymi adresami URL dla każdego języka.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
-          { "type": "Aplikacja Zdrowotna (Wewnętrzna)", "title": "4eDoctor", "oneLiner": "Platforma telemedyczna z konsultacjami wideo w HD, rezerwacją wizyt i czatem podczas rozmowy.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
-          { "type": "Aplikacja Dostawy na Żądanie (Wewnętrzna)", "title": "4eZone Pharmacy", "oneLiner": "System realizacji recept łączący recepty lekarskie z przetwarzaniem i dostawą.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
+          { "type": "Aplikacja Zdrowotna", "title": "Aplikacja Telemedyczna", "oneLiner": "Platforma telemedyczna, którą zbudowaliśmy od podstaw — konsultacje wideo w HD, rezerwacja wizyt i czat podczas rozmowy — gotowa do dostosowania dla dowolnej marki medycznej.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
+          { "type": "Aplikacja Realizacji Recept", "title": "Platforma Farmaceutyczna", "oneLiner": "System realizacji recept, który zbudowaliśmy, łączący recepty z przetwarzaniem i dostawą, gotowy do dostosowania dla dowolnego operatora.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
           { "type": "Aplikacja Dostawcza (Wewnętrzna)", "title": "On-Demand Delivery App", "oneLiner": "Konfigurowalna platforma dostawcza do zamawiania, dyspozycji i śledzenia kurierów dla dowolnej firmy.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" }
         ],
         "cta": "Zobacz Wszystkie Realizacje",
@@ -614,8 +614,8 @@
           "result": "Każda strona dostępna w 11 językach z czystymi, indeksowalnymi adresami URL."
         },
         {
-          "type": "Aplikacja Zdrowotna (Wewnętrzna)",
-          "title": "4eDoctor",
+          "type": "Aplikacja Zdrowotna",
+          "title": "Aplikacja Telemedyczna",
           "challengeLabel": "Wyzwanie",
           "challenge": "Pacjenci potrzebowali dostępu do konsultacji medycznych — z lekarzami, psychologami i pielęgniarkami — bez czasu oczekiwania i utrudnień związanych z wizytami osobistymi.",
           "buildLabel": "Realizacja",
@@ -623,11 +623,11 @@
           "stackLabel": "Technologia",
           "stack": ["Flutter", "Firebase", "Agora", "ZEGOCLOUD"],
           "resultLabel": "Rezultat",
-          "result": "Działający produkt umożliwiający pacjentom rezerwację i konsultację z lekarzem z dowolnego miejsca, o dowolnej porze."
+          "result": "Działająca platforma telemedyczna, zbudowana od podstaw przez nas i gotowa do dostosowania dla dowolnej marki medycznej."
         },
         {
-          "type": "Aplikacja Dostawy na Żądanie (Wewnętrzna)",
-          "title": "4eZone Pharmacy",
+          "type": "Aplikacja Realizacji Recept",
+          "title": "Platforma Farmaceutyczna",
           "challengeLabel": "Wyzwanie",
           "challenge": "Pacjenci posiadający receptę lekarską nie mieli szybkiego sposobu na zrealizowanie i dostarczenie leków.",
           "buildLabel": "Realizacja",
@@ -635,7 +635,7 @@
           "stackLabel": "Technologia",
           "stack": ["React", "Node.js", "MongoDB"],
           "resultLabel": "Rezultat",
-          "result": "Działający system łączący recepty z realizacją w aptece i dostawą."
+          "result": "Działający system łączący recepty z realizacją w aptece i dostawą, zbudowany przez nas i gotowy do dostosowania dla dowolnego operatora."
         },
         {
           "type": "Aplikacja Dostawcza (Wewnętrzna)",
@@ -650,7 +650,7 @@
           "result": "Wielokrotnego użytku platforma dostawcza gotowa do dostosowania i wdrożenia dla firm klienckich."
         }
       ],
-      "note": "To są nasze własne produkty i platformy — zbudowane, wdrożone i utrzymywane wewnętrznie. Prace dla klientów będą prezentowane tutaj w miarę ich ukończenia.",
+      "note": "To systemy, które zaprojektowaliśmy i zbudowaliśmy od podstaw — niektóre działają dziś jako nasze własne produkty, inne zostały zbudowane dla klientów, którzy prowadzą je pod własną marką.",
       "cta": { "title": "Masz Projekt na Myśli?", "body": "Powiedz nam, co budujesz. Wrócimy z jasnym zakresem, realistycznym harmonogramem i stałą ceną.", "cta": "Rozpocznij Projekt" }
     },
     "nrBos": {

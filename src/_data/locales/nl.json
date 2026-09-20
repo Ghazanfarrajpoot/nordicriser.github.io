@@ -120,8 +120,8 @@
           { "type": "SaaS-product (Intern)", "title": "Global Reach", "oneLiner": "Live samenwerkingsruimtes met gedeelde whiteboards en chat die in realtime wordt vertaald tussen talen.", "link": "global-reach" },
           { "type": "Veilig Klantportaal", "title": "Nordic Riser Ledenportaal", "oneLiner": "Een geauthenticeerd portaal voor documentuitwisseling, zaakopvolging, veilige berichten en betalingen.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
           { "type": "Meertalig Marketingplatform", "title": "nordicriser.com", "oneLiner": "Een productiesite in elf talen met RTL-ondersteuning, volledige metadekking en schone URL's per taal.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
-          { "type": "Zorg-app (Intern)", "title": "4eDoctor", "oneLiner": "Een telemedicineplatform met HD-videoconsulten, afsprakenplanning en chat tijdens het gesprek.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
-          { "type": "On-demand Bezorgapp (Intern)", "title": "4eZone Pharmacy", "oneLiner": "Een apotheekverwerkingssysteem dat doktersrecepten koppelt aan verwerking en bezorging.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
+          { "type": "Zorg-app", "title": "Telemedicine-app", "oneLiner": "Een telemedicineplatform dat we volledig zelf hebben gebouwd — HD-videoconsulten, afsprakenplanning en chat tijdens het gesprek — klaar om aan te passen voor elk zorgmerk.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
+          { "type": "Apotheekverwerkings-app", "title": "Apotheekplatform", "oneLiner": "Een apotheekverwerkingssysteem dat we hebben gebouwd en dat recepten koppelt aan verwerking en bezorging, klaar om aan te passen voor elke exploitant.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
           { "type": "Bezorgapp (Intern)", "title": "On-Demand Delivery App", "oneLiner": "Een aanpasbaar bezorgplatform voor bestellen, dispatch en bezorgertracking, geschikt voor elk bedrijf.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" }
         ],
         "cta": "Bekijk Al Ons Werk",
@@ -614,8 +614,8 @@
           "result": "Elke pagina beschikbaar in 11 talen met schone, indexeerbare URL's."
         },
         {
-          "type": "Zorg-app (Intern)",
-          "title": "4eDoctor",
+          "type": "Zorg-app",
+          "title": "Telemedicine-app",
           "challengeLabel": "Uitdaging",
           "challenge": "Patiënten hadden toegang nodig tot medische consulten — met artsen, psychologen en verpleegkundigen — zonder de wachttijden en frictie van fysieke bezoeken.",
           "buildLabel": "Bouw",
@@ -623,11 +623,11 @@
           "stackLabel": "Techniek",
           "stack": ["Flutter", "Firebase", "Agora", "ZEGOCLOUD"],
           "resultLabel": "Resultaat",
-          "result": "Live product waarmee patiënten overal en op elk moment een arts kunnen boeken en raadplegen."
+          "result": "Een werkend telemedicineplatform, volledig door ons gebouwd en klaar om aan te passen voor elk zorgmerk."
         },
         {
-          "type": "On-demand Bezorgapp (Intern)",
-          "title": "4eZone Pharmacy",
+          "type": "Apotheekverwerkings-app",
+          "title": "Apotheekplatform",
           "challengeLabel": "Uitdaging",
           "challenge": "Patiënten met een doktersrecept hadden geen snelle manier om hun medicatie te laten verwerken en bezorgen.",
           "buildLabel": "Bouw",
@@ -635,7 +635,7 @@
           "stackLabel": "Techniek",
           "stack": ["React", "Node.js", "MongoDB"],
           "resultLabel": "Resultaat",
-          "result": "Live systeem dat recepten koppelt aan apotheekverwerking en bezorging."
+          "result": "Een werkend systeem dat recepten koppelt aan apotheekverwerking en bezorging, door ons gebouwd en klaar om aan te passen voor elke exploitant."
         },
         {
           "type": "Bezorgapp (Intern)",
@@ -650,7 +650,7 @@
           "result": "Een herbruikbaar bezorgplatform klaar om aangepast en uitgerold te worden voor klantbedrijven."
         }
       ],
-      "note": "Dit zijn onze eigen producten en platforms — intern gebouwd, gelanceerd en onderhouden. Klantwerk wordt hier uitgelicht zodra trajecten zijn afgerond.",
+      "note": "Dit zijn systemen die we van begin tot eind hebben ontworpen en gebouwd — sommige draaien vandaag als onze eigen producten, andere zijn gebouwd voor klanten om onder hun eigen merk te exploiteren.",
       "cta": { "title": "Heeft u een Project in Gedachten?", "body": "Vertel ons wat u bouwt. Wij komen terug met een duidelijke scope, een realistische planning en een vaste prijs.", "cta": "Start een Project" }
     },
     "nrBos": {

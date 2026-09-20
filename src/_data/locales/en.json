@@ -149,8 +149,8 @@
           { "type": "SaaS Product (In-House)", "title": "Global Reach", "oneLiner": "Live study and work rooms with real-time presence and shared session notes, billed by the minute.", "link": "global-reach" },
           { "type": "Secure Client Portal (In-House)", "title": "Nordic Riser Member Portal", "oneLiner": "An authenticated portal for document exchange, case tracking, secure messaging, and payments.", "link": "work", "linkLabel": "See in our work →" },
           { "type": "Multilingual Marketing Platform (In-House)", "title": "nordicriser.com", "oneLiner": "An eleven-language production site with RTL support, full meta coverage, and clean per-language URLs.", "link": "work", "linkLabel": "See in our work →" },
-          { "type": "Healthcare App (In-House)", "title": "4eDoctor", "oneLiner": "A telemedicine platform with HD video consultations, appointment booking, and in-call chat.", "link": "work", "linkLabel": "See in our work →" },
-          { "type": "On-Demand Delivery App (In-House)", "title": "4eZone Pharmacy", "oneLiner": "A pharmacy fulfillment system linking doctor prescriptions to processing and delivery.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Healthcare App", "title": "Telemedicine App", "oneLiner": "A telemedicine platform we built end-to-end — HD video consultations, appointment booking, and in-call chat — ready to customize for any healthcare brand.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Pharmacy Fulfillment App", "title": "Pharmacy Platform", "oneLiner": "A pharmacy fulfillment system we built linking prescriptions to processing and delivery, ready to customize for any operator.", "link": "work", "linkLabel": "See in our work →" },
           { "type": "Delivery App (In-House)", "title": "On-Demand Delivery App", "oneLiner": "A customizable delivery platform covering ordering, dispatch, and rider tracking for any business.", "link": "work", "linkLabel": "See in our work →" }
         ],
         "cta": "See All Work",
@@ -1024,8 +1024,8 @@
           "result": "Every page available in 11 languages with clean, indexable URLs."
         },
         {
-          "type": "Healthcare App (In-House)",
-          "title": "4eDoctor",
+          "type": "Healthcare App",
+          "title": "Telemedicine App",
           "challengeLabel": "Challenge",
           "challenge": "Patients needed access to medical consultations — with doctors, psychologists, and nurses — without the wait times and friction of in-person visits.",
           "buildLabel": "Build",
@@ -1033,11 +1033,11 @@
           "stackLabel": "Stack",
           "stack": ["Flutter", "Firebase", "Agora", "ZEGOCLOUD"],
           "resultLabel": "Result",
-          "result": "Live product letting patients book and consult a doctor from anywhere, at any time."
+          "result": "A working telemedicine platform, built end-to-end by us and ready to customize for any healthcare brand."
         },
         {
-          "type": "On-Demand Delivery App (In-House)",
-          "title": "4eZone Pharmacy",
+          "type": "Pharmacy Fulfillment App",
+          "title": "Pharmacy Platform",
           "challengeLabel": "Challenge",
           "challenge": "Patients with a doctor's prescription had no fast way to get their medicine fulfilled and delivered.",
           "buildLabel": "Build",
@@ -1045,7 +1045,7 @@
           "stackLabel": "Stack",
           "stack": ["React", "Node.js", "MongoDB"],
           "resultLabel": "Result",
-          "result": "Live system connecting prescriptions to pharmacy fulfillment and delivery."
+          "result": "A working system connecting prescriptions to pharmacy fulfillment and delivery, built by us and ready to customize for any operator."
         },
         {
           "type": "Delivery App (In-House)",
@@ -1060,7 +1060,7 @@
           "result": "A reusable delivery platform ready to be customized and deployed for client businesses."
         }
       ],
-      "note": "These are our own products and platforms — built, launched, and maintained in-house. Client work will be featured here as engagements are completed.",
+      "note": "These are systems we've designed and built end-to-end — some running today as our own products, others built for clients to operate under their own brand.",
       "cta": { "title": "Have a Project in Mind?", "body": "Tell us what you're building. We'll come back with a clear scope, a realistic timeline, and a fixed price.", "cta": "Start a Project" }
     },
     "nrBos": {
