@@ -100,7 +100,8 @@
           "features": [
             "Antal totala och aktiva projekt, uppdaterat i realtid",
             "Färdigställandegrad för hela portföljen, uppdaterad automatiskt när uppgifter slutförs",
-            "Budget mot faktisk kostnad, sida vid sida"
+            "Budget mot faktisk kostnad, sida vid sida",
+            "Vinstmarginal och lönsamhet, beräknat från budget mot faktisk kostnad — ännu inte kopplat till fakturerad intäkt"
           ],
           "shots": [
             { "file": "dashboard-overview.jpg", "alt": "NR-BOS-instrumentpanel som visar fyra projekträkningar, staplar för budget mot faktisk kostnad och ett cirkeldiagram över projekt efter status" }
