@@ -104,7 +104,7 @@
             "Vinstmarginal och lönsamhet, beräknat från budget mot faktisk kostnad — ännu inte kopplat till fakturerad intäkt"
           ],
           "shots": [
-            { "file": "dashboard-overview.jpg", "alt": "NR-BOS-instrumentpanel som visar fyra projekträkningar, staplar för budget mot faktisk kostnad och ett cirkeldiagram över projekt efter status" }
+            { "file": "dashboard-overview.jpg", "alt": "NR-BOS-instrumentpanel som visar projekträkningar, färdigställandegrad, vinstmarginal, budget mot faktisk kostnad och ett cirkeldiagram över projekt efter status" }
           ]
         },
         {

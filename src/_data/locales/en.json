@@ -106,7 +106,7 @@
             "Profit margin and profitability, calculated from budget against actual cost — not yet tied to invoiced revenue"
           ],
           "shots": [
-            { "file": "dashboard-overview.jpg", "alt": "NR-BOS dashboard showing four project counts, budget vs. actual cost bars, and a projects-by-status pie chart" }
+            { "file": "dashboard-overview.jpg", "alt": "NR-BOS dashboard showing project counts, completion percentage, profit margin, budget vs. actual cost, and a projects-by-status pie chart" }
           ]
         },
         {
