@@ -373,7 +373,7 @@
 /* ── HOMEPAGE: BUILT-WITH LINE ON SERVICE CARDS ── */
 .built-with { font-size: 0.8rem; color: var(--muted); margin-block-start: 0.85rem; line-height: 1.6; }
 .built-with strong { color: var(--navy); font-weight: 700; }
-.built-with a { color: var(--gold-hover); font-weight: 600; }
+.built-with a { color: #855f28; font-weight: 600; } /* 5.35:1 on white/paper, WCAG AA — var(--gold-hover) was 2.66:1 */
 
 /* ── HOMEPAGE: FEATURED WORK TEASER ── */
 .work-teaser-grid {
@@ -422,10 +422,18 @@
 }
 
 /* ── HOMEPAGE: TECHNOLOGY STACK ── */
+.tech-stack-product {
+  font-size: 0.95rem; font-weight: 700; color: var(--navy);
+  margin-block: 1.75rem 0.9rem;
+}
+.tech-stack-product:first-of-type { margin-block-start: 0; }
+
 .tech-stack-grid {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
 }
+
+.tech-stack-grid--practices { margin-block-start: 1.75rem; }
 
 .tech-stack-group {
   background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem 1.75rem;

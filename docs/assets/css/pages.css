@@ -237,7 +237,7 @@
   padding: 0.85rem 1.1rem; border: 1.5px solid var(--border); border-radius: 4px;
   min-width: 220px; background: var(--white); color: var(--text);
 }
-.lead-form input[type="email"]:focus { outline: none; border-color: var(--gold); }
+.lead-form input[type="email"]:focus { outline: none; border-color: var(--gold); box-shadow: 0 0 0 3px rgba(201,169,110,0.15); }
 .lead-form button {
   font-family: var(--font-sans); font-weight: 600; font-size: 0.8rem;
   letter-spacing: 0.07em; text-transform: uppercase;
@@ -466,7 +466,7 @@ a.right-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); 
   font-size: 1.15rem; font-weight: 800; flex-shrink: 0; letter-spacing: -0.5px;
   transition: background 0.3s ease, color 0.3s ease;
 }
-.service-body h2 { font-family: var(--font-serif); font-size: 1.35rem; font-weight: 800; color: var(--navy); margin-bottom: 0.75rem; letter-spacing: -0.3px; }
+.service-body h3 { font-family: var(--font-serif); font-size: 1.35rem; font-weight: 800; color: var(--navy); margin-bottom: 0.75rem; letter-spacing: -0.3px; }
 .service-body .service-tagline { font-size: 0.7rem; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; display: block; }
 [dir="rtl"] .service-body .service-tagline { letter-spacing: 0; text-transform: none; }
 .service-body p { font-size: 0.975rem; color: var(--muted); line-height: 1.85; margin-bottom: 1.1rem; }
@@ -518,7 +518,7 @@ a.right-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); 
 .group-num { font-family: var(--font-serif); font-size: 3rem; font-weight: 800; color: var(--border); line-height: 1; letter-spacing: -2px; }
 .group-tag { display: inline-block; font-size: 0.72rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--navy); background: var(--white); border: 1px solid var(--border); border-radius: 20px; padding: 0.3rem 0.85rem; align-self: flex-start; }
 [dir="rtl"] .group-tag { letter-spacing: 0; text-transform: none; }
-.group-sidebar h2 { font-family: var(--font-serif); font-size: 1.2rem; font-weight: 700; color: var(--navy); line-height: 1.35; }
+.group-sidebar h3 { font-family: var(--font-serif); font-size: 1.2rem; font-weight: 700; color: var(--navy); line-height: 1.35; }
 .group-content { padding: 2.5rem; }
 .group-content p { font-size: 0.975rem; color: var(--muted); line-height: 1.85; margin-bottom: 1.1rem; }
 .group-content p:last-of-type { margin-bottom: 0; }

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 36">
+  <style>
+    .nr-shield { fill: #1B2A4A; stroke: #C9A84C; stroke-width: 1; }
+    .nr-mark { fill: #C9A84C; }
+    @media (prefers-color-scheme: dark) {
+      .nr-shield { fill: #C9A84C; stroke: #1B2A4A; stroke-width: 1.25; }
+      .nr-mark { fill: #1B2A4A; }
+    }
+  </style>
+  <path class="nr-shield" d="M16 0.8L30.5 6.4V17.2C30.5 25.9 24.3 32.1 16 35.2C7.7 32.1 1.5 25.9 1.5 17.2V6.4L16 0.8Z"/>
+  <text class="nr-mark" x="16" y="19.5" font-family="Georgia, 'Times New Roman', serif" font-size="14.5" font-weight="700" text-anchor="middle" dominant-baseline="central">NR</text>
+</svg>
