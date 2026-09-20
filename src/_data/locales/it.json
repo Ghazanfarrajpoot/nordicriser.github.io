@@ -729,17 +729,6 @@
           ]
         },
         {
-          "eyebrow": "Assistente IA",
-          "title": "Rischio, costo e produttività — letti dall'IA",
-          "body": "Su richiesta, un assistente IA legge le attività, i costi e i dati del team reali di un progetto e restituisce un briefing strutturato su rischio, costo o produttività — non consigli generici.",
-          "shots": [
-            {
-              "file": "ai-insights.jpg",
-              "caption": "Insight IA — analisi del rischio"
-            }
-          ]
-        },
-        {
           "eyebrow": "Report clienti",
           "title": "Un PDF brandizzato, generato con un clic",
           "body": "Raccogli le attività, i costi e le foto di campo recenti di un progetto in un report PDF pronto per il cliente — prima come bozza, poi contrassegnato come inviato quando è pronto.",
@@ -836,7 +825,7 @@
           {"icon":"target","name":"Analisi","status":"available","body":"KPI di portafoglio, carico del team e budget vs effettivo, aggiornati in tempo reale."},
           {"icon":"scale","name":"Ricavi e margine","status":"planned","body":"Tracciamento dei ricavi e margine reale, accanto al lato costi esistente. Non ancora costruito — l'analisi attualmente mostra solo budget vs spesa effettiva."},
           {"icon":"calendar","name":"Previsioni","status":"planned","body":"Proiezioni prospettiche per costi, ricavi e consegna. Non ancora costruito."},
-          {"icon":"gear","name":"IA","status":"available","body":"Un assistente IA integrato legge dati di progetto reali su richiesta e restituisce un briefing strutturato a supporto della decisione — non agisce di propria iniziativa. Attivabile per azienda."}
+          {"icon":"gear","name":"IA","status":"planned","body":"Un assistente IA integrato legge dati di progetto reali su richiesta e restituisce un briefing strutturato a supporto della decisione — non agisce di propria iniziativa. Attivabile per azienda."}
         ]
       },
       "industries": {

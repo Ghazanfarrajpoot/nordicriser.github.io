@@ -729,17 +729,6 @@
           ]
         },
         {
-          "eyebrow": "AI-assistent",
-          "title": "Risico, kosten en productiviteit — gelezen door AI",
-          "body": "Op aanvraag leest een AI-assistent de werkelijke taken, kosten en teamgegevens van een project en levert een gestructureerde risico-, kosten- of productiviteitsbriefing — geen generiek advies.",
-          "shots": [
-            {
-              "file": "ai-insights.jpg",
-              "caption": "AI-inzichten — risicoanalyse"
-            }
-          ]
-        },
-        {
           "eyebrow": "Klantrapporten",
           "title": "Een gebrandmerkte PDF, met één klik gegenereerd",
           "body": "Trek de taken, kosten en recente veldfoto's van een project in een klantklaar PDF-rapport — eerst als concept, daarna gemarkeerd als verzonden zodra het klaar is.",
@@ -836,7 +825,7 @@
           {"icon":"target","name":"Analytics","status":"available","body":"Portefeuillebrede KPI's, teambelasting en budget vs. werkelijk, in realtime bijgewerkt."},
           {"icon":"scale","name":"Omzet & marge","status":"planned","body":"Omzettracking en werkelijke marge, naast de bestaande kostenkant. Nog niet gebouwd — analytics toont momenteel alleen budget versus werkelijke uitgaven."},
           {"icon":"calendar","name":"Prognose","status":"planned","body":"Vooruitkijkende prognoses voor kosten, omzet en levering. Nog niet gebouwd."},
-          {"icon":"gear","name":"AI","status":"available","body":"Een ingebouwde AI-assistent leest op aanvraag echte projectgegevens en levert een gestructureerde briefing ter ondersteuning van besluitvorming — hij handelt niet op eigen initiatief. Per bedrijf te activeren."}
+          {"icon":"gear","name":"AI","status":"planned","body":"Een ingebouwde AI-assistent leest op aanvraag echte projectgegevens en levert een gestructureerde briefing ter ondersteuning van besluitvorming — hij handelt niet op eigen initiatief. Per bedrijf te activeren."}
         ]
       },
       "industries": {

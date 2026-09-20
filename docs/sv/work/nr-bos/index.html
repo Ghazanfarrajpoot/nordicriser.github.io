@@ -292,9 +292,9 @@
       </div>
       <div class="portfolio-card">
         <div class="portfolio-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 3.5v2.4M12 18.1v2.4M20.5 12h-2.4M5.9 12H3.5M17.7 6.3l-1.7 1.7M8 16l-1.7 1.7M17.7 17.7 16 16M8 8 6.3 6.3"/></svg></div>
-        <span class="status-badge status-badge--available">Tillgänglig nu</span>
+        <span class="status-badge status-badge--planned">Planerad</span>
         <h3>AI</h3>
-        <p>En inbyggd AI-assistent läser faktisk projektdata på begäran och returnerar en strukturerad rapport som beslutsstöd — den agerar inte på egen hand. Aktiveras per företag.</p>
+        <p>En inbyggd AI-assistent som läser faktisk projektdata på begäran och returnerar en strukturerad rapport om risk, kostnad eller produktivitet. Byggd, men för närvarande pausad medan den omarbetas — inte tillgänglig i den skarpa produkten ännu.</p>
       </div>
     </div>
   </div>
@@ -409,7 +409,7 @@
   <span class="nrb2-launcher__text">
     <span class="nrb2-launcher__eyebrow"><span class="nrb2-dot" aria-hidden="true"></span>Live produkt</span>
     <span class="nrb2-launcher__title">Utforska NR-BOS</span>
-    <span class="nrb2-launcher__body">Öppna den interaktiva rundturen — sju paneler, riktiga skärmar från den skarpa produkten.</span>
+    <span class="nrb2-launcher__body">Öppna den interaktiva rundturen — sex paneler, riktiga skärmar från den skarpa produkten.</span>
   </span>
   <span class="nrb2-launcher__cta">Öppna rundturen <span aria-hidden="true">→</span></span>
 </button>
@@ -479,17 +479,6 @@
                 class="nrb2-tab">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/></svg>
           <span class="nrb2-tab__label">Analys</span>
-        </button>
-        <button type="button"
-                role="tab"
-                id="nrb2-tab-nr-bos-ai-assistant"
-                aria-controls="nrb2-panel-nr-bos-ai-assistant"
-                aria-selected="false"
-                tabindex="-1"
-                data-nrb2-tab="ai-assistant"
-                class="nrb2-tab">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5 13.4 9l5.6 1.4-5.6 1.4L12 17.4 10.6 11.8 5 10.4l5.6-1.4Z"/><path d="M18.5 16.5 19.1 18.5 21.1 19.1 19.1 19.7 18.5 21.7 17.9 19.7 15.9 19.1 17.9 18.5Z"/></svg>
-          <span class="nrb2-tab__label">AI-assistent</span>
         </button>
         <button type="button"
                 role="tab"
@@ -644,28 +633,6 @@
           </div>
         </div>
         <div role="tabpanel"
-             id="nrb2-panel-nr-bos-ai-assistant"
-             aria-labelledby="nrb2-tab-nr-bos-ai-assistant"
-             data-nrb2-panel="ai-assistant"
-             class="nrb2-panel"
-             tabindex="0">
-          <p class="nrb2-panel__eyebrow">AI-assisterat</p><span class="status-badge status-badge--available">Tillgänglig nu</span>
-          <h3 class="nrb2-panel__title">Risk, kostnad och produktivitet — lästa av AI</h3>
-          <p class="nrb2-panel__body">På begäran läser en AI-assistent ett projekts riktiga uppgifter, kostnader och teamdata och lämnar en strukturerad sammanfattning — inte generiska råd.</p>
-          <ul class="nrb2-feat">
-            <li>Riskanalys flaggar det som faktiskt bromsar tidsplanen</li>
-            <li>Kostnadsinsikter bryter ner utgifter per kategori med en sammanfattning i klartext</li>
-            <li>Produktivitetsanteckningar pekar ut obalans i arbetsbelastning och flaskhalsar</li>
-          </ul>
-          <div class="nrb2-shots">
-            <figure class="nrb2-frame">
-              <div class="nrb2-frame-bar"><i></i><i></i><i></i></div>
-              <img src="/assets/img/nr-bos/ai-insights.jpg" alt="AI-genererad riskanalys som listar två flaggade risker med allvarlighetsgrad och en anteckning om arbetsbelastning" loading="lazy" width="1568" height="710">
-              <figcaption>AI-genererad riskanalys som listar två flaggade risker med allvarlighetsgrad och en anteckning om arbetsbelastning</figcaption>
-            </figure>
-          </div>
-        </div>
-        <div role="tabpanel"
              id="nrb2-panel-nr-bos-licensing"
              aria-labelledby="nrb2-tab-nr-bos-licensing"
              data-nrb2-panel="licensing"
@@ -788,21 +755,6 @@
           <div class="nrb-frame-bar"><i></i><i></i><i></i></div>
           <img src="/assets/img/nr-bos/field-report-before-after.jpg" alt="Fältrapport — före / efter" loading="lazy" width="1568" height="710">
           <figcaption>Fältrapport — före / efter</figcaption>
-        </figure>
-      </div>
-    </div>
-    <div class="nrb-block">
-      <div class="nrb-block-head">
-        <span class="section-label">AI-assistent</span>
-        <span class="status-badge status-badge--available">Tillgänglig nu</span>
-        <h2 class="nrb-block-title">Risk, kostnad och produktivitet — läst av AI</h2>
-        <p class="nrb-block-body">På begäran läser en AI-assistent ett projekts faktiska uppgifter, kostnader och teamdata och returnerar en strukturerad risk-, kostnads- eller produktivitetsrapport — inte generiska råd.</p>
-      </div>
-      <div class="nrb-shots nrb-shots-1">
-        <figure class="nrb-frame">
-          <div class="nrb-frame-bar"><i></i><i></i><i></i></div>
-          <img src="/assets/img/nr-bos/ai-insights.jpg" alt="AI-insikter — riskanalys" loading="lazy" width="1568" height="710">
-          <figcaption>AI-insikter — riskanalys</figcaption>
         </figure>
       </div>
     </div>

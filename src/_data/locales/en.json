@@ -82,7 +82,7 @@
       "id": "nr-bos",
       "eyebrow": "Live Product",
       "title": "Explore NR-BOS",
-      "body": "Open the interactive tour — seven panels, real screens from the live product.",
+      "body": "Open the interactive tour — six panels, real screens from the live product.",
       "cta": "Open the Tour",
       "modalId": "In-House Product · NR-BOS",
       "modalTitle": "NR-BOS — Interactive Tour",
@@ -92,125 +92,12 @@
       "sliderAfterLabel": "After",
       "sliderNote": "Drag to compare — a real before/after pair from a field report.",
       "panels": [
-        {
-          "slug": "dashboard",
-          "icon": "chart",
-          "tabLabel": "Dashboard",
-          "eyebrow": "Overview",
-          "title": "A live read on every project",
-          "body": "Portfolio-wide KPIs, budget vs. actual spend, and completion — the first thing anyone opens each morning.",
-          "features": [
-            "Total and active project counts, updated in real time",
-            "Completion percentage across the whole portfolio, tracked automatically as tasks close",
-            "Budget vs. actual cost, side by side",
-            "Profit margin and profitability, calculated from budget against actual cost — not yet tied to invoiced revenue"
-          ],
-          "shots": [
-            { "file": "dashboard-overview.jpg", "alt": "NR-BOS dashboard showing project counts, completion percentage, profit margin, budget vs. actual cost, and a projects-by-status pie chart" }
-          ]
-        },
-        {
-          "slug": "projects",
-          "icon": "clipboard",
-          "tabLabel": "Projects",
-          "eyebrow": "Delivery",
-          "title": "Every job, tracked to the task",
-          "body": "Projects carry their own budget, client, and team. Work inside each one runs on a four-column board.",
-          "features": [
-            "To do, in progress, review, done — one board per project",
-            "Each task carries an assignee, due date, and estimated hours",
-            "Project status — planning, active, on hold, completed — visible at a glance",
-            "Work orders dispatched with a priority and scheduled date, visible on a day, week, or month calendar"
-          ],
-          "shots": [
-            { "file": "projects-list.jpg", "alt": "List of four NR-BOS projects with status badges — active, on hold, planning, and completed" },
-            { "file": "project-kanban.jpg", "alt": "Kanban board for a project showing tasks across To Do, In Progress, Review, and Done columns" }
-          ]
-        },
-        {
-          "slug": "field-reporting",
-          "icon": "wrench",
-          "tabLabel": "Field Reporting",
-          "eyebrow": "On Site",
-          "title": "What happened on site, with proof",
-          "body": "Field crews log progress notes and photos straight from the site — including paired before/after shots for work that's easy to describe but hard to picture.",
-          "features": [
-            "Notes tied to a specific task, timestamped and geotagged",
-            "Before, after, and general photo types on every report",
-            "Drag the slider below — a real before/after pair from a field report"
-          ],
-          "shots": [
-            { "file": "field-report-notes.jpg", "alt": "Field report entry with a timestamped site note and an attached photo" }
-          ]
-        },
-        {
-          "slug": "client-reports",
-          "icon": "folder",
-          "tabLabel": "Client Reports",
-          "eyebrow": "Client-Facing",
-          "title": "A branded PDF, generated in one click",
-          "body": "Pull a project's tasks, costs, and recent field photos into a client-ready PDF report — draft first, then mark as sent.",
-          "features": [
-            "Comments field for a written progress narrative",
-            "Draft status until you're ready for the client to see it",
-            "The generated PDF embeds recent field-report photos automatically"
-          ],
-          "shots": [
-            { "file": "client-report-generate.jpg", "alt": "Generate Client Report dialog with a comments field for the client-facing narrative" },
-            { "file": "client-report-pdf.jpg", "alt": "Generated client report PDF showing company details, project information, and task status" }
-          ]
-        },
-        {
-          "slug": "analytics",
-          "icon": "target",
-          "tabLabel": "Analytics",
-          "eyebrow": "Team & Spend",
-          "title": "Where the time and money are going",
-          "body": "Team workload by status and a full cost ledger by category — the numbers behind the dashboard.",
-          "features": [
-            "Workload chart broken down by to do, in progress, review, and done per person",
-            "Cost entries by category — materials, labor, subcontractor, permits",
-            "Remaining budget calculated automatically as costs are logged"
-          ],
-          "shots": [
-            { "file": "dashboard-team-workload.jpg", "alt": "Team workload chart showing task counts by status for each team member" },
-            { "file": "project-costs.jpg", "alt": "Cost ledger listing dated entries by category with running budget and remaining balance" }
-          ]
-        },
-        {
-          "slug": "ai-assistant",
-          "icon": "sparkle",
-          "tabLabel": "AI Assistant",
-          "eyebrow": "AI-Assisted",
-          "title": "Risk, cost, and productivity — read by AI",
-          "body": "A built-in AI assistant, enabled per company, reads a project's real tasks, costs, and team data on demand and returns a structured briefing — not generic advice.",
-          "features": [
-            "Risk analysis flags what's actually blocking the schedule",
-            "Cost insights break down spend by category with a plain-language summary",
-            "Productivity notes point out workload imbalance and bottlenecks"
-          ],
-          "shots": [
-            { "file": "ai-insights.jpg", "alt": "AI-generated risk analysis listing two flagged risks with severity and a workload note" }
-          ]
-        },
-        {
-          "slug": "licensing",
-          "icon": "lock",
-          "tabLabel": "Team & Licensing",
-          "eyebrow": "Access & Billing",
-          "title": "Role-based access, licensed by code",
-          "body": "Admins, project managers, field workers, and clients each see only what's theirs. Access itself runs on redeemable subscription codes — no payment processor required.",
-          "features": [
-            "Four roles, each with a different view of the product",
-            "Subscription status and renewal date visible at a glance",
-            "License codes generated in batches and redeemed once per company"
-          ],
-          "shots": [
-            { "file": "team-users.jpg", "alt": "Company user list with names, emails, roles, and active/inactive status" },
-            { "file": "subscription-plan.jpg", "alt": "Active subscription plan with renewal date and a redeemable license code field" },
-            { "file": "license-batches.jpg", "alt": "License batch list showing tier, redemption count, and creation date" }
-          ]
-        }
+        {"slug":"dashboard","icon":"chart","tabLabel":"Dashboard","eyebrow":"Overview","title":"A live read on every project","body":"Portfolio-wide KPIs, budget vs. actual spend, and completion — the first thing anyone opens each morning.","features":["Total and active project counts, updated in real time","Completion percentage across the whole portfolio, tracked automatically as tasks close","Budget vs. actual cost, side by side","Profit margin and profitability, calculated from budget against actual cost — not yet tied to invoiced revenue"],"shots":[{"file":"dashboard-overview.jpg","alt":"NR-BOS dashboard showing project counts, completion percentage, profit margin, budget vs. actual cost, and a projects-by-status pie chart"}]},
+        {"slug":"projects","icon":"clipboard","tabLabel":"Projects","eyebrow":"Delivery","title":"Every job, tracked to the task","body":"Projects carry their own budget, client, and team. Work inside each one runs on a four-column board.","features":["To do, in progress, review, done — one board per project","Each task carries an assignee, due date, and estimated hours","Project status — planning, active, on hold, completed — visible at a glance","Work orders dispatched with a priority and scheduled date, visible on a day, week, or month calendar"],"shots":[{"file":"projects-list.jpg","alt":"List of four NR-BOS projects with status badges — active, on hold, planning, and completed"},{"file":"project-kanban.jpg","alt":"Kanban board for a project showing tasks across To Do, In Progress, Review, and Done columns"}]},
+        {"slug":"field-reporting","icon":"wrench","tabLabel":"Field Reporting","eyebrow":"On Site","title":"What happened on site, with proof","body":"Field crews log progress notes and photos straight from the site — including paired before/after shots for work that's easy to describe but hard to picture.","features":["Notes tied to a specific task, timestamped and geotagged","Before, after, and general photo types on every report","Drag the slider below — a real before/after pair from a field report"],"shots":[{"file":"field-report-notes.jpg","alt":"Field report entry with a timestamped site note and an attached photo"}]},
+        {"slug":"client-reports","icon":"folder","tabLabel":"Client Reports","eyebrow":"Client-Facing","title":"A branded PDF, generated in one click","body":"Pull a project's tasks, costs, and recent field photos into a client-ready PDF report — draft first, then mark as sent.","features":["Comments field for a written progress narrative","Draft status until you're ready for the client to see it","The generated PDF embeds recent field-report photos automatically"],"shots":[{"file":"client-report-generate.jpg","alt":"Generate Client Report dialog with a comments field for the client-facing narrative"},{"file":"client-report-pdf.jpg","alt":"Generated client report PDF showing company details, project information, and task status"}]},
+        {"slug":"analytics","icon":"target","tabLabel":"Analytics","eyebrow":"Team & Spend","title":"Where the time and money are going","body":"Team workload by status and a full cost ledger by category — the numbers behind the dashboard.","features":["Workload chart broken down by to do, in progress, review, and done per person","Cost entries by category — materials, labor, subcontractor, permits","Remaining budget calculated automatically as costs are logged"],"shots":[{"file":"dashboard-team-workload.jpg","alt":"Team workload chart showing task counts by status for each team member"},{"file":"project-costs.jpg","alt":"Cost ledger listing dated entries by category with running budget and remaining balance"}]},
+        {"slug":"licensing","icon":"lock","tabLabel":"Team & Licensing","eyebrow":"Access & Billing","title":"Role-based access, licensed by code","body":"Admins, project managers, field workers, and clients each see only what's theirs. Access itself runs on redeemable subscription codes — no payment processor required.","features":["Four roles, each with a different view of the product","Subscription status and renewal date visible at a glance","License codes generated in batches and redeemed once per company"],"shots":[{"file":"team-users.jpg","alt":"Company user list with names, emails, roles, and active/inactive status"},{"file":"subscription-plan.jpg","alt":"Active subscription plan with renewal date and a redeemable license code field"},{"file":"license-batches.jpg","alt":"License batch list showing tier, redemption count, and creation date"}]}
       ]
     }
   },
@@ -1190,73 +1077,13 @@
       "breadcrumb": "NR-BOS",
       "backLink": "Back to Work",
       "tour": [
-        {
-          "eyebrow": "Overview",
-          "title": "A live read on every project",
-          "body": "Portfolio-wide KPIs, budget vs. actual spend, and team workload — the first thing anyone opens each morning.",
-          "shots": [
-            { "file": "dashboard-overview.jpg", "caption": "Dashboard — portfolio KPIs and budget vs. actual" },
-            { "file": "dashboard-team-workload.jpg", "caption": "Dashboard — team workload by status" }
-          ]
-        },
-        {
-          "eyebrow": "Projects",
-          "title": "Every job, tracked to the task",
-          "body": "Projects carry their own budget, client, and team. Work inside each one runs on a four-column board — to do, in progress, review, done.",
-          "shots": [
-            { "file": "projects-list.jpg", "caption": "Projects — portfolio at a glance" },
-            { "file": "project-kanban.jpg", "caption": "Project detail — task board" }
-          ]
-        },
-        {
-          "eyebrow": "Time Tracking",
-          "title": "Hours captured once, trusted everywhere",
-          "body": "A field worker starts and pauses a timer from their phone on site; back office corrects or fills in gaps on a weekly grid. Every entry moves through submitted, approved, or rejected before it feeds anything downstream."
-        },
-        {
-          "eyebrow": "Budget",
-          "title": "Spend tracked against budget, by category",
-          "body": "Every cost entry — materials, labor, subcontractors, permits — rolls up against the project budget in real time. Labor cost itself is derived from approved time entries against each employee's pay rate at the time the work was done, not keyed in by hand — and because rates are historised, a pay rise next quarter never silently rewrites what a job cost last quarter. Most tools overwrite the rate in place and quietly corrupt last quarter's numbers; this one doesn't.",
-          "shots": [
-            { "file": "project-costs.jpg", "caption": "Project detail — cost ledger" }
-          ]
-        },
-        {
-          "eyebrow": "Field Work",
-          "title": "What happened on site, with proof",
-          "body": "Field crews log progress notes and photos straight from the site — including paired before/after shots for work that's easy to describe but hard to picture.",
-          "shots": [
-            { "file": "field-report-notes.jpg", "caption": "Field reports — site notes and photos" },
-            { "file": "field-report-before-after.jpg", "caption": "Field report — before / after" }
-          ]
-        },
-        {
-          "eyebrow": "AI Assistant",
-          "title": "Risk, cost, and productivity — read by AI",
-          "body": "On demand, an AI assistant reads a project's real tasks, costs, and team data and returns a structured risk, cost, or productivity briefing — not generic advice.",
-          "shots": [
-            { "file": "ai-insights.jpg", "caption": "AI Insights — risk analysis" }
-          ]
-        },
-        {
-          "eyebrow": "Client Reports",
-          "title": "A branded PDF, generated in one click",
-          "body": "Pull a project's tasks, costs, and recent field photos into a client-ready PDF report — draft first, then mark as sent when it's ready to go out.",
-          "shots": [
-            { "file": "client-report-generate.jpg", "caption": "Generating a client report" },
-            { "file": "client-report-pdf.jpg", "caption": "Generated client report PDF" }
-          ]
-        },
-        {
-          "eyebrow": "Team & Licensing",
-          "title": "Role-based access, licensed by code",
-          "body": "Admins, project managers, field workers, and clients each see only what's theirs. Access itself runs on redeemable subscription codes, issued in batches — no payment processor required.",
-          "shots": [
-            { "file": "team-users.jpg", "caption": "Users — company roster and roles" },
-            { "file": "subscription-plan.jpg", "caption": "Subscription — active plan" },
-            { "file": "license-batches.jpg", "caption": "License batches — redemption codes" }
-          ]
-        }
+        {"eyebrow":"Overview","title":"A live read on every project","body":"Portfolio-wide KPIs, budget vs. actual spend, and team workload — the first thing anyone opens each morning.","shots":[{"file":"dashboard-overview.jpg","caption":"Dashboard — portfolio KPIs and budget vs. actual"},{"file":"dashboard-team-workload.jpg","caption":"Dashboard — team workload by status"}]},
+        {"eyebrow":"Projects","title":"Every job, tracked to the task","body":"Projects carry their own budget, client, and team. Work inside each one runs on a four-column board — to do, in progress, review, done.","shots":[{"file":"projects-list.jpg","caption":"Projects — portfolio at a glance"},{"file":"project-kanban.jpg","caption":"Project detail — task board"}]},
+        {"eyebrow":"Time Tracking","title":"Hours captured once, trusted everywhere","body":"A field worker starts and pauses a timer from their phone on site; back office corrects or fills in gaps on a weekly grid. Every entry moves through submitted, approved, or rejected before it feeds anything downstream."},
+        {"eyebrow":"Budget","title":"Spend tracked against budget, by category","body":"Every cost entry — materials, labor, subcontractors, permits — rolls up against the project budget in real time. Labor cost itself is derived from approved time entries against each employee's pay rate at the time the work was done, not keyed in by hand — and because rates are historised, a pay rise next quarter never silently rewrites what a job cost last quarter. Most tools overwrite the rate in place and quietly corrupt last quarter's numbers; this one doesn't.","shots":[{"file":"project-costs.jpg","caption":"Project detail — cost ledger"}]},
+        {"eyebrow":"Field Work","title":"What happened on site, with proof","body":"Field crews log progress notes and photos straight from the site — including paired before/after shots for work that's easy to describe but hard to picture.","shots":[{"file":"field-report-notes.jpg","caption":"Field reports — site notes and photos"},{"file":"field-report-before-after.jpg","caption":"Field report — before / after"}]},
+        {"eyebrow":"Client Reports","title":"A branded PDF, generated in one click","body":"Pull a project's tasks, costs, and recent field photos into a client-ready PDF report — draft first, then mark as sent when it's ready to go out.","shots":[{"file":"client-report-generate.jpg","caption":"Generating a client report"},{"file":"client-report-pdf.jpg","caption":"Generated client report PDF"}]},
+        {"eyebrow":"Team & Licensing","title":"Role-based access, licensed by code","body":"Admins, project managers, field workers, and clients each see only what's theirs. Access itself runs on redeemable subscription codes, issued in batches — no payment processor required.","shots":[{"file":"team-users.jpg","caption":"Users — company roster and roles"},{"file":"subscription-plan.jpg","caption":"Subscription — active plan"},{"file":"license-batches.jpg","caption":"License batches — redemption codes"}]}
       ],
       "workflow": {
         "label": "How It Actually Runs",
@@ -1293,7 +1120,7 @@
           { "icon": "target", "name": "Analytics", "status": "available", "body": "Portfolio-wide KPIs, team workload, and budget-vs-actual, updated in real time." },
           { "icon": "scale", "name": "Revenue & Margin", "status": "planned", "body": "Revenue tracking and true margin, alongside the existing cost side. Not yet built — analytics currently shows budget vs. actual spend only." },
           { "icon": "calendar", "name": "Forecasting", "status": "planned", "body": "Forward-looking projections for cost, revenue, and delivery. Not yet built." },
-          { "icon": "gear", "name": "AI", "status": "available", "body": "A built-in AI assistant reads real project data on demand and returns a structured briefing for decision support — it doesn't act on its own. Enabled per company." }
+          { "icon": "gear", "name": "AI", "status": "planned", "body": "A built-in AI assistant that reads real project data on demand and returns a structured risk, cost, or productivity briefing. Built, but currently paused while it's reworked — not available in the live product yet." }
         ]
       },
       "industries": {

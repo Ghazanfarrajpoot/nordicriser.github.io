@@ -729,17 +729,6 @@
           ]
         },
         {
-          "eyebrow": "Assistant IA",
-          "title": "Risque, coût et productivité — lus par l'IA",
-          "body": "Sur demande, un assistant IA lit les tâches, coûts et données d'équipe réels d'un projet et renvoie un briefing structuré sur le risque, le coût ou la productivité — pas des conseils génériques.",
-          "shots": [
-            {
-              "file": "ai-insights.jpg",
-              "caption": "Insights IA — analyse des risques"
-            }
-          ]
-        },
-        {
           "eyebrow": "Rapports clients",
           "title": "Un PDF de marque, généré en un clic",
           "body": "Rassemblez les tâches, coûts et photos de terrain récentes d'un projet dans un rapport PDF prêt pour le client — d'abord en brouillon, puis marqué comme envoyé une fois prêt.",
@@ -836,7 +825,7 @@
           {"icon":"target","name":"Analytique","status":"available","body":"Indicateurs à l'échelle du portefeuille, charge d'équipe et budget vs réel, mis à jour en temps réel."},
           {"icon":"scale","name":"Revenu & marge","status":"planned","body":"Suivi des revenus et marge réelle, aux côtés du volet coûts existant. Pas encore construit — l'analytique montre actuellement seulement le budget vs les dépenses réelles."},
           {"icon":"calendar","name":"Prévisions","status":"planned","body":"Projections prospectives pour les coûts, revenus et livraisons. Pas encore construit."},
-          {"icon":"gear","name":"IA","status":"available","body":"Un assistant IA intégré lit les données de projet réelles sur demande et renvoie un briefing structuré d'aide à la décision — il n'agit pas de lui-même. Activable par entreprise."}
+          {"icon":"gear","name":"IA","status":"planned","body":"Un assistant IA intégré lit les données de projet réelles sur demande et renvoie un briefing structuré d'aide à la décision — il n'agit pas de lui-même. Activable par entreprise."}
         ]
       },
       "industries": {

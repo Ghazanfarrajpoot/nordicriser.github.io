@@ -729,17 +729,6 @@
           ]
         },
         {
-          "eyebrow": "Asistente de IA",
-          "title": "Riesgo, coste y productividad — leídos por IA",
-          "body": "Bajo demanda, un asistente de IA lee las tareas, costes y datos de equipo reales de un proyecto y devuelve un informe estructurado de riesgo, coste o productividad — no consejos genéricos.",
-          "shots": [
-            {
-              "file": "ai-insights.jpg",
-              "caption": "Información de IA — análisis de riesgo"
-            }
-          ]
-        },
-        {
           "eyebrow": "Informes de cliente",
           "title": "Un PDF de marca, generado con un clic",
           "body": "Reúna las tareas, costes y fotos de campo recientes de un proyecto en un informe PDF listo para el cliente — primero como borrador, luego marcado como enviado cuando esté listo.",
@@ -836,7 +825,7 @@
           {"icon":"target","name":"Analítica","status":"available","body":"Indicadores de cartera, carga del equipo y presupuesto frente a real, actualizados en tiempo real."},
           {"icon":"scale","name":"Ingresos y margen","status":"planned","body":"Seguimiento de ingresos y margen real, junto al lado de costes existente. Aún no construido — la analítica actualmente solo muestra presupuesto frente a gasto real."},
           {"icon":"calendar","name":"Previsión","status":"planned","body":"Proyecciones a futuro de coste, ingresos y entrega. Aún no construido."},
-          {"icon":"gear","name":"IA","status":"available","body":"Un asistente de IA integrado lee datos reales del proyecto bajo demanda y devuelve un informe estructurado de apoyo a la decisión — no actúa por sí mismo. Activable por empresa."}
+          {"icon":"gear","name":"IA","status":"planned","body":"Un asistente de IA integrado lee datos reales del proyecto bajo demanda y devuelve un informe estructurado de apoyo a la decisión — no actúa por sí mismo. Activable por empresa."}
         ]
       },
       "industries": {

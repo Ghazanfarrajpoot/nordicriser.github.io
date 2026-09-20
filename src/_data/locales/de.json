@@ -729,17 +729,6 @@
           ]
         },
         {
-          "eyebrow": "KI-Assistent",
-          "title": "Risiko, Kosten und Produktivität — von KI gelesen",
-          "body": "Auf Abruf liest ein KI-Assistent die tatsächlichen Aufgaben, Kosten und Teamdaten eines Projekts und liefert ein strukturiertes Risiko-, Kosten- oder Produktivitäts-Briefing — keinen generischen Rat.",
-          "shots": [
-            {
-              "file": "ai-insights.jpg",
-              "caption": "KI-Einblicke — Risikoanalyse"
-            }
-          ]
-        },
-        {
           "eyebrow": "Kundenberichte",
           "title": "Ein gebrandetes PDF, mit einem Klick generiert",
           "body": "Ziehen Sie die Aufgaben, Kosten und aktuellen Feldfotos eines Projekts in einen kundenfertigen PDF-Bericht — zunächst als Entwurf, dann als versendet markieren, sobald er bereit ist.",
@@ -836,7 +825,7 @@
           {"icon":"target","name":"Analytics","status":"available","body":"Portfolioweite Kennzahlen, Teamauslastung und Budget vs. Ist, in Echtzeit aktualisiert."},
           {"icon":"scale","name":"Umsatz & Marge","status":"planned","body":"Umsatzverfolgung und echte Marge, neben der bestehenden Kostenseite. Noch nicht gebaut — Analytics zeigt derzeit nur Budget vs. Ist-Ausgaben."},
           {"icon":"calendar","name":"Prognose","status":"planned","body":"Vorausschauende Prognosen für Kosten, Umsatz und Lieferung. Noch nicht gebaut."},
-          {"icon":"gear","name":"KI","status":"available","body":"Ein integrierter KI-Assistent liest auf Abruf echte Projektdaten und liefert ein strukturiertes Briefing zur Entscheidungsunterstützung — er handelt nicht von sich aus. Pro Unternehmen aktivierbar."}
+          {"icon":"gear","name":"KI","status":"planned","body":"Ein integrierter KI-Assistent liest auf Abruf echte Projektdaten und liefert ein strukturiertes Briefing zur Entscheidungsunterstützung — er handelt nicht von sich aus. Pro Unternehmen aktivierbar."}
         ]
       },
       "industries": {

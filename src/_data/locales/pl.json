@@ -729,17 +729,6 @@
           ]
         },
         {
-          "eyebrow": "Asystent AI",
-          "title": "Ryzyko, koszt i produktywność — odczytane przez AI",
-          "body": "Na żądanie asystent AI odczytuje rzeczywiste zadania, koszty i dane zespołu danego projektu i zwraca uporządkowany briefing dotyczący ryzyka, kosztów lub produktywności — nie ogólne porady.",
-          "shots": [
-            {
-              "file": "ai-insights.jpg",
-              "caption": "Wnioski AI — analiza ryzyka"
-            }
-          ]
-        },
-        {
           "eyebrow": "Raporty dla klientów",
           "title": "Markowy PDF, generowany jednym kliknięciem",
           "body": "Zbierz zadania, koszty i najnowsze zdjęcia terenowe projektu w gotowy dla klienta raport PDF — najpierw jako szkic, a następnie oznaczony jako wysłany, gdy będzie gotowy.",
@@ -836,7 +825,7 @@
           {"icon":"target","name":"Analityka","status":"available","body":"Wskaźniki KPI dla całego portfela, obciążenie zespołu i budżet vs rzeczywistość, aktualizowane w czasie rzeczywistym."},
           {"icon":"scale","name":"Przychody i marża","status":"planned","body":"Śledzenie przychodów i rzeczywistej marży, obok istniejącej strony kosztowej. Jeszcze niezbudowane — analityka obecnie pokazuje tylko budżet vs rzeczywiste wydatki."},
           {"icon":"calendar","name":"Prognozowanie","status":"planned","body":"Prognozy przyszłościowe dotyczące kosztów, przychodów i realizacji. Jeszcze niezbudowane."},
-          {"icon":"gear","name":"AI","status":"available","body":"Wbudowany asystent AI na żądanie odczytuje rzeczywiste dane projektu i zwraca uporządkowany briefing wspierający decyzje — nie działa samodzielnie. Aktywowane per firma."}
+          {"icon":"gear","name":"AI","status":"planned","body":"Wbudowany asystent AI na żądanie odczytuje rzeczywiste dane projektu i zwraca uporządkowany briefing wspierający decyzje — nie działa samodzielnie. Aktywowane per firma."}
         ]
       },
       "industries": {
