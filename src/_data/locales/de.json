@@ -1021,8 +1021,8 @@
       "plansSub": "Jeder Plan umfasst vollen Zugriff auf Räume und gemeinsame Whiteboards — die Pläne unterscheiden sich nur im monatlichen Nachrichtenkontingent.",
       "freePlan": { "name": "Kostenlos", "price": "0", "period": "dauerhaft", "features": ["100 Nachrichten inklusive", "Voller Zugriff auf Räume & Whiteboards", "Keine Kreditkarte nötig"] },
       "plans": [
-        { "name": "Basic", "price": "29", "period": "/ Monat", "features": ["100 Nachrichten / Monat", "2 Stunden Live-Sitzungen / Monat", "Zugriff auf den Dokumententresor", "Fallverfolgung"], "popular": false },
-        { "name": "Pro", "price": "79", "period": "/ Monat", "features": ["500 Nachrichten / Monat", "10 Stunden Live-Sitzungen / Monat", "Prioritäts-Support", "Alle Basic-Funktionen"], "popular": true }
+        {"name": "Basic", "price": "29", "period": "/ Monat", "features": ["2 Stunden Live-Sitzungen / Monat", "Voller Zugriff auf Räume und gemeinsame Notizen", "Dokumententresor und Fallverfolgung in Ihrem Konto enthalten"], "popular": false},
+        {"name": "Pro", "price": "79", "period": "/ Monat", "features": ["10 Stunden Live-Sitzungen / Monat", "Prioritäts-Support", "Alle Basic-Funktionen"], "popular": true}
       ],
       "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
       "limitNote": "Räume und Whiteboards bleiben auch nach Ihren 100 kostenlosen Nachrichten zugänglich — für weitere übersetzte Chatnachrichten ist ein kostenpflichtiger Plan erforderlich.",

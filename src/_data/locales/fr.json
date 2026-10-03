@@ -1021,8 +1021,8 @@
       "plansSub": "Chaque formule inclut un accès complet aux salons et aux tableaux blancs partagés — seules les allocations de messages mensuelles diffèrent.",
       "freePlan": { "name": "Gratuit", "price": "0", "period": "à vie", "features": ["100 messages inclus", "Accès complet aux salons et tableaux blancs", "Sans carte bancaire"] },
       "plans": [
-        { "name": "Basic", "price": "29", "period": "/ mois", "features": ["100 messages / mois", "2 heures de sessions en direct / mois", "Accès au coffre-fort de documents", "Suivi des dossiers"], "popular": false },
-        { "name": "Pro", "price": "79", "period": "/ mois", "features": ["500 messages / mois", "10 heures de sessions en direct / mois", "Support prioritaire", "Toutes les fonctionnalités Basic"], "popular": true }
+        {"name": "Basic", "price": "29", "period": "/ mois", "features": ["2 heures de sessions en direct / mois", "Accès complet aux salons et aux notes partagées", "Coffre-fort de documents et suivi des dossiers inclus avec votre compte"], "popular": false},
+        {"name": "Pro", "price": "79", "period": "/ mois", "features": ["10 heures de sessions en direct / mois", "Support prioritaire", "Toutes les fonctionnalités Basic"], "popular": true}
       ],
       "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
       "limitNote": "Les salons et tableaux blancs restent accessibles au-delà de vos 100 messages gratuits — l'envoi de messages traduits supplémentaires nécessite une formule payante.",

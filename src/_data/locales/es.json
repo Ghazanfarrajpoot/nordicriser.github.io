@@ -1021,8 +1021,8 @@
       "plansSub": "Todos los planes incluyen acceso completo a salas y pizarras compartidas — los planes solo difieren en la asignación mensual de mensajes.",
       "freePlan": { "name": "Gratis", "price": "0", "period": "para siempre", "features": ["100 mensajes incluidos", "Acceso completo a salas y pizarras", "Sin tarjeta requerida"] },
       "plans": [
-        { "name": "Basic", "price": "29", "period": "/ mes", "features": ["100 mensajes / mes", "2 horas de sesiones en vivo / mes", "Acceso al repositorio de documentos", "Seguimiento de casos"], "popular": false },
-        { "name": "Pro", "price": "79", "period": "/ mes", "features": ["500 mensajes / mes", "10 horas de sesiones en vivo / mes", "Soporte prioritario", "Todas las funciones de Basic"], "popular": true }
+        {"name": "Basic", "price": "29", "period": "/ mes", "features": ["2 horas de sesiones en vivo / mes", "Acceso completo a salas y notas compartidas", "Repositorio de documentos y seguimiento de casos incluidos en tu cuenta"], "popular": false},
+        {"name": "Pro", "price": "79", "period": "/ mes", "features": ["10 horas de sesiones en vivo / mes", "Soporte prioritario", "Todas las funciones de Basic"], "popular": true}
       ],
       "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
       "limitNote": "Las salas y pizarras siguen siendo accesibles tras sus 100 mensajes gratis — enviar más mensajes de chat traducidos requiere un plan de pago.",

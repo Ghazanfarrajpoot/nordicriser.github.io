@@ -1021,8 +1021,8 @@
       "plansSub": "Elk abonnement omvat volledige toegang tot ruimtes en gedeelde whiteboards — abonnementen verschillen alleen in de maandelijkse berichtenlimiet.",
       "freePlan": { "name": "Gratis", "price": "0", "period": "voor altijd", "features": ["100 berichten inbegrepen", "Volledige toegang tot ruimtes & whiteboards", "Geen creditcard nodig"] },
       "plans": [
-        { "name": "Basic", "price": "29", "period": "/ maand", "features": ["100 berichten / maand", "2 uur live sessies / maand", "Toegang tot documentenkluis", "Zaakvolging"], "popular": false },
-        { "name": "Pro", "price": "79", "period": "/ maand", "features": ["500 berichten / maand", "10 uur live sessies / maand", "Prioriteitsondersteuning", "Alle Basic-functies"], "popular": true }
+        {"name": "Basic", "price": "29", "period": "/ maand", "features": ["2 uur live sessies / maand", "Volledige toegang tot rooms en gedeelde notities", "Documentenkluis en zaakvolging inbegrepen bij je account"], "popular": false},
+        {"name": "Pro", "price": "79", "period": "/ maand", "features": ["10 uur live sessies / maand", "Prioriteitsondersteuning", "Alle Basic-functies"], "popular": true}
       ],
       "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
       "limitNote": "Ruimtes en whiteboards blijven toegankelijk na uw 100 gratis berichten — voor het versturen van meer vertaalde chatberichten is een betaald abonnement nodig.",

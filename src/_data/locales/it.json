@@ -1021,8 +1021,8 @@
       "plansSub": "Ogni piano include accesso completo a sale e lavagne condivise — i piani differiscono solo per l'allocazione mensile di messaggi.",
       "freePlan": { "name": "Gratuito", "price": "0", "period": "per sempre", "features": ["100 messaggi inclusi", "Accesso completo a sale e lavagne", "Nessuna carta richiesta"] },
       "plans": [
-        { "name": "Basic", "price": "29", "period": "/ mese", "features": ["100 messaggi / mese", "2 ore di sessioni live / mese", "Accesso all'archivio documenti", "Monitoraggio pratiche"], "popular": false },
-        { "name": "Pro", "price": "79", "period": "/ mese", "features": ["500 messaggi / mese", "10 ore di sessioni live / mese", "Assistenza prioritaria", "Tutte le funzionalità Basic"], "popular": true }
+        {"name": "Basic", "price": "29", "period": "/ mese", "features": ["2 ore di sessioni live / mese", "Accesso completo a stanze e note condivise", "Archivio documenti e monitoraggio pratiche inclusi nel tuo account"], "popular": false},
+        {"name": "Pro", "price": "79", "period": "/ mese", "features": ["10 ore di sessioni live / mese", "Assistenza prioritaria", "Tutte le funzionalità Basic"], "popular": true}
       ],
       "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
       "limitNote": "Sale e lavagne restano accessibili anche dopo i tuoi 100 messaggi gratuiti — inviare altri messaggi di chat tradotti richiede un piano a pagamento.",

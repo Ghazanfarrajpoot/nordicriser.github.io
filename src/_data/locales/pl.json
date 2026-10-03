@@ -1021,8 +1021,8 @@
       "plansSub": "Każdy plan obejmuje pełny dostęp do pokoi i wspólnych tablic — plany różnią się jedynie miesięcznym limitem wiadomości.",
       "freePlan": { "name": "Darmowy", "price": "0", "period": "na zawsze", "features": ["100 wiadomości w cenie", "Pełny dostęp do pokoi i tablic", "Bez karty płatniczej"] },
       "plans": [
-        { "name": "Basic", "price": "29", "period": "/ miesiąc", "features": ["100 wiadomości / miesiąc", "2 godziny sesji live / miesiąc", "Dostęp do repozytorium dokumentów", "Śledzenie sprawy"], "popular": false },
-        { "name": "Pro", "price": "79", "period": "/ miesiąc", "features": ["500 wiadomości / miesiąc", "10 godzin sesji live / miesiąc", "Priorytetowe wsparcie", "Wszystkie funkcje planu Basic"], "popular": true }
+        {"name": "Basic", "price": "29", "period": "/ miesiąc", "features": ["2 godziny sesji live / miesiąc", "Pełny dostęp do pokoi i wspólnych notatek", "Repozytorium dokumentów i śledzenie spraw w ramach konta"], "popular": false},
+        {"name": "Pro", "price": "79", "period": "/ miesiąc", "features": ["10 godzin sesji live / miesiąc", "Priorytetowe wsparcie", "Wszystkie funkcje planu Basic"], "popular": true}
       ],
       "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
       "limitNote": "Pokoje i tablice pozostają dostępne po wykorzystaniu 100 darmowych wiadomości — wysyłanie kolejnych tłumaczonych wiadomości czatu wymaga płatnego planu.",
