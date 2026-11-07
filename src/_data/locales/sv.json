@@ -1934,20 +1934,19 @@
         { "title": "Gränsöverskridande projektteam", "body": "En nederländsk projektledare och en pakistansk utvecklare samordnar en sprint, med whiteboard och chatt delade live." }
       ],
       "plansLabel": "Priser",
-      "plansTitle": "Börja gratis. Uppgradera vid behov.",
-      "plansSub": "Alla abonnemang inkluderar full tillgång till rum och delade whiteboards — abonnemangen skiljer sig bara i månatlig meddelandegräns.",
-      "freePlan": { "name": "Gratis", "price": "0", "period": "för alltid", "features": ["100 meddelanden ingår", "Full tillgång till rum & whiteboards", "Inget kort krävs"] },
+      "plansTitle": "Enkla planer, tydliga priser",
+      "plansSub": "Alla abonnemang inkluderar full tillgång till rum och delade anteckningar — abonnemangen skiljer sig bara i månatlig tilldelning av sessionsminuter.",
       "plans": [
         {"name": "Basic", "price": "29", "period": "/ månad", "features": ["2 timmars direktsända sessioner / månad", "Full tillgång till rum och delade anteckningar", "Dokumentvalv och ärendespårning ingår i ditt konto"], "popular": false},
         {"name": "Pro", "price": "79", "period": "/ månad", "features": ["10 timmars direktsända sessioner / månad", "Prioriterad support", "Alla funktioner i Basic"], "popular": true}
       ],
-      "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
-      "limitNote": "Rum och whiteboards förblir tillgängliga efter dina 100 gratis meddelanden — att skicka fler översatta chattmeddelanden kräver ett betalt abonnemang.",
+      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "limitNote": "Behöver du fler sessionsminuter än ditt abonnemang inkluderar? Du kan fylla på när som helst från ditt konto.",
       "faqLabel": "Vanliga frågor",
       "faqTitle": "Vanliga frågor",
       "faq": [
-        { "q": "Vad räknas som ett meddelande?", "a": "Varje chattmeddelande du skickar i ett rum, eller i 1-till-1-meddelanden, räknas mot din månatliga gräns. Att översätta det för andra deltagare kostar inga extra meddelanden." },
-        { "q": "Vad händer när mina gratis meddelanden tar slut?", "a": "Dina rum, whiteboards och meddelandehistorik förblir fullt tillgängliga. Att skicka fler översatta chattmeddelanden kräver en uppgradering till ett betalt abonnemang." },
+        { "q": "Hur mäts användningen?", "a": "Ditt abonnemang inkluderar en månatlig tilldelning av sessionsminuter. Tiden i ett rum räknas från att du går med i en session tills du lämnar den." },
+        { "q": "Vad händer när jag har använt mina månatliga minuter?", "a": "Dina rum och delade anteckningar förblir fullt tillgängliga. Att starta en ny tidsbestämd session kräver påfyllning eller att du väntar till nästa faktureringsperiod." },
         { "q": "Vilka språk stöds?", "a": "Fullt gränssnittsstöd för engelska, svenska, tyska, franska, spanska, italienska, polska, nederländska, portugisiska, urdu och arabiska, med chattöversättning tillgänglig till fler språk." },
         { "q": "Är mina uppgifter privata?", "a": "Ja — meddelanden och dokument hanteras enligt vår GDPR-kompatibla integritetspolicy, som beskriver exakt vad vi samlar in och varför." }
       ],

@@ -1017,20 +1017,19 @@
         { "title": "Grensoverschrijdende Projectteams", "body": "Een Nederlandse projectleider en een Pakistaanse ontwikkelaar coördineren een sprint, met whiteboard en chat beide live gedeeld." }
       ],
       "plansLabel": "Prijzen",
-      "plansTitle": "Begin Gratis. Upgrade Wanneer Nodig.",
-      "plansSub": "Elk abonnement omvat volledige toegang tot ruimtes en gedeelde whiteboards — abonnementen verschillen alleen in de maandelijkse berichtenlimiet.",
-      "freePlan": { "name": "Gratis", "price": "0", "period": "voor altijd", "features": ["100 berichten inbegrepen", "Volledige toegang tot ruimtes & whiteboards", "Geen creditcard nodig"] },
+      "plansTitle": "Eenvoudige Abonnementen, Transparante Prijzen",
+      "plansSub": "Elk abonnement omvat volledige toegang tot ruimtes en gedeelde notities — abonnementen verschillen alleen in de maandelijkse sessieminutenlimiet.",
       "plans": [
         {"name": "Basic", "price": "29", "period": "/ maand", "features": ["2 uur live sessies / maand", "Volledige toegang tot rooms en gedeelde notities", "Documentenkluis en zaakvolging inbegrepen bij je account"], "popular": false},
         {"name": "Pro", "price": "79", "period": "/ maand", "features": ["10 uur live sessies / maand", "Prioriteitsondersteuning", "Alle Basic-functies"], "popular": true}
       ],
-      "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
-      "limitNote": "Ruimtes en whiteboards blijven toegankelijk na uw 100 gratis berichten — voor het versturen van meer vertaalde chatberichten is een betaald abonnement nodig.",
+      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "limitNote": "Heeft u meer sessieminuten nodig dan uw abonnement omvat? U kunt uw account altijd bijvullen.",
       "faqLabel": "Veelgestelde Vragen",
       "faqTitle": "Veelgestelde Vragen",
       "faq": [
-        { "q": "Wat telt als een bericht?", "a": "Elk chatbericht dat u verstuurt in een ruimte, of in 1-op-1-berichten, telt mee voor uw maandelijkse limiet. Het vertalen ervan voor andere deelnemers kost geen extra berichten." },
-        { "q": "Wat gebeurt er als mijn gratis berichten op zijn?", "a": "Uw ruimtes, whiteboards en berichtgeschiedenis blijven volledig toegankelijk. Voor het versturen van meer vertaalde chatberichten is een upgrade naar een betaald abonnement nodig." },
+        { "q": "Hoe wordt het gebruik gemeten?", "a": "Uw abonnement omvat een maandelijkse limiet aan sessieminuten. De tijd in een ruimte telt vanaf het moment dat u een sessie bijwoont tot u deze verlaat." },
+        { "q": "Wat gebeurt er als mijn maandelijkse minuten op zijn?", "a": "Uw ruimtes en gedeelde notities blijven volledig toegankelijk. Voor het starten van een nieuwe getimede sessie moet u bijvullen of wachten tot uw volgende factureringsperiode." },
         { "q": "Welke talen worden ondersteund?", "a": "Volledige interfaceondersteuning voor Engels, Zweeds, Duits, Frans, Spaans, Italiaans, Pools, Nederlands, Portugees, Urdu en Arabisch, met chatvertaling ook beschikbaar naar aanvullende talen." },
         { "q": "Zijn mijn gegevens privé?", "a": "Ja — berichten en documenten worden verwerkt volgens ons AVG-conforme privacybeleid, dat precies aangeeft wat wij verzamelen en waarom." }
       ],

@@ -1017,20 +1017,19 @@
         { "title": "Equipos de Proyecto Transfronterizos", "body": "Un líder de proyecto neerlandés y un desarrollador pakistaní coordinan un sprint, con pizarra y chat compartidos en vivo." }
       ],
       "plansLabel": "Precios",
-      "plansTitle": "Empiece Gratis. Amplíe Cuando lo Necesite.",
-      "plansSub": "Todos los planes incluyen acceso completo a salas y pizarras compartidas — los planes solo difieren en la asignación mensual de mensajes.",
-      "freePlan": { "name": "Gratis", "price": "0", "period": "para siempre", "features": ["100 mensajes incluidos", "Acceso completo a salas y pizarras", "Sin tarjeta requerida"] },
+      "plansTitle": "Planes Simples, Precios Claros",
+      "plansSub": "Todos los planes incluyen acceso completo a salas y notas compartidas — los planes solo difieren en la asignación mensual de minutos de sesión.",
       "plans": [
         {"name": "Basic", "price": "29", "period": "/ mes", "features": ["2 horas de sesiones en vivo / mes", "Acceso completo a salas y notas compartidas", "Repositorio de documentos y seguimiento de casos incluidos en tu cuenta"], "popular": false},
         {"name": "Pro", "price": "79", "period": "/ mes", "features": ["10 horas de sesiones en vivo / mes", "Soporte prioritario", "Todas las funciones de Basic"], "popular": true}
       ],
-      "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
-      "limitNote": "Las salas y pizarras siguen siendo accesibles tras sus 100 mensajes gratis — enviar más mensajes de chat traducidos requiere un plan de pago.",
+      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "limitNote": "¿Necesita más minutos de sesión de los que incluye su plan? Puede recargar su cuenta en cualquier momento.",
       "faqLabel": "Preguntas Frecuentes",
       "faqTitle": "Preguntas Frecuentes",
       "faq": [
-        { "q": "¿Qué cuenta como un mensaje?", "a": "Cada mensaje de chat que envía en una sala, o en mensajería 1 a 1, cuenta para su asignación mensual. Traducirlo para otros participantes no consume mensajes adicionales." },
-        { "q": "¿Qué ocurre cuando se agotan mis mensajes gratis?", "a": "Sus salas, pizarras e historial de mensajes siguen totalmente accesibles. Enviar más mensajes de chat traducidos requiere actualizar a un plan de pago." },
+        { "q": "¿Cómo se mide el uso?", "a": "Su plan incluye una asignación mensual de minutos de sesión. El tiempo en una sala se cuenta desde que se une a una sesión hasta que la abandona." },
+        { "q": "¿Qué ocurre cuando agoto mis minutos mensuales?", "a": "Sus salas y notas compartidas siguen totalmente accesibles. Iniciar una nueva sesión cronometrada requiere recargar o esperar a su próximo ciclo de facturación." },
         { "q": "¿Qué idiomas se admiten?", "a": "Soporte completo de interfaz en inglés, sueco, alemán, francés, español, italiano, polaco, neerlandés, portugués, urdu y árabe, con traducción de chat disponible a idiomas adicionales." },
         { "q": "¿Son privados mis datos?", "a": "Sí — los mensajes y documentos se gestionan conforme a nuestra Política de Privacidad, conforme al RGPD, que detalla exactamente qué recopilamos y por qué." }
       ],

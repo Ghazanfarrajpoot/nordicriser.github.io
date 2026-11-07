@@ -1017,20 +1017,19 @@
         { "title": "Transgraniczne zespoły projektowe", "body": "Niderlandzki lider projektu i pakistański programista koordynują sprint, ze wspólną tablicą i czatem na żywo." }
       ],
       "plansLabel": "Cennik",
-      "plansTitle": "Zacznij za darmo. Uaktualnij, gdy potrzebujesz więcej.",
-      "plansSub": "Każdy plan obejmuje pełny dostęp do pokoi i wspólnych tablic — plany różnią się jedynie miesięcznym limitem wiadomości.",
-      "freePlan": { "name": "Darmowy", "price": "0", "period": "na zawsze", "features": ["100 wiadomości w cenie", "Pełny dostęp do pokoi i tablic", "Bez karty płatniczej"] },
+      "plansTitle": "Proste plany, przejrzyste ceny",
+      "plansSub": "Każdy plan obejmuje pełny dostęp do pokoi i wspólnych notatek — plany różnią się jedynie miesięcznym limitem minut sesji.",
       "plans": [
         {"name": "Basic", "price": "29", "period": "/ miesiąc", "features": ["2 godziny sesji live / miesiąc", "Pełny dostęp do pokoi i wspólnych notatek", "Repozytorium dokumentów i śledzenie spraw w ramach konta"], "popular": false},
         {"name": "Pro", "price": "79", "period": "/ miesiąc", "features": ["10 godzin sesji live / miesiąc", "Priorytetowe wsparcie", "Wszystkie funkcje planu Basic"], "popular": true}
       ],
-      "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
-      "limitNote": "Pokoje i tablice pozostają dostępne po wykorzystaniu 100 darmowych wiadomości — wysyłanie kolejnych tłumaczonych wiadomości czatu wymaga płatnego planu.",
+      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "limitNote": "Potrzebujesz więcej minut sesji niż obejmuje Twój plan? Możesz doładować konto w dowolnym momencie.",
       "faqLabel": "Najczęściej zadawane pytania",
       "faqTitle": "Najczęściej zadawane pytania",
       "faq": [
-        { "q": "Co liczy się jako wiadomość?", "a": "Każda wiadomość czatu wysłana w pokoju lub w wiadomościach 1 do 1 liczy się do Twojego miesięcznego limitu. Przetłumaczenie jej dla innych uczestników nie zużywa dodatkowych wiadomości." },
-        { "q": "Co się dzieje, gdy skończą mi się darmowe wiadomości?", "a": "Twoje pokoje, tablice i historia wiadomości pozostają w pełni dostępne. Wysyłanie kolejnych tłumaczonych wiadomości czatu wymaga uaktualnienia do płatnego planu." },
+        { "q": "Jak mierzone jest zużycie?", "a": "Twój plan obejmuje miesięczny limit minut sesji. Czas w pokoju liczy się od momentu dołączenia do sesji aż do jej opuszczenia." },
+        { "q": "Co się dzieje, gdy wykorzystam swoje miesięczne minuty?", "a": "Twoje pokoje i wspólne notatki pozostają w pełni dostępne. Rozpoczęcie nowej, mierzonej czasem sesji wymaga doładowania lub poczekania do następnego cyklu rozliczeniowego." },
         { "q": "Jakie języki są obsługiwane?", "a": "Pełne wsparcie interfejsu w językach angielskim, szwedzkim, niemieckim, francuskim, hiszpańskim, włoskim, polskim, niderlandzkim, portugalskim, urdu i arabskim, z tłumaczeniem czatu dostępnym również w innych językach." },
         { "q": "Czy moje dane są prywatne?", "a": "Tak — wiadomości i dokumenty są przetwarzane zgodnie z naszą Polityką prywatności, zgodną z RODO, która dokładnie określa, co gromadzimy i dlaczego." }
       ],

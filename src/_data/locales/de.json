@@ -1017,20 +1017,19 @@
         { "title": "Grenzüberschreitende Projektteams", "body": "Ein niederländischer Projektleiter und ein pakistanischer Entwickler koordinieren einen Sprint, Whiteboard und Chat beide live geteilt." }
       ],
       "plansLabel": "Preise",
-      "plansTitle": "Kostenlos starten. Bei Bedarf upgraden.",
-      "plansSub": "Jeder Plan umfasst vollen Zugriff auf Räume und gemeinsame Whiteboards — die Pläne unterscheiden sich nur im monatlichen Nachrichtenkontingent.",
-      "freePlan": { "name": "Kostenlos", "price": "0", "period": "dauerhaft", "features": ["100 Nachrichten inklusive", "Voller Zugriff auf Räume & Whiteboards", "Keine Kreditkarte nötig"] },
+      "plansTitle": "Einfache Pläne, transparente Preise",
+      "plansSub": "Jeder Plan umfasst vollen Zugriff auf Räume und gemeinsame Notizen — die Pläne unterscheiden sich nur im monatlichen Sitzungsminutenkontingent.",
       "plans": [
         {"name": "Basic", "price": "29", "period": "/ Monat", "features": ["2 Stunden Live-Sitzungen / Monat", "Voller Zugriff auf Räume und gemeinsame Notizen", "Dokumententresor und Fallverfolgung in Ihrem Konto enthalten"], "popular": false},
         {"name": "Pro", "price": "79", "period": "/ Monat", "features": ["10 Stunden Live-Sitzungen / Monat", "Prioritäts-Support", "Alle Basic-Funktionen"], "popular": true}
       ],
-      "_syncNote": "Plan names/prices/features mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-07-04. Keep in sync manually if the portal's plans change.",
-      "limitNote": "Räume und Whiteboards bleiben auch nach Ihren 100 kostenlosen Nachrichten zugänglich — für weitere übersetzte Chatnachrichten ist ein kostenpflichtiger Plan erforderlich.",
+      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "limitNote": "Benötigen Sie mehr Sitzungsminuten, als Ihr Plan umfasst? Sie können Ihr Konto jederzeit aufladen.",
       "faqLabel": "Häufige Fragen",
       "faqTitle": "Häufige Fragen",
       "faq": [
-        { "q": "Was zählt als Nachricht?", "a": "Jede Chatnachricht, die Sie in einem Raum oder im 1:1-Messaging senden, zählt zu Ihrem monatlichen Kontingent. Die Übersetzung für andere Teilnehmende kostet keine zusätzlichen Nachrichten." },
-        { "q": "Was passiert, wenn meine kostenlosen Nachrichten aufgebraucht sind?", "a": "Ihre Räume, Whiteboards und Ihr Nachrichtenverlauf bleiben vollständig zugänglich. Für weitere übersetzte Chatnachrichten ist ein Upgrade auf einen kostenpflichtigen Plan erforderlich." },
+        { "q": "Wie wird die Nutzung gemessen?", "a": "Ihr Plan umfasst ein monatliches Kontingent an Sitzungsminuten. Die Zeit in einem Raum zählt ab dem Beitritt zu einer Sitzung bis zum Verlassen." },
+        { "q": "Was passiert, wenn meine monatlichen Minuten aufgebraucht sind?", "a": "Ihre Räume und gemeinsamen Notizen bleiben vollständig zugänglich. Um eine neue zeitlich begrenzte Sitzung zu starten, müssen Sie aufladen oder auf Ihren nächsten Abrechnungszeitraum warten." },
         { "q": "Welche Sprachen werden unterstützt?", "a": "Volle Oberflächenunterstützung für Englisch, Schwedisch, Deutsch, Französisch, Spanisch, Italienisch, Polnisch, Niederländisch, Portugiesisch, Urdu und Arabisch, mit Chatübersetzung auch in weitere Sprachen." },
         { "q": "Sind meine Daten privat?", "a": "Ja — Nachrichten und Dokumente werden gemäß unserer DSGVO-konformen Datenschutzerklärung behandelt, die genau festlegt, was wir erheben und warum." }
       ],
