@@ -1030,6 +1030,7 @@
       "faq": [
         { "q": "Como é medida a utilização?", "a": "O seu plano inclui uma atribuição mensal de minutos de sessão. O tempo numa sala conta a partir do momento em que entra numa sessão até a abandonar." },
         { "q": "O que acontece quando esgoto os meus minutos mensais?", "a": "As suas salas e notas partilhadas permanecem totalmente acessíveis. Iniciar uma nova sessão cronometrada requer uma recarga ou aguardar pelo seu próximo ciclo de faturação." },
+        { "q": "O que acontece aos minutos extra que não utilizo?", "a": "Os minutos extra nunca expiram enquanto a sua assinatura permanecer ativa — transitam para o seu próximo ciclo de faturação até serem utilizados." },
         { "q": "Que idiomas são suportados?", "a": "Suporte completo de interface em inglês, sueco, alemão, francês, espanhol, italiano, polaco, neerlandês, português, urdu e árabe, com tradução de chat também disponível para idiomas adicionais." },
         { "q": "Os meus dados são privados?", "a": "Sim — as mensagens e documentos são tratados de acordo com a nossa Política de Privacidade, conforme o RGPD, que especifica exatamente o que recolhemos e porquê." }
       ],

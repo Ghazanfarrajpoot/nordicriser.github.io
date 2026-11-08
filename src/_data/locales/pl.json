@@ -1030,6 +1030,7 @@
       "faq": [
         { "q": "Jak mierzone jest zużycie?", "a": "Twój plan obejmuje miesięczny limit minut sesji. Czas w pokoju liczy się od momentu dołączenia do sesji aż do jej opuszczenia." },
         { "q": "Co się dzieje, gdy wykorzystam swoje miesięczne minuty?", "a": "Twoje pokoje i wspólne notatki pozostają w pełni dostępne. Rozpoczęcie nowej, mierzonej czasem sesji wymaga doładowania lub poczekania do następnego cyklu rozliczeniowego." },
+        { "q": "Co się dzieje z niewykorzystanymi dodatkowymi minutami?", "a": "Dodatkowe minuty nigdy nie wygasają, dopóki Twoja subskrypcja jest aktywna — przechodzą na kolejny cykl rozliczeniowy, dopóki ich nie wykorzystasz." },
         { "q": "Jakie języki są obsługiwane?", "a": "Pełne wsparcie interfejsu w językach angielskim, szwedzkim, niemieckim, francuskim, hiszpańskim, włoskim, polskim, niderlandzkim, portugalskim, urdu i arabskim, z tłumaczeniem czatu dostępnym również w innych językach." },
         { "q": "Czy moje dane są prywatne?", "a": "Tak — wiadomości i dokumenty są przetwarzane zgodnie z naszą Polityką prywatności, zgodną z RODO, która dokładnie określa, co gromadzimy i dlaczego." }
       ],

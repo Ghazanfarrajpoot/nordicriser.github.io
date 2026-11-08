@@ -1030,6 +1030,7 @@
       "faq": [
         { "q": "Wie wird die Nutzung gemessen?", "a": "Ihr Plan umfasst ein monatliches Kontingent an Sitzungsminuten. Die Zeit in einem Raum zählt ab dem Beitritt zu einer Sitzung bis zum Verlassen." },
         { "q": "Was passiert, wenn meine monatlichen Minuten aufgebraucht sind?", "a": "Ihre Räume und gemeinsamen Notizen bleiben vollständig zugänglich. Um eine neue zeitlich begrenzte Sitzung zu starten, müssen Sie aufladen oder auf Ihren nächsten Abrechnungszeitraum warten." },
+        { "q": "Was passiert mit nicht genutzten zusätzlichen Minuten?", "a": "Zusätzliche Minuten verfallen nicht, solange Ihr Abonnement aktiv bleibt — sie werden in den nächsten Abrechnungszeitraum übertragen, bis Sie sie nutzen." },
         { "q": "Welche Sprachen werden unterstützt?", "a": "Volle Oberflächenunterstützung für Englisch, Schwedisch, Deutsch, Französisch, Spanisch, Italienisch, Polnisch, Niederländisch, Portugiesisch, Urdu und Arabisch, mit Chatübersetzung auch in weitere Sprachen." },
         { "q": "Sind meine Daten privat?", "a": "Ja — Nachrichten und Dokumente werden gemäß unserer DSGVO-konformen Datenschutzerklärung behandelt, die genau festlegt, was wir erheben und warum." }
       ],

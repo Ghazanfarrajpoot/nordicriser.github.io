@@ -1030,6 +1030,7 @@
       "faq": [
         { "q": "Comment l'utilisation est-elle mesurée ?", "a": "Votre formule inclut une allocation mensuelle de minutes de session. Le temps passé dans un salon est compté de votre arrivée à votre départ de la session." },
         { "q": "Que se passe-t-il lorsque j'ai épuisé mes minutes mensuelles ?", "a": "Vos salons et notes partagées restent entièrement accessibles. Démarrer une nouvelle session chronométrée nécessite de recharger votre compte ou d'attendre votre prochain cycle de facturation." },
+        { "q": "Que se passe-t-il avec les minutes supplémentaires non utilisées ?", "a": "Les minutes supplémentaires n'expirent jamais tant que votre abonnement reste actif — elles sont reportées sur votre prochain cycle de facturation jusqu'à ce que vous les utilisiez." },
         { "q": "Quelles langues sont prises en charge ?", "a": "Interface complète en anglais, suédois, allemand, français, espagnol, italien, polonais, néerlandais, portugais, ourdou et arabe, avec traduction du chat disponible vers d'autres langues." },
         { "q": "Mes données sont-elles privées ?", "a": "Oui — les messages et documents sont traités conformément à notre politique de confidentialité, conforme au RGPD, qui précise exactement ce que nous collectons et pourquoi." }
       ],

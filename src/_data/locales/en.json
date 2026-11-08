@@ -1474,6 +1474,7 @@
       "faq": [
         { "q": "How is usage measured?", "a": "Your plan includes a monthly session-minutes allowance. Time in a room counts from when you join a session until you leave it." },
         { "q": "What happens when I use up my monthly minutes?", "a": "Your rooms and shared notes stay fully accessible. Starting a new timed session requires topping up or waiting for your next billing cycle." },
+        { "q": "What happens to top-up minutes I don't use?", "a": "Top-up minutes never expire while your subscription stays active — they carry over to your next billing cycle until you use them." },
         { "q": "Which languages are supported?", "a": "Full interface support for English, Swedish, German, French, Spanish, Italian, Polish, Dutch, Portuguese, Urdu, and Arabic." },
         { "q": "Is my data private?", "a": "Yes — your session data is handled under our GDPR-compliant Privacy Policy, which covers exactly what we collect and why." }
       ],

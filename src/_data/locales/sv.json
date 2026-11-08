@@ -1947,6 +1947,7 @@
       "faq": [
         { "q": "Hur mäts användningen?", "a": "Ditt abonnemang inkluderar en månatlig tilldelning av sessionsminuter. Tiden i ett rum räknas från att du går med i en session tills du lämnar den." },
         { "q": "Vad händer när jag har använt mina månatliga minuter?", "a": "Dina rum och delade anteckningar förblir fullt tillgängliga. Att starta en ny tidsbestämd session kräver påfyllning eller att du väntar till nästa faktureringsperiod." },
+        { "q": "Vad händer med extra minuter jag inte använder?", "a": "Extra minuter upphör aldrig att gälla så länge din prenumeration förblir aktiv — de förs över till nästa faktureringsperiod tills du använder dem." },
         { "q": "Vilka språk stöds?", "a": "Fullt gränssnittsstöd för engelska, svenska, tyska, franska, spanska, italienska, polska, nederländska, portugisiska, urdu och arabiska, med chattöversättning tillgänglig till fler språk." },
         { "q": "Är mina uppgifter privata?", "a": "Ja — meddelanden och dokument hanteras enligt vår GDPR-kompatibla integritetspolicy, som beskriver exakt vad vi samlar in och varför." }
       ],

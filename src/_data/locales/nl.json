@@ -1030,6 +1030,7 @@
       "faq": [
         { "q": "Hoe wordt het gebruik gemeten?", "a": "Uw abonnement omvat een maandelijkse limiet aan sessieminuten. De tijd in een ruimte telt vanaf het moment dat u een sessie bijwoont tot u deze verlaat." },
         { "q": "Wat gebeurt er als mijn maandelijkse minuten op zijn?", "a": "Uw ruimtes en gedeelde notities blijven volledig toegankelijk. Voor het starten van een nieuwe getimede sessie moet u bijvullen of wachten tot uw volgende factureringsperiode." },
+        { "q": "Wat gebeurt er met extra minuten die ik niet gebruik?", "a": "Extra minuten verlopen nooit zolang uw abonnement actief blijft — ze worden overgedragen naar uw volgende factureringsperiode totdat u ze gebruikt." },
         { "q": "Welke talen worden ondersteund?", "a": "Volledige interfaceondersteuning voor Engels, Zweeds, Duits, Frans, Spaans, Italiaans, Pools, Nederlands, Portugees, Urdu en Arabisch, met chatvertaling ook beschikbaar naar aanvullende talen." },
         { "q": "Zijn mijn gegevens privé?", "a": "Ja — berichten en documenten worden verwerkt volgens ons AVG-conforme privacybeleid, dat precies aangeeft wat wij verzamelen en waarom." }
       ],
