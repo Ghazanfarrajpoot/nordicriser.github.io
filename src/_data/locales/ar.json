@@ -1020,7 +1020,7 @@
       "plansTitle": "خطط بسيطة، أسعار واضحة",
       "plansSub": "تشمل كل خطة وصولاً كاملاً إلى الغرف والملاحظات المشتركة — تختلف الخطط فقط في حصة دقائق الجلسات الشهرية.",
       "plans": [
-        {"name": "أساسية", "price": "29", "period": "/ شهرياً", "features": ["ساعتان من الجلسات المباشرة / شهرياً", "وصول كامل إلى الغرف والملاحظات المشتركة", "خزينة الوثائق وتتبع الحالات متضمنان مع حسابك"], "popular": false},
+        {"name": "أساسية", "price": "29", "period": "/ شهرياً", "features": ["ساعتان من الجلسات المباشرة / شهرياً", "وصول كامل إلى الغرف والملاحظات المشتركة", "خزينة الوثائق وتتبع الحالات — متضمنان مع كل حساب"], "popular": false},
         {"name": "احترافية", "price": "79", "period": "/ شهرياً", "features": ["10 ساعات من الجلسات المباشرة / شهرياً", "دعم ذو أولوية", "جميع ميزات الخطة الأساسية"], "popular": true}
       ],
       "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",

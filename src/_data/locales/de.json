@@ -1020,7 +1020,7 @@
       "plansTitle": "Einfache Pläne, transparente Preise",
       "plansSub": "Jeder Plan umfasst vollen Zugriff auf Räume und gemeinsame Notizen — die Pläne unterscheiden sich nur im monatlichen Sitzungsminutenkontingent.",
       "plans": [
-        {"name": "Basic", "price": "29", "period": "/ Monat", "features": ["2 Stunden Live-Sitzungen / Monat", "Voller Zugriff auf Räume und gemeinsame Notizen", "Dokumententresor und Fallverfolgung in Ihrem Konto enthalten"], "popular": false},
+        {"name": "Basic", "price": "29", "period": "/ Monat", "features": ["2 Stunden Live-Sitzungen / Monat", "Voller Zugriff auf Räume und gemeinsame Notizen", "Dokumententresor und Fallverfolgung - in jedem Konto enthalten"], "popular": false},
         {"name": "Pro", "price": "79", "period": "/ Monat", "features": ["10 Stunden Live-Sitzungen / Monat", "Prioritäts-Support", "Alle Basic-Funktionen"], "popular": true}
       ],
       "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",

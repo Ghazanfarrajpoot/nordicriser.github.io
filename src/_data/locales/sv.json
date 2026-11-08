@@ -1937,7 +1937,7 @@
       "plansTitle": "Enkla planer, tydliga priser",
       "plansSub": "Alla abonnemang inkluderar full tillgång till rum och delade anteckningar — abonnemangen skiljer sig bara i månatlig tilldelning av sessionsminuter.",
       "plans": [
-        {"name": "Basic", "price": "29", "period": "/ månad", "features": ["2 timmars direktsända sessioner / månad", "Full tillgång till rum och delade anteckningar", "Dokumentvalv och ärendespårning ingår i ditt konto"], "popular": false},
+        {"name": "Basic", "price": "29", "period": "/ månad", "features": ["2 timmars direktsända sessioner / månad", "Full tillgång till rum och delade anteckningar", "Dokumentvalv och ärendespårning - ingår i alla konton"], "popular": false},
         {"name": "Pro", "price": "79", "period": "/ månad", "features": ["10 timmars direktsända sessioner / månad", "Prioriterad support", "Alla funktioner i Basic"], "popular": true}
       ],
       "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",

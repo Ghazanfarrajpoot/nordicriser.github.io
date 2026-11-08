@@ -1464,7 +1464,7 @@
       "plansTitle": "Simple Plans, Straightforward Pricing",
       "plansSub": "Every plan includes full access to rooms and shared notes — plans differ in monthly session-minute allowance.",
       "plans": [
-        { "name": "Basic", "price": "29", "period": "/ month", "features": ["2 hours of live sessions / month", "Full access to rooms & shared notes", "Document vault and case tracking included with your account"], "popular": false },
+        { "name": "Basic", "price": "29", "period": "/ month", "features": ["2 hours of live sessions / month", "Full access to rooms & shared notes", "Document vault and case tracking - included with every account"], "popular": false },
         { "name": "Pro", "price": "79", "period": "/ month", "features": ["10 hours of live sessions / month", "Priority support", "All Basic features"], "popular": true }
       ],
       "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",

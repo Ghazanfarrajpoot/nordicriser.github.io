@@ -1020,7 +1020,7 @@
       "plansTitle": "Eenvoudige Abonnementen, Transparante Prijzen",
       "plansSub": "Elk abonnement omvat volledige toegang tot ruimtes en gedeelde notities — abonnementen verschillen alleen in de maandelijkse sessieminutenlimiet.",
       "plans": [
-        {"name": "Basic", "price": "29", "period": "/ maand", "features": ["2 uur live sessies / maand", "Volledige toegang tot rooms en gedeelde notities", "Documentenkluis en zaakvolging inbegrepen bij je account"], "popular": false},
+        {"name": "Basic", "price": "29", "period": "/ maand", "features": ["2 uur live sessies / maand", "Volledige toegang tot rooms en gedeelde notities", "Documentenkluis en zaakvolging - inbegrepen bij elk account"], "popular": false},
         {"name": "Pro", "price": "79", "period": "/ maand", "features": ["10 uur live sessies / maand", "Prioriteitsondersteuning", "Alle Basic-functies"], "popular": true}
       ],
       "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",

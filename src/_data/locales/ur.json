@@ -1020,7 +1020,7 @@
       "plansTitle": "سادہ پلانز، واضح قیمتیں",
       "plansSub": "ہر پلان میں کمروں اور مشترکہ نوٹس تک مکمل رسائی شامل ہے — پلانز صرف ماہانہ سیشن منٹس کی حد میں مختلف ہوتے ہیں۔",
       "plans": [
-        {"name": "بیسک", "price": "29", "period": "/ ماہ", "features": ["2 گھنٹے براہِ راست نشستیں / ماہ", "رومز اور مشترکہ نوٹس تک مکمل رسائی", "دستاویزات کا ذخیرہ اور کیس ٹریکنگ آپ کے اکاؤنٹ میں شامل ہے"], "popular": false},
+        {"name": "بیسک", "price": "29", "period": "/ ماہ", "features": ["2 گھنٹے براہِ راست نشستیں / ماہ", "رومز اور مشترکہ نوٹس تک مکمل رسائی", "دستاویزات کا ذخیرہ اور کیس ٹریکنگ — ہر اکاؤنٹ میں شامل ہے"], "popular": false},
         {"name": "پرو", "price": "79", "period": "/ ماہ", "features": ["10 گھنٹے براہِ راست نشستیں / ماہ", "ترجیحی معاونت", "تمام بیسک خصوصیات"], "popular": true}
       ],
       "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",

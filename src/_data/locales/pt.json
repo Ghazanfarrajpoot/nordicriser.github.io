@@ -1020,7 +1020,7 @@
       "plansTitle": "Planos Simples, Preços Claros",
       "plansSub": "Todos os planos incluem acesso completo a salas e notas partilhadas — os planos diferem apenas na atribuição mensal de minutos de sessão.",
       "plans": [
-        {"name": "Basic", "price": "29", "period": "/ mês", "features": ["2 horas de sessões ao vivo / mês", "Acesso completo a salas e notas partilhadas", "Cofre de documentos e acompanhamento de casos incluídos na sua conta"], "popular": false},
+        {"name": "Basic", "price": "29", "period": "/ mês", "features": ["2 horas de sessões ao vivo / mês", "Acesso completo a salas e notas partilhadas", "Cofre de documentos e acompanhamento de casos - incluídos em todas as contas"], "popular": false},
         {"name": "Pro", "price": "79", "period": "/ mês", "features": ["10 horas de sessões ao vivo / mês", "Suporte prioritário", "Todas as funcionalidades do Basic"], "popular": true}
       ],
       "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
