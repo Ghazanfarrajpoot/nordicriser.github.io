@@ -139,7 +139,7 @@
       <h2>نموذج المشروع والاستفسار</h2>
       <p class="form-intro">يرجى تقديم معلومات دقيقة عن مشروعك أو وضعك. يتيح لنا هذا تقييم النطاق والاستعداد لمحادثة أولى مثمرة — سواء كانت عرض سعر ثابت أو استشارة منظمة.</p>
 
-      <form class="consultation-form" id="consultationForm" data-analytics-event="contact_form_submit">
+      <form class="consultation-form" id="consultationForm" data-error-text="حدث خطأ ما. يرجى المحاولة مرة أخرى أو مراسلتنا مباشرة عبر البريد الإلكتروني." data-analytics-event="contact_form_submit">
         <div class="form-row">
           <div class="field">
             <label for="firstName">الاسم الأول <span class="required">*</span></label>
@@ -222,6 +222,7 @@
         </div>
 
         <p class="form-consent">بإرسالك هذا النموذج، تؤكد أن المعلومات المقدمة دقيقة وأنك توافق على احتفاظ Nordic Riser AB ببيانات الاتصال الخاصة بك لغرض الرد على استفسارك. نحن لا نشارك معلومات العملاء مع أطراف ثالثة.</p>
+        <p class="form-error" id="formError" role="status" hidden></p>
 
         <button type="submit" class="btn-submit">إرسال طلب الاستشارة ←</button>
       </form>

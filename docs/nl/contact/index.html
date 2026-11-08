@@ -138,7 +138,7 @@
       <h2>Project- en Aanvraagformulier</h2>
       <p class="form-intro">Geef nauwkeurige informatie over uw project of situatie. Zo kunnen wij de omvang beoordelen en ons voorbereiden op een productief eerste gesprek — of dat nu een offerte met vaste prijs is of een gestructureerd consult.</p>
 
-      <form class="consultation-form" id="consultationForm" data-analytics-event="contact_form_submit">
+      <form class="consultation-form" id="consultationForm" data-error-text="Er is iets misgegaan. Probeer het opnieuw of e-mail ons rechtstreeks." data-analytics-event="contact_form_submit">
         <div class="form-row">
           <div class="field">
             <label for="firstName">Voornaam <span class="required">*</span></label>
@@ -221,6 +221,7 @@ Wat we tijdens de proefperiode willen evalueren: " required></textarea>
         </div>
 
         <p class="form-consent">Door dit formulier in te dienen bevestigt u dat de verstrekte informatie juist is en stemt u ermee in dat Nordic Riser AB uw contactgegevens bewaart met het oog op de behandeling van uw aanvraag. Wij delen klantgegevens niet met derden.</p>
+        <p class="form-error" id="formError" role="status" hidden></p>
 
         <button type="submit" class="btn-submit">Verstuur Aanvraag voor Consult →</button>
       </form>

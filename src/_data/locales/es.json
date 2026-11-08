@@ -353,6 +353,7 @@
         "trialPrefillMessage": "Solicitud de un código de prueba de 3 días para NR-BOS.\n\nNombre de la empresa: \nTamaño del equipo: \nQué nos gustaría evaluar durante la prueba: ",
         "messageHint": "Esta información se trata de forma estrictamente confidencial y se utiliza únicamente para preparar su consulta.",
         "consent": "Al enviar este formulario, usted confirma que la información proporcionada es exacta y que consiente que Nordic Riser AB conserve sus datos de contacto con el fin de responder a su consulta. No compartimos la información de los clientes con terceros.",
+        "errorText": "Algo salió mal. Inténtalo de nuevo o escríbenos directamente.",
         "submit": "Enviar Solicitud de Consulta →"
       },
       "success": { "title": "Solicitud Recibida", "body": "Gracias por enviar su solicitud de consulta. Un miembro de nuestro equipo de asesores revisará su información y responderá en un plazo de 1 a 2 días hábiles." },
@@ -1034,7 +1035,7 @@
         { "q": "¿Qué idiomas se admiten?", "a": "Soporte completo de interfaz en inglés, sueco, alemán, francés, español, italiano, polaco, neerlandés, portugués, urdu y árabe, con traducción de chat disponible a idiomas adicionales." },
         { "q": "¿Son privados mis datos?", "a": "Sí — los mensajes y documentos se gestionan conforme a nuestra Política de Privacidad, conforme al RGPD, que detalla exactamente qué recopilamos y por qué." }
       ],
-      "emailCapture": { "title": "¿Aún No Está Listo?", "body": "Reciba una notificación cuando se lancen nuevos idiomas.", "placeholder": "Su dirección de correo electrónico", "button": "Notificarme" },
+      "emailCapture": { "title": "¿Aún No Está Listo?", "body": "Reciba una notificación cuando se lancen nuevos idiomas.", "placeholder": "Su dirección de correo electrónico", "consent": "Acepto ser contactado/a sobre Global Reach y acepto la", "privacyLinkLabel": "Política de Privacidad", "successText": "Gracias - te avisaremos por correo cuando tu idioma esté disponible.", "errorText": "Algo salió mal. Inténtalo de nuevo.", "button": "Notificarme" },
       "stickyBar": { "text": "¿Listo para empezar a colaborar?", "cta": "Comenzar" },
       "cta": { "title": "Empiece a Colaborar Hoy", "body": "Cree su cuenta gratuita — sin tarjeta requerida — y únase a su primera sala en minutos.", "trustLine": "Sin tarjeta requerida · Cancele cuando quiera · Conforme al RGPD" }
     },

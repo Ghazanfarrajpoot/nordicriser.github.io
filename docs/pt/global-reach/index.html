@@ -316,10 +316,14 @@
     <div class="gr-email-capture">
       <h3>Ainda Não Está Pronto?</h3>
       <p>Receba uma notificação quando novos idiomas forem lançados.</p>
-      <form class="gr-email-form" action="/pt/contact/" method="get">
-        <input type="hidden" name="request" value="gr-language-notify">
-        <input type="email" name="email" placeholder="O seu endereço de e-mail" required aria-label="O seu endereço de e-mail">
+      <form class="gr-email-form" id="grNotifyForm" data-locale="pt" data-success-text="Obrigado - enviaremos um e-mail quando o seu idioma estiver pronto." data-error-text="Algo correu mal. Por favor, tente novamente." data-analytics-event="global_reach_notify_submit">
+        <input type="email" name="email" id="grNotifyEmail" placeholder="O seu endereço de e-mail" required aria-label="O seu endereço de e-mail">
         <button type="submit">Notificar-me</button>
+        <label class="gr-consent">
+          <input type="checkbox" name="consent" id="grNotifyConsent" required>
+          <span>Concordo em ser contactado/a sobre o Global Reach e aceito a <a href="/pt/legal/privacy/">Política de Privacidade</a></span>
+        </label>
+        <p class="gr-form-status" id="grNotifyStatus" role="status" hidden></p>
       </form>
     </div>
   </div>

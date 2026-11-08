@@ -138,7 +138,7 @@
       <h2>Modulo Progetto e Richiesta</h2>
       <p class="form-intro">Ti preghiamo di fornire informazioni accurate sul tuo progetto o sulla tua situazione. Ciò ci consente di valutare l&#39;ambito e preparare un primo confronto produttivo — che si tratti di un preventivo a prezzo fisso o di una consulenza strutturata.</p>
 
-      <form class="consultation-form" id="consultationForm" data-analytics-event="contact_form_submit">
+      <form class="consultation-form" id="consultationForm" data-error-text="Qualcosa è andato storto. Riprova oppure scrivici direttamente." data-analytics-event="contact_form_submit">
         <div class="form-row">
           <div class="field">
             <label for="firstName">Nome <span class="required">*</span></label>
@@ -221,6 +221,7 @@ Cosa vorremmo valutare durante la prova: " required></textarea>
         </div>
 
         <p class="form-consent">Inviando questo modulo, confermi che le informazioni fornite sono accurate e acconsenti a che Nordic Riser AB conservi i tuoi dati di contatto ai fini di rispondere alla tua richiesta. Non condividiamo le informazioni dei clienti con terze parti.</p>
+        <p class="form-error" id="formError" role="status" hidden></p>
 
         <button type="submit" class="btn-submit">Invia Richiesta di Consulenza →</button>
       </form>

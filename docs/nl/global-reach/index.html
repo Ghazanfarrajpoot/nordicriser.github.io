@@ -316,10 +316,14 @@
     <div class="gr-email-capture">
       <h3>Nog Niet Klaar?</h3>
       <p>Ontvang een melding wanneer nieuwe talen worden gelanceerd.</p>
-      <form class="gr-email-form" action="/nl/contact/" method="get">
-        <input type="hidden" name="request" value="gr-language-notify">
-        <input type="email" name="email" placeholder="Uw e-mailadres" required aria-label="Uw e-mailadres">
+      <form class="gr-email-form" id="grNotifyForm" data-locale="nl" data-success-text="Bedankt - we e-mailen u zodra uw taal beschikbaar is." data-error-text="Er is iets misgegaan. Probeer het opnieuw." data-analytics-event="global_reach_notify_submit">
+        <input type="email" name="email" id="grNotifyEmail" placeholder="Uw e-mailadres" required aria-label="Uw e-mailadres">
         <button type="submit">Meld Mij</button>
+        <label class="gr-consent">
+          <input type="checkbox" name="consent" id="grNotifyConsent" required>
+          <span>Ik ga ermee akkoord benaderd te worden over Global Reach en accepteer het <a href="/nl/legal/privacy/">Privacybeleid</a></span>
+        </label>
+        <p class="gr-form-status" id="grNotifyStatus" role="status" hidden></p>
       </form>
     </div>
   </div>

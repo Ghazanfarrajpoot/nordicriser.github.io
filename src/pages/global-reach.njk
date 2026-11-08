@@ -134,10 +134,14 @@ bodyClass: "has-gr-sticky"
     <div class="gr-email-capture">
       <h3>{{ p.emailCapture.title }}</h3>
       <p>{{ p.emailCapture.body }}</p>
-      <form class="gr-email-form" action="{{ 'contact' | localeUrl(locale) }}" method="get">
-        <input type="hidden" name="request" value="gr-language-notify">
-        <input type="email" name="email" placeholder="{{ p.emailCapture.placeholder }}" required aria-label="{{ p.emailCapture.placeholder }}">
+      <form class="gr-email-form" id="grNotifyForm" data-locale="{{ locale }}" data-success-text="{{ p.emailCapture.successText }}" data-error-text="{{ p.emailCapture.errorText }}" data-analytics-event="global_reach_notify_submit">
+        <input type="email" name="email" id="grNotifyEmail" placeholder="{{ p.emailCapture.placeholder }}" required aria-label="{{ p.emailCapture.placeholder }}">
         <button type="submit">{{ p.emailCapture.button }}</button>
+        <label class="gr-consent">
+          <input type="checkbox" name="consent" id="grNotifyConsent" required>
+          <span>{{ p.emailCapture.consent }} <a href="{{ 'legal/privacy' | localeUrl(locale) }}">{{ p.emailCapture.privacyLinkLabel }}</a></span>
+        </label>
+        <p class="gr-form-status" id="grNotifyStatus" role="status" hidden></p>
       </form>
     </div>
   </div>

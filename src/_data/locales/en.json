@@ -582,6 +582,7 @@
         "messageHint": "This information is treated as strictly confidential and is used solely to prepare for your consultation.",
         "trialPrefillMessage": "Requesting a 3-day trial code for NR-BOS.\n\nCompany name: \nTeam size: \nWhat we'd like to evaluate during the trial: ",
         "consent": "By submitting this form, you confirm that the information provided is accurate and that you consent to Nordic Riser AB retaining your contact details for the purpose of responding to your inquiry. We do not share client information with third parties.",
+        "errorText": "Something went wrong. Please try again or email us directly.",
         "submit": "Submit Consultation Request →"
       },
       "success": { "title": "Request Received", "body": "Thank you for submitting your consultation request. A member of our advisory team will review your information and respond within 1–2 business days." },
@@ -1478,7 +1479,7 @@
         { "q": "Which languages are supported?", "a": "Full interface support for English, Swedish, German, French, Spanish, Italian, Polish, Dutch, Portuguese, Urdu, and Arabic." },
         { "q": "Is my data private?", "a": "Yes — your session data is handled under our GDPR-compliant Privacy Policy, which covers exactly what we collect and why." }
       ],
-      "emailCapture": { "title": "Not Ready Yet?", "body": "Get notified about new Global Reach features.", "placeholder": "Your email address", "button": "Notify Me" },
+      "emailCapture": { "title": "Not Ready Yet?", "body": "Get notified about new Global Reach features.", "placeholder": "Your email address", "consent": "I agree to be contacted about Global Reach and accept the", "privacyLinkLabel": "Privacy Policy", "successText": "Thanks - we'll email you when your language is ready.", "errorText": "Something went wrong. Please try again.", "button": "Notify Me" },
       "stickyBar": { "text": "Ready to start collaborating?", "cta": "Get Started" },
       "cta": { "title": "Start Collaborating Today", "body": "Create your account — no credit card required — and join your first room in minutes.", "trustLine": "No credit card required · Cancel anytime · GDPR-compliant" }
     },

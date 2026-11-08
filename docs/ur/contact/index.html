@@ -139,7 +139,7 @@
       <h2>پروجیکٹ اور استفسار کا فارم</h2>
       <p class="form-intro">براہ کرم اپنے پروجیکٹ یا صورتحال کے بارے میں درست معلومات فراہم کریں۔ اس سے ہمیں دائرہ کار کا جائزہ لینے اور ایک مفید ابتدائی گفتگو کی تیاری میں مدد ملتی ہے — چاہے وہ مقررہ قیمت کا تخمینہ ہو یا منظم مشاورت۔</p>
 
-      <form class="consultation-form" id="consultationForm" data-analytics-event="contact_form_submit">
+      <form class="consultation-form" id="consultationForm" data-error-text="کچھ غلط ہو گیا۔ براہ کرم دوبارہ کوشش کریں یا ہمیں براہ راست ای میل کریں۔" data-analytics-event="contact_form_submit">
         <div class="form-row">
           <div class="field">
             <label for="firstName">پہلا نام <span class="required">*</span></label>
@@ -222,6 +222,7 @@
         </div>
 
         <p class="form-consent">یہ فارم جمع کروا کر، آپ تصدیق کرتے ہیں کہ فراہم کردہ معلومات درست ہیں اور آپ Nordic Riser AB کو آپ کے استفسار کا جواب دینے کے مقصد سے آپ کی رابطہ تفصیلات محفوظ رکھنے کی اجازت دیتے ہیں۔ ہم کلائنٹ کی معلومات تیسرے فریق کے ساتھ شیئر نہیں کرتے۔</p>
+        <p class="form-error" id="formError" role="status" hidden></p>
 
         <button type="submit" class="btn-submit">مشاورت کی درخواست جمع کروائیں ←</button>
       </form>

@@ -138,7 +138,7 @@
       <h2>Projekt- och förfrågningsformulär</h2>
       <p class="form-intro">Vänligen ange korrekt information om ditt projekt eller din situation. Detta gör det möjligt för oss att bedöma omfattningen och förbereda ett produktivt första samtal — oavsett om det är en fast offert eller en strukturerad konsultation.</p>
 
-      <form class="consultation-form" id="consultationForm" data-analytics-event="contact_form_submit">
+      <form class="consultation-form" id="consultationForm" data-error-text="Något gick fel. Försök igen eller mejla oss direkt." data-analytics-event="contact_form_submit">
         <div class="form-row">
           <div class="field">
             <label for="firstName">Förnamn <span class="required">*</span></label>
@@ -221,6 +221,7 @@ Vad vi vill utvärdera under provperioden: " required></textarea>
         </div>
 
         <p class="form-consent">Genom att skicka in detta formulär bekräftar du att den information som lämnats är korrekt och att du samtycker till att Nordic Riser AB sparar dina kontaktuppgifter i syfte att besvara din förfrågan. Vi delar inte kundinformation med tredje part.</p>
+        <p class="form-error" id="formError" role="status" hidden></p>
 
         <button type="submit" class="btn-submit">Skicka konsultationsförfrågan →</button>
       </form>

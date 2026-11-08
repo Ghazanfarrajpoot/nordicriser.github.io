@@ -316,10 +316,14 @@
     <div class="gr-email-capture">
       <h3>Inte redo än?</h3>
       <p>Få ett meddelande när nya språk lanseras.</p>
-      <form class="gr-email-form" action="/sv/contact/" method="get">
-        <input type="hidden" name="request" value="gr-language-notify">
-        <input type="email" name="email" placeholder="Din e-postadress" required aria-label="Din e-postadress">
+      <form class="gr-email-form" id="grNotifyForm" data-locale="sv" data-success-text="Tack - vi mejlar dig när ditt språk är redo." data-error-text="Något gick fel. Försök igen." data-analytics-event="global_reach_notify_submit">
+        <input type="email" name="email" id="grNotifyEmail" placeholder="Din e-postadress" required aria-label="Din e-postadress">
         <button type="submit">Meddela mig</button>
+        <label class="gr-consent">
+          <input type="checkbox" name="consent" id="grNotifyConsent" required>
+          <span>Jag godkänner att bli kontaktad om Global Reach och accepterar <a href="/sv/legal/privacy/">integritetspolicyn</a></span>
+        </label>
+        <p class="gr-form-status" id="grNotifyStatus" role="status" hidden></p>
       </form>
     </div>
   </div>

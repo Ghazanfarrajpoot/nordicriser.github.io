@@ -311,6 +311,16 @@
   letter-spacing: 0.03em;
 }
 .gr-email-form button:hover { background: var(--navy-hover, var(--navy)); }
+.gr-email-form button:disabled { opacity: 0.6; cursor: not-allowed; }
+.gr-consent {
+  flex: 1 1 100%; display: flex; align-items: flex-start; gap: 0.5rem;
+  text-align: start; font-size: 0.8rem; color: var(--muted); cursor: pointer;
+}
+.gr-consent input { flex: 0 0 auto; width: auto; padding: 0; margin-block-start: 0.15rem; }
+.gr-consent a { color: var(--navy); }
+.gr-form-status { flex: 1 1 100%; font-size: 0.85rem; margin-block-start: 0.4rem; }
+.gr-form-status.is-success { color: #0a6b3e; }
+.gr-form-status.is-error { color: #b42318; }
 
 /* ── GLOBAL REACH — sticky mobile CTA bar ── */
 .gr-sticky-cta {

@@ -138,7 +138,7 @@
       <h2>Formularz Projektu i Zapytania</h2>
       <p class="form-intro">Prosimy o podanie dokładnych informacji na temat Twojego projektu lub sytuacji. Pozwoli nam to ocenić zakres i przygotować się do owocnej pierwszej rozmowy — czy to wyceny w stałej cenie, czy ustrukturyzowanej konsultacji.</p>
 
-      <form class="consultation-form" id="consultationForm" data-analytics-event="contact_form_submit">
+      <form class="consultation-form" id="consultationForm" data-error-text="Coś poszło nie tak. Spróbuj ponownie lub napisz do nas bezpośrednio." data-analytics-event="contact_form_submit">
         <div class="form-row">
           <div class="field">
             <label for="firstName">Imię <span class="required">*</span></label>
@@ -221,6 +221,7 @@ Co chcielibyśmy ocenić podczas okresu próbnego: " required></textarea>
         </div>
 
         <p class="form-consent">Przesyłając ten formularz, potwierdzasz, że podane informacje są prawdziwe, oraz wyrażasz zgodę na przechowywanie przez Nordic Riser AB Twoich danych kontaktowych w celu udzielenia odpowiedzi na Twoje zapytanie. Nie udostępniamy danych klientów podmiotom trzecim.</p>
+        <p class="form-error" id="formError" role="status" hidden></p>
 
         <button type="submit" class="btn-submit">Wyślij zgłoszenie na konsultację →</button>
       </form>

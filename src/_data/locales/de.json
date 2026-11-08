@@ -353,6 +353,7 @@
         "trialPrefillMessage": "Anfrage für einen 3-tägigen Testcode für NR-BOS.\n\nFirmenname: \nTeamgröße: \nWas wir während der Testphase evaluieren möchten: ",
         "messageHint": "Diese Angaben werden streng vertraulich behandelt und dienen ausschließlich der Vorbereitung Ihres Beratungsgesprächs.",
         "consent": "Mit dem Absenden dieses Formulars bestätigen Sie, dass die gemachten Angaben zutreffend sind, und erklären sich damit einverstanden, dass Nordic Riser AB Ihre Kontaktdaten zum Zweck der Bearbeitung Ihrer Anfrage speichert. Wir geben Mandanteninformationen nicht an Dritte weiter.",
+        "errorText": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt eine E-Mail.",
         "submit": "Beratungsanfrage absenden →"
       },
       "success": { "title": "Anfrage erhalten", "body": "Vielen Dank für Ihre Beratungsanfrage. Ein Mitglied unseres Beraterteams wird Ihre Angaben prüfen und sich innerhalb von 1–2 Werktagen bei Ihnen melden." },
@@ -1034,7 +1035,7 @@
         { "q": "Welche Sprachen werden unterstützt?", "a": "Volle Oberflächenunterstützung für Englisch, Schwedisch, Deutsch, Französisch, Spanisch, Italienisch, Polnisch, Niederländisch, Portugiesisch, Urdu und Arabisch, mit Chatübersetzung auch in weitere Sprachen." },
         { "q": "Sind meine Daten privat?", "a": "Ja — Nachrichten und Dokumente werden gemäß unserer DSGVO-konformen Datenschutzerklärung behandelt, die genau festlegt, was wir erheben und warum." }
       ],
-      "emailCapture": { "title": "Noch nicht bereit?", "body": "Lassen Sie sich benachrichtigen, wenn neue Sprachen verfügbar sind.", "placeholder": "Ihre E-Mail-Adresse", "button": "Benachrichtigen" },
+      "emailCapture": { "title": "Noch nicht bereit?", "body": "Lassen Sie sich benachrichtigen, wenn neue Sprachen verfügbar sind.", "placeholder": "Ihre E-Mail-Adresse", "consent": "Ich stimme zu, bezüglich Global Reach kontaktiert zu werden, und akzeptiere die", "privacyLinkLabel": "Datenschutzerklärung", "successText": "Danke – wir benachrichtigen Sie per E-Mail, sobald Ihre Sprache verfügbar ist.", "errorText": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.", "button": "Benachrichtigen" },
       "stickyBar": { "text": "Bereit, mit der Zusammenarbeit zu beginnen?", "cta": "Jetzt starten" },
       "cta": { "title": "Beginnen Sie noch heute", "body": "Erstellen Sie Ihr kostenloses Konto — keine Kreditkarte nötig — und treten Sie in wenigen Minuten Ihrem ersten Raum bei.", "trustLine": "Keine Kreditkarte nötig · Jederzeit kündbar · DSGVO-konform" }
     },

@@ -138,7 +138,7 @@
       <h2>Project &amp; Enquiry Form</h2>
       <p class="form-intro">Please provide accurate information about your project or situation. This allows us to assess scope and prepare a productive first conversation — whether that&#39;s a fixed-price quote or a structured consultation.</p>
 
-      <form class="consultation-form" id="consultationForm" data-analytics-event="contact_form_submit">
+      <form class="consultation-form" id="consultationForm" data-error-text="Something went wrong. Please try again or email us directly." data-analytics-event="contact_form_submit">
         <div class="form-row">
           <div class="field">
             <label for="firstName">First Name <span class="required">*</span></label>
@@ -221,6 +221,7 @@ What we&#39;d like to evaluate during the trial: " required></textarea>
         </div>
 
         <p class="form-consent">By submitting this form, you confirm that the information provided is accurate and that you consent to Nordic Riser AB retaining your contact details for the purpose of responding to your inquiry. We do not share client information with third parties.</p>
+        <p class="form-error" id="formError" role="status" hidden></p>
 
         <button type="submit" class="btn-submit">Submit Consultation Request →</button>
       </form>

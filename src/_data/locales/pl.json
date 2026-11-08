@@ -353,6 +353,7 @@
         "trialPrefillMessage": "Prośba o 3-dniowy kod próbny dla NR-BOS.\n\nNazwa firmy: \nWielkość zespołu: \nCo chcielibyśmy ocenić podczas okresu próbnego: ",
         "messageHint": "Te informacje są traktowane jako ściśle poufne i wykorzystywane wyłącznie w celu przygotowania się do Twojej konsultacji.",
         "consent": "Przesyłając ten formularz, potwierdzasz, że podane informacje są prawdziwe, oraz wyrażasz zgodę na przechowywanie przez Nordic Riser AB Twoich danych kontaktowych w celu udzielenia odpowiedzi na Twoje zapytanie. Nie udostępniamy danych klientów podmiotom trzecim.",
+        "errorText": "Coś poszło nie tak. Spróbuj ponownie lub napisz do nas bezpośrednio.",
         "submit": "Wyślij zgłoszenie na konsultację →"
       },
       "success": { "title": "Zgłoszenie otrzymane", "body": "Dziękujemy za przesłanie zgłoszenia na konsultację. Członek naszego zespołu doradczego zapozna się z Twoimi informacjami i odpowie w ciągu 1–2 dni roboczych." },
@@ -1034,7 +1035,7 @@
         { "q": "Jakie języki są obsługiwane?", "a": "Pełne wsparcie interfejsu w językach angielskim, szwedzkim, niemieckim, francuskim, hiszpańskim, włoskim, polskim, niderlandzkim, portugalskim, urdu i arabskim, z tłumaczeniem czatu dostępnym również w innych językach." },
         { "q": "Czy moje dane są prywatne?", "a": "Tak — wiadomości i dokumenty są przetwarzane zgodnie z naszą Polityką prywatności, zgodną z RODO, która dokładnie określa, co gromadzimy i dlaczego." }
       ],
-      "emailCapture": { "title": "Jeszcze nie jesteś gotowy?", "body": "Otrzymaj powiadomienie, gdy pojawią się nowe języki.", "placeholder": "Twój adres e-mail", "button": "Powiadom mnie" },
+      "emailCapture": { "title": "Jeszcze nie jesteś gotowy?", "body": "Otrzymaj powiadomienie, gdy pojawią się nowe języki.", "placeholder": "Twój adres e-mail", "consent": "Zgadzam się na kontakt w sprawie Global Reach i akceptuję", "privacyLinkLabel": "Politykę prywatności", "successText": "Dziękujemy - wyślemy e-mail, gdy Twój język będzie gotowy.", "errorText": "Coś poszło nie tak. Spróbuj ponownie.", "button": "Powiadom mnie" },
       "stickyBar": { "text": "Gotowy, aby zacząć współpracować?", "cta": "Rozpocznij" },
       "cta": { "title": "Zacznij współpracować już dziś", "body": "Utwórz darmowe konto — bez karty płatniczej — i dołącz do swojego pierwszego pokoju w kilka minut.", "trustLine": "Bez karty płatniczej · Anuluj w każdej chwili · Zgodność z RODO" }
     },

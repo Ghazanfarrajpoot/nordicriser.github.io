@@ -138,7 +138,7 @@
       <h2>Projekt- und Anfrageformular</h2>
       <p class="form-intro">Bitte geben Sie genaue Angaben zu Ihrem Projekt oder Ihrer Situation. So können wir den Umfang bewerten und uns auf ein produktives erstes Gespräch vorbereiten — sei es ein Festpreisangebot oder ein strukturiertes Beratungsgespräch.</p>
 
-      <form class="consultation-form" id="consultationForm" data-analytics-event="contact_form_submit">
+      <form class="consultation-form" id="consultationForm" data-error-text="Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt eine E-Mail." data-analytics-event="contact_form_submit">
         <div class="form-row">
           <div class="field">
             <label for="firstName">Vorname <span class="required">*</span></label>
@@ -221,6 +221,7 @@ Was wir während der Testphase evaluieren möchten: " required></textarea>
         </div>
 
         <p class="form-consent">Mit dem Absenden dieses Formulars bestätigen Sie, dass die gemachten Angaben zutreffend sind, und erklären sich damit einverstanden, dass Nordic Riser AB Ihre Kontaktdaten zum Zweck der Bearbeitung Ihrer Anfrage speichert. Wir geben Mandanteninformationen nicht an Dritte weiter.</p>
+        <p class="form-error" id="formError" role="status" hidden></p>
 
         <button type="submit" class="btn-submit">Beratungsanfrage absenden →</button>
       </form>

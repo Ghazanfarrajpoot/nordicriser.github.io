@@ -37,7 +37,7 @@ pageSlug: contact
       <h2>{{ f.title }}</h2>
       <p class="form-intro">{{ f.intro }}</p>
 
-      <form class="consultation-form" id="consultationForm" data-analytics-event="contact_form_submit">
+      <form class="consultation-form" id="consultationForm" data-error-text="{{ f.errorText }}" data-analytics-event="contact_form_submit">
         <div class="form-row">
           <div class="field">
             <label for="firstName">{{ f.firstName }} <span class="required">*</span></label>
@@ -98,6 +98,7 @@ pageSlug: contact
         </div>
 
         <p class="form-consent">{{ f.consent }}</p>
+        <p class="form-error" id="formError" role="status" hidden></p>
 
         <button type="submit" class="btn-submit">{{ f.submit }}</button>
       </form>

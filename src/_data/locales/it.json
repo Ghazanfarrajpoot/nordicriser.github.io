@@ -353,6 +353,7 @@
         "trialPrefillMessage": "Richiesta di un codice di prova di 3 giorni per NR-BOS.\n\nNome dell'azienda: \nDimensione del team: \nCosa vorremmo valutare durante la prova: ",
         "messageHint": "Queste informazioni sono trattate in modo strettamente confidenziale e utilizzate esclusivamente per preparare la tua consulenza.",
         "consent": "Inviando questo modulo, confermi che le informazioni fornite sono accurate e acconsenti a che Nordic Riser AB conservi i tuoi dati di contatto ai fini di rispondere alla tua richiesta. Non condividiamo le informazioni dei clienti con terze parti.",
+        "errorText": "Qualcosa è andato storto. Riprova oppure scrivici direttamente.",
         "submit": "Invia Richiesta di Consulenza →"
       },
       "success": { "title": "Richiesta Ricevuta", "body": "Grazie per aver inviato la tua richiesta di consulenza. Un membro del nostro team di advisory esaminerà le tue informazioni e ti risponderà entro 1–2 giorni lavorativi." },
@@ -1034,7 +1035,7 @@
         { "q": "Quali lingue sono supportate?", "a": "Interfaccia completa in inglese, svedese, tedesco, francese, spagnolo, italiano, polacco, olandese, portoghese, urdu e arabo, con traduzione della chat disponibile verso ulteriori lingue." },
         { "q": "I miei dati sono privati?", "a": "Sì — messaggi e documenti sono gestiti secondo la nostra Informativa sulla Privacy conforme al GDPR, che specifica esattamente cosa raccogliamo e perché." }
       ],
-      "emailCapture": { "title": "Non Sei Ancora Pronto?", "body": "Ricevi una notifica quando vengono lanciate nuove lingue.", "placeholder": "Il tuo indirizzo email", "button": "Avvisami" },
+      "emailCapture": { "title": "Non Sei Ancora Pronto?", "body": "Ricevi una notifica quando vengono lanciate nuove lingue.", "placeholder": "Il tuo indirizzo email", "consent": "Accetto di essere contattato/a riguardo a Global Reach e accetto l'", "privacyLinkLabel": "Informativa sulla Privacy", "successText": "Grazie - ti invieremo un'email quando la tua lingua sarà disponibile.", "errorText": "Qualcosa è andato storto. Riprova.", "button": "Avvisami" },
       "stickyBar": { "text": "Pronto per iniziare a collaborare?", "cta": "Inizia" },
       "cta": { "title": "Inizia a Collaborare Oggi", "body": "Crea il tuo account gratuito — nessuna carta richiesta — ed entra nella tua prima sala in pochi minuti.", "trustLine": "Nessuna carta richiesta · Annulla quando vuoi · Conforme al GDPR" }
     },

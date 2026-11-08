@@ -353,6 +353,7 @@
         "trialPrefillMessage": "Demande de code d'essai de 3 jours pour NR-BOS.\n\nNom de l'entreprise : \nTaille de l'équipe : \nCe que nous souhaitons évaluer pendant l'essai : ",
         "messageHint": "Ces informations sont traitées de manière strictement confidentielle et utilisées uniquement pour préparer votre consultation.",
         "consent": "En soumettant ce formulaire, vous confirmez que les informations fournies sont exactes et vous consentez à ce que Nordic Riser AB conserve vos coordonnées afin de répondre à votre demande. Nous ne partageons pas les informations de nos clients avec des tiers.",
+        "errorText": "Une erreur s'est produite. Veuillez réessayer ou nous écrire directement.",
         "submit": "Envoyer la demande de consultation →"
       },
       "success": { "title": "Demande reçue", "body": "Merci d'avoir soumis votre demande de consultation. Un membre de notre équipe de conseil examinera vos informations et vous répondra sous 1 à 2 jours ouvrés." },
@@ -1034,7 +1035,7 @@
         { "q": "Quelles langues sont prises en charge ?", "a": "Interface complète en anglais, suédois, allemand, français, espagnol, italien, polonais, néerlandais, portugais, ourdou et arabe, avec traduction du chat disponible vers d'autres langues." },
         { "q": "Mes données sont-elles privées ?", "a": "Oui — les messages et documents sont traités conformément à notre politique de confidentialité, conforme au RGPD, qui précise exactement ce que nous collectons et pourquoi." }
       ],
-      "emailCapture": { "title": "Pas encore prêt ?", "body": "Soyez informé du lancement de nouvelles langues.", "placeholder": "Votre adresse e-mail", "button": "M'informer" },
+      "emailCapture": { "title": "Pas encore prêt ?", "body": "Soyez informé du lancement de nouvelles langues.", "placeholder": "Votre adresse e-mail", "consent": "J'accepte d'être contacté(e) à propos de Global Reach et j'accepte la", "privacyLinkLabel": "Politique de confidentialité", "successText": "Merci - nous vous enverrons un e-mail dès que votre langue sera disponible.", "errorText": "Une erreur s'est produite. Veuillez réessayer.", "button": "M'informer" },
       "stickyBar": { "text": "Prêt à commencer à collaborer ?", "cta": "Commencer" },
       "cta": { "title": "Commencez à collaborer dès aujourd'hui", "body": "Créez votre compte gratuit — sans carte bancaire — et rejoignez votre premier salon en quelques minutes.", "trustLine": "Sans carte bancaire · Résiliable à tout moment · Conforme RGPD" }
     },

@@ -353,6 +353,7 @@
         "trialPrefillMessage": "Aanvraag voor een proefcode van 3 dagen voor NR-BOS.\n\nBedrijfsnaam: \nTeamgrootte: \nWat we tijdens de proefperiode willen evalueren: ",
         "messageHint": "Deze informatie wordt als strikt vertrouwelijk behandeld en uitsluitend gebruikt om uw consult voor te bereiden.",
         "consent": "Door dit formulier in te dienen bevestigt u dat de verstrekte informatie juist is en stemt u ermee in dat Nordic Riser AB uw contactgegevens bewaart met het oog op de behandeling van uw aanvraag. Wij delen klantgegevens niet met derden.",
+        "errorText": "Er is iets misgegaan. Probeer het opnieuw of e-mail ons rechtstreeks.",
         "submit": "Verstuur Aanvraag voor Consult →"
       },
       "success": { "title": "Aanvraag Ontvangen", "body": "Hartelijk dank voor uw aanvraag voor een consult. Een lid van ons adviesteam beoordeelt uw gegevens en reageert binnen 1–2 werkdagen." },
@@ -1034,7 +1035,7 @@
         { "q": "Welke talen worden ondersteund?", "a": "Volledige interfaceondersteuning voor Engels, Zweeds, Duits, Frans, Spaans, Italiaans, Pools, Nederlands, Portugees, Urdu en Arabisch, met chatvertaling ook beschikbaar naar aanvullende talen." },
         { "q": "Zijn mijn gegevens privé?", "a": "Ja — berichten en documenten worden verwerkt volgens ons AVG-conforme privacybeleid, dat precies aangeeft wat wij verzamelen en waarom." }
       ],
-      "emailCapture": { "title": "Nog Niet Klaar?", "body": "Ontvang een melding wanneer nieuwe talen worden gelanceerd.", "placeholder": "Uw e-mailadres", "button": "Meld Mij" },
+      "emailCapture": { "title": "Nog Niet Klaar?", "body": "Ontvang een melding wanneer nieuwe talen worden gelanceerd.", "placeholder": "Uw e-mailadres", "consent": "Ik ga ermee akkoord benaderd te worden over Global Reach en accepteer het", "privacyLinkLabel": "Privacybeleid", "successText": "Bedankt - we e-mailen u zodra uw taal beschikbaar is.", "errorText": "Er is iets misgegaan. Probeer het opnieuw.", "button": "Meld Mij" },
       "stickyBar": { "text": "Klaar om te beginnen met samenwerken?", "cta": "Aan de slag" },
       "cta": { "title": "Begin Vandaag met Samenwerken", "body": "Maak uw gratis account aan — geen creditcard nodig — en sluit u binnen enkele minuten aan bij uw eerste ruimte.", "trustLine": "Geen creditcard nodig · Altijd opzegbaar · AVG-conform" }
     },

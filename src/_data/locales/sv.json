@@ -598,6 +598,7 @@
         "trialPrefillMessage": "Begär en 3-dagars provkod för NR-BOS.\n\nFöretagsnamn: \nTeamstorlek: \nVad vi vill utvärdera under provperioden: ",
         "messageHint": "Denna information behandlas som strikt konfidentiell och används enbart för att förbereda din konsultation.",
         "consent": "Genom att skicka in detta formulär bekräftar du att den information som lämnats är korrekt och att du samtycker till att Nordic Riser AB sparar dina kontaktuppgifter i syfte att besvara din förfrågan. Vi delar inte kundinformation med tredje part.",
+        "errorText": "Något gick fel. Försök igen eller mejla oss direkt.",
         "submit": "Skicka konsultationsförfrågan →"
       },
       "success": { "title": "Förfrågan mottagen", "body": "Tack för att du skickade in din konsultationsförfrågan. En medlem av vårt rådgivningsteam kommer att granska din information och återkomma inom 1–2 arbetsdagar." },
@@ -1951,7 +1952,7 @@
         { "q": "Vilka språk stöds?", "a": "Fullt gränssnittsstöd för engelska, svenska, tyska, franska, spanska, italienska, polska, nederländska, portugisiska, urdu och arabiska, med chattöversättning tillgänglig till fler språk." },
         { "q": "Är mina uppgifter privata?", "a": "Ja — meddelanden och dokument hanteras enligt vår GDPR-kompatibla integritetspolicy, som beskriver exakt vad vi samlar in och varför." }
       ],
-      "emailCapture": { "title": "Inte redo än?", "body": "Få ett meddelande när nya språk lanseras.", "placeholder": "Din e-postadress", "button": "Meddela mig" },
+      "emailCapture": { "title": "Inte redo än?", "body": "Få ett meddelande när nya språk lanseras.", "placeholder": "Din e-postadress", "consent": "Jag godkänner att bli kontaktad om Global Reach och accepterar", "privacyLinkLabel": "integritetspolicyn", "successText": "Tack - vi mejlar dig när ditt språk är redo.", "errorText": "Något gick fel. Försök igen.", "button": "Meddela mig" },
       "stickyBar": { "text": "Redo att börja samarbeta?", "cta": "Kom igång" },
       "cta": { "title": "Börja samarbeta idag", "body": "Skapa ditt gratiskonto — inget kort krävs — och gå med i ditt första rum på några minuter.", "trustLine": "Inget kort krävs · Avsluta när du vill · GDPR-kompatibelt" }
     },

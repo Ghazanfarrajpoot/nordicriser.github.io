@@ -138,7 +138,7 @@
       <h2>Formulário de Projeto e Consulta</h2>
       <p class="form-intro">Forneça informação exata sobre o seu projeto ou situação. Isto permite-nos avaliar o âmbito e preparar uma primeira conversa produtiva — seja um orçamento de preço fixo ou uma consulta estruturada.</p>
 
-      <form class="consultation-form" id="consultationForm" data-analytics-event="contact_form_submit">
+      <form class="consultation-form" id="consultationForm" data-error-text="Algo correu mal. Tente novamente ou envie-nos um e-mail diretamente." data-analytics-event="contact_form_submit">
         <div class="form-row">
           <div class="field">
             <label for="firstName">Primeiro Nome <span class="required">*</span></label>
@@ -221,6 +221,7 @@ O que gostaríamos de avaliar durante o teste: " required></textarea>
         </div>
 
         <p class="form-consent">Ao submeter este formulário, confirma que a informação fornecida é exata e que consente que a Nordic Riser AB conserve os seus dados de contacto com a finalidade de responder à sua consulta. Não partilhamos informação dos clientes com terceiros.</p>
+        <p class="form-error" id="formError" role="status" hidden></p>
 
         <button type="submit" class="btn-submit">Submeter Pedido de Consulta →</button>
       </form>

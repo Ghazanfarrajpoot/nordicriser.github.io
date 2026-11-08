@@ -353,6 +353,7 @@
 .field textarea { resize: vertical; min-height: 130px; line-height: 1.6; }
 .field .hint { font-size: 0.78rem; color: var(--muted); line-height: 1.5; }
 .form-consent { font-size: 0.82rem; color: var(--muted); line-height: 1.6; padding-top: 0.5rem; border-top: 1px solid var(--border); }
+.form-error { font-size: 0.85rem; color: #b42318; }
 .btn-submit {
   display: inline-flex; align-items: center; gap: 0.6rem;
   background: transparent; color: var(--navy); border: 1.5px solid var(--navy);
