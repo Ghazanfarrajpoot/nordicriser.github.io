@@ -835,7 +835,7 @@
             "Regelbunden översyn och uppdatering av säkerhetsrutiner",
             "Personalens medvetenhet om dataskyddsskyldigheter"
           ],
-          "outro": "För Medlemsportalen omfattar detta Firebase Authentication tillsammans med säkerhetsregler i Firestore och Storage som begränsar varje användare till sina egna uppgifter. För fotografier från NR-BOS-arbetsplatser omfattar detta att filer lagras i en privat fillagring som endast är åtkomlig via korttidsgiltiga signerade länkar, inte via någon offentlig sökväg. Trots att vi vidtar alla rimliga försiktighetsåtgärder är ingen metod för elektronisk överföring eller lagring helt säker. Vi kan inte garantera fullständig säkerhet, men vi är fast beslutna att skydda dina uppgifter till högsta praktiskt möjliga standard."
+          "outro": "För Medlemsportalen omfattar detta Firebase Authentication tillsammans med säkerhetsregler i Firestore och Storage som begränsar varje användare till sina egna uppgifter, samt säkerhetsregler i Realtime Database som begränsar Global Reachs delade sessionsanteckningar till ett rums nuvarande deltagare eller dess skapare i stället för till alla medlemmar. För fotografier från NR-BOS-arbetsplatser omfattar detta att filer lagras i en privat fillagring som endast är åtkomlig via korttidsgiltiga signerade länkar, inte via någon offentlig sökväg. Trots att vi vidtar alla rimliga försiktighetsåtgärder är ingen metod för elektronisk överföring eller lagring helt säker. Vi kan inte garantera fullständig säkerhet, men vi är fast beslutna att skydda dina uppgifter till högsta praktiskt möjliga standard."
         },
         "s9": {
           "title": "Lagring av uppgifter",
@@ -845,6 +845,8 @@
             "Förfrågningsdata (ej konverterade): 2 år från senaste kontakttillfället",
             "Webbanalysdata: högst 26 månader",
             "Mjukvaruproduktdata (Medlemsportalen, NR-BOS): lagras under kontots eller licensförhållandets löptid, plus en rimlig period efter avslut för rättsliga, bokföringsrelaterade och tvistelösningsändamål, om inte en kortare period avtalats i kundens personuppgiftsbiträdesavtal",
+            "Global Reach-sessionsdata: ett rums metadata och närvarohistorik bevaras så länge rummet finns kvar. Delade sessionsanteckningar är gemensam text utan registrering per bidragsgivare, så de ändras inte när en deltagares konto tas bort - ett enskilt bidrag kan inte selektivt avlägsnas utan att påverka alla andras. Din egen användnings-/prenumerationsuppgift, samt din närvaropost i varje rum, tas bort när ditt konto raderas",
+            "Intresseanmälningar för språk: sparas tills du ber oss ta bort dem, eller tills det språk du frågade om blir tillgängligt, beroende på vilket som inträffar först",
             "Samtyckesregister: tills samtycket återkallas, plus en rimlig period därefter för arkiveringsändamål"
           ],
           "outro": "När den tillämpliga lagringsperioden löpt ut raderas eller anonymiseras personuppgifterna på ett säkert sätt."
@@ -1002,11 +1004,11 @@
         "rows": [
           [
             "Google Ireland Limited (Firebase / Google Cloud Platform)",
-            "Autentisering, databas, fillagring och hosting för Medlemsportalen (portal.nordicriser.com)",
-            "Kontouppgifter, profildata, innehåll i uppladdade dokument, innehåll i säkra meddelanden, ärende- och betalningsuppgifter",
-            "Google Clouds infrastruktur — exakt behandlingsregion väntar på intern bekräftelse (se noteringen nedan)",
+            "Autentisering, databas, fillagring och hosting för Medlemsportalen (portal.nordicriser.com) och Global Reach (direktsända studie-/arbetsrum)",
+            "Kontouppgifter, profildata, innehåll i uppladdade dokument, innehåll i säkra meddelanden, ärende- och betalningsuppgifter; Global Reachs rum-/sessionsdata och delade anteckningar",
+            "Google Cloud: Firestore i europe-north2, Realtime Database i europe-west1 (bekräftat); regionen för Cloud Storage-lagringsutrymmet är ännu inte oberoende bekräftad",
             "Google Clouds Cloud Data Processing Addendum, som innefattar EU-kommissionens standardavtalsklausuler",
-            "Verifiering krävs"
+            "Delvis bekräftad"
           ],
           [
             "DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.)",
@@ -1042,7 +1044,7 @@
           ]
         ]
       },
-      "note": "Rader märkta ”Verifiering krävs” är bekräftade att existera och att ta emot den angivna datakategorin — vi har verifierat detta direkt mot vår egen källkod innan denna förteckning publicerades. Det som ännu inte är fastställt är exakt värdleverantör och region för dessa poster. Vi listar dem i stället för att utelämna dem eftersom artikel 13.1 f kräver att vi redogör för de överföringar vi faktiskt gör, inte bara de vi redan fullständigt dokumenterat, och eftersom det vore mindre ärligt att utelämna en känd lucka än att flagga den öppet. Vi uppdaterar Status-kolumnen och datumet ovan så snart de är bekräftade."
+      "note": "Rader märkta ”Verifiering krävs” är bekräftade att existera och att ta emot den angivna datakategorin — vi har verifierat detta direkt mot vår egen källkod innan denna förteckning publicerades. Det som ännu inte är fastställt är exakt värdleverantör och region för dessa poster. Vi listar dem i stället för att utelämna dem eftersom artikel 13.1 f kräver att vi redogör för de överföringar vi faktiskt gör, inte bara de vi redan fullständigt dokumenterat, och eftersom det vore mindre ärligt att utelämna en känd lucka än att flagga den öppet. Vi uppdaterar Status-kolumnen och datumet ovan så snart de är bekräftade. Raden för Google Cloud är markerad \"Delvis bekräftad\": behandlingsregionerna för Firestore och Realtime Database är nu bekräftade (se kolumnen Plats), men regionen för Cloud Storage-lagringsutrymmet har ännu inte verifierats oberoende."
     },
     "security": {
       "meta": { "title": "Säkerhet — Nordic Riser AB", "description": "En faktabaserad, verifierad redogörelse för säkerhetspraxis bakom NR-BOS och Medlemsportalen — inklusive det som ännu inte är klart." },
