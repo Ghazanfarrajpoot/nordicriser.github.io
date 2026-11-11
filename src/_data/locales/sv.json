@@ -636,8 +636,8 @@
         "body": "Hur Nordic Riser AB samlar in, använder och skyddar dina personuppgifter i enlighet med EU:s dataskyddsförordning (GDPR)."
       },
       "breadcrumb": "Integritetspolicy",
-      "updatedBadge": "Senast uppdaterad: 19 augusti 2026",
-      "whatChanged": "Vad som ändrats i denna uppdatering: policyn omfattade tidigare enbart vår konsultverksamhet. Den täcker nu även Medlemsportalen, NR-BOS och Global Reach. Vi har lagt till ett avsnitt om personuppgiftsansvarig kontra personuppgiftsbiträde, en fullständig namngiven förteckning över underbiträden, en uttrycklig redogörelse för vilken AI-leverantör som används i NR-BOS, samt delat upp avsnittet om cookies mellan marknadsföringswebbplatsen och våra inloggningsbaserade produkter. Användarvillkor och ett personuppgiftsbiträdesavtal publiceras tillsammans med denna policy för första gången — se juridiksidan.",
+      "updatedBadge": "Senast uppdaterad: 11 november 2026",
+      "whatChanged": "Vad som ändrats i denna uppdatering: policyn omfattade tidigare enbart vår konsultverksamhet. Den täcker nu även Medlemsportalen, NR-BOS och Global Reach. Vi har lagt till ett avsnitt om personuppgiftsansvarig kontra personuppgiftsbiträde, en fullständig namngiven förteckning över underbiträden, en uttrycklig redogörelse för vilken AI-leverantör som används i NR-BOS, samt delat upp avsnittet om cookies mellan marknadsföringswebbplatsen och våra inloggningsbaserade produkter. Användarvillkor och ett personuppgiftsbiträdesavtal publiceras tillsammans med denna policy för första gången — se juridiksidan. Vi har lagt till avsnitt 6.5: den säkra portalmeddelandefunktionens översättningsknapp skickar meddelandetext till Google Clouds Translation API, vilket inte tidigare var redovisat — se sidan om underbiträden för motsvarande post. Vi har också korrigerat avsnitt 6.4: NR-BOS pseudonymiserar numera teammedlemmars namn innan projektdata skickas till vår AI-leverantör, så AI:n ser en generisk etikett i stället för ett riktigt namn — avsnittet beskrev tidigare felaktigt att ingen sådan maskering görs.",
       "translationNotice": "Denna sida är professionellt översatt till svenska och granskad av oss. Vid eventuella avvikelser gäller den engelska versionen. Kontakta oss om du har frågor.",
       "tocLabel": "Innehåll",
       "toc": [
@@ -709,7 +709,7 @@
               "list": [
                 "Kontouppgifter: namn, e-postadress, autentiseringsuppgifter och roll, hanterat via Firebase Authentication",
                 "Dokument: filer du laddar upp för ärendehandläggning",
-                "Meddelanden: innehållet i säkra meddelanden du utbyter via portalen",
+                "Meddelanden: innehållet i säkra meddelanden du utbyter via portalen. Om du eller mottagaren använder översättningsfunktionen på ett meddelande skickas det meddelandets text dessutom till Google Clouds Translation API för att generera översättningen — se avsnitt 6.5",
                 "Ärende- och tidslinjedata: status och framsteg kopplat till ditt ärende",
                 "Betalningsuppgifter: fakturor, betalningsanspråk och påfyllningsförfrågningar du lämnar in — vi samlar inte in eller lagrar kortnummer; betalningar granskas manuellt i stället för via en automatiserad betalningslösning"
               ]
@@ -808,11 +808,21 @@
               "title": "6.4 AI-behandling i NR-BOS",
               "intro": "NR-BOS innehåller en valfri AI-assistent som genererar insikter om risk, kostnad och produktivitet utifrån ett projekts data. Vi beskriver detta rakt på sak, inklusive de delar som ännu inte är så skyddande som vi skulle önska, snarare än att beskriva ett skydd som faktiskt inte finns på plats:",
               "list": [
-                "När denna funktion används skickas relevant projektdata — inklusive projekt- och företagsnamn, budgetsiffror, uppgiftsdetaljer, kostnadsposter samt fullständiga namn och roller för tilldelade teammedlemmar — till vår AI-leverantör, DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.), för att generera analysen.",
-                "Vi maskerar eller anonymiserar för närvarande inte personidentifierande uppgifter innan denna data överförs. Om detta har betydelse för hur du använder NR-BOS, kontakta oss eller din NR-BOS-administratör — en kund som driver NR-BOS som personuppgiftsansvarig kan begränsa användningen av AI-assistenten i sin egen installation.",
+                "När denna funktion används skickas relevant projektdata — inklusive projekt- och företagsnamn, budgetsiffror, uppgiftsdetaljer och kostnadsposter — till vår AI-leverantör, DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.), för att generera analysen. Teammedlemmar identifieras med en generisk etikett per projekt (t.ex. ”Medlem A”), inte med namn.",
+                "Vi pseudonymiserar teammedlemmars namn innan denna data överförs — AI:n tar aldrig emot ett riktigt namn, bara den generiska etiketten. Projekt- och företagsnamn samt kostnads-/budgetsiffror pseudonymiseras inte, eftersom analysen faktiskt är beroende av dem. Om detta har betydelse för hur du använder NR-BOS, kontakta oss eller din NR-BOS-administratör — en kund som driver NR-BOS som personuppgiftsansvarig kan begränsa användningen av AI-assistenten i sin egen installation.",
                 "DeepSeeks egen policy för API-data anger att data som skickas via deras API inte används för att träna deras modeller. Detta är DeepSeeks eget uttalande, inte en garanti vi granskar oberoende.",
                 "Resultatet är endast rådgivande. Ingenting i NR-BOS agerar automatiskt på en AI-genererad insikt — en person granskar den alltid och avgör vad som, om något, ska göras.",
                 "Eftersom DeepSeek är baserat i Kina bygger denna överföring på standardavtalsklausuler som skydd enligt GDPR kapitel V. Kina saknar beslut om adekvat skyddsnivå från EU-kommissionen, och denna typ av överföringar är föremål för ökad regulatorisk uppmärksamhet inom EU. Vi redogör för detta specifikt, med namn, så att du kan avgöra med full information om det har betydelse för dig — se avsnitt 7 för den fullständiga uppgiften om underbiträdet."
+              ]
+            },
+            {
+              "title": "6.5 Meddelandeöversättning",
+              "intro": "Medlemsportalens säkra meddelandefunktion har en valfri översättningsknapp som maskinöversätter ett enskilt meddelande på begäran.",
+              "list": [
+                "När du använder denna funktion skickas meddelandets text till Google Clouds Translation API för att generera översättningen, som därefter lagras tillsammans med originalmeddelandet.",
+                "Detta är samma underbiträde inom Google Cloud Platform som redan namnges i avsnitt 7 för Firebase — inte ett separat företag. Det listas som en egen rad i förteckningen över underbiträden eftersom Translation API (Basic), till skillnad från Firestore och Realtime Database, inte stöder att behandlingen begränsas till en specifik region: ett översatt meddelande kan behandlas i vilket Google Cloud-datacenter som helst i världen, inklusive utanför EU/EES.",
+                "Där sådan behandling sker utanför EU/EES bygger den på Google Clouds Cloud Data Processing Addendum, som innefattar EU-kommissionens standardavtalsklausuler, som skydd enligt GDPR kapitel V — samma mekanism som redan gäller för våra andra Google Cloud-tjänster, tillämpad här på en funktion som inte kan begränsas till en viss region.",
+                "Detta saknar samband med Global Reach: Global Reachs direktsända rum har ingen chattfunktion och använder ingen översättning — se avsnitt 4.5."
               ]
             }
           ]
@@ -986,7 +996,7 @@
         "body": "Varje tredje part vi använder för att behandla personuppgifter för din räkning — vad de gör, vilka uppgifter de hanterar, var de finns och hur överföringen skyddas."
       },
       "breadcrumb": "Underbiträden",
-      "updatedBadge": "Senast uppdaterad: 19 augusti 2026",
+      "updatedBadge": "Senast uppdaterad: 11 november 2026",
       "translationNotice": "Denna sida är professionellt översatt till svenska och granskad av oss. Vid eventuella avvikelser gäller den engelska versionen. Kontakta oss om du har frågor.",
       "intro": [
         "Denna förteckning finns för att uppfylla artikel 13.1 f i GDPR direkt — inte bara för att säga att skyddsåtgärder finns, utan för att namnge vem de gäller. Vi håller den aktuell och uppdaterar datumet nedan varje gång den ändras.",
@@ -1004,16 +1014,16 @@
         "rows": [
           [
             "Google Ireland Limited (Firebase / Google Cloud Platform)",
-            "Autentisering, databas, fillagring och hosting för Medlemsportalen (portal.nordicriser.com) och Global Reach (direktsända studie-/arbetsrum)",
-            "Kontouppgifter, profildata, innehåll i uppladdade dokument, innehåll i säkra meddelanden, ärende- och betalningsuppgifter; Global Reachs rum-/sessionsdata och delade anteckningar",
-            "Google Cloud: Firestore i europe-north2, Realtime Database i europe-west1 (bekräftat); regionen för Cloud Storage-lagringsutrymmet är ännu inte oberoende bekräftad",
+            "Autentisering, databas, fillagring och hosting för Medlemsportalen (portal.nordicriser.com) och Global Reach (direktsända studie-/arbetsrum); översättning på begäran av säkra meddelanden (Translation API — se integritetspolicyns avsnitt 6.5)",
+            "Kontouppgifter, profildata, innehåll i uppladdade dokument, innehåll i säkra meddelanden inklusive översatt text, ärende- och betalningsuppgifter; Global Reachs rum-/sessionsdata och delade anteckningar",
+            "Google Cloud: Firestore i europe-north2, Realtime Database i europe-west1 (bekräftat); regionen för Cloud Storage-lagringsutrymmet är ännu inte oberoende bekräftad. Translation API är inte knutet till en specifik region och kan behandla data var som helst i Google Clouds globala infrastruktur",
             "Google Clouds Cloud Data Processing Addendum, som innefattar EU-kommissionens standardavtalsklausuler",
             "Delvis bekräftad"
           ],
           [
             "DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.)",
             "AI-genererad analys av risk, kostnad och produktivitet i NR-BOS (valfri funktion)",
-            "Projekt- och företagsnamn, budgetsiffror, uppgiftsdetaljer, kostnadsposter, fullständiga namn och roller för tilldelade teammedlemmar",
+            "Projekt- och företagsnamn, budgetsiffror, uppgiftsdetaljer, kostnadsposter samt generiska etiketter per projekt för teammedlemmar (riktiga namn pseudonymiseras före överföring)",
             "Kina",
             "Standardavtalsklausuler (modulen för överföring mellan personuppgiftsansvarig och personuppgiftsbiträde). Kina saknar beslut om adekvat skyddsnivå från EU-kommissionen — se integritetspolicyns avsnitt 6.4 för den fullständiga redogörelsen",
             "Bekräftad"
@@ -1033,18 +1043,10 @@
             "Väntar på intern bekräftelse",
             "Väntar på intern bekräftelse",
             "Verifiering krävs"
-          ],
-          [
-            "Leverantör av översättnings-API (Global Reach)",
-            "Realtidsöversättning av chattmeddelanden i Global Reachs samarbetsrum",
-            "Innehåll i chattmeddelanden",
-            "Väntar på intern bekräftelse",
-            "Väntar på intern bekräftelse",
-            "Verifiering krävs"
           ]
         ]
       },
-      "note": "Rader märkta ”Verifiering krävs” är bekräftade att existera och att ta emot den angivna datakategorin — vi har verifierat detta direkt mot vår egen källkod innan denna förteckning publicerades. Det som ännu inte är fastställt är exakt värdleverantör och region för dessa poster. Vi listar dem i stället för att utelämna dem eftersom artikel 13.1 f kräver att vi redogör för de överföringar vi faktiskt gör, inte bara de vi redan fullständigt dokumenterat, och eftersom det vore mindre ärligt att utelämna en känd lucka än att flagga den öppet. Vi uppdaterar Status-kolumnen och datumet ovan så snart de är bekräftade. Raden för Google Cloud är markerad \"Delvis bekräftad\": behandlingsregionerna för Firestore och Realtime Database är nu bekräftade (se kolumnen Plats), men regionen för Cloud Storage-lagringsutrymmet har ännu inte verifierats oberoende."
+      "note": "Rader märkta ”Verifiering krävs” är bekräftade att existera och att ta emot den angivna datakategorin — vi har verifierat detta direkt mot vår egen källkod innan denna förteckning publicerades. Det som ännu inte är fastställt är exakt värdleverantör och region för dessa poster. Vi listar dem i stället för att utelämna dem eftersom artikel 13.1 f kräver att vi redogör för de överföringar vi faktiskt gör, inte bara de vi redan fullständigt dokumenterat, och eftersom det vore mindre ärligt att utelämna en känd lucka än att flagga den öppet. Vi uppdaterar Status-kolumnen och datumet ovan så snart de är bekräftade. Raden för Google Cloud är markerad \"Delvis bekräftad\": behandlingsregionerna för Firestore och Realtime Database är nu bekräftade (se kolumnen Plats), men regionen för Cloud Storage-lagringsutrymmet har ännu inte verifierats oberoende. En tidigare rad, ”Leverantör av översättnings-API (Global Reach)”, har tagits bort: en granskning visade att Global Reach inte har någon chattfunktion, så raden stämde inte med vad produkten faktiskt gör, och de bakomliggande molnfunktionerna har sedan återställts från sin driftsatta källkod och bekräftats vara oanvänd kod som ingen aktiv funktion anropar. Raden för Google Cloud Platform ovan har i stället utökats för att täcka vår enda bekräftade användning av ett översättnings-API: en översättningsknapp på säkra portalmeddelanden, som anropar Google Clouds Translation API — samma underbiträde inom Google Cloud Platform som redan listas, inte ett separat företag. Se integritetspolicyns avsnitt 6.5 för den fullständiga redogörelsen, inklusive varför just detta API inte kan begränsas till EU på samma sätt som Firestore och Realtime Database."
     },
     "security": {
       "meta": { "title": "Säkerhet — Nordic Riser AB", "description": "En faktabaserad, verifierad redogörelse för säkerhetspraxis bakom NR-BOS och Medlemsportalen — inklusive det som ännu inte är klart." },
