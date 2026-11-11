@@ -125,6 +125,46 @@ if (grNotifyForm) {
   });
 }
 
+// Global Reach hero demo: a client-side-only illustration of timezone-aware
+// presence badges next to a scratch notes textarea. No backend calls, no
+// persistence - purely so a visitor can see what a live room looks like
+// before signing up. Each demo participant's clock is a fixed illustrative
+// timezone (not derived from any real user data).
+const grPresenceRoot = document.querySelector('[data-gr-presence]');
+if (grPresenceRoot) {
+  const DEMO_TIMEZONES = {
+    SV: 'Europe/Stockholm',
+    UR: 'Asia/Karachi',
+    EN: 'America/New_York',
+    AR: 'Asia/Dubai',
+    DE: 'Europe/Berlin',
+    PL: 'Europe/Warsaw',
+  };
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const renderTimes = () => {
+    grPresenceRoot.querySelectorAll('[data-gr-lang]').forEach((badge) => {
+      const tz = DEMO_TIMEZONES[badge.dataset.grLang];
+      const timeEl = badge.querySelector('[data-gr-time]');
+      if (!tz || !timeEl) return;
+      try {
+        timeEl.textContent = new Intl.DateTimeFormat(undefined, {
+          hour: 'numeric', minute: '2-digit', timeZone: tz,
+        }).format(new Date());
+      } catch (err) {
+        timeEl.textContent = '';
+      }
+    });
+  };
+
+  renderTimes();
+  // A static demo doesn't need a ticking clock; skip the interval entirely
+  // under reduced-motion and just show one still frame.
+  if (!prefersReducedMotion) {
+    setInterval(renderTimes, 60000);
+  }
+}
+
 // NR-BOS demo request form: same demo-only client-side "submit" pattern.
 const nrbosDemoForm = document.getElementById('nrbosDemoForm');
 if (nrbosDemoForm) {

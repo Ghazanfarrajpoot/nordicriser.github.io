@@ -117,7 +117,7 @@
         "title": "Wat Wij Hebben Gebouwd",
         "items": [
           { "type": "SaaS-product (Intern)", "title": "NR-BOS", "featured": true, "featuredLabel": "Vlaggenschipproduct", "oneLiner": "Projectuitvoering, veldwerk en klantrapportages — alles op één platform, gebouwd en gelicentieerd door Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS-product (Intern)", "title": "Global Reach", "oneLiner": "Live samenwerkingsruimtes met gedeelde whiteboards en chat die in realtime wordt vertaald tussen talen.", "link": "global-reach" },
+          { "type": "SaaS-product (Intern)", "title": "Global Reach", "oneLiner": "Live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities, per minuut gefactureerd.", "link": "global-reach" },
           { "type": "Veilig Klantportaal", "title": "Nordic Riser Ledenportaal", "oneLiner": "Een geauthenticeerd portaal voor documentuitwisseling, zaakopvolging, veilige berichten en betalingen.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
           { "type": "Meertalig Marketingplatform", "title": "nordicriser.com", "oneLiner": "Een productiesite in elf talen met RTL-ondersteuning, volledige metadekking en schone URL's per taal.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
           { "type": "Zorg-app", "title": "Telemedicine-app", "oneLiner": "Een telemedicineplatform dat we volledig zelf hebben gebouwd — HD-videoconsulten, afsprakenplanning en chat tijdens het gesprek — klaar om aan te passen voor elk zorgmerk.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
@@ -129,12 +129,12 @@
       },
       "productSpotlight": {
         "label": "Ons Product",
-        "title": "Global Reach — Samenwerken Zonder Taalbarrière",
-        "body": "Live ruimtes met gedeelde whiteboards en chat die in realtime wordt vertaald. Ontworpen voor studiegroepen, onderzoeksteams en projectwerk dat landen overspant.",
+        "title": "Global Reach — Live Ruimtes voor Grensoverschrijdende Teams",
+        "body": "Live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities. Ontworpen voor studiegroepen, onderzoeksteams en projectwerk dat landen overspant.",
         "bullets": [
-          "Gedeelde whiteboards voor live samenwerking",
-          "Chat die live tussen talen wordt vertaald",
-          "De eerste 100 berichten gratis — geen kaart nodig"
+          "Gedeelde sessienotities voor live samenwerking",
+          "Realtime aanwezigheid — zie wie er in de ruimte is",
+          "Abonnementen vanaf $29/maand, per minuut gefactureerd"
         ],
         "cta": "Aan de slag"
       },
@@ -580,13 +580,13 @@
           "type": "SaaS-product (Intern)",
           "title": "Global Reach",
           "challengeLabel": "Uitdaging",
-          "challenge": "Mensen die grensoverschrijdend samenwerken verliezen betekenis door vertaalvertragingen en het wisselen tussen tools.",
+          "challenge": "Teams die grensoverschrijdend werken hebben een gedeelde ruimte nodig om live samen te studeren of te werken, zonder een gesprek te boeken of te schakelen tussen losse tools.",
           "buildLabel": "Bouw",
-          "build": "Live samenwerkingsruimtes met gedeelde whiteboards en chat die in realtime tussen talen wordt vertaald, met een gratis instapniveau.",
+          "build": "Open studie- en werkruimtes met live aanwezigheid en gedeelde sessienotities, per minuut gefactureerd.",
           "stackLabel": "Techniek",
-          "stack": ["React", "Realtime synchronisatie", "Vertaal-API", "Abonnementsfacturering"],
+          "stack": ["React", "Firebase Realtime Database", "Abonnementsfacturering"],
           "resultLabel": "Resultaat",
-          "result": "Live product met een gratis niveau tot 100 berichten, geen kaart vereist.",
+          "result": "Live product met betaalde abonnementen vanaf $29/maand.",
           "link": "global-reach",
           "linkLabel": "Bekijk het Product"
         },
@@ -973,15 +973,17 @@
     "globalReach": {
       "hero": {
         "label": "Global Reach",
-        "h1": "Werk Grensoverschrijdend Samen — Uw Eerste 100 Berichten Zijn Gratis",
-        "body": "Neem deel aan live ruimtes met gedeelde whiteboards en chat die in realtime wordt vertaald — iedereen leest en schrijft in zijn eigen taal.",
+        "h1": "Werk Grensoverschrijdend Samen, Live",
+        "body": "Doe mee aan live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities — gemaakt voor samenwerken over tijdzones en talen heen.",
         "ctaPrimary": "Aan de slag",
         "ctaSecondary": "Bekijk hoe het werkt",
         "trustLine": "Geen creditcard nodig · Altijd opzegbaar · AVG-conform",
         "earlyAccessBadge": "Nu in Vroege Toegang",
-        "mockCaption": "Illustratieve voorbeeldweergave",
+        "mockCaption": "Probeer het — typ een notitie en zie de aanwezigheid live bijwerken",
         "visual": {
-          "whiteboardLabel": "Gedeeld Whiteboard",
+          "notesLabel": "Gedeelde Sessienotities",
+          "demoPlaceholder": "Typ hier een notitie…",
+          "demoAriaLabel": "Probeer het gedeelde notitiepaneel (alleen demo — wordt niet opgeslagen)",
           "participants": [
             { "lang": "SV", "name": "Elin" },
             { "lang": "UR", "name": "Ahmed" },
@@ -989,39 +991,51 @@
             { "lang": "AR", "name": "Layla" },
             { "lang": "DE", "name": "Jonas" },
             { "lang": "PL", "name": "Kasia" }
-          ],
-          "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
-          "chatTranslated": "Het bestand is klaar voor beoordeling",
-          "chatTag": "Vertaald uit het Urdu · tik voor origineel"
+          ]
         }
       },
       "breadcrumb": "Global Reach",
       "howItWorksLabel": "Hoe Het Werkt",
       "howItWorksTitle": "Drie Stappen om Te Beginnen met Samenwerken",
-      "howItWorksSub": "Global Reach zet een abonnement om in directe, meertalige samenwerking — zonder heen-en-weer geplande afspraken.",
+      "howItWorksSub": "Global Reach zet een abonnement om in een live gedeelde ruimte — zonder heen-en-weer geplande afspraken.",
       "howItWorks": [
         { "title": "Maak of Sluit U Aan bij een Ruimte", "body": "Start een nieuwe ruimte of sluit u aan bij een ruimte rond uw onderwerp — examenvoorbereiding, een onderzoeksgroep of een grensoverschrijdend project." },
-        { "title": "Werk Samen op Gedeelde Whiteboards", "body": "Schets, annoteer en werk samen aan problemen op een whiteboard dat iedereen in de ruimte live kan zien en bewerken." },
-        { "title": "Chat met Live Vertaling", "body": "Schrijf berichten in uw eigen taal — alle anderen lezen ze direct vertaald in de hunne." }
+        { "title": "Houd Samen Gedeelde Notities Bij", "body": "Houd één gedeeld notitiepaneel bij dat iedereen in de ruimte live kan zien en bewerken, zodat er niets verloren gaat tussen losse tools." },
+        { "title": "Houd Uw Sessietijd in de Gaten", "body": "Zie precies hoeveel van uw maandelijkse sessieminutenlimiet nog over is terwijl de timer van de ruimte loopt." }
       ],
       "ctaBand1": {
         "title": "Klaar om Grensoverschrijdend Samen Te Werken?",
-        "body": "Maak uw gratis account aan en start uw eerste ruimte in enkele minuten.",
+        "body": "Maak uw account aan en start uw eerste ruimte in enkele minuten.",
         "cta": "Aan de slag"
+      },
+      "classroom": {
+        "label": "Een Natuurlijke Aanvulling",
+        "title": "Werkt Samen met Google Classroom",
+        "intro": "Classroom is gemaakt voor lesstof. Global Reach is gemaakt voor de momenten die live moeten gebeuren.",
+        "classroomHeading": "Google Classroom",
+        "classroomBody": "Beheert opdrachten, feedback en beoordelingen in uw eigen tempo. Voor een live sessie moet u het nog steeds combineren met een apart videotool — Classroom zelf heeft geen ingebouwde live chat of gedeeld notitiepaneel.",
+        "grHeading": "Global Reach",
+        "grBody": "Een live ruimte met realtime aanwezigheid en gedeelde notities, klaar op het moment dat twee mensen moeten samenwerken — niets te configureren, geen cursus vooraf aan te maken.",
+        "note": "Gebruik Classroom voor de lesstof. Gebruik Global Reach voor de live sessie die erbij past."
       },
       "useCasesLabel": "Voor Wie Het Is",
       "useCasesTitle": "Ontworpen voor Grensoverschrijdende Samenwerking",
       "useCases": [
-        { "title": "Examenvoorbereiding", "body": "Een Nederlandstalige student en een Urdu-sprekende klasgenoot leren samen de avond voor het examen — de chat wordt direct in beide richtingen vertaald." },
-        { "title": "Bijles", "body": "Een Engelstalige docent begeleidt een Duitstalige student via het gedeelde whiteboard door een reeks opgaven." },
-        { "title": "Onderzoeksgroepen", "body": "Pools- en Arabischtalige onderzoekers vergelijken notities in dezelfde ruimte, elk lezend en schrijvend in zijn eigen taal." },
-        { "title": "Grensoverschrijdende Projectteams", "body": "Een Nederlandse projectleider en een Pakistaanse ontwikkelaar coördineren een sprint, met whiteboard en chat beide live gedeeld." }
+        { "title": "Examenvoorbereiding", "body": "Twee klasgenoten overhoren elkaar de avond voor het examen en noteren in de gedeelde notities wat ze daarna nog moeten herhalen." },
+        { "title": "Bijles", "body": "Een docent begeleidt een student live door een reeks opgaven, met gedeelde notities die beide kunnen zien en bewerken terwijl ze werken." },
+        { "title": "Onderzoeksgroepen", "body": "Onderzoekers in verschillende landen vergelijken samen notities in één ruimte, allemaal vanuit hetzelfde gedeelde notitiepaneel." },
+        { "title": "Grensoverschrijdende Projectteams", "body": "Een projectleider en een ontwikkelaar in verschillende landen stemmen samen een sprint af in een live ruimte, en houden daarbij notities en tijd bij terwijl ze werken." }
       ],
+      "notePersistence": {
+        "label": "Uw Notities",
+        "title": "Niets Gaat Verloren Tussen Sessies",
+        "body": "Gedeelde notities worden automatisch opgeslagen terwijl u en uw ruimtepartner typen. Kom later terug in dezelfde ruimte en uw notities staan precies waar u ze achterliet."
+      },
       "plansLabel": "Prijzen",
       "plansTitle": "Eenvoudige Abonnementen, Transparante Prijzen",
       "plansSub": "Elk abonnement omvat volledige toegang tot ruimtes en gedeelde notities — abonnementen verschillen alleen in de maandelijkse sessieminutenlimiet.",
       "plans": [
-        {"name": "Basic", "price": "29", "period": "/ maand", "features": ["2 uur live sessies / maand", "Volledige toegang tot rooms en gedeelde notities", "Documentenkluis en zaakvolging - inbegrepen bij elk account"], "popular": false},
+        {"name": "Basic", "price": "29", "period": "/ maand", "features": ["2 uur live sessies / maand", "Volledige toegang tot rooms en gedeelde notities", "Onbeperkt opgeslagen sessienotities"], "popular": false},
         {"name": "Pro", "price": "79", "period": "/ maand", "features": ["10 uur live sessies / maand", "Prioriteitsondersteuning", "Alle Basic-functies"], "popular": true}
       ],
       "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
@@ -1032,12 +1046,12 @@
         { "q": "Hoe wordt het gebruik gemeten?", "a": "Uw abonnement omvat een maandelijkse limiet aan sessieminuten. De tijd in een ruimte telt vanaf het moment dat u een sessie bijwoont tot u deze verlaat." },
         { "q": "Wat gebeurt er als mijn maandelijkse minuten op zijn?", "a": "Uw ruimtes en gedeelde notities blijven volledig toegankelijk. Voor het starten van een nieuwe getimede sessie moet u bijvullen of wachten tot uw volgende factureringsperiode." },
         { "q": "Wat gebeurt er met extra minuten die ik niet gebruik?", "a": "Extra minuten verlopen nooit zolang uw abonnement actief blijft — ze worden overgedragen naar uw volgende factureringsperiode totdat u ze gebruikt." },
-        { "q": "Welke talen worden ondersteund?", "a": "Volledige interfaceondersteuning voor Engels, Zweeds, Duits, Frans, Spaans, Italiaans, Pools, Nederlands, Portugees, Urdu en Arabisch, met chatvertaling ook beschikbaar naar aanvullende talen." },
-        { "q": "Zijn mijn gegevens privé?", "a": "Ja — berichten en documenten worden verwerkt volgens ons AVG-conforme privacybeleid, dat precies aangeeft wat wij verzamelen en waarom." }
+        { "q": "Welke talen worden ondersteund?", "a": "Volledige interfaceondersteuning voor Engels, Zweeds, Duits, Frans, Spaans, Italiaans, Pools, Nederlands, Portugees, Urdu en Arabisch." },
+        { "q": "Zijn mijn gegevens privé?", "a": "Ja — uw sessiegegevens worden verwerkt volgens ons AVG-conforme privacybeleid, dat precies aangeeft wat wij verzamelen en waarom." }
       ],
       "emailCapture": { "title": "Nog Niet Klaar?", "body": "Ontvang een melding wanneer nieuwe talen worden gelanceerd.", "placeholder": "Uw e-mailadres", "consent": "Ik ga ermee akkoord benaderd te worden over Global Reach en accepteer het", "privacyLinkLabel": "Privacybeleid", "successText": "Bedankt - we e-mailen u zodra uw taal beschikbaar is.", "errorText": "Er is iets misgegaan. Probeer het opnieuw.", "button": "Meld Mij" },
       "stickyBar": { "text": "Klaar om te beginnen met samenwerken?", "cta": "Aan de slag" },
-      "cta": { "title": "Begin Vandaag met Samenwerken", "body": "Maak uw gratis account aan — geen creditcard nodig — en sluit u binnen enkele minuten aan bij uw eerste ruimte.", "trustLine": "Geen creditcard nodig · Altijd opzegbaar · AVG-conform" }
+      "cta": { "title": "Begin Vandaag met Samenwerken", "body": "Maak uw account aan — geen creditcard nodig — en sluit u binnen enkele minuten aan bij uw eerste ruimte.", "trustLine": "Geen creditcard nodig · Altijd opzegbaar · AVG-conform" }
     },
     "portal": {
       "hero": { "label": "Klanttoegang", "h1": "Ledenportaal", "body": "Beveiligde toegang voor geregistreerde klanten van Nordic Riser AB om hun traject, documenten en communicatie te beheren." },

@@ -117,7 +117,7 @@
         "title": "Co Zbudowaliśmy",
         "items": [
           { "type": "Produkt SaaS (Wewnętrzny)", "title": "NR-BOS", "featured": true, "featuredLabel": "Produkt Flagowy", "oneLiner": "Realizacja projektów, praca w terenie i raportowanie dla klientów — wszystko na jednej platformie, zbudowanej i licencjonowanej przez Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "Produkt SaaS (Wewnętrzny)", "title": "Global Reach", "oneLiner": "Pokoje współpracy na żywo ze wspólnymi tablicami i czatem tłumaczonym w czasie rzeczywistym między językami.", "link": "global-reach" },
+          { "type": "Produkt SaaS (Wewnętrzny)", "title": "Global Reach", "oneLiner": "Pokoje do nauki i pracy na żywo z obecnością w czasie rzeczywistym i wspólnymi notatkami sesji, rozliczane co minutę.", "link": "global-reach" },
           { "type": "Bezpieczny Portal Klienta", "title": "Portal Członków Nordic Riser", "oneLiner": "Uwierzytelniony portal do wymiany dokumentów, śledzenia spraw, bezpiecznej komunikacji i płatności.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
           { "type": "Wielojęzyczna Platforma Marketingowa", "title": "nordicriser.com", "oneLiner": "Jedenastojęzyczna strona produkcyjna ze wsparciem RTL, pełnym pokryciem meta i czystymi adresami URL dla każdego języka.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
           { "type": "Aplikacja Zdrowotna", "title": "Aplikacja Telemedyczna", "oneLiner": "Platforma telemedyczna, którą zbudowaliśmy od podstaw — konsultacje wideo w HD, rezerwacja wizyt i czat podczas rozmowy — gotowa do dostosowania dla dowolnej marki medycznej.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
@@ -129,12 +129,12 @@
       },
       "productSpotlight": {
         "label": "Nasz Produkt",
-        "title": "Global Reach — Współpraca Bez Bariery Językowej",
-        "body": "Pokoje na żywo ze wspólnymi tablicami i czatem tłumaczonym w czasie rzeczywistym. Zaprojektowane dla grup studyjnych, zespołów badawczych i pracy projektowej obejmującej wiele krajów.",
+        "title": "Global Reach — Pokoje na Żywo dla Zespołów Transgranicznych",
+        "body": "Pokoje do nauki i pracy na żywo z obecnością w czasie rzeczywistym i wspólnymi notatkami sesji. Zaprojektowane dla grup studyjnych, zespołów badawczych i pracy projektowej obejmującej wiele krajów.",
         "bullets": [
-          "Wspólne tablice do współpracy na żywo",
-          "Czat tłumaczony na żywo między językami",
-          "Pierwsze 100 wiadomości za darmo — bez karty"
+          "Wspólne notatki sesji do współpracy na żywo",
+          "Obecność w czasie rzeczywistym — zobacz, kto jest w pokoju",
+          "Plany od $29/miesiąc, rozliczane co minutę"
         ],
         "cta": "Rozpocznij"
       },
@@ -580,13 +580,13 @@
           "type": "Produkt SaaS (Wewnętrzny)",
           "title": "Global Reach",
           "challengeLabel": "Wyzwanie",
-          "challenge": "Osoby współpracujące ponad barierami językowymi tracą znaczenie z powodu opóźnień w tłumaczeniu i przełączania się między narzędziami.",
+          "challenge": "Zespoły pracujące ponad granicami potrzebują wspólnej przestrzeni, aby uczyć się lub pracować razem na żywo, bez rezerwowania rozmowy czy przełączania się między osobnymi narzędziami.",
           "buildLabel": "Realizacja",
-          "build": "Pokoje współpracy na żywo ze wspólnymi tablicami i czatem tłumaczonym w czasie rzeczywistym między językami, z bezpłatnym poziomem wejściowym.",
+          "build": "Otwarte pokoje do nauki i pracy z obecnością na żywo i wspólnymi notatkami sesji, rozliczane co minutę.",
           "stackLabel": "Technologia",
-          "stack": ["React", "Synchronizacja w czasie rzeczywistym", "API tłumaczeniowe", "Rozliczenia subskrypcyjne"],
+          "stack": ["React", "Firebase Realtime Database", "Rozliczenia subskrypcyjne"],
           "resultLabel": "Rezultat",
-          "result": "Działający produkt z darmowym poziomem 100 wiadomości, bez wymaganej karty.",
+          "result": "Działający produkt z płatnymi planami od $29/miesiąc.",
           "link": "global-reach",
           "linkLabel": "Zobacz Produkt"
         },
@@ -973,15 +973,17 @@
     "globalReach": {
       "hero": {
         "label": "Global Reach",
-        "h1": "Współpracuj ponad granicami — Gotowy, aby zacząć współpracować?",
-        "body": "Dołącz do pokoi live ze wspólnymi tablicami i czatem tłumaczonym w czasie rzeczywistym — każdy czyta i pisze w swoim własnym języku.",
+        "h1": "Współpracuj ponad granicami, na żywo",
+        "body": "Dołącz do pokoi do nauki i pracy na żywo z obecnością w czasie rzeczywistym i wspólnymi notatkami sesji — stworzone do współpracy ponad strefami czasowymi i językami.",
         "ctaPrimary": "Rozpocznij",
         "ctaSecondary": "Zobacz, jak to działa",
         "trustLine": "Bez karty płatniczej · Anuluj w każdej chwili · Zgodność z RODO",
         "earlyAccessBadge": "Teraz we wczesnym dostępie",
-        "mockCaption": "Przykładowy podgląd",
+        "mockCaption": "Wypróbuj — wpisz notatkę i zobacz, jak obecność się aktualizuje",
         "visual": {
-          "whiteboardLabel": "Wspólna tablica",
+          "notesLabel": "Wspólne Notatki Sesji",
+          "demoPlaceholder": "Wpisz tutaj przykładową notatkę…",
+          "demoAriaLabel": "Wypróbuj panel wspólnych notatek (tylko demo — nic nie jest zapisywane)",
           "participants": [
             { "lang": "SV", "name": "Elin" },
             { "lang": "UR", "name": "Ahmed" },
@@ -989,39 +991,51 @@
             { "lang": "AR", "name": "Layla" },
             { "lang": "DE", "name": "Jonas" },
             { "lang": "PL", "name": "Kasia" }
-          ],
-          "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
-          "chatTranslated": "Plik jest gotowy do sprawdzenia",
-          "chatTag": "Przetłumaczone z urdu · dotknij, aby zobaczyć oryginał"
+          ]
         }
       },
       "breadcrumb": "Global Reach",
       "howItWorksLabel": "Jak to działa",
       "howItWorksTitle": "Trzy kroki, aby zacząć współpracować",
-      "howItWorksSub": "Global Reach zamienia subskrypcję w bezpośrednią, wielojęzyczną współpracę — bez konieczności ustalania terminów.",
+      "howItWorksSub": "Global Reach zamienia subskrypcję we wspólny pokój na żywo — bez konieczności ustalania terminów.",
       "howItWorks": [
         { "title": "Utwórz lub dołącz do pokoju", "body": "Utwórz nowy pokój lub dołącz do jednego zbudowanego wokół Twojego tematu — przygotowań do egzaminu, grupy badawczej lub projektu transgranicznego." },
-        { "title": "Współpracuj na wspólnych tablicach", "body": "Szkicuj, dodawaj notatki i rozwiązujcie problemy razem na tablicy, którą każdy w pokoju widzi i może edytować na żywo." },
-        { "title": "Czatuj z tłumaczeniem na żywo", "body": "Pisz wiadomości w swoim języku — wszyscy pozostali czytają je od razu przetłumaczone na swój." }
+        { "title": "Twórzcie Razem Wspólne Notatki", "body": "Prowadźcie jeden panel wspólnych notatek, który każdy w pokoju może widzieć i edytować na żywo, dzięki czemu nic nie gubi się między różnymi narzędziami." },
+        { "title": "Śledź Czas Swojej Sesji", "body": "Zobacz dokładnie, ile minut z miesięcznego limitu Ci zostało, podczas gdy licznik pokoju działa." }
       ],
       "ctaBand1": {
         "title": "Gotowy na współpracę ponad granicami?",
-        "body": "Utwórz darmowe konto i uruchom swój pierwszy pokój w kilka minut.",
+        "body": "Utwórz swoje konto i uruchom swój pierwszy pokój w kilka minut.",
         "cta": "Rozpocznij"
+      },
+      "classroom": {
+        "label": "Naturalne Uzupełnienie",
+        "title": "Działa Razem z Google Classroom",
+        "intro": "Classroom jest stworzony do materiału kursowego. Global Reach jest stworzony do chwil, które muszą dziać się na żywo.",
+        "classroomHeading": "Google Classroom",
+        "classroomBody": "Zarządza zadaniami, opiniami i ocenami we własnym tempie. Sesja na żywo wciąż wymaga połączenia go z osobnym narzędziem wideo — sam Classroom nie ma wbudowanego czatu na żywo ani wspólnego panelu notatek.",
+        "grHeading": "Global Reach",
+        "grBody": "Pokój na żywo z obecnością w czasie rzeczywistym i wspólnymi notatkami, gotowy w chwili, gdy dwie osoby muszą zacząć razem pracować — nic do skonfigurowania, żadnego kursu do wcześniejszego utworzenia.",
+        "note": "Używaj Classroom do materiału kursowego. Używaj Global Reach do towarzyszącej mu sesji na żywo."
       },
       "useCasesLabel": "Dla kogo",
       "useCasesTitle": "Stworzone do współpracy ponad granicami",
       "useCases": [
-        { "title": "Przygotowanie do egzaminu", "body": "Polskojęzyczna studentka i urdujęzyczny kolega z zajęć uczą się razem wieczorem przed egzaminem — czat tłumaczy się natychmiast w obie strony." },
-        { "title": "Korepetycje", "body": "Anglojęzyczny korepetytor prowadzi niemieckojęzycznego ucznia przez zestaw zadań na wspólnej tablicy." },
-        { "title": "Grupy badawcze", "body": "Polsko- i arabskojęzyczni badacze porównują notatki w jednym pokoju, każdy czyta i pisze w swoim własnym języku." },
-        { "title": "Transgraniczne zespoły projektowe", "body": "Niderlandzki lider projektu i pakistański programista koordynują sprint, ze wspólną tablicą i czatem na żywo." }
+        { "title": "Przygotowanie do egzaminu", "body": "Dwoje kolegów z zajęć odpytuje się nawzajem wieczorem przed egzaminem, zapisując we wspólnych notatkach, co jeszcze powtórzyć." },
+        { "title": "Korepetycje", "body": "Korepetytor prowadzi ucznia na żywo przez zestaw zadań, ze wspólnymi notatkami, które oboje widzą i mogą edytować w trakcie pracy." },
+        { "title": "Grupy badawcze", "body": "Badacze z różnych krajów porównują razem notatki w jednym pokoju, wszyscy pracując z tego samego wspólnego panelu notatek." },
+        { "title": "Transgraniczne zespoły projektowe", "body": "Lider projektu i programista w różnych krajach wspólnie koordynują sprint w pokoju na żywo, śledząc notatki i czas w trakcie pracy." }
       ],
+      "notePersistence": {
+        "label": "Twoje Notatki",
+        "title": "Nic Nie Ginie Między Sesjami",
+        "body": "Wspólne notatki zapisują się automatycznie, gdy Ty i Twój partner z pokoju piszecie. Wróć do tego samego pokoju później — Twoje notatki będą dokładnie tam, gdzie je zostawiłeś."
+      },
       "plansLabel": "Cennik",
       "plansTitle": "Proste plany, przejrzyste ceny",
       "plansSub": "Każdy plan obejmuje pełny dostęp do pokoi i wspólnych notatek — plany różnią się jedynie miesięcznym limitem minut sesji.",
       "plans": [
-        {"name": "Basic", "price": "29", "period": "/ miesiąc", "features": ["2 godziny sesji live / miesiąc", "Pełny dostęp do pokoi i wspólnych notatek", "Repozytorium dokumentów i śledzenie spraw - dołączone do każdego konta"], "popular": false},
+        {"name": "Basic", "price": "29", "period": "/ miesiąc", "features": ["2 godziny sesji live / miesiąc", "Pełny dostęp do pokoi i wspólnych notatek", "Nieograniczone zapisane notatki sesji"], "popular": false},
         {"name": "Pro", "price": "79", "period": "/ miesiąc", "features": ["10 godzin sesji live / miesiąc", "Priorytetowe wsparcie", "Wszystkie funkcje planu Basic"], "popular": true}
       ],
       "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
@@ -1032,12 +1046,12 @@
         { "q": "Jak mierzone jest zużycie?", "a": "Twój plan obejmuje miesięczny limit minut sesji. Czas w pokoju liczy się od momentu dołączenia do sesji aż do jej opuszczenia." },
         { "q": "Co się dzieje, gdy wykorzystam swoje miesięczne minuty?", "a": "Twoje pokoje i wspólne notatki pozostają w pełni dostępne. Rozpoczęcie nowej, mierzonej czasem sesji wymaga doładowania lub poczekania do następnego cyklu rozliczeniowego." },
         { "q": "Co się dzieje z niewykorzystanymi dodatkowymi minutami?", "a": "Dodatkowe minuty nigdy nie wygasają, dopóki Twoja subskrypcja jest aktywna — przechodzą na kolejny cykl rozliczeniowy, dopóki ich nie wykorzystasz." },
-        { "q": "Jakie języki są obsługiwane?", "a": "Pełne wsparcie interfejsu w językach angielskim, szwedzkim, niemieckim, francuskim, hiszpańskim, włoskim, polskim, niderlandzkim, portugalskim, urdu i arabskim, z tłumaczeniem czatu dostępnym również w innych językach." },
-        { "q": "Czy moje dane są prywatne?", "a": "Tak — wiadomości i dokumenty są przetwarzane zgodnie z naszą Polityką prywatności, zgodną z RODO, która dokładnie określa, co gromadzimy i dlaczego." }
+        { "q": "Jakie języki są obsługiwane?", "a": "Pełne wsparcie interfejsu w językach angielskim, szwedzkim, niemieckim, francuskim, hiszpańskim, włoskim, polskim, niderlandzkim, portugalskim, urdu i arabskim." },
+        { "q": "Czy moje dane są prywatne?", "a": "Tak — Twoje dane sesji są przetwarzane zgodnie z naszą Polityką prywatności, zgodną z RODO, która dokładnie określa, co gromadzimy i dlaczego." }
       ],
       "emailCapture": { "title": "Jeszcze nie jesteś gotowy?", "body": "Otrzymaj powiadomienie, gdy pojawią się nowe języki.", "placeholder": "Twój adres e-mail", "consent": "Zgadzam się na kontakt w sprawie Global Reach i akceptuję", "privacyLinkLabel": "Politykę prywatności", "successText": "Dziękujemy - wyślemy e-mail, gdy Twój język będzie gotowy.", "errorText": "Coś poszło nie tak. Spróbuj ponownie.", "button": "Powiadom mnie" },
       "stickyBar": { "text": "Gotowy, aby zacząć współpracować?", "cta": "Rozpocznij" },
-      "cta": { "title": "Zacznij współpracować już dziś", "body": "Utwórz darmowe konto — bez karty płatniczej — i dołącz do swojego pierwszego pokoju w kilka minut.", "trustLine": "Bez karty płatniczej · Anuluj w każdej chwili · Zgodność z RODO" }
+      "cta": { "title": "Zacznij współpracować już dziś", "body": "Utwórz swoje konto — bez karty płatniczej — i dołącz do swojego pierwszego pokoju w kilka minut.", "trustLine": "Bez karty płatniczej · Anuluj w każdej chwili · Zgodność z RODO" }
     },
     "portal": {
       "hero": { "label": "Dostęp dla klientów", "h1": "Portal klienta", "body": "Bezpieczny dostęp dla zarejestrowanych klientów Nordic Riser AB do zarządzania zleceniem, dokumentami i komunikacją." },
