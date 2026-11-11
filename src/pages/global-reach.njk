@@ -17,6 +17,13 @@ bodyClass: "has-gr-sticky"
 {#- notesLabel is newer than most locales' translations — fall back to the
     English caption rather than rendering an empty label. -#}
 {%- set heroNotesLabel = p.hero.visual.notesLabel or locales.en.pages.globalReach.hero.visual.notesLabel -%}
+{#- demoPlaceholder/demoAriaLabel/notePersistence/classroom are new keys that
+    may not have a human translation in every locale yet — fall back to
+    English rather than rendering empty. -#}
+{%- set grDemoPlaceholder = p.hero.visual.demoPlaceholder or locales.en.pages.globalReach.hero.visual.demoPlaceholder -%}
+{%- set grDemoAriaLabel = p.hero.visual.demoAriaLabel or locales.en.pages.globalReach.hero.visual.demoAriaLabel -%}
+{%- set notePersistence = p.notePersistence or locales.en.pages.globalReach.notePersistence -%}
+{%- set classroom = p.classroom or locales.en.pages.globalReach.classroom -%}
 {% import "partials/icons.njk" as icons %}
 
 <section class="page-hero">
@@ -31,15 +38,26 @@ bodyClass: "has-gr-sticky"
     </div>
     <p class="gr-trust-line">{{ p.hero.trustLine }}</p>
 
-    <div class="gr-hero-visual" aria-hidden="true">
-      <div class="gr-lang-badges">
+    <div class="gr-hero-visual">
+      <div class="gr-lang-badges" aria-hidden="true" data-gr-presence>
         {%- for participant in p.hero.visual.participants %}
-        <span class="gr-lang-badge"><span class="gr-lang-badge-code">{{ participant.lang }}</span> {{ participant.name }}</span>
+        <span class="gr-lang-badge" data-gr-lang="{{ participant.lang }}">
+          <span class="gr-lang-badge-main"><span class="gr-lang-badge-code">{{ participant.lang }}</span> {{ participant.name }}</span>
+          <span class="gr-lang-badge-time" data-gr-time></span>
+        </span>
         {%- endfor %}
       </div>
       <div class="gr-hero-notes">
         {{ icons.icon('pencil') }}
-        <span>{{ heroNotesLabel }}</span>
+        <span class="gr-hero-notes-label">{{ heroNotesLabel }}</span>
+        <textarea
+          id="grHeroNoteDemo"
+          class="gr-hero-notes-input"
+          rows="2"
+          placeholder="{{ grDemoPlaceholder }}"
+          aria-label="{{ grDemoAriaLabel }}"
+          data-gr-demo-input
+        ></textarea>
       </div>
     </div>
     <p class="gr-mock-caption">{{ p.hero.mockCaption }}</p>
@@ -77,6 +95,27 @@ bodyClass: "has-gr-sticky"
   </div>
 </section>
 
+<section class="section">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ classroom.label }}</span>
+    <h2 class="section-title">{{ classroom.title }}</h2>
+    <p class="section-sub">{{ classroom.intro }}</p>
+    <div class="gr-compare-grid">
+      <div class="gr-compare-card">
+        {{ icons.icon('calendar') }}
+        <h3>{{ classroom.classroomHeading }}</h3>
+        <p>{{ classroom.classroomBody }}</p>
+      </div>
+      <div class="gr-compare-card gr-compare-card-accent">
+        {{ icons.icon('globe') }}
+        <h3>{{ classroom.grHeading }}</h3>
+        <p>{{ classroom.grBody }}</p>
+      </div>
+    </div>
+    <p class="gr-limit-note">{{ classroom.note }}</p>
+  </div>
+</section>
+
 <section class="section section-alt">
   <div class="section-inner" data-animate>
     <span class="section-label">{{ p.useCasesLabel }}</span>
@@ -88,6 +127,19 @@ bodyClass: "has-gr-sticky"
         <p>{{ uc.body }}</p>
       </div>
       {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner section-inner-narrow" data-animate>
+    <div class="gr-note-persistence">
+      {{ icons.icon('lock') }}
+      <div>
+        <span class="section-label">{{ notePersistence.label }}</span>
+        <h2 class="section-title">{{ notePersistence.title }}</h2>
+        <p class="section-sub">{{ notePersistence.body }}</p>
+      </div>
     </div>
   </div>
 </section>

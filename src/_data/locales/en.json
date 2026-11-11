@@ -1429,9 +1429,11 @@
         "ctaSecondary": "See How It Works",
         "trustLine": "No credit card required · Cancel anytime · GDPR-compliant",
         "earlyAccessBadge": "Now in Early Access",
-        "mockCaption": "Illustrative preview",
+        "mockCaption": "Try it — type a note and watch presence update",
         "visual": {
           "notesLabel": "Shared Session Notes",
+          "demoPlaceholder": "Try typing a note here…",
+          "demoAriaLabel": "Try the shared notes panel (demo only — not saved)",
           "participants": [
             { "lang": "SV", "name": "Elin" },
             { "lang": "UR", "name": "Ahmed" },
@@ -1456,6 +1458,16 @@
         "body": "Create your account and start your first room in minutes.",
         "cta": "Get Started"
       },
+      "classroom": {
+        "label": "A Natural Pairing",
+        "title": "Works Alongside Google Classroom",
+        "intro": "Classroom is built for coursework. Global Reach is built for the moments that need to happen live.",
+        "classroomHeading": "Google Classroom",
+        "classroomBody": "Manages assignments, feedback, and grading on your own schedule. Running a live session still means pairing it with a separate video tool — Classroom itself has no built-in live chat or shared notes panel.",
+        "grHeading": "Global Reach",
+        "grBody": "A live room with real-time presence and shared notes, ready the moment two people need to work together — nothing to configure, no course to set up first.",
+        "note": "Use Classroom for the coursework. Use Global Reach for the live session that goes with it."
+      },
       "useCasesLabel": "Who It's For",
       "useCasesTitle": "Built for Cross-Border Collaboration",
       "useCases": [
@@ -1464,11 +1476,16 @@
         { "title": "Research Groups", "body": "Researchers based in different countries compare notes together in one room, all working from the same shared notes panel." },
         { "title": "Cross-Border Project Teams", "body": "A project lead and a developer in different countries coordinate a sprint together in a live room, tracking notes and time as they work." }
       ],
+      "notePersistence": {
+        "label": "Your Notes",
+        "title": "Nothing Gets Lost Between Sessions",
+        "body": "Shared notes save automatically as you and your room partner type. Come back to the same room later and your notes are exactly where you left them."
+      },
       "plansLabel": "Pricing",
       "plansTitle": "Simple Plans, Straightforward Pricing",
       "plansSub": "Every plan includes full access to rooms and shared notes — plans differ in monthly session-minute allowance.",
       "plans": [
-        { "name": "Basic", "price": "29", "period": "/ month", "features": ["2 hours of live sessions / month", "Full access to rooms & shared notes", "Document vault and case tracking - included with every account"], "popular": false },
+        { "name": "Basic", "price": "29", "period": "/ month", "features": ["2 hours of live sessions / month", "Full access to rooms & shared notes", "Unlimited saved session notes"], "popular": false },
         { "name": "Pro", "price": "79", "period": "/ month", "features": ["10 hours of live sessions / month", "Priority support", "All Basic features"], "popular": true }
       ],
       "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",

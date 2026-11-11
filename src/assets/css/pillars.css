@@ -256,11 +256,30 @@
 
 .gr-hero-notes {
   background: rgba(255,255,255,0.06); border: 1px dashed rgba(255,255,255,0.28);
-  border-radius: 10px; padding: 1.5rem; margin-block-end: 1.25rem;
-  display: flex; align-items: center; justify-content: center; gap: 0.75rem;
+  border-radius: 10px; padding: 1.25rem 1.5rem; margin-block-end: 1.25rem;
+  display: flex; flex-direction: column; align-items: center; gap: 0.6rem;
   color: rgba(255,255,255,0.65); font-size: 0.8rem; letter-spacing: 0.03em;
 }
-.gr-hero-notes svg { width: 32px; height: 32px; }
+.gr-hero-notes svg { width: 28px; height: 28px; }
+.gr-hero-notes-label { text-transform: uppercase; letter-spacing: 0.05em; }
+
+.gr-hero-notes-input {
+  width: 100%; resize: none;
+  background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.22);
+  border-radius: 8px; padding: 0.75rem 0.9rem;
+  color: var(--white); font-family: var(--font-sans); font-size: 0.85rem; line-height: 1.6;
+}
+.gr-hero-notes-input::placeholder { color: rgba(255,255,255,0.45); }
+.gr-hero-notes-input:focus {
+  outline: none; border-color: var(--gold); background: rgba(255,255,255,0.12);
+}
+
+.gr-lang-badge { flex-direction: column; align-items: flex-start; gap: 0.1rem; }
+.gr-lang-badge-main { display: inline-flex; align-items: center; gap: 0.4rem; }
+.gr-lang-badge-time {
+  font-size: 0.65rem; font-weight: 500; color: rgba(255,255,255,0.55);
+  letter-spacing: 0.02em; font-variant-numeric: tabular-nums;
+}
 
 .gr-early-access-badge {
   display: inline-block; background: var(--gold); color: var(--navy);
@@ -278,6 +297,31 @@
   max-width: 640px; margin: 2rem auto 0;
   background: var(--sky); border-radius: 8px; padding: 1rem 1.5rem;
 }
+
+/* ── GLOBAL REACH — Classroom comparison ── */
+.gr-compare-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem; max-width: 880px; margin-inline: auto; margin-block-end: 1.5rem;
+}
+.gr-compare-card {
+  background: var(--white); border: 1px solid var(--border);
+  border-top: 3px solid transparent; border-radius: 10px; padding: 2rem;
+}
+.gr-compare-card svg { width: 26px; height: 26px; color: var(--navy); margin-block-end: 1rem; }
+.gr-compare-card h3 { font-size: 1.05rem; font-weight: 700; color: var(--navy); margin-block-end: 0.6rem; }
+.gr-compare-card p  { font-size: 0.9rem; color: var(--muted); line-height: 1.7; }
+.gr-compare-card-accent { border-top-color: var(--gold); }
+.gr-compare-card-accent svg { color: var(--gold); }
+
+/* ── GLOBAL REACH — note persistence blurb ── */
+.gr-note-persistence {
+  display: flex; align-items: flex-start; gap: 1.25rem;
+}
+.gr-note-persistence svg { width: 32px; height: 32px; color: var(--gold); flex-shrink: 0; margin-block-start: 0.3rem; }
+.gr-note-persistence .section-label,
+.gr-note-persistence .section-title,
+.gr-note-persistence .section-sub { text-align: start; margin-inline: 0; }
 
 /* ── GLOBAL REACH — FAQ ── */
 .gr-faq-list { max-width: 760px; margin-inline: auto; display: flex; flex-direction: column; gap: 1.25rem; }
@@ -474,6 +518,11 @@
   .gr-teaser .section-label, .gr-teaser .section-title, .gr-teaser .section-sub { text-align: center; }
   .gr-teaser-bullets { align-items: center; }
   .gr-teaser-bullets li { padding-inline-start: 1.2rem; text-align: start; }
+
+  .gr-note-persistence { flex-direction: column; align-items: center; text-align: center; }
+  .gr-note-persistence .section-label,
+  .gr-note-persistence .section-title,
+  .gr-note-persistence .section-sub { text-align: center; }
 }
 
 @media (max-width: 640px) {
