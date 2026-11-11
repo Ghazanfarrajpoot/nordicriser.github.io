@@ -117,7 +117,7 @@
         "title": "Was wir gebaut haben",
         "items": [
           { "type": "SaaS-Produkt (intern entwickelt)", "title": "NR-BOS", "featured": true, "featuredLabel": "Vorzeigeprodukt", "oneLiner": "Projektabwicklung, Feldeinsätze und Kundenberichte — alles auf einer Plattform, entwickelt und lizenziert von Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS-Produkt (intern entwickelt)", "title": "Global Reach", "oneLiner": "Live-Kollaborationsräume mit gemeinsamen Whiteboards und Chat, der in Echtzeit zwischen Sprachen übersetzt wird.", "link": "global-reach" },
+          { "type": "SaaS-Produkt (intern entwickelt)", "title": "Global Reach", "oneLiner": "Live-Lern- und Arbeitsräume mit Echtzeit-Präsenzanzeige und gemeinsamen Sitzungsnotizen, minutengenau abgerechnet.", "link": "global-reach" },
           { "type": "Sicheres Kundenportal", "title": "Nordic Riser Mitgliederportal", "oneLiner": "Ein authentifiziertes Portal für Dokumentenaustausch, Fallverfolgung, sichere Nachrichten und Zahlungen.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
           { "type": "Mehrsprachige Marketingplattform", "title": "nordicriser.com", "oneLiner": "Eine elfsprachige Produktionswebsite mit RTL-Unterstützung, vollständiger Meta-Abdeckung und sauberen sprachspezifischen URLs.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
           { "type": "Gesundheits-App", "title": "Telemedizin-App", "oneLiner": "Eine Telemedizin-Plattform, die wir von Grund auf gebaut haben — HD-Videokonsultationen, Terminbuchung und Chat während des Anrufs — bereit zur Anpassung für jede Gesundheitsmarke.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
@@ -129,12 +129,12 @@
       },
       "productSpotlight": {
         "label": "Unser Produkt",
-        "title": "Global Reach — Zusammenarbeit ohne Sprachbarriere",
-        "body": "Live-Räume mit gemeinsamen Whiteboards und Chat, der in Echtzeit übersetzt wird. Entwickelt für Lerngruppen, Forschungsteams und länderübergreifende Projektarbeit.",
+        "title": "Global Reach — Live-Räume für länderübergreifende Teams",
+        "body": "Live-Lern- und Arbeitsräume mit Echtzeit-Präsenzanzeige und gemeinsamen Sitzungsnotizen. Entwickelt für Lerngruppen, Forschungsteams und länderübergreifende Projektarbeit.",
         "bullets": [
-          "Gemeinsame Whiteboards für die Live-Zusammenarbeit",
-          "Chat, der live zwischen Sprachen übersetzt wird",
-          "Die ersten 100 Nachrichten kostenlos — keine Kreditkarte nötig"
+          "Gemeinsame Sitzungsnotizen für die Live-Zusammenarbeit",
+          "Echtzeit-Präsenzanzeige — sehen Sie, wer im Raum ist",
+          "Pläne ab 29 $/Monat, minutengenau abgerechnet"
         ],
         "cta": "Jetzt starten"
       },
@@ -580,13 +580,13 @@
           "type": "SaaS-Produkt (intern entwickelt)",
           "title": "Global Reach",
           "challengeLabel": "Herausforderung",
-          "challenge": "Menschen, die sprachübergreifend zusammenarbeiten, verlieren Bedeutung durch Übersetzungsverzögerungen und den Wechsel zwischen Tools.",
+          "challenge": "Länderübergreifend arbeitende Teams brauchen einen gemeinsamen Raum, um live zu lernen oder zu arbeiten — ohne Anruf zu vereinbaren oder zwischen separaten Tools zu wechseln.",
           "buildLabel": "Umsetzung",
-          "build": "Live-Kollaborationsräume mit gemeinsamen Whiteboards und Chat, der in Echtzeit zwischen Sprachen übersetzt wird, mit einer kostenlosen Einstiegsstufe.",
+          "build": "Offene Lern- und Arbeitsräume mit Live-Präsenzanzeige und gemeinsamen Sitzungsnotizen, minutengenau abgerechnet.",
           "stackLabel": "Technologie",
-          "stack": ["React", "Echtzeit-Synchronisierung", "Übersetzungs-API", "Abonnement-Abrechnung"],
+          "stack": ["React", "Firebase Realtime Database", "Abonnement-Abrechnung"],
           "resultLabel": "Ergebnis",
-          "result": "Live-Produkt mit einer kostenlosen Stufe bei 100 Nachrichten, keine Kreditkarte nötig.",
+          "result": "Live-Produkt mit kostenpflichtigen Plänen ab 29 $/Monat.",
           "link": "global-reach",
           "linkLabel": "Zum Produkt"
         },
@@ -973,15 +973,17 @@
     "globalReach": {
       "hero": {
         "label": "Global Reach",
-        "h1": "Grenzüberschreitend zusammenarbeiten — Bereit, mit der Zusammenarbeit zu beginnen?",
-        "body": "Nehmen Sie an Live-Räumen mit gemeinsamen Whiteboards und Chat teil, der in Echtzeit übersetzt wird — jeder liest und schreibt in seiner eigenen Sprache.",
+        "h1": "Grenzüberschreitend zusammenarbeiten, live",
+        "body": "Nehmen Sie an Live-Lern- und Arbeitsräumen mit Echtzeit-Präsenzanzeige und gemeinsamen Sitzungsnotizen teil — für die Zusammenarbeit über Zeitzonen und Sprachen hinweg.",
         "ctaPrimary": "Jetzt starten",
         "ctaSecondary": "So funktioniert es",
         "trustLine": "Keine Kreditkarte nötig · Jederzeit kündbar · DSGVO-konform",
         "earlyAccessBadge": "Jetzt im Early Access",
-        "mockCaption": "Illustrative Vorschau",
+        "mockCaption": "Jetzt ausprobieren — Notiz eingeben und Präsenz live sehen",
         "visual": {
-          "whiteboardLabel": "Gemeinsames Whiteboard",
+          "notesLabel": "Gemeinsame Sitzungsnotizen",
+          "demoPlaceholder": "Hier eine Notiz eingeben…",
+          "demoAriaLabel": "Das gemeinsame Notizfeld ausprobieren (nur Demo — wird nicht gespeichert)",
           "participants": [
             { "lang": "SV", "name": "Elin" },
             { "lang": "UR", "name": "Ahmed" },
@@ -989,39 +991,51 @@
             { "lang": "AR", "name": "Layla" },
             { "lang": "DE", "name": "Jonas" },
             { "lang": "PL", "name": "Kasia" }
-          ],
-          "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
-          "chatTranslated": "Die Datei ist zur Prüfung bereit",
-          "chatTag": "Aus dem Urdu übersetzt · antippen für Original"
+          ]
         }
       },
       "breadcrumb": "Global Reach",
       "howItWorksLabel": "So funktioniert es",
       "howItWorksTitle": "Drei Schritte zur Zusammenarbeit",
-      "howItWorksSub": "Global Reach verwandelt ein Abonnement in direkte, sprachübergreifende Zusammenarbeit — ganz ohne Terminabstimmung.",
+      "howItWorksSub": "Global Reach verwandelt ein Abonnement in einen live gemeinsamen Raum — ganz ohne Terminabstimmung.",
       "howItWorks": [
         { "title": "Raum erstellen oder beitreten", "body": "Starten Sie einen neuen Raum oder treten Sie einem bei, der rund um Ihr Thema aufgebaut ist — Prüfungsvorbereitung, eine Forschungsgruppe oder ein grenzüberschreitendes Projekt." },
-        { "title": "Auf gemeinsamen Whiteboards zusammenarbeiten", "body": "Skizzieren, kommentieren und lösen Sie Aufgaben gemeinsam auf einem Whiteboard, das jeder im Raum live sehen und bearbeiten kann." },
-        { "title": "Mit Live-Übersetzung chatten", "body": "Schreiben Sie Nachrichten in Ihrer eigenen Sprache — alle anderen lesen sie sofort übersetzt in ihrer eigenen." }
+        { "title": "Gemeinsam Notizen festhalten", "body": "Führen Sie ein gemeinsames Notizfeld, das jeder im Raum live sehen und bearbeiten kann — so geht zwischen verschiedenen Tools nichts verloren." },
+        { "title": "Sitzungszeit im Blick behalten", "body": "Sehen Sie genau, wie viel von Ihrem monatlichen Sitzungsminutenkontingent noch übrig ist, während die Raum-Uhr läuft." }
       ],
       "ctaBand1": {
         "title": "Bereit für grenzüberschreitende Zusammenarbeit?",
-        "body": "Erstellen Sie Ihr kostenloses Konto und starten Sie Ihren ersten Raum in wenigen Minuten.",
+        "body": "Erstellen Sie Ihr Konto und starten Sie Ihren ersten Raum in wenigen Minuten.",
         "cta": "Jetzt starten"
+      },
+      "classroom": {
+        "label": "Eine natürliche Ergänzung",
+        "title": "Funktioniert zusammen mit Google Classroom",
+        "intro": "Classroom ist für den Unterrichtsstoff gemacht. Global Reach ist für die Momente gemacht, die live passieren müssen.",
+        "classroomHeading": "Google Classroom",
+        "classroomBody": "Verwaltet Aufgaben, Feedback und Benotung in Ihrem eigenen Tempo. Für eine Live-Sitzung braucht es weiterhin ein separates Video-Tool — Classroom selbst hat keinen integrierten Live-Chat und kein gemeinsames Notizfeld.",
+        "grHeading": "Global Reach",
+        "grBody": "Ein Live-Raum mit Echtzeit-Präsenzanzeige und gemeinsamen Notizen, bereit in dem Moment, in dem zwei Menschen zusammenarbeiten müssen — nichts einzurichten, kein Kurs vorab anzulegen.",
+        "note": "Nutzen Sie Classroom für den Unterrichtsstoff. Nutzen Sie Global Reach für die Live-Sitzung dazu."
       },
       "useCasesLabel": "Für wen es gedacht ist",
       "useCasesTitle": "Konzipiert für grenzüberschreitende Zusammenarbeit",
       "useCases": [
-        { "title": "Prüfungsvorbereitung", "body": "Eine schwedischsprachige Studentin und ein urdusprachiger Kommilitone lernen am Abend vor der Prüfung gemeinsam — der Chat wird sofort in beide Richtungen übersetzt." },
-        { "title": "Nachhilfe", "body": "Ein englischsprachiger Tutor begleitet einen deutschsprachigen Studenten am gemeinsamen Whiteboard durch eine Aufgabenreihe." },
-        { "title": "Forschungsgruppen", "body": "Polnisch- und arabischsprachige Forschende vergleichen Notizen in einem Raum, jeder liest und schreibt in seiner eigenen Sprache." },
-        { "title": "Grenzüberschreitende Projektteams", "body": "Ein niederländischer Projektleiter und ein pakistanischer Entwickler koordinieren einen Sprint, Whiteboard und Chat beide live geteilt." }
+        { "title": "Prüfungsvorbereitung", "body": "Zwei Kommilitonen fragen sich am Abend vor der Prüfung gegenseitig ab und halten in den gemeinsamen Notizen fest, was als Nächstes wiederholt werden soll." },
+        { "title": "Nachhilfe", "body": "Eine Nachhilfelehrkraft führt eine Studentin oder einen Studenten live durch eine Aufgabenreihe, mit gemeinsamen Notizen, die beide sehen und bearbeiten können." },
+        { "title": "Forschungsgruppen", "body": "Forschende in verschiedenen Ländern vergleichen Notizen gemeinsam in einem Raum und arbeiten dabei alle im selben gemeinsamen Notizfeld." },
+        { "title": "Grenzüberschreitende Projektteams", "body": "Eine Projektleitung und ein Entwickler in unterschiedlichen Ländern stimmen gemeinsam einen Sprint ab und behalten dabei Notizen und Zeit im Blick." }
       ],
+      "notePersistence": {
+        "label": "Ihre Notizen",
+        "title": "Zwischen den Sitzungen geht nichts verloren",
+        "body": "Gemeinsame Notizen werden automatisch gespeichert, während Sie und Ihr Raumpartner schreiben. Kommen Sie später in denselben Raum zurück — Ihre Notizen sind genau dort, wo Sie sie verlassen haben."
+      },
       "plansLabel": "Preise",
       "plansTitle": "Einfache Pläne, transparente Preise",
       "plansSub": "Jeder Plan umfasst vollen Zugriff auf Räume und gemeinsame Notizen — die Pläne unterscheiden sich nur im monatlichen Sitzungsminutenkontingent.",
       "plans": [
-        {"name": "Basic", "price": "29", "period": "/ Monat", "features": ["2 Stunden Live-Sitzungen / Monat", "Voller Zugriff auf Räume und gemeinsame Notizen", "Dokumententresor und Fallverfolgung - in jedem Konto enthalten"], "popular": false},
+        {"name": "Basic", "price": "29", "period": "/ Monat", "features": ["2 Stunden Live-Sitzungen / Monat", "Voller Zugriff auf Räume und gemeinsame Notizen", "Unbegrenzt gespeicherte Sitzungsnotizen"], "popular": false},
         {"name": "Pro", "price": "79", "period": "/ Monat", "features": ["10 Stunden Live-Sitzungen / Monat", "Prioritäts-Support", "Alle Basic-Funktionen"], "popular": true}
       ],
       "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
@@ -1032,12 +1046,12 @@
         { "q": "Wie wird die Nutzung gemessen?", "a": "Ihr Plan umfasst ein monatliches Kontingent an Sitzungsminuten. Die Zeit in einem Raum zählt ab dem Beitritt zu einer Sitzung bis zum Verlassen." },
         { "q": "Was passiert, wenn meine monatlichen Minuten aufgebraucht sind?", "a": "Ihre Räume und gemeinsamen Notizen bleiben vollständig zugänglich. Um eine neue zeitlich begrenzte Sitzung zu starten, müssen Sie aufladen oder auf Ihren nächsten Abrechnungszeitraum warten." },
         { "q": "Was passiert mit nicht genutzten zusätzlichen Minuten?", "a": "Zusätzliche Minuten verfallen nicht, solange Ihr Abonnement aktiv bleibt — sie werden in den nächsten Abrechnungszeitraum übertragen, bis Sie sie nutzen." },
-        { "q": "Welche Sprachen werden unterstützt?", "a": "Volle Oberflächenunterstützung für Englisch, Schwedisch, Deutsch, Französisch, Spanisch, Italienisch, Polnisch, Niederländisch, Portugiesisch, Urdu und Arabisch, mit Chatübersetzung auch in weitere Sprachen." },
-        { "q": "Sind meine Daten privat?", "a": "Ja — Nachrichten und Dokumente werden gemäß unserer DSGVO-konformen Datenschutzerklärung behandelt, die genau festlegt, was wir erheben und warum." }
+        { "q": "Welche Sprachen werden unterstützt?", "a": "Volle Oberflächenunterstützung für Englisch, Schwedisch, Deutsch, Französisch, Spanisch, Italienisch, Polnisch, Niederländisch, Portugiesisch, Urdu und Arabisch." },
+        { "q": "Sind meine Daten privat?", "a": "Ja — Ihre Sitzungsdaten werden gemäß unserer DSGVO-konformen Datenschutzerklärung behandelt, die genau festlegt, was wir erheben und warum." }
       ],
       "emailCapture": { "title": "Noch nicht bereit?", "body": "Lassen Sie sich benachrichtigen, wenn neue Sprachen verfügbar sind.", "placeholder": "Ihre E-Mail-Adresse", "consent": "Ich stimme zu, bezüglich Global Reach kontaktiert zu werden, und akzeptiere die", "privacyLinkLabel": "Datenschutzerklärung", "successText": "Danke – wir benachrichtigen Sie per E-Mail, sobald Ihre Sprache verfügbar ist.", "errorText": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.", "button": "Benachrichtigen" },
       "stickyBar": { "text": "Bereit, mit der Zusammenarbeit zu beginnen?", "cta": "Jetzt starten" },
-      "cta": { "title": "Beginnen Sie noch heute", "body": "Erstellen Sie Ihr kostenloses Konto — keine Kreditkarte nötig — und treten Sie in wenigen Minuten Ihrem ersten Raum bei.", "trustLine": "Keine Kreditkarte nötig · Jederzeit kündbar · DSGVO-konform" }
+      "cta": { "title": "Beginnen Sie noch heute", "body": "Erstellen Sie Ihr Konto — keine Kreditkarte nötig — und treten Sie in wenigen Minuten Ihrem ersten Raum bei.", "trustLine": "Keine Kreditkarte nötig · Jederzeit kündbar · DSGVO-konform" }
     },
     "portal": {
       "hero": { "label": "Kundenzugang", "h1": "Mitgliederportal", "body": "Sicherer Zugang für registrierte Mandantinnen und Mandanten von Nordic Riser AB zur Verwaltung ihres Mandats, ihrer Dokumente und ihrer Kommunikation." },

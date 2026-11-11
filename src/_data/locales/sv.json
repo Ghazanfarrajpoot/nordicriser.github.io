@@ -362,7 +362,7 @@
         "title": "Vad vi har byggt",
         "items": [
           { "type": "SaaS-produkt (internt byggd)", "title": "NR-BOS", "featured": true, "featuredLabel": "Flaggskeppsprodukt", "oneLiner": "Projektleverans, fältarbete och kundrapportering — allt på en plattform, byggd och licensierad av Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS-produkt (internt byggd)", "title": "Global Reach", "oneLiner": "Direktsända samarbetsrum med delade whiteboards och chatt som översätts i realtid mellan språk.", "link": "global-reach" },
+          { "type": "SaaS-produkt (internt byggd)", "title": "Global Reach", "oneLiner": "Direktsända studie- och arbetsrum med realtidsnärvaro och delade sessionsanteckningar, debiterat per minut.", "link": "global-reach" },
           { "type": "Säker kundportal", "title": "Nordic Riser Medlemsportal", "oneLiner": "En autentiserad portal för dokumentutbyte, ärendespårning, säker meddelandehantering och betalningar.", "link": "work", "linkLabel": "Se i vårt arbete →" },
           { "type": "Flerspråkig marknadsföringsplattform", "title": "nordicriser.com", "oneLiner": "En elvaspråkig produktionswebbplats med RTL-stöd, fullständig metatäckning och rena URL:er per språk.", "link": "work", "linkLabel": "Se i vårt arbete →" },
           { "type": "Vårdapp", "title": "Telemedicinapp", "oneLiner": "En telemedicinplattform vi byggt från grunden — HD-videokonsultationer, tidsbokning och chatt under samtal — redo att anpassas för valfritt vårdvarumärke.", "link": "work", "linkLabel": "Se i vårt arbete →" },
@@ -374,12 +374,12 @@
       },
       "productSpotlight": {
         "label": "Vår produkt",
-        "title": "Global Reach — samarbete utan språkbarriär",
-        "body": "Direktsända rum med delade whiteboards och chatt som översätts i realtid. Byggt för studiegrupper, forskningsteam och projektarbete som spänner över länder.",
+        "title": "Global Reach — direktsända rum för gränsöverskridande team",
+        "body": "Direktsända studie- och arbetsrum med realtidsnärvaro och delade sessionsanteckningar. Byggt för studiegrupper, forskningsteam och projektarbete som spänner över länder.",
         "bullets": [
-          "Delade whiteboards för direktsamarbete",
-          "Chatt som översätts live mellan språk",
-          "De första 100 meddelandena gratis — inget kort krävs"
+          "Delade sessionsanteckningar för direktsamarbete",
+          "Närvaro i realtid — se vem som är i rummet",
+          "Planer från $29/månad, debiterat per minut"
         ],
         "cta": "Kom igång"
       },
@@ -1138,7 +1138,7 @@
             "Denna webbplats tillhandahåller information om Nordic Riser AB och vårt utbud av konsult-, teknik- och produkttjänster.",
             "Medlemsportalen är ett inloggningsbaserat kundområde för dokumentutbyte, ärendeuppföljning, säker meddelandehantering och betalningsuppgifter kopplat till våra konsultuppdrag.",
             "NR-BOS är mjukvara för projektleverans, fältarbete och kundrapportering, licensierad till företag för eget internt bruk och kundvänd användning.",
-            "Global Reach är mjukvara för samarbete i realtid med delade whiteboards och realtidsöversatt chatt, licensierad på abonnemangsbasis."
+            "Global Reach är mjukvara för direkt samarbete i delade studie- och arbetsrum, debiterad per sessionsminut och licensierad på abonnemangsbasis."
           ]
         },
         "s3": {
@@ -1587,13 +1587,13 @@
           "type": "SaaS-produkt (internt byggd)",
           "title": "Global Reach",
           "challengeLabel": "Utmaning",
-          "challenge": "Personer som samarbetar över språk förlorar innebörd i översättningsfördröjningar och genom att växla mellan verktyg.",
+          "challenge": "Team som arbetar över gränser behöver ett delat utrymme för att studera eller arbeta tillsammans live, utan att boka ett samtal eller växla mellan separata verktyg.",
           "buildLabel": "Bygge",
-          "build": "Direktsända samarbetsrum med delade whiteboards och chatt som översätts i realtid mellan språk, med en kostnadsfri instegsnivå.",
+          "build": "Öppna studie- och arbetsrum med live närvaro och delade sessionsanteckningar, debiterat per minut.",
           "stackLabel": "Teknikstack",
-          "stack": ["React", "Realtidssynkronisering", "Översättnings-API", "Prenumerationsfakturering"],
+          "stack": ["React", "Firebase Realtime Database", "Prenumerationsfakturering"],
           "resultLabel": "Resultat",
-          "result": "Live produkt med en gratisnivå på 100 meddelanden, inget kort krävs.",
+          "result": "Live produkt med betalda planer från $29/månad.",
           "link": "global-reach",
           "linkLabel": "Se produkten"
         },
@@ -1892,15 +1892,17 @@
     "globalReach": {
       "hero": {
         "label": "Global Reach",
-        "h1": "Samarbeta över gränser — dina första 100 meddelanden är gratis",
-        "body": "Gå med i direktsända rum med delade whiteboards och chatt som översätts i realtid — alla läser och skriver på sitt eget språk.",
+        "h1": "Samarbeta över gränser, live",
+        "body": "Gå med i direktsända studie- och arbetsrum med närvaro i realtid och delade sessionsanteckningar — byggt för samarbete över tidszoner och språk.",
         "ctaPrimary": "Kom igång",
         "ctaSecondary": "Se hur det fungerar",
         "trustLine": "Inget kort krävs · Avsluta när du vill · GDPR-kompatibelt",
         "earlyAccessBadge": "Nu i tidig tillgång",
-        "mockCaption": "Illustrativ förhandsvisning",
+        "mockCaption": "Testa det — skriv en anteckning och se närvaron uppdateras",
         "visual": {
-          "whiteboardLabel": "Delad whiteboard",
+          "notesLabel": "Delade sessionsanteckningar",
+          "demoPlaceholder": "Testa att skriva en anteckning här…",
+          "demoAriaLabel": "Testa den delade anteckningspanelen (endast demo — sparas inte)",
           "participants": [
             { "lang": "SV", "name": "Elin" },
             { "lang": "UR", "name": "Ahmed" },
@@ -1908,39 +1910,51 @@
             { "lang": "AR", "name": "Layla" },
             { "lang": "DE", "name": "Jonas" },
             { "lang": "PL", "name": "Kasia" }
-          ],
-          "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
-          "chatTranslated": "Filen är klar för granskning",
-          "chatTag": "Översatt från urdu · tryck för original"
+          ]
         }
       },
       "breadcrumb": "Global Reach",
       "howItWorksLabel": "Så fungerar det",
       "howItWorksTitle": "Tre steg för att börja samarbeta",
-      "howItWorksSub": "Global Reach gör ett abonnemang till direkt, gränsöverskridande samarbete — utan fram- och tillbaka-schemaläggning.",
+      "howItWorksSub": "Global Reach gör ett abonnemang till ett direktsänt delat rum — utan fram- och tillbaka-schemaläggning.",
       "howItWorks": [
         { "title": "Skapa eller gå med i ett rum", "body": "Starta ett nytt rum eller gå med i ett byggt kring ditt ämne — tentaplugg, en forskningsgrupp eller ett gränsöverskridande projekt." },
-        { "title": "Samarbeta på delade whiteboards", "body": "Skissa, kommentera och lös problem tillsammans på en whiteboard som alla i rummet kan se och redigera live." },
-        { "title": "Chatta med direktöversättning", "body": "Skriv meddelanden på ditt eget språk — alla andra läser dem på sitt, översatta direkt." }
+        { "title": "Föra delade anteckningar tillsammans", "body": "Ha en gemensam anteckningspanel som alla i rummet kan se och redigera live, så att inget går förlorat mellan olika verktyg." },
+        { "title": "Håll koll på din sessionstid", "body": "Se exakt hur många minuter du har kvar av din månatliga tilldelning medan rummets klocka räknar ner." }
       ],
       "ctaBand1": {
         "title": "Redo att samarbeta över gränser?",
-        "body": "Skapa ditt gratiskonto och starta ditt första rum på några minuter.",
+        "body": "Skapa ditt konto och starta ditt första rum på några minuter.",
         "cta": "Kom igång"
+      },
+      "classroom": {
+        "label": "En naturlig kombination",
+        "title": "Fungerar tillsammans med Google Classroom",
+        "intro": "Classroom är byggt för kursinnehåll. Global Reach är byggt för stunderna som måste ske live.",
+        "classroomHeading": "Google Classroom",
+        "classroomBody": "Hanterar uppgifter, feedback och betygssättning i din egen takt. En live-session kräver fortfarande att man kopplar ihop det med ett separat videoverktyg — Classroom i sig har ingen inbyggd livechatt eller delad anteckningspanel.",
+        "grHeading": "Global Reach",
+        "grBody": "Ett direktsänt rum med närvaro i realtid och delade anteckningar, redo i stunden när två personer behöver arbeta tillsammans — inget att konfigurera, ingen kurs att skapa först.",
+        "note": "Använd Classroom för kursinnehållet. Använd Global Reach för den live-session som hör till."
       },
       "useCasesLabel": "Vem det är till för",
       "useCasesTitle": "Byggt för gränsöverskridande samarbete",
       "useCases": [
-        { "title": "Tentaplugg", "body": "En svensktalande student och en urdutalande klasskompis pluggar tillsammans kvällen före tentan — chatten översätts direkt, åt båda hållen." },
-        { "title": "Handledning", "body": "En engelsktalande handledare går igenom en uppgift med en tysktalande student på den delade whiteboarden." },
-        { "title": "Forskningsgrupper", "body": "Polsk- och arabisktalande forskare jämför anteckningar i samma rum, var och en läser och skriver på sitt eget språk." },
-        { "title": "Gränsöverskridande projektteam", "body": "En nederländsk projektledare och en pakistansk utvecklare samordnar en sprint, med whiteboard och chatt delade live." }
+        { "title": "Tentaplugg", "body": "Två klasskompisar hör varandra på läxan kvällen före tentan och antecknar i de delade anteckningarna vad som ska repeteras härnäst." },
+        { "title": "Handledning", "body": "En handledare går igenom en uppgift med en student live, med delade anteckningar som båda kan se och redigera medan de arbetar." },
+        { "title": "Forskningsgrupper", "body": "Forskare i olika länder jämför anteckningar tillsammans i ett rum, och arbetar alla från samma delade anteckningspanel." },
+        { "title": "Gränsöverskridande projektteam", "body": "En projektledare och en utvecklare i olika länder samordnar en sprint tillsammans i ett direktsänt rum, och håller koll på anteckningar och tid medan de arbetar." }
       ],
+      "notePersistence": {
+        "label": "Dina anteckningar",
+        "title": "Inget går förlorat mellan sessioner",
+        "body": "Delade anteckningar sparas automatiskt medan du och din rumspartner skriver. Kom tillbaka till samma rum senare och dina anteckningar finns exakt där du lämnade dem."
+      },
       "plansLabel": "Priser",
       "plansTitle": "Enkla planer, tydliga priser",
       "plansSub": "Alla abonnemang inkluderar full tillgång till rum och delade anteckningar — abonnemangen skiljer sig bara i månatlig tilldelning av sessionsminuter.",
       "plans": [
-        {"name": "Basic", "price": "29", "period": "/ månad", "features": ["2 timmars direktsända sessioner / månad", "Full tillgång till rum och delade anteckningar", "Dokumentvalv och ärendespårning - ingår i alla konton"], "popular": false},
+        {"name": "Basic", "price": "29", "period": "/ månad", "features": ["2 timmars direktsända sessioner / månad", "Full tillgång till rum och delade anteckningar", "Obegränsat sparade sessionsanteckningar"], "popular": false},
         {"name": "Pro", "price": "79", "period": "/ månad", "features": ["10 timmars direktsända sessioner / månad", "Prioriterad support", "Alla funktioner i Basic"], "popular": true}
       ],
       "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
@@ -1951,12 +1965,12 @@
         { "q": "Hur mäts användningen?", "a": "Ditt abonnemang inkluderar en månatlig tilldelning av sessionsminuter. Tiden i ett rum räknas från att du går med i en session tills du lämnar den." },
         { "q": "Vad händer när jag har använt mina månatliga minuter?", "a": "Dina rum och delade anteckningar förblir fullt tillgängliga. Att starta en ny tidsbestämd session kräver påfyllning eller att du väntar till nästa faktureringsperiod." },
         { "q": "Vad händer med extra minuter jag inte använder?", "a": "Extra minuter upphör aldrig att gälla så länge din prenumeration förblir aktiv — de förs över till nästa faktureringsperiod tills du använder dem." },
-        { "q": "Vilka språk stöds?", "a": "Fullt gränssnittsstöd för engelska, svenska, tyska, franska, spanska, italienska, polska, nederländska, portugisiska, urdu och arabiska, med chattöversättning tillgänglig till fler språk." },
-        { "q": "Är mina uppgifter privata?", "a": "Ja — meddelanden och dokument hanteras enligt vår GDPR-kompatibla integritetspolicy, som beskriver exakt vad vi samlar in och varför." }
+        { "q": "Vilka språk stöds?", "a": "Fullt gränssnittsstöd för engelska, svenska, tyska, franska, spanska, italienska, polska, nederländska, portugisiska, urdu och arabiska." },
+        { "q": "Är mina uppgifter privata?", "a": "Ja — dina sessionsuppgifter hanteras enligt vår GDPR-kompatibla integritetspolicy, som beskriver exakt vad vi samlar in och varför." }
       ],
       "emailCapture": { "title": "Inte redo än?", "body": "Få ett meddelande när nya språk lanseras.", "placeholder": "Din e-postadress", "consent": "Jag godkänner att bli kontaktad om Global Reach och accepterar", "privacyLinkLabel": "integritetspolicyn", "successText": "Tack - vi mejlar dig när ditt språk är redo.", "errorText": "Något gick fel. Försök igen.", "button": "Meddela mig" },
       "stickyBar": { "text": "Redo att börja samarbeta?", "cta": "Kom igång" },
-      "cta": { "title": "Börja samarbeta idag", "body": "Skapa ditt gratiskonto — inget kort krävs — och gå med i ditt första rum på några minuter.", "trustLine": "Inget kort krävs · Avsluta när du vill · GDPR-kompatibelt" }
+      "cta": { "title": "Börja samarbeta idag", "body": "Skapa ditt konto — inget kort krävs — och gå med i ditt första rum på några minuter.", "trustLine": "Inget kort krävs · Avsluta när du vill · GDPR-kompatibelt" }
     },
     "portal": {
       "hero": { "label": "Kundåtkomst", "h1": "Medlemsportal", "body": "Säker åtkomst för registrerade kunder hos Nordic Riser AB för att hantera sitt uppdrag, sina dokument och sin kommunikation." },

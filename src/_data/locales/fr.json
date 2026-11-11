@@ -117,7 +117,7 @@
         "title": "Ce que nous avons construit",
         "items": [
           { "type": "Produit SaaS (interne)", "title": "NR-BOS", "featured": true, "featuredLabel": "Produit Phare", "oneLiner": "Livraison de projets, opérations de terrain et rapports client — le tout sur une seule plateforme, conçue et licenciée par Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "Produit SaaS (interne)", "title": "Global Reach", "oneLiner": "Des salons de collaboration en direct avec tableaux blancs partagés et chat traduit en temps réel entre les langues.", "link": "global-reach" },
+          { "type": "Produit SaaS (interne)", "title": "Global Reach", "oneLiner": "Des salons d'étude et de travail en direct avec présence en temps réel et notes de session partagées, facturés à la minute.", "link": "global-reach" },
           { "type": "Portail client sécurisé", "title": "Portail Membre Nordic Riser", "oneLiner": "Un portail authentifié pour l'échange de documents, le suivi des dossiers, la messagerie sécurisée et les paiements.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
           { "type": "Plateforme marketing multilingue", "title": "nordicriser.com", "oneLiner": "Un site de production en onze langues avec prise en charge RTL, couverture méta complète et URL propres par langue.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
           { "type": "Application de santé", "title": "Application de télémédecine", "oneLiner": "Une plateforme de télémédecine que nous avons construite de bout en bout — consultations vidéo HD, prise de rendez-vous et chat pendant l'appel — prête à être personnalisée pour toute marque de santé.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
@@ -129,12 +129,12 @@
       },
       "productSpotlight": {
         "label": "Notre produit",
-        "title": "Global Reach — La collaboration sans barrière linguistique",
-        "body": "Des salons en direct avec tableaux blancs partagés et chat traduit en temps réel. Conçu pour les groupes d'étude, les équipes de recherche et le travail de projet couvrant plusieurs pays.",
+        "title": "Global Reach — Des salons en direct pour les équipes transfrontalières",
+        "body": "Des salons d'étude et de travail en direct avec présence en temps réel et notes de session partagées. Conçu pour les groupes d'étude, les équipes de recherche et le travail de projet couvrant plusieurs pays.",
         "bullets": [
-          "Tableaux blancs partagés pour la collaboration en direct",
-          "Chat traduit en direct entre les langues",
-          "Les 100 premiers messages gratuits — sans carte bancaire"
+          "Notes de session partagées pour la collaboration en direct",
+          "Présence en temps réel — voyez qui est dans le salon",
+          "Formules à partir de 29 $/mois, facturées à la minute"
         ],
         "cta": "Commencer"
       },
@@ -580,13 +580,13 @@
           "type": "Produit SaaS (interne)",
           "title": "Global Reach",
           "challengeLabel": "Défi",
-          "challenge": "Les personnes qui collaborent entre les langues perdent du sens dans les délais de traduction et le passage d'un outil à l'autre.",
+          "challenge": "Les équipes qui travaillent au-delà des frontières ont besoin d'un espace partagé pour étudier ou travailler ensemble en direct, sans réserver un appel ni jongler avec des outils séparés.",
           "buildLabel": "Réalisation",
-          "build": "Des salons de collaboration en direct avec tableaux blancs partagés et chat traduit en temps réel entre les langues, avec un niveau d'entrée freemium.",
+          "build": "Des salons d'étude et de travail ouverts avec présence en direct et notes de session partagées, facturés à la minute.",
           "stackLabel": "Technologie",
-          "stack": ["React", "Synchronisation en temps réel", "API de traduction", "Facturation par abonnement"],
+          "stack": ["React", "Firebase Realtime Database", "Facturation par abonnement"],
           "resultLabel": "Résultat",
-          "result": "Produit en ligne avec un niveau gratuit de 100 messages, sans carte bancaire.",
+          "result": "Produit en ligne avec des formules payantes à partir de 29 $/mois.",
           "link": "global-reach",
           "linkLabel": "Voir le produit"
         },
@@ -973,15 +973,17 @@
     "globalReach": {
       "hero": {
         "label": "Global Reach",
-        "h1": "Collaborez au-delà des frontières — vos 100 premiers messages sont gratuits",
-        "body": "Rejoignez des salons en direct avec tableaux blancs partagés et un chat traduit en temps réel — chacun lit et écrit dans sa propre langue.",
+        "h1": "Collaborez au-delà des frontières, en direct",
+        "body": "Rejoignez des salons d'étude et de travail en direct avec présence en temps réel et notes de session partagées — pensé pour collaborer entre fuseaux horaires et langues.",
         "ctaPrimary": "Commencer",
         "ctaSecondary": "Voir comment ça marche",
         "trustLine": "Sans carte bancaire · Résiliable à tout moment · Conforme RGPD",
         "earlyAccessBadge": "Actuellement en accès anticipé",
-        "mockCaption": "Aperçu illustratif",
+        "mockCaption": "Essayez — tapez une note et observez la présence se mettre à jour",
         "visual": {
-          "whiteboardLabel": "Tableau blanc partagé",
+          "notesLabel": "Notes de Session Partagées",
+          "demoPlaceholder": "Essayez de taper une note ici…",
+          "demoAriaLabel": "Essayez le panneau de notes partagées (démo uniquement — rien n'est enregistré)",
           "participants": [
             { "lang": "SV", "name": "Elin" },
             { "lang": "UR", "name": "Ahmed" },
@@ -989,39 +991,51 @@
             { "lang": "AR", "name": "Layla" },
             { "lang": "DE", "name": "Jonas" },
             { "lang": "PL", "name": "Kasia" }
-          ],
-          "chatOriginal": "فائل نظرثانی کے لیے تیار ہے",
-          "chatTranslated": "Le fichier est prêt pour relecture",
-          "chatTag": "Traduit de l'ourdou · appuyez pour voir l'original"
+          ]
         }
       },
       "breadcrumb": "Global Reach",
       "howItWorksLabel": "Comment ça marche",
       "howItWorksTitle": "Trois étapes pour commencer à collaborer",
-      "howItWorksSub": "Global Reach transforme un abonnement en une collaboration directe et multilingue — sans allers-retours de planification.",
+      "howItWorksSub": "Global Reach transforme un abonnement en un salon partagé en direct — sans allers-retours de planification.",
       "howItWorks": [
         { "title": "Créer ou rejoindre un salon", "body": "Créez un nouveau salon ou rejoignez-en un organisé autour de votre sujet — révisions d'examen, groupe de recherche ou projet transfrontalier." },
-        { "title": "Collaborer sur des tableaux blancs partagés", "body": "Esquissez, annotez et résolvez des problèmes ensemble sur un tableau blanc que chacun dans le salon peut voir et modifier en direct." },
-        { "title": "Discuter avec traduction en direct", "body": "Envoyez des messages dans votre propre langue — tous les autres les lisent instantanément traduits dans la leur." }
+        { "title": "Prendre des notes partagées ensemble", "body": "Gardez un seul panneau de notes partagées que chacun dans le salon peut voir et modifier en direct, pour que rien ne se perde entre plusieurs outils." },
+        { "title": "Suivre le temps de votre session", "body": "Voyez exactement combien de minutes il vous reste sur votre allocation mensuelle pendant que le chronomètre du salon tourne." }
       ],
       "ctaBand1": {
         "title": "Prêt à collaborer au-delà des frontières ?",
-        "body": "Créez votre compte gratuit et lancez votre premier salon en quelques minutes.",
+        "body": "Créez votre compte et lancez votre premier salon en quelques minutes.",
         "cta": "Commencer"
+      },
+      "classroom": {
+        "label": "Un Complément Naturel",
+        "title": "Fonctionne Avec Google Classroom",
+        "intro": "Classroom est conçu pour les cours. Global Reach est conçu pour les moments qui doivent se passer en direct.",
+        "classroomHeading": "Google Classroom",
+        "classroomBody": "Gère les devoirs, les retours et les notes à votre propre rythme. Une session en direct nécessite toujours de l'associer à un outil vidéo séparé — Classroom lui-même n'a pas de chat en direct ni de panneau de notes partagées intégré.",
+        "grHeading": "Global Reach",
+        "grBody": "Un salon en direct avec présence en temps réel et notes partagées, prêt dès que deux personnes doivent travailler ensemble — rien à configurer, aucun cours à créer au préalable.",
+        "note": "Utilisez Classroom pour les cours. Utilisez Global Reach pour la session en direct qui l'accompagne."
       },
       "useCasesLabel": "Pour qui",
       "useCasesTitle": "Conçu pour la collaboration transfrontalière",
       "useCases": [
-        { "title": "Révisions d'examen", "body": "Une étudiante suédophone et un camarade ourdouphone révisent ensemble la veille d'un examen — le chat est traduit instantanément dans les deux sens." },
-        { "title": "Soutien scolaire", "body": "Un tuteur anglophone accompagne un étudiant germanophone sur une série d'exercices via le tableau blanc partagé." },
-        { "title": "Groupes de recherche", "body": "Des chercheurs polonophones et arabophones comparent leurs notes dans un même salon, chacun lisant et écrivant dans sa propre langue." },
-        { "title": "Équipes de projet transfrontalières", "body": "Un chef de projet néerlandais et un développeur pakistanais coordonnent un sprint, tableau blanc et chat partagés en direct." }
+        { "title": "Révisions d'examen", "body": "Deux camarades de classe se testent mutuellement la veille d'un examen, notant dans les notes partagées ce qu'il reste à revoir." },
+        { "title": "Soutien scolaire", "body": "Un tuteur accompagne un élève en direct sur une série d'exercices, avec des notes partagées que les deux peuvent voir et modifier au fil de la séance." },
+        { "title": "Groupes de recherche", "body": "Des chercheurs basés dans différents pays comparent leurs notes ensemble dans un même salon, tous à partir du même panneau de notes partagées." },
+        { "title": "Équipes de projet transfrontalières", "body": "Un chef de projet et un développeur dans différents pays coordonnent un sprint ensemble dans un salon en direct, en suivant les notes et le temps au fil du travail." }
       ],
+      "notePersistence": {
+        "label": "Vos Notes",
+        "title": "Rien ne se Perd Entre les Sessions",
+        "body": "Les notes partagées s'enregistrent automatiquement pendant que vous et votre partenaire de salon écrivez. Revenez dans le même salon plus tard et vos notes sont exactement là où vous les avez laissées."
+      },
       "plansLabel": "Tarifs",
       "plansTitle": "Des Formules Simples, des Prix Clairs",
       "plansSub": "Chaque formule inclut un accès complet aux salons et aux notes partagées — seules les allocations de minutes de session mensuelles diffèrent.",
       "plans": [
-        {"name": "Basic", "price": "29", "period": "/ mois", "features": ["2 heures de sessions en direct / mois", "Accès complet aux salons et aux notes partagées", "Coffre-fort de documents et suivi des dossiers - inclus avec chaque compte"], "popular": false},
+        {"name": "Basic", "price": "29", "period": "/ mois", "features": ["2 heures de sessions en direct / mois", "Accès complet aux salons et aux notes partagées", "Notes de session sauvegardées sans limite"], "popular": false},
         {"name": "Pro", "price": "79", "period": "/ mois", "features": ["10 heures de sessions en direct / mois", "Support prioritaire", "Toutes les fonctionnalités Basic"], "popular": true}
       ],
       "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
@@ -1032,12 +1046,12 @@
         { "q": "Comment l'utilisation est-elle mesurée ?", "a": "Votre formule inclut une allocation mensuelle de minutes de session. Le temps passé dans un salon est compté de votre arrivée à votre départ de la session." },
         { "q": "Que se passe-t-il lorsque j'ai épuisé mes minutes mensuelles ?", "a": "Vos salons et notes partagées restent entièrement accessibles. Démarrer une nouvelle session chronométrée nécessite de recharger votre compte ou d'attendre votre prochain cycle de facturation." },
         { "q": "Que se passe-t-il avec les minutes supplémentaires non utilisées ?", "a": "Les minutes supplémentaires n'expirent jamais tant que votre abonnement reste actif — elles sont reportées sur votre prochain cycle de facturation jusqu'à ce que vous les utilisiez." },
-        { "q": "Quelles langues sont prises en charge ?", "a": "Interface complète en anglais, suédois, allemand, français, espagnol, italien, polonais, néerlandais, portugais, ourdou et arabe, avec traduction du chat disponible vers d'autres langues." },
-        { "q": "Mes données sont-elles privées ?", "a": "Oui — les messages et documents sont traités conformément à notre politique de confidentialité, conforme au RGPD, qui précise exactement ce que nous collectons et pourquoi." }
+        { "q": "Quelles langues sont prises en charge ?", "a": "Interface complète en anglais, suédois, allemand, français, espagnol, italien, polonais, néerlandais, portugais, ourdou et arabe." },
+        { "q": "Mes données sont-elles privées ?", "a": "Oui — vos données de session sont traitées conformément à notre politique de confidentialité, conforme au RGPD, qui précise exactement ce que nous collectons et pourquoi." }
       ],
       "emailCapture": { "title": "Pas encore prêt ?", "body": "Soyez informé du lancement de nouvelles langues.", "placeholder": "Votre adresse e-mail", "consent": "J'accepte d'être contacté(e) à propos de Global Reach et j'accepte la", "privacyLinkLabel": "Politique de confidentialité", "successText": "Merci - nous vous enverrons un e-mail dès que votre langue sera disponible.", "errorText": "Une erreur s'est produite. Veuillez réessayer.", "button": "M'informer" },
       "stickyBar": { "text": "Prêt à commencer à collaborer ?", "cta": "Commencer" },
-      "cta": { "title": "Commencez à collaborer dès aujourd'hui", "body": "Créez votre compte gratuit — sans carte bancaire — et rejoignez votre premier salon en quelques minutes.", "trustLine": "Sans carte bancaire · Résiliable à tout moment · Conforme RGPD" }
+      "cta": { "title": "Commencez à collaborer dès aujourd'hui", "body": "Créez votre compte — sans carte bancaire — et rejoignez votre premier salon en quelques minutes.", "trustLine": "Sans carte bancaire · Résiliable à tout moment · Conforme RGPD" }
     },
     "portal": {
       "hero": { "label": "Accès client", "h1": "Portail membre", "body": "Un accès sécurisé pour les clients enregistrés de Nordic Riser AB afin de gérer leur mission, leurs documents et leurs communications." },
