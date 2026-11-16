@@ -1,0 +1,37 @@
+{
+  "_comment": "Single source of truth for facts repeated across pages and languages. Templates read `facts.*` directly; translated strings use %%dotted.path%% tokens, which .eleventy.js replaces at build time (an unknown token fails the build). Values in [BRACKETS] are placeholders still to be filled.",
+  "company": {
+    "name": "Nordic Riser AB",
+    "orgNumber": "[ORG_NR]",
+    "vatNumber": "[VAT_NR]",
+    "address": "[STREET, POSTCODE STOCKHOLM]",
+    "phone": "[PHONE]",
+    "email": "info@nordicriser.com"
+  },
+  "urls": {
+    "booking": "[CALENDAR_LINK]",
+    "nrbosApp": "[https://app.nordicriser.com]",
+    "memberPortal": "https://portal.nordicriser.com"
+  },
+  "languagesShipped": 11,
+  "products": {
+    "count": 7,
+    "items": [
+      { "id": "nr-bos", "name": "NR-BOS" },
+      { "id": "global-reach", "name": "Global Reach" },
+      { "id": "member-portal", "name": "Nordic Riser Member Portal" },
+      { "id": "nordicriser-com", "name": "nordicriser.com" },
+      { "id": "4edoctor", "name": "4eDoctor" },
+      { "id": "4ezone-pharmacy", "name": "4eZone Pharmacy" },
+      { "id": "delivery-app", "name": null, "_note": "No brand name yet; the translated title is used." }
+    ]
+  },
+  "pricing": {
+    "currency": "EUR",
+    "secondaryCurrency": "SEK",
+    "globalReach": {
+      "basic": { "eur": "[EUR_BASIC]", "sek": "[SEK_BASIC]" },
+      "pro": { "eur": "[EUR_PRO]", "sek": "[SEK_PRO]" }
+    }
+  }
+}
