@@ -10,6 +10,7 @@
     "requestQuote": "Begär en offert",
     "signUp": "Registrera dig",
     "builtWith": "Byggt med:",
+    "screenshot": "skärmbild",
     "startProject": "Starta ett projekt",
     "emailLabel": "E-post",
     "websiteLabel": "Webbplats",
@@ -1740,7 +1741,7 @@
           "result": "En återanvändbar leveransplattform redo att anpassas och driftsättas för kundföretag."
         }
       ],
-      "note": "Det här är system vi har designat och byggt från grunden — vissa drivs idag som våra egna produkter, andra byggda åt kunder att driva under sitt eget varumärke.",
+      "note": "%%products.count%% plattformar som vi har byggt, driver och kan anpassa för din verksamhet.",
       "cta": { "title": "Har du ett projekt i åtanke?", "body": "Berätta vad du bygger. Vi återkommer med en tydlig omfattning, en realistisk tidsplan och ett fast pris.", "cta": "Starta ett projekt" }
     },
     "nrBos": {

@@ -7,6 +7,7 @@
     "requestQuote": "Poproś o wycenę",
     "signUp": "Zarejestruj się",
     "builtWith": "Zbudowane z:",
+    "screenshot": "zrzut ekranu",
     "startProject": "Rozpocznij Projekt",
     "emailLabel": "E-mail",
     "websiteLabel": "Strona internetowa",
@@ -728,7 +729,7 @@
           "result": "Wielokrotnego użytku platforma dostawcza gotowa do dostosowania i wdrożenia dla firm klienckich."
         }
       ],
-      "note": "To systemy, które zaprojektowaliśmy i zbudowaliśmy od podstaw — niektóre działają dziś jako nasze własne produkty, inne zostały zbudowane dla klientów, którzy prowadzą je pod własną marką.",
+      "note": "%%products.count%% platform, które zbudowaliśmy, utrzymujemy i możemy dostosować do Twojej firmy.",
       "cta": { "title": "Masz Projekt na Myśli?", "body": "Powiedz nam, co budujesz. Wrócimy z jasnym zakresem, realistycznym harmonogramem i stałą ceną.", "cta": "Rozpocznij Projekt" }
     },
     "nrBos": {

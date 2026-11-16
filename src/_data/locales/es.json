@@ -7,6 +7,7 @@
     "requestQuote": "Solicitar Presupuesto",
     "signUp": "Registrarse",
     "builtWith": "Construido con:",
+    "screenshot": "captura de pantalla",
     "startProject": "Iniciar un Proyecto",
     "emailLabel": "Correo electrónico",
     "websiteLabel": "Sitio web",
@@ -728,7 +729,7 @@
           "result": "Una plataforma de reparto reutilizable, lista para personalizarse y desplegarse para empresas clientes."
         }
       ],
-      "note": "Estos son sistemas que hemos diseñado y construido de principio a fin — algunos funcionan hoy como nuestros propios productos, otros fueron construidos para que los clientes los operen bajo su propia marca.",
+      "note": "%%products.count%% plataformas que hemos construido, operamos y podemos adaptar a su negocio.",
       "cta": { "title": "¿Tiene un Proyecto en Mente?", "body": "Cuéntenos qué está construyendo. Volveremos con un alcance claro, un cronograma realista y un precio fijo.", "cta": "Iniciar un Proyecto" }
     },
     "nrBos": {

@@ -10,6 +10,7 @@
     "requestQuote": "Request a Quote",
     "signUp": "Sign Up",
     "builtWith": "Built with:",
+    "screenshot": "screenshot",
     "startProject": "Start a Project",
     "emailLabel": "Email",
     "websiteLabel": "Website",
@@ -1365,7 +1366,7 @@
           "result": "A reusable delivery platform ready to be customized and deployed for client businesses."
         }
       ],
-      "note": "These are systems we've designed and built end-to-end — some running today as our own products, others built for clients to operate under their own brand.",
+      "note": "%%products.count%% platforms we built, run, and can adapt for your business.",
       "cta": { "title": "Have a Project in Mind?", "body": "Tell us what you're building. We'll come back with a clear scope, a realistic timeline, and a fixed price.", "cta": "Start a Project" }
     },
     "nrBos": {

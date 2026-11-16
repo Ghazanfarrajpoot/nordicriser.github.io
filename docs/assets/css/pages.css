@@ -665,3 +665,8 @@ a.right-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); 
   .case-study-card--featured .case-study-card__band { padding-top: 1.75rem; }
   .case-study-card--featured .case-study-card__band h2 { font-size: 1.5rem; }
 }
+
+/* Work page: optional project screenshot (shown only when the file exists) */
+.case-study-media { margin: 0; background: var(--navy); border-bottom: 1px solid var(--border, #e5e2d9); }
+.case-study-media img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; object-position: top center; }
+

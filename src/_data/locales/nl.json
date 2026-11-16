@@ -7,6 +7,7 @@
     "requestQuote": "Vraag een Offerte Aan",
     "signUp": "Aanmelden",
     "builtWith": "Gebouwd met:",
+    "screenshot": "schermafbeelding",
     "startProject": "Start een Project",
     "emailLabel": "E-mail",
     "websiteLabel": "Website",
@@ -728,7 +729,7 @@
           "result": "Een herbruikbaar bezorgplatform klaar om aangepast en uitgerold te worden voor klantbedrijven."
         }
       ],
-      "note": "Dit zijn systemen die we van begin tot eind hebben ontworpen en gebouwd — sommige draaien vandaag als onze eigen producten, andere zijn gebouwd voor klanten om onder hun eigen merk te exploiteren.",
+      "note": "%%products.count%% platforms die we hebben gebouwd, beheren en kunnen aanpassen voor uw bedrijf.",
       "cta": { "title": "Heeft u een Project in Gedachten?", "body": "Vertel ons wat u bouwt. Wij komen terug met een duidelijke scope, een realistische planning en een vaste prijs.", "cta": "Start een Project" }
     },
     "nrBos": {

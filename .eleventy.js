@@ -21,6 +21,15 @@ module.exports = function (eleventyConfig) {
     String(str ?? "").replace(/%%([a-zA-Z0-9_.]+)%%/g, (_, path) => factValue(path)),
   );
 
+  // "/assets/img/x.jpg" -> true if src/assets/img/x.jpg exists. Lets templates
+  // show an image slot only once the image has been supplied.
+  eleventyConfig.addFilter("siteFileExists", (p) =>
+    Boolean(p) && require("fs").existsSync(require("path").join(__dirname, "src", String(p))),
+  );
+
+  // facts.products.items entry by id (Nunjucks' selectattr can't compare values).
+  eleventyConfig.addFilter("productById", (id) => facts.products.items.find((p) => p.id === id));
+
   // List placeholders still unfilled, once per build.
   eleventyConfig.on("eleventy.after", () => {
     const pending = [];

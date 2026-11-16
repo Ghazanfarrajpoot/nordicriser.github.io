@@ -7,6 +7,7 @@
     "requestQuote": "Solicitar Orçamento",
     "signUp": "Registar-se",
     "builtWith": "Construído com:",
+    "screenshot": "captura de ecrã",
     "startProject": "Iniciar um Projeto",
     "emailLabel": "Email",
     "websiteLabel": "Website",
@@ -728,7 +729,7 @@
           "result": "Uma plataforma de entrega reutilizável, pronta a ser personalizada e implementada para empresas clientes."
         }
       ],
-      "note": "Estes são sistemas que concebemos e construímos do início ao fim — alguns funcionam hoje como nossos próprios produtos, outros foram construídos para clientes operarem sob a sua própria marca.",
+      "note": "%%products.count%% plataformas que construímos, operamos e podemos adaptar ao seu negócio.",
       "cta": { "title": "Tem um Projeto em Mente?", "body": "Diga-nos o que está a construir. Voltaremos com um âmbito claro, um calendário realista e um preço fixo.", "cta": "Iniciar um Projeto" }
     },
     "nrBos": {

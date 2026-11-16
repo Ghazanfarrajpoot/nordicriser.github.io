@@ -40,6 +40,12 @@ pageSlug: work
           <span class="case-study-type">{{ cs.type }}</span>
           <h2>{{ cs.title }}</h2>
         </div>
+        {%- set product = cs.id | productById %}
+        {%- if product and (product.image | siteFileExists) %}
+        <figure class="case-study-media">
+          <img src="{{ product.image }}" alt="{{ cs.title | facts }} — {{ t.common.screenshot }}" loading="lazy" decoding="async">
+        </figure>
+        {%- endif %}
         <div class="case-study-card__body">
           <div class="case-study-meta">
             <div class="case-study-row">

@@ -7,6 +7,7 @@
     "requestQuote": "Demander un devis",
     "signUp": "S'inscrire",
     "builtWith": "Construit avec :",
+    "screenshot": "capture d’écran",
     "startProject": "Démarrer un projet",
     "emailLabel": "E-mail",
     "websiteLabel": "Site web",
@@ -728,7 +729,7 @@
           "result": "Une plateforme de livraison réutilisable, prête à être personnalisée et déployée pour des entreprises clientes."
         }
       ],
-      "note": "Ce sont des systèmes que nous avons conçus et construits de bout en bout — certains fonctionnent aujourd'hui comme nos propres produits, d'autres ont été construits pour que des clients les exploitent sous leur propre marque.",
+      "note": "%%products.count%% plateformes que nous avons construites, que nous exploitons et que nous pouvons adapter à votre activité.",
       "cta": { "title": "Un projet en tête ?", "body": "Dites-nous ce que vous construisez. Nous reviendrons vers vous avec un périmètre clair, un calendrier réaliste et un prix fixe.", "cta": "Démarrer un projet" }
     },
     "nrBos": {

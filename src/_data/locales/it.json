@@ -7,6 +7,7 @@
     "requestQuote": "Richiedi un Preventivo",
     "signUp": "Registrati",
     "builtWith": "Costruito con:",
+    "screenshot": "screenshot",
     "startProject": "Avvia un Progetto",
     "emailLabel": "Email",
     "websiteLabel": "Sito Web",
@@ -728,7 +729,7 @@
           "result": "Una piattaforma di consegna riutilizzabile, pronta per essere personalizzata e distribuita per aziende clienti."
         }
       ],
-      "note": "Questi sono sistemi che abbiamo progettato e costruito da zero — alcuni funzionano oggi come nostri prodotti, altri sono stati costruiti per clienti che li gestiscono con il proprio marchio.",
+      "note": "%%products.count%% piattaforme che abbiamo costruito, gestiamo e possiamo adattare alla vostra attività.",
       "cta": { "title": "Hai un Progetto in Mente?", "body": "Raccontaci cosa stai costruendo. Torneremo da te con un ambito chiaro, una tempistica realistica e un prezzo fisso.", "cta": "Avvia un Progetto" }
     },
     "nrBos": {

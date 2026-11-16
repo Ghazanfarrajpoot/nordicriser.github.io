@@ -7,6 +7,7 @@
     "requestQuote": "Angebot anfordern",
     "signUp": "Registrieren",
     "builtWith": "Gebaut mit:",
+    "screenshot": "Screenshot",
     "startProject": "Projekt starten",
     "emailLabel": "E-Mail",
     "websiteLabel": "Website",
@@ -728,7 +729,7 @@
           "result": "Eine wiederverwendbare Lieferplattform, bereit zur Anpassung und Bereitstellung für Kundenunternehmen."
         }
       ],
-      "note": "Das sind Systeme, die wir von Grund auf entworfen und gebaut haben — manche laufen heute als unsere eigenen Produkte, andere wurden für Kunden gebaut, die sie unter ihrer eigenen Marke betreiben.",
+      "note": "%%products.count%% Plattformen, die wir gebaut haben, betreiben und für Ihr Unternehmen anpassen können.",
       "cta": { "title": "Haben Sie ein Projekt im Kopf?", "body": "Erzählen Sie uns, was Sie bauen möchten. Wir melden uns mit einem klaren Umfang, einem realistischen Zeitplan und einem Festpreis zurück.", "cta": "Projekt starten" }
     },
     "nrBos": {
