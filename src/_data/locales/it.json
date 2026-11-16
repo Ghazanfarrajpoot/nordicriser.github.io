@@ -109,7 +109,7 @@
         "title": "Quattro Cose che Facciamo Bene",
         "cards": [
           { "icon": "globe", "title": "Piattaforme Web Multilingue", "body": "Siti di produzione costruiti per funzionare in ogni mercato che servi. Hreflang corretto, supporto RTL, struttura dei contenuti localizzata — non traduzioni automatiche ripensate in seguito.", "builtWith": "Generazione di siti statici, distribuzione CDN, tempi di caricamento inferiori al secondo" },
-          { "icon": "lock", "title": "Portali Clienti Sicuri", "body": "Portali autenticati per lo scambio di documenti, il monitoraggio delle pratiche e la comunicazione con i clienti. Accesso basato sui ruoli, archiviazione crittografata, tracciamento di controllo.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
+          { "icon": "lock", "title": "Portali Clienti Sicuri", "body": "Portali autenticati per lo scambio di documenti, il monitoraggio delle pratiche e la comunicazione con i clienti. Accesso basato sui ruoli, regole sui dati applicate lato server, archiviazione privata dei file e registrazione delle attività nel Portale Membri.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
           { "icon": "code", "title": "Prodotti su Misura & SaaS", "body": "Sviluppo completo del prodotto, dal concetto al lancio. Funzionalità in tempo reale, fatturazione in abbonamento, strumenti di amministrazione.", "seeLabel": "Vedi:", "seeText": "Global Reach — le nostre stanze live per studio e lavoro, con presenza in tempo reale e note di sessione condivise", "seeLink": "global-reach" },
           { "icon": "gear", "title": "Automazione & Integrazioni", "body": "Collega gli strumenti che già usi. Elimina la doppia immissione manuale. Automatizza i flussi di lavoro che divorano la settimana del tuo team.", "builtWith": "API, webhook, funzioni serverless" }
         ]
@@ -172,7 +172,7 @@
               },
               {
                 "category": "Autenticazione & Sicurezza",
-                "items": "Firebase Authentication, controllo degli accessi basato sui ruoli, archiviazione crittografata"
+                "items": "Firebase Authentication, controllo degli accessi basato sui ruoli, regole sui dati applicate lato server"
               }
             ]
           },
@@ -200,7 +200,7 @@
         ],
         "practices": {
           "category": "Pratiche",
-          "items": "Controllo versione Git, distribuzioni graduali, gestione dei dati conforme al GDPR"
+          "items": "Controllo versione Git, distribuzioni graduali, gestione dei dati progettata tenendo conto del GDPR"
         }
       },
       "whyUs": {
@@ -674,7 +674,7 @@
           "challengeLabel": "Sfida",
           "challenge": "Raggiungere imprenditori in Europa, Medio Oriente e Asia Meridionale nella loro lingua.",
           "buildLabel": "Realizzazione",
-          "build": "Sito di produzione in undici lingue con struttura URL per lingua, supporto RTL per arabo e urdu, copertura meta e Open Graph completa, e un quadro di privacy conforme al GDPR.",
+          "build": "Sito di produzione in undici lingue con struttura URL per lingua, supporto RTL per arabo e urdu, copertura meta e Open Graph completa, e un quadro di privacy progettato tenendo conto del GDPR.",
           "stackLabel": "Tecnologia",
           "stack": ["Generazione statica", "CDN", "Routing i18n strutturato"],
           "resultLabel": "Risultato",
@@ -1043,7 +1043,7 @@
         "body": "Partecipa a stanze di studio e lavoro live con presenza in tempo reale e note di sessione condivise — pensato per collaborare tra fusi orari e lingue diverse.",
         "ctaPrimary": "Inizia",
         "ctaSecondary": "Scopri come funziona",
-        "trustLine": "Nessuna carta richiesta · Annulla quando vuoi · Conforme al GDPR",
+        "trustLine": "Nessuna carta richiesta · Annulla quando vuoi · Progettato tenendo conto del GDPR",
         "earlyAccessBadge": "Ora in Accesso Anticipato",
         "mockCaption": "Provalo — scrivi una nota e guarda la presenza aggiornarsi",
         "visual": {
@@ -1113,11 +1113,11 @@
         { "q": "Cosa succede quando esaurisco i miei minuti mensili?", "a": "Le tue sale e note condivise restano pienamente accessibili. Avviare una nuova sessione a tempo richiede una ricarica o attendere il prossimo ciclo di fatturazione." },
         { "q": "Cosa succede ai minuti extra non utilizzati?", "a": "I minuti extra non scadono mai finché il tuo abbonamento resta attivo: vengono riportati al ciclo di fatturazione successivo finché non li utilizzi." },
         { "q": "Quali lingue sono supportate?", "a": "Interfaccia completa in inglese, svedese, tedesco, francese, spagnolo, italiano, polacco, olandese, portoghese, urdu e arabo." },
-        { "q": "I miei dati sono privati?", "a": "Sì — i tuoi dati di sessione sono gestiti secondo la nostra Informativa sulla Privacy conforme al GDPR, che specifica esattamente cosa raccogliamo e perché." }
+        { "q": "I miei dati sono privati?", "a": "Sì — i tuoi dati di sessione sono gestiti secondo la nostra Informativa sulla Privacy, redatta tenendo conto del GDPR, che specifica esattamente cosa raccogliamo e perché." }
       ],
       "emailCapture": { "title": "Non Sei Ancora Pronto?", "body": "Ricevi una notifica quando vengono lanciate nuove lingue.", "placeholder": "Il tuo indirizzo email", "consent": "Accetto di essere contattato/a riguardo a Global Reach e accetto l'", "privacyLinkLabel": "Informativa sulla Privacy", "successText": "Grazie - ti invieremo un'email quando la tua lingua sarà disponibile.", "errorText": "Qualcosa è andato storto. Riprova.", "button": "Avvisami" },
       "stickyBar": { "text": "Pronto per iniziare a collaborare?", "cta": "Inizia" },
-      "cta": { "title": "Inizia a Collaborare Oggi", "body": "Crea il tuo account — nessuna carta richiesta — ed entra nella tua prima sala in pochi minuti.", "trustLine": "Nessuna carta richiesta · Annulla quando vuoi · Conforme al GDPR" }
+      "cta": { "title": "Inizia a Collaborare Oggi", "body": "Crea il tuo account — nessuna carta richiesta — ed entra nella tua prima sala in pochi minuti.", "trustLine": "Nessuna carta richiesta · Annulla quando vuoi · Progettato tenendo conto del GDPR" }
     },
     "portal": {
       "hero": { "label": "Accesso Clienti", "h1": "Portale Membri", "body": "Accesso sicuro per i clienti registrati di Nordic Riser AB per gestire il proprio incarico, i documenti e le comunicazioni." },

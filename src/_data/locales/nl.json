@@ -109,7 +109,7 @@
         "title": "Vier Dingen die Wij Goed Doen",
         "cards": [
           { "icon": "globe", "title": "Meertalige Webplatforms", "body": "Productiewebsites die zijn gebouwd om te werken op elke markt die u bedient. Correcte hreflang, RTL-ondersteuning, gelokaliseerde contentstructuur — geen machinaal vertaalde bijgedachten.", "builtWith": "Statische site-generatie, CDN-levering, laadtijden onder de seconde" },
-          { "icon": "lock", "title": "Veilige Klantportalen", "body": "Geauthenticeerde portalen voor documentuitwisseling, zaakopvolging en klantcommunicatie. Rolgebaseerde toegang, versleutelde opslag, audit trails.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
+          { "icon": "lock", "title": "Veilige Klantportalen", "body": "Geauthenticeerde portalen voor documentuitwisseling, zaakopvolging en klantcommunicatie. Toegang op basis van rollen, gegevensregels die op de server worden afgedwongen, privébestandsopslag en activiteitenregistratie in het Ledenportaal.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
           { "icon": "code", "title": "Producten op Maat & SaaS", "body": "Volledige productontwikkeling, van concept tot lancering. Realtime functies, abonnementsfacturering, beheertools.", "seeLabel": "Zie:", "seeText": "Global Reach — onze eigen live studie- en werkruimtes, met realtime aanwezigheid en gedeelde sessienotities", "seeLink": "global-reach" },
           { "icon": "gear", "title": "Automatisering & Integraties", "body": "Verbind de tools die u al gebruikt. Elimineer handmatige dubbele invoer. Automatiseer de workflows die de week van uw team opslokken.", "builtWith": "API's, webhooks, serverloze functies" }
         ]
@@ -172,7 +172,7 @@
               },
               {
                 "category": "Authenticatie & Beveiliging",
-                "items": "Firebase Authentication, rolgebaseerde toegangscontrole, versleutelde opslag"
+                "items": "Firebase Authentication, rolgebaseerde toegangscontrole, gegevensregels die op de server worden afgedwongen"
               }
             ]
           },
@@ -200,7 +200,7 @@
         ],
         "practices": {
           "category": "Werkwijzen",
-          "items": "Git-versiebeheer, gefaseerde implementaties, AVG-conforme gegevensverwerking"
+          "items": "Git-versiebeheer, gefaseerde implementaties, gegevensverwerking ontworpen met de AVG in gedachten"
         }
       },
       "whyUs": {
@@ -674,7 +674,7 @@
           "challengeLabel": "Uitdaging",
           "challenge": "Ondernemers bereiken in heel Europa, het Midden-Oosten en Zuid-Azië, in hun eigen taal.",
           "buildLabel": "Bouw",
-          "build": "Productiesite in elf talen met per-taal URL-structuur, RTL-ondersteuning voor Arabisch en Urdu, volledige meta- en Open Graph-dekking, en een AVG-conform privacykader.",
+          "build": "Productiesite in elf talen met per-taal URL-structuur, RTL-ondersteuning voor Arabisch en Urdu, volledige meta- en Open Graph-dekking, en een privacykader ontworpen met de AVG in gedachten.",
           "stackLabel": "Techniek",
           "stack": ["Statische generatie", "CDN", "Gestructureerde i18n-routering"],
           "resultLabel": "Resultaat",
@@ -1043,7 +1043,7 @@
         "body": "Doe mee aan live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities — gemaakt voor samenwerken over tijdzones en talen heen.",
         "ctaPrimary": "Aan de slag",
         "ctaSecondary": "Bekijk hoe het werkt",
-        "trustLine": "Geen creditcard nodig · Altijd opzegbaar · AVG-conform",
+        "trustLine": "Geen creditcard nodig · Altijd opzegbaar · Ontworpen met de AVG in gedachten",
         "earlyAccessBadge": "Nu in Vroege Toegang",
         "mockCaption": "Probeer het — typ een notitie en zie de aanwezigheid live bijwerken",
         "visual": {
@@ -1113,11 +1113,11 @@
         { "q": "Wat gebeurt er als mijn maandelijkse minuten op zijn?", "a": "Uw ruimtes en gedeelde notities blijven volledig toegankelijk. Voor het starten van een nieuwe getimede sessie moet u bijvullen of wachten tot uw volgende factureringsperiode." },
         { "q": "Wat gebeurt er met extra minuten die ik niet gebruik?", "a": "Extra minuten verlopen nooit zolang uw abonnement actief blijft — ze worden overgedragen naar uw volgende factureringsperiode totdat u ze gebruikt." },
         { "q": "Welke talen worden ondersteund?", "a": "Volledige interfaceondersteuning voor Engels, Zweeds, Duits, Frans, Spaans, Italiaans, Pools, Nederlands, Portugees, Urdu en Arabisch." },
-        { "q": "Zijn mijn gegevens privé?", "a": "Ja — uw sessiegegevens worden verwerkt volgens ons AVG-conforme privacybeleid, dat precies aangeeft wat wij verzamelen en waarom." }
+        { "q": "Zijn mijn gegevens privé?", "a": "Ja — uw sessiegegevens worden verwerkt volgens ons privacybeleid, opgesteld met de AVG in gedachten, dat precies aangeeft wat wij verzamelen en waarom." }
       ],
       "emailCapture": { "title": "Nog Niet Klaar?", "body": "Ontvang een melding wanneer nieuwe talen worden gelanceerd.", "placeholder": "Uw e-mailadres", "consent": "Ik ga ermee akkoord benaderd te worden over Global Reach en accepteer het", "privacyLinkLabel": "Privacybeleid", "successText": "Bedankt - we e-mailen u zodra uw taal beschikbaar is.", "errorText": "Er is iets misgegaan. Probeer het opnieuw.", "button": "Meld Mij" },
       "stickyBar": { "text": "Klaar om te beginnen met samenwerken?", "cta": "Aan de slag" },
-      "cta": { "title": "Begin Vandaag met Samenwerken", "body": "Maak uw account aan — geen creditcard nodig — en sluit u binnen enkele minuten aan bij uw eerste ruimte.", "trustLine": "Geen creditcard nodig · Altijd opzegbaar · AVG-conform" }
+      "cta": { "title": "Begin Vandaag met Samenwerken", "body": "Maak uw account aan — geen creditcard nodig — en sluit u binnen enkele minuten aan bij uw eerste ruimte.", "trustLine": "Geen creditcard nodig · Altijd opzegbaar · Ontworpen met de AVG in gedachten" }
     },
     "portal": {
       "hero": { "label": "Klanttoegang", "h1": "Ledenportaal", "body": "Beveiligde toegang voor geregistreerde klanten van Nordic Riser AB om hun traject, documenten en communicatie te beheren." },

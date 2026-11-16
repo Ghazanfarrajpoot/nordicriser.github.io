@@ -109,7 +109,7 @@
         "title": "Quatro Coisas Que Fazemos Bem",
         "cards": [
           { "icon": "globe", "title": "Plataformas Web Multilingues", "body": "Sites de produção construídos para funcionar em qualquer mercado que servir. Hreflang correto, suporte RTL, estrutura de conteúdo localizada — nada de traduções automáticas improvisadas.", "builtWith": "Geração estática de sites, entrega via CDN, tempos de carregamento abaixo de um segundo" },
-          { "icon": "lock", "title": "Portais de Clientes Seguros", "body": "Portais autenticados para partilha de documentos, acompanhamento de processos e comunicação com clientes. Acesso baseado em funções, armazenamento encriptado, registos de auditoria.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
+          { "icon": "lock", "title": "Portais de Clientes Seguros", "body": "Portais autenticados para partilha de documentos, acompanhamento de processos e comunicação com clientes. Acesso baseado em funções, regras de dados aplicadas no servidor, armazenamento privado de ficheiros e registo de atividade no Portal de Membros.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
           { "icon": "code", "title": "Produtos à Medida e SaaS", "body": "Desenvolvimento completo de produtos, do conceito ao lançamento. Funcionalidades em tempo real, faturação por subscrição, ferramentas de administração.", "seeLabel": "Ver:", "seeText": "Global Reach — as nossas próprias salas de estudo e trabalho ao vivo, com presença em tempo real e notas de sessão partilhadas", "seeLink": "global-reach" },
           { "icon": "gear", "title": "Automação e Integrações", "body": "Ligue as ferramentas que já utiliza. Elimine a introdução manual duplicada. Automatize os fluxos de trabalho que consomem a semana da sua equipa.", "builtWith": "APIs, webhooks, funções serverless" }
         ]
@@ -172,7 +172,7 @@
               },
               {
                 "category": "Autenticação & Segurança",
-                "items": "Firebase Authentication, controlo de acesso baseado em funções, armazenamento encriptado"
+                "items": "Firebase Authentication, controlo de acesso baseado em funções, regras de dados aplicadas no servidor"
               }
             ]
           },
@@ -200,7 +200,7 @@
         ],
         "practices": {
           "category": "Práticas",
-          "items": "Controlo de versões com Git, implementações faseadas, tratamento de dados conforme o RGPD"
+          "items": "Controlo de versões com Git, implementações faseadas, tratamento de dados concebido a pensar no RGPD"
         }
       },
       "whyUs": {
@@ -674,7 +674,7 @@
           "challengeLabel": "Desafio",
           "challenge": "Alcançar empreendedores em toda a Europa, no Médio Oriente e no Sul da Ásia, nos seus próprios idiomas.",
           "buildLabel": "Construção",
-          "build": "Site de produção em onze idiomas com estrutura de URL por idioma, suporte RTL para árabe e urdu, cobertura completa de metadados e Open Graph, e um enquadramento de privacidade conforme o RGPD.",
+          "build": "Site de produção em onze idiomas com estrutura de URL por idioma, suporte RTL para árabe e urdu, cobertura completa de metadados e Open Graph, e um enquadramento de privacidade concebido a pensar no RGPD.",
           "stackLabel": "Stack",
           "stack": ["Geração estática", "CDN", "Encaminhamento i18n estruturado"],
           "resultLabel": "Resultado",
@@ -1043,7 +1043,7 @@
         "body": "Participe em salas de estudo e trabalho ao vivo com presença em tempo real e notas de sessão partilhadas — concebido para colaborar entre fusos horários e idiomas.",
         "ctaPrimary": "Começar",
         "ctaSecondary": "Veja como funciona",
-        "trustLine": "Sem cartão necessário · Cancele quando quiser · Conforme o RGPD",
+        "trustLine": "Sem cartão necessário · Cancele quando quiser · Concebido a pensar no RGPD",
         "earlyAccessBadge": "Agora em Acesso Antecipado",
         "mockCaption": "Experimente — escreva uma nota e veja a presença atualizar-se",
         "visual": {
@@ -1113,11 +1113,11 @@
         { "q": "O que acontece quando esgoto os meus minutos mensais?", "a": "As suas salas e notas partilhadas permanecem totalmente acessíveis. Iniciar uma nova sessão cronometrada requer uma recarga ou aguardar pelo seu próximo ciclo de faturação." },
         { "q": "O que acontece aos minutos extra que não utilizo?", "a": "Os minutos extra nunca expiram enquanto a sua assinatura permanecer ativa — transitam para o seu próximo ciclo de faturação até serem utilizados." },
         { "q": "Que idiomas são suportados?", "a": "Suporte completo de interface em inglês, sueco, alemão, francês, espanhol, italiano, polaco, neerlandês, português, urdu e árabe." },
-        { "q": "Os meus dados são privados?", "a": "Sim — os seus dados de sessão são tratados de acordo com a nossa Política de Privacidade, conforme o RGPD, que especifica exatamente o que recolhemos e porquê." }
+        { "q": "Os meus dados são privados?", "a": "Sim — os seus dados de sessão são tratados de acordo com a nossa Política de Privacidade, redigida a pensar no RGPD, que especifica exatamente o que recolhemos e porquê." }
       ],
       "emailCapture": { "title": "Ainda Não Está Pronto?", "body": "Receba uma notificação quando novos idiomas forem lançados.", "placeholder": "O seu endereço de e-mail", "consent": "Concordo em ser contactado/a sobre o Global Reach e aceito a", "privacyLinkLabel": "Política de Privacidade", "successText": "Obrigado - enviaremos um e-mail quando o seu idioma estiver pronto.", "errorText": "Algo correu mal. Por favor, tente novamente.", "button": "Notificar-me" },
       "stickyBar": { "text": "Pronto para começar a colaborar?", "cta": "Começar" },
-      "cta": { "title": "Comece a Colaborar Hoje", "body": "Crie a sua conta — sem cartão necessário — e entre na sua primeira sala em minutos.", "trustLine": "Sem cartão necessário · Cancele quando quiser · Conforme o RGPD" }
+      "cta": { "title": "Comece a Colaborar Hoje", "body": "Crie a sua conta — sem cartão necessário — e entre na sua primeira sala em minutos.", "trustLine": "Sem cartão necessário · Cancele quando quiser · Concebido a pensar no RGPD" }
     },
     "portal": {
       "hero": { "label": "Acesso de Clientes", "h1": "Portal de Membros", "body": "Acesso seguro para clientes registados da Nordic Riser AB, para gerir a sua colaboração, documentos e comunicações." },

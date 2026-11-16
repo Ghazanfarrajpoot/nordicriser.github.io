@@ -109,7 +109,7 @@
         "title": "Cztery Rzeczy, Które Robimy Dobrze",
         "cards": [
           { "icon": "globe", "title": "Wielojęzyczne Platformy Internetowe", "body": "Strony produkcyjne zbudowane tak, by działać na każdym rynku, który obsługujesz. Poprawny hreflang, wsparcie RTL, zlokalizowana struktura treści — a nie maszynowo przetłumaczone poprawki po fakcie.", "builtWith": "Generowanie statycznych stron, dostawa CDN, czasy ładowania poniżej sekundy" },
-          { "icon": "lock", "title": "Bezpieczne Portale Klienta", "body": "Uwierzytelnione portale do wymiany dokumentów, śledzenia spraw i komunikacji z klientem. Dostęp oparty na rolach, szyfrowane przechowywanie danych, ślady audytu.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
+          { "icon": "lock", "title": "Bezpieczne Portale Klienta", "body": "Uwierzytelnione portale do wymiany dokumentów, śledzenia spraw i komunikacji z klientem. Dostęp oparty na rolach, reguły dostępu do danych egzekwowane po stronie serwera, prywatne przechowywanie plików i rejestrowanie aktywności w Portalu Członkowskim.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
           { "icon": "code", "title": "Produkty na Zamówienie i SaaS", "body": "Pełny rozwój produktu, od koncepcji do wdrożenia. Funkcje czasu rzeczywistego, rozliczenia subskrypcyjne, narzędzia administracyjne.", "seeLabel": "Zobacz:", "seeText": "Global Reach — nasze własne pokoje do nauki i pracy na żywo, z obecnością w czasie rzeczywistym i wspólnymi notatkami z sesji", "seeLink": "global-reach" },
           { "icon": "gear", "title": "Automatyzacja i Integracje", "body": "Połącz narzędzia, których już używasz. Wyeliminuj ręczne powielanie wprowadzania danych. Zautomatyzuj procesy, które pochłaniają tydzień pracy Twojego zespołu.", "builtWith": "API, webhooki, funkcje bezserwerowe" }
         ]
@@ -172,7 +172,7 @@
               },
               {
                 "category": "Uwierzytelnianie i Bezpieczeństwo",
-                "items": "Firebase Authentication, kontrola dostępu oparta na rolach, szyfrowane przechowywanie danych"
+                "items": "Firebase Authentication, kontrola dostępu oparta na rolach, reguły dostępu do danych egzekwowane po stronie serwera"
               }
             ]
           },
@@ -200,7 +200,7 @@
         ],
         "practices": {
           "category": "Praktyki",
-          "items": "Kontrola wersji Git, etapowe wdrożenia, przetwarzanie danych zgodne z RODO"
+          "items": "Kontrola wersji Git, etapowe wdrożenia, przetwarzanie danych projektowane z myślą o RODO"
         }
       },
       "whyUs": {
@@ -674,7 +674,7 @@
           "challengeLabel": "Wyzwanie",
           "challenge": "Dotarcie do przedsiębiorców w Europie, na Bliskim Wschodzie i w Azji Południowej w ich własnym języku.",
           "buildLabel": "Realizacja",
-          "build": "Jedenastojęzyczna strona produkcyjna ze strukturą URL dla każdego języka, wsparciem RTL dla arabskiego i urdu, pełnym pokryciem meta i Open Graph oraz ramami prywatności zgodnymi z RODO.",
+          "build": "Jedenastojęzyczna strona produkcyjna ze strukturą URL dla każdego języka, wsparciem RTL dla arabskiego i urdu, pełnym pokryciem meta i Open Graph oraz ramami prywatności zaprojektowanymi z myślą o RODO.",
           "stackLabel": "Technologia",
           "stack": ["Generowanie statyczne", "CDN", "Ustrukturyzowany routing i18n"],
           "resultLabel": "Rezultat",
@@ -1043,7 +1043,7 @@
         "body": "Dołącz do pokoi do nauki i pracy na żywo z obecnością w czasie rzeczywistym i wspólnymi notatkami sesji — stworzone do współpracy ponad strefami czasowymi i językami.",
         "ctaPrimary": "Rozpocznij",
         "ctaSecondary": "Zobacz, jak to działa",
-        "trustLine": "Bez karty płatniczej · Anuluj w każdej chwili · Zgodność z RODO",
+        "trustLine": "Bez karty płatniczej · Anuluj w każdej chwili · Zaprojektowane z myślą o RODO",
         "earlyAccessBadge": "Teraz we wczesnym dostępie",
         "mockCaption": "Wypróbuj — wpisz notatkę i zobacz, jak obecność się aktualizuje",
         "visual": {
@@ -1113,11 +1113,11 @@
         { "q": "Co się dzieje, gdy wykorzystam swoje miesięczne minuty?", "a": "Twoje pokoje i wspólne notatki pozostają w pełni dostępne. Rozpoczęcie nowej, mierzonej czasem sesji wymaga doładowania lub poczekania do następnego cyklu rozliczeniowego." },
         { "q": "Co się dzieje z niewykorzystanymi dodatkowymi minutami?", "a": "Dodatkowe minuty nigdy nie wygasają, dopóki Twoja subskrypcja jest aktywna — przechodzą na kolejny cykl rozliczeniowy, dopóki ich nie wykorzystasz." },
         { "q": "Jakie języki są obsługiwane?", "a": "Pełne wsparcie interfejsu w językach angielskim, szwedzkim, niemieckim, francuskim, hiszpańskim, włoskim, polskim, niderlandzkim, portugalskim, urdu i arabskim." },
-        { "q": "Czy moje dane są prywatne?", "a": "Tak — Twoje dane sesji są przetwarzane zgodnie z naszą Polityką prywatności, zgodną z RODO, która dokładnie określa, co gromadzimy i dlaczego." }
+        { "q": "Czy moje dane są prywatne?", "a": "Tak — Twoje dane sesji są przetwarzane zgodnie z naszą Polityką prywatności, napisaną z myślą o RODO, która dokładnie określa, co gromadzimy i dlaczego." }
       ],
       "emailCapture": { "title": "Jeszcze nie jesteś gotowy?", "body": "Otrzymaj powiadomienie, gdy pojawią się nowe języki.", "placeholder": "Twój adres e-mail", "consent": "Zgadzam się na kontakt w sprawie Global Reach i akceptuję", "privacyLinkLabel": "Politykę prywatności", "successText": "Dziękujemy - wyślemy e-mail, gdy Twój język będzie gotowy.", "errorText": "Coś poszło nie tak. Spróbuj ponownie.", "button": "Powiadom mnie" },
       "stickyBar": { "text": "Gotowy, aby zacząć współpracować?", "cta": "Rozpocznij" },
-      "cta": { "title": "Zacznij współpracować już dziś", "body": "Utwórz swoje konto — bez karty płatniczej — i dołącz do swojego pierwszego pokoju w kilka minut.", "trustLine": "Bez karty płatniczej · Anuluj w każdej chwili · Zgodność z RODO" }
+      "cta": { "title": "Zacznij współpracować już dziś", "body": "Utwórz swoje konto — bez karty płatniczej — i dołącz do swojego pierwszego pokoju w kilka minut.", "trustLine": "Bez karty płatniczej · Anuluj w każdej chwili · Zaprojektowane z myślą o RODO" }
     },
     "portal": {
       "hero": { "label": "Dostęp dla klientów", "h1": "Portal klienta", "body": "Bezpieczny dostęp dla zarejestrowanych klientów Nordic Riser AB do zarządzania zleceniem, dokumentami i komunikacją." },

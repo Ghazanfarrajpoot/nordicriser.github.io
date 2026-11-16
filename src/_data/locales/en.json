@@ -356,7 +356,7 @@
         "title": "Four Things We Do Well",
         "cards": [
           { "icon": "globe", "title": "Multilingual Web Platforms", "body": "Production websites built to work in every market you serve. Proper hreflang, RTL support, localised content structure — not machine-translated afterthoughts.", "builtWith": "Static site generation, CDN delivery, sub-second load times" },
-          { "icon": "lock", "title": "Secure Client Portals", "body": "Authenticated portals for document exchange, case tracking, and client communication. Role-based access, encrypted storage, audit trails.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
+          { "icon": "lock", "title": "Secure Client Portals", "body": "Authenticated portals for document exchange, case tracking, and client communication. Role-based access, server-enforced data rules, private file storage, and activity logging in the Member Portal.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
           { "icon": "code", "title": "Custom Products & SaaS", "body": "Full product development, from concept to launch. Real-time features, subscription billing, admin tooling.", "seeLabel": "See:", "seeText": "Global Reach — our own live study & work rooms platform", "seeLink": "global-reach" },
           { "icon": "gear", "title": "Automation & Integrations", "body": "Connect the tools you already use. Eliminate manual re-entry. Automate the workflows that eat your team's week.", "builtWith": "APIs, webhooks, serverless functions" }
         ]
@@ -408,7 +408,7 @@
               { "category": "Frontend", "items": "React, Vite, modern CSS" },
               { "category": "Backend & Data", "items": "Node.js, Firebase, Firestore" },
               { "category": "Infrastructure", "items": "Firebase Hosting, CDN delivery, automated SSL" },
-              { "category": "Auth & Security", "items": "Firebase Authentication, role-based access control, encrypted storage" }
+              { "category": "Auth & Security", "items": "Firebase Authentication, role-based access control, server-enforced data rules" }
             ]
           },
           {
@@ -421,7 +421,7 @@
             ]
           }
         ],
-        "practices": { "category": "Practices", "items": "Git version control, staged deployments, GDPR-compliant data handling" }
+        "practices": { "category": "Practices", "items": "Git version control, staged deployments, data handling built with GDPR in mind" }
       },
       "whyUs": {
         "label": "Why Nordic Riser",
@@ -1310,7 +1310,7 @@
           "challengeLabel": "Challenge",
           "challenge": "Reach entrepreneurs across Europe, the Middle East, and South Asia in their own languages.",
           "buildLabel": "Build",
-          "build": "Eleven-language production site with per-language URL structure, RTL support for Arabic and Urdu, full meta and Open Graph coverage, and a GDPR-compliant privacy framework.",
+          "build": "Eleven-language production site with per-language URL structure, RTL support for Arabic and Urdu, full meta and Open Graph coverage, and a privacy framework built with GDPR in mind.",
           "stackLabel": "Stack",
           "stack": ["Static generation", "CDN", "Structured i18n routing"],
           "resultLabel": "Result",
@@ -1498,7 +1498,7 @@
         "body": "Join live study and work rooms with real-time presence and shared session notes — built for people collaborating across time zones and languages.",
         "ctaPrimary": "Get Started",
         "ctaSecondary": "See How It Works",
-        "trustLine": "No credit card required · Cancel anytime · GDPR-compliant",
+        "trustLine": "No credit card required · Cancel anytime · Built with GDPR in mind",
         "earlyAccessBadge": "Now in Early Access",
         "mockCaption": "Try it — type a note and watch presence update",
         "visual": {
@@ -1568,11 +1568,11 @@
         { "q": "What happens when I use up my monthly minutes?", "a": "Your rooms and shared notes stay fully accessible. Starting a new timed session requires topping up or waiting for your next billing cycle." },
         { "q": "What happens to top-up minutes I don't use?", "a": "Top-up minutes never expire while your subscription stays active — they carry over to your next billing cycle until you use them." },
         { "q": "Which languages are supported?", "a": "Full interface support for English, Swedish, German, French, Spanish, Italian, Polish, Dutch, Portuguese, Urdu, and Arabic." },
-        { "q": "Is my data private?", "a": "Yes — your session data is handled under our GDPR-compliant Privacy Policy, which covers exactly what we collect and why." }
+        { "q": "Is my data private?", "a": "Yes — your session data is handled under our Privacy Policy, written with GDPR in mind, which covers exactly what we collect and why." }
       ],
       "emailCapture": { "title": "Not Ready Yet?", "body": "Get notified about new Global Reach features.", "placeholder": "Your email address", "consent": "I agree to be contacted about Global Reach and accept the", "privacyLinkLabel": "Privacy Policy", "successText": "Thanks - we'll email you when your language is ready.", "errorText": "Something went wrong. Please try again.", "button": "Notify Me" },
       "stickyBar": { "text": "Ready to start collaborating?", "cta": "Get Started" },
-      "cta": { "title": "Start Collaborating Today", "body": "Create your account — no credit card required — and join your first room in minutes.", "trustLine": "No credit card required · Cancel anytime · GDPR-compliant" }
+      "cta": { "title": "Start Collaborating Today", "body": "Create your account — no credit card required — and join your first room in minutes.", "trustLine": "No credit card required · Cancel anytime · Built with GDPR in mind" }
     },
     "portal": {
       "hero": { "label": "Client Access", "h1": "Member Portal", "body": "Secure access for registered Nordic Riser AB clients to manage their engagement, documents, and communications." },

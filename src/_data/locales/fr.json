@@ -109,7 +109,7 @@
         "title": "Quatre choses que nous faisons bien",
         "cards": [
           { "icon": "globe", "title": "Plateformes web multilingues", "body": "Des sites de production conçus pour fonctionner sur chaque marché que vous desservez. Hreflang correct, prise en charge RTL, structure de contenu localisée — pas des traductions automatiques après coup.", "builtWith": "Génération de site statique, diffusion CDN, temps de chargement inférieurs à la seconde" },
-          { "icon": "lock", "title": "Portails clients sécurisés", "body": "Portails authentifiés pour l'échange de documents, le suivi des dossiers et la communication client. Accès basé sur les rôles, stockage chiffré, pistes d'audit.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
+          { "icon": "lock", "title": "Portails clients sécurisés", "body": "Portails authentifiés pour l'échange de documents, le suivi des dossiers et la communication client. Accès par rôle, règles de données appliquées côté serveur, stockage privé des fichiers et journalisation de l’activité dans le Portail Membres.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
           { "icon": "code", "title": "Produits sur mesure & SaaS", "body": "Développement complet de produit, du concept au lancement. Fonctionnalités en temps réel, facturation par abonnement, outils d'administration.", "seeLabel": "Voir :", "seeText": "Global Reach — nos propres salles d’étude et de travail en direct, avec présence en temps réel et notes de session partagées", "seeLink": "global-reach" },
           { "icon": "gear", "title": "Automatisation & intégrations", "body": "Connectez les outils que vous utilisez déjà. Éliminez la ressaisie manuelle. Automatisez les tâches qui dévorent la semaine de votre équipe.", "builtWith": "API, webhooks, fonctions sans serveur" }
         ]
@@ -172,7 +172,7 @@
               },
               {
                 "category": "Authentification & sécurité",
-                "items": "Firebase Authentication, contrôle d'accès basé sur les rôles, stockage chiffré"
+                "items": "Firebase Authentication, contrôle d'accès basé sur les rôles, règles de données appliquées côté serveur"
               }
             ]
           },
@@ -200,7 +200,7 @@
         ],
         "practices": {
           "category": "Pratiques",
-          "items": "Contrôle de version Git, déploiements par étapes, traitement des données conforme au RGPD"
+          "items": "Contrôle de version Git, déploiements par étapes, traitement des données conçu en tenant compte du RGPD"
         }
       },
       "whyUs": {
@@ -674,7 +674,7 @@
           "challengeLabel": "Défi",
           "challenge": "Atteindre des entrepreneurs à travers l'Europe, le Moyen-Orient et l'Asie du Sud dans leur propre langue.",
           "buildLabel": "Réalisation",
-          "build": "Site de production en onze langues avec structure d'URL par langue, prise en charge RTL pour l'arabe et l'ourdou, couverture méta et Open Graph complète, et un cadre de confidentialité conforme au RGPD.",
+          "build": "Site de production en onze langues avec structure d'URL par langue, prise en charge RTL pour l'arabe et l'ourdou, couverture méta et Open Graph complète, et un cadre de confidentialité conçu en tenant compte du RGPD.",
           "stackLabel": "Technologie",
           "stack": ["Génération statique", "CDN", "Routage i18n structuré"],
           "resultLabel": "Résultat",
@@ -1043,7 +1043,7 @@
         "body": "Rejoignez des salons d'étude et de travail en direct avec présence en temps réel et notes de session partagées — pensé pour collaborer entre fuseaux horaires et langues.",
         "ctaPrimary": "Commencer",
         "ctaSecondary": "Voir comment ça marche",
-        "trustLine": "Sans carte bancaire · Résiliable à tout moment · Conforme RGPD",
+        "trustLine": "Sans carte bancaire · Résiliable à tout moment · Conçu en tenant compte du RGPD",
         "earlyAccessBadge": "Actuellement en accès anticipé",
         "mockCaption": "Essayez — tapez une note et observez la présence se mettre à jour",
         "visual": {
@@ -1113,11 +1113,11 @@
         { "q": "Que se passe-t-il lorsque j'ai épuisé mes minutes mensuelles ?", "a": "Vos salons et notes partagées restent entièrement accessibles. Démarrer une nouvelle session chronométrée nécessite de recharger votre compte ou d'attendre votre prochain cycle de facturation." },
         { "q": "Que se passe-t-il avec les minutes supplémentaires non utilisées ?", "a": "Les minutes supplémentaires n'expirent jamais tant que votre abonnement reste actif — elles sont reportées sur votre prochain cycle de facturation jusqu'à ce que vous les utilisiez." },
         { "q": "Quelles langues sont prises en charge ?", "a": "Interface complète en anglais, suédois, allemand, français, espagnol, italien, polonais, néerlandais, portugais, ourdou et arabe." },
-        { "q": "Mes données sont-elles privées ?", "a": "Oui — vos données de session sont traitées conformément à notre politique de confidentialité, conforme au RGPD, qui précise exactement ce que nous collectons et pourquoi." }
+        { "q": "Mes données sont-elles privées ?", "a": "Oui — vos données de session sont traitées conformément à notre politique de confidentialité, rédigée en tenant compte du RGPD, qui précise exactement ce que nous collectons et pourquoi." }
       ],
       "emailCapture": { "title": "Pas encore prêt ?", "body": "Soyez informé du lancement de nouvelles langues.", "placeholder": "Votre adresse e-mail", "consent": "J'accepte d'être contacté(e) à propos de Global Reach et j'accepte la", "privacyLinkLabel": "Politique de confidentialité", "successText": "Merci - nous vous enverrons un e-mail dès que votre langue sera disponible.", "errorText": "Une erreur s'est produite. Veuillez réessayer.", "button": "M'informer" },
       "stickyBar": { "text": "Prêt à commencer à collaborer ?", "cta": "Commencer" },
-      "cta": { "title": "Commencez à collaborer dès aujourd'hui", "body": "Créez votre compte — sans carte bancaire — et rejoignez votre premier salon en quelques minutes.", "trustLine": "Sans carte bancaire · Résiliable à tout moment · Conforme RGPD" }
+      "cta": { "title": "Commencez à collaborer dès aujourd'hui", "body": "Créez votre compte — sans carte bancaire — et rejoignez votre premier salon en quelques minutes.", "trustLine": "Sans carte bancaire · Résiliable à tout moment · Conçu en tenant compte du RGPD" }
     },
     "portal": {
       "hero": { "label": "Accès client", "h1": "Portail membre", "body": "Un accès sécurisé pour les clients enregistrés de Nordic Riser AB afin de gérer leur mission, leurs documents et leurs communications." },

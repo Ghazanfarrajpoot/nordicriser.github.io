@@ -109,7 +109,7 @@
         "title": "Vier Dinge, die wir besonders gut können",
         "cards": [
           { "icon": "globe", "title": "Mehrsprachige Webplattformen", "body": "Produktionswebsites, die in jedem Markt funktionieren, den Sie bedienen. Korrektes hreflang, RTL-Unterstützung, lokalisierte Inhaltsstruktur — keine nachträglich maschinenübersetzten Texte.", "builtWith": "Statische Seitengenerierung, CDN-Auslieferung, Ladezeiten unter einer Sekunde" },
-          { "icon": "lock", "title": "Sichere Kundenportale", "body": "Authentifizierte Portale für Dokumentenaustausch, Fallverfolgung und Kundenkommunikation. Rollenbasierter Zugriff, verschlüsselte Speicherung, Audit-Trails.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
+          { "icon": "lock", "title": "Sichere Kundenportale", "body": "Authentifizierte Portale für Dokumentenaustausch, Fallverfolgung und Kundenkommunikation. Rollenbasierter Zugriff, serverseitig durchgesetzte Datenregeln, privater Dateispeicher und Aktivitätsprotokollierung im Mitgliederportal.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
           { "icon": "code", "title": "Individuelle Produkte & SaaS", "body": "Vollständige Produktentwicklung, vom Konzept bis zum Launch. Echtzeitfunktionen, Abonnement-Abrechnung, Admin-Tools.", "seeLabel": "Siehe:", "seeText": "Global Reach — unsere eigenen Live-Räume zum Lernen und Arbeiten, mit Echtzeit-Präsenz und gemeinsamen Sitzungsnotizen", "seeLink": "global-reach" },
           { "icon": "gear", "title": "Automatisierung & Integrationen", "body": "Verbinden Sie die Tools, die Sie bereits nutzen. Eliminieren Sie manuelle Doppelerfassung. Automatisieren Sie die Arbeitsabläufe, die die Woche Ihres Teams auffressen.", "builtWith": "APIs, Webhooks, serverlose Funktionen" }
         ]
@@ -172,7 +172,7 @@
               },
               {
                 "category": "Auth & Sicherheit",
-                "items": "Firebase Authentication, rollenbasierte Zugriffskontrolle, verschlüsselte Speicherung"
+                "items": "Firebase Authentication, rollenbasierte Zugriffskontrolle, serverseitig durchgesetzte Datenregeln"
               }
             ]
           },
@@ -200,7 +200,7 @@
         ],
         "practices": {
           "category": "Praktiken",
-          "items": "Git-Versionskontrolle, gestufte Deployments, DSGVO-konforme Datenverarbeitung"
+          "items": "Git-Versionskontrolle, gestufte Deployments, Datenverarbeitung mit Blick auf die DSGVO"
         }
       },
       "whyUs": {
@@ -674,7 +674,7 @@
           "challengeLabel": "Herausforderung",
           "challenge": "Unternehmerinnen und Unternehmer in Europa, dem Nahen Osten und Südasien in ihrer eigenen Sprache erreichen.",
           "buildLabel": "Umsetzung",
-          "build": "Elfsprachige Produktionswebsite mit sprachspezifischer URL-Struktur, RTL-Unterstützung für Arabisch und Urdu, vollständiger Meta- und Open-Graph-Abdeckung und einem DSGVO-konformen Datenschutzrahmen.",
+          "build": "Elfsprachige Produktionswebsite mit sprachspezifischer URL-Struktur, RTL-Unterstützung für Arabisch und Urdu, vollständiger Meta- und Open-Graph-Abdeckung und einem Datenschutzrahmen, der mit Blick auf die DSGVO entwickelt wurde.",
           "stackLabel": "Technologie",
           "stack": ["Statische Generierung", "CDN", "Strukturiertes i18n-Routing"],
           "resultLabel": "Ergebnis",
@@ -1043,7 +1043,7 @@
         "body": "Nehmen Sie an Live-Lern- und Arbeitsräumen mit Echtzeit-Präsenzanzeige und gemeinsamen Sitzungsnotizen teil — für die Zusammenarbeit über Zeitzonen und Sprachen hinweg.",
         "ctaPrimary": "Jetzt starten",
         "ctaSecondary": "So funktioniert es",
-        "trustLine": "Keine Kreditkarte nötig · Jederzeit kündbar · DSGVO-konform",
+        "trustLine": "Keine Kreditkarte nötig · Jederzeit kündbar · Mit Blick auf die DSGVO entwickelt",
         "earlyAccessBadge": "Jetzt im Early Access",
         "mockCaption": "Jetzt ausprobieren — Notiz eingeben und Präsenz live sehen",
         "visual": {
@@ -1113,11 +1113,11 @@
         { "q": "Was passiert, wenn meine monatlichen Minuten aufgebraucht sind?", "a": "Ihre Räume und gemeinsamen Notizen bleiben vollständig zugänglich. Um eine neue zeitlich begrenzte Sitzung zu starten, müssen Sie aufladen oder auf Ihren nächsten Abrechnungszeitraum warten." },
         { "q": "Was passiert mit nicht genutzten zusätzlichen Minuten?", "a": "Zusätzliche Minuten verfallen nicht, solange Ihr Abonnement aktiv bleibt — sie werden in den nächsten Abrechnungszeitraum übertragen, bis Sie sie nutzen." },
         { "q": "Welche Sprachen werden unterstützt?", "a": "Volle Oberflächenunterstützung für Englisch, Schwedisch, Deutsch, Französisch, Spanisch, Italienisch, Polnisch, Niederländisch, Portugiesisch, Urdu und Arabisch." },
-        { "q": "Sind meine Daten privat?", "a": "Ja — Ihre Sitzungsdaten werden gemäß unserer DSGVO-konformen Datenschutzerklärung behandelt, die genau festlegt, was wir erheben und warum." }
+        { "q": "Sind meine Daten privat?", "a": "Ja — Ihre Sitzungsdaten werden gemäß unserer Datenschutzerklärung behandelt, die mit Blick auf die DSGVO verfasst ist und genau festlegt, was wir erheben und warum." }
       ],
       "emailCapture": { "title": "Noch nicht bereit?", "body": "Lassen Sie sich benachrichtigen, wenn neue Sprachen verfügbar sind.", "placeholder": "Ihre E-Mail-Adresse", "consent": "Ich stimme zu, bezüglich Global Reach kontaktiert zu werden, und akzeptiere die", "privacyLinkLabel": "Datenschutzerklärung", "successText": "Danke – wir benachrichtigen Sie per E-Mail, sobald Ihre Sprache verfügbar ist.", "errorText": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.", "button": "Benachrichtigen" },
       "stickyBar": { "text": "Bereit, mit der Zusammenarbeit zu beginnen?", "cta": "Jetzt starten" },
-      "cta": { "title": "Beginnen Sie noch heute", "body": "Erstellen Sie Ihr Konto — keine Kreditkarte nötig — und treten Sie in wenigen Minuten Ihrem ersten Raum bei.", "trustLine": "Keine Kreditkarte nötig · Jederzeit kündbar · DSGVO-konform" }
+      "cta": { "title": "Beginnen Sie noch heute", "body": "Erstellen Sie Ihr Konto — keine Kreditkarte nötig — und treten Sie in wenigen Minuten Ihrem ersten Raum bei.", "trustLine": "Keine Kreditkarte nötig · Jederzeit kündbar · Mit Blick auf die DSGVO entwickelt" }
     },
     "portal": {
       "hero": { "label": "Kundenzugang", "h1": "Mitgliederportal", "body": "Sicherer Zugang für registrierte Mandantinnen und Mandanten von Nordic Riser AB zur Verwaltung ihres Mandats, ihrer Dokumente und ihrer Kommunikation." },
