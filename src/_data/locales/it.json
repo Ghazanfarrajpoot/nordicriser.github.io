@@ -126,13 +126,13 @@
         "label": "Lavori Selezionati",
         "title": "Cosa Abbiamo Costruito",
         "items": [
-          { "type": "Prodotto SaaS (Interno)", "id": "nr-bos", "title": "NR-BOS", "featured": true, "featuredLabel": "Prodotto di Punta", "oneLiner": "Consegna dei progetti, operazioni sul campo e reportistica per i clienti — tutto su un'unica piattaforma, sviluppata e concessa in licenza da Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "Prodotto SaaS (Interno)", "id": "global-reach", "title": "Global Reach", "oneLiner": "Stanze di studio e lavoro dal vivo con presenza in tempo reale e note di sessione condivise, fatturate al minuto.", "link": "global-reach" },
-          { "type": "Portale Clienti Sicuro", "id": "member-portal", "title": "Portale Membri Nordic Riser", "oneLiner": "Un portale autenticato per lo scambio di documenti, il monitoraggio delle pratiche, la messaggistica sicura e i pagamenti.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
-          { "type": "Piattaforma di Marketing Multilingue", "id": "nordicriser-com", "title": "nordicriser.com", "oneLiner": "Un sito di produzione in undici lingue con supporto RTL, copertura meta completa e URL puliti per ogni lingua.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
-          { "type": "App Sanitaria", "id": "4edoctor", "title": "App di Telemedicina", "oneLiner": "Una piattaforma di telemedicina costruita da noi da zero — consulti video in HD, prenotazione degli appuntamenti e chat durante la chiamata — pronta per essere personalizzata per qualsiasi marchio sanitario.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
-          { "type": "App di Evasione Farmaceutica", "id": "4ezone-pharmacy", "title": "Piattaforma Farmaceutica", "oneLiner": "Un sistema di evasione farmaceutica costruito da noi che collega le prescrizioni all'elaborazione e alla consegna, pronto per essere personalizzato per qualsiasi operatore.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
-          { "type": "App di Consegna (Interna)", "id": "delivery-app", "title": "On-Demand Delivery App", "oneLiner": "Una piattaforma di consegna personalizzabile per ordini, dispacciamento e tracciamento dei fattorini, adatta a qualsiasi attività.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" }
+          { "type": "Prodotto SaaS (Interno)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Prodotto di Punta", "oneLiner": "Consegna dei progetti, operazioni sul campo e reportistica per i clienti — tutto su un'unica piattaforma, sviluppata e concessa in licenza da Nordic Riser AB.", "link": "work/nr-bos" },
+          { "type": "Prodotto SaaS (Interno)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Stanze di studio e lavoro dal vivo con presenza in tempo reale e note di sessione condivise, fatturate al minuto.", "link": "global-reach" },
+          { "type": "Portale Clienti Sicuro (Interno)", "id": "member-portal", "title": "Portale Membri Nordic Riser", "oneLiner": "Un portale autenticato per lo scambio di documenti, il monitoraggio delle pratiche, la messaggistica sicura e i pagamenti.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
+          { "type": "Piattaforma di Marketing Multilingue (Interna)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Un sito di produzione in undici lingue con supporto RTL, copertura meta completa e URL puliti per ogni lingua.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
+          { "type": "App Sanitaria (Interna)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Una piattaforma di telemedicina costruita da noi da zero — consulti video in HD, prenotazione degli appuntamenti e chat durante la chiamata — pronta per essere personalizzata per qualsiasi marchio sanitario.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
+          { "type": "Piattaforma di Evasione Farmaceutica (Interna)", "id": "4ezone-pharmacy", "title": "%%products.items.5.name%%", "oneLiner": "Un sistema di evasione farmaceutica costruito da noi che collega le prescrizioni all'elaborazione e alla consegna, pronto per essere personalizzato per qualsiasi operatore.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
+          { "type": "App di Consegna (Interna)", "id": "delivery-app", "title": "App di consegna su richiesta", "oneLiner": "Una piattaforma di consegna personalizzabile per ordini, dispacciamento e tracciamento dei fattorini, adatta a qualsiasi attività.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" }
         ],
         "cta": "Vedi Tutti i Lavori",
         "ctaLink": "work"
@@ -633,7 +633,7 @@
         {
           "type": "Prodotto SaaS (Interno)",
           "id": "nr-bos",
-          "title": "NR-BOS",
+          "title": "%%products.items.0.name%%",
           "featured": true,
           "featuredLabel": "Prodotto di Punta",
           "challengeLabel": "Sfida",
@@ -650,7 +650,7 @@
         {
           "type": "Prodotto SaaS (Interno)",
           "id": "global-reach",
-          "title": "Global Reach",
+          "title": "%%products.items.1.name%%",
           "challengeLabel": "Sfida",
           "challenge": "I team che lavorano oltre confine hanno bisogno di uno spazio condiviso per studiare o lavorare insieme dal vivo, senza prenotare una chiamata o usare strumenti separati.",
           "buildLabel": "Realizzazione",
@@ -663,7 +663,7 @@
           "linkLabel": "Vedi il Prodotto"
         },
         {
-          "type": "Portale Clienti Sicuro",
+          "type": "Portale Clienti Sicuro (Interno)",
           "id": "member-portal",
           "title": "Portale Membri Nordic Riser",
           "challengeLabel": "Sfida",
@@ -676,9 +676,9 @@
           "result": "Live su portal.nordicriser.com con dominio personalizzato e SSL automatico."
         },
         {
-          "type": "Piattaforma di Marketing Multilingue",
+          "type": "Piattaforma di Marketing Multilingue (Interna)",
           "id": "nordicriser-com",
-          "title": "nordicriser.com",
+          "title": "%%products.items.3.name%%",
           "challengeLabel": "Sfida",
           "challenge": "Raggiungere imprenditori in Europa, Medio Oriente e Asia Meridionale nella loro lingua.",
           "buildLabel": "Realizzazione",
@@ -689,9 +689,9 @@
           "result": "Ogni pagina disponibile in 11 lingue con URL puliti e indicizzabili."
         },
         {
-          "type": "App Sanitaria",
+          "type": "App Sanitaria (Interna)",
           "id": "4edoctor",
-          "title": "App di Telemedicina",
+          "title": "%%products.items.4.name%%",
           "challengeLabel": "Sfida",
           "challenge": "I pazienti avevano bisogno di accedere a consulti medici — con medici, psicologi e infermieri — senza le attese e la frizione delle visite in presenza.",
           "buildLabel": "Realizzazione",
@@ -702,9 +702,9 @@
           "result": "Una piattaforma di telemedicina funzionante, costruita interamente da noi e pronta per essere personalizzata per qualsiasi marchio sanitario."
         },
         {
-          "type": "App di Evasione Farmaceutica",
+          "type": "Piattaforma di Evasione Farmaceutica (Interna)",
           "id": "4ezone-pharmacy",
-          "title": "Piattaforma Farmaceutica",
+          "title": "%%products.items.5.name%%",
           "challengeLabel": "Sfida",
           "challenge": "I pazienti con una prescrizione medica non avevano un modo rapido per farsi preparare e consegnare i farmaci.",
           "buildLabel": "Realizzazione",
@@ -717,7 +717,7 @@
         {
           "type": "App di Consegna (Interna)",
           "id": "delivery-app",
-          "title": "On-Demand Delivery App",
+          "title": "App di consegna su richiesta",
           "challengeLabel": "Sfida",
           "challenge": "Aziende di settori diversi avevano bisogno di consegne on-demand — ordini, dispacciamento e tracciamento in tempo reale — senza costruire un'infrastruttura logistica da zero.",
           "buildLabel": "Realizzazione",

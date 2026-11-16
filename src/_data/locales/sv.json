@@ -372,13 +372,13 @@
         "label": "Utvalt arbete",
         "title": "Vad vi har byggt",
         "items": [
-          { "type": "SaaS-produkt (internt byggd)", "id": "nr-bos", "title": "NR-BOS", "featured": true, "featuredLabel": "Flaggskeppsprodukt", "oneLiner": "Projektleverans, fältarbete och kundrapportering — allt på en plattform, byggd och licensierad av Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS-produkt (internt byggd)", "id": "global-reach", "title": "Global Reach", "oneLiner": "Direktsända studie- och arbetsrum med realtidsnärvaro och delade sessionsanteckningar, debiterat per minut.", "link": "global-reach" },
-          { "type": "Säker kundportal", "id": "member-portal", "title": "Nordic Riser Medlemsportal", "oneLiner": "En autentiserad portal för dokumentutbyte, ärendespårning, säker meddelandehantering och betalningar.", "link": "work", "linkLabel": "Se i vårt arbete →" },
-          { "type": "Flerspråkig marknadsföringsplattform", "id": "nordicriser-com", "title": "nordicriser.com", "oneLiner": "En elvaspråkig produktionswebbplats med RTL-stöd, fullständig metatäckning och rena URL:er per språk.", "link": "work", "linkLabel": "Se i vårt arbete →" },
-          { "type": "Vårdapp", "id": "4edoctor", "title": "Telemedicinapp", "oneLiner": "En telemedicinplattform vi byggt från grunden — HD-videokonsultationer, tidsbokning och chatt under samtal — redo att anpassas för valfritt vårdvarumärke.", "link": "work", "linkLabel": "Se i vårt arbete →" },
-          { "type": "Apoteksexpedieringsapp", "id": "4ezone-pharmacy", "title": "Apoteksplattform", "oneLiner": "Ett apoteksexpedieringssystem vi byggt som kopplar recept till hantering och leverans, redo att anpassas för valfri aktör.", "link": "work", "linkLabel": "Se i vårt arbete →" },
-          { "type": "Leveransapp (internt byggd)", "id": "delivery-app", "title": "On-Demand Delivery App", "oneLiner": "En anpassningsbar leveransplattform för beställning, dirigering och budspårning för alla typer av företag.", "link": "work", "linkLabel": "Se i vårt arbete →" }
+          { "type": "SaaS-produkt (internt byggd)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Flaggskeppsprodukt", "oneLiner": "Projektleverans, fältarbete och kundrapportering — allt på en plattform, byggd och licensierad av Nordic Riser AB.", "link": "work/nr-bos" },
+          { "type": "SaaS-produkt (internt byggd)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Direktsända studie- och arbetsrum med realtidsnärvaro och delade sessionsanteckningar, debiterat per minut.", "link": "global-reach" },
+          { "type": "Säker kundportal (internt byggd)", "id": "member-portal", "title": "Nordic Riser Medlemsportal", "oneLiner": "En autentiserad portal för dokumentutbyte, ärendespårning, säker meddelandehantering och betalningar.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Flerspråkig marknadsföringsplattform (internt byggd)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "En elvaspråkig produktionswebbplats med RTL-stöd, fullständig metatäckning och rena URL:er per språk.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Vårdapp (internt byggd)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "En telemedicinplattform vi byggt från grunden — HD-videokonsultationer, tidsbokning och chatt under samtal — redo att anpassas för valfritt vårdvarumärke.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Plattform för apoteksexpediering (internt byggd)", "id": "4ezone-pharmacy", "title": "%%products.items.5.name%%", "oneLiner": "Ett apoteksexpedieringssystem vi byggt som kopplar recept till hantering och leverans, redo att anpassas för valfri aktör.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Leveransapp (internt byggd)", "id": "delivery-app", "title": "Leveransapp på begäran", "oneLiner": "En anpassningsbar leveransplattform för beställning, dirigering och budspårning för alla typer av företag.", "link": "work", "linkLabel": "Se i vårt arbete →" }
         ],
         "cta": "Se allt arbete",
         "ctaLink": "work"
@@ -1645,7 +1645,7 @@
         {
           "type": "SaaS-produkt (internt byggd)",
           "id": "nr-bos",
-          "title": "NR-BOS",
+          "title": "%%products.items.0.name%%",
           "featured": true,
           "featuredLabel": "Flaggskeppsprodukt",
           "challengeLabel": "Utmaning",
@@ -1662,7 +1662,7 @@
         {
           "type": "SaaS-produkt (internt byggd)",
           "id": "global-reach",
-          "title": "Global Reach",
+          "title": "%%products.items.1.name%%",
           "challengeLabel": "Utmaning",
           "challenge": "Team som arbetar över gränser behöver ett delat utrymme för att studera eller arbeta tillsammans live, utan att boka ett samtal eller växla mellan separata verktyg.",
           "buildLabel": "Bygge",
@@ -1675,7 +1675,7 @@
           "linkLabel": "Se produkten"
         },
         {
-          "type": "Säker kundportal",
+          "type": "Säker kundportal (internt byggd)",
           "id": "member-portal",
           "title": "Nordic Riser Medlemsportal",
           "challengeLabel": "Utmaning",
@@ -1688,9 +1688,9 @@
           "result": "Live på portal.nordicriser.com med egen domän och automatisk SSL."
         },
         {
-          "type": "Flerspråkig marknadsföringsplattform",
+          "type": "Flerspråkig marknadsföringsplattform (internt byggd)",
           "id": "nordicriser-com",
-          "title": "nordicriser.com",
+          "title": "%%products.items.3.name%%",
           "challengeLabel": "Utmaning",
           "challenge": "Nå entreprenörer i Europa, Mellanöstern och Sydasien på deras egna språk.",
           "buildLabel": "Bygge",
@@ -1701,9 +1701,9 @@
           "result": "Varje sida tillgänglig på 11 språk med rena, indexerbara URL:er."
         },
         {
-          "type": "Vårdapp",
+          "type": "Vårdapp (internt byggd)",
           "id": "4edoctor",
-          "title": "Telemedicinapp",
+          "title": "%%products.items.4.name%%",
           "challengeLabel": "Utmaning",
           "challenge": "Patienter behövde tillgång till läkarkonsultationer — med läkare, psykologer och sjuksköterskor — utan väntetider och friktion från fysiska besök.",
           "buildLabel": "Bygge",
@@ -1714,9 +1714,9 @@
           "result": "En fungerande telemedicinplattform, byggd från grunden av oss och redo att anpassas för valfritt vårdvarumärke."
         },
         {
-          "type": "Apoteksexpedieringsapp",
+          "type": "Plattform för apoteksexpediering (internt byggd)",
           "id": "4ezone-pharmacy",
-          "title": "Apoteksplattform",
+          "title": "%%products.items.5.name%%",
           "challengeLabel": "Utmaning",
           "challenge": "Patienter med recept från läkare hade inget snabbt sätt att få sin medicin expedierad och levererad.",
           "buildLabel": "Bygge",
@@ -1729,7 +1729,7 @@
         {
           "type": "Leveransapp (internt byggd)",
           "id": "delivery-app",
-          "title": "On-Demand Delivery App",
+          "title": "Leveransapp på begäran",
           "challengeLabel": "Utmaning",
           "challenge": "Företag inom olika branscher behövde leverans on-demand — beställning, dirigering och realtidsspårning — utan att bygga logistikinfrastruktur från grunden.",
           "buildLabel": "Bygge",

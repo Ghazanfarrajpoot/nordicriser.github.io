@@ -374,12 +374,12 @@
         "label": "Selected Work",
         "title": "What We've Built",
         "items": [
-          { "type": "SaaS Product (In-House)", "id": "nr-bos", "title": "NR-BOS", "featured": true, "featuredLabel": "Flagship Product", "oneLiner": "Project delivery, field operations, and client reporting — run from one platform, built and licensed by Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS Product (In-House)", "id": "global-reach", "title": "Global Reach", "oneLiner": "Live study and work rooms with real-time presence and shared session notes, billed by the minute.", "link": "global-reach" },
+          { "type": "SaaS Product (In-House)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Flagship Product", "oneLiner": "Project delivery, field operations, and client reporting — run from one platform, built and licensed by Nordic Riser AB.", "link": "work/nr-bos" },
+          { "type": "SaaS Product (In-House)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live study and work rooms with real-time presence and shared session notes, billed by the minute.", "link": "global-reach" },
           { "type": "Secure Client Portal (In-House)", "id": "member-portal", "title": "Nordic Riser Member Portal", "oneLiner": "An authenticated portal for document exchange, case tracking, secure messaging, and payments.", "link": "work", "linkLabel": "See in our work →" },
-          { "type": "Multilingual Marketing Platform (In-House)", "id": "nordicriser-com", "title": "nordicriser.com", "oneLiner": "An eleven-language production site with RTL support, full meta coverage, and clean per-language URLs.", "link": "work", "linkLabel": "See in our work →" },
-          { "type": "Healthcare App", "id": "4edoctor", "title": "Telemedicine App", "oneLiner": "A telemedicine platform we built end-to-end — HD video consultations, appointment booking, and in-call chat — ready to customize for any healthcare brand.", "link": "work", "linkLabel": "See in our work →" },
-          { "type": "Pharmacy Fulfillment App", "id": "4ezone-pharmacy", "title": "Pharmacy Platform", "oneLiner": "A pharmacy fulfillment system we built linking prescriptions to processing and delivery, ready to customize for any operator.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Multilingual Marketing Platform (In-House)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "An eleven-language production site with RTL support, full meta coverage, and clean per-language URLs.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Healthcare App (In-House)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "A telemedicine platform we built end-to-end — HD video consultations, appointment booking, and in-call chat — ready to customize for any healthcare brand.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Pharmacy Fulfillment Platform (In-House)", "id": "4ezone-pharmacy", "title": "%%products.items.5.name%%", "oneLiner": "A pharmacy fulfillment system we built linking prescriptions to processing and delivery, ready to customize for any operator.", "link": "work", "linkLabel": "See in our work →" },
           { "type": "Delivery App (In-House)", "id": "delivery-app", "title": "On-Demand Delivery App", "oneLiner": "A customizable delivery platform covering ordering, dispatch, and rider tracking for any business.", "link": "work", "linkLabel": "See in our work →" }
         ],
         "cta": "See All Work",
@@ -1270,7 +1270,7 @@
         {
           "type": "SaaS Product (In-House)",
           "id": "nr-bos",
-          "title": "NR-BOS",
+          "title": "%%products.items.0.name%%",
           "featured": true,
           "featuredLabel": "Flagship Product",
           "challengeLabel": "Challenge",
@@ -1287,7 +1287,7 @@
         {
           "type": "SaaS Product (In-House)",
           "id": "global-reach",
-          "title": "Global Reach",
+          "title": "%%products.items.1.name%%",
           "challengeLabel": "Challenge",
           "challenge": "Teams working across borders need a shared space to study or work together live, without booking a call or juggling separate tools.",
           "buildLabel": "Build",
@@ -1315,7 +1315,7 @@
         {
           "type": "Multilingual Marketing Platform (In-House)",
           "id": "nordicriser-com",
-          "title": "nordicriser.com",
+          "title": "%%products.items.3.name%%",
           "challengeLabel": "Challenge",
           "challenge": "Reach entrepreneurs across Europe, the Middle East, and South Asia in their own languages.",
           "buildLabel": "Build",
@@ -1326,9 +1326,9 @@
           "result": "Every page available in 11 languages with clean, indexable URLs."
         },
         {
-          "type": "Healthcare App",
+          "type": "Healthcare App (In-House)",
           "id": "4edoctor",
-          "title": "Telemedicine App",
+          "title": "%%products.items.4.name%%",
           "challengeLabel": "Challenge",
           "challenge": "Patients needed access to medical consultations — with doctors, psychologists, and nurses — without the wait times and friction of in-person visits.",
           "buildLabel": "Build",
@@ -1339,9 +1339,9 @@
           "result": "A working telemedicine platform, built end-to-end by us and ready to customize for any healthcare brand."
         },
         {
-          "type": "Pharmacy Fulfillment App",
+          "type": "Pharmacy Fulfillment Platform (In-House)",
           "id": "4ezone-pharmacy",
-          "title": "Pharmacy Platform",
+          "title": "%%products.items.5.name%%",
           "challengeLabel": "Challenge",
           "challenge": "Patients with a doctor's prescription had no fast way to get their medicine fulfilled and delivered.",
           "buildLabel": "Build",
