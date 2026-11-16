@@ -98,8 +98,8 @@
       },
       "proofBar": {
         "stats": [
-          { "value": "11", "label": "Języków Wdrożonych w Produkcji" },
-          { "value": "5", "label": "Produkty Zbudowane Wewnętrznie" },
+          { "value": "%%languagesShipped%%", "label": "Języków Wdrożonych w Produkcji" },
+          { "value": "%%products.count%%", "label": "Produktów Zbudowanych Wewnętrznie" },
           { "value": "Stockholm, Sweden", "label": "Siedziba w" },
           { "value": "Projekt → Budowa → Wsparcie", "label": "Podejście" }
         ]

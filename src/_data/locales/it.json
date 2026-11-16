@@ -98,8 +98,8 @@
       },
       "proofBar": {
         "stats": [
-          { "value": "11", "label": "Lingue Rilasciate in Produzione" },
-          { "value": "5", "label": "Prodotti Sviluppati Internamente" },
+          { "value": "%%languagesShipped%%", "label": "Lingue Rilasciate in Produzione" },
+          { "value": "%%products.count%%", "label": "Prodotti Sviluppati Internamente" },
           { "value": "Stoccolma, Svezia", "label": "Sede a" },
           { "value": "Design → Sviluppo → Supporto", "label": "Approccio" }
         ]

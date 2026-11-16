@@ -98,8 +98,8 @@
       },
       "proofBar": {
         "stats": [
-          { "value": "11", "label": "لغة صدرت في الإنتاج" },
-          { "value": "5", "label": "منتجات مبنية داخلياً" },
+          { "value": "%%languagesShipped%%", "label": "لغة صدرت في الإنتاج" },
+          { "value": "%%products.count%%", "label": "منتجات مبنية داخلياً" },
           { "value": "ستوكهولم، السويد", "label": "مقرنا في" },
           { "value": "تصميم ← بناء ← دعم", "label": "نهجنا" }
         ]

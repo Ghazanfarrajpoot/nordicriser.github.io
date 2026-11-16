@@ -98,8 +98,8 @@
       },
       "proofBar": {
         "stats": [
-          { "value": "11", "label": "Talen Uitgebracht in Productie" },
-          { "value": "5", "label": "Intern Gebouwde Producten" },
+          { "value": "%%languagesShipped%%", "label": "Talen Uitgebracht in Productie" },
+          { "value": "%%products.count%%", "label": "Intern Gebouwde Producten" },
           { "value": "Stockholm, Sweden", "label": "Gevestigd in" },
           { "value": "Ontwerp → Bouw → Support", "label": "Aanpak" }
         ]

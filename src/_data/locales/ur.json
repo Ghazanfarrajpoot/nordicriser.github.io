@@ -98,8 +98,8 @@
       },
       "proofBar": {
         "stats": [
-          { "value": "11", "label": "زبانیں پروڈکشن میں جاری" },
-          { "value": "5", "label": "خود تیار کردہ مصنوعات" },
+          { "value": "%%languagesShipped%%", "label": "زبانیں پروڈکشن میں جاری" },
+          { "value": "%%products.count%%", "label": "خود تیار کردہ مصنوعات" },
           { "value": "Stockholm, Sweden", "label": "قائم مقام" },
           { "value": "ڈیزائن → تعمیر → معاونت", "label": "طریقہ کار" }
         ]

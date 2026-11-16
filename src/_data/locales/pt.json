@@ -98,8 +98,8 @@
       },
       "proofBar": {
         "stats": [
-          { "value": "11", "label": "Idiomas Lançados em Produção" },
-          { "value": "5", "label": "Produtos Construídos Internamente" },
+          { "value": "%%languagesShipped%%", "label": "Idiomas Lançados em Produção" },
+          { "value": "%%products.count%%", "label": "Produtos Construídos Internamente" },
           { "value": "Stockholm, Sweden", "label": "Sediada em" },
           { "value": "Design → Construção → Suporte", "label": "Abordagem" }
         ]

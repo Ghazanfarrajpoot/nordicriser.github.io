@@ -343,8 +343,8 @@
       },
       "proofBar": {
         "stats": [
-          { "value": "11", "label": "Språk levererade i produktion" },
-          { "value": "5", "label": "Produkter byggda internt" },
+          { "value": "%%languagesShipped%%", "label": "Språk levererade i produktion" },
+          { "value": "%%products.count%%", "label": "Produkter byggda internt" },
           { "value": "Stockholm, Sweden", "label": "Baserade i" },
           { "value": "Design → Bygg → Support", "label": "Arbetssätt" }
         ]

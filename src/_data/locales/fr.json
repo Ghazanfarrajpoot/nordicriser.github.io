@@ -98,8 +98,8 @@
       },
       "proofBar": {
         "stats": [
-          { "value": "11", "label": "Langues déployées en production" },
-          { "value": "5", "label": "Produits développés en interne" },
+          { "value": "%%languagesShipped%%", "label": "Langues déployées en production" },
+          { "value": "%%products.count%%", "label": "Produits développés en interne" },
           { "value": "Stockholm, Suède", "label": "Basés à" },
           { "value": "Conception → Développement → Support", "label": "Approche" }
         ]

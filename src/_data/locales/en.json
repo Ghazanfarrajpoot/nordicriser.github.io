@@ -345,8 +345,8 @@
       },
       "proofBar": {
         "stats": [
-          { "value": "11", "label": "Languages Shipped in Production" },
-          { "value": "5", "label": "Products Built In-House" },
+          { "value": "%%languagesShipped%%", "label": "Languages Shipped in Production" },
+          { "value": "%%products.count%%", "label": "Products Built In-House" },
           { "value": "Stockholm, Sweden", "label": "Based In" },
           { "value": "Design → Build → Support", "label": "Approach" }
         ]
