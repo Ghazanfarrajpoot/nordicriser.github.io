@@ -134,7 +134,7 @@ html.nrb2-lock { overflow: hidden; }
   transition: color 0.2s, border-color 0.2s, background 0.2s;
 }
 .nrb2-close svg { width: 18px; height: 18px; }
-.nrb2-close:hover { color: #fff; border-color: var(--gold); background: rgba(201, 169, 110, 0.12); }
+.nrb2-close:hover { color: #fff; border-color: var(--gold); background: rgba(201, 168, 76, 0.12); }
 .nrb2-close:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 
 .nrb2-layout { display: grid; grid-template-columns: 220px 1fr; min-height: 0; flex: 1; }
@@ -155,7 +155,7 @@ html.nrb2-lock { overflow: hidden; }
 .nrb2-tab:focus-visible { outline: 2px solid var(--gold); outline-offset: -2px; }
 .nrb2-tab__label { font-size: 13.5px; font-weight: 500; }
 .nrb2-tab[aria-selected="true"] {
-  color: #fff; background: rgba(201, 169, 110, 0.1); border-inline-start-color: var(--gold);
+  color: #fff; background: rgba(201, 168, 76, 0.1); border-inline-start-color: var(--gold);
 }
 
 .nrb2-stage { overflow-y: auto; padding: 26px 28px 32px; min-width: 0; background: var(--paper); }
