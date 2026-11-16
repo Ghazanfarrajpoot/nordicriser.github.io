@@ -14,7 +14,18 @@
     "emailLabel": "E-post",
     "websiteLabel": "Webbplats",
     "home": "Hem",
-    "pricingOnRequest": "Pris på förfrågan"
+    "pricingOnRequest": "Pris på förfrågan",
+    "company": {
+      "orgNr": "Org.nr",
+      "vat": "Momsreg.nr",
+      "address": "Adress",
+      "phone": "Telefon",
+      "email": "E-post",
+      "registration": "Registrering",
+      "country": "Sverige",
+      "cityCountry": "Stockholm, Sverige",
+      "termsIntro": "Dessa villkor är ett avtal mellan dig och:"
+    }
   },
   "nav": {
     "home": "Hem",
@@ -31,13 +42,11 @@
   "footer": {
     "brandBlurb": "Nordic Riser AB är en Stockholmsbaserad mjukvarustudio som bygger flerspråkiga webbplattformar, säkra kundportaler och gränsöverskridande produkter för företag som verkar på mer än ett språk.",
     "addressHeading": "Registrerat säte",
-    "orgNrLabel": "Org. nr.",
-    "orgNrValue": "[ORG_NR]",
     "firmHeading": "Företaget",
     "complianceHeading": "Regelefterlevnad",
     "disclaimerHeading": "Ansvarsfriskrivning",
     "disclaimer": "Nordic Riser AB tillhandahåller enbart strategisk rådgivning. Vi erbjuder inte juridiskt ombud, migrationsrådgivning eller garantier för utfall. Alla beslut fattas av behöriga myndigheter. Regelefterlevnad genomsyrar allt vi gör.",
-    "copyright": "© 2026 Nordic Riser AB. Alla rättigheter förbehållna. Stockholm, Sweden.",
+    "copyright": "© 2026 Nordic Riser AB. Alla rättigheter förbehållna. Stockholm, Sverige.",
     "divisions": {
       "consultingHeading": "Konsultverksamhet",
       "consultingLinks": [
@@ -345,7 +354,7 @@
         "stats": [
           { "value": "%%languagesShipped%%", "label": "Språk levererade i produktion" },
           { "value": "%%products.count%%", "label": "Produkter byggda internt" },
-          { "value": "Stockholm, Sweden", "label": "Baserade i" },
+          { "value": "Stockholm, Sverige", "label": "Baserade i" },
           { "value": "Design → Bygg → Support", "label": "Arbetssätt" }
         ]
       },
@@ -606,10 +615,6 @@
       "success": { "title": "Förfrågan mottagen", "body": "Tack för att du skickade in din konsultationsförfrågan. En medlem av vårt rådgivningsteam kommer att granska din information och återkomma inom 1–2 arbetsdagar." },
       "sidebar": {
         "directContactHeading": "Direktkontakt",
-        "phoneLabel": "Telefon",
-        "phoneValue": "[PHONE_NUMBER]",
-        "addressLabel": "Adress",
-        "addressValue": "[STREET_ADDRESS], Stockholm, Sverige",
         "hoursLabel": "Kontorstider",
         "hoursValue": "Måndag – fredag, 09:00 – 17:00 CET",
         "nextHeading": "Vad händer sedan",

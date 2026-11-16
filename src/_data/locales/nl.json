@@ -11,7 +11,17 @@
     "emailLabel": "E-mail",
     "websiteLabel": "Website",
     "home": "Home",
-    "pricingOnRequest": "Prijzen op aanvraag"
+    "pricingOnRequest": "Prijzen op aanvraag",
+    "company": {
+      "orgNr": "Organisatienr.",
+      "vat": "Btw-nr.",
+      "address": "Adres",
+      "phone": "Telefoon",
+      "email": "E-mail",
+      "registration": "Registratie",
+      "country": "Zweden",
+      "cityCountry": "Stockholm, Zweden"
+    }
   },
   "nav": {
     "home": "Home",
@@ -28,13 +38,11 @@
   "footer": {
     "brandBlurb": "Nordic Riser AB is een softwarestudio in Stockholm die meertalige webplatforms, veilige klantportalen en grensoverschrijdende producten bouwt voor bedrijven die in meer dan één taal actief zijn.",
     "addressHeading": "Statutaire Zetel",
-    "orgNrLabel": "Kvk./Org.nr.",
-    "orgNrValue": "[ORG_NR]",
     "firmHeading": "Kantoor",
     "complianceHeading": "Compliance",
     "disclaimerHeading": "Disclaimer",
     "disclaimer": "Nordic Riser AB levert uitsluitend strategische adviesdiensten. Wij bieden geen juridische vertegenwoordiging, immigratieadvies of garanties op resultaat. Alle beslissingen liggen bij de bevoegde autoriteiten. Compliance staat voorop in alles wat wij doen.",
-    "copyright": "© 2026 Nordic Riser AB. Alle rechten voorbehouden. Stockholm, Sweden.",
+    "copyright": "© 2026 Nordic Riser AB. Alle rechten voorbehouden. Stockholm, Zweden.",
     "divisions": {
       "consultingHeading": "Consulting",
       "consultingLinks": [
@@ -100,7 +108,7 @@
         "stats": [
           { "value": "%%languagesShipped%%", "label": "Talen Uitgebracht in Productie" },
           { "value": "%%products.count%%", "label": "Intern Gebouwde Producten" },
-          { "value": "Stockholm, Sweden", "label": "Gevestigd in" },
+          { "value": "Stockholm, Zweden", "label": "Gevestigd in" },
           { "value": "Ontwerp → Bouw → Support", "label": "Aanpak" }
         ]
       },
@@ -361,10 +369,6 @@
       "success": { "title": "Aanvraag Ontvangen", "body": "Hartelijk dank voor uw aanvraag voor een consult. Een lid van ons adviesteam beoordeelt uw gegevens en reageert binnen 1–2 werkdagen." },
       "sidebar": {
         "directContactHeading": "Rechtstreeks Contact",
-        "phoneLabel": "Telefoon",
-        "phoneValue": "[PHONE_NUMBER]",
-        "addressLabel": "Adres",
-        "addressValue": "[STREET_ADDRESS], Stockholm, Zweden",
         "hoursLabel": "Openingstijden",
         "hoursValue": "Maandag – vrijdag, 09:00 – 17:00 CET",
         "nextHeading": "Wat Er Vervolgens Gebeurt",

@@ -117,27 +117,30 @@ pageSlug: contact
             <div class="detail-icon">{{ icons.icon('mail') }}</div>
             <div class="detail-text">
               <span>{{ t.common.emailLabel }}</span>
-              <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
+              <a href="mailto:{{ facts.company.email }}">{{ facts.company.email }}</a>
             </div>
           </div>
-          {%- if "[PHONE_NUMBER]" not in p.sidebar.phoneValue %}
           <div class="contact-detail-item">
             <div class="detail-icon">{{ icons.icon('phone') }}</div>
             <div class="detail-text">
-              <span>{{ p.sidebar.phoneLabel }}</span>
-              <p>{{ p.sidebar.phoneValue }}</p>
+              <span>{{ t.common.company.phone }}</span>
+              <a href="tel:{{ facts.company.phone | replace(' ', '') }}">{{ facts.company.phone }}</a>
             </div>
           </div>
-          {%- endif %}
-          {%- if "[STREET_ADDRESS]" not in p.sidebar.addressValue %}
           <div class="contact-detail-item">
             <div class="detail-icon">{{ icons.icon('pin') }}</div>
             <div class="detail-text">
-              <span>{{ p.sidebar.addressLabel }}</span>
-              <p>{{ p.sidebar.addressValue }}</p>
+              <span>{{ t.common.company.address }}</span>
+              <p>{{ facts.company.name }}<br>{{ facts.company.address }}<br>{{ t.common.company.country }}</p>
             </div>
           </div>
-          {%- endif %}
+          <div class="contact-detail-item">
+            <div class="detail-icon">{{ icons.icon('briefcase') }}</div>
+            <div class="detail-text">
+              <span>{{ t.common.company.registration }}</span>
+              <p>{{ t.common.company.orgNr }} {{ facts.company.orgNumber }}<br>{{ t.common.company.vat }} {{ facts.company.vatNumber }}</p>
+            </div>
+          </div>
           <div class="contact-detail-item">
             <div class="detail-icon">{{ icons.icon('clock') }}</div>
             <div class="detail-text">

@@ -11,7 +11,17 @@
     "emailLabel": "ای میل",
     "websiteLabel": "ویب سائٹ",
     "home": "ہوم",
-    "pricingOnRequest": "قیمت درخواست پر دستیاب"
+    "pricingOnRequest": "قیمت درخواست پر دستیاب",
+    "company": {
+      "orgNr": "تنظیمی نمبر",
+      "vat": "VAT نمبر",
+      "address": "پتہ",
+      "phone": "فون",
+      "email": "ای میل",
+      "registration": "رجسٹریشن",
+      "country": "سویڈن",
+      "cityCountry": "اسٹاک ہوم، سویڈن"
+    }
   },
   "nav": {
     "home": "ہوم",
@@ -28,13 +38,11 @@
   "footer": {
     "brandBlurb": "Nordic Riser AB اسٹاک ہوم میں قائم ایک سافٹ ویئر اسٹوڈیو ہے جو ایک سے زیادہ زبانوں میں کام کرنے والے کاروباروں کے لیے کثیر لسانی ویب پلیٹ فارمز، محفوظ کلائنٹ پورٹلز، اور سرحد پار مصنوعات تیار کرتا ہے۔",
     "addressHeading": "رجسٹرڈ دفتر",
-    "orgNrLabel": "رجسٹریشن نمبر",
-    "orgNrValue": "[ORG_NR]",
     "firmHeading": "ادارہ",
     "complianceHeading": "قانونی تعمیل",
     "disclaimerHeading": "دستبرداری",
     "disclaimer": "Nordic Riser AB صرف اسٹریٹجک مشاورتی خدمات فراہم کرتا ہے۔ ہم قانونی نمائندگی، امیگریشن سے متعلق مشورہ، یا نتائج کی ضمانت فراہم نہیں کرتے۔ تمام فیصلے متعلقہ مجاز اداروں کے دائرہ اختیار میں آتے ہیں۔ ہمارے ہر عمل میں قانونی تعمیل کو اولین حیثیت حاصل ہے۔",
-    "copyright": "© 2026 Nordic Riser AB۔ جملہ حقوق محفوظ ہیں۔ Stockholm, Sweden۔",
+    "copyright": "© 2026 Nordic Riser AB۔ جملہ حقوق محفوظ ہیں۔ اسٹاک ہوم، سویڈن۔",
     "divisions": {
       "consultingHeading": "مشاورت",
       "consultingLinks": [
@@ -100,7 +108,7 @@
         "stats": [
           { "value": "%%languagesShipped%%", "label": "زبانیں پروڈکشن میں جاری" },
           { "value": "%%products.count%%", "label": "خود تیار کردہ مصنوعات" },
-          { "value": "Stockholm, Sweden", "label": "قائم مقام" },
+          { "value": "اسٹاک ہوم، سویڈن", "label": "قائم مقام" },
           { "value": "ڈیزائن → تعمیر → معاونت", "label": "طریقہ کار" }
         ]
       },
@@ -361,10 +369,6 @@
       "success": { "title": "درخواست موصول ہو گئی", "body": "آپ کی مشاورت کی درخواست جمع کروانے کا شکریہ۔ ہماری مشاورتی ٹیم کا ایک رکن آپ کی معلومات کا جائزہ لے گا اور 1 سے 2 کاروباری دنوں کے اندر جواب دے گا۔" },
       "sidebar": {
         "directContactHeading": "براہِ راست رابطہ",
-        "phoneLabel": "فون",
-        "phoneValue": "[PHONE_NUMBER]",
-        "addressLabel": "پتہ",
-        "addressValue": "[STREET_ADDRESS], Stockholm, Sweden",
         "hoursLabel": "دفتری اوقات",
         "hoursValue": "پیر تا جمعہ، 09:00 تا 17:00 CET",
         "nextHeading": "آگے کیا ہوگا",

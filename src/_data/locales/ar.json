@@ -11,7 +11,17 @@
     "emailLabel": "البريد الإلكتروني",
     "websiteLabel": "الموقع الإلكتروني",
     "home": "الرئيسية",
-    "pricingOnRequest": "الأسعار عند الطلب"
+    "pricingOnRequest": "الأسعار عند الطلب",
+    "company": {
+      "orgNr": "رقم التسجيل",
+      "vat": "رقم ضريبة القيمة المضافة",
+      "address": "العنوان",
+      "phone": "الهاتف",
+      "email": "البريد الإلكتروني",
+      "registration": "التسجيل",
+      "country": "السويد",
+      "cityCountry": "ستوكهولم، السويد"
+    }
   },
   "nav": {
     "home": "الرئيسية",
@@ -28,8 +38,6 @@
   "footer": {
     "brandBlurb": "شركة Nordic Riser AB هي استوديو برمجيات مقره ستوكهولم يبني منصات ويب متعددة اللغات وبوابات عملاء آمنة ومنتجات عابرة للحدود للشركات العاملة بأكثر من لغة واحدة.",
     "addressHeading": "المكتب المسجل",
-    "orgNrLabel": "رقم السجل",
-    "orgNrValue": "[ORG_NR]",
     "firmHeading": "الشركة",
     "complianceHeading": "الامتثال",
     "disclaimerHeading": "إخلاء المسؤولية",
@@ -361,10 +369,6 @@
       "success": { "title": "تم استلام الطلب", "body": "شكراً لك على إرسال طلب الاستشارة. سيقوم أحد أعضاء فريقنا الاستشاري بمراجعة معلوماتك والرد خلال يوم إلى يومي عمل." },
       "sidebar": {
         "directContactHeading": "التواصل المباشر",
-        "phoneLabel": "الهاتف",
-        "phoneValue": "[PHONE_NUMBER]",
-        "addressLabel": "العنوان",
-        "addressValue": "[STREET_ADDRESS]، ستوكهولم، السويد",
         "hoursLabel": "ساعات العمل",
         "hoursValue": "الاثنين – الجمعة، 09:00 – 17:00 بتوقيت وسط أوروبا",
         "nextHeading": "ما يحدث بعد ذلك",

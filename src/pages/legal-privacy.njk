@@ -12,6 +12,7 @@ pageKey: privacy
 pageSlug: legal/privacy
 ---
 {%- set t = locales[locale] -%}
+{% from "partials/company-details.njk" import companyLines with context %}
 {%- set isFallback = not t.pages.privacy -%}
 {%- set p = t.pages.privacy or locales.en.pages.privacy -%}
 {%- set s = p.sections -%}
@@ -65,14 +66,7 @@ pageSlug: legal/privacy
       {%- for para in s.s2.intro %}<p>{{ para }}</p>{% endfor %}
       <div class="contact-card">
         <div>
-          <strong>Nordic Riser AB</strong><br>
-          {%- if "[STREET_ADDRESS]" not in t.pages.contact.sidebar.addressValue %}
-          {{ t.pages.contact.sidebar.addressValue }}<br>
-          {%- endif %}
-          {%- if "[ORG_NR]" not in t.footer.orgNrValue %}
-          {{ t.footer.orgNrLabel }} {{ t.footer.orgNrValue }}<br>
-          {%- endif %}
-          Email: info@nordicriser.com
+          {{ companyLines(locales.en.common.company if not t.pages.privacy else t.common.company) | safe }}
         </div>
       </div>
       <p>{{ s.s2.contactNote }}</p>

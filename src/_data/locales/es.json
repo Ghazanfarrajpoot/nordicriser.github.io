@@ -11,7 +11,17 @@
     "emailLabel": "Correo electrónico",
     "websiteLabel": "Sitio web",
     "home": "Inicio",
-    "pricingOnRequest": "Precio a consultar"
+    "pricingOnRequest": "Precio a consultar",
+    "company": {
+      "orgNr": "N.º de organización",
+      "vat": "N.º de IVA",
+      "address": "Dirección",
+      "phone": "Teléfono",
+      "email": "Correo electrónico",
+      "registration": "Registro",
+      "country": "Suecia",
+      "cityCountry": "Estocolmo, Suecia"
+    }
   },
   "nav": {
     "home": "Inicio",
@@ -28,13 +38,11 @@
   "footer": {
     "brandBlurb": "Nordic Riser AB es un estudio de software con sede en Estocolmo que construye plataformas web multilingües, portales de clientes seguros y productos transfronterizos para empresas que operan en más de un idioma.",
     "addressHeading": "Domicilio Social",
-    "orgNrLabel": "N.º de registro",
-    "orgNrValue": "[ORG_NR]",
     "firmHeading": "La Firma",
     "complianceHeading": "Cumplimiento Normativo",
     "disclaimerHeading": "Aviso Legal",
     "disclaimer": "Nordic Riser AB presta exclusivamente servicios de consultoría estratégica. No ofrecemos representación legal, asesoría migratoria ni garantías de resultado. Todas las decisiones corresponden a las autoridades competentes. El cumplimiento normativo es la base de todo lo que hacemos.",
-    "copyright": "© 2026 Nordic Riser AB. Todos los derechos reservados. Stockholm, Sweden.",
+    "copyright": "© 2026 Nordic Riser AB. Todos los derechos reservados. Estocolmo, Suecia.",
     "divisions": {
       "consultingHeading": "Consultoría",
       "consultingLinks": [
@@ -100,7 +108,7 @@
         "stats": [
           { "value": "%%languagesShipped%%", "label": "Idiomas Lanzados en Producción" },
           { "value": "%%products.count%%", "label": "Productos Construidos Internamente" },
-          { "value": "Stockholm, Sweden", "label": "Con Sede en" },
+          { "value": "Estocolmo, Suecia", "label": "Con Sede en" },
           { "value": "Diseño → Construcción → Soporte", "label": "Enfoque" }
         ]
       },
@@ -361,10 +369,6 @@
       "success": { "title": "Solicitud Recibida", "body": "Gracias por enviar su solicitud de consulta. Un miembro de nuestro equipo de asesores revisará su información y responderá en un plazo de 1 a 2 días hábiles." },
       "sidebar": {
         "directContactHeading": "Contacto Directo",
-        "phoneLabel": "Teléfono",
-        "phoneValue": "[PHONE_NUMBER]",
-        "addressLabel": "Dirección",
-        "addressValue": "[STREET_ADDRESS], Estocolmo, Suecia",
         "hoursLabel": "Horario de Oficina",
         "hoursValue": "Lunes a viernes, 09:00 – 17:00 CET",
         "nextHeading": "Qué Sucede a Continuación",

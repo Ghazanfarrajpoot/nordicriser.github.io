@@ -11,7 +11,17 @@
     "emailLabel": "Email",
     "websiteLabel": "Sito Web",
     "home": "Home",
-    "pricingOnRequest": "Prezzi su richiesta"
+    "pricingOnRequest": "Prezzi su richiesta",
+    "company": {
+      "orgNr": "N. di registrazione",
+      "vat": "Partita IVA",
+      "address": "Indirizzo",
+      "phone": "Telefono",
+      "email": "E-mail",
+      "registration": "Registrazione",
+      "country": "Svezia",
+      "cityCountry": "Stoccolma, Svezia"
+    }
   },
   "nav": {
     "home": "Home",
@@ -28,8 +38,6 @@
   "footer": {
     "brandBlurb": "Nordic Riser AB è uno studio di software con sede a Stoccolma che sviluppa piattaforme web multilingue, portali clienti sicuri e prodotti transfrontalieri per aziende che operano in più di una lingua.",
     "addressHeading": "Sede Legale",
-    "orgNrLabel": "N. di Registrazione",
-    "orgNrValue": "[ORG_NR]",
     "firmHeading": "Lo Studio",
     "complianceHeading": "Conformità",
     "disclaimerHeading": "Avvertenza",
@@ -361,10 +369,6 @@
       "success": { "title": "Richiesta Ricevuta", "body": "Grazie per aver inviato la tua richiesta di consulenza. Un membro del nostro team di advisory esaminerà le tue informazioni e ti risponderà entro 1–2 giorni lavorativi." },
       "sidebar": {
         "directContactHeading": "Contatto Diretto",
-        "phoneLabel": "Telefono",
-        "phoneValue": "[PHONE_NUMBER]",
-        "addressLabel": "Indirizzo",
-        "addressValue": "[STREET_ADDRESS], Stoccolma, Svezia",
         "hoursLabel": "Orari d'Ufficio",
         "hoursValue": "Lunedì – Venerdì, 09:00 – 17:00 CET",
         "nextHeading": "Cosa Succede Dopo",

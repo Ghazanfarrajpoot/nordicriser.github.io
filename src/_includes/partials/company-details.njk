@@ -1,0 +1,13 @@
+{#- Company details from facts.json (the single source). `lbl` is a
+    common.company label set; legal pages that fall back to English pass
+    the English labels so the block matches the page language.
+    Import with context: {% from "partials/company-details.njk" import companyLines with context %} -#}
+{%- macro companyLines(lbl, showName=true) -%}
+{%- if showName %}<strong>{{ facts.company.name }}</strong><br>{% else %}{{ facts.company.name }}<br>{% endif %}
+{{ facts.company.address }}<br>
+{{ lbl.country }}<br>
+{{ lbl.orgNr }} {{ facts.company.orgNumber }}<br>
+{{ lbl.vat }} {{ facts.company.vatNumber }}<br>
+{{ lbl.phone }} <a href="tel:{{ facts.company.phone | replace(' ', '') }}">{{ facts.company.phone }}</a><br>
+{{ lbl.email }} <a href="mailto:{{ facts.company.email }}">{{ facts.company.email }}</a>
+{%- endmacro -%}

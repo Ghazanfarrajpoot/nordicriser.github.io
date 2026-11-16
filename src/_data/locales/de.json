@@ -11,7 +11,17 @@
     "emailLabel": "E-Mail",
     "websiteLabel": "Website",
     "home": "Startseite",
-    "pricingOnRequest": "Preise auf Anfrage"
+    "pricingOnRequest": "Preise auf Anfrage",
+    "company": {
+      "orgNr": "Org.-Nr.",
+      "vat": "USt-IdNr.",
+      "address": "Adresse",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "registration": "Registrierung",
+      "country": "Schweden",
+      "cityCountry": "Stockholm, Schweden"
+    }
   },
   "nav": {
     "home": "Startseite",
@@ -28,13 +38,11 @@
   "footer": {
     "brandBlurb": "Nordic Riser AB ist ein Software-Studio mit Sitz in Stockholm, das mehrsprachige Webplattformen, sichere Kundenportale und grenzüberschreitende Produkte für Unternehmen entwickelt, die in mehr als einer Sprache tätig sind.",
     "addressHeading": "Eingetragener Firmensitz",
-    "orgNrLabel": "Org.-Nr.",
-    "orgNrValue": "[ORG_NR]",
     "firmHeading": "Unternehmen",
     "complianceHeading": "Compliance",
     "disclaimerHeading": "Haftungsausschluss",
     "disclaimer": "Nordic Riser AB erbringt ausschließlich strategische Beratungsleistungen. Wir bieten keine Rechtsvertretung, keine Einwanderungsberatung und keine Erfolgsgarantien. Alle Entscheidungen liegen bei den zuständigen Behörden. Compliance steht bei allem, was wir tun, an erster Stelle.",
-    "copyright": "© 2026 Nordic Riser AB. Alle Rechte vorbehalten. Stockholm, Sweden.",
+    "copyright": "© 2026 Nordic Riser AB. Alle Rechte vorbehalten. Stockholm, Schweden.",
     "divisions": {
       "consultingHeading": "Beratung",
       "consultingLinks": [
@@ -100,7 +108,7 @@
         "stats": [
           { "value": "%%languagesShipped%%", "label": "Sprachen in Produktion ausgeliefert" },
           { "value": "%%products.count%%", "label": "Intern entwickelte Produkte" },
-          { "value": "Stockholm, Sweden", "label": "Ansässig in" },
+          { "value": "Stockholm, Schweden", "label": "Ansässig in" },
           { "value": "Design → Entwicklung → Support", "label": "Vorgehen" }
         ]
       },
@@ -361,10 +369,6 @@
       "success": { "title": "Anfrage erhalten", "body": "Vielen Dank für Ihre Beratungsanfrage. Ein Mitglied unseres Beraterteams wird Ihre Angaben prüfen und sich innerhalb von 1–2 Werktagen bei Ihnen melden." },
       "sidebar": {
         "directContactHeading": "Direkter Kontakt",
-        "phoneLabel": "Telefon",
-        "phoneValue": "[PHONE_NUMBER]",
-        "addressLabel": "Adresse",
-        "addressValue": "[STREET_ADDRESS], Stockholm, Schweden",
         "hoursLabel": "Bürozeiten",
         "hoursValue": "Montag – Freitag, 09:00 – 17:00 MEZ",
         "nextHeading": "Wie es weitergeht",

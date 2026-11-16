@@ -11,7 +11,17 @@
     "emailLabel": "E-mail",
     "websiteLabel": "Site web",
     "home": "Accueil",
-    "pricingOnRequest": "Tarifs sur demande"
+    "pricingOnRequest": "Tarifs sur demande",
+    "company": {
+      "orgNr": "N° d’organisation",
+      "vat": "N° de TVA",
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "registration": "Immatriculation",
+      "country": "Suède",
+      "cityCountry": "Stockholm, Suède"
+    }
   },
   "nav": {
     "home": "Accueil",
@@ -28,13 +38,11 @@
   "footer": {
     "brandBlurb": "Nordic Riser AB est un studio logiciel basé à Stockholm qui conçoit des plateformes web multilingues, des portails clients sécurisés et des produits transfrontaliers pour des entreprises opérant dans plusieurs langues.",
     "addressHeading": "Siège social",
-    "orgNrLabel": "N° d'immatriculation",
-    "orgNrValue": "[ORG_NR]",
     "firmHeading": "Le cabinet",
     "complianceHeading": "Conformité",
     "disclaimerHeading": "Avertissement",
     "disclaimer": "Nordic Riser AB fournit uniquement des services de conseil stratégique. Nous n'assurons ni représentation juridique, ni conseil en immigration, ni garantie de résultat. Toutes les décisions relèvent des autorités compétentes. La conformité est au cœur de tout ce que nous faisons.",
-    "copyright": "© 2026 Nordic Riser AB. Tous droits réservés. Stockholm, Sweden.",
+    "copyright": "© 2026 Nordic Riser AB. Tous droits réservés. Stockholm, Suède.",
     "divisions": {
       "consultingHeading": "Conseil",
       "consultingLinks": [
@@ -361,10 +369,6 @@
       "success": { "title": "Demande reçue", "body": "Merci d'avoir soumis votre demande de consultation. Un membre de notre équipe de conseil examinera vos informations et vous répondra sous 1 à 2 jours ouvrés." },
       "sidebar": {
         "directContactHeading": "Contact direct",
-        "phoneLabel": "Téléphone",
-        "phoneValue": "[PHONE_NUMBER]",
-        "addressLabel": "Adresse",
-        "addressValue": "[STREET_ADDRESS], Stockholm, Suède",
         "hoursLabel": "Horaires d'ouverture",
         "hoursValue": "Lundi – vendredi, 09h00 – 17h00 CET",
         "nextHeading": "Les prochaines étapes",

@@ -11,7 +11,17 @@
     "emailLabel": "E-mail",
     "websiteLabel": "Strona internetowa",
     "home": "Strona główna",
-    "pricingOnRequest": "Wycena na życzenie"
+    "pricingOnRequest": "Wycena na życzenie",
+    "company": {
+      "orgNr": "Nr rejestrowy",
+      "vat": "Nr VAT",
+      "address": "Adres",
+      "phone": "Telefon",
+      "email": "E-mail",
+      "registration": "Rejestracja",
+      "country": "Szwecja",
+      "cityCountry": "Sztokholm, Szwecja"
+    }
   },
   "nav": {
     "home": "Strona główna",
@@ -28,13 +38,11 @@
   "footer": {
     "brandBlurb": "Nordic Riser AB to studio oprogramowania z siedzibą w Sztokholmie, tworzące wielojęzyczne platformy internetowe, bezpieczne portale klienta i produkty transgraniczne dla firm działających w więcej niż jednym języku.",
     "addressHeading": "Siedziba zarejestrowana",
-    "orgNrLabel": "Nr rej.",
-    "orgNrValue": "[ORG_NR]",
     "firmHeading": "Firma",
     "complianceHeading": "Zgodność z przepisami",
     "disclaimerHeading": "Zastrzeżenie",
     "disclaimer": "Nordic Riser AB świadczy wyłącznie strategiczne usługi doradcze. Nie zapewniamy reprezentacji prawnej, doradztwa imigracyjnego ani gwarancji rezultatu. Wszystkie decyzje należą do właściwych organów. We wszystkim, co robimy, priorytetem jest zgodność z przepisami.",
-    "copyright": "© 2026 Nordic Riser AB. Wszelkie prawa zastrzeżone. Stockholm, Sweden.",
+    "copyright": "© 2026 Nordic Riser AB. Wszelkie prawa zastrzeżone. Sztokholm, Szwecja.",
     "divisions": {
       "consultingHeading": "Doradztwo",
       "consultingLinks": [
@@ -100,7 +108,7 @@
         "stats": [
           { "value": "%%languagesShipped%%", "label": "Języków Wdrożonych w Produkcji" },
           { "value": "%%products.count%%", "label": "Produktów Zbudowanych Wewnętrznie" },
-          { "value": "Stockholm, Sweden", "label": "Siedziba w" },
+          { "value": "Sztokholm, Szwecja", "label": "Siedziba w" },
           { "value": "Projekt → Budowa → Wsparcie", "label": "Podejście" }
         ]
       },
@@ -361,10 +369,6 @@
       "success": { "title": "Zgłoszenie otrzymane", "body": "Dziękujemy za przesłanie zgłoszenia na konsultację. Członek naszego zespołu doradczego zapozna się z Twoimi informacjami i odpowie w ciągu 1–2 dni roboczych." },
       "sidebar": {
         "directContactHeading": "Kontakt bezpośredni",
-        "phoneLabel": "Telefon",
-        "phoneValue": "[PHONE_NUMBER]",
-        "addressLabel": "Adres",
-        "addressValue": "[STREET_ADDRESS], Sztokholm, Szwecja",
         "hoursLabel": "Godziny pracy biura",
         "hoursValue": "Poniedziałek – piątek, 09:00 – 17:00 CET",
         "nextHeading": "Co dzieje się dalej",

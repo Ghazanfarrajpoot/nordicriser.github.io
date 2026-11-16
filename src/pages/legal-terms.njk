@@ -12,6 +12,7 @@ pageKey: legalTerms
 pageSlug: legal/terms
 ---
 {%- set t = locales[locale] -%}
+{% from "partials/company-details.njk" import companyLines with context %}
 {%- set isFallback = not t.pages.legalTerms -%}
 {%- set p = t.pages.legalTerms or locales.en.pages.legalTerms -%}
 {%- set s = p.sections -%}
@@ -33,6 +34,12 @@ pageSlug: legal/terms
 </div>
 
 <div class="content-wrap"{% if isFallback %} dir="ltr"{% endif %}>
+
+  {%- set companyLbl = locales.en.common.company if isFallback else t.common.company -%}
+  <div class="contact-card terms-party">
+    <p>{{ companyLbl.termsIntro or locales.en.common.company.termsIntro }}</p>
+    <div>{{ companyLines(companyLbl) | safe }}</div>
+  </div>
 
   {%- if isFallback %}
   <div class="translation-notice">{{ locales.en.common.legalPendingTranslationPrefix }}{{ site.locales | localeName(locale) }}{{ locales.en.common.legalPendingTranslationSuffix }}</div>

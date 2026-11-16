@@ -1,4 +1,5 @@
 {%- set t = locales[locale] -%}
+{% from "partials/company-details.njk" import companyLines with context %}
 {%- set navWorkLabel = t.nav.work or locales.en.nav.work -%}
 <footer class="footer">
   <div class="footer-main{% if pageKey != 'consulting' %} footer-main--compact{% endif %}">
@@ -7,12 +8,7 @@
       <p>{{ t.footer.brandBlurb }}</p>
       <div class="footer-address">
         <strong>{{ t.footer.addressHeading }}</strong>
-        Nordic Riser AB<br>
-        Stockholm, Sweden<br>
-        {%- if "[ORG_NR]" not in t.footer.orgNrValue %}
-        {{ t.footer.orgNrLabel }} {{ t.footer.orgNrValue }}<br>
-        {%- endif %}
-        <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
+        {{ companyLines(t.common.company, false) | safe }}
       </div>
     </div>
     <div class="footer-services-group">
