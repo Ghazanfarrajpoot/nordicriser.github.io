@@ -45,9 +45,9 @@
       ],
       "itServicesHeading": "Serviços",
       "itServicesLinks": [
-        { "label": "Plataformas web multilíngues", "anchor": "web-platforms" },
+        { "label": "Plataformas web multilingues", "anchor": "web-platforms" },
         { "label": "Portais seguros para clientes", "anchor": "portals" },
-        { "label": "Produtos sob medida e SaaS", "anchor": "products" },
+        { "label": "Produtos à medida e SaaS", "anchor": "products" },
         { "label": "Automação e integrações", "anchor": "automation" },
         { "label": "Suporte contínuo", "anchor": "support" },
         { "label": "Solicitar orçamento", "target": "contact" }
@@ -525,39 +525,39 @@
         {
           "id": "web-platforms",
           "icon": "globe",
-          "title": "Plataformas web multilíngues",
-          "body": "Sites em produção pensados para cada mercado que você atende, com versões de idioma reais, suporte da direita para a esquerda quando necessário e carregamento rápido no mundo todo.",
+          "title": "Plataformas web multilingues",
+          "body": "Sites em produção pensados para cada mercado em que atua, com versões linguísticas reais, suporte da direita para a esquerda quando necessário e carregamento rápido em todo o mundo.",
           "included": [
-            "URLs por idioma e hreflang para os mecanismos de busca",
-            "Layouts da direita para a esquerda para árabe, urdu e idiomas semelhantes",
-            "Conteúdo estruturado, simples de atualizar e ampliar",
+            "URLs por idioma e hreflang para os motores de busca",
+            "Layouts da direita para a esquerda para árabe, urdu e línguas semelhantes",
+            "Conteúdo estruturado, simples de atualizar e alargar",
             "Meta tags e pré-visualizações para redes sociais em todos os idiomas"
           ],
-          "stack": "Eleventy ou Next.js, hospedagem em CDN, publicação baseada em Git"
+          "stack": "Eleventy ou Next.js, alojamento em CDN, publicação baseada em Git"
         },
         {
           "id": "portals",
           "icon": "lock",
           "title": "Portais seguros para clientes",
-          "body": "Portais com login onde seus clientes trocam documentos, acompanham o caso ou projeto e enviam mensagens para sua equipe, tudo em um só lugar em vez de em longas trocas de e-mails.",
+          "body": "Portais com início de sessão onde os seus clientes partilham documentos, acompanham o processo ou projeto e enviam mensagens à sua equipa, tudo num só lugar em vez de longas trocas de e-mails.",
           "included": [
-            "Acesso por perfil para clientes, equipe e administradores",
-            "Regras de dados aplicadas no servidor, para que cada usuário veja apenas os próprios registros",
-            "Armazenamento privado de documentos e arquivos enviados",
-            "Registro de atividades no Portal de Membros"
+            "Acesso baseado em funções para clientes, equipa e administradores",
+            "Regras de dados aplicadas no servidor, para que cada utilizador veja apenas os seus próprios registos",
+            "Armazenamento privado de documentos e ficheiros carregados",
+            "Registo de atividade no Portal de Membros"
           ],
           "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
         },
         {
           "id": "products",
           "icon": "code",
-          "title": "Produtos sob medida e SaaS",
+          "title": "Produtos à medida e SaaS",
           "body": "Desenvolvimento completo de produto, do conceito ao lançamento, para uma linha de produtos própria.",
           "included": [
-            "Definição do produto e um plano de desenvolvimento em fases",
-            "Planos de assinatura e cobrança",
-            "Painéis administrativos e ferramentas internas",
-            "Recursos em tempo real, como presença ao vivo"
+            "Definição do produto e um plano de desenvolvimento por fases",
+            "Planos de subscrição e faturação",
+            "Painéis de administração e ferramentas internas",
+            "Funcionalidades em tempo real, como a presença ao vivo"
           ],
           "stack": "React, Next.js, NestJS, PostgreSQL, Firebase"
         },
@@ -565,12 +565,12 @@
           "id": "automation",
           "icon": "gear",
           "title": "Automação e integrações",
-          "body": "Conecte as ferramentas que você já usa e elimine a digitação manual dos fluxos de trabalho que tomam a semana da sua equipe.",
+          "body": "Ligue as ferramentas que já utiliza e elimine a introdução manual de dados dos processos que ocupam a semana da sua equipa.",
           "included": [
-            "Integrações entre site, CRM, contabilidade e ferramentas de e-mail",
+            "Integrações entre o site, o CRM, a contabilidade e as ferramentas de e-mail",
             "Notificações, relatórios e sincronizações de dados automáticos",
             "Webhooks e tarefas agendadas",
-            "Documentação clara de cada etapa automatizada"
+            "Documentação clara de cada passo automatizado"
           ],
           "stack": "APIs REST, webhooks, funções serverless, tarefas agendadas"
         },
@@ -578,18 +578,18 @@
           "id": "support",
           "icon": "wrench",
           "title": "Suporte contínuo",
-          "body": "Suporte técnico, atualizações e monitoramento após o lançamento, para que sua plataforma continue confiável enquanto o negócio cresce.",
+          "body": "Suporte técnico, atualizações e monitorização após o lançamento, para que a sua plataforma continue fiável à medida que o negócio cresce.",
           "included": [
             "Atualizações de segurança e de dependências",
-            "Monitoramento e solução de problemas",
-            "Correção de bugs e pequenas melhorias",
-            "Gestão de hospedagem e domínios"
+            "Monitorização e resolução de problemas",
+            "Correção de erros e pequenas melhorias",
+            "Gestão do alojamento e dos domínios"
           ],
-          "stack": "Monitoramento, rastreamento de erros, hospedagem gerenciada (Vercel, Firebase, GitHub Pages)"
+          "stack": "Monitorização, registo de erros, alojamento gerido (Vercel, Firebase, GitHub Pages)"
         }
       ],
       "offeringCta": "Falar sobre este serviço",
-      "stackLabel": "Stack típico",
+      "stackLabel": "Tecnologia habitual",
       "includedLabel": "O que está incluído",
       "howWeWorkLabel": "Como Trabalhamos",
       "howWeWorkTitle": "Um Percurso Estruturado da Ideia ao Lançamento",
