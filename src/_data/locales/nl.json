@@ -110,7 +110,7 @@
         "cards": [
           { "icon": "globe", "title": "Meertalige Webplatforms", "body": "Productiewebsites die zijn gebouwd om te werken op elke markt die u bedient. Correcte hreflang, RTL-ondersteuning, gelokaliseerde contentstructuur — geen machinaal vertaalde bijgedachten.", "builtWith": "Statische site-generatie, CDN-levering, laadtijden onder de seconde" },
           { "icon": "lock", "title": "Veilige Klantportalen", "body": "Geauthenticeerde portalen voor documentuitwisseling, zaakopvolging en klantcommunicatie. Rolgebaseerde toegang, versleutelde opslag, audit trails.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
-          { "icon": "code", "title": "Producten op Maat & SaaS", "body": "Volledige productontwikkeling, van concept tot lancering. Realtime functies, abonnementsfacturering, beheertools.", "seeLabel": "Zie:", "seeText": "Global Reach — ons eigen samenwerkingsplatform met live vertaling", "seeLink": "global-reach" },
+          { "icon": "code", "title": "Producten op Maat & SaaS", "body": "Volledige productontwikkeling, van concept tot lancering. Realtime functies, abonnementsfacturering, beheertools.", "seeLabel": "Zie:", "seeText": "Global Reach — onze eigen live studie- en werkruimtes, met realtime aanwezigheid en gedeelde sessienotities", "seeLink": "global-reach" },
           { "icon": "gear", "title": "Automatisering & Integraties", "body": "Verbind de tools die u al gebruikt. Elimineer handmatige dubbele invoer. Automatiseer de workflows die de week van uw team opslokken.", "builtWith": "API's, webhooks, serverloze functies" }
         ]
       },
@@ -621,7 +621,7 @@
     "work": {
       "meta": {
         "title": "Ons Werk — Platforms, Portalen & Producten — Nordic Riser AB",
-        "description": "Geselecteerde projecten van Nordic Riser AB — waaronder NR-BOS, ons vlaggenschipplatform voor bedrijfsvoering, een samenwerkingsplatform met realtime vertaling en een veilig klantportaal."
+        "description": "Geselecteerde projecten van Nordic Riser AB — waaronder NR-BOS, ons vlaggenschipplatform voor bedrijfsvoering, live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities, en een veilig klantportaal."
       },
       "hero": { "label": "Geselecteerd Werk", "h1": "Wat Wij Hebben Gebouwd", "body": "Platforms, portalen en producten die wij hebben ontworpen, gebouwd en uitgebracht — inclusief onze eigen." },
       "breadcrumb": "Werk",

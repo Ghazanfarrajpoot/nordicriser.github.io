@@ -355,7 +355,7 @@
         "cards": [
           { "icon": "globe", "title": "Flerspråkiga webbplattformar", "body": "Produktionswebbplatser byggda för att fungera på varje marknad du betjänar. Korrekt hreflang, RTL-stöd, lokaliserad innehållsstruktur — inte maskinöversatta eftertankar.", "builtWith": "Statisk sidgenerering, CDN-leverans, laddningstider under en sekund" },
           { "icon": "lock", "title": "Säkra kundportaler", "body": "Autentiserade portaler för dokumentutbyte, ärendespårning och kundkommunikation. Rollbaserad åtkomst, krypterad lagring, granskningsspår.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
-          { "icon": "code", "title": "Skräddarsydda produkter & SaaS", "body": "Fullständig produktutveckling, från koncept till lansering. Realtidsfunktioner, prenumerationsfakturering, adminverktyg.", "seeLabel": "Se:", "seeText": "Global Reach — vår egen plattform för direktöversatt samarbete", "seeLink": "global-reach" },
+          { "icon": "code", "title": "Skräddarsydda produkter & SaaS", "body": "Fullständig produktutveckling, från koncept till lansering. Realtidsfunktioner, prenumerationsfakturering, adminverktyg.", "seeLabel": "Se:", "seeText": "Global Reach — våra egna live-rum för studier och arbete, med närvaro i realtid och delade sessionsanteckningar", "seeLink": "global-reach" },
           { "icon": "gear", "title": "Automatisering & integrationer", "body": "Koppla samman verktygen du redan använder. Eliminera manuell dubbelinmatning. Automatisera de arbetsflöden som äter upp teamets vecka.", "builtWith": "API:er, webhooks, serverlösa funktioner" }
         ]
       },
@@ -731,7 +731,9 @@
               "title": "4.5 Global Reach",
               "intro": "Som användare av Global Reach:",
               "list": [
-                "Chattmeddelanden: innehållet i meddelanden som skickas genom Global Reachs samarbetsrum i realtid, inklusive meddelandetext som skickas för realtidsöversättning — se avsnitt 6.4 för hur den översättningen tillhandahålls och avsnitt 7 för vilket underbiträde som är inblandat"
+                "Rums- och sessionsdata: namnet på rum du skapar, din närvaro i ett rum – inklusive den tid servern registrerar när du ansluter och lämnar, som används för att beräkna sessionens längd – samt innehållet i de delade sessionsanteckningarna för rum du deltar i",
+                "Användningsdata: förbrukade sessionsminuter, som först dras från planens månatliga minutpott och därefter från eventuellt påfyllt saldo, för att beräkna vad du har kvar",
+                "Intresseanmälningar för språk: om du använder formuläret ”Meddela mig” på Global Reach-sidan för att fråga om ett språk som ännu inte finns tillgängligt lagrar vi den e-postadress och det språk du anger, tillsammans med ditt samtycke till att bli kontaktad om det"
               ]
             }
           ]
@@ -762,7 +764,7 @@
                 "Fullgörande av avtal (som personuppgiftsbiträde, enligt kundens instruktioner)"
               ],
               [
-                "Tillhandahålla realtidsöversättning inom Global Reach",
+                "Driva Global Reach, inklusive delade sessionsanteckningar och användningsbaserad fakturering",
                 "Fullgörande av avtal"
               ],
               [
@@ -1630,7 +1632,7 @@
     "work": {
       "meta": {
         "title": "Vårt arbete — plattformar, portaler & produkter — Nordic Riser AB",
-        "description": "Utvalda projekt från Nordic Riser AB — inklusive NR-BOS, vår flaggskeppsplattform för affärsverksamhet, en samarbetsplattform med direktöversättning och en säker kundportal."
+        "description": "Utvalda projekt från Nordic Riser AB — inklusive NR-BOS, vår flaggskeppsplattform för affärsverksamhet, live-rum för studier och arbete med närvaro i realtid och delade sessionsanteckningar, samt en säker kundportal."
       },
       "hero": { "label": "Utvalt arbete", "h1": "Vad vi har byggt", "body": "Plattformar, portaler och produkter vi har designat, byggt och levererat — inklusive våra egna." },
       "breadcrumb": "Arbete",

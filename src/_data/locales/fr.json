@@ -110,7 +110,7 @@
         "cards": [
           { "icon": "globe", "title": "Plateformes web multilingues", "body": "Des sites de production conçus pour fonctionner sur chaque marché que vous desservez. Hreflang correct, prise en charge RTL, structure de contenu localisée — pas des traductions automatiques après coup.", "builtWith": "Génération de site statique, diffusion CDN, temps de chargement inférieurs à la seconde" },
           { "icon": "lock", "title": "Portails clients sécurisés", "body": "Portails authentifiés pour l'échange de documents, le suivi des dossiers et la communication client. Accès basé sur les rôles, stockage chiffré, pistes d'audit.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
-          { "icon": "code", "title": "Produits sur mesure & SaaS", "body": "Développement complet de produit, du concept au lancement. Fonctionnalités en temps réel, facturation par abonnement, outils d'administration.", "seeLabel": "Voir :", "seeText": "Global Reach — notre propre plateforme de collaboration à traduction en direct", "seeLink": "global-reach" },
+          { "icon": "code", "title": "Produits sur mesure & SaaS", "body": "Développement complet de produit, du concept au lancement. Fonctionnalités en temps réel, facturation par abonnement, outils d'administration.", "seeLabel": "Voir :", "seeText": "Global Reach — nos propres salles d’étude et de travail en direct, avec présence en temps réel et notes de session partagées", "seeLink": "global-reach" },
           { "icon": "gear", "title": "Automatisation & intégrations", "body": "Connectez les outils que vous utilisez déjà. Éliminez la ressaisie manuelle. Automatisez les tâches qui dévorent la semaine de votre équipe.", "builtWith": "API, webhooks, fonctions sans serveur" }
         ]
       },
@@ -621,7 +621,7 @@
     "work": {
       "meta": {
         "title": "Nos réalisations — plateformes, portails & produits — Nordic Riser AB",
-        "description": "Projets sélectionnés de Nordic Riser AB — dont NR-BOS, notre plateforme phare d'opérations commerciales, une plateforme de collaboration à traduction en temps réel et un portail client sécurisé."
+        "description": "Projets sélectionnés de Nordic Riser AB — dont NR-BOS, notre plateforme phare d’opérations commerciales, des salles d’étude et de travail en direct avec présence en temps réel et notes de session partagées, et un portail client sécurisé."
       },
       "hero": { "label": "Réalisations sélectionnées", "h1": "Ce que nous avons construit", "body": "Plateformes, portails et produits que nous avons conçus, développés et livrés — y compris les nôtres." },
       "breadcrumb": "Réalisations",
