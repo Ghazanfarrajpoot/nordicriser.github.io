@@ -48,9 +48,11 @@
       ],
       "itServicesHeading": "Tjänster",
       "itServicesLinks": [
-        { "label": "Webbplattformar & portaler" },
-        { "label": "Automation & integrationer" },
-        { "label": "Löpande support" },
+        { "label": "Flerspråkiga webbplattformar", "anchor": "web-platforms" },
+        { "label": "Säkra kundportaler", "anchor": "portals" },
+        { "label": "Egna produkter & SaaS", "anchor": "products" },
+        { "label": "Automatisering & integrationer", "anchor": "automation" },
+        { "label": "Löpande support", "anchor": "support" },
         { "label": "Begär offert", "target": "contact" }
       ],
       "globalReachHeading": "Global Reach",
@@ -1529,11 +1531,75 @@
       "offeringsTitle": "Fyra kärnerbjudanden",
       "offeringsSub": "Från en första företagswebbplats till de system som driver den dagliga verksamheten — vi bygger teknik som matchar skalan och skedet i din verksamhet.",
       "offerings": [
-        { "icon": "globe", "title": "Webbplattformar och företagswebbplatser", "body": "Professionellt designade, flerspråkiga webbplatser som ger din verksamhet en trovärdig, strukturerad närvaro online från dag ett." },
-        { "icon": "lock", "title": "Kund- och företagsportaler", "body": "Säkra medlems- och kundportaler för hantering av dokument, kommunikation och ärende- eller projektstatus på ett och samma ställe." },
-        { "icon": "gear", "title": "Automatisering av arbetsflöden och integrationer", "body": "Automatisering av repetitivt operativt arbete och integration mellan de verktyg din verksamhet redan använder." },
-        { "icon": "wrench", "title": "Löpande underhåll och support", "body": "Fortsatt teknisk support, uppdateringar och övervakning efter lansering, så att din plattform förblir pålitlig i takt med att din verksamhet växer." }
+        {
+          "id": "web-platforms",
+          "icon": "globe",
+          "title": "Flerspråkiga webbplattformar",
+          "body": "Produktionswebbplatser byggda för varje marknad du verkar på, med riktiga språkversioner, stöd för höger-till-vänster-språk där det behövs och snabb laddning över hela världen.",
+          "included": [
+            "Språkspecifika URL:er och hreflang för sökmotorer",
+            "Höger-till-vänster-layout för arabiska, urdu och liknande språk",
+            "Strukturerat innehåll som är enkelt att uppdatera och bygga ut",
+            "Metataggar och förhandsvisningar för sociala medier på alla språk"
+          ],
+          "stack": "Eleventy eller Next.js, CDN-hosting, Git-baserad publicering"
+        },
+        {
+          "id": "portals",
+          "icon": "lock",
+          "title": "Säkra kundportaler",
+          "body": "Inloggade portaler där kunder utbyter dokument, följer sitt ärende eller projekt och skickar meddelanden till ert team, samlat på ett ställe i stället för i e-posttrådar.",
+          "included": [
+            "Rollbaserad åtkomst för kunder, personal och administratörer",
+            "Dataregler som upprätthålls på servern, så att varje användare bara ser sina egna uppgifter",
+            "Privat fillagring för dokument och uppladdningar",
+            "Aktivitetsloggning i medlemsportalen"
+          ],
+          "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
+        },
+        {
+          "id": "products",
+          "icon": "code",
+          "title": "Egna produkter & SaaS",
+          "body": "Fullständig produktutveckling från idé till lansering, för en egen produktlinje.",
+          "included": [
+            "Produktavgränsning och en etappvis byggplan",
+            "Abonnemang och fakturering",
+            "Adminpaneler och interna verktyg",
+            "Realtidsfunktioner som live-närvaro"
+          ],
+          "stack": "React, Next.js, NestJS, PostgreSQL, Firebase"
+        },
+        {
+          "id": "automation",
+          "icon": "gear",
+          "title": "Automatisering & integrationer",
+          "body": "Koppla ihop verktygen ni redan använder och ta bort manuell dubbelinmatning ur arbetsflödena som tar upp ert teams vecka.",
+          "included": [
+            "Integrationer mellan webbplats, CRM, bokföring och e-postverktyg",
+            "Automatiska aviseringar, rapporter och datasynkronisering",
+            "Webhooks och schemalagda jobb",
+            "Tydlig dokumentation av varje automatiserat steg"
+          ],
+          "stack": "REST-API:er, webhooks, serverlösa funktioner, schemalagda jobb"
+        },
+        {
+          "id": "support",
+          "icon": "wrench",
+          "title": "Löpande support",
+          "body": "Teknisk support, uppdateringar och övervakning efter lansering, så att er plattform förblir pålitlig i takt med att verksamheten växer.",
+          "included": [
+            "Säkerhets- och beroendeuppdateringar",
+            "Övervakning och felsökning",
+            "Buggfixar och mindre förbättringar",
+            "Hantering av hosting och domäner"
+          ],
+          "stack": "Övervakning, felspårning, förvaltad hosting (Vercel, Firebase, GitHub Pages)"
+        }
       ],
+      "offeringCta": "Diskutera tjänsten",
+      "stackLabel": "Typisk teknik",
+      "includedLabel": "Det här ingår",
       "howWeWorkLabel": "Hur vi arbetar",
       "howWeWorkTitle": "En strukturerad väg från idé till lansering",
       "howWeWorkSub": "Samma disciplin som vi tillämpar i konsultuppdrag följer med i hur vi planerar och bygger teknik.",

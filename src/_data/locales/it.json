@@ -45,9 +45,11 @@
       ],
       "itServicesHeading": "Servizi",
       "itServicesLinks": [
-        { "label": "Piattaforme web e portali" },
-        { "label": "Automazione e integrazioni" },
-        { "label": "Assistenza continuativa" },
+        { "label": "Piattaforme web multilingue", "anchor": "web-platforms" },
+        { "label": "Portali clienti sicuri", "anchor": "portals" },
+        { "label": "Prodotti su misura e SaaS", "anchor": "products" },
+        { "label": "Automazione e integrazioni", "anchor": "automation" },
+        { "label": "Supporto continuo", "anchor": "support" },
         { "label": "Richiedi un preventivo", "target": "contact" }
       ],
       "globalReachHeading": "Global Reach",
@@ -520,11 +522,75 @@
       "offeringsTitle": "Quattro Offerte Fondamentali",
       "offeringsSub": "Dal primo sito web aziendale ai sistemi che gestiscono le operazioni quotidiane, sviluppiamo tecnologia che si adatta alla scala e alla fase della tua impresa.",
       "offerings": [
-        { "icon": "globe", "title": "Piattaforme Web e Siti Aziendali", "body": "Siti web progettati professionalmente, predisposti al multilinguismo, che conferiscono alla tua impresa una presenza online credibile e strutturata fin dal primo giorno." },
-        { "icon": "lock", "title": "Portali Clienti e Aziendali", "body": "Portali membri e clienti sicuri per gestire documenti, comunicazioni e stato di pratiche o progetti in un unico luogo." },
-        { "icon": "gear", "title": "Automazione dei Flussi di Lavoro e Integrazioni", "body": "Automazione delle attività operative ripetitive e integrazione tra gli strumenti già utilizzati dalla tua impresa." },
-        { "icon": "wrench", "title": "Manutenzione e Assistenza Continuativa", "body": "Assistenza tecnica continuativa, aggiornamenti e monitoraggio dopo il lancio, affinché la tua piattaforma rimanga affidabile mentre la tua impresa cresce." }
+        {
+          "id": "web-platforms",
+          "icon": "globe",
+          "title": "Piattaforme web multilingue",
+          "body": "Siti web in produzione pensati per ogni mercato in cui operate, con vere versioni linguistiche, supporto da destra a sinistra dove serve e caricamento rapido in tutto il mondo.",
+          "included": [
+            "URL per lingua e hreflang per i motori di ricerca",
+            "Layout da destra a sinistra per arabo, urdu e lingue simili",
+            "Contenuti strutturati, semplici da aggiornare ed estendere",
+            "Meta tag e anteprime per i social in ogni lingua"
+          ],
+          "stack": "Eleventy o Next.js, hosting su CDN, pubblicazione basata su Git"
+        },
+        {
+          "id": "portals",
+          "icon": "lock",
+          "title": "Portali clienti sicuri",
+          "body": "Portali con accesso riservato in cui i clienti scambiano documenti, seguono la loro pratica o il loro progetto e scrivono al vostro team, in un unico posto invece che in catene di e-mail.",
+          "included": [
+            "Accesso basato sui ruoli per clienti, personale e amministratori",
+            "Regole sui dati applicate lato server, così ogni utente vede solo i propri dati",
+            "Archiviazione privata di documenti e file caricati",
+            "Registrazione delle attività nel Portale Membri"
+          ],
+          "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
+        },
+        {
+          "id": "products",
+          "icon": "code",
+          "title": "Prodotti su misura e SaaS",
+          "body": "Sviluppo completo del prodotto, dall’idea al lancio, per una vostra linea di prodotti.",
+          "included": [
+            "Definizione del prodotto e un piano di sviluppo per fasi",
+            "Piani in abbonamento e fatturazione",
+            "Dashboard di amministrazione e strumenti interni",
+            "Funzioni in tempo reale, come la presenza live"
+          ],
+          "stack": "React, Next.js, NestJS, PostgreSQL, Firebase"
+        },
+        {
+          "id": "automation",
+          "icon": "gear",
+          "title": "Automazione e integrazioni",
+          "body": "Collegate gli strumenti che già usate ed eliminate l’inserimento manuale dai flussi di lavoro che occupano la settimana del vostro team.",
+          "included": [
+            "Integrazioni tra sito web, CRM, contabilità e strumenti e-mail",
+            "Notifiche, report e sincronizzazioni dei dati automatici",
+            "Webhook e attività pianificate",
+            "Documentazione chiara di ogni passaggio automatizzato"
+          ],
+          "stack": "API REST, webhook, funzioni serverless, attività pianificate"
+        },
+        {
+          "id": "support",
+          "icon": "wrench",
+          "title": "Supporto continuo",
+          "body": "Supporto tecnico, aggiornamenti e monitoraggio dopo il lancio, perché la vostra piattaforma resti affidabile mentre l’azienda cresce.",
+          "included": [
+            "Aggiornamenti di sicurezza e delle dipendenze",
+            "Monitoraggio e risoluzione dei problemi",
+            "Correzione di bug e piccoli miglioramenti",
+            "Gestione di hosting e domini"
+          ],
+          "stack": "Monitoraggio, tracciamento degli errori, hosting gestito (Vercel, Firebase, GitHub Pages)"
+        }
       ],
+      "offeringCta": "Parliamo di questo servizio",
+      "stackLabel": "Stack tecnologico tipico",
+      "includedLabel": "Cosa include",
       "howWeWorkLabel": "Come Lavoriamo",
       "howWeWorkTitle": "Un Percorso Strutturato dall'Idea al Lancio",
       "howWeWorkSub": "La stessa disciplina che applichiamo agli incarichi di consulenza si riflette nel modo in cui pianifichiamo e sviluppiamo la tecnologia.",

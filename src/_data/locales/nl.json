@@ -45,9 +45,11 @@
       ],
       "itServicesHeading": "Diensten",
       "itServicesLinks": [
-        { "label": "Webplatforms & portalen" },
-        { "label": "Automatisering & integraties" },
-        { "label": "Doorlopende ondersteuning" },
+        { "label": "Meertalige webplatforms", "anchor": "web-platforms" },
+        { "label": "Beveiligde klantportalen", "anchor": "portals" },
+        { "label": "Maatwerkproducten & SaaS", "anchor": "products" },
+        { "label": "Automatisering & integraties", "anchor": "automation" },
+        { "label": "Doorlopende ondersteuning", "anchor": "support" },
         { "label": "Offerte aanvragen", "target": "contact" }
       ],
       "globalReachHeading": "Global Reach",
@@ -520,11 +522,75 @@
       "offeringsTitle": "Vier Kernaanbiedingen",
       "offeringsSub": "Van een eerste bedrijfswebsite tot de systemen die de dagelijkse bedrijfsvoering draaiende houden — wij bouwen technologie die past bij de schaal en fase van uw onderneming.",
       "offerings": [
-        { "icon": "globe", "title": "Webplatforms en Bedrijfswebsites", "body": "Professioneel ontworpen, meertalige websites die uw bedrijf vanaf dag één een geloofwaardige, gestructureerde online aanwezigheid geven." },
-        { "icon": "lock", "title": "Klant- en Bedrijfsportalen", "body": "Beveiligde ledenmodules en klantportalen voor het beheren van documenten, communicatie en de status van zaken of projecten, allemaal op één plek." },
-        { "icon": "gear", "title": "Workflow-automatisering en Integraties", "body": "Automatisering van repetitief operationeel werk en integratie tussen de tools die uw bedrijf al gebruikt." },
-        { "icon": "wrench", "title": "Doorlopend Onderhoud en Ondersteuning", "body": "Voortdurende technische ondersteuning, updates en monitoring na de lancering, zodat uw platform betrouwbaar blijft naarmate uw bedrijf groeit." }
+        {
+          "id": "web-platforms",
+          "icon": "globe",
+          "title": "Meertalige webplatforms",
+          "body": "Productiewebsites gebouwd voor elke markt die u bedient, met echte taalversies, ondersteuning voor rechts-naar-links waar nodig en snelle laadtijden wereldwijd.",
+          "included": [
+            "Taalspecifieke URL’s en hreflang voor zoekmachines",
+            "Rechts-naar-links-lay-outs voor Arabisch, Urdu en vergelijkbare talen",
+            "Gestructureerde content die eenvoudig bij te werken en uit te breiden is",
+            "Metatags en voorbeeldweergaven voor sociale media in elke taal"
+          ],
+          "stack": "Eleventy of Next.js, CDN-hosting, publicatie via Git"
+        },
+        {
+          "id": "portals",
+          "icon": "lock",
+          "title": "Beveiligde klantportalen",
+          "body": "Portalen met inlog waar klanten documenten uitwisselen, hun dossier of project volgen en uw team berichten sturen, op één plek in plaats van in e-mailketens.",
+          "included": [
+            "Toegang op basis van rollen voor klanten, medewerkers en beheerders",
+            "Gegevensregels die op de server worden afgedwongen, zodat elke gebruiker alleen zijn eigen gegevens ziet",
+            "Privéopslag voor documenten en uploads",
+            "Activiteitenregistratie in het Ledenportaal"
+          ],
+          "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
+        },
+        {
+          "id": "products",
+          "icon": "code",
+          "title": "Maatwerkproducten & SaaS",
+          "body": "Volledige productontwikkeling van concept tot lancering, voor een eigen productlijn.",
+          "included": [
+            "Productafbakening en een gefaseerd bouwplan",
+            "Abonnementen en facturatie",
+            "Beheerdashboards en interne tools",
+            "Realtime functies zoals live aanwezigheid"
+          ],
+          "stack": "React, Next.js, NestJS, PostgreSQL, Firebase"
+        },
+        {
+          "id": "automation",
+          "icon": "gear",
+          "title": "Automatisering & integraties",
+          "body": "Verbind de tools die u al gebruikt en haal handmatig overtypen uit de werkprocessen die de week van uw team opslokken.",
+          "included": [
+            "Integraties tussen website, CRM, boekhouding en e-mailtools",
+            "Automatische meldingen, rapporten en gegevenssynchronisatie",
+            "Webhooks en geplande taken",
+            "Heldere documentatie van elke geautomatiseerde stap"
+          ],
+          "stack": "REST-API’s, webhooks, serverless functies, geplande taken"
+        },
+        {
+          "id": "support",
+          "icon": "wrench",
+          "title": "Doorlopende ondersteuning",
+          "body": "Technische ondersteuning, updates en monitoring na de lancering, zodat uw platform betrouwbaar blijft terwijl uw bedrijf groeit.",
+          "included": [
+            "Beveiligings- en afhankelijkheidsupdates",
+            "Monitoring en probleemoplossing",
+            "Bugfixes en kleine verbeteringen",
+            "Beheer van hosting en domeinen"
+          ],
+          "stack": "Monitoring, foutopsporing, beheerde hosting (Vercel, Firebase, GitHub Pages)"
+        }
       ],
+      "offeringCta": "Bespreek deze dienst",
+      "stackLabel": "Typische technologie",
+      "includedLabel": "Wat is inbegrepen",
       "howWeWorkLabel": "Hoe Wij Werken",
       "howWeWorkTitle": "Een Gestructureerd Traject van Idee tot Lancering",
       "howWeWorkSub": "Dezelfde discipline die wij toepassen op consultingtrajecten, passen wij ook toe op de manier waarop wij technologie plannen en bouwen.",

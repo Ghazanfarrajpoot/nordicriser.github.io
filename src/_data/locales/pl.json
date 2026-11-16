@@ -45,9 +45,11 @@
       ],
       "itServicesHeading": "Usługi",
       "itServicesLinks": [
-        { "label": "Platformy internetowe i portale" },
-        { "label": "Automatyzacja i integracje" },
-        { "label": "Bieżące wsparcie" },
+        { "label": "Wielojęzyczne platformy internetowe", "anchor": "web-platforms" },
+        { "label": "Bezpieczne portale klienta", "anchor": "portals" },
+        { "label": "Produkty na zamówienie i SaaS", "anchor": "products" },
+        { "label": "Automatyzacja i integracje", "anchor": "automation" },
+        { "label": "Stałe wsparcie", "anchor": "support" },
         { "label": "Poproś o wycenę", "target": "contact" }
       ],
       "globalReachHeading": "Global Reach",
@@ -520,11 +522,75 @@
       "offeringsTitle": "Cztery kluczowe usługi",
       "offeringsSub": "Od pierwszej strony internetowej firmy po systemy obsługujące codzienną działalność — budujemy technologię dopasowaną do skali i etapu rozwoju Twojej firmy.",
       "offerings": [
-        { "icon": "globe", "title": "Platformy internetowe i strony firmowe", "body": "Profesjonalnie zaprojektowane, gotowe na wielojęzyczność strony internetowe, które od pierwszego dnia nadają Twojej firmie wiarygodną, ustrukturyzowaną obecność online." },
-        { "icon": "lock", "title": "Portale klienta i biznesowe", "body": "Bezpieczne portale dla klientów i członków umożliwiające zarządzanie dokumentami, komunikacją oraz statusem sprawy lub projektu w jednym miejscu." },
-        { "icon": "gear", "title": "Automatyzacja procesów i integracje", "body": "Automatyzacja powtarzalnych zadań operacyjnych oraz integracja narzędzi, z których już korzysta Twoja firma." },
-        { "icon": "wrench", "title": "Bieżące utrzymanie i wsparcie", "body": "Ciągłe wsparcie techniczne, aktualizacje oraz monitoring po uruchomieniu, dzięki czemu Twoja platforma pozostaje niezawodna wraz z rozwojem firmy." }
+        {
+          "id": "web-platforms",
+          "icon": "globe",
+          "title": "Wielojęzyczne platformy internetowe",
+          "body": "Produkcyjne strony internetowe tworzone dla każdego rynku, na którym działasz – z prawdziwymi wersjami językowymi, obsługą pisma od prawej do lewej tam, gdzie to potrzebne, i szybkim ładowaniem na całym świecie.",
+          "included": [
+            "Osobne adresy URL dla języków i hreflang dla wyszukiwarek",
+            "Układy od prawej do lewej dla arabskiego, urdu i podobnych języków",
+            "Uporządkowana treść, którą łatwo aktualizować i rozbudowywać",
+            "Metatagi i podglądy udostępnień w mediach społecznościowych w każdym języku"
+          ],
+          "stack": "Eleventy lub Next.js, hosting CDN, publikacja oparta na Git"
+        },
+        {
+          "id": "portals",
+          "icon": "lock",
+          "title": "Bezpieczne portale klienta",
+          "body": "Portale z logowaniem, w których klienci wymieniają dokumenty, śledzą swoją sprawę lub projekt i piszą do Twojego zespołu – w jednym miejscu zamiast w wątkach e-mail.",
+          "included": [
+            "Dostęp oparty na rolach dla klientów, pracowników i administratorów",
+            "Reguły dostępu do danych egzekwowane po stronie serwera, aby każdy użytkownik widział tylko własne dane",
+            "Prywatne przechowywanie dokumentów i przesłanych plików",
+            "Rejestrowanie aktywności w Portalu Członkowskim"
+          ],
+          "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
+        },
+        {
+          "id": "products",
+          "icon": "code",
+          "title": "Produkty na zamówienie i SaaS",
+          "body": "Kompleksowe tworzenie produktu – od koncepcji do wdrożenia – dla Twojej własnej linii produktów.",
+          "included": [
+            "Określenie zakresu produktu i etapowy plan prac",
+            "Plany subskrypcyjne i rozliczenia",
+            "Panele administracyjne i narzędzia wewnętrzne",
+            "Funkcje czasu rzeczywistego, np. obecność na żywo"
+          ],
+          "stack": "React, Next.js, NestJS, PostgreSQL, Firebase"
+        },
+        {
+          "id": "automation",
+          "icon": "gear",
+          "title": "Automatyzacja i integracje",
+          "body": "Połącz narzędzia, których już używasz, i wyeliminuj ręczne przepisywanie danych z procesów, które zajmują Twojemu zespołowi cały tydzień.",
+          "included": [
+            "Integracje między stroną, CRM, księgowością i narzędziami e-mail",
+            "Automatyczne powiadomienia, raporty i synchronizacja danych",
+            "Webhooki i zadania harmonogramowane",
+            "Przejrzysta dokumentacja każdego zautomatyzowanego kroku"
+          ],
+          "stack": "API REST, webhooki, funkcje serverless, zadania harmonogramowane"
+        },
+        {
+          "id": "support",
+          "icon": "wrench",
+          "title": "Stałe wsparcie",
+          "body": "Wsparcie techniczne, aktualizacje i monitoring po wdrożeniu, aby Twoja platforma pozostała niezawodna, gdy firma się rozwija.",
+          "included": [
+            "Aktualizacje bezpieczeństwa i zależności",
+            "Monitoring i rozwiązywanie problemów",
+            "Poprawki błędów i drobne ulepszenia",
+            "Zarządzanie hostingiem i domenami"
+          ],
+          "stack": "Monitoring, śledzenie błędów, zarządzany hosting (Vercel, Firebase, GitHub Pages)"
+        }
       ],
+      "offeringCta": "Porozmawiajmy o tej usłudze",
+      "stackLabel": "Typowe technologie",
+      "includedLabel": "Co obejmuje usługa",
       "howWeWorkLabel": "Jak pracujemy",
       "howWeWorkTitle": "Ustrukturyzowana droga od pomysłu do wdrożenia",
       "howWeWorkSub": "Ta sama dyscyplina, którą stosujemy w zleceniach doradczych, przekłada się na sposób, w jaki planujemy i budujemy technologię.",

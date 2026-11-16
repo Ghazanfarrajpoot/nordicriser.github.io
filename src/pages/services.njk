@@ -38,13 +38,25 @@ pageSlug: services
     <span class="section-label">{{ p.offeringsLabel }}</span>
     <h2 class="section-title">{{ p.offeringsTitle }}</h2>
     <p class="section-sub">{{ p.offeringsSub }}</p>
-    <div class="services-grid">
+    <div class="service-details">
       {%- for o in p.offerings %}
-      <div class="service-card">
+      <article class="service-card service-detail" id="{{ o.id }}">
         <div class="service-icon">{{ icons.icon(o.icon) }}</div>
         <h3>{{ o.title }}</h3>
         <p>{{ o.body }}</p>
-      </div>
+        {%- if o.included %}
+        <h4 class="service-detail-label">{{ p.includedLabel }}</h4>
+        <ul class="service-detail-list">
+          {%- for item in o.included %}
+          <li>{{ item }}</li>
+          {%- endfor %}
+        </ul>
+        {%- endif %}
+        {%- if o.stack %}
+        <p class="service-detail-stack"><strong>{{ p.stackLabel }}:</strong> {{ o.stack }}</p>
+        {%- endif %}
+        <a href="{{ 'contact' | localeUrl(locale) }}" class="service-detail-cta" data-analytics-event="service_cta_{{ o.id }}">{{ p.offeringCta }} →</a>
+      </article>
       {%- endfor %}
     </div>
   </div>

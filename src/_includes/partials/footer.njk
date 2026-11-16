@@ -20,7 +20,7 @@
         <h4>{{ t.footer.divisions.itServicesHeading }}</h4>
         <ul>
           {%- for link in t.footer.divisions.itServicesLinks %}
-          <li><a href="{{ (link.target or 'services') | localeUrl(locale) }}">{{ link.label }}</a></li>
+          <li><a href="{{ (link.target or 'services') | localeUrl(locale) }}{{ ('#' + link.anchor) if link.anchor }}">{{ link.label }}</a></li>
           {%- endfor %}
           <li><a href="{{ 'work' | localeUrl(locale) }}">{{ navWorkLabel }}</a></li>
         </ul>

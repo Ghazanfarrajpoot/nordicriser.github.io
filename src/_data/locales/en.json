@@ -50,9 +50,11 @@
       ],
       "itServicesHeading": "Services",
       "itServicesLinks": [
-        { "label": "Web Platforms & Portals" },
-        { "label": "Automation & Integrations" },
-        { "label": "Ongoing Support" },
+        { "label": "Multilingual Web Platforms", "anchor": "web-platforms" },
+        { "label": "Secure Client Portals", "anchor": "portals" },
+        { "label": "Custom Products & SaaS", "anchor": "products" },
+        { "label": "Automation & Integrations", "anchor": "automation" },
+        { "label": "Ongoing Support", "anchor": "support" },
         { "label": "Request a Quote", "target": "contact" }
       ],
       "globalReachHeading": "Global Reach",
@@ -1156,12 +1158,75 @@
       "offeringsTitle": "Five Core Offerings",
       "offeringsSub": "From a first business website to the systems that run daily operations, we build technology that matches the scale and stage of your business.",
       "offerings": [
-        { "icon": "globe", "title": "Web Platforms & Business Websites", "body": "Professionally designed, multilingual-ready websites that give your business a credible, structured presence online from day one." },
-        { "icon": "lock", "title": "Client & Business Portals", "body": "Secure member and client portals for managing documents, communication, and case or project status in one place." },
-        { "icon": "code", "title": "Custom Products & SaaS Development", "body": "Full product builds from concept to launch — subscription billing, admin tooling, and real-time features for a product line of your own." },
-        { "icon": "gear", "title": "Workflow Automation & Integrations", "body": "Automation of repetitive operational work and integration between the tools your business already uses." },
-        { "icon": "wrench", "title": "Ongoing Maintenance & Support", "body": "Continued technical support, updates, and monitoring after launch, so your platform stays reliable as your business grows." }
+        {
+          "id": "web-platforms",
+          "icon": "globe",
+          "title": "Multilingual Web Platforms",
+          "body": "Production websites built for every market you serve, with proper language versions, right-to-left support where needed, and fast loading worldwide.",
+          "included": [
+            "Per-language URLs and hreflang for search engines",
+            "Right-to-left layouts for Arabic, Urdu and similar languages",
+            "Structured content that is straightforward to update and extend",
+            "Meta tags and social sharing previews in every language"
+          ],
+          "stack": "Eleventy or Next.js, CDN hosting, Git-based publishing"
+        },
+        {
+          "id": "portals",
+          "icon": "lock",
+          "title": "Secure Client Portals",
+          "body": "Signed-in portals where clients exchange documents, follow their case or project, and message your team, in one place instead of email threads.",
+          "included": [
+            "Role-based access for clients, staff and administrators",
+            "Server-enforced data rules, so each user sees only their own records",
+            "Private file storage for documents and uploads",
+            "Activity logging in the Member Portal"
+          ],
+          "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
+        },
+        {
+          "id": "products",
+          "icon": "code",
+          "title": "Custom Products & SaaS",
+          "body": "Full product development from concept to launch, for a product line of your own.",
+          "included": [
+            "Product scoping and a phased build plan",
+            "Subscription plans and billing",
+            "Admin dashboards and internal tooling",
+            "Real-time features such as live presence"
+          ],
+          "stack": "React, Next.js, NestJS, PostgreSQL, Firebase"
+        },
+        {
+          "id": "automation",
+          "icon": "gear",
+          "title": "Automation & Integrations",
+          "body": "Connect the tools you already use and remove manual re-entry from the workflows that take up your team’s week.",
+          "included": [
+            "Integrations between your website, CRM, accounting and email tools",
+            "Automated notifications, reports and data syncs",
+            "Webhooks and scheduled jobs",
+            "Clear documentation of every automated step"
+          ],
+          "stack": "REST APIs, webhooks, serverless functions, scheduled jobs"
+        },
+        {
+          "id": "support",
+          "icon": "wrench",
+          "title": "Ongoing Support",
+          "body": "Technical support, updates and monitoring after launch, so your platform stays reliable as your business grows.",
+          "included": [
+            "Security and dependency updates",
+            "Monitoring and troubleshooting",
+            "Bug fixes and small improvements",
+            "Hosting and domain management"
+          ],
+          "stack": "Monitoring, error tracking, managed hosting (Vercel, Firebase, GitHub Pages)"
+        }
       ],
+      "offeringCta": "Discuss this service",
+      "stackLabel": "Typical stack",
+      "includedLabel": "What’s included",
       "howWeWorkLabel": "How We Work",
       "howWeWorkTitle": "A Structured Path from Idea to Launch",
       "howWeWorkSub": "The same discipline we apply to consulting engagements carries over to how we plan and build technology.",

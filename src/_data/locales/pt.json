@@ -45,9 +45,11 @@
       ],
       "itServicesHeading": "Serviços",
       "itServicesLinks": [
-        { "label": "Plataformas web e portais" },
-        { "label": "Automação e integrações" },
-        { "label": "Suporte contínuo" },
+        { "label": "Plataformas web multilíngues", "anchor": "web-platforms" },
+        { "label": "Portais seguros para clientes", "anchor": "portals" },
+        { "label": "Produtos sob medida e SaaS", "anchor": "products" },
+        { "label": "Automação e integrações", "anchor": "automation" },
+        { "label": "Suporte contínuo", "anchor": "support" },
         { "label": "Solicitar orçamento", "target": "contact" }
       ],
       "globalReachHeading": "Alcance Global",
@@ -520,11 +522,75 @@
       "offeringsTitle": "Quatro Ofertas Principais",
       "offeringsSub": "Desde o primeiro website empresarial até aos sistemas que gerem as operações diárias, construímos tecnologia à medida da escala e da fase do seu negócio.",
       "offerings": [
-        { "icon": "globe", "title": "Plataformas Web e Sites Empresariais", "body": "Websites concebidos profissionalmente, prontos para multilinguismo, que conferem ao seu negócio uma presença online credível e estruturada desde o primeiro dia." },
-        { "icon": "lock", "title": "Portais de Clientes e de Negócio", "body": "Portais seguros para membros e clientes, para gerir documentos, comunicação e o estado de casos ou projetos num único local." },
-        { "icon": "gear", "title": "Automação de Fluxos de Trabalho e Integrações", "body": "Automação de trabalho operacional repetitivo e integração entre as ferramentas que o seu negócio já utiliza." },
-        { "icon": "wrench", "title": "Manutenção e Suporte Contínuos", "body": "Suporte técnico contínuo, atualizações e monitorização após o lançamento, para que a sua plataforma se mantenha fiável à medida que o seu negócio cresce." }
+        {
+          "id": "web-platforms",
+          "icon": "globe",
+          "title": "Plataformas web multilíngues",
+          "body": "Sites em produção pensados para cada mercado que você atende, com versões de idioma reais, suporte da direita para a esquerda quando necessário e carregamento rápido no mundo todo.",
+          "included": [
+            "URLs por idioma e hreflang para os mecanismos de busca",
+            "Layouts da direita para a esquerda para árabe, urdu e idiomas semelhantes",
+            "Conteúdo estruturado, simples de atualizar e ampliar",
+            "Meta tags e pré-visualizações para redes sociais em todos os idiomas"
+          ],
+          "stack": "Eleventy ou Next.js, hospedagem em CDN, publicação baseada em Git"
+        },
+        {
+          "id": "portals",
+          "icon": "lock",
+          "title": "Portais seguros para clientes",
+          "body": "Portais com login onde seus clientes trocam documentos, acompanham o caso ou projeto e enviam mensagens para sua equipe, tudo em um só lugar em vez de em longas trocas de e-mails.",
+          "included": [
+            "Acesso por perfil para clientes, equipe e administradores",
+            "Regras de dados aplicadas no servidor, para que cada usuário veja apenas os próprios registros",
+            "Armazenamento privado de documentos e arquivos enviados",
+            "Registro de atividades no Portal de Membros"
+          ],
+          "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
+        },
+        {
+          "id": "products",
+          "icon": "code",
+          "title": "Produtos sob medida e SaaS",
+          "body": "Desenvolvimento completo de produto, do conceito ao lançamento, para uma linha de produtos própria.",
+          "included": [
+            "Definição do produto e um plano de desenvolvimento em fases",
+            "Planos de assinatura e cobrança",
+            "Painéis administrativos e ferramentas internas",
+            "Recursos em tempo real, como presença ao vivo"
+          ],
+          "stack": "React, Next.js, NestJS, PostgreSQL, Firebase"
+        },
+        {
+          "id": "automation",
+          "icon": "gear",
+          "title": "Automação e integrações",
+          "body": "Conecte as ferramentas que você já usa e elimine a digitação manual dos fluxos de trabalho que tomam a semana da sua equipe.",
+          "included": [
+            "Integrações entre site, CRM, contabilidade e ferramentas de e-mail",
+            "Notificações, relatórios e sincronizações de dados automáticos",
+            "Webhooks e tarefas agendadas",
+            "Documentação clara de cada etapa automatizada"
+          ],
+          "stack": "APIs REST, webhooks, funções serverless, tarefas agendadas"
+        },
+        {
+          "id": "support",
+          "icon": "wrench",
+          "title": "Suporte contínuo",
+          "body": "Suporte técnico, atualizações e monitoramento após o lançamento, para que sua plataforma continue confiável enquanto o negócio cresce.",
+          "included": [
+            "Atualizações de segurança e de dependências",
+            "Monitoramento e solução de problemas",
+            "Correção de bugs e pequenas melhorias",
+            "Gestão de hospedagem e domínios"
+          ],
+          "stack": "Monitoramento, rastreamento de erros, hospedagem gerenciada (Vercel, Firebase, GitHub Pages)"
+        }
       ],
+      "offeringCta": "Falar sobre este serviço",
+      "stackLabel": "Stack típico",
+      "includedLabel": "O que está incluído",
       "howWeWorkLabel": "Como Trabalhamos",
       "howWeWorkTitle": "Um Percurso Estruturado da Ideia ao Lançamento",
       "howWeWorkSub": "A mesma disciplina que aplicamos às colaborações de consultoria estende-se à forma como planeamos e construímos tecnologia.",

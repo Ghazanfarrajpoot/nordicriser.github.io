@@ -45,9 +45,11 @@
       ],
       "itServicesHeading": "Dienstleistungen",
       "itServicesLinks": [
-        { "label": "Webplattformen & Portale" },
-        { "label": "Automatisierung & Integrationen" },
-        { "label": "Laufender Support" },
+        { "label": "Mehrsprachige Webplattformen", "anchor": "web-platforms" },
+        { "label": "Sichere Kundenportale", "anchor": "portals" },
+        { "label": "Individuelle Produkte & SaaS", "anchor": "products" },
+        { "label": "Automatisierung & Integrationen", "anchor": "automation" },
+        { "label": "Laufender Support", "anchor": "support" },
         { "label": "Angebot anfordern", "target": "contact" }
       ],
       "globalReachHeading": "Global Reach",
@@ -520,11 +522,75 @@
       "offeringsTitle": "Vier Kernleistungen",
       "offeringsSub": "Von der ersten Unternehmenswebsite bis zu den Systemen für den täglichen Betrieb entwickeln wir Technologie, die zu Größe und Entwicklungsstand Ihres Unternehmens passt.",
       "offerings": [
-        { "icon": "globe", "title": "Webplattformen und Unternehmenswebsites", "body": "Professionell gestaltete, mehrsprachig einsetzbare Websites, die Ihrem Unternehmen von Anfang an eine glaubwürdige, strukturierte Online-Präsenz verleihen." },
-        { "icon": "lock", "title": "Kunden- und Geschäftsportale", "body": "Sichere Mitglieder- und Kundenportale zur Verwaltung von Dokumenten, Kommunikation sowie Fall- oder Projektstatus an einem Ort." },
-        { "icon": "gear", "title": "Workflow-Automatisierung und Integrationen", "body": "Automatisierung wiederkehrender operativer Aufgaben und Integration zwischen den Tools, die Ihr Unternehmen bereits nutzt." },
-        { "icon": "wrench", "title": "Laufende Wartung und Support", "body": "Fortlaufender technischer Support, Updates und Monitoring nach dem Launch, damit Ihre Plattform mit dem Wachstum Ihres Unternehmens zuverlässig bleibt." }
+        {
+          "id": "web-platforms",
+          "icon": "globe",
+          "title": "Mehrsprachige Webplattformen",
+          "body": "Produktive Websites für jeden Markt, den Sie bedienen – mit echten Sprachversionen, Rechts-nach-links-Unterstützung wo nötig und schnellen Ladezeiten weltweit.",
+          "included": [
+            "Sprachspezifische URLs und hreflang für Suchmaschinen",
+            "Rechts-nach-links-Layouts für Arabisch, Urdu und ähnliche Sprachen",
+            "Strukturierte Inhalte, die sich leicht aktualisieren und erweitern lassen",
+            "Meta-Tags und Social-Media-Vorschauen in jeder Sprache"
+          ],
+          "stack": "Eleventy oder Next.js, CDN-Hosting, Git-basiertes Publishing"
+        },
+        {
+          "id": "portals",
+          "icon": "lock",
+          "title": "Sichere Kundenportale",
+          "body": "Portale mit Anmeldung, in denen Kunden Dokumente austauschen, ihren Fall oder ihr Projekt verfolgen und Ihrem Team schreiben – an einem Ort statt in E-Mail-Verläufen.",
+          "included": [
+            "Rollenbasierter Zugriff für Kunden, Mitarbeitende und Administratoren",
+            "Serverseitig durchgesetzte Datenregeln, sodass jeder Nutzer nur seine eigenen Daten sieht",
+            "Privater Dateispeicher für Dokumente und Uploads",
+            "Aktivitätsprotokollierung im Mitgliederportal"
+          ],
+          "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
+        },
+        {
+          "id": "products",
+          "icon": "code",
+          "title": "Individuelle Produkte & SaaS",
+          "body": "Vollständige Produktentwicklung vom Konzept bis zum Launch – für eine eigene Produktlinie.",
+          "included": [
+            "Produktdefinition und ein schrittweiser Entwicklungsplan",
+            "Abonnements und Abrechnung",
+            "Admin-Dashboards und interne Tools",
+            "Echtzeitfunktionen wie Live-Präsenz"
+          ],
+          "stack": "React, Next.js, NestJS, PostgreSQL, Firebase"
+        },
+        {
+          "id": "automation",
+          "icon": "gear",
+          "title": "Automatisierung & Integrationen",
+          "body": "Verbinden Sie die Tools, die Sie bereits nutzen, und entfernen Sie manuelle Doppeleingaben aus den Abläufen, die Ihrem Team die Woche rauben.",
+          "included": [
+            "Integrationen zwischen Website, CRM, Buchhaltung und E-Mail-Tools",
+            "Automatische Benachrichtigungen, Berichte und Datensynchronisation",
+            "Webhooks und geplante Jobs",
+            "Klare Dokumentation jedes automatisierten Schritts"
+          ],
+          "stack": "REST-APIs, Webhooks, Serverless Functions, geplante Jobs"
+        },
+        {
+          "id": "support",
+          "icon": "wrench",
+          "title": "Laufender Support",
+          "body": "Technischer Support, Updates und Monitoring nach dem Launch, damit Ihre Plattform zuverlässig bleibt, während Ihr Unternehmen wächst.",
+          "included": [
+            "Sicherheits- und Abhängigkeitsupdates",
+            "Monitoring und Fehlerbehebung",
+            "Bugfixes und kleine Verbesserungen",
+            "Verwaltung von Hosting und Domains"
+          ],
+          "stack": "Monitoring, Fehlertracking, verwaltetes Hosting (Vercel, Firebase, GitHub Pages)"
+        }
       ],
+      "offeringCta": "Über diesen Service sprechen",
+      "stackLabel": "Typischer Technologie-Stack",
+      "includedLabel": "Leistungsumfang",
       "howWeWorkLabel": "Wie wir arbeiten",
       "howWeWorkTitle": "Ein strukturierter Weg von der Idee zum Launch",
       "howWeWorkSub": "Dieselbe Sorgfalt, die wir in unseren Beratungsmandaten anwenden, übertragen wir auf die Planung und Entwicklung von Technologie.",
