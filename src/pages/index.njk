@@ -23,7 +23,7 @@ pageSlug: ""
     <h1>{{ home.hero.h1 }}</h1>
     <p>{{ home.hero.body }}</p>
     <div class="hero-ctas">
-      <a href="{{ 'work' | localeUrl(locale) }}" class="btn-primary">{{ home.hero.cta }}</a>
+      <a href="{{ 'work/nr-bos' | localeUrl(locale) }}" class="btn-primary">{{ home.hero.cta }}</a>
       <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-secondary">{{ home.hero.ctaSecondary }}</a>
     </div>
   </div>
@@ -88,7 +88,7 @@ pageSlug: ""
     <h2 class="section-title">{{ home.featuredWork.title }}</h2>
     <div class="work-teaser-grid">
       {%- for item in home.featuredWork.items %}
-      <a href="{{ item.link | localeUrl(locale) }}" class="work-teaser-card{% if item.featured %} work-teaser-card--featured{% endif %}">
+      <a href="{{ item.link | localeUrl(locale) }}{{ ('#' + item.id) if item.link == 'work' and item.id }}" class="work-teaser-card{% if item.featured %} work-teaser-card--featured{% endif %}">
         {%- if item.featured %}<span class="case-study-badge">{{ item.featuredLabel }}</span>{%- endif %}
         <div class="work-teaser-card__band">
           <span class="case-study-type">{{ item.type }}</span>

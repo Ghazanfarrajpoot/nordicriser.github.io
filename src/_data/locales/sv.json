@@ -372,13 +372,13 @@
         "label": "Utvalt arbete",
         "title": "Vad vi har byggt",
         "items": [
-          { "type": "SaaS-produkt (internt byggd)", "title": "NR-BOS", "featured": true, "featuredLabel": "Flaggskeppsprodukt", "oneLiner": "Projektleverans, fältarbete och kundrapportering — allt på en plattform, byggd och licensierad av Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS-produkt (internt byggd)", "title": "Global Reach", "oneLiner": "Direktsända studie- och arbetsrum med realtidsnärvaro och delade sessionsanteckningar, debiterat per minut.", "link": "global-reach" },
-          { "type": "Säker kundportal", "title": "Nordic Riser Medlemsportal", "oneLiner": "En autentiserad portal för dokumentutbyte, ärendespårning, säker meddelandehantering och betalningar.", "link": "work", "linkLabel": "Se i vårt arbete →" },
-          { "type": "Flerspråkig marknadsföringsplattform", "title": "nordicriser.com", "oneLiner": "En elvaspråkig produktionswebbplats med RTL-stöd, fullständig metatäckning och rena URL:er per språk.", "link": "work", "linkLabel": "Se i vårt arbete →" },
-          { "type": "Vårdapp", "title": "Telemedicinapp", "oneLiner": "En telemedicinplattform vi byggt från grunden — HD-videokonsultationer, tidsbokning och chatt under samtal — redo att anpassas för valfritt vårdvarumärke.", "link": "work", "linkLabel": "Se i vårt arbete →" },
-          { "type": "Apoteksexpedieringsapp", "title": "Apoteksplattform", "oneLiner": "Ett apoteksexpedieringssystem vi byggt som kopplar recept till hantering och leverans, redo att anpassas för valfri aktör.", "link": "work", "linkLabel": "Se i vårt arbete →" },
-          { "type": "Leveransapp (internt byggd)", "title": "On-Demand Delivery App", "oneLiner": "En anpassningsbar leveransplattform för beställning, dirigering och budspårning för alla typer av företag.", "link": "work", "linkLabel": "Se i vårt arbete →" }
+          { "type": "SaaS-produkt (internt byggd)", "id": "nr-bos", "title": "NR-BOS", "featured": true, "featuredLabel": "Flaggskeppsprodukt", "oneLiner": "Projektleverans, fältarbete och kundrapportering — allt på en plattform, byggd och licensierad av Nordic Riser AB.", "link": "work/nr-bos" },
+          { "type": "SaaS-produkt (internt byggd)", "id": "global-reach", "title": "Global Reach", "oneLiner": "Direktsända studie- och arbetsrum med realtidsnärvaro och delade sessionsanteckningar, debiterat per minut.", "link": "global-reach" },
+          { "type": "Säker kundportal", "id": "member-portal", "title": "Nordic Riser Medlemsportal", "oneLiner": "En autentiserad portal för dokumentutbyte, ärendespårning, säker meddelandehantering och betalningar.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Flerspråkig marknadsföringsplattform", "id": "nordicriser-com", "title": "nordicriser.com", "oneLiner": "En elvaspråkig produktionswebbplats med RTL-stöd, fullständig metatäckning och rena URL:er per språk.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Vårdapp", "id": "4edoctor", "title": "Telemedicinapp", "oneLiner": "En telemedicinplattform vi byggt från grunden — HD-videokonsultationer, tidsbokning och chatt under samtal — redo att anpassas för valfritt vårdvarumärke.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Apoteksexpedieringsapp", "id": "4ezone-pharmacy", "title": "Apoteksplattform", "oneLiner": "Ett apoteksexpedieringssystem vi byggt som kopplar recept till hantering och leverans, redo att anpassas för valfri aktör.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Leveransapp (internt byggd)", "id": "delivery-app", "title": "On-Demand Delivery App", "oneLiner": "En anpassningsbar leveransplattform för beställning, dirigering och budspårning för alla typer av företag.", "link": "work", "linkLabel": "Se i vårt arbete →" }
         ],
         "cta": "Se allt arbete",
         "ctaLink": "work"
@@ -1644,6 +1644,7 @@
       "caseStudies": [
         {
           "type": "SaaS-produkt (internt byggd)",
+          "id": "nr-bos",
           "title": "NR-BOS",
           "featured": true,
           "featuredLabel": "Flaggskeppsprodukt",
@@ -1660,6 +1661,7 @@
         },
         {
           "type": "SaaS-produkt (internt byggd)",
+          "id": "global-reach",
           "title": "Global Reach",
           "challengeLabel": "Utmaning",
           "challenge": "Team som arbetar över gränser behöver ett delat utrymme för att studera eller arbeta tillsammans live, utan att boka ett samtal eller växla mellan separata verktyg.",
@@ -1674,6 +1676,7 @@
         },
         {
           "type": "Säker kundportal",
+          "id": "member-portal",
           "title": "Nordic Riser Medlemsportal",
           "challengeLabel": "Utmaning",
           "challenge": "Rådgivningskunder behövde en samlad plats för dokument, ärendestatus och kommunikation — med strikt åtkomstkontroll.",
@@ -1686,6 +1689,7 @@
         },
         {
           "type": "Flerspråkig marknadsföringsplattform",
+          "id": "nordicriser-com",
           "title": "nordicriser.com",
           "challengeLabel": "Utmaning",
           "challenge": "Nå entreprenörer i Europa, Mellanöstern och Sydasien på deras egna språk.",
@@ -1698,6 +1702,7 @@
         },
         {
           "type": "Vårdapp",
+          "id": "4edoctor",
           "title": "Telemedicinapp",
           "challengeLabel": "Utmaning",
           "challenge": "Patienter behövde tillgång till läkarkonsultationer — med läkare, psykologer och sjuksköterskor — utan väntetider och friktion från fysiska besök.",
@@ -1710,6 +1715,7 @@
         },
         {
           "type": "Apoteksexpedieringsapp",
+          "id": "4ezone-pharmacy",
           "title": "Apoteksplattform",
           "challengeLabel": "Utmaning",
           "challenge": "Patienter med recept från läkare hade inget snabbt sätt att få sin medicin expedierad och levererad.",
@@ -1722,6 +1728,7 @@
         },
         {
           "type": "Leveransapp (internt byggd)",
+          "id": "delivery-app",
           "title": "On-Demand Delivery App",
           "challengeLabel": "Utmaning",
           "challenge": "Företag inom olika branscher behövde leverans on-demand — beställning, dirigering och realtidsspårning — utan att bygga logistikinfrastruktur från grunden.",

@@ -374,13 +374,13 @@
         "label": "Selected Work",
         "title": "What We've Built",
         "items": [
-          { "type": "SaaS Product (In-House)", "title": "NR-BOS", "featured": true, "featuredLabel": "Flagship Product", "oneLiner": "Project delivery, field operations, and client reporting — run from one platform, built and licensed by Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS Product (In-House)", "title": "Global Reach", "oneLiner": "Live study and work rooms with real-time presence and shared session notes, billed by the minute.", "link": "global-reach" },
-          { "type": "Secure Client Portal (In-House)", "title": "Nordic Riser Member Portal", "oneLiner": "An authenticated portal for document exchange, case tracking, secure messaging, and payments.", "link": "work", "linkLabel": "See in our work →" },
-          { "type": "Multilingual Marketing Platform (In-House)", "title": "nordicriser.com", "oneLiner": "An eleven-language production site with RTL support, full meta coverage, and clean per-language URLs.", "link": "work", "linkLabel": "See in our work →" },
-          { "type": "Healthcare App", "title": "Telemedicine App", "oneLiner": "A telemedicine platform we built end-to-end — HD video consultations, appointment booking, and in-call chat — ready to customize for any healthcare brand.", "link": "work", "linkLabel": "See in our work →" },
-          { "type": "Pharmacy Fulfillment App", "title": "Pharmacy Platform", "oneLiner": "A pharmacy fulfillment system we built linking prescriptions to processing and delivery, ready to customize for any operator.", "link": "work", "linkLabel": "See in our work →" },
-          { "type": "Delivery App (In-House)", "title": "On-Demand Delivery App", "oneLiner": "A customizable delivery platform covering ordering, dispatch, and rider tracking for any business.", "link": "work", "linkLabel": "See in our work →" }
+          { "type": "SaaS Product (In-House)", "id": "nr-bos", "title": "NR-BOS", "featured": true, "featuredLabel": "Flagship Product", "oneLiner": "Project delivery, field operations, and client reporting — run from one platform, built and licensed by Nordic Riser AB.", "link": "work/nr-bos" },
+          { "type": "SaaS Product (In-House)", "id": "global-reach", "title": "Global Reach", "oneLiner": "Live study and work rooms with real-time presence and shared session notes, billed by the minute.", "link": "global-reach" },
+          { "type": "Secure Client Portal (In-House)", "id": "member-portal", "title": "Nordic Riser Member Portal", "oneLiner": "An authenticated portal for document exchange, case tracking, secure messaging, and payments.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Multilingual Marketing Platform (In-House)", "id": "nordicriser-com", "title": "nordicriser.com", "oneLiner": "An eleven-language production site with RTL support, full meta coverage, and clean per-language URLs.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Healthcare App", "id": "4edoctor", "title": "Telemedicine App", "oneLiner": "A telemedicine platform we built end-to-end — HD video consultations, appointment booking, and in-call chat — ready to customize for any healthcare brand.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Pharmacy Fulfillment App", "id": "4ezone-pharmacy", "title": "Pharmacy Platform", "oneLiner": "A pharmacy fulfillment system we built linking prescriptions to processing and delivery, ready to customize for any operator.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Delivery App (In-House)", "id": "delivery-app", "title": "On-Demand Delivery App", "oneLiner": "A customizable delivery platform covering ordering, dispatch, and rider tracking for any business.", "link": "work", "linkLabel": "See in our work →" }
         ],
         "cta": "See All Work",
         "ctaLink": "/work/"
@@ -1269,6 +1269,7 @@
       "caseStudies": [
         {
           "type": "SaaS Product (In-House)",
+          "id": "nr-bos",
           "title": "NR-BOS",
           "featured": true,
           "featuredLabel": "Flagship Product",
@@ -1285,6 +1286,7 @@
         },
         {
           "type": "SaaS Product (In-House)",
+          "id": "global-reach",
           "title": "Global Reach",
           "challengeLabel": "Challenge",
           "challenge": "Teams working across borders need a shared space to study or work together live, without booking a call or juggling separate tools.",
@@ -1299,6 +1301,7 @@
         },
         {
           "type": "Secure Client Portal (In-House)",
+          "id": "member-portal",
           "title": "Nordic Riser Member Portal",
           "challengeLabel": "Challenge",
           "challenge": "Advisory clients needed a single place for documents, case status, and communication — with strict access control.",
@@ -1311,6 +1314,7 @@
         },
         {
           "type": "Multilingual Marketing Platform (In-House)",
+          "id": "nordicriser-com",
           "title": "nordicriser.com",
           "challengeLabel": "Challenge",
           "challenge": "Reach entrepreneurs across Europe, the Middle East, and South Asia in their own languages.",
@@ -1323,6 +1327,7 @@
         },
         {
           "type": "Healthcare App",
+          "id": "4edoctor",
           "title": "Telemedicine App",
           "challengeLabel": "Challenge",
           "challenge": "Patients needed access to medical consultations — with doctors, psychologists, and nurses — without the wait times and friction of in-person visits.",
@@ -1335,6 +1340,7 @@
         },
         {
           "type": "Pharmacy Fulfillment App",
+          "id": "4ezone-pharmacy",
           "title": "Pharmacy Platform",
           "challengeLabel": "Challenge",
           "challenge": "Patients with a doctor's prescription had no fast way to get their medicine fulfilled and delivered.",
@@ -1347,6 +1353,7 @@
         },
         {
           "type": "Delivery App (In-House)",
+          "id": "delivery-app",
           "title": "On-Demand Delivery App",
           "challengeLabel": "Challenge",
           "challenge": "Businesses across different industries needed on-demand delivery — ordering, dispatch, and real-time tracking — without building logistics infrastructure from scratch.",

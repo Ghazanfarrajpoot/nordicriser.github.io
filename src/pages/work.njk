@@ -34,7 +34,7 @@ pageSlug: work
   <div class="section-inner" data-animate>
     <div class="case-study-list">
       {%- for cs in p.caseStudies %}
-      <div class="case-study-card{% if cs.featured %} case-study-card--featured{% endif %}">
+      <div class="case-study-card{% if cs.featured %} case-study-card--featured{% endif %}"{% if cs.id %} id="{{ cs.id }}"{% endif %}>
         {%- if cs.featured %}<span class="case-study-badge">{{ cs.featuredLabel }}</span>{%- endif %}
         <div class="case-study-card__band">
           <span class="case-study-type">{{ cs.type }}</span>

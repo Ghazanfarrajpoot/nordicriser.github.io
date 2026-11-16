@@ -126,13 +126,13 @@
         "label": "Geselecteerd Werk",
         "title": "Wat Wij Hebben Gebouwd",
         "items": [
-          { "type": "SaaS-product (Intern)", "title": "NR-BOS", "featured": true, "featuredLabel": "Vlaggenschipproduct", "oneLiner": "Projectuitvoering, veldwerk en klantrapportages — alles op één platform, gebouwd en gelicentieerd door Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS-product (Intern)", "title": "Global Reach", "oneLiner": "Live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities, per minuut gefactureerd.", "link": "global-reach" },
-          { "type": "Veilig Klantportaal", "title": "Nordic Riser Ledenportaal", "oneLiner": "Een geauthenticeerd portaal voor documentuitwisseling, zaakopvolging, veilige berichten en betalingen.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
-          { "type": "Meertalig Marketingplatform", "title": "nordicriser.com", "oneLiner": "Een productiesite in elf talen met RTL-ondersteuning, volledige metadekking en schone URL's per taal.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
-          { "type": "Zorg-app", "title": "Telemedicine-app", "oneLiner": "Een telemedicineplatform dat we volledig zelf hebben gebouwd — HD-videoconsulten, afsprakenplanning en chat tijdens het gesprek — klaar om aan te passen voor elk zorgmerk.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
-          { "type": "Apotheekverwerkings-app", "title": "Apotheekplatform", "oneLiner": "Een apotheekverwerkingssysteem dat we hebben gebouwd en dat recepten koppelt aan verwerking en bezorging, klaar om aan te passen voor elke exploitant.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
-          { "type": "Bezorgapp (Intern)", "title": "On-Demand Delivery App", "oneLiner": "Een aanpasbaar bezorgplatform voor bestellen, dispatch en bezorgertracking, geschikt voor elk bedrijf.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" }
+          { "type": "SaaS-product (Intern)", "id": "nr-bos", "title": "NR-BOS", "featured": true, "featuredLabel": "Vlaggenschipproduct", "oneLiner": "Projectuitvoering, veldwerk en klantrapportages — alles op één platform, gebouwd en gelicentieerd door Nordic Riser AB.", "link": "work/nr-bos" },
+          { "type": "SaaS-product (Intern)", "id": "global-reach", "title": "Global Reach", "oneLiner": "Live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities, per minuut gefactureerd.", "link": "global-reach" },
+          { "type": "Veilig Klantportaal", "id": "member-portal", "title": "Nordic Riser Ledenportaal", "oneLiner": "Een geauthenticeerd portaal voor documentuitwisseling, zaakopvolging, veilige berichten en betalingen.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
+          { "type": "Meertalig Marketingplatform", "id": "nordicriser-com", "title": "nordicriser.com", "oneLiner": "Een productiesite in elf talen met RTL-ondersteuning, volledige metadekking en schone URL's per taal.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
+          { "type": "Zorg-app", "id": "4edoctor", "title": "Telemedicine-app", "oneLiner": "Een telemedicineplatform dat we volledig zelf hebben gebouwd — HD-videoconsulten, afsprakenplanning en chat tijdens het gesprek — klaar om aan te passen voor elk zorgmerk.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
+          { "type": "Apotheekverwerkings-app", "id": "4ezone-pharmacy", "title": "Apotheekplatform", "oneLiner": "Een apotheekverwerkingssysteem dat we hebben gebouwd en dat recepten koppelt aan verwerking en bezorging, klaar om aan te passen voor elke exploitant.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
+          { "type": "Bezorgapp (Intern)", "id": "delivery-app", "title": "On-Demand Delivery App", "oneLiner": "Een aanpasbaar bezorgplatform voor bestellen, dispatch en bezorgertracking, geschikt voor elk bedrijf.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" }
         ],
         "cta": "Bekijk Al Ons Werk",
         "ctaLink": "work"
@@ -632,6 +632,7 @@
       "caseStudies": [
         {
           "type": "SaaS-product (Intern)",
+          "id": "nr-bos",
           "title": "NR-BOS",
           "featured": true,
           "featuredLabel": "Vlaggenschipproduct",
@@ -648,6 +649,7 @@
         },
         {
           "type": "SaaS-product (Intern)",
+          "id": "global-reach",
           "title": "Global Reach",
           "challengeLabel": "Uitdaging",
           "challenge": "Teams die grensoverschrijdend werken hebben een gedeelde ruimte nodig om live samen te studeren of te werken, zonder een gesprek te boeken of te schakelen tussen losse tools.",
@@ -662,6 +664,7 @@
         },
         {
           "type": "Veilig Klantportaal",
+          "id": "member-portal",
           "title": "Nordic Riser Ledenportaal",
           "challengeLabel": "Uitdaging",
           "challenge": "Adviesklanten hadden één plek nodig voor documenten, zaakstatus en communicatie — met strikte toegangscontrole.",
@@ -674,6 +677,7 @@
         },
         {
           "type": "Meertalig Marketingplatform",
+          "id": "nordicriser-com",
           "title": "nordicriser.com",
           "challengeLabel": "Uitdaging",
           "challenge": "Ondernemers bereiken in heel Europa, het Midden-Oosten en Zuid-Azië, in hun eigen taal.",
@@ -686,6 +690,7 @@
         },
         {
           "type": "Zorg-app",
+          "id": "4edoctor",
           "title": "Telemedicine-app",
           "challengeLabel": "Uitdaging",
           "challenge": "Patiënten hadden toegang nodig tot medische consulten — met artsen, psychologen en verpleegkundigen — zonder de wachttijden en frictie van fysieke bezoeken.",
@@ -698,6 +703,7 @@
         },
         {
           "type": "Apotheekverwerkings-app",
+          "id": "4ezone-pharmacy",
           "title": "Apotheekplatform",
           "challengeLabel": "Uitdaging",
           "challenge": "Patiënten met een doktersrecept hadden geen snelle manier om hun medicatie te laten verwerken en bezorgen.",
@@ -710,6 +716,7 @@
         },
         {
           "type": "Bezorgapp (Intern)",
+          "id": "delivery-app",
           "title": "On-Demand Delivery App",
           "challengeLabel": "Uitdaging",
           "challenge": "Bedrijven in verschillende sectoren hadden on-demand bezorging nodig — bestellen, dispatch en realtime tracking — zonder logistieke infrastructuur vanaf nul te bouwen.",

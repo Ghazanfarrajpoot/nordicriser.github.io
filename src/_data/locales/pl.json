@@ -126,13 +126,13 @@
         "label": "Wybrane Realizacje",
         "title": "Co Zbudowaliśmy",
         "items": [
-          { "type": "Produkt SaaS (Wewnętrzny)", "title": "NR-BOS", "featured": true, "featuredLabel": "Produkt Flagowy", "oneLiner": "Realizacja projektów, praca w terenie i raportowanie dla klientów — wszystko na jednej platformie, zbudowanej i licencjonowanej przez Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "Produkt SaaS (Wewnętrzny)", "title": "Global Reach", "oneLiner": "Pokoje do nauki i pracy na żywo z obecnością w czasie rzeczywistym i wspólnymi notatkami sesji, rozliczane co minutę.", "link": "global-reach" },
-          { "type": "Bezpieczny Portal Klienta", "title": "Portal Członków Nordic Riser", "oneLiner": "Uwierzytelniony portal do wymiany dokumentów, śledzenia spraw, bezpiecznej komunikacji i płatności.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
-          { "type": "Wielojęzyczna Platforma Marketingowa", "title": "nordicriser.com", "oneLiner": "Jedenastojęzyczna strona produkcyjna ze wsparciem RTL, pełnym pokryciem meta i czystymi adresami URL dla każdego języka.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
-          { "type": "Aplikacja Zdrowotna", "title": "Aplikacja Telemedyczna", "oneLiner": "Platforma telemedyczna, którą zbudowaliśmy od podstaw — konsultacje wideo w HD, rezerwacja wizyt i czat podczas rozmowy — gotowa do dostosowania dla dowolnej marki medycznej.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
-          { "type": "Aplikacja Realizacji Recept", "title": "Platforma Farmaceutyczna", "oneLiner": "System realizacji recept, który zbudowaliśmy, łączący recepty z przetwarzaniem i dostawą, gotowy do dostosowania dla dowolnego operatora.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
-          { "type": "Aplikacja Dostawcza (Wewnętrzna)", "title": "On-Demand Delivery App", "oneLiner": "Konfigurowalna platforma dostawcza do zamawiania, dyspozycji i śledzenia kurierów dla dowolnej firmy.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" }
+          { "type": "Produkt SaaS (Wewnętrzny)", "id": "nr-bos", "title": "NR-BOS", "featured": true, "featuredLabel": "Produkt Flagowy", "oneLiner": "Realizacja projektów, praca w terenie i raportowanie dla klientów — wszystko na jednej platformie, zbudowanej i licencjonowanej przez Nordic Riser AB.", "link": "work/nr-bos" },
+          { "type": "Produkt SaaS (Wewnętrzny)", "id": "global-reach", "title": "Global Reach", "oneLiner": "Pokoje do nauki i pracy na żywo z obecnością w czasie rzeczywistym i wspólnymi notatkami sesji, rozliczane co minutę.", "link": "global-reach" },
+          { "type": "Bezpieczny Portal Klienta", "id": "member-portal", "title": "Portal Członków Nordic Riser", "oneLiner": "Uwierzytelniony portal do wymiany dokumentów, śledzenia spraw, bezpiecznej komunikacji i płatności.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
+          { "type": "Wielojęzyczna Platforma Marketingowa", "id": "nordicriser-com", "title": "nordicriser.com", "oneLiner": "Jedenastojęzyczna strona produkcyjna ze wsparciem RTL, pełnym pokryciem meta i czystymi adresami URL dla każdego języka.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
+          { "type": "Aplikacja Zdrowotna", "id": "4edoctor", "title": "Aplikacja Telemedyczna", "oneLiner": "Platforma telemedyczna, którą zbudowaliśmy od podstaw — konsultacje wideo w HD, rezerwacja wizyt i czat podczas rozmowy — gotowa do dostosowania dla dowolnej marki medycznej.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
+          { "type": "Aplikacja Realizacji Recept", "id": "4ezone-pharmacy", "title": "Platforma Farmaceutyczna", "oneLiner": "System realizacji recept, który zbudowaliśmy, łączący recepty z przetwarzaniem i dostawą, gotowy do dostosowania dla dowolnego operatora.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
+          { "type": "Aplikacja Dostawcza (Wewnętrzna)", "id": "delivery-app", "title": "On-Demand Delivery App", "oneLiner": "Konfigurowalna platforma dostawcza do zamawiania, dyspozycji i śledzenia kurierów dla dowolnej firmy.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" }
         ],
         "cta": "Zobacz Wszystkie Realizacje",
         "ctaLink": "work"
@@ -632,6 +632,7 @@
       "caseStudies": [
         {
           "type": "Produkt SaaS (Wewnętrzny)",
+          "id": "nr-bos",
           "title": "NR-BOS",
           "featured": true,
           "featuredLabel": "Produkt Flagowy",
@@ -648,6 +649,7 @@
         },
         {
           "type": "Produkt SaaS (Wewnętrzny)",
+          "id": "global-reach",
           "title": "Global Reach",
           "challengeLabel": "Wyzwanie",
           "challenge": "Zespoły pracujące ponad granicami potrzebują wspólnej przestrzeni, aby uczyć się lub pracować razem na żywo, bez rezerwowania rozmowy czy przełączania się między osobnymi narzędziami.",
@@ -662,6 +664,7 @@
         },
         {
           "type": "Bezpieczny Portal Klienta",
+          "id": "member-portal",
           "title": "Portal Członków Nordic Riser",
           "challengeLabel": "Wyzwanie",
           "challenge": "Klienci doradztwa potrzebowali jednego miejsca na dokumenty, status spraw i komunikację — z rygorystyczną kontrolą dostępu.",
@@ -674,6 +677,7 @@
         },
         {
           "type": "Wielojęzyczna Platforma Marketingowa",
+          "id": "nordicriser-com",
           "title": "nordicriser.com",
           "challengeLabel": "Wyzwanie",
           "challenge": "Dotarcie do przedsiębiorców w Europie, na Bliskim Wschodzie i w Azji Południowej w ich własnym języku.",
@@ -686,6 +690,7 @@
         },
         {
           "type": "Aplikacja Zdrowotna",
+          "id": "4edoctor",
           "title": "Aplikacja Telemedyczna",
           "challengeLabel": "Wyzwanie",
           "challenge": "Pacjenci potrzebowali dostępu do konsultacji medycznych — z lekarzami, psychologami i pielęgniarkami — bez czasu oczekiwania i utrudnień związanych z wizytami osobistymi.",
@@ -698,6 +703,7 @@
         },
         {
           "type": "Aplikacja Realizacji Recept",
+          "id": "4ezone-pharmacy",
           "title": "Platforma Farmaceutyczna",
           "challengeLabel": "Wyzwanie",
           "challenge": "Pacjenci posiadający receptę lekarską nie mieli szybkiego sposobu na zrealizowanie i dostarczenie leków.",
@@ -710,6 +716,7 @@
         },
         {
           "type": "Aplikacja Dostawcza (Wewnętrzna)",
+          "id": "delivery-app",
           "title": "On-Demand Delivery App",
           "challengeLabel": "Wyzwanie",
           "challenge": "Firmy z różnych branż potrzebowały dostaw na żądanie — zamawiania, dyspozycji i śledzenia w czasie rzeczywistym — bez budowania infrastruktury logistycznej od podstaw.",

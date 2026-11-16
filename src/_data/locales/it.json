@@ -126,13 +126,13 @@
         "label": "Lavori Selezionati",
         "title": "Cosa Abbiamo Costruito",
         "items": [
-          { "type": "Prodotto SaaS (Interno)", "title": "NR-BOS", "featured": true, "featuredLabel": "Prodotto di Punta", "oneLiner": "Consegna dei progetti, operazioni sul campo e reportistica per i clienti — tutto su un'unica piattaforma, sviluppata e concessa in licenza da Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "Prodotto SaaS (Interno)", "title": "Global Reach", "oneLiner": "Stanze di studio e lavoro dal vivo con presenza in tempo reale e note di sessione condivise, fatturate al minuto.", "link": "global-reach" },
-          { "type": "Portale Clienti Sicuro", "title": "Portale Membri Nordic Riser", "oneLiner": "Un portale autenticato per lo scambio di documenti, il monitoraggio delle pratiche, la messaggistica sicura e i pagamenti.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
-          { "type": "Piattaforma di Marketing Multilingue", "title": "nordicriser.com", "oneLiner": "Un sito di produzione in undici lingue con supporto RTL, copertura meta completa e URL puliti per ogni lingua.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
-          { "type": "App Sanitaria", "title": "App di Telemedicina", "oneLiner": "Una piattaforma di telemedicina costruita da noi da zero — consulti video in HD, prenotazione degli appuntamenti e chat durante la chiamata — pronta per essere personalizzata per qualsiasi marchio sanitario.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
-          { "type": "App di Evasione Farmaceutica", "title": "Piattaforma Farmaceutica", "oneLiner": "Un sistema di evasione farmaceutica costruito da noi che collega le prescrizioni all'elaborazione e alla consegna, pronto per essere personalizzato per qualsiasi operatore.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
-          { "type": "App di Consegna (Interna)", "title": "On-Demand Delivery App", "oneLiner": "Una piattaforma di consegna personalizzabile per ordini, dispacciamento e tracciamento dei fattorini, adatta a qualsiasi attività.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" }
+          { "type": "Prodotto SaaS (Interno)", "id": "nr-bos", "title": "NR-BOS", "featured": true, "featuredLabel": "Prodotto di Punta", "oneLiner": "Consegna dei progetti, operazioni sul campo e reportistica per i clienti — tutto su un'unica piattaforma, sviluppata e concessa in licenza da Nordic Riser AB.", "link": "work/nr-bos" },
+          { "type": "Prodotto SaaS (Interno)", "id": "global-reach", "title": "Global Reach", "oneLiner": "Stanze di studio e lavoro dal vivo con presenza in tempo reale e note di sessione condivise, fatturate al minuto.", "link": "global-reach" },
+          { "type": "Portale Clienti Sicuro", "id": "member-portal", "title": "Portale Membri Nordic Riser", "oneLiner": "Un portale autenticato per lo scambio di documenti, il monitoraggio delle pratiche, la messaggistica sicura e i pagamenti.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
+          { "type": "Piattaforma di Marketing Multilingue", "id": "nordicriser-com", "title": "nordicriser.com", "oneLiner": "Un sito di produzione in undici lingue con supporto RTL, copertura meta completa e URL puliti per ogni lingua.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
+          { "type": "App Sanitaria", "id": "4edoctor", "title": "App di Telemedicina", "oneLiner": "Una piattaforma di telemedicina costruita da noi da zero — consulti video in HD, prenotazione degli appuntamenti e chat durante la chiamata — pronta per essere personalizzata per qualsiasi marchio sanitario.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
+          { "type": "App di Evasione Farmaceutica", "id": "4ezone-pharmacy", "title": "Piattaforma Farmaceutica", "oneLiner": "Un sistema di evasione farmaceutica costruito da noi che collega le prescrizioni all'elaborazione e alla consegna, pronto per essere personalizzato per qualsiasi operatore.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
+          { "type": "App di Consegna (Interna)", "id": "delivery-app", "title": "On-Demand Delivery App", "oneLiner": "Una piattaforma di consegna personalizzabile per ordini, dispacciamento e tracciamento dei fattorini, adatta a qualsiasi attività.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" }
         ],
         "cta": "Vedi Tutti i Lavori",
         "ctaLink": "work"
@@ -632,6 +632,7 @@
       "caseStudies": [
         {
           "type": "Prodotto SaaS (Interno)",
+          "id": "nr-bos",
           "title": "NR-BOS",
           "featured": true,
           "featuredLabel": "Prodotto di Punta",
@@ -648,6 +649,7 @@
         },
         {
           "type": "Prodotto SaaS (Interno)",
+          "id": "global-reach",
           "title": "Global Reach",
           "challengeLabel": "Sfida",
           "challenge": "I team che lavorano oltre confine hanno bisogno di uno spazio condiviso per studiare o lavorare insieme dal vivo, senza prenotare una chiamata o usare strumenti separati.",
@@ -662,6 +664,7 @@
         },
         {
           "type": "Portale Clienti Sicuro",
+          "id": "member-portal",
           "title": "Portale Membri Nordic Riser",
           "challengeLabel": "Sfida",
           "challenge": "I clienti della consulenza avevano bisogno di un unico luogo per documenti, stato delle pratiche e comunicazione — con un controllo degli accessi rigoroso.",
@@ -674,6 +677,7 @@
         },
         {
           "type": "Piattaforma di Marketing Multilingue",
+          "id": "nordicriser-com",
           "title": "nordicriser.com",
           "challengeLabel": "Sfida",
           "challenge": "Raggiungere imprenditori in Europa, Medio Oriente e Asia Meridionale nella loro lingua.",
@@ -686,6 +690,7 @@
         },
         {
           "type": "App Sanitaria",
+          "id": "4edoctor",
           "title": "App di Telemedicina",
           "challengeLabel": "Sfida",
           "challenge": "I pazienti avevano bisogno di accedere a consulti medici — con medici, psicologi e infermieri — senza le attese e la frizione delle visite in presenza.",
@@ -698,6 +703,7 @@
         },
         {
           "type": "App di Evasione Farmaceutica",
+          "id": "4ezone-pharmacy",
           "title": "Piattaforma Farmaceutica",
           "challengeLabel": "Sfida",
           "challenge": "I pazienti con una prescrizione medica non avevano un modo rapido per farsi preparare e consegnare i farmaci.",
@@ -710,6 +716,7 @@
         },
         {
           "type": "App di Consegna (Interna)",
+          "id": "delivery-app",
           "title": "On-Demand Delivery App",
           "challengeLabel": "Sfida",
           "challenge": "Aziende di settori diversi avevano bisogno di consegne on-demand — ordini, dispacciamento e tracciamento in tempo reale — senza costruire un'infrastruttura logistica da zero.",
