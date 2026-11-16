@@ -11,6 +11,7 @@
   "urls": {
     "booking": "[CALENDAR_LINK]",
     "nrbosApp": "[https://app.nordicriser.com]",
+    "nrbosRegisterPath": "/register",
     "memberPortal": "https://portal.nordicriser.com"
   },
   "languagesShipped": 11,

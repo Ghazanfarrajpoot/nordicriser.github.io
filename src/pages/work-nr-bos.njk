@@ -21,10 +21,10 @@ pageSlug: work/nr-bos
 {%- set statusAvailable = pCommon.statusAvailable -%}
 {%- set statusPlanned = pCommon.statusPlanned -%}
 {%- set ovStatusAvailable = ovCommon.statusAvailable -%}
-{#- Public self-service registration on the live NR-BOS app itself — a
-    separate deployment from this marketing site, hence the absolute URL
-    rather than localeUrl(). Verified live 2026-09-16. -#}
-{%- set nrbosRegisterUrl = "https://nr-bos.vercel.app/register" -%}
+{#- Public self-service registration on the live NR-BOS app — a separate
+    deployment from this marketing site. The app URL lives in facts.json
+    (urls.nrbosApp); registration is its /register path. -#}
+{%- set nrbosRegisterUrl = facts.urls.nrbosApp ~ facts.urls.nrbosRegisterPath -%}
 {% import "partials/nrb-overview.njk" as nrb2 %}
 {% import "partials/icons.njk" as icons %}
 
@@ -133,28 +133,6 @@ pageSlug: work/nr-bos
 <section class="section nrb-scope">
   <div class="section-inner-narrow">
     <a href="{{ 'work' | localeUrl(locale) }}" class="nrb-back">&larr; {{ p.backLink }}</a>
-
-    {%- for block in p.tour %}
-    <div class="nrb-block">
-      <div class="nrb-block-head">
-        <span class="section-label">{{ block.eyebrow }}</span>
-        <span class="status-badge status-badge--available">{{ statusAvailable }}</span>
-        <h2 class="nrb-block-title">{{ block.title }}</h2>
-        <p class="nrb-block-body">{{ block.body }}</p>
-      </div>
-      {%- if block.shots %}
-      <div class="nrb-shots nrb-shots-{{ block.shots.length }}">
-        {%- for shot in block.shots %}
-        <figure class="nrb-frame">
-          <div class="nrb-frame-bar"><i></i><i></i><i></i></div>
-          <img src="/assets/img/nr-bos/{{ shot.file }}" alt="{{ shot.caption }}" loading="lazy" width="1568" height="710">
-          <figcaption>{{ shot.caption }}</figcaption>
-        </figure>
-        {%- endfor %}
-      </div>
-      {%- endif %}
-    </div>
-    {%- endfor %}
   </div>
 </section>
 
