@@ -833,7 +833,7 @@
       <h2>Guarda NR-BOS funzionare con il tuo tipo di lavoro</h2>
       <p class="form-intro">Raccontaci della tua attività e ti guideremo attraverso le parti di NR-BOS che contano per te.</p>
 
-      <form class="consultation-form" id="nrbosDemoForm">
+      <form class="consultation-form" id="nrbosDemoForm" data-error-text="Qualcosa è andato storto. Riprova oppure scrivici direttamente." data-analytics-event="nr_bos_demo_submit">
         <div class="form-row">
           <div class="field">
             <label for="nrbosName">Nome completo <span class="required">*</span></label>
@@ -894,6 +894,7 @@
 
         <p class="form-consent">Inviando questo modulo, confermi che le informazioni fornite sono accurate e acconsenti che Nordic Riser AB conservi i tuoi dati di contatto per rispondere a questa richiesta. Non condividiamo le informazioni dei clienti con terze parti.</p>
 
+        <p class="form-error" id="nrbosDemoFormError" role="status" hidden></p>
         <button type="submit" class="btn-submit">Richiedi una demo →</button>
       </form>
 
