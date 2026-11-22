@@ -368,7 +368,12 @@
         "errorText": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt eine E-Mail.",
         "submit": "Beratungsanfrage absenden →"
       },
-      "success": { "title": "Anfrage erhalten", "body": "Vielen Dank für Ihre Beratungsanfrage. Ein Mitglied unseres Beraterteams wird Ihre Angaben prüfen und sich innerhalb von 1–2 Werktagen bei Ihnen melden." },
+      "booking": {
+        "heading": "Lieber zuerst sprechen?",
+        "body": "Wählen Sie einen passenden Termin für ein kurzes Kennenlerngespräch.",
+        "button": "20-minütiges Gespräch buchen"
+      },
+      "success": { "title": "Anfrage erhalten", "body": "Vielen Dank für Ihre Anfrage. Wir prüfen Ihre Angaben und melden uns innerhalb von 1–2 Werktagen bei Ihnen." },
       "sidebar": {
         "directContactHeading": "Direkter Kontakt",
         "hoursLabel": "Bürozeiten",
@@ -382,14 +387,6 @@
         ],
         "noteHeading": "Bitte beachten Sie",
         "noteBody": "Wir prüfen alle eingehenden Anfragen, bevor wir Beratungsgespräche bestätigen. Wir arbeiten mit Mandantinnen und Mandanten, deren Situation zu unseren Leistungen passt — sollte dies bei Ihnen nicht der Fall sein, informieren wir Sie entsprechend und empfehlen nach Möglichkeit eine geeignetere Anlaufstelle."
-      },
-      "closing": {
-        "label": "Warum ein strukturiertes Beratungsgespräch",
-        "title": "Wir bieten keine pauschalen Ratschläge",
-        "paragraphs": [
-          "Jedes Beratungsgespräch bei Nordic Riser AB beginnt mit einer gründlichen Bewertung Ihrer individuellen Situation. Wir bieten keine Standardantworten oder Ratschläge von der Stange. Bevor eine strategische Empfehlung ausgesprochen wird, nehmen wir uns die Zeit, Ihren beruflichen Hintergrund, Ihr Geschäftsmodell und Ihre langfristigen Ziele zu verstehen.",
-          "Wenn Sie es ernst meinen mit dem Aufbau einer rechtlich strukturierten Geschäftspräsenz in Europa und bereit sind, sich professionell auf den Prozess einzulassen, freuen wir uns auf Ihre Anfrage. Unsere Beratungsgespräche sind Arbeitssitzungen — keine Verkaufsgespräche."
-        ]
       }
     },
 
@@ -515,7 +512,15 @@
           { "name": "Laufende Beratung", "body": "Fortlaufende strategische Unterstützung nach Ihrer Erstansiedlung — für sich weiterentwickelnde geschäftliche Bedürfnisse, grenzüberschreitende Fragen oder Expansionsplanung." }
         ]
       },
-      "cta": { "title": "Besprechen Sie Ihre Anforderungen", "body": "Wenn Sie planen, eine Geschäftspräsenz in Europa aufzubauen, laden wir Sie zu einem Beratungsgespräch ein. Wir bewerten Ihre Situation und geben Ihnen einen klaren, strukturierten Überblick über den Weg und die für Ihre Ziele relevanten Leistungen." }
+      "cta": { "title": "Besprechen Sie Ihre Anforderungen", "body": "Wenn Sie planen, eine Geschäftspräsenz in Europa aufzubauen, laden wir Sie zu einem Beratungsgespräch ein. Wir bewerten Ihre Situation und geben Ihnen einen klaren, strukturierten Überblick über den Weg und die für Ihre Ziele relevanten Leistungen." },
+      "closing": {
+        "label": "Warum ein strukturiertes Beratungsgespräch",
+        "title": "Wir bieten keine pauschalen Ratschläge",
+        "paragraphs": [
+          "Jedes Beratungsgespräch bei Nordic Riser AB beginnt mit einer gründlichen Bewertung Ihrer individuellen Situation. Wir bieten keine Standardantworten oder Ratschläge von der Stange. Bevor eine strategische Empfehlung ausgesprochen wird, nehmen wir uns die Zeit, Ihren beruflichen Hintergrund, Ihr Geschäftsmodell und Ihre langfristigen Ziele zu verstehen.",
+          "Wenn Sie es ernst meinen mit dem Aufbau einer rechtlich strukturierten Geschäftspräsenz in Europa und bereit sind, sich professionell auf den Prozess einzulassen, freuen wir uns auf Ihre Anfrage. Unsere Beratungsgespräche sind Arbeitssitzungen — keine Verkaufsgespräche."
+        ]
+      }
     },
     "itServices": {
       "meta": {

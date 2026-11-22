@@ -598,7 +598,12 @@
         "errorText": "Something went wrong. Please try again or email us directly.",
         "submit": "Submit Consultation Request →"
       },
-      "success": { "title": "Request Received", "body": "Thank you for submitting your consultation request. A member of our advisory team will review your information and respond within 1–2 business days." },
+      "booking": {
+        "heading": "Prefer to talk first?",
+        "body": "Pick a time that suits you for a short introductory call.",
+        "button": "Book a 20-minute call"
+      },
+      "success": { "title": "Request Received", "body": "Thank you for your request. We will review your information and respond within 1–2 business days." },
       "sidebar": {
         "directContactHeading": "Direct Contact",
         "hoursLabel": "Office Hours",
@@ -612,14 +617,6 @@
         ],
         "noteHeading": "Please Note",
         "noteBody": "We review all submissions before confirming consultations. We work with clients whose situations are suited to our services — if yours is not, we will advise accordingly and where possible suggest a more appropriate resource."
-      },
-      "closing": {
-        "label": "Why a Structured Consultation",
-        "title": "We Do Not Offer Generic Advice",
-        "paragraphs": [
-          "Every consultation at Nordic Riser AB begins with a thorough assessment of your specific situation. We do not provide template answers or off-the-shelf guidance. Before any strategic recommendation is made, we take the time to understand your professional background, your business model, and your long-term objectives.",
-          "If you are serious about building a legally structured business presence in Europe and are prepared to engage with the process professionally, we welcome your inquiry. Our consultations are a working session — not a sales call."
-        ]
       }
     },
     "privacy": {
@@ -1150,6 +1147,14 @@
         "body": [
           "We do not provide immigration advice or legal representation. We provide the strategic consulting framework from which qualified specialists can operate effectively.",
           "Where legal, tax, or regulatory specialist input is required — as it often is in relocation and cross-border matters — we coordinate engagement with qualified professionals, who carry out that work within their own licensed capacity."
+        ]
+      },
+      "closing": {
+        "label": "Why a Structured Consultation",
+        "title": "We Do Not Offer Generic Advice",
+        "paragraphs": [
+          "Every consultation at Nordic Riser AB begins with a thorough assessment of your specific situation. We do not provide template answers or off-the-shelf guidance. Before any strategic recommendation is made, we take the time to understand your professional background, your business model, and your long-term objectives.",
+          "If you are serious about building a legally structured business presence in Europe and are prepared to engage with the process professionally, we welcome your inquiry. Our consultations are a working session — not a sales call."
         ]
       },
       "cta": { "title": "Discuss Your Requirements", "body": "If you are planning to establish a business presence in Europe, we invite you to arrange a consultation. We will assess your situation and provide a clear, structured view of the pathway and services relevant to your objectives." }

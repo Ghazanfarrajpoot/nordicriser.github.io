@@ -368,7 +368,12 @@
         "errorText": "Coś poszło nie tak. Spróbuj ponownie lub napisz do nas bezpośrednio.",
         "submit": "Wyślij zgłoszenie na konsultację →"
       },
-      "success": { "title": "Zgłoszenie otrzymane", "body": "Dziękujemy za przesłanie zgłoszenia na konsultację. Członek naszego zespołu doradczego zapozna się z Twoimi informacjami i odpowie w ciągu 1–2 dni roboczych." },
+      "booking": {
+        "heading": "Wolisz najpierw porozmawiać?",
+        "body": "Wybierz dogodny termin krótkiej rozmowy wstępnej.",
+        "button": "Umów 20-minutową rozmowę"
+      },
+      "success": { "title": "Zgłoszenie otrzymane", "body": "Dziękujemy za zgłoszenie. Zapoznamy się z Twoimi informacjami i odpowiemy w ciągu 1–2 dni roboczych." },
       "sidebar": {
         "directContactHeading": "Kontakt bezpośredni",
         "hoursLabel": "Godziny pracy biura",
@@ -382,14 +387,6 @@
         ],
         "noteHeading": "Uwaga",
         "noteBody": "Analizujemy wszystkie zgłoszenia przed potwierdzeniem konsultacji. Współpracujemy z klientami, których sytuacja odpowiada naszym usługom — jeśli tak nie jest, poinformujemy o tym i w miarę możliwości wskażemy bardziej odpowiednie rozwiązanie."
-      },
-      "closing": {
-        "label": "Dlaczego ustrukturyzowana konsultacja",
-        "title": "Nie oferujemy ogólnych porad",
-        "paragraphs": [
-          "Każda konsultacja w Nordic Riser AB rozpoczyna się od dokładnej analizy Twojej konkretnej sytuacji. Nie udzielamy gotowych odpowiedzi ani standardowych wskazówek. Zanim przedstawimy jakąkolwiek rekomendację strategiczną, poświęcamy czas na zrozumienie Twojego doświadczenia zawodowego, modelu biznesowego i celów długoterminowych.",
-          "Jeśli poważnie myślisz o zbudowaniu zgodnej z prawem obecności biznesowej w Europie i jesteś gotowy zaangażować się w ten proces w sposób profesjonalny, zapraszamy do kontaktu. Nasze konsultacje to sesja robocza — a nie rozmowa sprzedażowa."
-        ]
       }
     },
 
@@ -515,7 +512,15 @@
           { "name": "Bieżące doradztwo", "body": "Ciągłe wsparcie strategiczne po wstępnym założeniu działalności — w związku z ewoluującymi potrzebami biznesowymi, kwestiami transgranicznymi lub planowaniem ekspansji." }
         ]
       },
-      "cta": { "title": "Omów swoje wymagania", "body": "Jeśli planujesz założenie działalności gospodarczej w Europie, zapraszamy do umówienia konsultacji. Ocenimy Twoją sytuację i przedstawimy jasny, ustrukturyzowany obraz ścieżki oraz usług odpowiednich dla Twoich celów." }
+      "cta": { "title": "Omów swoje wymagania", "body": "Jeśli planujesz założenie działalności gospodarczej w Europie, zapraszamy do umówienia konsultacji. Ocenimy Twoją sytuację i przedstawimy jasny, ustrukturyzowany obraz ścieżki oraz usług odpowiednich dla Twoich celów." },
+      "closing": {
+        "label": "Dlaczego ustrukturyzowana konsultacja",
+        "title": "Nie oferujemy ogólnych porad",
+        "paragraphs": [
+          "Każda konsultacja w Nordic Riser AB rozpoczyna się od dokładnej analizy Twojej konkretnej sytuacji. Nie udzielamy gotowych odpowiedzi ani standardowych wskazówek. Zanim przedstawimy jakąkolwiek rekomendację strategiczną, poświęcamy czas na zrozumienie Twojego doświadczenia zawodowego, modelu biznesowego i celów długoterminowych.",
+          "Jeśli poważnie myślisz o zbudowaniu zgodnej z prawem obecności biznesowej w Europie i jesteś gotowy zaangażować się w ten proces w sposób profesjonalny, zapraszamy do kontaktu. Nasze konsultacje to sesja robocza — a nie rozmowa sprzedażowa."
+        ]
+      }
     },
     "itServices": {
       "meta": {

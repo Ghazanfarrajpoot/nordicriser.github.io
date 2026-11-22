@@ -368,7 +368,12 @@
         "errorText": "Une erreur s'est produite. Veuillez réessayer ou nous écrire directement.",
         "submit": "Envoyer la demande de consultation →"
       },
-      "success": { "title": "Demande reçue", "body": "Merci d'avoir soumis votre demande de consultation. Un membre de notre équipe de conseil examinera vos informations et vous répondra sous 1 à 2 jours ouvrés." },
+      "booking": {
+        "heading": "Vous préférez en parler d’abord ?",
+        "body": "Choisissez le créneau qui vous convient pour un court appel de présentation.",
+        "button": "Réserver un appel de 20 minutes"
+      },
+      "success": { "title": "Demande reçue", "body": "Merci pour votre demande. Nous examinerons vos informations et vous répondrons sous 1 à 2 jours ouvrés." },
       "sidebar": {
         "directContactHeading": "Contact direct",
         "hoursLabel": "Horaires d'ouverture",
@@ -382,14 +387,6 @@
         ],
         "noteHeading": "À noter",
         "noteBody": "Nous examinons toutes les demandes avant de confirmer une consultation. Nous travaillons avec des clients dont la situation correspond à nos services — si ce n'est pas le cas pour vous, nous vous en informerons et, dans la mesure du possible, vous orienterons vers une ressource plus adaptée."
-      },
-      "closing": {
-        "label": "Pourquoi une consultation structurée",
-        "title": "Nous ne proposons pas de conseils génériques",
-        "paragraphs": [
-          "Chaque consultation chez Nordic Riser AB commence par une évaluation approfondie de votre situation spécifique. Nous ne fournissons ni réponses types ni conseils prêts à l'emploi. Avant toute recommandation stratégique, nous prenons le temps de comprendre votre parcours professionnel, votre modèle économique et vos objectifs à long terme.",
-          "Si vous envisagez sérieusement de construire une présence commerciale structurée en Europe et êtes prêt à vous engager professionnellement dans ce processus, votre demande sera la bienvenue. Nos consultations sont des séances de travail — non des entretiens commerciaux."
-        ]
       }
     },
 
@@ -515,7 +512,15 @@
           { "name": "Conseil continu", "body": "Un accompagnement stratégique poursuivi après votre établissement initial — pour répondre à l'évolution de vos besoins d'entreprise, à des questions transfrontalières ou à une planification d'expansion." }
         ]
       },
-      "cta": { "title": "Discutons de vos besoins", "body": "Si vous envisagez d'établir une présence commerciale en Europe, nous vous invitons à organiser une consultation. Nous évaluerons votre situation et vous fournirons une vision claire et structurée de la voie à suivre et des services pertinents pour vos objectifs." }
+      "cta": { "title": "Discutons de vos besoins", "body": "Si vous envisagez d'établir une présence commerciale en Europe, nous vous invitons à organiser une consultation. Nous évaluerons votre situation et vous fournirons une vision claire et structurée de la voie à suivre et des services pertinents pour vos objectifs." },
+      "closing": {
+        "label": "Pourquoi une consultation structurée",
+        "title": "Nous ne proposons pas de conseils génériques",
+        "paragraphs": [
+          "Chaque consultation chez Nordic Riser AB commence par une évaluation approfondie de votre situation spécifique. Nous ne fournissons ni réponses types ni conseils prêts à l'emploi. Avant toute recommandation stratégique, nous prenons le temps de comprendre votre parcours professionnel, votre modèle économique et vos objectifs à long terme.",
+          "Si vous envisagez sérieusement de construire une présence commerciale structurée en Europe et êtes prêt à vous engager professionnellement dans ce processus, votre demande sera la bienvenue. Nos consultations sont des séances de travail — non des entretiens commerciaux."
+        ]
+      }
     },
     "itServices": {
       "meta": {

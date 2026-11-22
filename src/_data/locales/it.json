@@ -368,7 +368,12 @@
         "errorText": "Qualcosa è andato storto. Riprova oppure scrivici direttamente.",
         "submit": "Invia Richiesta di Consulenza →"
       },
-      "success": { "title": "Richiesta Ricevuta", "body": "Grazie per aver inviato la tua richiesta di consulenza. Un membro del nostro team di advisory esaminerà le tue informazioni e ti risponderà entro 1–2 giorni lavorativi." },
+      "booking": {
+        "heading": "Preferisci parlarne prima?",
+        "body": "Scegli l’orario che preferisci per una breve chiamata introduttiva.",
+        "button": "Prenota una chiamata di 20 minuti"
+      },
+      "success": { "title": "Richiesta Ricevuta", "body": "Grazie per la tua richiesta. Esamineremo le tue informazioni e ti risponderemo entro 1–2 giorni lavorativi." },
       "sidebar": {
         "directContactHeading": "Contatto Diretto",
         "hoursLabel": "Orari d'Ufficio",
@@ -382,14 +387,6 @@
         ],
         "noteHeading": "Nota Bene",
         "noteBody": "Esaminiamo tutte le richieste prima di confermare le consulenze. Lavoriamo con clienti la cui situazione è adatta ai nostri servizi — in caso contrario, te lo comunicheremo e, ove possibile, suggeriremo una risorsa più appropriata."
-      },
-      "closing": {
-        "label": "Perché una Consulenza Strutturata",
-        "title": "Non Offriamo Consigli Generici",
-        "paragraphs": [
-          "Ogni consulenza presso Nordic Riser AB inizia con una valutazione approfondita della tua situazione specifica. Non forniamo risposte predefinite né indicazioni standard. Prima di formulare qualsiasi raccomandazione strategica, dedichiamo il tempo necessario a comprendere il tuo profilo professionale, il tuo modello di business e i tuoi obiettivi di lungo periodo.",
-          "Se sei seriamente intenzionato a costruire una presenza d'impresa legalmente strutturata in Europa e sei disposto ad affrontare il processo con impegno professionale, la tua richiesta è benvenuta. Le nostre consulenze sono una sessione di lavoro — non una chiamata commerciale."
-        ]
       }
     },
 
@@ -515,7 +512,15 @@
           { "name": "Consulenza Continuativa", "body": "Supporto strategico continuativo dopo la costituzione iniziale — per esigenze imprenditoriali in evoluzione, questioni transfrontaliere o pianificazione dell'espansione." }
         ]
       },
-      "cta": { "title": "Discuti le Tue Esigenze", "body": "Se stai pianificando di costituire una presenza d'impresa in Europa, ti invitiamo a fissare una consulenza. Valuteremo la tua situazione e forniremo una visione chiara e strutturata del percorso e dei servizi pertinenti ai tuoi obiettivi." }
+      "cta": { "title": "Discuti le Tue Esigenze", "body": "Se stai pianificando di costituire una presenza d'impresa in Europa, ti invitiamo a fissare una consulenza. Valuteremo la tua situazione e forniremo una visione chiara e strutturata del percorso e dei servizi pertinenti ai tuoi obiettivi." },
+      "closing": {
+        "label": "Perché una Consulenza Strutturata",
+        "title": "Non Offriamo Consigli Generici",
+        "paragraphs": [
+          "Ogni consulenza presso Nordic Riser AB inizia con una valutazione approfondita della tua situazione specifica. Non forniamo risposte predefinite né indicazioni standard. Prima di formulare qualsiasi raccomandazione strategica, dedichiamo il tempo necessario a comprendere il tuo profilo professionale, il tuo modello di business e i tuoi obiettivi di lungo periodo.",
+          "Se sei seriamente intenzionato a costruire una presenza d'impresa legalmente strutturata in Europa e sei disposto ad affrontare il processo con impegno professionale, la tua richiesta è benvenuta. Le nostre consulenze sono una sessione di lavoro — non una chiamata commerciale."
+        ]
+      }
     },
     "itServices": {
       "meta": {

@@ -368,7 +368,12 @@
         "errorText": "Algo salió mal. Inténtalo de nuevo o escríbenos directamente.",
         "submit": "Enviar Solicitud de Consulta →"
       },
-      "success": { "title": "Solicitud Recibida", "body": "Gracias por enviar su solicitud de consulta. Un miembro de nuestro equipo de asesores revisará su información y responderá en un plazo de 1 a 2 días hábiles." },
+      "booking": {
+        "heading": "¿Prefiere hablar primero?",
+        "body": "Elija el horario que le convenga para una breve llamada introductoria.",
+        "button": "Reservar una llamada de 20 minutos"
+      },
+      "success": { "title": "Solicitud Recibida", "body": "Gracias por su solicitud. Revisaremos su información y le responderemos en un plazo de 1 a 2 días hábiles." },
       "sidebar": {
         "directContactHeading": "Contacto Directo",
         "hoursLabel": "Horario de Oficina",
@@ -382,14 +387,6 @@
         ],
         "noteHeading": "Tenga en Cuenta",
         "noteBody": "Revisamos todas las solicitudes antes de confirmar las consultas. Trabajamos con clientes cuya situación se ajusta a nuestros servicios — si no es su caso, se lo indicaremos y, cuando sea posible, le sugeriremos un recurso más adecuado."
-      },
-      "closing": {
-        "label": "Por Qué una Consulta Estructurada",
-        "title": "No Ofrecemos Asesoramiento Genérico",
-        "paragraphs": [
-          "Toda consulta en Nordic Riser AB comienza con una evaluación exhaustiva de su situación específica. No ofrecemos respuestas estándar ni orientación predefinida. Antes de formular cualquier recomendación estratégica, nos tomamos el tiempo necesario para comprender su trayectoria profesional, su modelo de negocio y sus objetivos a largo plazo.",
-          "Si tiene un interés serio en construir una presencia empresarial legalmente estructurada en Europa y está dispuesto a abordar el proceso con profesionalidad, agradecemos su consulta. Nuestras sesiones son un espacio de trabajo — no una llamada comercial."
-        ]
       }
     },
 
@@ -515,7 +512,15 @@
           { "name": "Asesoría Continua", "body": "Apoyo estratégico continuo tras su establecimiento inicial — para necesidades empresariales cambiantes, cuestiones transfronterizas o planificación de expansión." }
         ]
       },
-      "cta": { "title": "Hable sobre sus Necesidades", "body": "Si está planeando establecer una presencia empresarial en Europa, le invitamos a concertar una consulta. Evaluaremos su situación y le proporcionaremos una visión clara y estructurada de la vía y los servicios pertinentes para sus objetivos." }
+      "cta": { "title": "Hable sobre sus Necesidades", "body": "Si está planeando establecer una presencia empresarial en Europa, le invitamos a concertar una consulta. Evaluaremos su situación y le proporcionaremos una visión clara y estructurada de la vía y los servicios pertinentes para sus objetivos." },
+      "closing": {
+        "label": "Por Qué una Consulta Estructurada",
+        "title": "No Ofrecemos Asesoramiento Genérico",
+        "paragraphs": [
+          "Toda consulta en Nordic Riser AB comienza con una evaluación exhaustiva de su situación específica. No ofrecemos respuestas estándar ni orientación predefinida. Antes de formular cualquier recomendación estratégica, nos tomamos el tiempo necesario para comprender su trayectoria profesional, su modelo de negocio y sus objetivos a largo plazo.",
+          "Si tiene un interés serio en construir una presencia empresarial legalmente estructurada en Europa y está dispuesto a abordar el proceso con profesionalidad, agradecemos su consulta. Nuestras sesiones son un espacio de trabajo — no una llamada comercial."
+        ]
+      }
     },
     "itServices": {
       "meta": {

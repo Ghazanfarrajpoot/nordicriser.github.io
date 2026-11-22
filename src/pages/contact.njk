@@ -55,8 +55,8 @@ pageSlug: contact
         </div>
 
         <div class="field">
-          <label for="businessType">{{ f.businessType }} <span class="required">*</span></label>
-          <select id="businessType" name="businessType" required>
+          <label for="businessType">{{ f.businessType }}</label>
+          <select id="businessType" name="businessType">
             {%- for opt in f.businessTypeOptions %}
             <option value="{{ opt.value }}"{% if loop.first %} disabled selected{% endif %}>{{ opt.label }}</option>
             {%- endfor %}
@@ -110,6 +110,12 @@ pageSlug: contact
     </div>
 
     <div class="contact-sidebar">
+      {%- set bk = p.booking or locales.en.pages.contact.booking %}
+      <div class="sidebar-card sidebar-booking">
+        <h3>{{ bk.heading }}</h3>
+        <p>{{ bk.body }}</p>
+        <a href="{{ facts.urls.booking }}" class="btn-primary" target="_blank" rel="noopener" data-analytics-event="book_call_cta">{{ icons.icon('calendar') }} {{ bk.button }}</a>
+      </div>
       <div class="sidebar-card">
         <h3>{{ p.sidebar.directContactHeading }}</h3>
         <div class="contact-detail">
@@ -177,12 +183,3 @@ pageSlug: contact
   </div>
 </section>
 
-<section class="closing-section">
-  <div class="closing-inner" data-animate>
-    <span class="section-label">{{ p.closing.label }}</span>
-    <h2>{{ p.closing.title }}</h2>
-    {%- for para in p.closing.paragraphs %}
-    <p>{{ para }}</p>
-    {%- endfor %}
-  </div>
-</section>

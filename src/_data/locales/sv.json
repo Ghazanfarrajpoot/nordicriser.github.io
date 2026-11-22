@@ -614,7 +614,12 @@
         "errorText": "Något gick fel. Försök igen eller mejla oss direkt.",
         "submit": "Skicka konsultationsförfrågan →"
       },
-      "success": { "title": "Förfrågan mottagen", "body": "Tack för att du skickade in din konsultationsförfrågan. En medlem av vårt rådgivningsteam kommer att granska din information och återkomma inom 1–2 arbetsdagar." },
+      "booking": {
+        "heading": "Vill du hellre prata först?",
+        "body": "Välj en tid som passar dig för ett kort introduktionssamtal.",
+        "button": "Boka ett 20-minuterssamtal"
+      },
+      "success": { "title": "Förfrågan mottagen", "body": "Tack för din förfrågan. Vi går igenom din information och återkommer inom 1–2 arbetsdagar." },
       "sidebar": {
         "directContactHeading": "Direktkontakt",
         "hoursLabel": "Kontorstider",
@@ -628,14 +633,6 @@
         ],
         "noteHeading": "Observera",
         "noteBody": "Vi granskar alla inlämningar innan vi bekräftar konsultationer. Vi arbetar med kunder vars situationer passar våra tjänster — om så inte är fallet för dig kommer vi att informera om detta och vid behov föreslå en mer lämplig resurs."
-      },
-      "closing": {
-        "label": "Varför en strukturerad konsultation",
-        "title": "Vi ger inte generella råd",
-        "paragraphs": [
-          "Varje konsultation hos Nordic Riser AB inleds med en grundlig bedömning av din specifika situation. Vi tillhandahåller inte mallsvar eller standardiserad vägledning. Innan någon strategisk rekommendation ges tar vi oss tid att förstå din yrkesbakgrund, din affärsmodell och dina långsiktiga mål.",
-          "Om du seriöst överväger att bygga upp en juridiskt strukturerad verksamhet i Europa och är beredd att engagera dig professionellt i processen, välkomnar vi din förfrågan. Våra konsultationer är arbetsmöten — inte säljsamtal."
-        ]
       }
     },
     "privacy": {
@@ -1527,7 +1524,15 @@
           { "name": "Löpande rådgivning", "body": "Fortsatt strategiskt stöd efter din inledande etablering — för föränderliga affärsbehov, gränsöverskridande frågor eller expansionsplanering." }
         ]
       },
-      "cta": { "title": "Diskutera dina behov", "body": "Om du planerar att etablera en verksamhet i Europa bjuder vi in dig till en konsultation. Vi kommer att bedöma din situation och ge dig en tydlig, strukturerad översikt över vägen framåt och de tjänster som är relevanta för dina mål." }
+      "cta": { "title": "Diskutera dina behov", "body": "Om du planerar att etablera en verksamhet i Europa bjuder vi in dig till en konsultation. Vi kommer att bedöma din situation och ge dig en tydlig, strukturerad översikt över vägen framåt och de tjänster som är relevanta för dina mål." },
+      "closing": {
+        "label": "Varför en strukturerad konsultation",
+        "title": "Vi ger inte generella råd",
+        "paragraphs": [
+          "Varje konsultation hos Nordic Riser AB inleds med en grundlig bedömning av din specifika situation. Vi tillhandahåller inte mallsvar eller standardiserad vägledning. Innan någon strategisk rekommendation ges tar vi oss tid att förstå din yrkesbakgrund, din affärsmodell och dina långsiktiga mål.",
+          "Om du seriöst överväger att bygga upp en juridiskt strukturerad verksamhet i Europa och är beredd att engagera dig professionellt i processen, välkomnar vi din förfrågan. Våra konsultationer är arbetsmöten — inte säljsamtal."
+        ]
+      }
     },
     "itServices": {
       "meta": {

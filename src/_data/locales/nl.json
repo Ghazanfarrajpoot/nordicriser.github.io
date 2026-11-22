@@ -368,7 +368,12 @@
         "errorText": "Er is iets misgegaan. Probeer het opnieuw of e-mail ons rechtstreeks.",
         "submit": "Verstuur Aanvraag voor Consult →"
       },
-      "success": { "title": "Aanvraag Ontvangen", "body": "Hartelijk dank voor uw aanvraag voor een consult. Een lid van ons adviesteam beoordeelt uw gegevens en reageert binnen 1–2 werkdagen." },
+      "booking": {
+        "heading": "Liever eerst even praten?",
+        "body": "Kies een moment dat u uitkomt voor een kort kennismakingsgesprek.",
+        "button": "Plan een gesprek van 20 minuten"
+      },
+      "success": { "title": "Aanvraag Ontvangen", "body": "Hartelijk dank voor uw aanvraag. Wij beoordelen uw gegevens en reageren binnen 1–2 werkdagen." },
       "sidebar": {
         "directContactHeading": "Rechtstreeks Contact",
         "hoursLabel": "Openingstijden",
@@ -382,14 +387,6 @@
         ],
         "noteHeading": "Let Op",
         "noteBody": "Wij beoordelen alle aanvragen voordat consulten worden bevestigd. Wij werken met klanten wier situatie past bij onze dienstverlening — als dat bij u niet het geval is, laten wij dit weten en verwijzen wij, waar mogelijk, naar een geschiktere bron."
-      },
-      "closing": {
-        "label": "Waarom een Gestructureerd Consult",
-        "title": "Wij Bieden Geen Generiek Advies",
-        "paragraphs": [
-          "Elk consult bij Nordic Riser AB begint met een grondige beoordeling van uw specifieke situatie. Wij bieden geen standaardantwoorden of kant-en-klare begeleiding. Voordat er een strategische aanbeveling wordt gedaan, nemen wij de tijd om uw professionele achtergrond, uw bedrijfsmodel en uw langetermijndoelstellingen te begrijpen.",
-          "Als u serieus overweegt een juridisch gestructureerde bedrijfsaanwezigheid in Europa op te bouwen en bereid bent professioneel met dit proces om te gaan, nodigen wij u van harte uit om contact op te nemen. Onze consulten zijn een werksessie — geen verkoopgesprek."
-        ]
       }
     },
 
@@ -515,7 +512,15 @@
           { "name": "Doorlopend Advies", "body": "Voortgezette strategische ondersteuning na uw eerste vestiging — voor evoluerende bedrijfsbehoeften, grensoverschrijdende vraagstukken of expansieplanning." }
         ]
       },
-      "cta": { "title": "Bespreek Uw Behoeften", "body": "Als u van plan bent een bedrijfsaanwezigheid in Europa op te zetten, nodigen wij u uit voor een consult. Wij beoordelen uw situatie en bieden een helder, gestructureerd overzicht van het traject en de diensten die relevant zijn voor uw doelstellingen." }
+      "cta": { "title": "Bespreek Uw Behoeften", "body": "Als u van plan bent een bedrijfsaanwezigheid in Europa op te zetten, nodigen wij u uit voor een consult. Wij beoordelen uw situatie en bieden een helder, gestructureerd overzicht van het traject en de diensten die relevant zijn voor uw doelstellingen." },
+      "closing": {
+        "label": "Waarom een Gestructureerd Consult",
+        "title": "Wij Bieden Geen Generiek Advies",
+        "paragraphs": [
+          "Elk consult bij Nordic Riser AB begint met een grondige beoordeling van uw specifieke situatie. Wij bieden geen standaardantwoorden of kant-en-klare begeleiding. Voordat er een strategische aanbeveling wordt gedaan, nemen wij de tijd om uw professionele achtergrond, uw bedrijfsmodel en uw langetermijndoelstellingen te begrijpen.",
+          "Als u serieus overweegt een juridisch gestructureerde bedrijfsaanwezigheid in Europa op te bouwen en bereid bent professioneel met dit proces om te gaan, nodigen wij u van harte uit om contact op te nemen. Onze consulten zijn een werksessie — geen verkoopgesprek."
+        ]
+      }
     },
     "itServices": {
       "meta": {
