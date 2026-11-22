@@ -27,6 +27,10 @@ module.exports = function (eleventyConfig) {
     Boolean(p) && require("fs").existsSync(require("path").join(__dirname, "src", String(p))),
   );
 
+  // True once a facts.json value is filled in (not a "[PLACEHOLDER]"). Pages
+  // hide anything still unfilled instead of showing the brackets.
+  eleventyConfig.addFilter("filled", (v) => v != null && v !== "" && !/^\[.*\]$/.test(String(v)));
+
   // facts.products.items entry by id (Nunjucks' selectattr can't compare values).
   eleventyConfig.addFilter("productById", (id) => facts.products.items.find((p) => p.id === id));
 

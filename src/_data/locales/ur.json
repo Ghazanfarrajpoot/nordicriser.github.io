@@ -390,7 +390,9 @@
           "حقیقی وقت کی موجودگی — دیکھیں کمرے میں کون ہے",
           "€%%pricing.globalReach.basic.eur%% (%%pricing.globalReach.basic.sek%% SEK) سے شروع ہونے والے ماہانہ پلانز، جن میں سیشن منٹس شامل ہیں — کسی بھی وقت ٹاپ اپ کریں"
         ],
-        "cta": "شروع کریں"
+        "cta": "شروع کریں",
+        "priceBulletIndex": 2,
+        "priceBulletNoAmount": "ماہانہ پلانز جن میں سیشن منٹس شامل ہیں — کسی بھی وقت ٹاپ اپ کریں"
       },
       "howWeWork": {
         "label": "طریقہ کار",
@@ -929,6 +931,7 @@
           "stack": ["React", "Firebase Realtime Database", "سبسکرپشن بلنگ"],
           "resultLabel": "نتیجہ",
           "result": "€%%pricing.globalReach.basic.eur%% (%%pricing.globalReach.basic.sek%% SEK) سے شروع ہونے والے ماہانہ پلانز کے ساتھ لائیو پروڈکٹ۔",
+          "resultNoAmount": "ماہانہ پلانز کے ساتھ لائیو پروڈکٹ۔",
           "link": "global-reach",
           "linkLabel": "پروڈکٹ دیکھیں"
         },

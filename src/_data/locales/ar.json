@@ -390,7 +390,9 @@
           "حضور لحظي — شاهد من في الغرفة",
           "خطط شهرية تبدأ من %%pricing.globalReach.basic.eur%% يورو (%%pricing.globalReach.basic.sek%% كرونة سويدية) تتضمن رصيداً من دقائق الجلسات — مع إمكانية الشحن في أي وقت"
         ],
-        "cta": "ابدأ الآن"
+        "cta": "ابدأ الآن",
+        "priceBulletIndex": 2,
+        "priceBulletNoAmount": "خطط شهرية تتضمن رصيداً من دقائق الجلسات — مع إمكانية الشحن في أي وقت"
       },
       "howWeWork": {
         "label": "العملية",
@@ -933,6 +935,7 @@
           "stack": ["React", "Firebase Realtime Database", "فوترة الاشتراكات"],
           "resultLabel": "النتيجة",
           "result": "منتج مباشر بخطط شهرية تبدأ من %%pricing.globalReach.basic.eur%% يورو (%%pricing.globalReach.basic.sek%% كرونة سويدية).",
+          "resultNoAmount": "منتج مباشر بخطط شهرية.",
           "link": "global-reach",
           "linkLabel": "شاهد المنتج"
         },

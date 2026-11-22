@@ -390,7 +390,9 @@
           "Obecność w czasie rzeczywistym — zobacz, kto jest w pokoju",
           "Plany miesięczne od %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK) z limitem minut sesji – z możliwością doładowania w dowolnym momencie"
         ],
-        "cta": "Rozpocznij"
+        "cta": "Rozpocznij",
+        "priceBulletIndex": 2,
+        "priceBulletNoAmount": "Plany miesięczne z limitem minut sesji – z możliwością doładowania w dowolnym momencie"
       },
       "howWeWork": {
         "label": "Proces",
@@ -929,6 +931,7 @@
           "stack": ["React", "Firebase Realtime Database", "Rozliczenia subskrypcyjne"],
           "resultLabel": "Rezultat",
           "result": "Działający produkt z planami miesięcznymi od %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK).",
+          "resultNoAmount": "Działający produkt z planami miesięcznymi.",
           "link": "global-reach",
           "linkLabel": "Zobacz Produkt"
         },

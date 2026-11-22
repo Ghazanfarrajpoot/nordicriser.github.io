@@ -64,7 +64,7 @@ pageSlug: work
             </div>
             <div class="case-study-row">
               <span class="case-study-row-label">{{ cs.resultLabel }}</span>
-              <p>{{ cs.result }}</p>
+              <p>{{ cs.resultNoAmount if (cs.resultNoAmount and not (facts.pricing.globalReach.basic.eur | filled)) else cs.result }}</p>
             </div>
           </div>
           {%- if cs.link %}

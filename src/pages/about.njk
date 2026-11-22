@@ -90,8 +90,11 @@ pageSlug: about
       <div class="founder-text">
         <h2 class="founder-name">{{ facts.founder.name }}</h2>
         <p class="founder-role">{{ founder.role }}</p>
-        <p class="founder-bio">{{ founder.bio or facts.founder.bio }}</p>
+        {%- set bio = founder.bio or facts.founder.bio %}
+        {%- if bio | filled %}<p class="founder-bio">{{ bio }}</p>{% endif %}
+        {%- if facts.founder.linkedin | filled %}
         <a class="founder-linkedin" href="{{ facts.founder.linkedin }}" target="_blank" rel="noopener">{{ founder.linkedinLabel }} →</a>
+        {%- endif %}
       </div>
     </div>
   </div>

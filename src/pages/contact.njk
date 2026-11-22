@@ -111,11 +111,13 @@ pageSlug: contact
 
     <div class="contact-sidebar">
       {%- set bk = p.booking or locales.en.pages.contact.booking %}
+      {%- if facts.urls.booking | filled %}
       <div class="sidebar-card sidebar-booking">
         <h3>{{ bk.heading }}</h3>
         <p>{{ bk.body }}</p>
         <a href="{{ facts.urls.booking }}" class="btn-primary" target="_blank" rel="noopener" data-analytics-event="book_call_cta">{{ icons.icon('calendar') }} {{ bk.button }}</a>
       </div>
+      {%- endif %}
       <div class="sidebar-card">
         <h3>{{ p.sidebar.directContactHeading }}</h3>
         <div class="contact-detail">
@@ -126,6 +128,7 @@ pageSlug: contact
               <a href="mailto:{{ facts.company.email }}">{{ facts.company.email }}</a>
             </div>
           </div>
+          {%- if facts.company.phone | filled %}
           <div class="contact-detail-item">
             <div class="detail-icon">{{ icons.icon('phone') }}</div>
             <div class="detail-text">
@@ -133,20 +136,23 @@ pageSlug: contact
               <a href="tel:{{ facts.company.phone | replace(' ', '') }}">{{ facts.company.phone }}</a>
             </div>
           </div>
+          {%- endif %}
           <div class="contact-detail-item">
             <div class="detail-icon">{{ icons.icon('pin') }}</div>
             <div class="detail-text">
               <span>{{ t.common.company.address }}</span>
-              <p>{{ facts.company.name }}<br>{{ facts.company.address }}<br>{{ t.common.company.country }}</p>
+              <p>{{ facts.company.name }}<br>{% if facts.company.address | filled %}{{ facts.company.address }}<br>{% endif %}{{ t.common.company.country }}</p>
             </div>
           </div>
+          {%- if (facts.company.orgNumber | filled) or (facts.company.vatNumber | filled) %}
           <div class="contact-detail-item">
             <div class="detail-icon">{{ icons.icon('briefcase') }}</div>
             <div class="detail-text">
               <span>{{ t.common.company.registration }}</span>
-              <p>{{ t.common.company.orgNr }} {{ facts.company.orgNumber }}<br>{{ t.common.company.vat }} {{ facts.company.vatNumber }}</p>
+              <p>{% if facts.company.orgNumber | filled %}{{ t.common.company.orgNr }} {{ facts.company.orgNumber }}<br>{% endif %}{% if facts.company.vatNumber | filled %}{{ t.common.company.vat }} {{ facts.company.vatNumber }}{% endif %}</p>
             </div>
           </div>
+          {%- endif %}
           <div class="contact-detail-item">
             <div class="detail-icon">{{ icons.icon('clock') }}</div>
             <div class="detail-text">

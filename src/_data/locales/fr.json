@@ -390,7 +390,9 @@
           "Présence en temps réel — voyez qui est dans le salon",
           "Formules mensuelles à partir de %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK) avec un quota de minutes de session, rechargeables à tout moment"
         ],
-        "cta": "Commencer"
+        "cta": "Commencer",
+        "priceBulletIndex": 2,
+        "priceBulletNoAmount": "Formules mensuelles avec un quota de minutes de session, rechargeables à tout moment"
       },
       "howWeWork": {
         "label": "Processus",
@@ -929,6 +931,7 @@
           "stack": ["React", "Firebase Realtime Database", "Facturation par abonnement"],
           "resultLabel": "Résultat",
           "result": "Produit en ligne avec des formules mensuelles à partir de %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK).",
+          "resultNoAmount": "Produit en ligne avec des formules mensuelles.",
           "link": "global-reach",
           "linkLabel": "Voir le produit"
         },

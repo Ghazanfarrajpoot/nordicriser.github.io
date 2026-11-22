@@ -157,7 +157,11 @@ bodyClass: "has-gr-sticky"
         {%- if plan.popular %}<span class="gr-plan-badge">★</span>{% endif %}
         <div class="gr-plan-name">{{ plan.name }}</div>
         {%- set price = facts.pricing.globalReach[plan.id] %}
+        {%- if (price.eur | filled) and (price.sek | filled) %}
         <div class="gr-plan-price">{{ (t.common.priceFormat or locales.en.common.priceFormat) | replace('{eur}', price.eur) | replace('{sek}', price.sek) }} <span>{{ plan.period }}</span></div>
+        {%- else %}
+        <div class="gr-plan-price gr-plan-price--on-request">{{ t.common.pricingOnRequest or locales.en.common.pricingOnRequest }}</div>
+        {%- endif %}
         <ul class="gr-plan-features">
           {%- for f in plan.features %}<li>{{ f }}</li>{% endfor %}
         </ul>

@@ -390,7 +390,9 @@
           "Presenza in tempo reale — vedi chi è nella stanza",
           "Piani mensili da %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK) con un’allocazione di minuti di sessione, ricaricabili in qualsiasi momento"
         ],
-        "cta": "Inizia"
+        "cta": "Inizia",
+        "priceBulletIndex": 2,
+        "priceBulletNoAmount": "Piani mensili con un’allocazione di minuti di sessione, ricaricabili in qualsiasi momento"
       },
       "howWeWork": {
         "label": "Processo",
@@ -929,6 +931,7 @@
           "stack": ["React", "Firebase Realtime Database", "Fatturazione in abbonamento"],
           "resultLabel": "Risultato",
           "result": "Prodotto live con piani mensili a partire da %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK).",
+          "resultNoAmount": "Prodotto live con piani mensili.",
           "link": "global-reach",
           "linkLabel": "Vedi il Prodotto"
         },

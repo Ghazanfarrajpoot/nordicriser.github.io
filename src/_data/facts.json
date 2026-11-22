@@ -11,6 +11,8 @@
   "urls": {
     "booking": "[CALENDAR_LINK]",
     "nrbosApp": "[https://app.nordicriser.com]",
+    "nrbosAppFallback": "https://nr-bos.vercel.app",
+    "_nrbosNote": "nrbosAppFallback (the current live NR-BOS app) is used only while nrbosApp is still a placeholder.",
     "nrbosRegisterPath": "/register",
     "memberPortal": "https://portal.nordicriser.com"
   },

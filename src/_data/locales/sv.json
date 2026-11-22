@@ -394,7 +394,9 @@
           "Närvaro i realtid — se vem som är i rummet",
           "Månadsabonnemang från %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% kr) med sessionsminuter som ingår – fyll på när du vill"
         ],
-        "cta": "Kom igång"
+        "cta": "Kom igång",
+        "priceBulletIndex": 2,
+        "priceBulletNoAmount": "Månadsabonnemang med sessionsminuter som ingår – fyll på när du vill"
       },
       "howWeWork": {
         "label": "Process",
@@ -1699,6 +1701,7 @@
           "stack": ["React", "Firebase Realtime Database", "Prenumerationsfakturering"],
           "resultLabel": "Resultat",
           "result": "Produkt i drift med månadsabonnemang från %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% kr).",
+          "resultNoAmount": "Produkt i drift med månadsabonnemang.",
           "link": "global-reach",
           "linkLabel": "Se produkten"
         },

@@ -390,7 +390,9 @@
           "Echtzeit-Präsenzanzeige — sehen Sie, wer im Raum ist",
           "Monatspläne ab %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK) mit Sitzungsminuten-Kontingent – jederzeit aufladbar"
         ],
-        "cta": "Jetzt starten"
+        "cta": "Jetzt starten",
+        "priceBulletIndex": 2,
+        "priceBulletNoAmount": "Monatspläne mit Sitzungsminuten-Kontingent – jederzeit aufladbar"
       },
       "howWeWork": {
         "label": "Prozess",
@@ -929,6 +931,7 @@
           "stack": ["React", "Firebase Realtime Database", "Abonnement-Abrechnung"],
           "resultLabel": "Ergebnis",
           "result": "Live-Produkt mit Monatsplänen ab %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK).",
+          "resultNoAmount": "Live-Produkt mit Monatsplänen.",
           "link": "global-reach",
           "linkLabel": "Zum Produkt"
         },

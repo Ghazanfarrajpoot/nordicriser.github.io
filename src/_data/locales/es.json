@@ -390,7 +390,9 @@
           "Presencia en tiempo real — vea quién está en la sala",
           "Planes mensuales desde %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK) con una asignación de minutos de sesión, recargables en cualquier momento"
         ],
-        "cta": "Comenzar"
+        "cta": "Comenzar",
+        "priceBulletIndex": 2,
+        "priceBulletNoAmount": "Planes mensuales con una asignación de minutos de sesión, recargables en cualquier momento"
       },
       "howWeWork": {
         "label": "Proceso",
@@ -929,6 +931,7 @@
           "stack": ["React", "Firebase Realtime Database", "Facturación por suscripción"],
           "resultLabel": "Resultado",
           "result": "Producto en funcionamiento con planes mensuales desde %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK).",
+          "resultNoAmount": "Producto en funcionamiento con planes mensuales.",
           "link": "global-reach",
           "linkLabel": "Ver el Producto"
         },

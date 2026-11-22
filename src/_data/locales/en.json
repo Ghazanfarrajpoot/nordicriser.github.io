@@ -396,7 +396,9 @@
           "Real-time presence — see who's in the room",
           "Monthly plans from €%%pricing.globalReach.basic.eur%% (%%pricing.globalReach.basic.sek%% SEK) with a session-minute allowance — top up anytime"
         ],
-        "cta": "Get Started"
+        "cta": "Get Started",
+        "priceBulletIndex": 2,
+        "priceBulletNoAmount": "Monthly plans with a session-minute allowance — top up anytime"
       },
       "howWeWork": {
         "label": "Process",
@@ -1360,6 +1362,7 @@
           "stack": ["React", "Firebase Realtime Database", "Subscription billing"],
           "resultLabel": "Result",
           "result": "Live product with monthly plans from €%%pricing.globalReach.basic.eur%% (%%pricing.globalReach.basic.sek%% SEK).",
+          "resultNoAmount": "Live product with monthly plans.",
           "link": "global-reach",
           "linkLabel": "View the Product"
         },

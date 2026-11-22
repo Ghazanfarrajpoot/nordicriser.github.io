@@ -50,14 +50,14 @@ pageSlug: ""
 {%- endif %}
 
 <section class="proof-bar">
-  <div class="proof-bar-inner" data-animate>
-    {%- for s in home.proofBar.stats %}
-    <div class="proof-stat">
-      <div class="proof-stat-value">{{ s.value }}</div>
-      <div class="proof-stat-label">{{ s.label }}</div>
-    </div>
-    {%- endfor %}
-  </div>
+  <ul class="proof-bar-inner" data-animate>
+    {% for s in home.proofBar.stats %}
+    <li class="proof-stat">
+      <span class="proof-stat-value">{{ s.value }}</span>
+      <span class="proof-stat-label">{{ s.label }}</span>
+    </li>
+    {% endfor %}
+  </ul>
 </section>
 
 <section class="section">
@@ -114,7 +114,9 @@ pageSlug: ""
       <h2 class="section-title">{{ home.productSpotlight.title }}</h2>
       <p class="section-sub">{{ home.productSpotlight.body }}</p>
       <ul class="gr-teaser-bullets">
+        {%- set pricesFilled = facts.pricing.globalReach.basic.eur | filled %}
         {%- for b in home.productSpotlight.bullets %}
+        {%- set b = home.productSpotlight.priceBulletNoAmount if (not pricesFilled and loop.index0 == home.productSpotlight.priceBulletIndex and home.productSpotlight.priceBulletNoAmount) else b %}
         <li>{{ b }}</li>
         {%- endfor %}
       </ul>

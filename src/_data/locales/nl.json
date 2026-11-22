@@ -390,7 +390,9 @@
           "Realtime aanwezigheid — zie wie er in de ruimte is",
           "Maandabonnementen vanaf € %%pricing.globalReach.basic.eur%% (%%pricing.globalReach.basic.sek%% SEK) inclusief sessieminuten – op elk moment bij te vullen"
         ],
-        "cta": "Aan de slag"
+        "cta": "Aan de slag",
+        "priceBulletIndex": 2,
+        "priceBulletNoAmount": "Maandabonnementen inclusief sessieminuten – op elk moment bij te vullen"
       },
       "howWeWork": {
         "label": "Proces",
@@ -929,6 +931,7 @@
           "stack": ["React", "Firebase Realtime Database", "Abonnementsfacturering"],
           "resultLabel": "Resultaat",
           "result": "Live product met maandabonnementen vanaf € %%pricing.globalReach.basic.eur%% (%%pricing.globalReach.basic.sek%% SEK).",
+          "resultNoAmount": "Live product met maandabonnementen.",
           "link": "global-reach",
           "linkLabel": "Bekijk het Product"
         },

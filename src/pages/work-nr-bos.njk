@@ -25,7 +25,8 @@ ogImage: /assets/img/og-nr-bos.jpg
 {#- Public self-service registration on the live NR-BOS app — a separate
     deployment from this marketing site. The app URL lives in facts.json
     (urls.nrbosApp); registration is its /register path. -#}
-{%- set nrbosRegisterUrl = facts.urls.nrbosApp ~ facts.urls.nrbosRegisterPath -%}
+{%- set nrbosApp = facts.urls.nrbosApp if (facts.urls.nrbosApp | filled) else facts.urls.nrbosAppFallback -%}
+{%- set nrbosRegisterUrl = nrbosApp ~ facts.urls.nrbosRegisterPath -%}
 {% import "partials/nrb-overview.njk" as nrb2 %}
 {% import "partials/icons.njk" as icons %}
 
