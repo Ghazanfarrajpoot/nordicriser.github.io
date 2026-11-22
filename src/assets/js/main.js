@@ -59,7 +59,8 @@ if (consultationForm) {
     const fd = new FormData(consultationForm);
     const payload = {
       firstName: fd.get('firstName'), lastName: fd.get('lastName'), email: fd.get('email'),
-      businessType: fd.get('businessType'), purpose: fd.get('purpose'),
+      // Optional on the form since the audit; the backend still requires it.
+      businessType: fd.get('businessType') || 'not-specified', purpose: fd.get('purpose'),
       budget: fd.get('budget'), timeline: fd.get('timeline'), message: fd.get('message'),
       locale: document.documentElement.lang,
     };
@@ -165,13 +166,58 @@ if (grPresenceRoot) {
   }
 }
 
-// NR-BOS demo request form: same demo-only client-side "submit" pattern.
+// NR-BOS demo / trial request form. It used to only show the success
+// message and send nothing; it now posts to the same endpoint as the
+// Contact form (stored in Firestore `consultationRequests`), tagged with
+// purpose "nrbos-demo" so these requests can be told apart.
 const nrbosDemoForm = document.getElementById('nrbosDemoForm');
 if (nrbosDemoForm) {
   nrbosDemoForm.addEventListener('submit', function (e) {
     e.preventDefault();
-    nrbosDemoForm.style.display = 'none';
-    const success = document.getElementById('nrbosDemoFormSuccess');
-    if (success) success.style.display = 'block';
+    const submitBtn = nrbosDemoForm.querySelector('.btn-submit');
+    const errorEl = document.getElementById('nrbosDemoFormError');
+    const fd = new FormData(nrbosDemoForm);
+    const text = (name) => String(fd.get(name) || '').trim();
+    // Selects: send the visible label (e.g. "11-50") rather than the value code.
+    const optionLabel = (name) => {
+      const el = nrbosDemoForm.elements[name];
+      return el && el.selectedIndex >= 0 ? el.options[el.selectedIndex].text.trim() : text(name);
+    };
+    const [firstName, ...rest] = text('name').split(/\s+/);
+    const message = [
+      'NR-BOS demo / trial request',
+      `Company: ${text('company')}`,
+      `Team size: ${optionLabel('size')}`,
+      `Industry: ${optionLabel('industry')}`,
+      `Expected users: ${text('users')}`,
+      `Main challenge: ${text('mainChallenge')}`,
+      text('message') ? `Message: ${text('message')}` : '',
+    ].filter(Boolean).join('\n');
+    const payload = {
+      firstName: firstName || text('name'),
+      lastName: rest.join(' ') || '-',
+      email: text('email'),
+      businessType: text('company') || 'not-specified',
+      purpose: 'nrbos-demo',
+      message,
+      locale: document.documentElement.lang,
+    };
+    if (submitBtn) submitBtn.disabled = true;
+    if (errorEl) errorEl.hidden = true;
+    fetch(`${FUNCTIONS_BASE}/submitConsultationRequest`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    })
+      .then((res) => {
+        if (!res.ok) throw new Error('request failed');
+        nrbosDemoForm.style.display = 'none';
+        const success = document.getElementById('nrbosDemoFormSuccess');
+        if (success) success.style.display = 'block';
+      })
+      .catch(() => {
+        if (submitBtn) submitBtn.disabled = false;
+        if (errorEl) { errorEl.hidden = false; errorEl.textContent = nrbosDemoForm.dataset.errorText; }
+      });
   });
 }
