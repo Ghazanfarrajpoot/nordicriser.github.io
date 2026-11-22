@@ -13,6 +13,7 @@
     "websiteLabel": "ویب سائٹ",
     "home": "ہوم",
     "pricingOnRequest": "قیمت درخواست پر دستیاب",
+    "priceFormat": "€{eur} ({sek} SEK)",
     "company": {
       "orgNr": "تنظیمی نمبر",
       "vat": "VAT نمبر",
@@ -128,7 +129,7 @@
         "title": "ہم نے کیا تیار کیا ہے",
         "items": [
           { "type": "SaaS پروڈکٹ (اندرونی)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "فلیگ شپ پروڈکٹ", "oneLiner": "پراجیکٹ ڈیلیوری، فیلڈ آپریشنز، اور کلائنٹ رپورٹنگ — سب ایک ہی پلیٹ فارم سے، جسے Nordic Riser AB نے تیار اور لائسنس یافتہ بنایا ہے۔", "link": "work/nr-bos" },
-          { "type": "SaaS پروڈکٹ (اندرونی)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "حقیقی وقت کی موجودگی اور مشترکہ سیشن نوٹس کے ساتھ براہِ راست مطالعہ اور کام کے کمرے، منٹ کے حساب سے بل کیے جاتے ہیں۔", "link": "global-reach" },
+          { "type": "SaaS پروڈکٹ (اندرونی)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "ریئل ٹائم موجودگی اور مشترکہ سیشن نوٹس والے لائیو اسٹڈی اور ورک رومز، ماہانہ پلانز کے ساتھ جن میں سیشن منٹس شامل ہیں — کسی بھی وقت ٹاپ اپ کریں۔", "link": "global-reach" },
           { "type": "محفوظ کلائنٹ پورٹل (اندرونی)", "id": "member-portal", "title": "Nordic Riser ممبر پورٹل", "oneLiner": "دستاویزات کے تبادلے، کیس ٹریکنگ، محفوظ پیغام رسانی، اور ادائیگیوں کے لیے ایک تصدیق شدہ پورٹل۔", "link": "work", "linkLabel": "ہمارے کام میں دیکھیں ←" },
           { "type": "کثیر لسانی مارکیٹنگ پلیٹ فارم (اندرونی)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "گیارہ زبانوں میں ایک پروڈکشن سائٹ جس میں RTL معاونت، مکمل میٹا کوریج، اور ہر زبان کے لیے صاف URLs شامل ہیں۔", "link": "work", "linkLabel": "ہمارے کام میں دیکھیں ←" },
           { "type": "صحت کی ایپ (اندرونی)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "ایک ٹیلی میڈیسن پلیٹ فارم جو ہم نے مکمل طور پر خود بنایا — HD ویڈیو مشاورت، اپائنٹمنٹ بکنگ، اور کال کے دوران چیٹ — کسی بھی صحت کے برانڈ کے لیے حسب ضرورت بنانے کے لیے تیار۔", "link": "work", "linkLabel": "ہمارے کام میں دیکھیں ←" },
@@ -145,7 +146,7 @@
         "bullets": [
           "براہِ راست تعاون کے لیے مشترکہ سیشن نوٹس",
           "حقیقی وقت کی موجودگی — دیکھیں کمرے میں کون ہے",
-          "$29/ماہ سے شروع ہونے والے پلانز، منٹ کے حساب سے بل"
+          "€%%pricing.globalReach.basic.eur%% (%%pricing.globalReach.basic.sek%% SEK) سے شروع ہونے والے ماہانہ پلانز، جن میں سیشن منٹس شامل ہیں — کسی بھی وقت ٹاپ اپ کریں"
         ],
         "cta": "شروع کریں"
       },
@@ -655,11 +656,11 @@
           "challengeLabel": "چیلنج",
           "challenge": "سرحدوں کے پار کام کرنے والی ٹیموں کو مل کر براہِ راست مطالعہ یا کام کرنے کے لیے ایک مشترکہ جگہ کی ضرورت ہوتی ہے — بغیر کال بک کیے یا علیحدہ ٹولز کے درمیان سوئچ کیے۔",
           "buildLabel": "تعمیر",
-          "build": "حقیقی وقت کی موجودگی اور مشترکہ سیشن نوٹس کے ساتھ کھلے مطالعہ اور کام کے کمرے، منٹ کے حساب سے بل کیے جاتے ہیں۔",
+          "build": "ریئل ٹائم موجودگی اور مشترکہ سیشن نوٹس والے لائیو اسٹڈی اور ورک رومز، ماہانہ پلانز کے ساتھ جن میں سیشن منٹس شامل ہیں — کسی بھی وقت ٹاپ اپ کریں۔",
           "stackLabel": "اسٹیک",
           "stack": ["React", "Firebase Realtime Database", "سبسکرپشن بلنگ"],
           "resultLabel": "نتیجہ",
-          "result": "$29/ماہ سے شروع ہونے والے ادا شدہ پلانز کے ساتھ لائیو پروڈکٹ۔",
+          "result": "€%%pricing.globalReach.basic.eur%% (%%pricing.globalReach.basic.sek%% SEK) سے شروع ہونے والے ماہانہ پلانز کے ساتھ لائیو پروڈکٹ۔",
           "link": "global-reach",
           "linkLabel": "پروڈکٹ دیکھیں"
         },
@@ -963,6 +964,7 @@
         "mockCaption": "اسے آزمائیں — ایک نوٹ لکھیں اور موجودگی کو اپڈیٹ ہوتے دیکھیں",
         "visual": {
           "notesLabel": "مشترکہ سیشن نوٹس",
+          "illustrativeLabel": "تمثیلی پیش منظر",
           "demoPlaceholder": "یہاں ایک نوٹ لکھ کر آزمائیں…",
           "demoAriaLabel": "مشترکہ نوٹس پینل آزمائیں (صرف ڈیمو — محفوظ نہیں ہوتا)",
           "participants": [
@@ -1016,10 +1018,10 @@
       "plansTitle": "سادہ پلانز، واضح قیمتیں",
       "plansSub": "ہر پلان میں کمروں اور مشترکہ نوٹس تک مکمل رسائی شامل ہے — پلانز صرف ماہانہ سیشن منٹس کی حد میں مختلف ہوتے ہیں۔",
       "plans": [
-        {"name": "بیسک", "price": "29", "period": "/ ماہ", "features": ["2 گھنٹے براہِ راست نشستیں / ماہ", "رومز اور مشترکہ نوٹس تک مکمل رسائی", "لامحدود محفوظ سیشن نوٹس"], "popular": false},
-        {"name": "پرو", "price": "79", "period": "/ ماہ", "features": ["10 گھنٹے براہِ راست نشستیں / ماہ", "ترجیحی معاونت", "تمام بیسک خصوصیات"], "popular": true}
+        {"name": "بیسک", "id": "basic", "period": "/ ماہ", "features": ["2 گھنٹے براہِ راست نشستیں / ماہ", "رومز اور مشترکہ نوٹس تک مکمل رسائی", "لامحدود محفوظ سیشن نوٹس"], "popular": false},
+        {"name": "پرو", "id": "pro", "period": "/ ماہ", "features": ["10 گھنٹے براہِ راست نشستیں / ماہ", "ترجیحی معاونت", "تمام بیسک خصوصیات"], "popular": true}
       ],
-      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "_syncNote": "Plan names and session-minute allowances mirror nordic-riser-portal DEFAULT_PLANS (2026-09-09); there is no free tier. Prices are NOT here: they come from src/_data/facts.json (pricing.globalReach), formatted per language by common.priceFormat.",
       "limitNote": "کیا آپ کو اپنے پلان سے زیادہ سیشن منٹس درکار ہیں؟ آپ کسی بھی وقت اپنا اکاؤنٹ ری چارج کر سکتے ہیں۔",
       "faqLabel": "اکثر پوچھے جانے والے سوالات",
       "faqTitle": "اکثر پوچھے جانے والے سوالات",

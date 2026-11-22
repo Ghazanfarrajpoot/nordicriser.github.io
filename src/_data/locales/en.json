@@ -16,6 +16,7 @@
     "websiteLabel": "Website",
     "home": "Home",
     "pricingOnRequest": "Pricing on request",
+    "priceFormat": "€{eur} ({sek} SEK)",
     "legalPendingTranslationPrefix": "This document is not yet available in ",
     "legalPendingTranslationSuffix": ". The English text below is authoritative while a professional legal translation is prepared. Contact us with questions.",
     "company": {
@@ -376,7 +377,7 @@
         "title": "What We've Built",
         "items": [
           { "type": "SaaS Product (In-House)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Flagship Product", "oneLiner": "Project delivery, field operations, and client reporting — run from one platform, built and licensed by Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS Product (In-House)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live study and work rooms with real-time presence and shared session notes, billed by the minute.", "link": "global-reach" },
+          { "type": "SaaS Product (In-House)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live study and work rooms with real-time presence and shared session notes, on monthly plans with a session-minute allowance — top up anytime.", "link": "global-reach" },
           { "type": "Secure Client Portal (In-House)", "id": "member-portal", "title": "Nordic Riser Member Portal", "oneLiner": "An authenticated portal for document exchange, case tracking, secure messaging, and payments.", "link": "work", "linkLabel": "See in our work →" },
           { "type": "Multilingual Marketing Platform (In-House)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "An eleven-language production site with RTL support, full meta coverage, and clean per-language URLs.", "link": "work", "linkLabel": "See in our work →" },
           { "type": "Healthcare App (In-House)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "A telemedicine platform we built end-to-end — HD video consultations, appointment booking, and in-call chat — ready to customize for any healthcare brand.", "link": "work", "linkLabel": "See in our work →" },
@@ -393,7 +394,7 @@
         "bullets": [
           "Shared session notes for live collaboration",
           "Real-time presence — see who's in the room",
-          "Plans from $29/month, billed by the minute"
+          "Monthly plans from €%%pricing.globalReach.basic.eur%% (%%pricing.globalReach.basic.sek%% SEK) with a session-minute allowance — top up anytime"
         ],
         "cta": "Get Started"
       },
@@ -1292,11 +1293,11 @@
           "challengeLabel": "Challenge",
           "challenge": "Teams working across borders need a shared space to study or work together live, without booking a call or juggling separate tools.",
           "buildLabel": "Build",
-          "build": "Open study and work rooms with live presence and shared session notes, billed by the minute.",
+          "build": "Live study and work rooms with real-time presence and shared session notes, on monthly plans with a session-minute allowance — top up anytime.",
           "stackLabel": "Stack",
           "stack": ["React", "Firebase Realtime Database", "Subscription billing"],
           "resultLabel": "Result",
-          "result": "Live product with paid plans starting at $29/month.",
+          "result": "Live product with monthly plans from €%%pricing.globalReach.basic.eur%% (%%pricing.globalReach.basic.sek%% SEK).",
           "link": "global-reach",
           "linkLabel": "View the Product"
         },
@@ -1507,6 +1508,7 @@
         "mockCaption": "Try it — type a note and watch presence update",
         "visual": {
           "notesLabel": "Shared Session Notes",
+          "illustrativeLabel": "Illustrative preview",
           "demoPlaceholder": "Try typing a note here…",
           "demoAriaLabel": "Try the shared notes panel (demo only — not saved)",
           "participants": [
@@ -1560,10 +1562,10 @@
       "plansTitle": "Simple Plans, Straightforward Pricing",
       "plansSub": "Every plan includes full access to rooms and shared notes — plans differ in monthly session-minute allowance.",
       "plans": [
-        { "name": "Basic", "price": "29", "period": "/ month", "features": ["2 hours of live sessions / month", "Full access to rooms & shared notes", "Unlimited saved session notes"], "popular": false },
-        { "name": "Pro", "price": "79", "period": "/ month", "features": ["10 hours of live sessions / month", "Priority support", "All Basic features"], "popular": true }
+        { "name": "Basic", "id": "basic", "period": "/ month", "features": ["2 hours of live sessions / month", "Full access to rooms & shared notes", "Unlimited saved session notes"], "popular": false },
+        { "name": "Pro", "id": "pro", "period": "/ month", "features": ["10 hours of live sessions / month", "Priority support", "All Basic features"], "popular": true }
       ],
-      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "_syncNote": "Plan names and session-minute allowances mirror nordic-riser-portal DEFAULT_PLANS (2026-09-09); there is no free tier. Prices are NOT here: they come from src/_data/facts.json (pricing.globalReach), formatted per language by common.priceFormat.",
       "limitNote": "Need more session minutes than your plan includes? You can top up anytime from your account.",
       "faqLabel": "Frequently Asked Questions",
       "faqTitle": "Common Questions",

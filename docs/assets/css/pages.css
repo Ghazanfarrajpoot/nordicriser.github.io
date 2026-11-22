@@ -670,3 +670,6 @@ a.right-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); 
 .case-study-media { margin: 0; background: var(--navy); border-bottom: 1px solid var(--border, #e5e2d9); }
 .case-study-media img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; object-position: top center; }
 
+/* Global Reach hero: the name chips are a mock-up, labelled as such */
+.gr-illustrative-label { display: inline-block; margin-bottom: 0.6rem; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); opacity: 0.9; }
+

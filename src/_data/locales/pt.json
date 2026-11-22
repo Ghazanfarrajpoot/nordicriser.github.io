@@ -13,6 +13,7 @@
     "websiteLabel": "Website",
     "home": "Início",
     "pricingOnRequest": "Preços sob consulta",
+    "priceFormat": "{eur} € ({sek} SEK)",
     "company": {
       "orgNr": "N.º de registo",
       "vat": "N.º de IVA",
@@ -128,7 +129,7 @@
         "title": "O Que Construímos",
         "items": [
           { "type": "Produto SaaS (Interno)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Produto Principal", "oneLiner": "Entrega de projetos, operações de campo e relatórios ao cliente — tudo numa única plataforma, construída e licenciada pela Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "Produto SaaS (Interno)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Salas de estudo e trabalho ao vivo com presença em tempo real e notas de sessão partilhadas, faturadas por minuto.", "link": "global-reach" },
+          { "type": "Produto SaaS (Interno)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Salas de estudo e trabalho ao vivo com presença em tempo real e notas de sessão partilhadas, com planos mensais que incluem uma atribuição de minutos de sessão, com carregamentos a qualquer momento.", "link": "global-reach" },
           { "type": "Portal de Cliente Seguro (Interno)", "id": "member-portal", "title": "Portal de Membros Nordic Riser", "oneLiner": "Um portal autenticado para partilha de documentos, acompanhamento de processos, mensagens seguras e pagamentos.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
           { "type": "Plataforma de Marketing Multilingue (Interna)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Um site de produção em onze idiomas com suporte RTL, cobertura completa de metadados e URLs limpos por idioma.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
           { "type": "Aplicação de Saúde (Interna)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Uma plataforma de telemedicina que construímos do início ao fim — consultas por vídeo em HD, marcação de consultas e chat durante a chamada — pronta a personalizar para qualquer marca de saúde.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
@@ -145,7 +146,7 @@
         "bullets": [
           "Notas de sessão partilhadas para colaboração ao vivo",
           "Presença em tempo real — veja quem está na sala",
-          "Planos a partir de $29/mês, faturados por minuto"
+          "Planos mensais a partir de %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK) com uma atribuição de minutos de sessão, com carregamentos a qualquer momento"
         ],
         "cta": "Começar"
       },
@@ -655,11 +656,11 @@
           "challengeLabel": "Desafio",
           "challenge": "Equipas que trabalham além-fronteiras precisam de um espaço partilhado para estudar ou trabalhar juntas ao vivo, sem marcar uma chamada ou alternar entre ferramentas separadas.",
           "buildLabel": "Construção",
-          "build": "Salas de estudo e trabalho abertas com presença ao vivo e notas de sessão partilhadas, faturadas por minuto.",
+          "build": "Salas de estudo e trabalho ao vivo com presença em tempo real e notas de sessão partilhadas, com planos mensais que incluem uma atribuição de minutos de sessão, com carregamentos a qualquer momento.",
           "stackLabel": "Stack",
           "stack": ["React", "Firebase Realtime Database", "Faturação por subscrição"],
           "resultLabel": "Resultado",
-          "result": "Produto ao vivo com planos pagos a partir de $29/mês.",
+          "result": "Produto ao vivo com planos mensais a partir de %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK).",
           "link": "global-reach",
           "linkLabel": "Ver o Produto"
         },
@@ -963,6 +964,7 @@
         "mockCaption": "Experimente — escreva uma nota e veja a presença atualizar-se",
         "visual": {
           "notesLabel": "Notas de Sessão Partilhadas",
+          "illustrativeLabel": "Pré-visualização ilustrativa",
           "demoPlaceholder": "Experimente escrever uma nota aqui…",
           "demoAriaLabel": "Experimente o painel de notas partilhadas (apenas demonstração — não é guardado)",
           "participants": [
@@ -1016,10 +1018,10 @@
       "plansTitle": "Planos Simples, Preços Claros",
       "plansSub": "Todos os planos incluem acesso completo a salas e notas partilhadas — os planos diferem apenas na atribuição mensal de minutos de sessão.",
       "plans": [
-        {"name": "Basic", "price": "29", "period": "/ mês", "features": ["2 horas de sessões ao vivo / mês", "Acesso completo a salas e notas partilhadas", "Notas de sessão guardadas sem limite"], "popular": false},
-        {"name": "Pro", "price": "79", "period": "/ mês", "features": ["10 horas de sessões ao vivo / mês", "Suporte prioritário", "Todas as funcionalidades do Basic"], "popular": true}
+        {"name": "Basic", "id": "basic", "period": "/ mês", "features": ["2 horas de sessões ao vivo / mês", "Acesso completo a salas e notas partilhadas", "Notas de sessão guardadas sem limite"], "popular": false},
+        {"name": "Pro", "id": "pro", "period": "/ mês", "features": ["10 horas de sessões ao vivo / mês", "Suporte prioritário", "Todas as funcionalidades do Basic"], "popular": true}
       ],
-      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "_syncNote": "Plan names and session-minute allowances mirror nordic-riser-portal DEFAULT_PLANS (2026-09-09); there is no free tier. Prices are NOT here: they come from src/_data/facts.json (pricing.globalReach), formatted per language by common.priceFormat.",
       "limitNote": "Precisa de mais minutos de sessão do que o seu plano inclui? Pode recarregar a sua conta a qualquer momento.",
       "faqLabel": "Perguntas Frequentes",
       "faqTitle": "Perguntas Frequentes",

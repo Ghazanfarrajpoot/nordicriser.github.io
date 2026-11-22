@@ -13,6 +13,7 @@
     "websiteLabel": "الموقع الإلكتروني",
     "home": "الرئيسية",
     "pricingOnRequest": "الأسعار عند الطلب",
+    "priceFormat": "{eur} يورو ({sek} كرونة سويدية)",
     "company": {
       "orgNr": "رقم التسجيل",
       "vat": "رقم ضريبة القيمة المضافة",
@@ -128,7 +129,7 @@
         "title": "ما قمنا ببنائه",
         "items": [
           { "type": "منتج SaaS (داخلي)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "المنتج الرائد", "oneLiner": "تسليم المشاريع، والعمليات الميدانية، وتقارير العملاء — كلها من منصة واحدة، مبنية ومرخّصة من قبل Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "منتج SaaS (داخلي)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "غرف دراسة وعمل مباشرة بحضور لحظي وملاحظات جلسة مشتركة، تُحتسب بالدقيقة.", "link": "global-reach" },
+          { "type": "منتج SaaS (داخلي)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "غرف دراسة وعمل مباشرة بحضور فوري وملاحظات جلسات مشتركة، بخطط شهرية تتضمن رصيداً من دقائق الجلسات — مع إمكانية الشحن في أي وقت.", "link": "global-reach" },
           { "type": "بوابة عملاء آمنة (داخلية)", "id": "member-portal", "title": "بوابة أعضاء Nordic Riser", "oneLiner": "بوابة موثقة لتبادل المستندات، وتتبع الحالات، والمراسلة الآمنة، والمدفوعات.", "link": "work", "linkLabel": "شاهد ضمن أعمالنا ←" },
           { "type": "منصة تسويقية متعددة اللغات (داخلية)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "موقع إنتاجي بإحدى عشرة لغة، بدعم للكتابة من اليمين إلى اليسار، وتغطية كاملة للبيانات الوصفية، وعناوين URL نظيفة لكل لغة.", "link": "work", "linkLabel": "شاهد ضمن أعمالنا ←" },
           { "type": "تطبيق صحي (داخلي)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "منصة طب عن بُعد بنيناها بالكامل — استشارات فيديو بجودة HD، وحجز المواعيد، ومحادثة أثناء المكالمة — جاهزة للتخصيص لأي علامة تجارية صحية.", "link": "work", "linkLabel": "شاهد ضمن أعمالنا ←" },
@@ -145,7 +146,7 @@
         "bullets": [
           "ملاحظات جلسة مشتركة للتعاون المباشر",
           "حضور لحظي — شاهد من في الغرفة",
-          "خطط تبدأ من 29$ شهرياً، تُحتسب بالدقيقة"
+          "خطط شهرية تبدأ من %%pricing.globalReach.basic.eur%% يورو (%%pricing.globalReach.basic.sek%% كرونة سويدية) تتضمن رصيداً من دقائق الجلسات — مع إمكانية الشحن في أي وقت"
         ],
         "cta": "ابدأ الآن"
       },
@@ -655,11 +656,11 @@
           "challengeLabel": "التحدي",
           "challenge": "تحتاج الفرق التي تعمل عبر الحدود إلى مساحة مشتركة للدراسة أو العمل معاً مباشرة، دون حجز مكالمة أو التنقل بين أدوات منفصلة.",
           "buildLabel": "البناء",
-          "build": "غرف دراسة وعمل مفتوحة بحضور مباشر وملاحظات جلسة مشتركة، تُحتسب بالدقيقة.",
+          "build": "غرف دراسة وعمل مباشرة بحضور فوري وملاحظات جلسات مشتركة، بخطط شهرية تتضمن رصيداً من دقائق الجلسات — مع إمكانية الشحن في أي وقت.",
           "stackLabel": "التقنيات",
           "stack": ["React", "Firebase Realtime Database", "فوترة الاشتراكات"],
           "resultLabel": "النتيجة",
-          "result": "منتج مباشر بخطط مدفوعة تبدأ من 29$ شهرياً.",
+          "result": "منتج مباشر بخطط شهرية تبدأ من %%pricing.globalReach.basic.eur%% يورو (%%pricing.globalReach.basic.sek%% كرونة سويدية).",
           "link": "global-reach",
           "linkLabel": "شاهد المنتج"
         },
@@ -963,6 +964,7 @@
         "mockCaption": "جرّبها — اكتب ملاحظة وشاهد الحضور يتحدّث",
         "visual": {
           "notesLabel": "ملاحظات الجلسة المشتركة",
+          "illustrativeLabel": "معاينة توضيحية",
           "demoPlaceholder": "جرّب كتابة ملاحظة هنا…",
           "demoAriaLabel": "جرّب لوحة الملاحظات المشتركة (تجربة فقط — لا يتم الحفظ)",
           "participants": [
@@ -1016,10 +1018,10 @@
       "plansTitle": "خطط بسيطة، أسعار واضحة",
       "plansSub": "تشمل كل خطة وصولاً كاملاً إلى الغرف والملاحظات المشتركة — تختلف الخطط فقط في حصة دقائق الجلسات الشهرية.",
       "plans": [
-        {"name": "أساسية", "price": "29", "period": "/ شهرياً", "features": ["ساعتان من الجلسات المباشرة / شهرياً", "وصول كامل إلى الغرف والملاحظات المشتركة", "ملاحظات جلسات محفوظة دون حدود"], "popular": false},
-        {"name": "احترافية", "price": "79", "period": "/ شهرياً", "features": ["10 ساعات من الجلسات المباشرة / شهرياً", "دعم ذو أولوية", "جميع ميزات الخطة الأساسية"], "popular": true}
+        {"name": "أساسية", "id": "basic", "period": "/ شهرياً", "features": ["ساعتان من الجلسات المباشرة / شهرياً", "وصول كامل إلى الغرف والملاحظات المشتركة", "ملاحظات جلسات محفوظة دون حدود"], "popular": false},
+        {"name": "احترافية", "id": "pro", "period": "/ شهرياً", "features": ["10 ساعات من الجلسات المباشرة / شهرياً", "دعم ذو أولوية", "جميع ميزات الخطة الأساسية"], "popular": true}
       ],
-      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "_syncNote": "Plan names and session-minute allowances mirror nordic-riser-portal DEFAULT_PLANS (2026-09-09); there is no free tier. Prices are NOT here: they come from src/_data/facts.json (pricing.globalReach), formatted per language by common.priceFormat.",
       "limitNote": "هل تحتاج إلى دقائق جلسات أكثر مما تشمله خطتك؟ يمكنك إعادة الشحن في أي وقت من حسابك.",
       "faqLabel": "الأسئلة الشائعة",
       "faqTitle": "الأسئلة الشائعة",

@@ -13,6 +13,7 @@
     "websiteLabel": "Website",
     "home": "Home",
     "pricingOnRequest": "Prijzen op aanvraag",
+    "priceFormat": "€ {eur} ({sek} SEK)",
     "company": {
       "orgNr": "Organisatienr.",
       "vat": "Btw-nr.",
@@ -128,7 +129,7 @@
         "title": "Wat Wij Hebben Gebouwd",
         "items": [
           { "type": "SaaS-product (Intern)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Vlaggenschipproduct", "oneLiner": "Projectuitvoering, veldwerk en klantrapportages — alles op één platform, gebouwd en gelicentieerd door Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS-product (Intern)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities, per minuut gefactureerd.", "link": "global-reach" },
+          { "type": "SaaS-product (Intern)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities, met maandabonnementen inclusief sessieminuten – op elk moment bij te vullen.", "link": "global-reach" },
           { "type": "Veilig Klantportaal (Intern)", "id": "member-portal", "title": "Nordic Riser Ledenportaal", "oneLiner": "Een geauthenticeerd portaal voor documentuitwisseling, zaakopvolging, veilige berichten en betalingen.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
           { "type": "Meertalig Marketingplatform (Intern)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Een productiesite in elf talen met RTL-ondersteuning, volledige metadekking en schone URL's per taal.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
           { "type": "Zorg-app (Intern)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Een telemedicineplatform dat we volledig zelf hebben gebouwd — HD-videoconsulten, afsprakenplanning en chat tijdens het gesprek — klaar om aan te passen voor elk zorgmerk.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
@@ -145,7 +146,7 @@
         "bullets": [
           "Gedeelde sessienotities voor live samenwerking",
           "Realtime aanwezigheid — zie wie er in de ruimte is",
-          "Abonnementen vanaf $29/maand, per minuut gefactureerd"
+          "Maandabonnementen vanaf € %%pricing.globalReach.basic.eur%% (%%pricing.globalReach.basic.sek%% SEK) inclusief sessieminuten – op elk moment bij te vullen"
         ],
         "cta": "Aan de slag"
       },
@@ -655,11 +656,11 @@
           "challengeLabel": "Uitdaging",
           "challenge": "Teams die grensoverschrijdend werken hebben een gedeelde ruimte nodig om live samen te studeren of te werken, zonder een gesprek te boeken of te schakelen tussen losse tools.",
           "buildLabel": "Bouw",
-          "build": "Open studie- en werkruimtes met live aanwezigheid en gedeelde sessienotities, per minuut gefactureerd.",
+          "build": "Live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities, met maandabonnementen inclusief sessieminuten – op elk moment bij te vullen.",
           "stackLabel": "Techniek",
           "stack": ["React", "Firebase Realtime Database", "Abonnementsfacturering"],
           "resultLabel": "Resultaat",
-          "result": "Live product met betaalde abonnementen vanaf $29/maand.",
+          "result": "Live product met maandabonnementen vanaf € %%pricing.globalReach.basic.eur%% (%%pricing.globalReach.basic.sek%% SEK).",
           "link": "global-reach",
           "linkLabel": "Bekijk het Product"
         },
@@ -963,6 +964,7 @@
         "mockCaption": "Probeer het — typ een notitie en zie de aanwezigheid live bijwerken",
         "visual": {
           "notesLabel": "Gedeelde Sessienotities",
+          "illustrativeLabel": "Illustratieve weergave",
           "demoPlaceholder": "Typ hier een notitie…",
           "demoAriaLabel": "Probeer het gedeelde notitiepaneel (alleen demo — wordt niet opgeslagen)",
           "participants": [
@@ -1016,10 +1018,10 @@
       "plansTitle": "Eenvoudige Abonnementen, Transparante Prijzen",
       "plansSub": "Elk abonnement omvat volledige toegang tot ruimtes en gedeelde notities — abonnementen verschillen alleen in de maandelijkse sessieminutenlimiet.",
       "plans": [
-        {"name": "Basic", "price": "29", "period": "/ maand", "features": ["2 uur live sessies / maand", "Volledige toegang tot rooms en gedeelde notities", "Onbeperkt opgeslagen sessienotities"], "popular": false},
-        {"name": "Pro", "price": "79", "period": "/ maand", "features": ["10 uur live sessies / maand", "Prioriteitsondersteuning", "Alle Basic-functies"], "popular": true}
+        {"name": "Basic", "id": "basic", "period": "/ maand", "features": ["2 uur live sessies / maand", "Volledige toegang tot rooms en gedeelde notities", "Onbeperkt opgeslagen sessienotities"], "popular": false},
+        {"name": "Pro", "id": "pro", "period": "/ maand", "features": ["10 uur live sessies / maand", "Prioriteitsondersteuning", "Alle Basic-functies"], "popular": true}
       ],
-      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "_syncNote": "Plan names and session-minute allowances mirror nordic-riser-portal DEFAULT_PLANS (2026-09-09); there is no free tier. Prices are NOT here: they come from src/_data/facts.json (pricing.globalReach), formatted per language by common.priceFormat.",
       "limitNote": "Heeft u meer sessieminuten nodig dan uw abonnement omvat? U kunt uw account altijd bijvullen.",
       "faqLabel": "Veelgestelde Vragen",
       "faqTitle": "Veelgestelde Vragen",

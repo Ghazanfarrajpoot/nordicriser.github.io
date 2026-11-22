@@ -13,6 +13,7 @@
     "websiteLabel": "Site web",
     "home": "Accueil",
     "pricingOnRequest": "Tarifs sur demande",
+    "priceFormat": "{eur} € ({sek} SEK)",
     "company": {
       "orgNr": "N° d’organisation",
       "vat": "N° de TVA",
@@ -128,7 +129,7 @@
         "title": "Ce que nous avons construit",
         "items": [
           { "type": "Produit SaaS (interne)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Produit Phare", "oneLiner": "Livraison de projets, opérations de terrain et rapports client — le tout sur une seule plateforme, conçue et licenciée par Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "Produit SaaS (interne)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Des salons d'étude et de travail en direct avec présence en temps réel et notes de session partagées, facturés à la minute.", "link": "global-reach" },
+          { "type": "Produit SaaS (interne)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Des salles d’étude et de travail en direct avec présence en temps réel et notes de session partagées, avec des formules mensuelles incluant un quota de minutes de session, rechargeables à tout moment.", "link": "global-reach" },
           { "type": "Portail client sécurisé (interne)", "id": "member-portal", "title": "Portail Membre Nordic Riser", "oneLiner": "Un portail authentifié pour l'échange de documents, le suivi des dossiers, la messagerie sécurisée et les paiements.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
           { "type": "Plateforme marketing multilingue (interne)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Un site de production en onze langues avec prise en charge RTL, couverture méta complète et URL propres par langue.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
           { "type": "Application de santé (interne)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Une plateforme de télémédecine que nous avons construite de bout en bout — consultations vidéo HD, prise de rendez-vous et chat pendant l'appel — prête à être personnalisée pour toute marque de santé.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
@@ -145,7 +146,7 @@
         "bullets": [
           "Notes de session partagées pour la collaboration en direct",
           "Présence en temps réel — voyez qui est dans le salon",
-          "Formules à partir de 29 $/mois, facturées à la minute"
+          "Formules mensuelles à partir de %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK) avec un quota de minutes de session, rechargeables à tout moment"
         ],
         "cta": "Commencer"
       },
@@ -655,11 +656,11 @@
           "challengeLabel": "Défi",
           "challenge": "Les équipes qui travaillent au-delà des frontières ont besoin d'un espace partagé pour étudier ou travailler ensemble en direct, sans réserver un appel ni jongler avec des outils séparés.",
           "buildLabel": "Réalisation",
-          "build": "Des salons d'étude et de travail ouverts avec présence en direct et notes de session partagées, facturés à la minute.",
+          "build": "Des salles d’étude et de travail en direct avec présence en temps réel et notes de session partagées, avec des formules mensuelles incluant un quota de minutes de session, rechargeables à tout moment.",
           "stackLabel": "Technologie",
           "stack": ["React", "Firebase Realtime Database", "Facturation par abonnement"],
           "resultLabel": "Résultat",
-          "result": "Produit en ligne avec des formules payantes à partir de 29 $/mois.",
+          "result": "Produit en ligne avec des formules mensuelles à partir de %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK).",
           "link": "global-reach",
           "linkLabel": "Voir le produit"
         },
@@ -963,6 +964,7 @@
         "mockCaption": "Essayez — tapez une note et observez la présence se mettre à jour",
         "visual": {
           "notesLabel": "Notes de Session Partagées",
+          "illustrativeLabel": "Aperçu illustratif",
           "demoPlaceholder": "Essayez de taper une note ici…",
           "demoAriaLabel": "Essayez le panneau de notes partagées (démo uniquement — rien n'est enregistré)",
           "participants": [
@@ -1016,10 +1018,10 @@
       "plansTitle": "Des Formules Simples, des Prix Clairs",
       "plansSub": "Chaque formule inclut un accès complet aux salons et aux notes partagées — seules les allocations de minutes de session mensuelles diffèrent.",
       "plans": [
-        {"name": "Basic", "price": "29", "period": "/ mois", "features": ["2 heures de sessions en direct / mois", "Accès complet aux salons et aux notes partagées", "Notes de session sauvegardées sans limite"], "popular": false},
-        {"name": "Pro", "price": "79", "period": "/ mois", "features": ["10 heures de sessions en direct / mois", "Support prioritaire", "Toutes les fonctionnalités Basic"], "popular": true}
+        {"name": "Basic", "id": "basic", "period": "/ mois", "features": ["2 heures de sessions en direct / mois", "Accès complet aux salons et aux notes partagées", "Notes de session sauvegardées sans limite"], "popular": false},
+        {"name": "Pro", "id": "pro", "period": "/ mois", "features": ["10 heures de sessions en direct / mois", "Support prioritaire", "Toutes les fonctionnalités Basic"], "popular": true}
       ],
-      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "_syncNote": "Plan names and session-minute allowances mirror nordic-riser-portal DEFAULT_PLANS (2026-09-09); there is no free tier. Prices are NOT here: they come from src/_data/facts.json (pricing.globalReach), formatted per language by common.priceFormat.",
       "limitNote": "Besoin de plus de minutes de session que votre formule n'en inclut ? Vous pouvez recharger votre compte à tout moment.",
       "faqLabel": "Questions fréquentes",
       "faqTitle": "Questions fréquentes",

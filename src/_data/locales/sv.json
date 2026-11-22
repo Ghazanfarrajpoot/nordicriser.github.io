@@ -16,6 +16,7 @@
     "websiteLabel": "Webbplats",
     "home": "Hem",
     "pricingOnRequest": "Pris på förfrågan",
+    "priceFormat": "{eur} € ({sek} kr)",
     "company": {
       "orgNr": "Org.nr",
       "vat": "Momsreg.nr",
@@ -374,7 +375,7 @@
         "title": "Vad vi har byggt",
         "items": [
           { "type": "SaaS-produkt (internt byggd)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Flaggskeppsprodukt", "oneLiner": "Projektleverans, fältarbete och kundrapportering — allt på en plattform, byggd och licensierad av Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS-produkt (internt byggd)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Direktsända studie- och arbetsrum med realtidsnärvaro och delade sessionsanteckningar, debiterat per minut.", "link": "global-reach" },
+          { "type": "SaaS-produkt (internt byggd)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live-rum för studier och arbete med närvaro i realtid och delade sessionsanteckningar, med månadsabonnemang som inkluderar sessionsminuter – fyll på när du vill.", "link": "global-reach" },
           { "type": "Säker kundportal (internt byggd)", "id": "member-portal", "title": "Nordic Riser Medlemsportal", "oneLiner": "En autentiserad portal för dokumentutbyte, ärendespårning, säker meddelandehantering och betalningar.", "link": "work", "linkLabel": "Se i vårt arbete →" },
           { "type": "Flerspråkig marknadsföringsplattform (internt byggd)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "En elvaspråkig produktionswebbplats med RTL-stöd, fullständig metatäckning och rena URL:er per språk.", "link": "work", "linkLabel": "Se i vårt arbete →" },
           { "type": "Vårdapp (internt byggd)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "En telemedicinplattform vi byggt från grunden — HD-videokonsultationer, tidsbokning och chatt under samtal — redo att anpassas för valfritt vårdvarumärke.", "link": "work", "linkLabel": "Se i vårt arbete →" },
@@ -391,7 +392,7 @@
         "bullets": [
           "Delade sessionsanteckningar för direktsamarbete",
           "Närvaro i realtid — se vem som är i rummet",
-          "Planer från $29/månad, debiterat per minut"
+          "Månadsabonnemang från %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% kr) med sessionsminuter som ingår – fyll på när du vill"
         ],
         "cta": "Kom igång"
       },
@@ -1667,11 +1668,11 @@
           "challengeLabel": "Utmaning",
           "challenge": "Team som arbetar över gränser behöver ett delat utrymme för att studera eller arbeta tillsammans live, utan att boka ett samtal eller växla mellan separata verktyg.",
           "buildLabel": "Bygge",
-          "build": "Öppna studie- och arbetsrum med live närvaro och delade sessionsanteckningar, debiterat per minut.",
+          "build": "Live-rum för studier och arbete med närvaro i realtid och delade sessionsanteckningar, med månadsabonnemang som inkluderar sessionsminuter – fyll på när du vill.",
           "stackLabel": "Teknikstack",
           "stack": ["React", "Firebase Realtime Database", "Prenumerationsfakturering"],
           "resultLabel": "Resultat",
-          "result": "Live produkt med betalda planer från $29/månad.",
+          "result": "Produkt i drift med månadsabonnemang från %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% kr).",
           "link": "global-reach",
           "linkLabel": "Se produkten"
         },
@@ -1975,6 +1976,7 @@
         "mockCaption": "Testa det — skriv en anteckning och se närvaron uppdateras",
         "visual": {
           "notesLabel": "Delade sessionsanteckningar",
+          "illustrativeLabel": "Illustrativ förhandsvisning",
           "demoPlaceholder": "Testa att skriva en anteckning här…",
           "demoAriaLabel": "Testa den delade anteckningspanelen (endast demo — sparas inte)",
           "participants": [
@@ -2028,10 +2030,10 @@
       "plansTitle": "Enkla planer, tydliga priser",
       "plansSub": "Alla abonnemang inkluderar full tillgång till rum och delade anteckningar — abonnemangen skiljer sig bara i månatlig tilldelning av sessionsminuter.",
       "plans": [
-        {"name": "Basic", "price": "29", "period": "/ månad", "features": ["2 timmars direktsända sessioner / månad", "Full tillgång till rum och delade anteckningar", "Obegränsat sparade sessionsanteckningar"], "popular": false},
-        {"name": "Pro", "price": "79", "period": "/ månad", "features": ["10 timmars direktsända sessioner / månad", "Prioriterad support", "Alla funktioner i Basic"], "popular": true}
+        {"name": "Basic", "id": "basic", "period": "/ månad", "features": ["2 timmars direktsända sessioner / månad", "Full tillgång till rum och delade anteckningar", "Obegränsat sparade sessionsanteckningar"], "popular": false},
+        {"name": "Pro", "id": "pro", "period": "/ månad", "features": ["10 timmars direktsända sessioner / månad", "Prioriterad support", "Alla funktioner i Basic"], "popular": true}
       ],
-      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "_syncNote": "Plan names and session-minute allowances mirror nordic-riser-portal DEFAULT_PLANS (2026-09-09); there is no free tier. Prices are NOT here: they come from src/_data/facts.json (pricing.globalReach), formatted per language by common.priceFormat.",
       "limitNote": "Behöver du fler sessionsminuter än ditt abonnemang inkluderar? Du kan fylla på när som helst från ditt konto.",
       "faqLabel": "Vanliga frågor",
       "faqTitle": "Vanliga frågor",

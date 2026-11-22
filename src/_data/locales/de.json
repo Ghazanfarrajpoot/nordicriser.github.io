@@ -13,6 +13,7 @@
     "websiteLabel": "Website",
     "home": "Startseite",
     "pricingOnRequest": "Preise auf Anfrage",
+    "priceFormat": "{eur} € ({sek} SEK)",
     "company": {
       "orgNr": "Org.-Nr.",
       "vat": "USt-IdNr.",
@@ -128,7 +129,7 @@
         "title": "Was wir gebaut haben",
         "items": [
           { "type": "SaaS-Produkt (intern entwickelt)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Vorzeigeprodukt", "oneLiner": "Projektabwicklung, Feldeinsätze und Kundenberichte — alles auf einer Plattform, entwickelt und lizenziert von Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS-Produkt (intern entwickelt)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live-Lern- und Arbeitsräume mit Echtzeit-Präsenzanzeige und gemeinsamen Sitzungsnotizen, minutengenau abgerechnet.", "link": "global-reach" },
+          { "type": "SaaS-Produkt (intern entwickelt)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live-Räume zum Lernen und Arbeiten mit Echtzeit-Präsenz und gemeinsamen Sitzungsnotizen, mit Monatsplänen inklusive Sitzungsminuten-Kontingent – jederzeit aufladbar.", "link": "global-reach" },
           { "type": "Sicheres Kundenportal (intern entwickelt)", "id": "member-portal", "title": "Nordic Riser Mitgliederportal", "oneLiner": "Ein authentifiziertes Portal für Dokumentenaustausch, Fallverfolgung, sichere Nachrichten und Zahlungen.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
           { "type": "Mehrsprachige Marketingplattform (intern entwickelt)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Eine elfsprachige Produktionswebsite mit RTL-Unterstützung, vollständiger Meta-Abdeckung und sauberen sprachspezifischen URLs.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
           { "type": "Gesundheits-App (intern entwickelt)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Eine Telemedizin-Plattform, die wir von Grund auf gebaut haben — HD-Videokonsultationen, Terminbuchung und Chat während des Anrufs — bereit zur Anpassung für jede Gesundheitsmarke.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
@@ -145,7 +146,7 @@
         "bullets": [
           "Gemeinsame Sitzungsnotizen für die Live-Zusammenarbeit",
           "Echtzeit-Präsenzanzeige — sehen Sie, wer im Raum ist",
-          "Pläne ab 29 $/Monat, minutengenau abgerechnet"
+          "Monatspläne ab %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK) mit Sitzungsminuten-Kontingent – jederzeit aufladbar"
         ],
         "cta": "Jetzt starten"
       },
@@ -655,11 +656,11 @@
           "challengeLabel": "Herausforderung",
           "challenge": "Länderübergreifend arbeitende Teams brauchen einen gemeinsamen Raum, um live zu lernen oder zu arbeiten — ohne Anruf zu vereinbaren oder zwischen separaten Tools zu wechseln.",
           "buildLabel": "Umsetzung",
-          "build": "Offene Lern- und Arbeitsräume mit Live-Präsenzanzeige und gemeinsamen Sitzungsnotizen, minutengenau abgerechnet.",
+          "build": "Live-Räume zum Lernen und Arbeiten mit Echtzeit-Präsenz und gemeinsamen Sitzungsnotizen, mit Monatsplänen inklusive Sitzungsminuten-Kontingent – jederzeit aufladbar.",
           "stackLabel": "Technologie",
           "stack": ["React", "Firebase Realtime Database", "Abonnement-Abrechnung"],
           "resultLabel": "Ergebnis",
-          "result": "Live-Produkt mit kostenpflichtigen Plänen ab 29 $/Monat.",
+          "result": "Live-Produkt mit Monatsplänen ab %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK).",
           "link": "global-reach",
           "linkLabel": "Zum Produkt"
         },
@@ -963,6 +964,7 @@
         "mockCaption": "Jetzt ausprobieren — Notiz eingeben und Präsenz live sehen",
         "visual": {
           "notesLabel": "Gemeinsame Sitzungsnotizen",
+          "illustrativeLabel": "Illustrative Vorschau",
           "demoPlaceholder": "Hier eine Notiz eingeben…",
           "demoAriaLabel": "Das gemeinsame Notizfeld ausprobieren (nur Demo — wird nicht gespeichert)",
           "participants": [
@@ -1016,10 +1018,10 @@
       "plansTitle": "Einfache Pläne, transparente Preise",
       "plansSub": "Jeder Plan umfasst vollen Zugriff auf Räume und gemeinsame Notizen — die Pläne unterscheiden sich nur im monatlichen Sitzungsminutenkontingent.",
       "plans": [
-        {"name": "Basic", "price": "29", "period": "/ Monat", "features": ["2 Stunden Live-Sitzungen / Monat", "Voller Zugriff auf Räume und gemeinsame Notizen", "Unbegrenzt gespeicherte Sitzungsnotizen"], "popular": false},
-        {"name": "Pro", "price": "79", "period": "/ Monat", "features": ["10 Stunden Live-Sitzungen / Monat", "Prioritäts-Support", "Alle Basic-Funktionen"], "popular": true}
+        {"name": "Basic", "id": "basic", "period": "/ Monat", "features": ["2 Stunden Live-Sitzungen / Monat", "Voller Zugriff auf Räume und gemeinsame Notizen", "Unbegrenzt gespeicherte Sitzungsnotizen"], "popular": false},
+        {"name": "Pro", "id": "pro", "period": "/ Monat", "features": ["10 Stunden Live-Sitzungen / Monat", "Prioritäts-Support", "Alle Basic-Funktionen"], "popular": true}
       ],
-      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "_syncNote": "Plan names and session-minute allowances mirror nordic-riser-portal DEFAULT_PLANS (2026-09-09); there is no free tier. Prices are NOT here: they come from src/_data/facts.json (pricing.globalReach), formatted per language by common.priceFormat.",
       "limitNote": "Benötigen Sie mehr Sitzungsminuten, als Ihr Plan umfasst? Sie können Ihr Konto jederzeit aufladen.",
       "faqLabel": "Häufige Fragen",
       "faqTitle": "Häufige Fragen",
