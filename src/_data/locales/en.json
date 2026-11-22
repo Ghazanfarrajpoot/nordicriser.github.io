@@ -803,10 +803,54 @@
       "table": {
         "headers": ["Sub-processor", "Purpose", "Data Categories", "Location", "Transfer Mechanism", "Status"],
         "rows": [
-          ["Google Ireland Limited (Firebase / Google Cloud Platform)", "Authentication, database, file storage, and hosting for the Member Portal (portal.nordicriser.com) and Global Reach (live study/work rooms); on-demand translation of secure messages (Cloud Translation API — see Privacy Policy Section 6.5)", "Account credentials, profile data, uploaded document contents, secure message content including translated text, case and payment records; Global Reach room/session data and shared notes", "Google Cloud: Firestore in europe-north2, Realtime Database in europe-west1 (confirmed); Cloud Storage bucket region not yet independently confirmed. The Cloud Translation API is not region-pinned and may process data in any Google Cloud location worldwide", "Google Cloud's Cloud Data Processing Addendum, incorporating the European Commission's Standard Contractual Clauses", "Partially Confirmed"],
-          ["DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.)", "AI-generated risk, cost, and productivity analysis in NR-BOS (optional feature)", "Project and company names, budget figures, task details, cost entries, and generic per-project labels for team members (real names are pseudonymized before transmission)", "China", "Standard Contractual Clauses (controller-to-processor module). China has no European Commission adequacy decision — see Privacy Policy Section 6.4 for the full disclosure", "Confirmed"],
-          ["PostgreSQL database (NR-BOS)", "Core relational data storage — users, companies, projects, tasks, cost entries, field reports, license records", "Broad — effectively all NR-BOS operational data, including personal data of client company staff", "Pending internal confirmation", "Pending internal confirmation", "Verification Required"],
-          ["Object storage, S3-compatible (NR-BOS)", "Worksite photograph storage and generated PDF client reports", "Photograph files (may include camera-embedded EXIF such as GPS coordinates or a timestamp), PDF report documents", "Pending internal confirmation", "Pending internal confirmation", "Verification Required"]
+          [
+            "Google Ireland Limited (Firebase / Google Cloud Platform)",
+            "Authentication, database, file storage, and hosting for the Member Portal (portal.nordicriser.com) and Global Reach (live study/work rooms); on-demand translation of secure messages (Cloud Translation API — see Privacy Policy Section 6.5)",
+            "Account credentials, profile data, uploaded document contents, secure message content including translated text, case and payment records; Global Reach room/session data and shared notes",
+            "Google Cloud: Firestore in europe-north2, Realtime Database in europe-west1 (confirmed); Cloud Storage bucket region not yet independently confirmed. The Cloud Translation API is not region-pinned and may process data in any Google Cloud location worldwide",
+            "Google Cloud's Cloud Data Processing Addendum, incorporating the European Commission's Standard Contractual Clauses",
+            "Partially Confirmed"
+          ],
+          [
+            "DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.)",
+            "AI-generated risk, cost, and productivity analysis in NR-BOS (optional feature)",
+            "Project and company names, budget figures, task details, cost entries, and generic per-project labels for team members (real names are pseudonymized before transmission)",
+            "China",
+            "Standard Contractual Clauses (controller-to-processor module). China has no European Commission adequacy decision — see Privacy Policy Section 6.4 for the full disclosure",
+            "Confirmed"
+          ],
+          [
+            "PostgreSQL database (NR-BOS)",
+            "Core relational data storage — users, companies, projects, tasks, cost entries, field reports, license records",
+            "Broad — effectively all NR-BOS operational data, including personal data of client company staff",
+            "Pending internal confirmation",
+            "Pending internal confirmation",
+            "Verification Required"
+          ],
+          [
+            "Object storage, S3-compatible (NR-BOS)",
+            "Worksite photograph storage and generated PDF client reports",
+            "Photograph files (may include camera-embedded EXIF such as GPS coordinates or a timestamp), PDF report documents",
+            "Pending internal confirmation",
+            "Pending internal confirmation",
+            "Verification Required"
+          ],
+          [
+            "Vercel Inc.",
+            "Hosting and delivery of the NR-BOS web application",
+            "Data sent to and from the NR-BOS web app while it is in use, and request logs (IP address, browser user agent, requested URLs)",
+            "Pending internal confirmation (Vercel region not yet confirmed)",
+            "Pending internal confirmation",
+            "Verification Required"
+          ],
+          [
+            "Google Ireland Limited (Google Cloud Functions — website forms)",
+            "Receiving submissions from the nordicriser.com contact form and the Global Reach “Notify Me” language form",
+            "Name, email address, business type, purpose, budget and timeline choices, message text, page language; for the Notify Me form, email address and requested language",
+            "United States: the functions run in us-central1 (confirmed from the site code). Where submissions are stored after receipt is not yet independently confirmed",
+            "Google Cloud’s Cloud Data Processing Addendum, incorporating the European Commission’s Standard Contractual Clauses",
+            "Partially Confirmed"
+          ]
         ]
       },
       "note": "Rows marked “Verification Required” are confirmed to exist and to receive the stated data category — we verified this directly against our own source code before publishing this table. What isn't yet finalised is the exact hosting vendor and region for these entries. We are listing them rather than omitting them because Article 13(1)(f) requires disclosing the transfers we make, not only the ones we've fully documented, and because leaving a known gap off this table would be less honest than flagging it plainly. We will update the Status column and the date above as soon as they're confirmed. The Google Cloud row is marked “Partially Confirmed”: Firestore's and Realtime Database's processing regions are now confirmed (see the Location column), but the Cloud Storage bucket region has not yet been independently verified. A previously-listed “Translation API provider (Global Reach)” row was removed: a review found Global Reach has no chat feature, so that row did not match what the product actually does, and the two Cloud Functions behind it (plus a third, unrelated one) have since been recovered from their deployed source and confirmed to be dead code that no live feature calls. The Google Cloud Platform row above has instead been expanded to cover our one confirmed use of a translation API: a “Translate” button on secure portal messages, which calls Google Cloud's Translation API — the same Google Cloud Platform sub-processor already listed, not a separate one. See Privacy Policy Section 6.5 for the full disclosure, including why that specific API cannot be pinned to the EU the way Firestore and Realtime Database are."
