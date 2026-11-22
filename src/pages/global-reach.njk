@@ -39,6 +39,8 @@ bodyClass: "has-gr-sticky"
     <p class="gr-trust-line">{{ p.hero.trustLine }}</p>
 
     <div class="gr-hero-visual">
+      {%- set illustrative = p.hero.visual.illustrativeLabel or p.hero.illustrativeLabel or locales.en.pages.globalReach.hero.visual.illustrativeLabel %}
+      <span class="gr-illustrative-label">{{ illustrative }}</span>
       <div class="gr-lang-badges" aria-hidden="true" data-gr-presence>
         {%- for participant in p.hero.visual.participants %}
         <span class="gr-lang-badge" data-gr-lang="{{ participant.lang }}">
@@ -154,7 +156,12 @@ bodyClass: "has-gr-sticky"
       <div class="gr-plan-card{% if plan.popular %} popular{% endif %}">
         {%- if plan.popular %}<span class="gr-plan-badge">★</span>{% endif %}
         <div class="gr-plan-name">{{ plan.name }}</div>
-        <div class="gr-plan-price">${{ plan.price }} <span>{{ plan.period }}</span></div>
+        {%- set price = facts.pricing.globalReach[plan.id] %}
+        {%- if (price.eur | filled) and (price.sek | filled) %}
+        <div class="gr-plan-price">{{ (t.common.priceFormat or locales.en.common.priceFormat) | replace('{eur}', price.eur) | replace('{sek}', price.sek) }} <span>{{ plan.period }}</span></div>
+        {%- else %}
+        <div class="gr-plan-price gr-plan-price--on-request">{{ t.common.pricingOnRequest or locales.en.common.pricingOnRequest }}</div>
+        {%- endif %}
         <ul class="gr-plan-features">
           {%- for f in plan.features %}<li>{{ f }}</li>{% endfor %}
         </ul>

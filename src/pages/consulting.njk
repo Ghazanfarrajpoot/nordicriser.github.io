@@ -149,6 +149,19 @@ pageSlug: consulting
   </div>
 </section>
 
+{%- set closing = p.closing or locales.en.pages.consulting.closing %}
+{%- if closing %}
+<section class="closing-section">
+  <div class="closing-inner" data-animate>
+    <span class="section-label">{{ closing.label }}</span>
+    <h2>{{ closing.title }}</h2>
+    {%- for para in closing.paragraphs %}
+    <p>{{ para }}</p>
+    {%- endfor %}
+  </div>
+</section>
+{%- endif %}
+
 <section class="cta-section">
   <div class="cta-box" data-animate>
     <h2>{{ p.cta.title }}</h2>

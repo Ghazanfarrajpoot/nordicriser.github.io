@@ -1,0 +1,84 @@
+{
+  "_comment": "Single source of truth for facts repeated across pages and languages. Templates read `facts.*` directly; translated strings use %%dotted.path%% tokens, which .eleventy.js replaces at build time (an unknown token fails the build). Values in [BRACKETS] are placeholders still to be filled.",
+  "company": {
+    "name": "Nordic Riser AB",
+    "orgNumber": "[ORG_NR]",
+    "vatNumber": "[VAT_NR]",
+    "address": "[STREET, POSTCODE STOCKHOLM]",
+    "phone": "[PHONE]",
+    "email": "info@nordicriser.com"
+  },
+  "urls": {
+    "booking": "[CALENDAR_LINK]",
+    "nrbosApp": "[https://app.nordicriser.com]",
+    "nrbosAppFallback": "https://nr-bos.vercel.app",
+    "_nrbosNote": "nrbosAppFallback (the current live NR-BOS app) is used only while nrbosApp is still a placeholder.",
+    "nrbosRegisterPath": "/register",
+    "memberPortal": "https://portal.nordicriser.com"
+  },
+  "languagesShipped": 11,
+  "products": {
+    "count": 7,
+    "items": [
+      {
+        "id": "nr-bos",
+        "name": "NR-BOS",
+        "image": "/assets/img/nr-bos/dashboard-overview.jpg"
+      },
+      {
+        "id": "global-reach",
+        "name": "Global Reach",
+        "image": "/assets/img/work/global-reach.jpg"
+      },
+      {
+        "id": "member-portal",
+        "name": "Nordic Riser Member Portal",
+        "image": "/assets/img/work/member-portal.jpg"
+      },
+      {
+        "id": "nordicriser-com",
+        "name": "nordicriser.com",
+        "image": "/assets/img/work/nordicriser-com.jpg"
+      },
+      {
+        "id": "4edoctor",
+        "name": "4eDoctor",
+        "image": "/assets/img/work/4edoctor.jpg"
+      },
+      {
+        "id": "4ezone-pharmacy",
+        "name": "4eZone Pharmacy",
+        "image": "/assets/img/work/4ezone-pharmacy.jpg"
+      },
+      {
+        "id": "delivery-app",
+        "name": null,
+        "_note": "No brand name yet; the translated title is used.",
+        "image": "/assets/img/work/delivery-app.jpg"
+      }
+    ],
+    "_imageNote": "Work page cards show `image` only if the file exists under src/. Supply 1600x900 JPGs at src/assets/img/work/<id>.jpg."
+  },
+  "pricing": {
+    "currency": "EUR",
+    "secondaryCurrency": "SEK",
+    "globalReach": {
+      "basic": {
+        "eur": "[EUR_BASIC]",
+        "sek": "[SEK_BASIC]"
+      },
+      "pro": {
+        "eur": "[EUR_PRO]",
+        "sek": "[SEK_PRO]"
+      }
+    }
+  },
+  "founder": {
+    "name": "Ghazanfar Bashir Rajpoot",
+    "photo": "[FOUNDER_PHOTO]",
+    "_photoNote": "Set to a site path such as /assets/img/founder.jpg once the file exists in src/; until then the About page shows a monogram.",
+    "bio": "[FOUNDER_BIO]",
+    "_bioNote": "Three lines, English. Add a translated bio per language as pages.about.founder.bio in each locale file; the page uses it when present.",
+    "linkedin": "[LINKEDIN_URL]"
+  }
+}

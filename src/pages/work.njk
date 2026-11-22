@@ -34,12 +34,18 @@ pageSlug: work
   <div class="section-inner" data-animate>
     <div class="case-study-list">
       {%- for cs in p.caseStudies %}
-      <div class="case-study-card{% if cs.featured %} case-study-card--featured{% endif %}">
+      <div class="case-study-card{% if cs.featured %} case-study-card--featured{% endif %}"{% if cs.id %} id="{{ cs.id }}"{% endif %}>
         {%- if cs.featured %}<span class="case-study-badge">{{ cs.featuredLabel }}</span>{%- endif %}
         <div class="case-study-card__band">
           <span class="case-study-type">{{ cs.type }}</span>
           <h2>{{ cs.title }}</h2>
         </div>
+        {%- set product = cs.id | productById %}
+        {%- if product and (product.image | siteFileExists) %}
+        <figure class="case-study-media">
+          <img src="{{ product.image }}" alt="{{ cs.title | facts }} — {{ t.common.screenshot }}" loading="lazy" decoding="async">
+        </figure>
+        {%- endif %}
         <div class="case-study-card__body">
           <div class="case-study-meta">
             <div class="case-study-row">
@@ -58,7 +64,7 @@ pageSlug: work
             </div>
             <div class="case-study-row">
               <span class="case-study-row-label">{{ cs.resultLabel }}</span>
-              <p>{{ cs.result }}</p>
+              <p>{{ cs.resultNoAmount if (cs.resultNoAmount and not (facts.pricing.globalReach.basic.eur | filled)) else cs.result }}</p>
             </div>
           </div>
           {%- if cs.link %}

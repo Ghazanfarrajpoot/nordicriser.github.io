@@ -10,13 +10,26 @@
     "requestQuote": "Request a Quote",
     "signUp": "Sign Up",
     "builtWith": "Built with:",
+    "screenshot": "screenshot",
     "startProject": "Start a Project",
     "emailLabel": "Email",
     "websiteLabel": "Website",
     "home": "Home",
     "pricingOnRequest": "Pricing on request",
+    "priceFormat": "€{eur} ({sek} SEK)",
     "legalPendingTranslationPrefix": "This document is not yet available in ",
-    "legalPendingTranslationSuffix": ". The English text below is authoritative while a professional legal translation is prepared. Contact us with questions."
+    "legalPendingTranslationSuffix": ". The English text below is authoritative while a professional legal translation is prepared. Contact us with questions.",
+    "company": {
+      "orgNr": "Org. no.",
+      "vat": "VAT no.",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "registration": "Registration",
+      "country": "Sweden",
+      "cityCountry": "Stockholm, Sweden",
+      "termsIntro": "These Terms are an agreement between you and:"
+    }
   },
   "nav": {
     "home": "Home",
@@ -33,8 +46,6 @@
   "footer": {
     "brandBlurb": "Nordic Riser AB is a Stockholm-based software studio building multilingual web platforms, secure client portals, and cross-border products for businesses that operate in more than one language.",
     "addressHeading": "Registered Office",
-    "orgNrLabel": "Org. Nr.",
-    "orgNrValue": "[ORG_NR]",
     "firmHeading": "Firm",
     "complianceHeading": "Compliance",
     "disclaimerHeading": "Disclaimer",
@@ -50,9 +61,11 @@
       ],
       "itServicesHeading": "Services",
       "itServicesLinks": [
-        { "label": "Web Platforms & Portals" },
-        { "label": "Automation & Integrations" },
-        { "label": "Ongoing Support" },
+        { "label": "Multilingual Web Platforms", "anchor": "web-platforms" },
+        { "label": "Secure Client Portals", "anchor": "portals" },
+        { "label": "Custom Products & SaaS", "anchor": "products" },
+        { "label": "Automation & Integrations", "anchor": "automation" },
+        { "label": "Ongoing Support", "anchor": "support" },
         { "label": "Request a Quote", "target": "contact" }
       ],
       "globalReachHeading": "Global Reach",
@@ -343,8 +356,8 @@
       },
       "proofBar": {
         "stats": [
-          { "value": "11", "label": "Languages Shipped in Production" },
-          { "value": "5", "label": "Products Built In-House" },
+          { "value": "%%languagesShipped%%", "label": "Languages Shipped in Production" },
+          { "value": "%%products.count%%", "label": "Products Built In-House" },
           { "value": "Stockholm, Sweden", "label": "Based In" },
           { "value": "Design → Build → Support", "label": "Approach" }
         ]
@@ -354,7 +367,7 @@
         "title": "Four Things We Do Well",
         "cards": [
           { "icon": "globe", "title": "Multilingual Web Platforms", "body": "Production websites built to work in every market you serve. Proper hreflang, RTL support, localised content structure — not machine-translated afterthoughts.", "builtWith": "Static site generation, CDN delivery, sub-second load times" },
-          { "icon": "lock", "title": "Secure Client Portals", "body": "Authenticated portals for document exchange, case tracking, and client communication. Role-based access, encrypted storage, audit trails.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
+          { "icon": "lock", "title": "Secure Client Portals", "body": "Authenticated portals for document exchange, case tracking, and client communication. Role-based access, server-enforced data rules, private file storage, and activity logging in the Member Portal.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
           { "icon": "code", "title": "Custom Products & SaaS", "body": "Full product development, from concept to launch. Real-time features, subscription billing, admin tooling.", "seeLabel": "See:", "seeText": "Global Reach — our own live study & work rooms platform", "seeLink": "global-reach" },
           { "icon": "gear", "title": "Automation & Integrations", "body": "Connect the tools you already use. Eliminate manual re-entry. Automate the workflows that eat your team's week.", "builtWith": "APIs, webhooks, serverless functions" }
         ]
@@ -363,13 +376,13 @@
         "label": "Selected Work",
         "title": "What We've Built",
         "items": [
-          { "type": "SaaS Product (In-House)", "title": "NR-BOS", "featured": true, "featuredLabel": "Flagship Product", "oneLiner": "Project delivery, field operations, and client reporting — run from one platform, built and licensed by Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS Product (In-House)", "title": "Global Reach", "oneLiner": "Live study and work rooms with real-time presence and shared session notes, billed by the minute.", "link": "global-reach" },
-          { "type": "Secure Client Portal (In-House)", "title": "Nordic Riser Member Portal", "oneLiner": "An authenticated portal for document exchange, case tracking, secure messaging, and payments.", "link": "work", "linkLabel": "See in our work →" },
-          { "type": "Multilingual Marketing Platform (In-House)", "title": "nordicriser.com", "oneLiner": "An eleven-language production site with RTL support, full meta coverage, and clean per-language URLs.", "link": "work", "linkLabel": "See in our work →" },
-          { "type": "Healthcare App", "title": "Telemedicine App", "oneLiner": "A telemedicine platform we built end-to-end — HD video consultations, appointment booking, and in-call chat — ready to customize for any healthcare brand.", "link": "work", "linkLabel": "See in our work →" },
-          { "type": "Pharmacy Fulfillment App", "title": "Pharmacy Platform", "oneLiner": "A pharmacy fulfillment system we built linking prescriptions to processing and delivery, ready to customize for any operator.", "link": "work", "linkLabel": "See in our work →" },
-          { "type": "Delivery App (In-House)", "title": "On-Demand Delivery App", "oneLiner": "A customizable delivery platform covering ordering, dispatch, and rider tracking for any business.", "link": "work", "linkLabel": "See in our work →" }
+          { "type": "SaaS Product (In-House)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Flagship Product", "oneLiner": "Project delivery, field operations, and client reporting — run from one platform, built and licensed by Nordic Riser AB.", "link": "work/nr-bos" },
+          { "type": "SaaS Product (In-House)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live study and work rooms with real-time presence and shared session notes, on monthly plans with a session-minute allowance — top up anytime.", "link": "global-reach" },
+          { "type": "Secure Client Portal (In-House)", "id": "member-portal", "title": "Nordic Riser Member Portal", "oneLiner": "An authenticated portal for document exchange, case tracking, secure messaging, and payments.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Multilingual Marketing Platform (In-House)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "An eleven-language production site with RTL support, full meta coverage, and clean per-language URLs.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Healthcare App (In-House)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "A telemedicine platform we built end-to-end — HD video consultations, appointment booking, and in-call chat — ready to customize for any healthcare brand.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Pharmacy Fulfillment Platform (In-House)", "id": "4ezone-pharmacy", "title": "%%products.items.5.name%%", "oneLiner": "A pharmacy fulfillment system we built linking prescriptions to processing and delivery, ready to customize for any operator.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Delivery App (In-House)", "id": "delivery-app", "title": "On-Demand Delivery App", "oneLiner": "A customizable delivery platform covering ordering, dispatch, and rider tracking for any business.", "link": "work", "linkLabel": "See in our work →" }
         ],
         "cta": "See All Work",
         "ctaLink": "/work/"
@@ -381,9 +394,11 @@
         "bullets": [
           "Shared session notes for live collaboration",
           "Real-time presence — see who's in the room",
-          "Plans from $29/month, billed by the minute"
+          "Monthly plans from €%%pricing.globalReach.basic.eur%% (%%pricing.globalReach.basic.sek%% SEK) with a session-minute allowance — top up anytime"
         ],
-        "cta": "Get Started"
+        "cta": "Get Started",
+        "priceBulletIndex": 2,
+        "priceBulletNoAmount": "Monthly plans with a session-minute allowance — top up anytime"
       },
       "howWeWork": {
         "label": "Process",
@@ -406,7 +421,7 @@
               { "category": "Frontend", "items": "React, Vite, modern CSS" },
               { "category": "Backend & Data", "items": "Node.js, Firebase, Firestore" },
               { "category": "Infrastructure", "items": "Firebase Hosting, CDN delivery, automated SSL" },
-              { "category": "Auth & Security", "items": "Firebase Authentication, role-based access control, encrypted storage" }
+              { "category": "Auth & Security", "items": "Firebase Authentication, role-based access control, server-enforced data rules" }
             ]
           },
           {
@@ -419,7 +434,7 @@
             ]
           }
         ],
-        "practices": { "category": "Practices", "items": "Git version control, staged deployments, GDPR-compliant data handling" }
+        "practices": { "category": "Practices", "items": "Git version control, staged deployments, data handling built with GDPR in mind" }
       },
       "whyUs": {
         "label": "Why Nordic Riser",
@@ -473,6 +488,7 @@
           "link": "consulting"
         }
       },
+      "founder": { "label": "The Founder", "role": "Founder & CEO", "linkedinLabel": "LinkedIn profile" },
       "whyWeExist": {
         "label": "Where We Started — Our Consulting Practice",
         "title": "Built to Address a Genuine Gap in International Advisory",
@@ -585,13 +601,14 @@
         "errorText": "Something went wrong. Please try again or email us directly.",
         "submit": "Submit Consultation Request →"
       },
-      "success": { "title": "Request Received", "body": "Thank you for submitting your consultation request. A member of our advisory team will review your information and respond within 1–2 business days." },
+      "booking": {
+        "heading": "Prefer to talk first?",
+        "body": "Pick a time that suits you for a short introductory call.",
+        "button": "Book a 20-minute call"
+      },
+      "success": { "title": "Request Received", "body": "Thank you for your request. We will review your information and respond within 1–2 business days." },
       "sidebar": {
         "directContactHeading": "Direct Contact",
-        "phoneLabel": "Phone",
-        "phoneValue": "[PHONE_NUMBER]",
-        "addressLabel": "Address",
-        "addressValue": "[STREET_ADDRESS], Stockholm, Sweden",
         "hoursLabel": "Office Hours",
         "hoursValue": "Monday – Friday, 09:00 – 17:00 CET",
         "nextHeading": "What Happens Next",
@@ -603,21 +620,25 @@
         ],
         "noteHeading": "Please Note",
         "noteBody": "We review all submissions before confirming consultations. We work with clients whose situations are suited to our services — if yours is not, we will advise accordingly and where possible suggest a more appropriate resource."
-      },
-      "closing": {
-        "label": "Why a Structured Consultation",
-        "title": "We Do Not Offer Generic Advice",
-        "paragraphs": [
-          "Every consultation at Nordic Riser AB begins with a thorough assessment of your specific situation. We do not provide template answers or off-the-shelf guidance. Before any strategic recommendation is made, we take the time to understand your professional background, your business model, and your long-term objectives.",
-          "If you are serious about building a legally structured business presence in Europe and are prepared to engage with the process professionally, we welcome your inquiry. Our consultations are a working session — not a sales call."
-        ]
       }
     },
     "privacy": {
       "hero": { "label": "Legal", "h1": "Privacy Policy", "body": "How Nordic Riser AB collects, uses, and protects your personal information in accordance with the EU General Data Protection Regulation (GDPR)." },
       "breadcrumb": "Privacy Policy",
       "updatedBadge": "Last Updated: 11 November 2026",
-      "whatChanged": "What changed in this update: this policy previously covered our consulting business only. It now also covers the Member Portal, NR-BOS, and Global Reach. We added a Controller vs. Processor section, a full named Sub-processor list, an explicit disclosure of the AI provider used in NR-BOS, and split the Cookies section between the marketing site and our authenticated products. A Terms of Service and a Data Processing Agreement are published alongside this policy for the first time — see the Legal index. We also corrected Section 4.5: Global Reach does not have a chat feature, so the data it processes is session and usage data, not chat messages — see the Sub-processors page for a related correction. We then updated Section 6.4: NR-BOS now pseudonymizes team member names before sending project data to our AI provider, so the AI sees a generic label instead of a real name. Most recently, we added Section 6.5: the secure portal messaging's \"Translate\" button sends message text to Google Cloud's Translation API, which was not previously disclosed — see the Sub-processors page for the corresponding entry.",
+      "whatChangedSummary": "What changed in this update: we added Section 6.5, which discloses that the Member Portal’s “Translate” button sends message text to Google Cloud’s Translation API. Earlier changes are listed in the Change history at the end of this page.",
+      "changeHistory": {
+        "title": "Change history",
+        "items": [
+          "Scope widened: this policy previously covered our consulting business only. It now also covers the Member Portal, NR-BOS and Global Reach.",
+          "Added a Controller vs. Processor section, a full named Sub-processor list, and an explicit disclosure of the AI provider used in NR-BOS.",
+          "Split the Cookies section between the marketing site and our authenticated products.",
+          "Published a Terms of Service and a Data Processing Agreement alongside this policy for the first time (see the Legal index).",
+          "Corrected Section 4.5: Global Reach does not have a chat feature, so the data it processes is session and usage data, not chat messages (see the Sub-processors page for a related correction).",
+          "Updated Section 6.4: NR-BOS now pseudonymizes team member names before sending project data to our AI provider, so the AI sees a generic label instead of a real name.",
+          "Added Section 6.5: the secure portal messaging’s “Translate” button sends message text to Google Cloud’s Translation API, which was not previously disclosed (see the Sub-processors page for the corresponding entry)."
+        ]
+      },
       "translationNotice": "This page has been machine-translated. In case of any discrepancy, the English version is authoritative. Contact us with questions.",
       "tocLabel": "Contents",
       "toc": [
@@ -784,10 +805,54 @@
       "table": {
         "headers": ["Sub-processor", "Purpose", "Data Categories", "Location", "Transfer Mechanism", "Status"],
         "rows": [
-          ["Google Ireland Limited (Firebase / Google Cloud Platform)", "Authentication, database, file storage, and hosting for the Member Portal (portal.nordicriser.com) and Global Reach (live study/work rooms); on-demand translation of secure messages (Cloud Translation API — see Privacy Policy Section 6.5)", "Account credentials, profile data, uploaded document contents, secure message content including translated text, case and payment records; Global Reach room/session data and shared notes", "Google Cloud: Firestore in europe-north2, Realtime Database in europe-west1 (confirmed); Cloud Storage bucket region not yet independently confirmed. The Cloud Translation API is not region-pinned and may process data in any Google Cloud location worldwide", "Google Cloud's Cloud Data Processing Addendum, incorporating the European Commission's Standard Contractual Clauses", "Partially Confirmed"],
-          ["DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.)", "AI-generated risk, cost, and productivity analysis in NR-BOS (optional feature)", "Project and company names, budget figures, task details, cost entries, and generic per-project labels for team members (real names are pseudonymized before transmission)", "China", "Standard Contractual Clauses (controller-to-processor module). China has no European Commission adequacy decision — see Privacy Policy Section 6.4 for the full disclosure", "Confirmed"],
-          ["PostgreSQL database (NR-BOS)", "Core relational data storage — users, companies, projects, tasks, cost entries, field reports, license records", "Broad — effectively all NR-BOS operational data, including personal data of client company staff", "Pending internal confirmation", "Pending internal confirmation", "Verification Required"],
-          ["Object storage, S3-compatible (NR-BOS)", "Worksite photograph storage and generated PDF client reports", "Photograph files (may include camera-embedded EXIF such as GPS coordinates or a timestamp), PDF report documents", "Pending internal confirmation", "Pending internal confirmation", "Verification Required"]
+          [
+            "Google Ireland Limited (Firebase / Google Cloud Platform)",
+            "Authentication, database, file storage, and hosting for the Member Portal (portal.nordicriser.com) and Global Reach (live study/work rooms); on-demand translation of secure messages (Cloud Translation API — see Privacy Policy Section 6.5)",
+            "Account credentials, profile data, uploaded document contents, secure message content including translated text, case and payment records; Global Reach room/session data and shared notes",
+            "Google Cloud: Firestore in europe-north2, Realtime Database in europe-west1 (confirmed); Cloud Storage bucket region not yet independently confirmed. The Cloud Translation API is not region-pinned and may process data in any Google Cloud location worldwide",
+            "Google Cloud's Cloud Data Processing Addendum, incorporating the European Commission's Standard Contractual Clauses",
+            "Partially Confirmed"
+          ],
+          [
+            "DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.)",
+            "AI-generated risk, cost, and productivity analysis in NR-BOS (optional feature)",
+            "Project and company names, budget figures, task details, cost entries, and generic per-project labels for team members (real names are pseudonymized before transmission)",
+            "China",
+            "Standard Contractual Clauses (controller-to-processor module). China has no European Commission adequacy decision — see Privacy Policy Section 6.4 for the full disclosure",
+            "Confirmed"
+          ],
+          [
+            "PostgreSQL database (NR-BOS)",
+            "Core relational data storage — users, companies, projects, tasks, cost entries, field reports, license records",
+            "Broad — effectively all NR-BOS operational data, including personal data of client company staff",
+            "Pending internal confirmation",
+            "Pending internal confirmation",
+            "Verification Required"
+          ],
+          [
+            "Object storage, S3-compatible (NR-BOS)",
+            "Worksite photograph storage and generated PDF client reports",
+            "Photograph files (may include camera-embedded EXIF such as GPS coordinates or a timestamp), PDF report documents",
+            "Pending internal confirmation",
+            "Pending internal confirmation",
+            "Verification Required"
+          ],
+          [
+            "Vercel Inc.",
+            "Hosting and delivery of the NR-BOS web application",
+            "Data sent to and from the NR-BOS web app while it is in use, and request logs (IP address, browser user agent, requested URLs)",
+            "Pending internal confirmation (Vercel region not yet confirmed)",
+            "Pending internal confirmation",
+            "Verification Required"
+          ],
+          [
+            "Google Ireland Limited (Google Cloud Functions — website forms)",
+            "Receiving submissions from the nordicriser.com contact form and the Global Reach “Notify Me” language form",
+            "Name, email address, business type, purpose, budget and timeline choices, message text, page language; for the Notify Me form, email address and requested language",
+            "United States: the functions run in us-central1 (confirmed from the site code). Where submissions are stored after receipt is not yet independently confirmed",
+            "Google Cloud’s Cloud Data Processing Addendum, incorporating the European Commission’s Standard Contractual Clauses",
+            "Partially Confirmed"
+          ]
         ]
       },
       "note": "Rows marked “Verification Required” are confirmed to exist and to receive the stated data category — we verified this directly against our own source code before publishing this table. What isn't yet finalised is the exact hosting vendor and region for these entries. We are listing them rather than omitting them because Article 13(1)(f) requires disclosing the transfers we make, not only the ones we've fully documented, and because leaving a known gap off this table would be less honest than flagging it plainly. We will update the Status column and the date above as soon as they're confirmed. The Google Cloud row is marked “Partially Confirmed”: Firestore's and Realtime Database's processing regions are now confirmed (see the Location column), but the Cloud Storage bucket region has not yet been independently verified. A previously-listed “Translation API provider (Global Reach)” row was removed: a review found Global Reach has no chat feature, so that row did not match what the product actually does, and the two Cloud Functions behind it (plus a third, unrelated one) have since been recovered from their deployed source and confirmed to be dead code that no live feature calls. The Google Cloud Platform row above has instead been expanded to cover our one confirmed use of a translation API: a “Translate” button on secure portal messages, which calls Google Cloud's Translation API — the same Google Cloud Platform sub-processor already listed, not a separate one. See Privacy Policy Section 6.5 for the full disclosure, including why that specific API cannot be pinned to the EU the way Firestore and Realtime Database are."
@@ -1143,6 +1208,14 @@
           "Where legal, tax, or regulatory specialist input is required — as it often is in relocation and cross-border matters — we coordinate engagement with qualified professionals, who carry out that work within their own licensed capacity."
         ]
       },
+      "closing": {
+        "label": "Why a Structured Consultation",
+        "title": "We Do Not Offer Generic Advice",
+        "paragraphs": [
+          "Every consultation at Nordic Riser AB begins with a thorough assessment of your specific situation. We do not provide template answers or off-the-shelf guidance. Before any strategic recommendation is made, we take the time to understand your professional background, your business model, and your long-term objectives.",
+          "If you are serious about building a legally structured business presence in Europe and are prepared to engage with the process professionally, we welcome your inquiry. Our consultations are a working session — not a sales call."
+        ]
+      },
       "cta": { "title": "Discuss Your Requirements", "body": "If you are planning to establish a business presence in Europe, we invite you to arrange a consultation. We will assess your situation and provide a clear, structured view of the pathway and services relevant to your objectives." }
     },
     "itServices": {
@@ -1156,12 +1229,75 @@
       "offeringsTitle": "Five Core Offerings",
       "offeringsSub": "From a first business website to the systems that run daily operations, we build technology that matches the scale and stage of your business.",
       "offerings": [
-        { "icon": "globe", "title": "Web Platforms & Business Websites", "body": "Professionally designed, multilingual-ready websites that give your business a credible, structured presence online from day one." },
-        { "icon": "lock", "title": "Client & Business Portals", "body": "Secure member and client portals for managing documents, communication, and case or project status in one place." },
-        { "icon": "code", "title": "Custom Products & SaaS Development", "body": "Full product builds from concept to launch — subscription billing, admin tooling, and real-time features for a product line of your own." },
-        { "icon": "gear", "title": "Workflow Automation & Integrations", "body": "Automation of repetitive operational work and integration between the tools your business already uses." },
-        { "icon": "wrench", "title": "Ongoing Maintenance & Support", "body": "Continued technical support, updates, and monitoring after launch, so your platform stays reliable as your business grows." }
+        {
+          "id": "web-platforms",
+          "icon": "globe",
+          "title": "Multilingual Web Platforms",
+          "body": "Production websites built for every market you serve, with proper language versions, right-to-left support where needed, and fast loading worldwide.",
+          "included": [
+            "Per-language URLs and hreflang for search engines",
+            "Right-to-left layouts for Arabic, Urdu and similar languages",
+            "Structured content that is straightforward to update and extend",
+            "Meta tags and social sharing previews in every language"
+          ],
+          "stack": "Eleventy or Next.js, CDN hosting, Git-based publishing"
+        },
+        {
+          "id": "portals",
+          "icon": "lock",
+          "title": "Secure Client Portals",
+          "body": "Signed-in portals where clients exchange documents, follow their case or project, and message your team, in one place instead of email threads.",
+          "included": [
+            "Role-based access for clients, staff and administrators",
+            "Server-enforced data rules, so each user sees only their own records",
+            "Private file storage for documents and uploads",
+            "Activity logging in the Member Portal"
+          ],
+          "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
+        },
+        {
+          "id": "products",
+          "icon": "code",
+          "title": "Custom Products & SaaS",
+          "body": "Full product development from concept to launch, for a product line of your own.",
+          "included": [
+            "Product scoping and a phased build plan",
+            "Subscription plans and billing",
+            "Admin dashboards and internal tooling",
+            "Real-time features such as live presence"
+          ],
+          "stack": "React, Next.js, NestJS, PostgreSQL, Firebase"
+        },
+        {
+          "id": "automation",
+          "icon": "gear",
+          "title": "Automation & Integrations",
+          "body": "Connect the tools you already use and remove manual re-entry from the workflows that take up your team’s week.",
+          "included": [
+            "Integrations between your website, CRM, accounting and email tools",
+            "Automated notifications, reports and data syncs",
+            "Webhooks and scheduled jobs",
+            "Clear documentation of every automated step"
+          ],
+          "stack": "REST APIs, webhooks, serverless functions, scheduled jobs"
+        },
+        {
+          "id": "support",
+          "icon": "wrench",
+          "title": "Ongoing Support",
+          "body": "Technical support, updates and monitoring after launch, so your platform stays reliable as your business grows.",
+          "included": [
+            "Security and dependency updates",
+            "Monitoring and troubleshooting",
+            "Bug fixes and small improvements",
+            "Hosting and domain management"
+          ],
+          "stack": "Monitoring, error tracking, managed hosting (Vercel, Firebase, GitHub Pages)"
+        }
       ],
+      "offeringCta": "Discuss this service",
+      "stackLabel": "Typical stack",
+      "includedLabel": "What’s included",
       "howWeWorkLabel": "How We Work",
       "howWeWorkTitle": "A Structured Path from Idea to Launch",
       "howWeWorkSub": "The same discipline we apply to consulting engagements carries over to how we plan and build technology.",
@@ -1199,7 +1335,8 @@
       "caseStudies": [
         {
           "type": "SaaS Product (In-House)",
-          "title": "NR-BOS",
+          "id": "nr-bos",
+          "title": "%%products.items.0.name%%",
           "featured": true,
           "featuredLabel": "Flagship Product",
           "challengeLabel": "Challenge",
@@ -1215,20 +1352,23 @@
         },
         {
           "type": "SaaS Product (In-House)",
-          "title": "Global Reach",
+          "id": "global-reach",
+          "title": "%%products.items.1.name%%",
           "challengeLabel": "Challenge",
           "challenge": "Teams working across borders need a shared space to study or work together live, without booking a call or juggling separate tools.",
           "buildLabel": "Build",
-          "build": "Open study and work rooms with live presence and shared session notes, billed by the minute.",
+          "build": "Live study and work rooms with real-time presence and shared session notes, on monthly plans with a session-minute allowance — top up anytime.",
           "stackLabel": "Stack",
           "stack": ["React", "Firebase Realtime Database", "Subscription billing"],
           "resultLabel": "Result",
-          "result": "Live product with paid plans starting at $29/month.",
+          "result": "Live product with monthly plans from €%%pricing.globalReach.basic.eur%% (%%pricing.globalReach.basic.sek%% SEK).",
+          "resultNoAmount": "Live product with monthly plans.",
           "link": "global-reach",
           "linkLabel": "View the Product"
         },
         {
           "type": "Secure Client Portal (In-House)",
+          "id": "member-portal",
           "title": "Nordic Riser Member Portal",
           "challengeLabel": "Challenge",
           "challenge": "Advisory clients needed a single place for documents, case status, and communication — with strict access control.",
@@ -1241,19 +1381,21 @@
         },
         {
           "type": "Multilingual Marketing Platform (In-House)",
-          "title": "nordicriser.com",
+          "id": "nordicriser-com",
+          "title": "%%products.items.3.name%%",
           "challengeLabel": "Challenge",
           "challenge": "Reach entrepreneurs across Europe, the Middle East, and South Asia in their own languages.",
           "buildLabel": "Build",
-          "build": "Eleven-language production site with per-language URL structure, RTL support for Arabic and Urdu, full meta and Open Graph coverage, and a GDPR-compliant privacy framework.",
+          "build": "Eleven-language production site with per-language URL structure, RTL support for Arabic and Urdu, full meta and Open Graph coverage, and a privacy framework built with GDPR in mind.",
           "stackLabel": "Stack",
           "stack": ["Static generation", "CDN", "Structured i18n routing"],
           "resultLabel": "Result",
           "result": "Every page available in 11 languages with clean, indexable URLs."
         },
         {
-          "type": "Healthcare App",
-          "title": "Telemedicine App",
+          "type": "Healthcare App (In-House)",
+          "id": "4edoctor",
+          "title": "%%products.items.4.name%%",
           "challengeLabel": "Challenge",
           "challenge": "Patients needed access to medical consultations — with doctors, psychologists, and nurses — without the wait times and friction of in-person visits.",
           "buildLabel": "Build",
@@ -1264,8 +1406,9 @@
           "result": "A working telemedicine platform, built end-to-end by us and ready to customize for any healthcare brand."
         },
         {
-          "type": "Pharmacy Fulfillment App",
-          "title": "Pharmacy Platform",
+          "type": "Pharmacy Fulfillment Platform (In-House)",
+          "id": "4ezone-pharmacy",
+          "title": "%%products.items.5.name%%",
           "challengeLabel": "Challenge",
           "challenge": "Patients with a doctor's prescription had no fast way to get their medicine fulfilled and delivered.",
           "buildLabel": "Build",
@@ -1277,6 +1420,7 @@
         },
         {
           "type": "Delivery App (In-House)",
+          "id": "delivery-app",
           "title": "On-Demand Delivery App",
           "challengeLabel": "Challenge",
           "challenge": "Businesses across different industries needed on-demand delivery — ordering, dispatch, and real-time tracking — without building logistics infrastructure from scratch.",
@@ -1288,7 +1432,7 @@
           "result": "A reusable delivery platform ready to be customized and deployed for client businesses."
         }
       ],
-      "note": "These are systems we've designed and built end-to-end — some running today as our own products, others built for clients to operate under their own brand.",
+      "note": "%%products.count%% platforms we built, run, and can adapt for your business.",
       "cta": { "title": "Have a Project in Mind?", "body": "Tell us what you're building. We'll come back with a clear scope, a realistic timeline, and a fixed price.", "cta": "Start a Project" }
     },
     "nrBos": {
@@ -1304,15 +1448,6 @@
       },
       "breadcrumb": "NR-BOS",
       "backLink": "Back to Work",
-      "tour": [
-        {"eyebrow":"Overview","title":"A live read on every project","body":"Portfolio-wide KPIs, budget vs. actual spend, and team workload — the first thing anyone opens each morning.","shots":[{"file":"dashboard-overview.jpg","caption":"Dashboard — portfolio KPIs and budget vs. actual"},{"file":"dashboard-team-workload.jpg","caption":"Dashboard — team workload by status"}]},
-        {"eyebrow":"Projects","title":"Every job, tracked to the task","body":"Projects carry their own budget, client, and team. Work inside each one runs on a four-column board — to do, in progress, review, done.","shots":[{"file":"projects-list.jpg","caption":"Projects — portfolio at a glance"},{"file":"project-kanban.jpg","caption":"Project detail — task board"}]},
-        {"eyebrow":"Time Tracking","title":"Hours captured once, trusted everywhere","body":"A field worker starts and pauses a timer from their phone on site; back office corrects or fills in gaps on a weekly grid. Every entry moves through submitted, approved, or rejected before it feeds anything downstream."},
-        {"eyebrow":"Budget","title":"Spend tracked against budget, by category","body":"Every cost entry — materials, labor, subcontractors, permits — rolls up against the project budget in real time. Labor cost itself is derived from approved time entries against each employee's pay rate at the time the work was done, not keyed in by hand — and because rates are historised, a pay rise next quarter never silently rewrites what a job cost last quarter. Most tools overwrite the rate in place and quietly corrupt last quarter's numbers; this one doesn't.","shots":[{"file":"project-costs.jpg","caption":"Project detail — cost ledger"}]},
-        {"eyebrow":"Field Work","title":"What happened on site, with proof","body":"Field crews log progress notes and photos straight from the site — including paired before/after shots for work that's easy to describe but hard to picture.","shots":[{"file":"field-report-notes.jpg","caption":"Field reports — site notes and photos"},{"file":"field-report-before-after.jpg","caption":"Field report — before / after"}]},
-        {"eyebrow":"Client Reports","title":"A branded PDF, generated in one click","body":"Pull a project's tasks, costs, and recent field photos into a client-ready PDF report — draft first, then mark as sent when it's ready to go out.","shots":[{"file":"client-report-generate.jpg","caption":"Generating a client report"},{"file":"client-report-pdf.jpg","caption":"Generated client report PDF"}]},
-        {"eyebrow":"Team & Licensing","title":"Role-based access, licensed by code","body":"Admins, project managers, field workers, and clients each see only what's theirs. Access itself runs on redeemable subscription codes, issued in batches — no payment processor required.","shots":[{"file":"team-users.jpg","caption":"Users — company roster and roles"},{"file":"subscription-plan.jpg","caption":"Subscription — active plan"},{"file":"license-batches.jpg","caption":"License batches — redemption codes"}]}
-      ],
       "workflow": {
         "label": "How It Actually Runs",
         "title": "From Plan to Client Report — One Connected Flow",
@@ -1433,11 +1568,12 @@
         "body": "Join live study and work rooms with real-time presence and shared session notes — built for people collaborating across time zones and languages.",
         "ctaPrimary": "Get Started",
         "ctaSecondary": "See How It Works",
-        "trustLine": "No credit card required · Cancel anytime · GDPR-compliant",
+        "trustLine": "No credit card required · Cancel anytime · Built with GDPR in mind",
         "earlyAccessBadge": "Now in Early Access",
         "mockCaption": "Try it — type a note and watch presence update",
         "visual": {
           "notesLabel": "Shared Session Notes",
+          "illustrativeLabel": "Illustrative preview",
           "demoPlaceholder": "Try typing a note here…",
           "demoAriaLabel": "Try the shared notes panel (demo only — not saved)",
           "participants": [
@@ -1491,10 +1627,10 @@
       "plansTitle": "Simple Plans, Straightforward Pricing",
       "plansSub": "Every plan includes full access to rooms and shared notes — plans differ in monthly session-minute allowance.",
       "plans": [
-        { "name": "Basic", "price": "29", "period": "/ month", "features": ["2 hours of live sessions / month", "Full access to rooms & shared notes", "Unlimited saved session notes"], "popular": false },
-        { "name": "Pro", "price": "79", "period": "/ month", "features": ["10 hours of live sessions / month", "Priority support", "All Basic features"], "popular": true }
+        { "name": "Basic", "id": "basic", "period": "/ month", "features": ["2 hours of live sessions / month", "Full access to rooms & shared notes", "Unlimited saved session notes"], "popular": false },
+        { "name": "Pro", "id": "pro", "period": "/ month", "features": ["10 hours of live sessions / month", "Priority support", "All Basic features"], "popular": true }
       ],
-      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "_syncNote": "Plan names and session-minute allowances mirror nordic-riser-portal DEFAULT_PLANS (2026-09-09); there is no free tier. Prices are NOT here: they come from src/_data/facts.json (pricing.globalReach), formatted per language by common.priceFormat.",
       "limitNote": "Need more session minutes than your plan includes? You can top up anytime from your account.",
       "faqLabel": "Frequently Asked Questions",
       "faqTitle": "Common Questions",
@@ -1503,11 +1639,11 @@
         { "q": "What happens when I use up my monthly minutes?", "a": "Your rooms and shared notes stay fully accessible. Starting a new timed session requires topping up or waiting for your next billing cycle." },
         { "q": "What happens to top-up minutes I don't use?", "a": "Top-up minutes never expire while your subscription stays active — they carry over to your next billing cycle until you use them." },
         { "q": "Which languages are supported?", "a": "Full interface support for English, Swedish, German, French, Spanish, Italian, Polish, Dutch, Portuguese, Urdu, and Arabic." },
-        { "q": "Is my data private?", "a": "Yes — your session data is handled under our GDPR-compliant Privacy Policy, which covers exactly what we collect and why." }
+        { "q": "Is my data private?", "a": "Yes — your session data is handled under our Privacy Policy, written with GDPR in mind, which covers exactly what we collect and why." }
       ],
       "emailCapture": { "title": "Not Ready Yet?", "body": "Get notified about new Global Reach features.", "placeholder": "Your email address", "consent": "I agree to be contacted about Global Reach and accept the", "privacyLinkLabel": "Privacy Policy", "successText": "Thanks - we'll email you when your language is ready.", "errorText": "Something went wrong. Please try again.", "button": "Notify Me" },
       "stickyBar": { "text": "Ready to start collaborating?", "cta": "Get Started" },
-      "cta": { "title": "Start Collaborating Today", "body": "Create your account — no credit card required — and join your first room in minutes.", "trustLine": "No credit card required · Cancel anytime · GDPR-compliant" }
+      "cta": { "title": "Start Collaborating Today", "body": "Create your account — no credit card required — and join your first room in minutes.", "trustLine": "No credit card required · Cancel anytime · Built with GDPR in mind" }
     },
     "portal": {
       "hero": { "label": "Client Access", "h1": "Member Portal", "body": "Secure access for registered Nordic Riser AB clients to manage their engagement, documents, and communications." },

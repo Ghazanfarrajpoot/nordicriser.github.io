@@ -23,7 +23,7 @@ pageSlug: ""
     <h1>{{ home.hero.h1 }}</h1>
     <p>{{ home.hero.body }}</p>
     <div class="hero-ctas">
-      <a href="{{ 'work' | localeUrl(locale) }}" class="btn-primary">{{ home.hero.cta }}</a>
+      <a href="{{ 'work/nr-bos' | localeUrl(locale) }}" class="btn-primary">{{ home.hero.cta }}</a>
       <a href="{{ 'contact' | localeUrl(locale) }}" class="btn-secondary">{{ home.hero.ctaSecondary }}</a>
     </div>
   </div>
@@ -50,14 +50,14 @@ pageSlug: ""
 {%- endif %}
 
 <section class="proof-bar">
-  <div class="proof-bar-inner" data-animate>
-    {%- for s in home.proofBar.stats %}
-    <div class="proof-stat">
-      <div class="proof-stat-value">{{ s.value }}</div>
-      <div class="proof-stat-label">{{ s.label }}</div>
-    </div>
-    {%- endfor %}
-  </div>
+  <ul class="proof-bar-inner" data-animate>
+    {% for s in home.proofBar.stats %}
+    <li class="proof-stat">
+      <span class="proof-stat-value">{{ s.value }}</span>
+      <span class="proof-stat-label">{{ s.label }}</span>
+    </li>
+    {% endfor %}
+  </ul>
 </section>
 
 <section class="section">
@@ -88,7 +88,7 @@ pageSlug: ""
     <h2 class="section-title">{{ home.featuredWork.title }}</h2>
     <div class="work-teaser-grid">
       {%- for item in home.featuredWork.items %}
-      <a href="{{ item.link | localeUrl(locale) }}" class="work-teaser-card{% if item.featured %} work-teaser-card--featured{% endif %}">
+      <a href="{{ item.link | localeUrl(locale) }}{{ ('#' + item.id) if item.link == 'work' and item.id }}" class="work-teaser-card{% if item.featured %} work-teaser-card--featured{% endif %}">
         {%- if item.featured %}<span class="case-study-badge">{{ item.featuredLabel }}</span>{%- endif %}
         <div class="work-teaser-card__band">
           <span class="case-study-type">{{ item.type }}</span>
@@ -114,7 +114,9 @@ pageSlug: ""
       <h2 class="section-title">{{ home.productSpotlight.title }}</h2>
       <p class="section-sub">{{ home.productSpotlight.body }}</p>
       <ul class="gr-teaser-bullets">
+        {%- set pricesFilled = facts.pricing.globalReach.basic.eur | filled %}
         {%- for b in home.productSpotlight.bullets %}
+        {%- set b = home.productSpotlight.priceBulletNoAmount if (not pricesFilled and loop.index0 == home.productSpotlight.priceBulletIndex and home.productSpotlight.priceBulletNoAmount) else b %}
         <li>{{ b }}</li>
         {%- endfor %}
       </ul>

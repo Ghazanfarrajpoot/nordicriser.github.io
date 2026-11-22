@@ -411,8 +411,10 @@
 .proof-bar-inner {
   max-width: 1100px; margin: 0 auto;
   display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem;
-  text-align: center;
+  text-align: center; list-style: none; padding: 0;
 }
+.proof-stat { margin: 0; }
+.proof-stat-value, .proof-stat-label { display: block; }
 
 .proof-stat-value {
   font-family: var(--font-serif); font-size: 1.6rem; font-weight: 700; color: var(--gold);

@@ -1,4 +1,55 @@
+const facts = require("./src/_data/facts.json");
+
+// Resolve "%%company.orgNumber%%"-style tokens against facts.json.
+function factValue(path) {
+  const v = path.split(".").reduce((o, k) => (o == null ? undefined : o[k]), facts);
+  if (v === undefined || v === null || typeof v === "object") {
+    throw new Error(`Unknown fact token %%${path}%% (check src/_data/facts.json)`);
+  }
+  return String(v);
+}
+
 module.exports = function (eleventyConfig) {
+  // Translated strings carry %%path%% tokens for shared facts (product
+  // count, prices, company details). Replace them in every built page so
+  // all 11 languages read the same values; an unknown token fails the build.
+  eleventyConfig.addTransform("facts", function (content) {
+    if (typeof content !== "string" || !content.includes("%%")) return content;
+    return content.replace(/%%([a-zA-Z0-9_.]+)%%/g, (_, path) => factValue(path));
+  });
+  eleventyConfig.addFilter("facts", (str) =>
+    String(str ?? "").replace(/%%([a-zA-Z0-9_.]+)%%/g, (_, path) => factValue(path)),
+  );
+
+  // "/assets/img/x.jpg" -> true if src/assets/img/x.jpg exists. Lets templates
+  // show an image slot only once the image has been supplied.
+  eleventyConfig.addFilter("siteFileExists", (p) =>
+    Boolean(p) && require("fs").existsSync(require("path").join(__dirname, "src", String(p))),
+  );
+
+  // True once a facts.json value is filled in (not a "[PLACEHOLDER]"). Pages
+  // hide anything still unfilled instead of showing the brackets.
+  eleventyConfig.addFilter("filled", (v) => v != null && v !== "" && !/^\[.*\]$/.test(String(v)));
+
+  // facts.products.items entry by id (Nunjucks' selectattr can't compare values).
+  eleventyConfig.addFilter("productById", (id) => facts.products.items.find((p) => p.id === id));
+
+  // List placeholders still unfilled, once per build.
+  eleventyConfig.on("eleventy.after", () => {
+    const pending = [];
+    (function walk(o, p) {
+      for (const [k, v] of Object.entries(o)) {
+        if (k.startsWith("_")) continue;
+        if (v && typeof v === "object") walk(v, `${p}${k}.`);
+        else if (typeof v === "string" && /^\[.*\]$/.test(v)) pending.push(`${p}${k} = ${v}`);
+      }
+    })(facts, "");
+    if (pending.length) {
+      console.warn(`[facts] ${pending.length} placeholder(s) still to fill in src/_data/facts.json:`);
+      for (const line of pending) console.warn(`  ${line}`);
+    }
+  });
+
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt" });
   eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });

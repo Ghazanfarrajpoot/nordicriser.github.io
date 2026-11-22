@@ -665,3 +665,35 @@ a.right-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); 
   .case-study-card--featured .case-study-card__band { padding-top: 1.75rem; }
   .case-study-card--featured .case-study-card__band h2 { font-size: 1.5rem; }
 }
+
+/* Work page: optional project screenshot (shown only when the file exists) */
+.case-study-media { margin: 0; background: var(--navy); border-bottom: 1px solid var(--border, #e5e2d9); }
+.case-study-media img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; object-position: top center; }
+
+/* Global Reach hero: the name chips are a mock-up, labelled as such */
+.gr-illustrative-label { display: inline-block; margin-bottom: 0.6rem; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); opacity: 0.9; }
+
+/* Contact: "Book a 20-minute call" card beside the form */
+.sidebar-booking { margin-bottom: 1.25rem; }
+.sidebar-booking p { margin: 0.4rem 0 1rem; }
+.sidebar-booking .btn-primary { display: inline-flex; align-items: center; gap: 0.5rem; }
+.sidebar-booking .btn-primary svg { width: 1.1em; height: 1.1em; }
+
+/* About: founder */
+.founder-card { display: grid; grid-template-columns: 200px 1fr; gap: 2rem; align-items: center; margin-top: 1.25rem; }
+.founder-photo img, .founder-monogram { width: 200px; height: 200px; border-radius: 50%; display: block; object-fit: cover; }
+.founder-monogram { display: flex; align-items: center; justify-content: center; background: var(--navy); color: var(--gold); font-size: 3rem; letter-spacing: 0.08em; font-weight: 600; }
+.founder-name { margin: 0; }
+.founder-role { margin: 0.25rem 0 0.9rem; color: var(--gold-hover); font-weight: 600; }
+.founder-bio { max-width: 60ch; }
+.founder-linkedin { font-weight: 600; color: var(--navy); }
+@media (max-width: 640px) {
+  .founder-card { grid-template-columns: 1fr; justify-items: center; text-align: center; }
+  .founder-photo img, .founder-monogram { width: 160px; height: 160px; }
+}
+
+/* Privacy: collapsible change history */
+.change-history summary { cursor: pointer; list-style: revert; }
+.change-history summary h2 { display: inline; }
+.change-history ul { margin-top: 1rem; display: grid; gap: 0.5rem; }
+

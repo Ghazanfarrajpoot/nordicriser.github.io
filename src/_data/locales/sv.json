@@ -10,11 +10,24 @@
     "requestQuote": "Begär en offert",
     "signUp": "Registrera dig",
     "builtWith": "Byggt med:",
+    "screenshot": "skärmbild",
     "startProject": "Starta ett projekt",
     "emailLabel": "E-post",
     "websiteLabel": "Webbplats",
     "home": "Hem",
-    "pricingOnRequest": "Pris på förfrågan"
+    "pricingOnRequest": "Pris på förfrågan",
+    "priceFormat": "{eur} € ({sek} kr)",
+    "company": {
+      "orgNr": "Org.nr",
+      "vat": "Momsreg.nr",
+      "address": "Adress",
+      "phone": "Telefon",
+      "email": "E-post",
+      "registration": "Registrering",
+      "country": "Sverige",
+      "cityCountry": "Stockholm, Sverige",
+      "termsIntro": "Dessa villkor är ett avtal mellan dig och:"
+    }
   },
   "nav": {
     "home": "Hem",
@@ -31,13 +44,11 @@
   "footer": {
     "brandBlurb": "Nordic Riser AB är en Stockholmsbaserad mjukvarustudio som bygger flerspråkiga webbplattformar, säkra kundportaler och gränsöverskridande produkter för företag som verkar på mer än ett språk.",
     "addressHeading": "Registrerat säte",
-    "orgNrLabel": "Org. nr.",
-    "orgNrValue": "[ORG_NR]",
     "firmHeading": "Företaget",
     "complianceHeading": "Regelefterlevnad",
     "disclaimerHeading": "Ansvarsfriskrivning",
     "disclaimer": "Nordic Riser AB tillhandahåller enbart strategisk rådgivning. Vi erbjuder inte juridiskt ombud, migrationsrådgivning eller garantier för utfall. Alla beslut fattas av behöriga myndigheter. Regelefterlevnad genomsyrar allt vi gör.",
-    "copyright": "© 2026 Nordic Riser AB. Alla rättigheter förbehållna. Stockholm, Sweden.",
+    "copyright": "© 2026 Nordic Riser AB. Alla rättigheter förbehållna. Stockholm, Sverige.",
     "divisions": {
       "consultingHeading": "Konsultverksamhet",
       "consultingLinks": [
@@ -48,15 +59,17 @@
       ],
       "itServicesHeading": "Tjänster",
       "itServicesLinks": [
-        { "label": "Webbplattformar & portaler" },
-        { "label": "Automation & integrationer" },
-        { "label": "Löpande support" },
+        { "label": "Flerspråkiga webbplattformar", "anchor": "web-platforms" },
+        { "label": "Säkra kundportaler", "anchor": "portals" },
+        { "label": "Egna produkter & SaaS", "anchor": "products" },
+        { "label": "Automatisering & integrationer", "anchor": "automation" },
+        { "label": "Löpande support", "anchor": "support" },
         { "label": "Begär offert", "target": "contact" }
       ],
       "globalReachHeading": "Global Reach",
       "globalReachLinks": [
-        { "label": "Så fungerar det" },
-        { "label": "Planer & priser" },
+        { "label": "Så fungerar det", "anchor": "#how-it-works" },
+        { "label": "Planer & priser", "anchor": "#pricing" },
         { "label": "Kom igång", "external": "https://portal.nordicriser.com" }
       ]
     },
@@ -341,9 +354,9 @@
       },
       "proofBar": {
         "stats": [
-          { "value": "11", "label": "Språk levererade i produktion" },
-          { "value": "5", "label": "Produkter byggda internt" },
-          { "value": "Stockholm, Sweden", "label": "Baserade i" },
+          { "value": "%%languagesShipped%%", "label": "Språk levererade i produktion" },
+          { "value": "%%products.count%%", "label": "Produkter byggda internt" },
+          { "value": "Stockholm, Sverige", "label": "Baserade i" },
           { "value": "Design → Bygg → Support", "label": "Arbetssätt" }
         ]
       },
@@ -352,8 +365,8 @@
         "title": "Fyra saker vi gör bra",
         "cards": [
           { "icon": "globe", "title": "Flerspråkiga webbplattformar", "body": "Produktionswebbplatser byggda för att fungera på varje marknad du betjänar. Korrekt hreflang, RTL-stöd, lokaliserad innehållsstruktur — inte maskinöversatta eftertankar.", "builtWith": "Statisk sidgenerering, CDN-leverans, laddningstider under en sekund" },
-          { "icon": "lock", "title": "Säkra kundportaler", "body": "Autentiserade portaler för dokumentutbyte, ärendespårning och kundkommunikation. Rollbaserad åtkomst, krypterad lagring, granskningsspår.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
-          { "icon": "code", "title": "Skräddarsydda produkter & SaaS", "body": "Fullständig produktutveckling, från koncept till lansering. Realtidsfunktioner, prenumerationsfakturering, adminverktyg.", "seeLabel": "Se:", "seeText": "Global Reach — vår egen plattform för direktöversatt samarbete", "seeLink": "global-reach" },
+          { "icon": "lock", "title": "Säkra kundportaler", "body": "Autentiserade portaler för dokumentutbyte, ärendespårning och kundkommunikation. Rollbaserad åtkomst, dataregler som upprätthålls på servern, privat fillagring och aktivitetsloggning i medlemsportalen.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
+          { "icon": "code", "title": "Skräddarsydda produkter & SaaS", "body": "Fullständig produktutveckling, från koncept till lansering. Realtidsfunktioner, prenumerationsfakturering, adminverktyg.", "seeLabel": "Se:", "seeText": "Global Reach — våra egna live-rum för studier och arbete, med närvaro i realtid och delade sessionsanteckningar", "seeLink": "global-reach" },
           { "icon": "gear", "title": "Automatisering & integrationer", "body": "Koppla samman verktygen du redan använder. Eliminera manuell dubbelinmatning. Automatisera de arbetsflöden som äter upp teamets vecka.", "builtWith": "API:er, webhooks, serverlösa funktioner" }
         ]
       },
@@ -361,13 +374,13 @@
         "label": "Utvalt arbete",
         "title": "Vad vi har byggt",
         "items": [
-          { "type": "SaaS-produkt (internt byggd)", "title": "NR-BOS", "featured": true, "featuredLabel": "Flaggskeppsprodukt", "oneLiner": "Projektleverans, fältarbete och kundrapportering — allt på en plattform, byggd och licensierad av Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS-produkt (internt byggd)", "title": "Global Reach", "oneLiner": "Direktsända studie- och arbetsrum med realtidsnärvaro och delade sessionsanteckningar, debiterat per minut.", "link": "global-reach" },
-          { "type": "Säker kundportal", "title": "Nordic Riser Medlemsportal", "oneLiner": "En autentiserad portal för dokumentutbyte, ärendespårning, säker meddelandehantering och betalningar.", "link": "work", "linkLabel": "Se i vårt arbete →" },
-          { "type": "Flerspråkig marknadsföringsplattform", "title": "nordicriser.com", "oneLiner": "En elvaspråkig produktionswebbplats med RTL-stöd, fullständig metatäckning och rena URL:er per språk.", "link": "work", "linkLabel": "Se i vårt arbete →" },
-          { "type": "Vårdapp", "title": "Telemedicinapp", "oneLiner": "En telemedicinplattform vi byggt från grunden — HD-videokonsultationer, tidsbokning och chatt under samtal — redo att anpassas för valfritt vårdvarumärke.", "link": "work", "linkLabel": "Se i vårt arbete →" },
-          { "type": "Apoteksexpedieringsapp", "title": "Apoteksplattform", "oneLiner": "Ett apoteksexpedieringssystem vi byggt som kopplar recept till hantering och leverans, redo att anpassas för valfri aktör.", "link": "work", "linkLabel": "Se i vårt arbete →" },
-          { "type": "Leveransapp (internt byggd)", "title": "On-Demand Delivery App", "oneLiner": "En anpassningsbar leveransplattform för beställning, dirigering och budspårning för alla typer av företag.", "link": "work", "linkLabel": "Se i vårt arbete →" }
+          { "type": "SaaS-produkt (internt byggd)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Flaggskeppsprodukt", "oneLiner": "Projektleverans, fältarbete och kundrapportering — allt på en plattform, byggd och licensierad av Nordic Riser AB.", "link": "work/nr-bos" },
+          { "type": "SaaS-produkt (internt byggd)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live-rum för studier och arbete med närvaro i realtid och delade sessionsanteckningar, med månadsabonnemang som inkluderar sessionsminuter – fyll på när du vill.", "link": "global-reach" },
+          { "type": "Säker kundportal (internt byggd)", "id": "member-portal", "title": "Nordic Riser Medlemsportal", "oneLiner": "En autentiserad portal för dokumentutbyte, ärendespårning, säker meddelandehantering och betalningar.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Flerspråkig marknadsföringsplattform (internt byggd)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "En elvaspråkig produktionswebbplats med RTL-stöd, fullständig metatäckning och rena URL:er per språk.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Vårdapp (internt byggd)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "En telemedicinplattform vi byggt från grunden — HD-videokonsultationer, tidsbokning och chatt under samtal — redo att anpassas för valfritt vårdvarumärke.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Plattform för apoteksexpediering (internt byggd)", "id": "4ezone-pharmacy", "title": "%%products.items.5.name%%", "oneLiner": "Ett apoteksexpedieringssystem vi byggt som kopplar recept till hantering och leverans, redo att anpassas för valfri aktör.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Leveransapp (internt byggd)", "id": "delivery-app", "title": "Leveransapp på begäran", "oneLiner": "En anpassningsbar leveransplattform för beställning, dirigering och budspårning för alla typer av företag.", "link": "work", "linkLabel": "Se i vårt arbete →" }
         ],
         "cta": "Se allt arbete",
         "ctaLink": "work"
@@ -379,9 +392,11 @@
         "bullets": [
           "Delade sessionsanteckningar för direktsamarbete",
           "Närvaro i realtid — se vem som är i rummet",
-          "Planer från $29/månad, debiterat per minut"
+          "Månadsabonnemang från %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% kr) med sessionsminuter som ingår – fyll på när du vill"
         ],
-        "cta": "Kom igång"
+        "cta": "Kom igång",
+        "priceBulletIndex": 2,
+        "priceBulletNoAmount": "Månadsabonnemang med sessionsminuter som ingår – fyll på när du vill"
       },
       "howWeWork": {
         "label": "Process",
@@ -415,7 +430,7 @@
               },
               {
                 "category": "Autentisering & säkerhet",
-                "items": "Firebase Authentication, rollbaserad åtkomstkontroll, krypterad lagring"
+                "items": "Firebase Authentication, rollbaserad åtkomstkontroll, dataregler som upprätthålls på servern"
               }
             ]
           },
@@ -443,7 +458,7 @@
         ],
         "practices": {
           "category": "Arbetssätt",
-          "items": "Git-versionshantering, stegvisa driftsättningar, GDPR-kompatibel datahantering"
+          "items": "Git-versionshantering, stegvisa driftsättningar, datahantering byggd med GDPR i åtanke"
         }
       },
       "whyUs": {
@@ -493,6 +508,7 @@
           "link": "consulting"
         }
       },
+      "founder": { "label": "Grundaren", "role": "Grundare & vd", "linkedinLabel": "LinkedIn-profil" },
       "whyWeExist": {
         "label": "Var vi började — vår konsultverksamhet",
         "title": "Byggda för att fylla ett verkligt behov inom internationell rådgivning",
@@ -601,13 +617,14 @@
         "errorText": "Något gick fel. Försök igen eller mejla oss direkt.",
         "submit": "Skicka konsultationsförfrågan →"
       },
-      "success": { "title": "Förfrågan mottagen", "body": "Tack för att du skickade in din konsultationsförfrågan. En medlem av vårt rådgivningsteam kommer att granska din information och återkomma inom 1–2 arbetsdagar." },
+      "booking": {
+        "heading": "Vill du hellre prata först?",
+        "body": "Välj en tid som passar dig för ett kort introduktionssamtal.",
+        "button": "Boka ett 20-minuterssamtal"
+      },
+      "success": { "title": "Förfrågan mottagen", "body": "Tack för din förfrågan. Vi går igenom din information och återkommer inom 1–2 arbetsdagar." },
       "sidebar": {
         "directContactHeading": "Direktkontakt",
-        "phoneLabel": "Telefon",
-        "phoneValue": "[PHONE_NUMBER]",
-        "addressLabel": "Adress",
-        "addressValue": "[STREET_ADDRESS], Stockholm, Sverige",
         "hoursLabel": "Kontorstider",
         "hoursValue": "Måndag – fredag, 09:00 – 17:00 CET",
         "nextHeading": "Vad händer sedan",
@@ -619,14 +636,6 @@
         ],
         "noteHeading": "Observera",
         "noteBody": "Vi granskar alla inlämningar innan vi bekräftar konsultationer. Vi arbetar med kunder vars situationer passar våra tjänster — om så inte är fallet för dig kommer vi att informera om detta och vid behov föreslå en mer lämplig resurs."
-      },
-      "closing": {
-        "label": "Varför en strukturerad konsultation",
-        "title": "Vi ger inte generella råd",
-        "paragraphs": [
-          "Varje konsultation hos Nordic Riser AB inleds med en grundlig bedömning av din specifika situation. Vi tillhandahåller inte mallsvar eller standardiserad vägledning. Innan någon strategisk rekommendation ges tar vi oss tid att förstå din yrkesbakgrund, din affärsmodell och dina långsiktiga mål.",
-          "Om du seriöst överväger att bygga upp en juridiskt strukturerad verksamhet i Europa och är beredd att engagera dig professionellt i processen, välkomnar vi din förfrågan. Våra konsultationer är arbetsmöten — inte säljsamtal."
-        ]
       }
     },
     "privacy": {
@@ -729,7 +738,9 @@
               "title": "4.5 Global Reach",
               "intro": "Som användare av Global Reach:",
               "list": [
-                "Chattmeddelanden: innehållet i meddelanden som skickas genom Global Reachs samarbetsrum i realtid, inklusive meddelandetext som skickas för realtidsöversättning — se avsnitt 6.4 för hur den översättningen tillhandahålls och avsnitt 7 för vilket underbiträde som är inblandat"
+                "Rums- och sessionsdata: namnet på rum du skapar, din närvaro i ett rum – inklusive den tid servern registrerar när du ansluter och lämnar, som används för att beräkna sessionens längd – samt innehållet i de delade sessionsanteckningarna för rum du deltar i",
+                "Användningsdata: förbrukade sessionsminuter, som först dras från planens månatliga minutpott och därefter från eventuellt påfyllt saldo, för att beräkna vad du har kvar",
+                "Intresseanmälningar för språk: om du använder formuläret ”Meddela mig” på Global Reach-sidan för att fråga om ett språk som ännu inte finns tillgängligt lagrar vi den e-postadress och det språk du anger, tillsammans med ditt samtycke till att bli kontaktad om det"
               ]
             }
           ]
@@ -760,7 +771,7 @@
                 "Fullgörande av avtal (som personuppgiftsbiträde, enligt kundens instruktioner)"
               ],
               [
-                "Tillhandahålla realtidsöversättning inom Global Reach",
+                "Driva Global Reach, inklusive delade sessionsanteckningar och användningsbaserad fakturering",
                 "Fullgörande av avtal"
               ],
               [
@@ -1516,7 +1527,35 @@
           { "name": "Löpande rådgivning", "body": "Fortsatt strategiskt stöd efter din inledande etablering — för föränderliga affärsbehov, gränsöverskridande frågor eller expansionsplanering." }
         ]
       },
-      "cta": { "title": "Diskutera dina behov", "body": "Om du planerar att etablera en verksamhet i Europa bjuder vi in dig till en konsultation. Vi kommer att bedöma din situation och ge dig en tydlig, strukturerad översikt över vägen framåt och de tjänster som är relevanta för dina mål." }
+      "deliverables": {
+        "label": "Det här får du",
+        "title": "Konkreta resultat från varje uppdrag",
+        "sub": "Rådgivning från Nordic Riser ger specifika, användbara resultat – inte bara ett samtal.",
+        "items": [
+          "Ett dokumenterat strategiskt ramverk anpassat efter din verksamhet, dina mål och dina förutsättningar",
+          "En strukturerad affärsplan eller etableringsstrategi, upprättad enligt institutionell standard där det är relevant",
+          "En skriftlig sammanfattning av rekommendationer och nästa steg i varje fas av uppdraget",
+          "Samordning med kvalificerade jurister, redovisningskonsulter eller andra specialister när din situation kräver det",
+          "Fortsatt rådgivning i takt med att din verksamhet eller dina förutsättningar förändras"
+        ]
+      },
+      "boundaries": {
+        "label": "Professionella gränser",
+        "title": "Vad vi är – och inte är",
+        "body": [
+          "Vi ger inte migrationsrådgivning eller juridiskt ombud. Vi tillhandahåller det strategiska rådgivningsramverk som kvalificerade specialister sedan kan arbeta utifrån.",
+          "När juridisk, skattemässig eller regulatorisk specialistkompetens behövs – vilket ofta är fallet vid relocation och gränsöverskridande frågor – samordnar vi kontakten med kvalificerade yrkespersoner, som utför det arbetet inom ramen för sin egen behörighet."
+        ]
+      },
+      "cta": { "title": "Diskutera dina behov", "body": "Om du planerar att etablera en verksamhet i Europa bjuder vi in dig till en konsultation. Vi kommer att bedöma din situation och ge dig en tydlig, strukturerad översikt över vägen framåt och de tjänster som är relevanta för dina mål." },
+      "closing": {
+        "label": "Varför en strukturerad konsultation",
+        "title": "Vi ger inte generella råd",
+        "paragraphs": [
+          "Varje konsultation hos Nordic Riser AB inleds med en grundlig bedömning av din specifika situation. Vi tillhandahåller inte mallsvar eller standardiserad vägledning. Innan någon strategisk rekommendation ges tar vi oss tid att förstå din yrkesbakgrund, din affärsmodell och dina långsiktiga mål.",
+          "Om du seriöst överväger att bygga upp en juridiskt strukturerad verksamhet i Europa och är beredd att engagera dig professionellt i processen, välkomnar vi din förfrågan. Våra konsultationer är arbetsmöten — inte säljsamtal."
+        ]
+      }
     },
     "itServices": {
       "meta": {
@@ -1526,14 +1565,78 @@
       "hero": { "label": "Tjänster", "h1": "Webbplattformar, portaler & skräddarsydd mjukvara", "body": "Flerspråkiga webbplatser, säkra kundportaler, skräddarsydd produktutveckling och arbetsflödesautomatisering. Byggt i Stockholm, levererat globalt." },
       "breadcrumb": "Tjänster",
       "offeringsLabel": "Vad vi bygger",
-      "offeringsTitle": "Fyra kärnerbjudanden",
+      "offeringsTitle": "Fem kärnerbjudanden",
       "offeringsSub": "Från en första företagswebbplats till de system som driver den dagliga verksamheten — vi bygger teknik som matchar skalan och skedet i din verksamhet.",
       "offerings": [
-        { "icon": "globe", "title": "Webbplattformar och företagswebbplatser", "body": "Professionellt designade, flerspråkiga webbplatser som ger din verksamhet en trovärdig, strukturerad närvaro online från dag ett." },
-        { "icon": "lock", "title": "Kund- och företagsportaler", "body": "Säkra medlems- och kundportaler för hantering av dokument, kommunikation och ärende- eller projektstatus på ett och samma ställe." },
-        { "icon": "gear", "title": "Automatisering av arbetsflöden och integrationer", "body": "Automatisering av repetitivt operativt arbete och integration mellan de verktyg din verksamhet redan använder." },
-        { "icon": "wrench", "title": "Löpande underhåll och support", "body": "Fortsatt teknisk support, uppdateringar och övervakning efter lansering, så att din plattform förblir pålitlig i takt med att din verksamhet växer." }
+        {
+          "id": "web-platforms",
+          "icon": "globe",
+          "title": "Flerspråkiga webbplattformar",
+          "body": "Produktionswebbplatser byggda för varje marknad du verkar på, med riktiga språkversioner, stöd för höger-till-vänster-språk där det behövs och snabb laddning över hela världen.",
+          "included": [
+            "Språkspecifika URL:er och hreflang för sökmotorer",
+            "Höger-till-vänster-layout för arabiska, urdu och liknande språk",
+            "Strukturerat innehåll som är enkelt att uppdatera och bygga ut",
+            "Metataggar och förhandsvisningar för sociala medier på alla språk"
+          ],
+          "stack": "Eleventy eller Next.js, CDN-hosting, Git-baserad publicering"
+        },
+        {
+          "id": "portals",
+          "icon": "lock",
+          "title": "Säkra kundportaler",
+          "body": "Inloggade portaler där kunder utbyter dokument, följer sitt ärende eller projekt och skickar meddelanden till ert team, samlat på ett ställe i stället för i e-posttrådar.",
+          "included": [
+            "Rollbaserad åtkomst för kunder, personal och administratörer",
+            "Dataregler som upprätthålls på servern, så att varje användare bara ser sina egna uppgifter",
+            "Privat fillagring för dokument och uppladdningar",
+            "Aktivitetsloggning i medlemsportalen"
+          ],
+          "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
+        },
+        {
+          "id": "products",
+          "icon": "code",
+          "title": "Egna produkter & SaaS",
+          "body": "Fullständig produktutveckling från idé till lansering, för en egen produktlinje.",
+          "included": [
+            "Produktavgränsning och en etappvis byggplan",
+            "Abonnemang och fakturering",
+            "Adminpaneler och interna verktyg",
+            "Realtidsfunktioner som live-närvaro"
+          ],
+          "stack": "React, Next.js, NestJS, PostgreSQL, Firebase"
+        },
+        {
+          "id": "automation",
+          "icon": "gear",
+          "title": "Automatisering & integrationer",
+          "body": "Koppla ihop verktygen ni redan använder och ta bort manuell dubbelinmatning ur arbetsflödena som tar upp ert teams vecka.",
+          "included": [
+            "Integrationer mellan webbplats, CRM, bokföring och e-postverktyg",
+            "Automatiska aviseringar, rapporter och datasynkronisering",
+            "Webhooks och schemalagda jobb",
+            "Tydlig dokumentation av varje automatiserat steg"
+          ],
+          "stack": "REST-API:er, webhooks, serverlösa funktioner, schemalagda jobb"
+        },
+        {
+          "id": "support",
+          "icon": "wrench",
+          "title": "Löpande support",
+          "body": "Teknisk support, uppdateringar och övervakning efter lansering, så att er plattform förblir pålitlig i takt med att verksamheten växer.",
+          "included": [
+            "Säkerhets- och beroendeuppdateringar",
+            "Övervakning och felsökning",
+            "Buggfixar och mindre förbättringar",
+            "Hantering av hosting och domäner"
+          ],
+          "stack": "Övervakning, felspårning, förvaltad hosting (Vercel, Firebase, GitHub Pages)"
+        }
       ],
+      "offeringCta": "Diskutera tjänsten",
+      "stackLabel": "Typisk teknik",
+      "includedLabel": "Det här ingår",
       "howWeWorkLabel": "Hur vi arbetar",
       "howWeWorkTitle": "En strukturerad väg från idé till lansering",
       "howWeWorkSub": "Samma disciplin som vi tillämpar i konsultuppdrag följer med i hur vi planerar och bygger teknik.",
@@ -1564,14 +1667,15 @@
     "work": {
       "meta": {
         "title": "Vårt arbete — plattformar, portaler & produkter — Nordic Riser AB",
-        "description": "Utvalda projekt från Nordic Riser AB — inklusive NR-BOS, vår flaggskeppsplattform för affärsverksamhet, en samarbetsplattform med direktöversättning och en säker kundportal."
+        "description": "Utvalda projekt från Nordic Riser AB — inklusive NR-BOS, vår flaggskeppsplattform för affärsverksamhet, live-rum för studier och arbete med närvaro i realtid och delade sessionsanteckningar, samt en säker kundportal."
       },
       "hero": { "label": "Utvalt arbete", "h1": "Vad vi har byggt", "body": "Plattformar, portaler och produkter vi har designat, byggt och levererat — inklusive våra egna." },
       "breadcrumb": "Arbete",
       "caseStudies": [
         {
           "type": "SaaS-produkt (internt byggd)",
-          "title": "NR-BOS",
+          "id": "nr-bos",
+          "title": "%%products.items.0.name%%",
           "featured": true,
           "featuredLabel": "Flaggskeppsprodukt",
           "challengeLabel": "Utmaning",
@@ -1587,20 +1691,23 @@
         },
         {
           "type": "SaaS-produkt (internt byggd)",
-          "title": "Global Reach",
+          "id": "global-reach",
+          "title": "%%products.items.1.name%%",
           "challengeLabel": "Utmaning",
           "challenge": "Team som arbetar över gränser behöver ett delat utrymme för att studera eller arbeta tillsammans live, utan att boka ett samtal eller växla mellan separata verktyg.",
           "buildLabel": "Bygge",
-          "build": "Öppna studie- och arbetsrum med live närvaro och delade sessionsanteckningar, debiterat per minut.",
+          "build": "Live-rum för studier och arbete med närvaro i realtid och delade sessionsanteckningar, med månadsabonnemang som inkluderar sessionsminuter – fyll på när du vill.",
           "stackLabel": "Teknikstack",
           "stack": ["React", "Firebase Realtime Database", "Prenumerationsfakturering"],
           "resultLabel": "Resultat",
-          "result": "Live produkt med betalda planer från $29/månad.",
+          "result": "Produkt i drift med månadsabonnemang från %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% kr).",
+          "resultNoAmount": "Produkt i drift med månadsabonnemang.",
           "link": "global-reach",
           "linkLabel": "Se produkten"
         },
         {
-          "type": "Säker kundportal",
+          "type": "Säker kundportal (internt byggd)",
+          "id": "member-portal",
           "title": "Nordic Riser Medlemsportal",
           "challengeLabel": "Utmaning",
           "challenge": "Rådgivningskunder behövde en samlad plats för dokument, ärendestatus och kommunikation — med strikt åtkomstkontroll.",
@@ -1612,20 +1719,22 @@
           "result": "Live på portal.nordicriser.com med egen domän och automatisk SSL."
         },
         {
-          "type": "Flerspråkig marknadsföringsplattform",
-          "title": "nordicriser.com",
+          "type": "Flerspråkig marknadsföringsplattform (internt byggd)",
+          "id": "nordicriser-com",
+          "title": "%%products.items.3.name%%",
           "challengeLabel": "Utmaning",
           "challenge": "Nå entreprenörer i Europa, Mellanöstern och Sydasien på deras egna språk.",
           "buildLabel": "Bygge",
-          "build": "Elvaspråkig produktionswebbplats med URL-struktur per språk, RTL-stöd för arabiska och urdu, fullständig meta- och Open Graph-täckning samt ett GDPR-kompatibelt integritetsramverk.",
+          "build": "Elvaspråkig produktionswebbplats med URL-struktur per språk, RTL-stöd för arabiska och urdu, fullständig meta- och Open Graph-täckning samt ett integritetsramverk byggt med GDPR i åtanke.",
           "stackLabel": "Teknikstack",
           "stack": ["Statisk generering", "CDN", "Strukturerad i18n-routing"],
           "resultLabel": "Resultat",
           "result": "Varje sida tillgänglig på 11 språk med rena, indexerbara URL:er."
         },
         {
-          "type": "Vårdapp",
-          "title": "Telemedicinapp",
+          "type": "Vårdapp (internt byggd)",
+          "id": "4edoctor",
+          "title": "%%products.items.4.name%%",
           "challengeLabel": "Utmaning",
           "challenge": "Patienter behövde tillgång till läkarkonsultationer — med läkare, psykologer och sjuksköterskor — utan väntetider och friktion från fysiska besök.",
           "buildLabel": "Bygge",
@@ -1636,8 +1745,9 @@
           "result": "En fungerande telemedicinplattform, byggd från grunden av oss och redo att anpassas för valfritt vårdvarumärke."
         },
         {
-          "type": "Apoteksexpedieringsapp",
-          "title": "Apoteksplattform",
+          "type": "Plattform för apoteksexpediering (internt byggd)",
+          "id": "4ezone-pharmacy",
+          "title": "%%products.items.5.name%%",
           "challengeLabel": "Utmaning",
           "challenge": "Patienter med recept från läkare hade inget snabbt sätt att få sin medicin expedierad och levererad.",
           "buildLabel": "Bygge",
@@ -1649,7 +1759,8 @@
         },
         {
           "type": "Leveransapp (internt byggd)",
-          "title": "On-Demand Delivery App",
+          "id": "delivery-app",
+          "title": "Leveransapp på begäran",
           "challengeLabel": "Utmaning",
           "challenge": "Företag inom olika branscher behövde leverans on-demand — beställning, dirigering och realtidsspårning — utan att bygga logistikinfrastruktur från grunden.",
           "buildLabel": "Bygge",
@@ -1660,7 +1771,7 @@
           "result": "En återanvändbar leveransplattform redo att anpassas och driftsättas för kundföretag."
         }
       ],
-      "note": "Det här är system vi har designat och byggt från grunden — vissa drivs idag som våra egna produkter, andra byggda åt kunder att driva under sitt eget varumärke.",
+      "note": "%%products.count%% plattformar som vi har byggt, driver och kan anpassa för din verksamhet.",
       "cta": { "title": "Har du ett projekt i åtanke?", "body": "Berätta vad du bygger. Vi återkommer med en tydlig omfattning, en realistisk tidsplan och ett fast pris.", "cta": "Starta ett projekt" }
     },
     "nrBos": {
@@ -1676,15 +1787,6 @@
       },
       "breadcrumb": "NR-BOS",
       "backLink": "Tillbaka till Arbete",
-      "tour": [
-        {"eyebrow":"Översikt","title":"En levande bild av varje projekt","body":"Portföljövergripande nyckeltal, budget mot faktiskt utfall och teambeläggning — det första man öppnar varje morgon.","shots":[{"file":"dashboard-overview.jpg","caption":"Instrumentpanel — portföljens nyckeltal och budget mot utfall"},{"file":"dashboard-team-workload.jpg","caption":"Instrumentpanel — teambeläggning per status"}]},
-        {"eyebrow":"Projekt","title":"Varje jobb, spårat ner till uppgiften","body":"Projekt har sin egen budget, kund och team. Arbetet inom varje projekt körs på en fyrkolumnstavla — att göra, pågår, granskning, klart.","shots":[{"file":"projects-list.jpg","caption":"Projekt — hela portföljen på en gång"},{"file":"project-kanban.jpg","caption":"Projektdetalj — uppgiftstavla"}]},
-        {"eyebrow":"Tidrapportering","title":"Timmar registrerade en gång, betrodda överallt","body":"En fältarbetare startar och pausar en timer från sin telefon på plats; kontoret rättar eller fyller i luckor i ett veckoschema. Varje registrering går genom inskickad, godkänd eller avvisad innan den påverkar något nedströms."},
-        {"eyebrow":"Budget","title":"Kostnader spårade mot budget, per kategori","body":"Varje kostnadspost — material, arbete, underentreprenörer, tillstånd — rullas upp mot projektbudgeten i realtid. Arbetskostnaden härleds i sin tur från godkända tidsregistreringar mot varje anställds lönesats vid den tidpunkt arbetet utfördes, inte inknappad för hand — och eftersom satserna är historiserade skriver en löneökning nästa kvartal aldrig om vad ett jobb kostade förra kvartalet. De flesta verktyg skriver över satsen på plats och förvanskar tyst förra kvartalets siffror; det här gör inte det.","shots":[{"file":"project-costs.jpg","caption":"Projektdetalj — kostnadsbok"}]},
-        {"eyebrow":"Fältarbete","title":"Vad som hände på plats, med bevis","body":"Fältteam loggar statusanteckningar och foton direkt från platsen — inklusive parade före/efter-bilder för arbete som är lätt att beskriva men svårt att föreställa sig.","shots":[{"file":"field-report-notes.jpg","caption":"Fältrapporter — platsanteckningar och foton"},{"file":"field-report-before-after.jpg","caption":"Fältrapport — före / efter"}]},
-        {"eyebrow":"Kundrapporter","title":"En varumärkesanpassad PDF, genererad med ett klick","body":"Dra in ett projekts uppgifter, kostnader och senaste fältfoton i en kundklar PDF-rapport — utkast först, markera sedan som skickad när den är redo att gå ut.","shots":[{"file":"client-report-generate.jpg","caption":"Genererar en kundrapport"},{"file":"client-report-pdf.jpg","caption":"Genererad kundrapport (PDF)"}]},
-        {"eyebrow":"Team & licensiering","title":"Rollbaserad åtkomst, licensierad med kod","body":"Administratörer, projektledare, fältarbetare och kunder ser bara det som är deras. Åtkomsten i sig körs på inlösbara prenumerationskoder, utfärdade i omgångar — ingen betalningsleverantör krävs.","shots":[{"file":"team-users.jpg","caption":"Användare — företagets roster och roller"},{"file":"subscription-plan.jpg","caption":"Prenumeration — aktiv plan"},{"file":"license-batches.jpg","caption":"Licensomgångar — inlösenkoder"}]}
-      ],
       "workflow": {
         "label": "Så fungerar det i praktiken",
         "title": "Från plan till kundrapport — ett sammankopplat flöde",
@@ -1898,11 +2000,12 @@
         "body": "Gå med i direktsända studie- och arbetsrum med närvaro i realtid och delade sessionsanteckningar — byggt för samarbete över tidszoner och språk.",
         "ctaPrimary": "Kom igång",
         "ctaSecondary": "Se hur det fungerar",
-        "trustLine": "Inget kort krävs · Avsluta när du vill · GDPR-kompatibelt",
+        "trustLine": "Inget kort krävs · Avsluta när du vill · Byggt med GDPR i åtanke",
         "earlyAccessBadge": "Nu i tidig tillgång",
         "mockCaption": "Testa det — skriv en anteckning och se närvaron uppdateras",
         "visual": {
           "notesLabel": "Delade sessionsanteckningar",
+          "illustrativeLabel": "Illustrativ förhandsvisning",
           "demoPlaceholder": "Testa att skriva en anteckning här…",
           "demoAriaLabel": "Testa den delade anteckningspanelen (endast demo — sparas inte)",
           "participants": [
@@ -1956,10 +2059,10 @@
       "plansTitle": "Enkla planer, tydliga priser",
       "plansSub": "Alla abonnemang inkluderar full tillgång till rum och delade anteckningar — abonnemangen skiljer sig bara i månatlig tilldelning av sessionsminuter.",
       "plans": [
-        {"name": "Basic", "price": "29", "period": "/ månad", "features": ["2 timmars direktsända sessioner / månad", "Full tillgång till rum och delade anteckningar", "Obegränsat sparade sessionsanteckningar"], "popular": false},
-        {"name": "Pro", "price": "79", "period": "/ månad", "features": ["10 timmars direktsända sessioner / månad", "Prioriterad support", "Alla funktioner i Basic"], "popular": true}
+        {"name": "Basic", "id": "basic", "period": "/ månad", "features": ["2 timmars direktsända sessioner / månad", "Full tillgång till rum och delade anteckningar", "Obegränsat sparade sessionsanteckningar"], "popular": false},
+        {"name": "Pro", "id": "pro", "period": "/ månad", "features": ["10 timmars direktsända sessioner / månad", "Prioriterad support", "Alla funktioner i Basic"], "popular": true}
       ],
-      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "_syncNote": "Plan names and session-minute allowances mirror nordic-riser-portal DEFAULT_PLANS (2026-09-09); there is no free tier. Prices are NOT here: they come from src/_data/facts.json (pricing.globalReach), formatted per language by common.priceFormat.",
       "limitNote": "Behöver du fler sessionsminuter än ditt abonnemang inkluderar? Du kan fylla på när som helst från ditt konto.",
       "faqLabel": "Vanliga frågor",
       "faqTitle": "Vanliga frågor",
@@ -1968,11 +2071,11 @@
         { "q": "Vad händer när jag har använt mina månatliga minuter?", "a": "Dina rum och delade anteckningar förblir fullt tillgängliga. Att starta en ny tidsbestämd session kräver påfyllning eller att du väntar till nästa faktureringsperiod." },
         { "q": "Vad händer med extra minuter jag inte använder?", "a": "Extra minuter upphör aldrig att gälla så länge din prenumeration förblir aktiv — de förs över till nästa faktureringsperiod tills du använder dem." },
         { "q": "Vilka språk stöds?", "a": "Fullt gränssnittsstöd för engelska, svenska, tyska, franska, spanska, italienska, polska, nederländska, portugisiska, urdu och arabiska." },
-        { "q": "Är mina uppgifter privata?", "a": "Ja — dina sessionsuppgifter hanteras enligt vår GDPR-kompatibla integritetspolicy, som beskriver exakt vad vi samlar in och varför." }
+        { "q": "Är mina uppgifter privata?", "a": "Ja — dina sessionsuppgifter hanteras enligt vår integritetspolicy, som är skriven med GDPR i åtanke och beskriver exakt vad vi samlar in och varför." }
       ],
       "emailCapture": { "title": "Inte redo än?", "body": "Få ett meddelande när nya språk lanseras.", "placeholder": "Din e-postadress", "consent": "Jag godkänner att bli kontaktad om Global Reach och accepterar", "privacyLinkLabel": "integritetspolicyn", "successText": "Tack - vi mejlar dig när ditt språk är redo.", "errorText": "Något gick fel. Försök igen.", "button": "Meddela mig" },
       "stickyBar": { "text": "Redo att börja samarbeta?", "cta": "Kom igång" },
-      "cta": { "title": "Börja samarbeta idag", "body": "Skapa ditt konto — inget kort krävs — och gå med i ditt första rum på några minuter.", "trustLine": "Inget kort krävs · Avsluta när du vill · GDPR-kompatibelt" }
+      "cta": { "title": "Börja samarbeta idag", "body": "Skapa ditt konto — inget kort krävs — och gå med i ditt första rum på några minuter.", "trustLine": "Inget kort krävs · Avsluta när du vill · Byggt med GDPR i åtanke" }
     },
     "portal": {
       "hero": { "label": "Kundåtkomst", "h1": "Medlemsportal", "body": "Säker åtkomst för registrerade kunder hos Nordic Riser AB för att hantera sitt uppdrag, sina dokument och sin kommunikation." },

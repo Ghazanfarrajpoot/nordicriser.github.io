@@ -834,3 +834,17 @@ img { display: block; max-width: 100%; }
   .footer-bottom       { padding: 1.25rem; flex-direction: column; text-align: center; }
   .footer-bottom-links { flex-wrap: wrap; justify-content: center; }
 }
+
+/* ── Services page: detailed offering cards (anchors #web-platforms …) ── */
+.service-details { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+.service-detail { display: flex; flex-direction: column; scroll-margin-top: 96px; }
+.service-detail-label { font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold-hover); margin: 1.1rem 0 0.5rem; }
+.service-detail-list { margin: 0 0 1rem; padding-inline-start: 1.1rem; display: grid; gap: 0.35rem; }
+.service-detail-list li { line-height: 1.5; }
+.service-detail-stack { font-size: 0.9rem; color: var(--text-light, #555); margin: 0 0 1.25rem; }
+.service-detail-cta { margin-top: auto; font-weight: 600; color: var(--navy); text-decoration: none; }
+.service-detail-cta:hover { color: var(--gold-hover); text-decoration: underline; }
+[dir="rtl"] .service-detail-cta { direction: rtl; }
+
+/* Work page: project cards are anchor targets (#nr-bos, #4edoctor, ...) */
+.case-study-card[id] { scroll-margin-top: 96px; }

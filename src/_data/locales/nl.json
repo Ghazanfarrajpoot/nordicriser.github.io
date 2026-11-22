@@ -7,15 +7,27 @@
     "requestQuote": "Vraag een Offerte Aan",
     "signUp": "Aanmelden",
     "builtWith": "Gebouwd met:",
+    "screenshot": "schermafbeelding",
     "startProject": "Start een Project",
     "emailLabel": "E-mail",
     "websiteLabel": "Website",
     "home": "Home",
-    "pricingOnRequest": "Prijzen op aanvraag"
+    "pricingOnRequest": "Prijzen op aanvraag",
+    "priceFormat": "€ {eur} ({sek} SEK)",
+    "company": {
+      "orgNr": "Organisatienr.",
+      "vat": "Btw-nr.",
+      "address": "Adres",
+      "phone": "Telefoon",
+      "email": "E-mail",
+      "registration": "Registratie",
+      "country": "Zweden",
+      "cityCountry": "Stockholm, Zweden"
+    }
   },
   "nav": {
     "home": "Home",
-    "consulting": "Consulting",
+    "consulting": "Advies",
     "itServices": "Diensten",
     "work": "Werk",
     "nrBos": "NR-BOS",
@@ -28,15 +40,13 @@
   "footer": {
     "brandBlurb": "Nordic Riser AB is een softwarestudio in Stockholm die meertalige webplatforms, veilige klantportalen en grensoverschrijdende producten bouwt voor bedrijven die in meer dan één taal actief zijn.",
     "addressHeading": "Statutaire Zetel",
-    "orgNrLabel": "Kvk./Org.nr.",
-    "orgNrValue": "[ORG_NR]",
     "firmHeading": "Kantoor",
     "complianceHeading": "Compliance",
     "disclaimerHeading": "Disclaimer",
     "disclaimer": "Nordic Riser AB levert uitsluitend strategische adviesdiensten. Wij bieden geen juridische vertegenwoordiging, immigratieadvies of garanties op resultaat. Alle beslissingen liggen bij de bevoegde autoriteiten. Compliance staat voorop in alles wat wij doen.",
-    "copyright": "© 2026 Nordic Riser AB. Alle rechten voorbehouden. Stockholm, Sweden.",
+    "copyright": "© 2026 Nordic Riser AB. Alle rechten voorbehouden. Stockholm, Zweden.",
     "divisions": {
-      "consultingHeading": "Consulting",
+      "consultingHeading": "Advies",
       "consultingLinks": [
         { "label": "Bedrijfsvestiging", "anchor": "establishment" },
         { "label": "Bedrijfsoprichting", "anchor": "formation" },
@@ -45,15 +55,17 @@
       ],
       "itServicesHeading": "Diensten",
       "itServicesLinks": [
-        { "label": "Webplatforms & portalen" },
-        { "label": "Automatisering & integraties" },
-        { "label": "Doorlopende ondersteuning" },
+        { "label": "Meertalige webplatforms", "anchor": "web-platforms" },
+        { "label": "Beveiligde klantportalen", "anchor": "portals" },
+        { "label": "Maatwerkproducten & SaaS", "anchor": "products" },
+        { "label": "Automatisering & integraties", "anchor": "automation" },
+        { "label": "Doorlopende ondersteuning", "anchor": "support" },
         { "label": "Offerte aanvragen", "target": "contact" }
       ],
       "globalReachHeading": "Global Reach",
       "globalReachLinks": [
-        { "label": "Hoe het werkt" },
-        { "label": "Abonnementen & prijzen" },
+        { "label": "Hoe het werkt", "anchor": "#how-it-works" },
+        { "label": "Abonnementen & prijzen", "anchor": "#pricing" },
         { "label": "Aan de slag", "external": "https://portal.nordicriser.com" }
       ]
     },
@@ -70,6 +82,248 @@
       "dpa": "Verwerkersovereenkomst",
       "subprocessors": "Subverwerkers",
       "security": "Beveiliging"
+    }
+  },
+  "productOverviews": {
+    "nrBos": {
+      "id": "nr-bos",
+      "eyebrow": "Live product",
+      "title": "Ontdek NR-BOS",
+      "body": "Open de interactieve rondleiding – tien panelen, echte schermen uit het live product.",
+      "cta": "Open de rondleiding",
+      "modalId": "Eigen product · NR-BOS",
+      "modalTitle": "NR-BOS – Interactieve rondleiding",
+      "closeLabel": "Sluiten",
+      "tabsLabel": "Functiecategorieën van NR-BOS",
+      "sliderBeforeLabel": "Voor",
+      "sliderAfterLabel": "Na",
+      "sliderNote": "Sleep om te vergelijken – een echt voor/na-paar uit een werkrapport.",
+      "panels": [
+        {
+          "slug": "dashboard",
+          "icon": "chart",
+          "tabLabel": "Dashboard",
+          "eyebrow": "Overzicht",
+          "title": "Al uw projecten, live in beeld",
+          "body": "Kerncijfers voor de hele portefeuille, budget versus werkelijke uitgaven en voortgang – het eerste wat iedereen ’s ochtends opent.",
+          "features": [
+            "Totaal aantal en actieve projecten, in realtime bijgewerkt",
+            "Voortgangspercentage over de hele portefeuille, automatisch bijgehouden wanneer taken worden afgerond",
+            "Budget en werkelijke kosten naast elkaar",
+            "Winstmarge en rentabiliteit, berekend uit budget en werkelijke kosten – nog niet gekoppeld aan gefactureerde omzet"
+          ],
+          "shots": [
+            {
+              "file": "dashboard-overview.jpg",
+              "alt": "NR-BOS-dashboard met aantal projecten, voortgangspercentage, winstmarge, budget versus werkelijke kosten en een cirkeldiagram van projecten per status"
+            }
+          ]
+        },
+        {
+          "slug": "projects",
+          "icon": "clipboard",
+          "tabLabel": "Projecten",
+          "eyebrow": "Uitvoering",
+          "title": "Elke klus, gevolgd tot op de taak",
+          "body": "Projecten hebben een eigen budget, klant en team. Het werk binnen elk project loopt via een bord met vier kolommen.",
+          "features": [
+            "Te doen, bezig, review, klaar – één bord per project",
+            "Elke taak heeft een verantwoordelijke, een deadline en geschatte uren",
+            "Projectstatus – planning, actief, gepauzeerd, afgerond – in één oogopslag",
+            "Werkorders met prioriteit en geplande datum, zichtbaar in een dag-, week- of maandkalender"
+          ],
+          "shots": [
+            {
+              "file": "projects-list.jpg",
+              "alt": "Lijst van vier NR-BOS-projecten met statuslabels – actief, gepauzeerd, planning en afgerond"
+            },
+            {
+              "file": "project-kanban.jpg",
+              "alt": "Kanbanbord van een project met taken in de kolommen Te doen, Bezig, Review en Klaar"
+            }
+          ]
+        },
+        {
+          "slug": "work-orders",
+          "icon": "pin",
+          "tabLabel": "Werkorders",
+          "eyebrow": "Planning",
+          "title": "Elke opdracht ingepland, toegewezen en gevolgd",
+          "body": "Werkorders hebben een prioriteit, een locatie en een tijdvak – weergegeven in een dag-, week- of maandkalender zodat er niets tussen wal en schip valt.",
+          "features": [
+            "Vier prioriteitsniveaus, van Laag tot Urgent, in één oogopslag",
+            "Een volledige statuscyclus – van Concept via Ingepland, Toegewezen, Bezig en Review tot Afgerond",
+            "Optioneel gekoppelde checklistsjabloon, zodat buitendienstteams elke keer dezelfde stappen volgen"
+          ],
+          "shots": [
+            {
+              "file": "work-orders-list.jpg",
+              "alt": "Lijst van NR-BOS-werkorders met prioriteits- en statuslabels"
+            },
+            {
+              "file": "schedule-month.jpg",
+              "alt": "Maandkalender met werkorders die in september zijn ingepland"
+            }
+          ]
+        },
+        {
+          "slug": "time-tracking",
+          "icon": "clock",
+          "tabLabel": "Uren & goedkeuringen",
+          "eyebrow": "Uren in het veld",
+          "title": "Uren één keer geboekt, goedgekeurd voordat ze meetellen",
+          "body": "Een weekoverzicht om tijd per project te boeken en een aparte goedkeuringswachtrij, gegroepeerd per medewerker en week – niets komt ongecontroleerd in de salarisadministratie of kostenrapportage.",
+          "features": [
+            "Tijd per project en per dag boeken, direct in het weekoverzicht",
+            "Week met één klik indienen; een leidinggevende keurt goed of af met een reden",
+            "Goedkeuringen gegroepeerd per medewerker en week, met lopende totalen"
+          ],
+          "shots": [
+            {
+              "file": "time-weekly-grid.jpg",
+              "alt": "Wekelijkse urenstaat met per dag geboekte uren voor een project"
+            },
+            {
+              "file": "time-approvals.jpg",
+              "alt": "Goedkeuringswachtrij voor uren, gegroepeerd per medewerker en week, met lopende totalen"
+            }
+          ]
+        },
+        {
+          "slug": "checklists",
+          "icon": "check",
+          "tabLabel": "Checklists",
+          "eyebrow": "Vaste stappen",
+          "title": "Dezelfde stappen, elke keer, bij elke klus",
+          "body": "Herbruikbare checklistsjablonen worden aan een werkorder gekoppeld, zodat buitendienstteams dezelfde stappen uitvoeren – en kunnen aantonen dat ze die hebben uitgevoerd – ongeacht wie er op locatie is.",
+          "features": [
+            "Selectievakjes of vrije tekstvelden, elk verplicht of optioneel",
+            "Eén sjabloon, te hergebruiken voor zoveel werkorders als nodig",
+            "Direct gekoppeld bij het aanmaken van een werkorder"
+          ],
+          "shots": [
+            {
+              "file": "checklists-list.jpg",
+              "alt": "Lijst met checklistsjablonen met aantal items en actieve status"
+            },
+            {
+              "file": "checklist-editor.jpg",
+              "alt": "Editor voor checklistsjablonen met als verplicht gemarkeerde selectievakjes en tekstitems"
+            }
+          ]
+        },
+        {
+          "slug": "field-reporting",
+          "icon": "wrench",
+          "tabLabel": "Werkrapporten",
+          "eyebrow": "Op locatie",
+          "title": "Wat er op locatie gebeurde, met bewijs",
+          "body": "Buitendienstteams leggen voortgangsnotities en foto’s direct vanaf de locatie vast – inclusief voor/na-paren voor werk dat makkelijk te beschrijven maar lastig voor te stellen is.",
+          "features": [
+            "Notities gekoppeld aan een specifieke taak, met tijdstempel en geotag",
+            "Voor-, na- en algemene foto’s in elk rapport",
+            "Sleep de schuifregelaar hieronder – een echt voor/na-paar uit een werkrapport"
+          ],
+          "shots": [
+            {
+              "file": "field-report-notes.jpg",
+              "alt": "Item in een werkrapport met een notitie met tijdstempel en een bijgevoegde foto"
+            }
+          ]
+        },
+        {
+          "slug": "client-reports",
+          "icon": "folder",
+          "tabLabel": "Klantrapporten",
+          "eyebrow": "Voor de klant",
+          "title": "Een pdf in uw huisstijl, met één klik gemaakt",
+          "body": "Bundel de taken, kosten en recente locatiefoto’s van een project in een pdf-rapport voor de klant – eerst als concept, daarna gemarkeerd als verzonden.",
+          "features": [
+            "Opmerkingenveld voor een geschreven voortgangstoelichting",
+            "Conceptstatus totdat het rapport klaar is voor de klant",
+            "De gegenereerde pdf bevat automatisch recente foto’s uit werkrapporten"
+          ],
+          "shots": [
+            {
+              "file": "client-report-generate.jpg",
+              "alt": "Dialoogvenster ‘Klantrapport genereren’ met een opmerkingenveld voor de tekst aan de klant"
+            },
+            {
+              "file": "client-report-pdf.jpg",
+              "alt": "Gegenereerd klantrapport als pdf met bedrijfsgegevens, projectinformatie en taakstatus"
+            }
+          ]
+        },
+        {
+          "slug": "analytics",
+          "icon": "target",
+          "tabLabel": "Analyses",
+          "eyebrow": "Team & uitgaven",
+          "title": "Waar de tijd en het geld naartoe gaan",
+          "body": "Werkdruk van het team per status en een volledig kostenoverzicht per categorie – de cijfers achter het dashboard.",
+          "features": [
+            "Werkdrukgrafiek per persoon, verdeeld over te doen, bezig, review en klaar",
+            "Kosten per categorie – materialen, arbeid, onderaannemers, vergunningen",
+            "Resterend budget automatisch berekend bij elke geboekte kostenpost"
+          ],
+          "shots": [
+            {
+              "file": "dashboard-team-workload.jpg",
+              "alt": "Grafiek van de werkdruk van het team met het aantal taken per status voor elk teamlid"
+            },
+            {
+              "file": "project-costs.jpg",
+              "alt": "Kostenoverzicht met gedateerde posten per categorie, lopend budget en resterend saldo"
+            }
+          ]
+        },
+        {
+          "slug": "integrations",
+          "icon": "link",
+          "tabLabel": "Integraties",
+          "eyebrow": "Koppel uw systemen",
+          "title": "Uitgaande webhooks, ondertekend en gebeurtenisgestuurd",
+          "body": "NR-BOS stuurt een ondertekend bericht naar uw endpoint zodra een door u gekozen gebeurtenis plaatsvindt – een afgeronde werkorder, een goedgekeurde urenboeking – zonder dat u hoeft te pollen.",
+          "features": [
+            "Kies bij welke gebeurtenistypen elke webhook moet afgaan",
+            "Pauzeer een abonnement zonder het te verwijderen",
+            "Elk bericht is ondertekend, zodat uw endpoint kan controleren dat het echt van NR-BOS komt"
+          ],
+          "shots": [
+            {
+              "file": "integrations-webhooks.jpg",
+              "alt": "Actief uitgaand webhookabonnement met geselecteerde gebeurtenistypen"
+            }
+          ]
+        },
+        {
+          "slug": "licensing",
+          "icon": "lock",
+          "tabLabel": "Team & licenties",
+          "eyebrow": "Toegang & facturatie",
+          "title": "Toegang op basis van rollen, licentie via code",
+          "body": "Beheerders, projectleiders, buitendienstmedewerkers en klanten zien alleen wat voor hen bedoeld is. De toegang zelf werkt met inwisselbare abonnementscodes – zonder betaalprovider.",
+          "features": [
+            "Vier rollen, elk met een eigen weergave van het product",
+            "Abonnementsstatus en verlengingsdatum in één oogopslag",
+            "Licentiecodes in batches gegenereerd en één keer per bedrijf ingewisseld"
+          ],
+          "shots": [
+            {
+              "file": "team-users.jpg",
+              "alt": "Gebruikerslijst van het bedrijf met namen, e-mailadressen, rollen en status actief/inactief"
+            },
+            {
+              "file": "subscription-plan.jpg",
+              "alt": "Actief abonnement met verlengingsdatum en een veld om een licentiecode in te wisselen"
+            },
+            {
+              "file": "license-batches.jpg",
+              "alt": "Lijst met licentiebatches met niveau, aantal inwisselingen en aanmaakdatum"
+            }
+          ]
+        }
+      ]
     }
   },
   "pages": {
@@ -91,14 +345,14 @@
         "items": [
           { "tag": "Software", "icon": "code", "variant": "it", "title": "Wij Bouwen de Technologie", "body": "Systemen op maat, SaaS-producten, veilige portalen, automatisering en API's — intern ontworpen en gebouwd, niet uitbesteed.", "cta": "Start een Softwareproject", "link": "services" },
           { "tag": "NR-BOS", "icon": "gear", "variant": "global", "title": "Wij Runnen de Operatie", "body": "Ons vlaggenschipproduct voor projectlevering, veldwerk en klantrapportage. Operaties op ondernemingsniveau zonder de complexiteit van een traditioneel ERP-systeem.", "cta": "Ontdek NR-BOS", "link": "work/nr-bos" },
-          { "tag": "Consulting", "icon": "handshake", "variant": "consulting", "title": "Wij Begeleiden de Expansie", "body": "Advies voor internationale ondernemers en bedrijven die compliant bedrijfsstructuren opzetten en beheren in Europa.", "cta": "Boek een Consult", "link": "consulting" }
+          { "tag": "Advies", "icon": "handshake", "variant": "consulting", "title": "Wij Begeleiden de Expansie", "body": "Advies voor internationale ondernemers en bedrijven die compliant bedrijfsstructuren opzetten en beheren in Europa.", "cta": "Boek een Consult", "link": "consulting" }
         ]
       },
       "proofBar": {
         "stats": [
-          { "value": "11", "label": "Talen Uitgebracht in Productie" },
-          { "value": "5", "label": "Intern Gebouwde Producten" },
-          { "value": "Stockholm, Sweden", "label": "Gevestigd in" },
+          { "value": "%%languagesShipped%%", "label": "Talen Uitgebracht in Productie" },
+          { "value": "%%products.count%%", "label": "Intern Gebouwde Producten" },
+          { "value": "Stockholm, Zweden", "label": "Gevestigd in" },
           { "value": "Ontwerp → Bouw → Support", "label": "Aanpak" }
         ]
       },
@@ -107,8 +361,8 @@
         "title": "Vier Dingen die Wij Goed Doen",
         "cards": [
           { "icon": "globe", "title": "Meertalige Webplatforms", "body": "Productiewebsites die zijn gebouwd om te werken op elke markt die u bedient. Correcte hreflang, RTL-ondersteuning, gelokaliseerde contentstructuur — geen machinaal vertaalde bijgedachten.", "builtWith": "Statische site-generatie, CDN-levering, laadtijden onder de seconde" },
-          { "icon": "lock", "title": "Veilige Klantportalen", "body": "Geauthenticeerde portalen voor documentuitwisseling, zaakopvolging en klantcommunicatie. Rolgebaseerde toegang, versleutelde opslag, audit trails.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
-          { "icon": "code", "title": "Producten op Maat & SaaS", "body": "Volledige productontwikkeling, van concept tot lancering. Realtime functies, abonnementsfacturering, beheertools.", "seeLabel": "Zie:", "seeText": "Global Reach — ons eigen samenwerkingsplatform met live vertaling", "seeLink": "global-reach" },
+          { "icon": "lock", "title": "Veilige Klantportalen", "body": "Geauthenticeerde portalen voor documentuitwisseling, zaakopvolging en klantcommunicatie. Toegang op basis van rollen, gegevensregels die op de server worden afgedwongen, privébestandsopslag en activiteitenregistratie in het Ledenportaal.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
+          { "icon": "code", "title": "Producten op Maat & SaaS", "body": "Volledige productontwikkeling, van concept tot lancering. Realtime functies, abonnementsfacturering, beheertools.", "seeLabel": "Zie:", "seeText": "Global Reach — onze eigen live studie- en werkruimtes, met realtime aanwezigheid en gedeelde sessienotities", "seeLink": "global-reach" },
           { "icon": "gear", "title": "Automatisering & Integraties", "body": "Verbind de tools die u al gebruikt. Elimineer handmatige dubbele invoer. Automatiseer de workflows die de week van uw team opslokken.", "builtWith": "API's, webhooks, serverloze functies" }
         ]
       },
@@ -116,13 +370,13 @@
         "label": "Geselecteerd Werk",
         "title": "Wat Wij Hebben Gebouwd",
         "items": [
-          { "type": "SaaS-product (Intern)", "title": "NR-BOS", "featured": true, "featuredLabel": "Vlaggenschipproduct", "oneLiner": "Projectuitvoering, veldwerk en klantrapportages — alles op één platform, gebouwd en gelicentieerd door Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS-product (Intern)", "title": "Global Reach", "oneLiner": "Live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities, per minuut gefactureerd.", "link": "global-reach" },
-          { "type": "Veilig Klantportaal", "title": "Nordic Riser Ledenportaal", "oneLiner": "Een geauthenticeerd portaal voor documentuitwisseling, zaakopvolging, veilige berichten en betalingen.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
-          { "type": "Meertalig Marketingplatform", "title": "nordicriser.com", "oneLiner": "Een productiesite in elf talen met RTL-ondersteuning, volledige metadekking en schone URL's per taal.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
-          { "type": "Zorg-app", "title": "Telemedicine-app", "oneLiner": "Een telemedicineplatform dat we volledig zelf hebben gebouwd — HD-videoconsulten, afsprakenplanning en chat tijdens het gesprek — klaar om aan te passen voor elk zorgmerk.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
-          { "type": "Apotheekverwerkings-app", "title": "Apotheekplatform", "oneLiner": "Een apotheekverwerkingssysteem dat we hebben gebouwd en dat recepten koppelt aan verwerking en bezorging, klaar om aan te passen voor elke exploitant.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
-          { "type": "Bezorgapp (Intern)", "title": "On-Demand Delivery App", "oneLiner": "Een aanpasbaar bezorgplatform voor bestellen, dispatch en bezorgertracking, geschikt voor elk bedrijf.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" }
+          { "type": "SaaS-product (Intern)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Vlaggenschipproduct", "oneLiner": "Projectuitvoering, veldwerk en klantrapportages — alles op één platform, gebouwd en gelicentieerd door Nordic Riser AB.", "link": "work/nr-bos" },
+          { "type": "SaaS-product (Intern)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities, met maandabonnementen inclusief sessieminuten – op elk moment bij te vullen.", "link": "global-reach" },
+          { "type": "Veilig Klantportaal (Intern)", "id": "member-portal", "title": "Nordic Riser Ledenportaal", "oneLiner": "Een geauthenticeerd portaal voor documentuitwisseling, zaakopvolging, veilige berichten en betalingen.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
+          { "type": "Meertalig Marketingplatform (Intern)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Een productiesite in elf talen met RTL-ondersteuning, volledige metadekking en schone URL's per taal.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
+          { "type": "Zorg-app (Intern)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Een telemedicineplatform dat we volledig zelf hebben gebouwd — HD-videoconsulten, afsprakenplanning en chat tijdens het gesprek — klaar om aan te passen voor elk zorgmerk.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
+          { "type": "Apotheekverwerkingsplatform (Intern)", "id": "4ezone-pharmacy", "title": "%%products.items.5.name%%", "oneLiner": "Een apotheekverwerkingssysteem dat we hebben gebouwd en dat recepten koppelt aan verwerking en bezorging, klaar om aan te passen voor elke exploitant.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
+          { "type": "Bezorgapp (Intern)", "id": "delivery-app", "title": "On-demand bezorgapp", "oneLiner": "Een aanpasbaar bezorgplatform voor bestellen, dispatch en bezorgertracking, geschikt voor elk bedrijf.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" }
         ],
         "cta": "Bekijk Al Ons Werk",
         "ctaLink": "work"
@@ -134,9 +388,11 @@
         "bullets": [
           "Gedeelde sessienotities voor live samenwerking",
           "Realtime aanwezigheid — zie wie er in de ruimte is",
-          "Abonnementen vanaf $29/maand, per minuut gefactureerd"
+          "Maandabonnementen vanaf € %%pricing.globalReach.basic.eur%% (%%pricing.globalReach.basic.sek%% SEK) inclusief sessieminuten – op elk moment bij te vullen"
         ],
-        "cta": "Aan de slag"
+        "cta": "Aan de slag",
+        "priceBulletIndex": 2,
+        "priceBulletNoAmount": "Maandabonnementen inclusief sessieminuten – op elk moment bij te vullen"
       },
       "howWeWork": {
         "label": "Proces",
@@ -170,7 +426,7 @@
               },
               {
                 "category": "Authenticatie & Beveiliging",
-                "items": "Firebase Authentication, rolgebaseerde toegangscontrole, versleutelde opslag"
+                "items": "Firebase Authentication, rolgebaseerde toegangscontrole, gegevensregels die op de server worden afgedwongen"
               }
             ]
           },
@@ -198,7 +454,7 @@
         ],
         "practices": {
           "category": "Werkwijzen",
-          "items": "Git-versiebeheer, gefaseerde implementaties, AVG-conforme gegevensverwerking"
+          "items": "Git-versiebeheer, gefaseerde implementaties, gegevensverwerking ontworpen met de AVG in gedachten"
         }
       },
       "whyUs": {
@@ -242,12 +498,13 @@
           "link": "services"
         },
         "consulting": {
-          "title": "Consulting",
+          "title": "Advies",
           "body": "Bedrijfsvestiging en grensoverschrijdend advies voor internationale ondernemers — onze oorspronkelijke praktijk, vandaag nog steeds actief.",
           "cta": "Ontdek Consulting",
           "link": "consulting"
         }
       },
+      "founder": { "label": "De oprichter", "role": "Oprichter & CEO", "linkedinLabel": "LinkedIn-profiel" },
       "whyWeExist": {
         "label": "Waar Wij Begonnen — Onze Consultingpraktijk",
         "title": "Ontworpen om een Reële Leemte in Internationaal Advies te Vullen",
@@ -356,13 +613,14 @@
         "errorText": "Er is iets misgegaan. Probeer het opnieuw of e-mail ons rechtstreeks.",
         "submit": "Verstuur Aanvraag voor Consult →"
       },
-      "success": { "title": "Aanvraag Ontvangen", "body": "Hartelijk dank voor uw aanvraag voor een consult. Een lid van ons adviesteam beoordeelt uw gegevens en reageert binnen 1–2 werkdagen." },
+      "booking": {
+        "heading": "Liever eerst even praten?",
+        "body": "Kies een moment dat u uitkomt voor een kort kennismakingsgesprek.",
+        "button": "Plan een gesprek van 20 minuten"
+      },
+      "success": { "title": "Aanvraag Ontvangen", "body": "Hartelijk dank voor uw aanvraag. Wij beoordelen uw gegevens en reageren binnen 1–2 werkdagen." },
       "sidebar": {
         "directContactHeading": "Rechtstreeks Contact",
-        "phoneLabel": "Telefoon",
-        "phoneValue": "[PHONE_NUMBER]",
-        "addressLabel": "Adres",
-        "addressValue": "[STREET_ADDRESS], Stockholm, Zweden",
         "hoursLabel": "Openingstijden",
         "hoursValue": "Maandag – vrijdag, 09:00 – 17:00 CET",
         "nextHeading": "Wat Er Vervolgens Gebeurt",
@@ -374,20 +632,12 @@
         ],
         "noteHeading": "Let Op",
         "noteBody": "Wij beoordelen alle aanvragen voordat consulten worden bevestigd. Wij werken met klanten wier situatie past bij onze dienstverlening — als dat bij u niet het geval is, laten wij dit weten en verwijzen wij, waar mogelijk, naar een geschiktere bron."
-      },
-      "closing": {
-        "label": "Waarom een Gestructureerd Consult",
-        "title": "Wij Bieden Geen Generiek Advies",
-        "paragraphs": [
-          "Elk consult bij Nordic Riser AB begint met een grondige beoordeling van uw specifieke situatie. Wij bieden geen standaardantwoorden of kant-en-klare begeleiding. Voordat er een strategische aanbeveling wordt gedaan, nemen wij de tijd om uw professionele achtergrond, uw bedrijfsmodel en uw langetermijndoelstellingen te begrijpen.",
-          "Als u serieus overweegt een juridisch gestructureerde bedrijfsaanwezigheid in Europa op te bouwen en bereid bent professioneel met dit proces om te gaan, nodigen wij u van harte uit om contact op te nemen. Onze consulten zijn een werksessie — geen verkoopgesprek."
-        ]
       }
     },
 
     "consulting": {
-      "hero": { "label": "Consulting", "h1": "Strategisch Advies voor Internationale Bedrijfsvestiging", "body": "Wij bieden gestructureerd, professioneel advies op vijf kerngebieden — elk ontworpen om ondernemers en professionals te ondersteunen bij het opbouwen van een compliant bedrijfsaanwezigheid in Europa." },
-      "breadcrumb": "Consulting",
+      "hero": { "label": "Advies", "h1": "Strategisch Advies voor Internationale Bedrijfsvestiging", "body": "Wij bieden gestructureerd, professioneel advies op vijf kerngebieden — elk ontworpen om ondernemers en professionals te ondersteunen bij het opbouwen van een compliant bedrijfsaanwezigheid in Europa." },
+      "breadcrumb": "Advies",
       "servicesLabel": "Wat Wij Bieden",
       "servicesTitle": "Vijf Kerngebieden van Dienstverlening",
       "servicesSub": "Elke dienst die wij leveren, wordt uitgevoerd volgens een gestructureerde consultingmethodologie — individueel beoordeeld, formeel gedocumenteerd en waar nodig gecoördineerd met gekwalificeerde professionele partners.",
@@ -507,7 +757,35 @@
           { "name": "Doorlopend Advies", "body": "Voortgezette strategische ondersteuning na uw eerste vestiging — voor evoluerende bedrijfsbehoeften, grensoverschrijdende vraagstukken of expansieplanning." }
         ]
       },
-      "cta": { "title": "Bespreek Uw Behoeften", "body": "Als u van plan bent een bedrijfsaanwezigheid in Europa op te zetten, nodigen wij u uit voor een consult. Wij beoordelen uw situatie en bieden een helder, gestructureerd overzicht van het traject en de diensten die relevant zijn voor uw doelstellingen." }
+      "deliverables": {
+        "label": "Wat u ontvangt",
+        "title": "Concrete resultaten uit elke opdracht",
+        "sub": "Advies van Nordic Riser levert specifieke, bruikbare resultaten op – niet alleen een gesprek.",
+        "items": [
+          "Een gedocumenteerd strategisch kader, specifiek voor uw bedrijf, doelstellingen en randvoorwaarden",
+          "Een gestructureerd ondernemingsplan of oprichtingsstrategie, waar relevant opgesteld volgens institutionele normen",
+          "Een schriftelijke samenvatting van aanbevelingen en vervolgstappen in elke fase van de opdracht",
+          "Afstemming met gekwalificeerde juridische, boekhoudkundige of gespecialiseerde professionals wanneer uw situatie dat vraagt",
+          "Doorlopende advisering naarmate uw bedrijf of omstandigheden veranderen"
+        ]
+      },
+      "boundaries": {
+        "label": "Professionele grenzen",
+        "title": "Wat wij wel – en niet – zijn",
+        "body": [
+          "Wij geven geen immigratieadvies en bieden geen juridische vertegenwoordiging. Wij leveren het strategische adviskader waarbinnen gekwalificeerde specialisten effectief kunnen werken.",
+          "Waar juridische, fiscale of regelgevende specialistische inbreng nodig is – zoals vaak bij relocatie en grensoverschrijdende zaken – coördineren wij de inzet van gekwalificeerde professionals, die dat werk binnen hun eigen bevoegdheid uitvoeren."
+        ]
+      },
+      "cta": { "title": "Bespreek Uw Behoeften", "body": "Als u van plan bent een bedrijfsaanwezigheid in Europa op te zetten, nodigen wij u uit voor een consult. Wij beoordelen uw situatie en bieden een helder, gestructureerd overzicht van het traject en de diensten die relevant zijn voor uw doelstellingen." },
+      "closing": {
+        "label": "Waarom een Gestructureerd Consult",
+        "title": "Wij Bieden Geen Generiek Advies",
+        "paragraphs": [
+          "Elk consult bij Nordic Riser AB begint met een grondige beoordeling van uw specifieke situatie. Wij bieden geen standaardantwoorden of kant-en-klare begeleiding. Voordat er een strategische aanbeveling wordt gedaan, nemen wij de tijd om uw professionele achtergrond, uw bedrijfsmodel en uw langetermijndoelstellingen te begrijpen.",
+          "Als u serieus overweegt een juridisch gestructureerde bedrijfsaanwezigheid in Europa op te bouwen en bereid bent professioneel met dit proces om te gaan, nodigen wij u van harte uit om contact op te nemen. Onze consulten zijn een werksessie — geen verkoopgesprek."
+        ]
+      }
     },
     "itServices": {
       "meta": {
@@ -517,14 +795,78 @@
       "hero": { "label": "Diensten", "h1": "Webplatforms, Portalen & Software op Maat", "body": "Meertalige websites, veilige klantportalen, productontwikkeling op maat en workflow-automatisering. Gebouwd in Stockholm, geleverd wereldwijd." },
       "breadcrumb": "Diensten",
       "offeringsLabel": "Wat Wij Bouwen",
-      "offeringsTitle": "Vier Kernaanbiedingen",
+      "offeringsTitle": "Vijf Kernaanbiedingen",
       "offeringsSub": "Van een eerste bedrijfswebsite tot de systemen die de dagelijkse bedrijfsvoering draaiende houden — wij bouwen technologie die past bij de schaal en fase van uw onderneming.",
       "offerings": [
-        { "icon": "globe", "title": "Webplatforms en Bedrijfswebsites", "body": "Professioneel ontworpen, meertalige websites die uw bedrijf vanaf dag één een geloofwaardige, gestructureerde online aanwezigheid geven." },
-        { "icon": "lock", "title": "Klant- en Bedrijfsportalen", "body": "Beveiligde ledenmodules en klantportalen voor het beheren van documenten, communicatie en de status van zaken of projecten, allemaal op één plek." },
-        { "icon": "gear", "title": "Workflow-automatisering en Integraties", "body": "Automatisering van repetitief operationeel werk en integratie tussen de tools die uw bedrijf al gebruikt." },
-        { "icon": "wrench", "title": "Doorlopend Onderhoud en Ondersteuning", "body": "Voortdurende technische ondersteuning, updates en monitoring na de lancering, zodat uw platform betrouwbaar blijft naarmate uw bedrijf groeit." }
+        {
+          "id": "web-platforms",
+          "icon": "globe",
+          "title": "Meertalige webplatforms",
+          "body": "Productiewebsites gebouwd voor elke markt die u bedient, met echte taalversies, ondersteuning voor rechts-naar-links waar nodig en snelle laadtijden wereldwijd.",
+          "included": [
+            "Taalspecifieke URL’s en hreflang voor zoekmachines",
+            "Rechts-naar-links-lay-outs voor Arabisch, Urdu en vergelijkbare talen",
+            "Gestructureerde content die eenvoudig bij te werken en uit te breiden is",
+            "Metatags en voorbeeldweergaven voor sociale media in elke taal"
+          ],
+          "stack": "Eleventy of Next.js, CDN-hosting, publicatie via Git"
+        },
+        {
+          "id": "portals",
+          "icon": "lock",
+          "title": "Beveiligde klantportalen",
+          "body": "Portalen met inlog waar klanten documenten uitwisselen, hun dossier of project volgen en uw team berichten sturen, op één plek in plaats van in e-mailketens.",
+          "included": [
+            "Toegang op basis van rollen voor klanten, medewerkers en beheerders",
+            "Gegevensregels die op de server worden afgedwongen, zodat elke gebruiker alleen zijn eigen gegevens ziet",
+            "Privéopslag voor documenten en uploads",
+            "Activiteitenregistratie in het Ledenportaal"
+          ],
+          "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
+        },
+        {
+          "id": "products",
+          "icon": "code",
+          "title": "Maatwerkproducten & SaaS",
+          "body": "Volledige productontwikkeling van concept tot lancering, voor een eigen productlijn.",
+          "included": [
+            "Productafbakening en een gefaseerd bouwplan",
+            "Abonnementen en facturatie",
+            "Beheerdashboards en interne tools",
+            "Realtime functies zoals live aanwezigheid"
+          ],
+          "stack": "React, Next.js, NestJS, PostgreSQL, Firebase"
+        },
+        {
+          "id": "automation",
+          "icon": "gear",
+          "title": "Automatisering & integraties",
+          "body": "Verbind de tools die u al gebruikt en haal handmatig overtypen uit de werkprocessen die de week van uw team opslokken.",
+          "included": [
+            "Integraties tussen website, CRM, boekhouding en e-mailtools",
+            "Automatische meldingen, rapporten en gegevenssynchronisatie",
+            "Webhooks en geplande taken",
+            "Heldere documentatie van elke geautomatiseerde stap"
+          ],
+          "stack": "REST-API’s, webhooks, serverless functies, geplande taken"
+        },
+        {
+          "id": "support",
+          "icon": "wrench",
+          "title": "Doorlopende ondersteuning",
+          "body": "Technische ondersteuning, updates en monitoring na de lancering, zodat uw platform betrouwbaar blijft terwijl uw bedrijf groeit.",
+          "included": [
+            "Beveiligings- en afhankelijkheidsupdates",
+            "Monitoring en probleemoplossing",
+            "Bugfixes en kleine verbeteringen",
+            "Beheer van hosting en domeinen"
+          ],
+          "stack": "Monitoring, foutopsporing, beheerde hosting (Vercel, Firebase, GitHub Pages)"
+        }
       ],
+      "offeringCta": "Bespreek deze dienst",
+      "stackLabel": "Typische technologie",
+      "includedLabel": "Wat is inbegrepen",
       "howWeWorkLabel": "Hoe Wij Werken",
       "howWeWorkTitle": "Een Gestructureerd Traject van Idee tot Lancering",
       "howWeWorkSub": "Dezelfde discipline die wij toepassen op consultingtrajecten, passen wij ook toe op de manier waarop wij technologie plannen en bouwen.",
@@ -555,14 +897,15 @@
     "work": {
       "meta": {
         "title": "Ons Werk — Platforms, Portalen & Producten — Nordic Riser AB",
-        "description": "Geselecteerde projecten van Nordic Riser AB — waaronder NR-BOS, ons vlaggenschipplatform voor bedrijfsvoering, een samenwerkingsplatform met realtime vertaling en een veilig klantportaal."
+        "description": "Geselecteerde projecten van Nordic Riser AB — waaronder NR-BOS, ons vlaggenschipplatform voor bedrijfsvoering, live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities, en een veilig klantportaal."
       },
       "hero": { "label": "Geselecteerd Werk", "h1": "Wat Wij Hebben Gebouwd", "body": "Platforms, portalen en producten die wij hebben ontworpen, gebouwd en uitgebracht — inclusief onze eigen." },
       "breadcrumb": "Werk",
       "caseStudies": [
         {
           "type": "SaaS-product (Intern)",
-          "title": "NR-BOS",
+          "id": "nr-bos",
+          "title": "%%products.items.0.name%%",
           "featured": true,
           "featuredLabel": "Vlaggenschipproduct",
           "challengeLabel": "Uitdaging",
@@ -578,20 +921,23 @@
         },
         {
           "type": "SaaS-product (Intern)",
-          "title": "Global Reach",
+          "id": "global-reach",
+          "title": "%%products.items.1.name%%",
           "challengeLabel": "Uitdaging",
           "challenge": "Teams die grensoverschrijdend werken hebben een gedeelde ruimte nodig om live samen te studeren of te werken, zonder een gesprek te boeken of te schakelen tussen losse tools.",
           "buildLabel": "Bouw",
-          "build": "Open studie- en werkruimtes met live aanwezigheid en gedeelde sessienotities, per minuut gefactureerd.",
+          "build": "Live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities, met maandabonnementen inclusief sessieminuten – op elk moment bij te vullen.",
           "stackLabel": "Techniek",
           "stack": ["React", "Firebase Realtime Database", "Abonnementsfacturering"],
           "resultLabel": "Resultaat",
-          "result": "Live product met betaalde abonnementen vanaf $29/maand.",
+          "result": "Live product met maandabonnementen vanaf € %%pricing.globalReach.basic.eur%% (%%pricing.globalReach.basic.sek%% SEK).",
+          "resultNoAmount": "Live product met maandabonnementen.",
           "link": "global-reach",
           "linkLabel": "Bekijk het Product"
         },
         {
-          "type": "Veilig Klantportaal",
+          "type": "Veilig Klantportaal (Intern)",
+          "id": "member-portal",
           "title": "Nordic Riser Ledenportaal",
           "challengeLabel": "Uitdaging",
           "challenge": "Adviesklanten hadden één plek nodig voor documenten, zaakstatus en communicatie — met strikte toegangscontrole.",
@@ -603,20 +949,22 @@
           "result": "Live op portal.nordicriser.com met een eigen domein en automatische SSL."
         },
         {
-          "type": "Meertalig Marketingplatform",
-          "title": "nordicriser.com",
+          "type": "Meertalig Marketingplatform (Intern)",
+          "id": "nordicriser-com",
+          "title": "%%products.items.3.name%%",
           "challengeLabel": "Uitdaging",
           "challenge": "Ondernemers bereiken in heel Europa, het Midden-Oosten en Zuid-Azië, in hun eigen taal.",
           "buildLabel": "Bouw",
-          "build": "Productiesite in elf talen met per-taal URL-structuur, RTL-ondersteuning voor Arabisch en Urdu, volledige meta- en Open Graph-dekking, en een AVG-conform privacykader.",
+          "build": "Productiesite in elf talen met per-taal URL-structuur, RTL-ondersteuning voor Arabisch en Urdu, volledige meta- en Open Graph-dekking, en een privacykader ontworpen met de AVG in gedachten.",
           "stackLabel": "Techniek",
           "stack": ["Statische generatie", "CDN", "Gestructureerde i18n-routering"],
           "resultLabel": "Resultaat",
           "result": "Elke pagina beschikbaar in 11 talen met schone, indexeerbare URL's."
         },
         {
-          "type": "Zorg-app",
-          "title": "Telemedicine-app",
+          "type": "Zorg-app (Intern)",
+          "id": "4edoctor",
+          "title": "%%products.items.4.name%%",
           "challengeLabel": "Uitdaging",
           "challenge": "Patiënten hadden toegang nodig tot medische consulten — met artsen, psychologen en verpleegkundigen — zonder de wachttijden en frictie van fysieke bezoeken.",
           "buildLabel": "Bouw",
@@ -627,8 +975,9 @@
           "result": "Een werkend telemedicineplatform, volledig door ons gebouwd en klaar om aan te passen voor elk zorgmerk."
         },
         {
-          "type": "Apotheekverwerkings-app",
-          "title": "Apotheekplatform",
+          "type": "Apotheekverwerkingsplatform (Intern)",
+          "id": "4ezone-pharmacy",
+          "title": "%%products.items.5.name%%",
           "challengeLabel": "Uitdaging",
           "challenge": "Patiënten met een doktersrecept hadden geen snelle manier om hun medicatie te laten verwerken en bezorgen.",
           "buildLabel": "Bouw",
@@ -640,7 +989,8 @@
         },
         {
           "type": "Bezorgapp (Intern)",
-          "title": "On-Demand Delivery App",
+          "id": "delivery-app",
+          "title": "On-demand bezorgapp",
           "challengeLabel": "Uitdaging",
           "challenge": "Bedrijven in verschillende sectoren hadden on-demand bezorging nodig — bestellen, dispatch en realtime tracking — zonder logistieke infrastructuur vanaf nul te bouwen.",
           "buildLabel": "Bouw",
@@ -651,7 +1001,7 @@
           "result": "Een herbruikbaar bezorgplatform klaar om aangepast en uitgerold te worden voor klantbedrijven."
         }
       ],
-      "note": "Dit zijn systemen die we van begin tot eind hebben ontworpen en gebouwd — sommige draaien vandaag als onze eigen producten, andere zijn gebouwd voor klanten om onder hun eigen merk te exploiteren.",
+      "note": "%%products.count%% platforms die we hebben gebouwd, beheren en kunnen aanpassen voor uw bedrijf.",
       "cta": { "title": "Heeft u een Project in Gedachten?", "body": "Vertel ons wat u bouwt. Wij komen terug met een duidelijke scope, een realistische planning en een vaste prijs.", "cta": "Start een Project" }
     },
     "nrBos": {
@@ -667,103 +1017,6 @@
       },
       "breadcrumb": "NR-BOS",
       "backLink": "Terug naar Werk",
-      "tour": [
-        {
-          "eyebrow": "Overzicht",
-          "title": "Een live beeld van elk project",
-          "body": "Portefeuillebrede KPI's, budget versus werkelijke uitgaven en teambelasting — het eerste wat iedereen elke ochtend opent.",
-          "shots": [
-            {
-              "file": "dashboard-overview.jpg",
-              "caption": "Dashboard — portefeuille-KPI's en budget vs. werkelijk"
-            },
-            {
-              "file": "dashboard-team-workload.jpg",
-              "caption": "Dashboard — teambelasting per status"
-            }
-          ]
-        },
-        {
-          "eyebrow": "Projecten",
-          "title": "Elke klus, gevolgd tot op de taak",
-          "body": "Projecten hebben hun eigen budget, klant en team. Het werk binnen elk project draait op een bord met vier kolommen — te doen, bezig, beoordeling, klaar.",
-          "shots": [
-            {
-              "file": "projects-list.jpg",
-              "caption": "Projecten — portefeuille in één oogopslag"
-            },
-            {
-              "file": "project-kanban.jpg",
-              "caption": "Projectdetail — takenbord"
-            }
-          ]
-        },
-        {
-          "eyebrow": "Urenregistratie",
-          "title": "Uren eenmalig vastgelegd, overal betrouwbaar",
-          "body": "Een veldmedewerker start en pauzeert een timer vanaf de telefoon op locatie; het kantoor corrigeert of vult hiaten aan op een weekrooster. Elke registratie doorloopt ingediend, goedgekeurd of afgewezen voordat deze iets stroomafwaarts beïnvloedt."
-        },
-        {
-          "eyebrow": "Budget",
-          "title": "Uitgaven bijgehouden tegen budget, per categorie",
-          "body": "Elke kostenpost — materiaal, arbeid, onderaannemers, vergunningen — telt in realtime op tegen het projectbudget. De arbeidskosten zelf worden afgeleid uit goedgekeurde tijdregistraties tegen het tarief van elke medewerker op het moment dat het werk werd verricht, niet handmatig ingevoerd — en omdat tarieven gehistoriseerd zijn, herschrijft een loonsverhoging volgend kwartaal nooit stilzwijgend wat een klus vorig kwartaal kostte. De meeste tools overschrijven het tarief ter plekke en corrumperen stilzwijgend de cijfers van vorig kwartaal; deze niet.",
-          "shots": [
-            {
-              "file": "project-costs.jpg",
-              "caption": "Projectdetail — kostenboek"
-            }
-          ]
-        },
-        {
-          "eyebrow": "Veldwerk",
-          "title": "Wat er op locatie is gebeurd, met bewijs",
-          "body": "Veldteams leggen voortgangsnotities en foto's direct vanaf de locatie vast — inclusief gepaarde voor/na-foto's voor werk dat makkelijk te beschrijven maar moeilijk voor te stellen is.",
-          "shots": [
-            {
-              "file": "field-report-notes.jpg",
-              "caption": "Veldrapporten — locatienotities en foto's"
-            },
-            {
-              "file": "field-report-before-after.jpg",
-              "caption": "Veldrapport — voor / na"
-            }
-          ]
-        },
-        {
-          "eyebrow": "Klantrapporten",
-          "title": "Een gebrandmerkte PDF, met één klik gegenereerd",
-          "body": "Trek de taken, kosten en recente veldfoto's van een project in een klantklaar PDF-rapport — eerst als concept, daarna gemarkeerd als verzonden zodra het klaar is.",
-          "shots": [
-            {
-              "file": "client-report-generate.jpg",
-              "caption": "Een klantrapport genereren"
-            },
-            {
-              "file": "client-report-pdf.jpg",
-              "caption": "Gegenereerd klantrapport (PDF)"
-            }
-          ]
-        },
-        {
-          "eyebrow": "Team & licenties",
-          "title": "Rolgebaseerde toegang, gelicentieerd via code",
-          "body": "Beheerders, projectleiders, veldmedewerkers en klanten zien elk alleen wat van hen is. Toegang zelf draait op inwisselbare abonnementscodes, in batches uitgegeven — geen betalingsverwerker nodig.",
-          "shots": [
-            {
-              "file": "team-users.jpg",
-              "caption": "Gebruikers — bedrijfsbezetting en rollen"
-            },
-            {
-              "file": "subscription-plan.jpg",
-              "caption": "Abonnement — actief plan"
-            },
-            {
-              "file": "license-batches.jpg",
-              "caption": "Licentiebatches — inwisselcodes"
-            }
-          ]
-        }
-      ],
       "workflow": {
         "label": "Hoe het echt werkt",
         "title": "Van plan tot klantrapport — één verbonden flow",
@@ -977,11 +1230,12 @@
         "body": "Doe mee aan live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities — gemaakt voor samenwerken over tijdzones en talen heen.",
         "ctaPrimary": "Aan de slag",
         "ctaSecondary": "Bekijk hoe het werkt",
-        "trustLine": "Geen creditcard nodig · Altijd opzegbaar · AVG-conform",
+        "trustLine": "Geen creditcard nodig · Altijd opzegbaar · Ontworpen met de AVG in gedachten",
         "earlyAccessBadge": "Nu in Vroege Toegang",
         "mockCaption": "Probeer het — typ een notitie en zie de aanwezigheid live bijwerken",
         "visual": {
           "notesLabel": "Gedeelde Sessienotities",
+          "illustrativeLabel": "Illustratieve weergave",
           "demoPlaceholder": "Typ hier een notitie…",
           "demoAriaLabel": "Probeer het gedeelde notitiepaneel (alleen demo — wordt niet opgeslagen)",
           "participants": [
@@ -1035,10 +1289,10 @@
       "plansTitle": "Eenvoudige Abonnementen, Transparante Prijzen",
       "plansSub": "Elk abonnement omvat volledige toegang tot ruimtes en gedeelde notities — abonnementen verschillen alleen in de maandelijkse sessieminutenlimiet.",
       "plans": [
-        {"name": "Basic", "price": "29", "period": "/ maand", "features": ["2 uur live sessies / maand", "Volledige toegang tot rooms en gedeelde notities", "Onbeperkt opgeslagen sessienotities"], "popular": false},
-        {"name": "Pro", "price": "79", "period": "/ maand", "features": ["10 uur live sessies / maand", "Prioriteitsondersteuning", "Alle Basic-functies"], "popular": true}
+        {"name": "Basic", "id": "basic", "period": "/ maand", "features": ["2 uur live sessies / maand", "Volledige toegang tot rooms en gedeelde notities", "Onbeperkt opgeslagen sessienotities"], "popular": false},
+        {"name": "Pro", "id": "pro", "period": "/ maand", "features": ["10 uur live sessies / maand", "Prioriteitsondersteuning", "Alle Basic-functies"], "popular": true}
       ],
-      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "_syncNote": "Plan names and session-minute allowances mirror nordic-riser-portal DEFAULT_PLANS (2026-09-09); there is no free tier. Prices are NOT here: they come from src/_data/facts.json (pricing.globalReach), formatted per language by common.priceFormat.",
       "limitNote": "Heeft u meer sessieminuten nodig dan uw abonnement omvat? U kunt uw account altijd bijvullen.",
       "faqLabel": "Veelgestelde Vragen",
       "faqTitle": "Veelgestelde Vragen",
@@ -1047,11 +1301,11 @@
         { "q": "Wat gebeurt er als mijn maandelijkse minuten op zijn?", "a": "Uw ruimtes en gedeelde notities blijven volledig toegankelijk. Voor het starten van een nieuwe getimede sessie moet u bijvullen of wachten tot uw volgende factureringsperiode." },
         { "q": "Wat gebeurt er met extra minuten die ik niet gebruik?", "a": "Extra minuten verlopen nooit zolang uw abonnement actief blijft — ze worden overgedragen naar uw volgende factureringsperiode totdat u ze gebruikt." },
         { "q": "Welke talen worden ondersteund?", "a": "Volledige interfaceondersteuning voor Engels, Zweeds, Duits, Frans, Spaans, Italiaans, Pools, Nederlands, Portugees, Urdu en Arabisch." },
-        { "q": "Zijn mijn gegevens privé?", "a": "Ja — uw sessiegegevens worden verwerkt volgens ons AVG-conforme privacybeleid, dat precies aangeeft wat wij verzamelen en waarom." }
+        { "q": "Zijn mijn gegevens privé?", "a": "Ja — uw sessiegegevens worden verwerkt volgens ons privacybeleid, opgesteld met de AVG in gedachten, dat precies aangeeft wat wij verzamelen en waarom." }
       ],
       "emailCapture": { "title": "Nog Niet Klaar?", "body": "Ontvang een melding wanneer nieuwe talen worden gelanceerd.", "placeholder": "Uw e-mailadres", "consent": "Ik ga ermee akkoord benaderd te worden over Global Reach en accepteer het", "privacyLinkLabel": "Privacybeleid", "successText": "Bedankt - we e-mailen u zodra uw taal beschikbaar is.", "errorText": "Er is iets misgegaan. Probeer het opnieuw.", "button": "Meld Mij" },
       "stickyBar": { "text": "Klaar om te beginnen met samenwerken?", "cta": "Aan de slag" },
-      "cta": { "title": "Begin Vandaag met Samenwerken", "body": "Maak uw account aan — geen creditcard nodig — en sluit u binnen enkele minuten aan bij uw eerste ruimte.", "trustLine": "Geen creditcard nodig · Altijd opzegbaar · AVG-conform" }
+      "cta": { "title": "Begin Vandaag met Samenwerken", "body": "Maak uw account aan — geen creditcard nodig — en sluit u binnen enkele minuten aan bij uw eerste ruimte.", "trustLine": "Geen creditcard nodig · Altijd opzegbaar · Ontworpen met de AVG in gedachten" }
     },
     "portal": {
       "hero": { "label": "Klanttoegang", "h1": "Ledenportaal", "body": "Beveiligde toegang voor geregistreerde klanten van Nordic Riser AB om hun traject, documenten en communicatie te beheren." },

@@ -7,11 +7,23 @@
     "requestQuote": "Demander un devis",
     "signUp": "S'inscrire",
     "builtWith": "Construit avec :",
+    "screenshot": "capture d’écran",
     "startProject": "Démarrer un projet",
     "emailLabel": "E-mail",
     "websiteLabel": "Site web",
     "home": "Accueil",
-    "pricingOnRequest": "Tarifs sur demande"
+    "pricingOnRequest": "Tarifs sur demande",
+    "priceFormat": "{eur} € ({sek} SEK)",
+    "company": {
+      "orgNr": "N° d’organisation",
+      "vat": "N° de TVA",
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "registration": "Immatriculation",
+      "country": "Suède",
+      "cityCountry": "Stockholm, Suède"
+    }
   },
   "nav": {
     "home": "Accueil",
@@ -28,13 +40,11 @@
   "footer": {
     "brandBlurb": "Nordic Riser AB est un studio logiciel basé à Stockholm qui conçoit des plateformes web multilingues, des portails clients sécurisés et des produits transfrontaliers pour des entreprises opérant dans plusieurs langues.",
     "addressHeading": "Siège social",
-    "orgNrLabel": "N° d'immatriculation",
-    "orgNrValue": "[ORG_NR]",
     "firmHeading": "Le cabinet",
     "complianceHeading": "Conformité",
     "disclaimerHeading": "Avertissement",
     "disclaimer": "Nordic Riser AB fournit uniquement des services de conseil stratégique. Nous n'assurons ni représentation juridique, ni conseil en immigration, ni garantie de résultat. Toutes les décisions relèvent des autorités compétentes. La conformité est au cœur de tout ce que nous faisons.",
-    "copyright": "© 2026 Nordic Riser AB. Tous droits réservés. Stockholm, Sweden.",
+    "copyright": "© 2026 Nordic Riser AB. Tous droits réservés. Stockholm, Suède.",
     "divisions": {
       "consultingHeading": "Conseil",
       "consultingLinks": [
@@ -45,15 +55,17 @@
       ],
       "itServicesHeading": "Services",
       "itServicesLinks": [
-        { "label": "Plateformes web & portails" },
-        { "label": "Automatisation & intégrations" },
-        { "label": "Support continu" },
+        { "label": "Plateformes web multilingues", "anchor": "web-platforms" },
+        { "label": "Portails clients sécurisés", "anchor": "portals" },
+        { "label": "Produits sur mesure & SaaS", "anchor": "products" },
+        { "label": "Automatisation & intégrations", "anchor": "automation" },
+        { "label": "Support continu", "anchor": "support" },
         { "label": "Demander un devis", "target": "contact" }
       ],
       "globalReachHeading": "Global Reach",
       "globalReachLinks": [
-        { "label": "Comment ça marche" },
-        { "label": "Offres & tarifs" },
+        { "label": "Comment ça marche", "anchor": "#how-it-works" },
+        { "label": "Offres & tarifs", "anchor": "#pricing" },
         { "label": "Commencer", "external": "https://portal.nordicriser.com" }
       ]
     },
@@ -70,6 +82,248 @@
       "dpa": "Accord de traitement des données",
       "subprocessors": "Sous-traitants",
       "security": "Sécurité"
+    }
+  },
+  "productOverviews": {
+    "nrBos": {
+      "id": "nr-bos",
+      "eyebrow": "Produit en service",
+      "title": "Découvrir NR-BOS",
+      "body": "Ouvrez la visite interactive – dix volets, de vrais écrans du produit en service.",
+      "cta": "Ouvrir la visite",
+      "modalId": "Produit maison · NR-BOS",
+      "modalTitle": "NR-BOS – Visite interactive",
+      "closeLabel": "Fermer",
+      "tabsLabel": "Catégories de fonctionnalités NR-BOS",
+      "sliderBeforeLabel": "Avant",
+      "sliderAfterLabel": "Après",
+      "sliderNote": "Faites glisser pour comparer – une vraie paire avant/après issue d’un rapport de chantier.",
+      "panels": [
+        {
+          "slug": "dashboard",
+          "icon": "chart",
+          "tabLabel": "Tableau de bord",
+          "eyebrow": "Vue d’ensemble",
+          "title": "Tous vos projets, en direct",
+          "body": "Indicateurs de tout le portefeuille, budget vs dépenses réelles et avancement – la première chose que l’on ouvre chaque matin.",
+          "features": [
+            "Nombre total de projets et de projets actifs, mis à jour en temps réel",
+            "Taux d’avancement sur l’ensemble du portefeuille, suivi automatiquement à mesure que les tâches se terminent",
+            "Budget et coût réel, côte à côte",
+            "Marge et rentabilité, calculées à partir du budget et du coût réel – pas encore liées au chiffre d’affaires facturé"
+          ],
+          "shots": [
+            {
+              "file": "dashboard-overview.jpg",
+              "alt": "Tableau de bord NR-BOS affichant le nombre de projets, le taux d’avancement, la marge, le budget vs coût réel et un graphique circulaire des projets par statut"
+            }
+          ]
+        },
+        {
+          "slug": "projects",
+          "icon": "clipboard",
+          "tabLabel": "Projets",
+          "eyebrow": "Réalisation",
+          "title": "Chaque chantier, suivi jusqu’à la tâche",
+          "body": "Chaque projet a son budget, son client et son équipe. Le travail s’organise sur un tableau à quatre colonnes.",
+          "features": [
+            "À faire, en cours, en revue, terminé – un tableau par projet",
+            "Chaque tâche a un responsable, une échéance et des heures estimées",
+            "Statut du projet – planification, actif, en pause, terminé – visible d’un coup d’œil",
+            "Ordres de travail avec priorité et date planifiée, visibles sur un calendrier jour, semaine ou mois"
+          ],
+          "shots": [
+            {
+              "file": "projects-list.jpg",
+              "alt": "Liste de quatre projets NR-BOS avec badges de statut – actif, en pause, planification et terminé"
+            },
+            {
+              "file": "project-kanban.jpg",
+              "alt": "Tableau Kanban d’un projet avec des tâches dans les colonnes À faire, En cours, En revue et Terminé"
+            }
+          ]
+        },
+        {
+          "slug": "work-orders",
+          "icon": "pin",
+          "tabLabel": "Ordres de travail",
+          "eyebrow": "Planification",
+          "title": "Chaque intervention planifiée, affectée et suivie",
+          "body": "Les ordres de travail ont une priorité, un lieu d’intervention et un créneau – affichés sur un calendrier jour, semaine ou mois pour que rien ne soit oublié.",
+          "features": [
+            "Quatre niveaux de priorité, de Faible à Urgent, visibles d’un coup d’œil",
+            "Un cycle de statuts complet – de Brouillon à Planifié, Affecté, En cours, En revue et Terminé",
+            "Modèle de checklist joint en option, pour que les équipes terrain suivent toujours les mêmes étapes"
+          ],
+          "shots": [
+            {
+              "file": "work-orders-list.jpg",
+              "alt": "Liste des ordres de travail NR-BOS avec badges de priorité et de statut"
+            },
+            {
+              "file": "schedule-month.jpg",
+              "alt": "Calendrier mensuel montrant les ordres de travail planifiés en septembre"
+            }
+          ]
+        },
+        {
+          "slug": "time-tracking",
+          "icon": "clock",
+          "tabLabel": "Temps & validations",
+          "eyebrow": "Heures terrain",
+          "title": "Des heures saisies une fois, validées avant d’être comptées",
+          "body": "Une grille hebdomadaire pour saisir le temps par projet et une file de validation dédiée, groupée par salarié et par semaine – rien n’arrive en paie ou en reporting des coûts sans validation.",
+          "features": [
+            "Saisie du temps par projet et par jour, directement dans la grille hebdomadaire",
+            "Soumission de la semaine en un clic ; un responsable valide ou refuse avec un motif",
+            "Validations groupées par salarié et par semaine, avec totaux cumulés"
+          ],
+          "shots": [
+            {
+              "file": "time-weekly-grid.jpg",
+              "alt": "Feuille de temps hebdomadaire avec les heures saisies par jour pour un projet"
+            },
+            {
+              "file": "time-approvals.jpg",
+              "alt": "File de validation des temps groupée par salarié et par semaine, avec totaux cumulés"
+            }
+          ]
+        },
+        {
+          "slug": "checklists",
+          "icon": "check",
+          "tabLabel": "Checklists",
+          "eyebrow": "Étapes standardisées",
+          "title": "Les mêmes étapes, à chaque fois, sur chaque chantier",
+          "body": "Des modèles de checklist réutilisables se joignent à un ordre de travail, pour que les équipes terrain réalisent – et puissent prouver qu’elles ont réalisé – les mêmes étapes, quel que soit l’intervenant.",
+          "features": [
+            "Cases à cocher ou champs de texte libre, chacun obligatoire ou facultatif",
+            "Un même modèle réutilisé sur autant d’ordres de travail que nécessaire",
+            "Joint directement à la création de l’ordre de travail"
+          ],
+          "shots": [
+            {
+              "file": "checklists-list.jpg",
+              "alt": "Liste des modèles de checklist avec nombre d’éléments et statut actif"
+            },
+            {
+              "file": "checklist-editor.jpg",
+              "alt": "Éditeur de modèle de checklist avec cases à cocher et champs texte marqués obligatoires"
+            }
+          ]
+        },
+        {
+          "slug": "field-reporting",
+          "icon": "wrench",
+          "tabLabel": "Rapports de chantier",
+          "eyebrow": "Sur site",
+          "title": "Ce qui s’est passé sur site, preuves à l’appui",
+          "body": "Les équipes terrain saisissent notes d’avancement et photos directement depuis le chantier – y compris des paires avant/après pour les travaux faciles à décrire mais difficiles à visualiser.",
+          "features": [
+            "Notes liées à une tâche précise, horodatées et géolocalisées",
+            "Photos avant, après et générales dans chaque rapport",
+            "Faites glisser le curseur ci-dessous – une vraie paire avant/après issue d’un rapport de chantier"
+          ],
+          "shots": [
+            {
+              "file": "field-report-notes.jpg",
+              "alt": "Entrée de rapport de chantier avec une note horodatée et une photo jointe"
+            }
+          ]
+        },
+        {
+          "slug": "client-reports",
+          "icon": "folder",
+          "tabLabel": "Rapports clients",
+          "eyebrow": "Pour vos clients",
+          "title": "Un PDF à vos couleurs, généré en un clic",
+          "body": "Rassemblez les tâches, les coûts et les photos récentes d’un projet dans un rapport PDF prêt pour le client – d’abord en brouillon, puis marqué comme envoyé.",
+          "features": [
+            "Champ de commentaire pour un compte rendu d’avancement rédigé",
+            "Statut brouillon jusqu’à ce que le rapport soit prêt pour le client",
+            "Le PDF généré intègre automatiquement les photos récentes des rapports de chantier"
+          ],
+          "shots": [
+            {
+              "file": "client-report-generate.jpg",
+              "alt": "Boîte de dialogue « Générer un rapport client » avec un champ de commentaire destiné au client"
+            },
+            {
+              "file": "client-report-pdf.jpg",
+              "alt": "Rapport client PDF généré avec les informations de l’entreprise, du projet et l’état des tâches"
+            }
+          ]
+        },
+        {
+          "slug": "analytics",
+          "icon": "target",
+          "tabLabel": "Analyses",
+          "eyebrow": "Équipe & dépenses",
+          "title": "Où vont le temps et l’argent",
+          "body": "La charge de l’équipe par statut et un registre complet des coûts par catégorie – les chiffres derrière le tableau de bord.",
+          "features": [
+            "Graphique de charge par personne, réparti entre à faire, en cours, en revue et terminé",
+            "Dépenses par catégorie – matériaux, main-d’œuvre, sous-traitance, permis",
+            "Budget restant calculé automatiquement à chaque dépense saisie"
+          ],
+          "shots": [
+            {
+              "file": "dashboard-team-workload.jpg",
+              "alt": "Graphique de charge de l’équipe montrant le nombre de tâches par statut pour chaque membre"
+            },
+            {
+              "file": "project-costs.jpg",
+              "alt": "Registre des coûts avec écritures datées par catégorie, budget cumulé et solde restant"
+            }
+          ]
+        },
+        {
+          "slug": "integrations",
+          "icon": "link",
+          "tabLabel": "Intégrations",
+          "eyebrow": "Connectez vos outils",
+          "title": "Webhooks sortants, signés et déclenchés par événement",
+          "body": "NR-BOS envoie un message signé à votre point de terminaison dès qu’un événement choisi se produit – un ordre de travail terminé, une saisie de temps validée – sans interrogation régulière.",
+          "features": [
+            "Choisissez les types d’événements qui déclenchent chaque webhook",
+            "Mettez un abonnement en pause sans le supprimer",
+            "Chaque message est signé, pour que votre point de terminaison vérifie qu’il provient bien de NR-BOS"
+          ],
+          "shots": [
+            {
+              "file": "integrations-webhooks.jpg",
+              "alt": "Abonnement webhook sortant actif avec les types d’événements sélectionnés"
+            }
+          ]
+        },
+        {
+          "slug": "licensing",
+          "icon": "lock",
+          "tabLabel": "Équipe & licences",
+          "eyebrow": "Accès & facturation",
+          "title": "Accès par rôle, licence par code",
+          "body": "Administrateurs, chefs de projet, équipes terrain et clients ne voient que ce qui les concerne. L’accès repose sur des codes d’abonnement à usage unique – sans prestataire de paiement.",
+          "features": [
+            "Quatre rôles, chacun avec sa propre vue du produit",
+            "Statut de l’abonnement et date de renouvellement visibles d’un coup d’œil",
+            "Codes de licence générés par lots et activés une fois par entreprise"
+          ],
+          "shots": [
+            {
+              "file": "team-users.jpg",
+              "alt": "Liste des utilisateurs de l’entreprise avec noms, e-mails, rôles et statut actif/inactif"
+            },
+            {
+              "file": "subscription-plan.jpg",
+              "alt": "Abonnement actif avec date de renouvellement et champ d’activation d’un code de licence"
+            },
+            {
+              "file": "license-batches.jpg",
+              "alt": "Liste des lots de licences avec niveau, nombre d’activations et date de création"
+            }
+          ]
+        }
+      ]
     }
   },
   "pages": {
@@ -96,8 +350,8 @@
       },
       "proofBar": {
         "stats": [
-          { "value": "11", "label": "Langues déployées en production" },
-          { "value": "5", "label": "Produits développés en interne" },
+          { "value": "%%languagesShipped%%", "label": "Langues déployées en production" },
+          { "value": "%%products.count%%", "label": "Produits développés en interne" },
           { "value": "Stockholm, Suède", "label": "Basés à" },
           { "value": "Conception → Développement → Support", "label": "Approche" }
         ]
@@ -107,8 +361,8 @@
         "title": "Quatre choses que nous faisons bien",
         "cards": [
           { "icon": "globe", "title": "Plateformes web multilingues", "body": "Des sites de production conçus pour fonctionner sur chaque marché que vous desservez. Hreflang correct, prise en charge RTL, structure de contenu localisée — pas des traductions automatiques après coup.", "builtWith": "Génération de site statique, diffusion CDN, temps de chargement inférieurs à la seconde" },
-          { "icon": "lock", "title": "Portails clients sécurisés", "body": "Portails authentifiés pour l'échange de documents, le suivi des dossiers et la communication client. Accès basé sur les rôles, stockage chiffré, pistes d'audit.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
-          { "icon": "code", "title": "Produits sur mesure & SaaS", "body": "Développement complet de produit, du concept au lancement. Fonctionnalités en temps réel, facturation par abonnement, outils d'administration.", "seeLabel": "Voir :", "seeText": "Global Reach — notre propre plateforme de collaboration à traduction en direct", "seeLink": "global-reach" },
+          { "icon": "lock", "title": "Portails clients sécurisés", "body": "Portails authentifiés pour l'échange de documents, le suivi des dossiers et la communication client. Accès par rôle, règles de données appliquées côté serveur, stockage privé des fichiers et journalisation de l’activité dans le Portail Membres.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
+          { "icon": "code", "title": "Produits sur mesure & SaaS", "body": "Développement complet de produit, du concept au lancement. Fonctionnalités en temps réel, facturation par abonnement, outils d'administration.", "seeLabel": "Voir :", "seeText": "Global Reach — nos propres salles d’étude et de travail en direct, avec présence en temps réel et notes de session partagées", "seeLink": "global-reach" },
           { "icon": "gear", "title": "Automatisation & intégrations", "body": "Connectez les outils que vous utilisez déjà. Éliminez la ressaisie manuelle. Automatisez les tâches qui dévorent la semaine de votre équipe.", "builtWith": "API, webhooks, fonctions sans serveur" }
         ]
       },
@@ -116,13 +370,13 @@
         "label": "Réalisations sélectionnées",
         "title": "Ce que nous avons construit",
         "items": [
-          { "type": "Produit SaaS (interne)", "title": "NR-BOS", "featured": true, "featuredLabel": "Produit Phare", "oneLiner": "Livraison de projets, opérations de terrain et rapports client — le tout sur une seule plateforme, conçue et licenciée par Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "Produit SaaS (interne)", "title": "Global Reach", "oneLiner": "Des salons d'étude et de travail en direct avec présence en temps réel et notes de session partagées, facturés à la minute.", "link": "global-reach" },
-          { "type": "Portail client sécurisé", "title": "Portail Membre Nordic Riser", "oneLiner": "Un portail authentifié pour l'échange de documents, le suivi des dossiers, la messagerie sécurisée et les paiements.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
-          { "type": "Plateforme marketing multilingue", "title": "nordicriser.com", "oneLiner": "Un site de production en onze langues avec prise en charge RTL, couverture méta complète et URL propres par langue.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
-          { "type": "Application de santé", "title": "Application de télémédecine", "oneLiner": "Une plateforme de télémédecine que nous avons construite de bout en bout — consultations vidéo HD, prise de rendez-vous et chat pendant l'appel — prête à être personnalisée pour toute marque de santé.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
-          { "type": "Application de traitement pharmaceutique", "title": "Plateforme pharmaceutique", "oneLiner": "Un système de traitement pharmaceutique que nous avons construit, reliant les ordonnances au traitement et à la livraison, prêt à être personnalisé pour tout opérateur.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
-          { "type": "Application de livraison (interne)", "title": "On-Demand Delivery App", "oneLiner": "Une plateforme de livraison personnalisable pour la commande, la répartition et le suivi des livreurs, pour tout type d'entreprise.", "link": "work", "linkLabel": "Voir dans nos réalisations →" }
+          { "type": "Produit SaaS (interne)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Produit Phare", "oneLiner": "Livraison de projets, opérations de terrain et rapports client — le tout sur une seule plateforme, conçue et licenciée par Nordic Riser AB.", "link": "work/nr-bos" },
+          { "type": "Produit SaaS (interne)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Des salles d’étude et de travail en direct avec présence en temps réel et notes de session partagées, avec des formules mensuelles incluant un quota de minutes de session, rechargeables à tout moment.", "link": "global-reach" },
+          { "type": "Portail client sécurisé (interne)", "id": "member-portal", "title": "Portail Membre Nordic Riser", "oneLiner": "Un portail authentifié pour l'échange de documents, le suivi des dossiers, la messagerie sécurisée et les paiements.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
+          { "type": "Plateforme marketing multilingue (interne)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Un site de production en onze langues avec prise en charge RTL, couverture méta complète et URL propres par langue.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
+          { "type": "Application de santé (interne)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Une plateforme de télémédecine que nous avons construite de bout en bout — consultations vidéo HD, prise de rendez-vous et chat pendant l'appel — prête à être personnalisée pour toute marque de santé.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
+          { "type": "Plateforme de préparation pharmaceutique (interne)", "id": "4ezone-pharmacy", "title": "%%products.items.5.name%%", "oneLiner": "Un système de traitement pharmaceutique que nous avons construit, reliant les ordonnances au traitement et à la livraison, prêt à être personnalisé pour tout opérateur.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
+          { "type": "Application de livraison (interne)", "id": "delivery-app", "title": "Application de livraison à la demande", "oneLiner": "Une plateforme de livraison personnalisable pour la commande, la répartition et le suivi des livreurs, pour tout type d'entreprise.", "link": "work", "linkLabel": "Voir dans nos réalisations →" }
         ],
         "cta": "Voir toutes les réalisations",
         "ctaLink": "work"
@@ -134,9 +388,11 @@
         "bullets": [
           "Notes de session partagées pour la collaboration en direct",
           "Présence en temps réel — voyez qui est dans le salon",
-          "Formules à partir de 29 $/mois, facturées à la minute"
+          "Formules mensuelles à partir de %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK) avec un quota de minutes de session, rechargeables à tout moment"
         ],
-        "cta": "Commencer"
+        "cta": "Commencer",
+        "priceBulletIndex": 2,
+        "priceBulletNoAmount": "Formules mensuelles avec un quota de minutes de session, rechargeables à tout moment"
       },
       "howWeWork": {
         "label": "Processus",
@@ -170,7 +426,7 @@
               },
               {
                 "category": "Authentification & sécurité",
-                "items": "Firebase Authentication, contrôle d'accès basé sur les rôles, stockage chiffré"
+                "items": "Firebase Authentication, contrôle d'accès basé sur les rôles, règles de données appliquées côté serveur"
               }
             ]
           },
@@ -198,7 +454,7 @@
         ],
         "practices": {
           "category": "Pratiques",
-          "items": "Contrôle de version Git, déploiements par étapes, traitement des données conforme au RGPD"
+          "items": "Contrôle de version Git, déploiements par étapes, traitement des données conçu en tenant compte du RGPD"
         }
       },
       "whyUs": {
@@ -248,6 +504,7 @@
           "link": "consulting"
         }
       },
+      "founder": { "label": "Le fondateur", "role": "Fondateur et PDG", "linkedinLabel": "Profil LinkedIn" },
       "whyWeExist": {
         "label": "D'où nous venons — notre activité de conseil",
         "title": "Conçus pour combler une véritable lacune du conseil international",
@@ -356,13 +613,14 @@
         "errorText": "Une erreur s'est produite. Veuillez réessayer ou nous écrire directement.",
         "submit": "Envoyer la demande de consultation →"
       },
-      "success": { "title": "Demande reçue", "body": "Merci d'avoir soumis votre demande de consultation. Un membre de notre équipe de conseil examinera vos informations et vous répondra sous 1 à 2 jours ouvrés." },
+      "booking": {
+        "heading": "Vous préférez en parler d’abord ?",
+        "body": "Choisissez le créneau qui vous convient pour un court appel de présentation.",
+        "button": "Réserver un appel de 20 minutes"
+      },
+      "success": { "title": "Demande reçue", "body": "Merci pour votre demande. Nous examinerons vos informations et vous répondrons sous 1 à 2 jours ouvrés." },
       "sidebar": {
         "directContactHeading": "Contact direct",
-        "phoneLabel": "Téléphone",
-        "phoneValue": "[PHONE_NUMBER]",
-        "addressLabel": "Adresse",
-        "addressValue": "[STREET_ADDRESS], Stockholm, Suède",
         "hoursLabel": "Horaires d'ouverture",
         "hoursValue": "Lundi – vendredi, 09h00 – 17h00 CET",
         "nextHeading": "Les prochaines étapes",
@@ -374,14 +632,6 @@
         ],
         "noteHeading": "À noter",
         "noteBody": "Nous examinons toutes les demandes avant de confirmer une consultation. Nous travaillons avec des clients dont la situation correspond à nos services — si ce n'est pas le cas pour vous, nous vous en informerons et, dans la mesure du possible, vous orienterons vers une ressource plus adaptée."
-      },
-      "closing": {
-        "label": "Pourquoi une consultation structurée",
-        "title": "Nous ne proposons pas de conseils génériques",
-        "paragraphs": [
-          "Chaque consultation chez Nordic Riser AB commence par une évaluation approfondie de votre situation spécifique. Nous ne fournissons ni réponses types ni conseils prêts à l'emploi. Avant toute recommandation stratégique, nous prenons le temps de comprendre votre parcours professionnel, votre modèle économique et vos objectifs à long terme.",
-          "Si vous envisagez sérieusement de construire une présence commerciale structurée en Europe et êtes prêt à vous engager professionnellement dans ce processus, votre demande sera la bienvenue. Nos consultations sont des séances de travail — non des entretiens commerciaux."
-        ]
       }
     },
 
@@ -507,7 +757,35 @@
           { "name": "Conseil continu", "body": "Un accompagnement stratégique poursuivi après votre établissement initial — pour répondre à l'évolution de vos besoins d'entreprise, à des questions transfrontalières ou à une planification d'expansion." }
         ]
       },
-      "cta": { "title": "Discutons de vos besoins", "body": "Si vous envisagez d'établir une présence commerciale en Europe, nous vous invitons à organiser une consultation. Nous évaluerons votre situation et vous fournirons une vision claire et structurée de la voie à suivre et des services pertinents pour vos objectifs." }
+      "deliverables": {
+        "label": "Ce que vous recevez",
+        "title": "Des livrables concrets à chaque mission",
+        "sub": "Le conseil de Nordic Riser produit des livrables précis et exploitables – pas seulement une conversation.",
+        "items": [
+          "Un cadre stratégique documenté, propre à votre activité, à vos objectifs et à vos contraintes",
+          "Un business plan structuré ou une stratégie de création, établi selon des standards institutionnels lorsque c’est pertinent",
+          "Une synthèse écrite des recommandations et des prochaines étapes à chaque phase de la mission",
+          "Une coordination avec des professionnels qualifiés – juristes, experts-comptables ou spécialistes – lorsque votre situation l’exige",
+          "Un accompagnement continu à mesure que votre activité ou votre situation évolue"
+        ]
+      },
+      "boundaries": {
+        "label": "Limites professionnelles",
+        "title": "Ce que nous sommes – et ce que nous ne sommes pas",
+        "body": [
+          "Nous ne fournissons ni conseil en immigration ni représentation juridique. Nous apportons le cadre de conseil stratégique sur lequel des spécialistes qualifiés peuvent s’appuyer efficacement.",
+          "Lorsqu’une expertise juridique, fiscale ou réglementaire est nécessaire – comme c’est souvent le cas pour une relocalisation ou des questions transfrontalières –, nous coordonnons l’intervention de professionnels qualifiés, qui réalisent ce travail dans le cadre de leur propre habilitation."
+        ]
+      },
+      "cta": { "title": "Discutons de vos besoins", "body": "Si vous envisagez d'établir une présence commerciale en Europe, nous vous invitons à organiser une consultation. Nous évaluerons votre situation et vous fournirons une vision claire et structurée de la voie à suivre et des services pertinents pour vos objectifs." },
+      "closing": {
+        "label": "Pourquoi une consultation structurée",
+        "title": "Nous ne proposons pas de conseils génériques",
+        "paragraphs": [
+          "Chaque consultation chez Nordic Riser AB commence par une évaluation approfondie de votre situation spécifique. Nous ne fournissons ni réponses types ni conseils prêts à l'emploi. Avant toute recommandation stratégique, nous prenons le temps de comprendre votre parcours professionnel, votre modèle économique et vos objectifs à long terme.",
+          "Si vous envisagez sérieusement de construire une présence commerciale structurée en Europe et êtes prêt à vous engager professionnellement dans ce processus, votre demande sera la bienvenue. Nos consultations sont des séances de travail — non des entretiens commerciaux."
+        ]
+      }
     },
     "itServices": {
       "meta": {
@@ -517,14 +795,78 @@
       "hero": { "label": "Services", "h1": "Plateformes web, portails & logiciels sur mesure", "body": "Sites multilingues, portails clients sécurisés, développement de produits sur mesure et automatisation des flux de travail. Conçu à Stockholm, livré dans le monde entier." },
       "breadcrumb": "Services",
       "offeringsLabel": "Ce que nous développons",
-      "offeringsTitle": "Quatre offres principales",
+      "offeringsTitle": "Cinq offres principales",
       "offeringsSub": "Du premier site web d'entreprise aux systèmes qui font tourner les opérations quotidiennes, nous développons des solutions technologiques adaptées à la taille et à l'étape de votre entreprise.",
       "offerings": [
-        { "icon": "globe", "title": "Plateformes web et sites d'entreprise", "body": "Des sites web conçus de manière professionnelle, prêts pour le multilinguisme, qui donnent à votre entreprise une présence en ligne crédible et structurée dès le premier jour." },
-        { "icon": "lock", "title": "Portails clients et d'entreprise", "body": "Des portails membres et clients sécurisés pour gérer les documents, les communications et le suivi des dossiers ou des projets en un seul endroit." },
-        { "icon": "gear", "title": "Automatisation des processus et intégrations", "body": "Automatisation des tâches opérationnelles répétitives et intégration entre les outils que votre entreprise utilise déjà." },
-        { "icon": "wrench", "title": "Maintenance et support continus", "body": "Support technique, mises à jour et suivi continus après le lancement, afin que votre plateforme reste fiable à mesure que votre entreprise se développe." }
+        {
+          "id": "web-platforms",
+          "icon": "globe",
+          "title": "Plateformes web multilingues",
+          "body": "Des sites en production conçus pour chaque marché que vous servez, avec de vraies versions linguistiques, la prise en charge de l’écriture de droite à gauche si nécessaire et un chargement rapide partout dans le monde.",
+          "included": [
+            "URL par langue et hreflang pour les moteurs de recherche",
+            "Mises en page de droite à gauche pour l’arabe, l’ourdou et les langues similaires",
+            "Un contenu structuré, simple à mettre à jour et à enrichir",
+            "Balises meta et aperçus de partage social dans chaque langue"
+          ],
+          "stack": "Eleventy ou Next.js, hébergement CDN, publication via Git"
+        },
+        {
+          "id": "portals",
+          "icon": "lock",
+          "title": "Portails clients sécurisés",
+          "body": "Des portails avec connexion où vos clients échangent des documents, suivent leur dossier ou projet et écrivent à votre équipe, au même endroit plutôt que dans des fils d’e-mails.",
+          "included": [
+            "Accès par rôle pour les clients, le personnel et les administrateurs",
+            "Des règles de données appliquées côté serveur, pour que chaque utilisateur ne voie que ses propres données",
+            "Stockage privé des documents et fichiers téléversés",
+            "Journalisation de l’activité dans le Portail Membres"
+          ],
+          "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
+        },
+        {
+          "id": "products",
+          "icon": "code",
+          "title": "Produits sur mesure & SaaS",
+          "body": "Un développement produit complet, du concept au lancement, pour votre propre gamme de produits.",
+          "included": [
+            "Cadrage du produit et plan de développement par étapes",
+            "Abonnements et facturation",
+            "Tableaux de bord d’administration et outils internes",
+            "Fonctionnalités en temps réel, comme la présence en direct"
+          ],
+          "stack": "React, Next.js, NestJS, PostgreSQL, Firebase"
+        },
+        {
+          "id": "automation",
+          "icon": "gear",
+          "title": "Automatisation & intégrations",
+          "body": "Connectez les outils que vous utilisez déjà et supprimez les ressaisies manuelles des processus qui occupent la semaine de votre équipe.",
+          "included": [
+            "Intégrations entre votre site, votre CRM, votre comptabilité et vos outils e-mail",
+            "Notifications, rapports et synchronisations de données automatisés",
+            "Webhooks et tâches planifiées",
+            "Une documentation claire de chaque étape automatisée"
+          ],
+          "stack": "API REST, webhooks, fonctions serverless, tâches planifiées"
+        },
+        {
+          "id": "support",
+          "icon": "wrench",
+          "title": "Support continu",
+          "body": "Support technique, mises à jour et supervision après le lancement, pour que votre plateforme reste fiable à mesure que votre activité se développe.",
+          "included": [
+            "Mises à jour de sécurité et des dépendances",
+            "Supervision et dépannage",
+            "Corrections de bugs et petites améliorations",
+            "Gestion de l’hébergement et des domaines"
+          ],
+          "stack": "Supervision, suivi des erreurs, hébergement géré (Vercel, Firebase, GitHub Pages)"
+        }
       ],
+      "offeringCta": "Parler de ce service",
+      "stackLabel": "Stack technique type",
+      "includedLabel": "Ce qui est inclus",
       "howWeWorkLabel": "Notre méthode de travail",
       "howWeWorkTitle": "Un parcours structuré de l'idée au lancement",
       "howWeWorkSub": "La même rigueur que nous appliquons à nos missions de conseil se retrouve dans notre façon de planifier et de développer nos solutions technologiques.",
@@ -555,14 +897,15 @@
     "work": {
       "meta": {
         "title": "Nos réalisations — plateformes, portails & produits — Nordic Riser AB",
-        "description": "Projets sélectionnés de Nordic Riser AB — dont NR-BOS, notre plateforme phare d'opérations commerciales, une plateforme de collaboration à traduction en temps réel et un portail client sécurisé."
+        "description": "Projets sélectionnés de Nordic Riser AB — dont NR-BOS, notre plateforme phare d’opérations commerciales, des salles d’étude et de travail en direct avec présence en temps réel et notes de session partagées, et un portail client sécurisé."
       },
       "hero": { "label": "Réalisations sélectionnées", "h1": "Ce que nous avons construit", "body": "Plateformes, portails et produits que nous avons conçus, développés et livrés — y compris les nôtres." },
       "breadcrumb": "Réalisations",
       "caseStudies": [
         {
           "type": "Produit SaaS (interne)",
-          "title": "NR-BOS",
+          "id": "nr-bos",
+          "title": "%%products.items.0.name%%",
           "featured": true,
           "featuredLabel": "Produit Phare",
           "challengeLabel": "Défi",
@@ -578,20 +921,23 @@
         },
         {
           "type": "Produit SaaS (interne)",
-          "title": "Global Reach",
+          "id": "global-reach",
+          "title": "%%products.items.1.name%%",
           "challengeLabel": "Défi",
           "challenge": "Les équipes qui travaillent au-delà des frontières ont besoin d'un espace partagé pour étudier ou travailler ensemble en direct, sans réserver un appel ni jongler avec des outils séparés.",
           "buildLabel": "Réalisation",
-          "build": "Des salons d'étude et de travail ouverts avec présence en direct et notes de session partagées, facturés à la minute.",
+          "build": "Des salles d’étude et de travail en direct avec présence en temps réel et notes de session partagées, avec des formules mensuelles incluant un quota de minutes de session, rechargeables à tout moment.",
           "stackLabel": "Technologie",
           "stack": ["React", "Firebase Realtime Database", "Facturation par abonnement"],
           "resultLabel": "Résultat",
-          "result": "Produit en ligne avec des formules payantes à partir de 29 $/mois.",
+          "result": "Produit en ligne avec des formules mensuelles à partir de %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK).",
+          "resultNoAmount": "Produit en ligne avec des formules mensuelles.",
           "link": "global-reach",
           "linkLabel": "Voir le produit"
         },
         {
-          "type": "Portail client sécurisé",
+          "type": "Portail client sécurisé (interne)",
+          "id": "member-portal",
           "title": "Portail Membre Nordic Riser",
           "challengeLabel": "Défi",
           "challenge": "Les clients en conseil avaient besoin d'un lieu unique pour les documents, l'état des dossiers et la communication — avec un contrôle d'accès strict.",
@@ -603,20 +949,22 @@
           "result": "En ligne sur portal.nordicriser.com avec domaine personnalisé et SSL automatique."
         },
         {
-          "type": "Plateforme marketing multilingue",
-          "title": "nordicriser.com",
+          "type": "Plateforme marketing multilingue (interne)",
+          "id": "nordicriser-com",
+          "title": "%%products.items.3.name%%",
           "challengeLabel": "Défi",
           "challenge": "Atteindre des entrepreneurs à travers l'Europe, le Moyen-Orient et l'Asie du Sud dans leur propre langue.",
           "buildLabel": "Réalisation",
-          "build": "Site de production en onze langues avec structure d'URL par langue, prise en charge RTL pour l'arabe et l'ourdou, couverture méta et Open Graph complète, et un cadre de confidentialité conforme au RGPD.",
+          "build": "Site de production en onze langues avec structure d'URL par langue, prise en charge RTL pour l'arabe et l'ourdou, couverture méta et Open Graph complète, et un cadre de confidentialité conçu en tenant compte du RGPD.",
           "stackLabel": "Technologie",
           "stack": ["Génération statique", "CDN", "Routage i18n structuré"],
           "resultLabel": "Résultat",
           "result": "Chaque page disponible en 11 langues avec des URL propres et indexables."
         },
         {
-          "type": "Application de santé",
-          "title": "Application de télémédecine",
+          "type": "Application de santé (interne)",
+          "id": "4edoctor",
+          "title": "%%products.items.4.name%%",
           "challengeLabel": "Défi",
           "challenge": "Les patients avaient besoin d'accéder à des consultations médicales — avec des médecins, des psychologues et des infirmiers — sans les délais d'attente et les contraintes des visites en personne.",
           "buildLabel": "Réalisation",
@@ -627,8 +975,9 @@
           "result": "Une plateforme de télémédecine fonctionnelle, construite de bout en bout par nos soins et prête à être personnalisée pour toute marque de santé."
         },
         {
-          "type": "Application de traitement pharmaceutique",
-          "title": "Plateforme pharmaceutique",
+          "type": "Plateforme de préparation pharmaceutique (interne)",
+          "id": "4ezone-pharmacy",
+          "title": "%%products.items.5.name%%",
           "challengeLabel": "Défi",
           "challenge": "Les patients munis d'une ordonnance n'avaient aucun moyen rapide de faire préparer et livrer leurs médicaments.",
           "buildLabel": "Réalisation",
@@ -640,7 +989,8 @@
         },
         {
           "type": "Application de livraison (interne)",
-          "title": "On-Demand Delivery App",
+          "id": "delivery-app",
+          "title": "Application de livraison à la demande",
           "challengeLabel": "Défi",
           "challenge": "Des entreprises de différents secteurs avaient besoin de livraison à la demande — commande, répartition et suivi en temps réel — sans construire d'infrastructure logistique depuis zéro.",
           "buildLabel": "Réalisation",
@@ -651,7 +1001,7 @@
           "result": "Une plateforme de livraison réutilisable, prête à être personnalisée et déployée pour des entreprises clientes."
         }
       ],
-      "note": "Ce sont des systèmes que nous avons conçus et construits de bout en bout — certains fonctionnent aujourd'hui comme nos propres produits, d'autres ont été construits pour que des clients les exploitent sous leur propre marque.",
+      "note": "%%products.count%% plateformes que nous avons construites, que nous exploitons et que nous pouvons adapter à votre activité.",
       "cta": { "title": "Un projet en tête ?", "body": "Dites-nous ce que vous construisez. Nous reviendrons vers vous avec un périmètre clair, un calendrier réaliste et un prix fixe.", "cta": "Démarrer un projet" }
     },
     "nrBos": {
@@ -667,103 +1017,6 @@
       },
       "breadcrumb": "NR-BOS",
       "backLink": "Retour aux réalisations",
-      "tour": [
-        {
-          "eyebrow": "Aperçu",
-          "title": "Une lecture en direct de chaque projet",
-          "body": "Indicateurs à l'échelle du portefeuille, budget vs dépenses réelles et charge des équipes — la première chose que chacun ouvre chaque matin.",
-          "shots": [
-            {
-              "file": "dashboard-overview.jpg",
-              "caption": "Tableau de bord — indicateurs du portefeuille et budget vs réel"
-            },
-            {
-              "file": "dashboard-team-workload.jpg",
-              "caption": "Tableau de bord — charge d'équipe par statut"
-            }
-          ]
-        },
-        {
-          "eyebrow": "Projets",
-          "title": "Chaque chantier, suivi jusqu'à la tâche",
-          "body": "Les projets ont leur propre budget, client et équipe. Le travail à l'intérieur de chacun se déroule sur un tableau à quatre colonnes — à faire, en cours, en révision, terminé.",
-          "shots": [
-            {
-              "file": "projects-list.jpg",
-              "caption": "Projets — vue d'ensemble du portefeuille"
-            },
-            {
-              "file": "project-kanban.jpg",
-              "caption": "Détail du projet — tableau des tâches"
-            }
-          ]
-        },
-        {
-          "eyebrow": "Suivi du temps",
-          "title": "Des heures saisies une fois, fiables partout",
-          "body": "Un ouvrier de terrain démarre et met en pause un chronomètre depuis son téléphone sur site ; le bureau corrige ou complète les écarts sur une grille hebdomadaire. Chaque saisie passe par soumis, approuvé ou rejeté avant d'alimenter quoi que ce soit en aval."
-        },
-        {
-          "eyebrow": "Budget",
-          "title": "Dépenses suivies par rapport au budget, par catégorie",
-          "body": "Chaque poste de coût — matériaux, main-d'œuvre, sous-traitants, permis — remonte en temps réel dans le budget du projet. Le coût de main-d'œuvre lui-même est calculé à partir des heures approuvées et du taux de chaque employé au moment du travail, jamais saisi manuellement — et comme les taux sont historisés, une augmentation de salaire le trimestre prochain ne réécrit jamais silencieusement ce qu'un chantier a coûté le trimestre dernier. La plupart des outils écrasent le taux en place et corrompent silencieusement les chiffres du trimestre précédent ; pas celui-ci.",
-          "shots": [
-            {
-              "file": "project-costs.jpg",
-              "caption": "Détail du projet — grand livre des coûts"
-            }
-          ]
-        },
-        {
-          "eyebrow": "Travail de terrain",
-          "title": "Ce qui s'est passé sur site, avec preuve à l'appui",
-          "body": "Les équipes de terrain consignent notes de progression et photos directement depuis le site — y compris des paires avant/après pour les travaux faciles à décrire mais difficiles à visualiser.",
-          "shots": [
-            {
-              "file": "field-report-notes.jpg",
-              "caption": "Rapports de terrain — notes de site et photos"
-            },
-            {
-              "file": "field-report-before-after.jpg",
-              "caption": "Rapport de terrain — avant / après"
-            }
-          ]
-        },
-        {
-          "eyebrow": "Rapports clients",
-          "title": "Un PDF de marque, généré en un clic",
-          "body": "Rassemblez les tâches, coûts et photos de terrain récentes d'un projet dans un rapport PDF prêt pour le client — d'abord en brouillon, puis marqué comme envoyé une fois prêt.",
-          "shots": [
-            {
-              "file": "client-report-generate.jpg",
-              "caption": "Génération d'un rapport client"
-            },
-            {
-              "file": "client-report-pdf.jpg",
-              "caption": "Rapport client généré (PDF)"
-            }
-          ]
-        },
-        {
-          "eyebrow": "Équipe & licences",
-          "title": "Accès basé sur les rôles, sous licence par code",
-          "body": "Administrateurs, chefs de projet, ouvriers de terrain et clients ne voient chacun que ce qui leur appartient. L'accès lui-même repose sur des codes d'abonnement à échanger, émis par lots — aucun prestataire de paiement requis.",
-          "shots": [
-            {
-              "file": "team-users.jpg",
-              "caption": "Utilisateurs — effectif et rôles de l'entreprise"
-            },
-            {
-              "file": "subscription-plan.jpg",
-              "caption": "Abonnement — plan actif"
-            },
-            {
-              "file": "license-batches.jpg",
-              "caption": "Lots de licences — codes d'échange"
-            }
-          ]
-        }
-      ],
       "workflow": {
         "label": "Comment ça fonctionne réellement",
         "title": "De la planification au rapport client — un flux connecté",
@@ -977,11 +1230,12 @@
         "body": "Rejoignez des salons d'étude et de travail en direct avec présence en temps réel et notes de session partagées — pensé pour collaborer entre fuseaux horaires et langues.",
         "ctaPrimary": "Commencer",
         "ctaSecondary": "Voir comment ça marche",
-        "trustLine": "Sans carte bancaire · Résiliable à tout moment · Conforme RGPD",
+        "trustLine": "Sans carte bancaire · Résiliable à tout moment · Conçu en tenant compte du RGPD",
         "earlyAccessBadge": "Actuellement en accès anticipé",
         "mockCaption": "Essayez — tapez une note et observez la présence se mettre à jour",
         "visual": {
           "notesLabel": "Notes de Session Partagées",
+          "illustrativeLabel": "Aperçu illustratif",
           "demoPlaceholder": "Essayez de taper une note ici…",
           "demoAriaLabel": "Essayez le panneau de notes partagées (démo uniquement — rien n'est enregistré)",
           "participants": [
@@ -1035,10 +1289,10 @@
       "plansTitle": "Des Formules Simples, des Prix Clairs",
       "plansSub": "Chaque formule inclut un accès complet aux salons et aux notes partagées — seules les allocations de minutes de session mensuelles diffèrent.",
       "plans": [
-        {"name": "Basic", "price": "29", "period": "/ mois", "features": ["2 heures de sessions en direct / mois", "Accès complet aux salons et aux notes partagées", "Notes de session sauvegardées sans limite"], "popular": false},
-        {"name": "Pro", "price": "79", "period": "/ mois", "features": ["10 heures de sessions en direct / mois", "Support prioritaire", "Toutes les fonctionnalités Basic"], "popular": true}
+        {"name": "Basic", "id": "basic", "period": "/ mois", "features": ["2 heures de sessions en direct / mois", "Accès complet aux salons et aux notes partagées", "Notes de session sauvegardées sans limite"], "popular": false},
+        {"name": "Pro", "id": "pro", "period": "/ mois", "features": ["10 heures de sessions en direct / mois", "Support prioritaire", "Toutes les fonctionnalités Basic"], "popular": true}
       ],
-      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "_syncNote": "Plan names and session-minute allowances mirror nordic-riser-portal DEFAULT_PLANS (2026-09-09); there is no free tier. Prices are NOT here: they come from src/_data/facts.json (pricing.globalReach), formatted per language by common.priceFormat.",
       "limitNote": "Besoin de plus de minutes de session que votre formule n'en inclut ? Vous pouvez recharger votre compte à tout moment.",
       "faqLabel": "Questions fréquentes",
       "faqTitle": "Questions fréquentes",
@@ -1047,11 +1301,11 @@
         { "q": "Que se passe-t-il lorsque j'ai épuisé mes minutes mensuelles ?", "a": "Vos salons et notes partagées restent entièrement accessibles. Démarrer une nouvelle session chronométrée nécessite de recharger votre compte ou d'attendre votre prochain cycle de facturation." },
         { "q": "Que se passe-t-il avec les minutes supplémentaires non utilisées ?", "a": "Les minutes supplémentaires n'expirent jamais tant que votre abonnement reste actif — elles sont reportées sur votre prochain cycle de facturation jusqu'à ce que vous les utilisiez." },
         { "q": "Quelles langues sont prises en charge ?", "a": "Interface complète en anglais, suédois, allemand, français, espagnol, italien, polonais, néerlandais, portugais, ourdou et arabe." },
-        { "q": "Mes données sont-elles privées ?", "a": "Oui — vos données de session sont traitées conformément à notre politique de confidentialité, conforme au RGPD, qui précise exactement ce que nous collectons et pourquoi." }
+        { "q": "Mes données sont-elles privées ?", "a": "Oui — vos données de session sont traitées conformément à notre politique de confidentialité, rédigée en tenant compte du RGPD, qui précise exactement ce que nous collectons et pourquoi." }
       ],
       "emailCapture": { "title": "Pas encore prêt ?", "body": "Soyez informé du lancement de nouvelles langues.", "placeholder": "Votre adresse e-mail", "consent": "J'accepte d'être contacté(e) à propos de Global Reach et j'accepte la", "privacyLinkLabel": "Politique de confidentialité", "successText": "Merci - nous vous enverrons un e-mail dès que votre langue sera disponible.", "errorText": "Une erreur s'est produite. Veuillez réessayer.", "button": "M'informer" },
       "stickyBar": { "text": "Prêt à commencer à collaborer ?", "cta": "Commencer" },
-      "cta": { "title": "Commencez à collaborer dès aujourd'hui", "body": "Créez votre compte — sans carte bancaire — et rejoignez votre premier salon en quelques minutes.", "trustLine": "Sans carte bancaire · Résiliable à tout moment · Conforme RGPD" }
+      "cta": { "title": "Commencez à collaborer dès aujourd'hui", "body": "Créez votre compte — sans carte bancaire — et rejoignez votre premier salon en quelques minutes.", "trustLine": "Sans carte bancaire · Résiliable à tout moment · Conçu en tenant compte du RGPD" }
     },
     "portal": {
       "hero": { "label": "Accès client", "h1": "Portail membre", "body": "Un accès sécurisé pour les clients enregistrés de Nordic Riser AB afin de gérer leur mission, leurs documents et leurs communications." },

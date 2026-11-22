@@ -12,6 +12,7 @@ pageKey: privacy
 pageSlug: legal/privacy
 ---
 {%- set t = locales[locale] -%}
+{% from "partials/company-details.njk" import companyLines with context %}
 {%- set isFallback = not t.pages.privacy -%}
 {%- set p = t.pages.privacy or locales.en.pages.privacy -%}
 {%- set s = p.sections -%}
@@ -51,7 +52,9 @@ pageSlug: legal/privacy
 
   <div class="doc-body">
     <div class="updated-badge">{{ icons.icon('calendar') }} {{ p.updatedBadge }}</div>
-    {%- if p.whatChanged %}
+    {%- if p.whatChangedSummary %}
+    <div class="info-box what-changed"><p>{{ p.whatChangedSummary }} <a href="#change-history">{{ p.changeHistory.title }} ↓</a></p></div>
+    {%- elif p.whatChanged %}
     <div class="info-box what-changed"><p>{{ p.whatChanged }}</p></div>
     {%- endif %}
 
@@ -65,14 +68,7 @@ pageSlug: legal/privacy
       {%- for para in s.s2.intro %}<p>{{ para }}</p>{% endfor %}
       <div class="contact-card">
         <div>
-          <strong>Nordic Riser AB</strong><br>
-          {%- if "[STREET_ADDRESS]" not in t.pages.contact.sidebar.addressValue %}
-          {{ t.pages.contact.sidebar.addressValue }}<br>
-          {%- endif %}
-          {%- if "[ORG_NR]" not in t.footer.orgNrValue %}
-          {{ t.footer.orgNrLabel }} {{ t.footer.orgNrValue }}<br>
-          {%- endif %}
-          Email: info@nordicriser.com
+          {{ companyLines(locales.en.common.company if not t.pages.privacy else t.common.company) | safe }}
         </div>
       </div>
       <p>{{ s.s2.contactNote }}</p>
@@ -187,6 +183,17 @@ pageSlug: legal/privacy
         <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
       </div>
     </div>
+
+    {%- if p.changeHistory %}
+    <details class="doc-section change-history" id="change-history">
+      <summary><h2>{{ p.changeHistory.title }}</h2></summary>
+      <ul>
+        {%- for item in p.changeHistory.items %}
+        <li>{{ item }}</li>
+        {%- endfor %}
+      </ul>
+    </details>
+    {%- endif %}
 
   </div>
 </div>

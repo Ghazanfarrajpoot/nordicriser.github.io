@@ -7,11 +7,23 @@
     "requestQuote": "Angebot anfordern",
     "signUp": "Registrieren",
     "builtWith": "Gebaut mit:",
+    "screenshot": "Screenshot",
     "startProject": "Projekt starten",
     "emailLabel": "E-Mail",
     "websiteLabel": "Website",
     "home": "Startseite",
-    "pricingOnRequest": "Preise auf Anfrage"
+    "pricingOnRequest": "Preise auf Anfrage",
+    "priceFormat": "{eur} € ({sek} SEK)",
+    "company": {
+      "orgNr": "Org.-Nr.",
+      "vat": "USt-IdNr.",
+      "address": "Adresse",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "registration": "Registrierung",
+      "country": "Schweden",
+      "cityCountry": "Stockholm, Schweden"
+    }
   },
   "nav": {
     "home": "Startseite",
@@ -28,13 +40,11 @@
   "footer": {
     "brandBlurb": "Nordic Riser AB ist ein Software-Studio mit Sitz in Stockholm, das mehrsprachige Webplattformen, sichere Kundenportale und grenzüberschreitende Produkte für Unternehmen entwickelt, die in mehr als einer Sprache tätig sind.",
     "addressHeading": "Eingetragener Firmensitz",
-    "orgNrLabel": "Org.-Nr.",
-    "orgNrValue": "[ORG_NR]",
     "firmHeading": "Unternehmen",
     "complianceHeading": "Compliance",
     "disclaimerHeading": "Haftungsausschluss",
     "disclaimer": "Nordic Riser AB erbringt ausschließlich strategische Beratungsleistungen. Wir bieten keine Rechtsvertretung, keine Einwanderungsberatung und keine Erfolgsgarantien. Alle Entscheidungen liegen bei den zuständigen Behörden. Compliance steht bei allem, was wir tun, an erster Stelle.",
-    "copyright": "© 2026 Nordic Riser AB. Alle Rechte vorbehalten. Stockholm, Sweden.",
+    "copyright": "© 2026 Nordic Riser AB. Alle Rechte vorbehalten. Stockholm, Schweden.",
     "divisions": {
       "consultingHeading": "Beratung",
       "consultingLinks": [
@@ -45,15 +55,17 @@
       ],
       "itServicesHeading": "Dienstleistungen",
       "itServicesLinks": [
-        { "label": "Webplattformen & Portale" },
-        { "label": "Automatisierung & Integrationen" },
-        { "label": "Laufender Support" },
+        { "label": "Mehrsprachige Webplattformen", "anchor": "web-platforms" },
+        { "label": "Sichere Kundenportale", "anchor": "portals" },
+        { "label": "Individuelle Produkte & SaaS", "anchor": "products" },
+        { "label": "Automatisierung & Integrationen", "anchor": "automation" },
+        { "label": "Laufender Support", "anchor": "support" },
         { "label": "Angebot anfordern", "target": "contact" }
       ],
       "globalReachHeading": "Global Reach",
       "globalReachLinks": [
-        { "label": "So funktioniert es" },
-        { "label": "Pläne & Preise" },
+        { "label": "So funktioniert es", "anchor": "#how-it-works" },
+        { "label": "Pläne & Preise", "anchor": "#pricing" },
         { "label": "Jetzt starten", "external": "https://portal.nordicriser.com" }
       ]
     },
@@ -70,6 +82,248 @@
       "dpa": "Auftragsverarbeitungsvertrag",
       "subprocessors": "Unterauftragsverarbeiter",
       "security": "Sicherheit"
+    }
+  },
+  "productOverviews": {
+    "nrBos": {
+      "id": "nr-bos",
+      "eyebrow": "Live-Produkt",
+      "title": "NR-BOS entdecken",
+      "body": "Öffnen Sie die interaktive Tour – zehn Bereiche, echte Ansichten aus dem Live-Produkt.",
+      "cta": "Tour öffnen",
+      "modalId": "Eigenes Produkt · NR-BOS",
+      "modalTitle": "NR-BOS – Interaktive Tour",
+      "closeLabel": "Schließen",
+      "tabsLabel": "NR-BOS-Funktionsbereiche",
+      "sliderBeforeLabel": "Vorher",
+      "sliderAfterLabel": "Nachher",
+      "sliderNote": "Ziehen zum Vergleichen – ein echtes Vorher/Nachher-Paar aus einem Baustellenbericht.",
+      "panels": [
+        {
+          "slug": "dashboard",
+          "icon": "chart",
+          "tabLabel": "Dashboard",
+          "eyebrow": "Überblick",
+          "title": "Alle Projekte auf einen Blick, live",
+          "body": "Portfolioweite Kennzahlen, Budget vs. Ist-Kosten und Fertigstellungsgrad – das Erste, was morgens geöffnet wird.",
+          "features": [
+            "Gesamtzahl und aktive Projekte, in Echtzeit aktualisiert",
+            "Fertigstellungsgrad über das gesamte Portfolio, automatisch ermittelt, sobald Aufgaben abgeschlossen werden",
+            "Budget und Ist-Kosten nebeneinander",
+            "Gewinnmarge und Rentabilität, berechnet aus Budget und Ist-Kosten – noch nicht mit fakturierten Umsätzen verknüpft"
+          ],
+          "shots": [
+            {
+              "file": "dashboard-overview.jpg",
+              "alt": "NR-BOS-Dashboard mit Projektanzahl, Fertigstellungsgrad, Gewinnmarge, Budget vs. Ist-Kosten und einem Kreisdiagramm der Projekte nach Status"
+            }
+          ]
+        },
+        {
+          "slug": "projects",
+          "icon": "clipboard",
+          "tabLabel": "Projekte",
+          "eyebrow": "Umsetzung",
+          "title": "Jeder Auftrag, bis zur einzelnen Aufgabe verfolgt",
+          "body": "Projekte haben ihr eigenes Budget, ihren Kunden und ihr Team. Die Arbeit in jedem Projekt läuft auf einem Board mit vier Spalten.",
+          "features": [
+            "Offen, in Arbeit, in Prüfung, erledigt – ein Board pro Projekt",
+            "Jede Aufgabe hat eine verantwortliche Person, ein Fälligkeitsdatum und geschätzte Stunden",
+            "Projektstatus – Planung, aktiv, pausiert, abgeschlossen – auf einen Blick",
+            "Arbeitsaufträge mit Priorität und Termin, im Tages-, Wochen- oder Monatskalender sichtbar"
+          ],
+          "shots": [
+            {
+              "file": "projects-list.jpg",
+              "alt": "Liste mit vier NR-BOS-Projekten und Status-Badges – aktiv, pausiert, Planung und abgeschlossen"
+            },
+            {
+              "file": "project-kanban.jpg",
+              "alt": "Kanban-Board eines Projekts mit Aufgaben in den Spalten Offen, In Arbeit, Prüfung und Erledigt"
+            }
+          ]
+        },
+        {
+          "slug": "work-orders",
+          "icon": "pin",
+          "tabLabel": "Arbeitsaufträge",
+          "eyebrow": "Disposition",
+          "title": "Jeder Auftrag disponiert, terminiert und verfolgt",
+          "body": "Arbeitsaufträge haben eine Priorität, einen Einsatzort und ein Zeitfenster – dargestellt im Tages-, Wochen- oder Monatskalender, damit nichts untergeht.",
+          "features": [
+            "Vier Prioritätsstufen, von Niedrig bis Dringend, auf einen Blick",
+            "Ein vollständiger Status-Lebenszyklus – von Entwurf über Terminiert, Zugewiesen, In Arbeit und Prüfung bis Abgeschlossen",
+            "Optional angehängte Checklistenvorlage, damit Außendienstteams jedes Mal dieselben Schritte befolgen"
+          ],
+          "shots": [
+            {
+              "file": "work-orders-list.jpg",
+              "alt": "Liste von NR-BOS-Arbeitsaufträgen mit Prioritäts- und Status-Badges"
+            },
+            {
+              "file": "schedule-month.jpg",
+              "alt": "Monatskalender mit den im September geplanten Arbeitsaufträgen"
+            }
+          ]
+        },
+        {
+          "slug": "time-tracking",
+          "icon": "clock",
+          "tabLabel": "Zeit & Freigaben",
+          "eyebrow": "Arbeitsstunden",
+          "title": "Stunden einmal erfasst, vor der Verrechnung freigegeben",
+          "body": "Ein Wochenraster zur Zeiterfassung pro Projekt und eine eigene Freigabeliste nach Mitarbeitenden und Wochen – nichts gelangt ungeprüft in die Lohnabrechnung oder das Kostenreporting.",
+          "features": [
+            "Zeit pro Projekt und Tag direkt im Wochenraster erfassen",
+            "Woche mit einem Klick einreichen; eine Führungskraft gibt frei oder lehnt mit Begründung ab",
+            "Freigaben gruppiert nach Mitarbeitenden und Wochen, mit laufenden Summen"
+          ],
+          "shots": [
+            {
+              "file": "time-weekly-grid.jpg",
+              "alt": "Wöchentlicher Stundenzettel mit tageweise erfassten Stunden für ein Projekt"
+            },
+            {
+              "file": "time-approvals.jpg",
+              "alt": "Freigabeliste für Zeiten, gruppiert nach Mitarbeitenden und Wochen, mit laufenden Summen"
+            }
+          ]
+        },
+        {
+          "slug": "checklists",
+          "icon": "check",
+          "tabLabel": "Checklisten",
+          "eyebrow": "Einheitliche Schritte",
+          "title": "Dieselben Schritte, jedes Mal, bei jedem Auftrag",
+          "body": "Wiederverwendbare Checklistenvorlagen werden an einen Arbeitsauftrag angehängt, sodass Außendienstteams dieselben Schritte erledigen – und nachweisen können –, egal wer vor Ort ist.",
+          "features": [
+            "Kontrollkästchen oder Freitextpunkte, jeweils als Pflicht oder optional markiert",
+            "Eine Vorlage, wiederverwendbar für beliebig viele Arbeitsaufträge",
+            "Direkt beim Anlegen eines Arbeitsauftrags angehängt"
+          ],
+          "shots": [
+            {
+              "file": "checklists-list.jpg",
+              "alt": "Liste der Checklistenvorlagen mit Anzahl der Punkte und Aktiv-Status"
+            },
+            {
+              "file": "checklist-editor.jpg",
+              "alt": "Editor für Checklistenvorlagen mit als Pflicht markierten Kontrollkästchen- und Textpunkten"
+            }
+          ]
+        },
+        {
+          "slug": "field-reporting",
+          "icon": "wrench",
+          "tabLabel": "Baustellenberichte",
+          "eyebrow": "Vor Ort",
+          "title": "Was vor Ort passiert ist – mit Nachweis",
+          "body": "Außendienstteams erfassen Fortschrittsnotizen und Fotos direkt vor Ort – einschließlich Vorher/Nachher-Paaren für Arbeiten, die leicht zu beschreiben, aber schwer vorzustellen sind.",
+          "features": [
+            "Notizen zu einer bestimmten Aufgabe, mit Zeitstempel und Geotag",
+            "Vorher-, Nachher- und allgemeine Fotos in jedem Bericht",
+            "Ziehen Sie den Schieberegler unten – ein echtes Vorher/Nachher-Paar aus einem Baustellenbericht"
+          ],
+          "shots": [
+            {
+              "file": "field-report-notes.jpg",
+              "alt": "Eintrag in einem Baustellenbericht mit zeitgestempelter Notiz und angehängtem Foto"
+            }
+          ]
+        },
+        {
+          "slug": "client-reports",
+          "icon": "folder",
+          "tabLabel": "Kundenberichte",
+          "eyebrow": "Für Kunden",
+          "title": "Ein gebrandetes PDF, mit einem Klick erstellt",
+          "body": "Aufgaben, Kosten und aktuelle Baustellenfotos eines Projekts in einem kundenfertigen PDF-Bericht bündeln – zuerst als Entwurf, dann als versendet markieren.",
+          "features": [
+            "Kommentarfeld für einen schriftlichen Fortschrittsbericht",
+            "Entwurfsstatus, bis der Bericht für den Kunden bereit ist",
+            "Das erzeugte PDF bindet aktuelle Fotos aus Baustellenberichten automatisch ein"
+          ],
+          "shots": [
+            {
+              "file": "client-report-generate.jpg",
+              "alt": "Dialog „Kundenbericht erstellen“ mit Kommentarfeld für den Text an den Kunden"
+            },
+            {
+              "file": "client-report-pdf.jpg",
+              "alt": "Erstellter Kundenbericht als PDF mit Unternehmensdaten, Projektinformationen und Aufgabenstatus"
+            }
+          ]
+        },
+        {
+          "slug": "analytics",
+          "icon": "target",
+          "tabLabel": "Auswertungen",
+          "eyebrow": "Team & Kosten",
+          "title": "Wohin Zeit und Geld fließen",
+          "body": "Teamauslastung nach Status und ein vollständiges Kostenbuch nach Kategorien – die Zahlen hinter dem Dashboard.",
+          "features": [
+            "Auslastungsdiagramm pro Person nach offen, in Arbeit, in Prüfung und erledigt",
+            "Kostenbuchungen nach Kategorie – Material, Arbeit, Subunternehmer, Genehmigungen",
+            "Restbudget wird bei jeder Kostenbuchung automatisch berechnet"
+          ],
+          "shots": [
+            {
+              "file": "dashboard-team-workload.jpg",
+              "alt": "Diagramm der Teamauslastung mit Aufgabenanzahl nach Status für jedes Teammitglied"
+            },
+            {
+              "file": "project-costs.jpg",
+              "alt": "Kostenbuch mit datierten Einträgen nach Kategorie, laufendem Budget und Restbetrag"
+            }
+          ]
+        },
+        {
+          "slug": "integrations",
+          "icon": "link",
+          "tabLabel": "Integrationen",
+          "eyebrow": "Ihre Systeme verbinden",
+          "title": "Ausgehende Webhooks, signiert und ereignisgesteuert",
+          "body": "NR-BOS sendet eine signierte Nachricht an Ihren Endpunkt, sobald ein ausgewähltes Ereignis eintritt – ein abgeschlossener Arbeitsauftrag, eine freigegebene Zeiterfassung – ganz ohne Abfragen.",
+          "features": [
+            "Wählen Sie, bei welchen Ereignistypen jeder Webhook auslöst",
+            "Ein Abonnement pausieren, ohne es zu löschen",
+            "Jede Nachricht ist signiert, damit Ihr Endpunkt prüfen kann, dass sie wirklich von NR-BOS stammt"
+          ],
+          "shots": [
+            {
+              "file": "integrations-webhooks.jpg",
+              "alt": "Aktives Webhook-Abonnement mit ausgewählten Ereignistypen"
+            }
+          ]
+        },
+        {
+          "slug": "licensing",
+          "icon": "lock",
+          "tabLabel": "Team & Lizenzen",
+          "eyebrow": "Zugriff & Abrechnung",
+          "title": "Rollenbasierter Zugriff, per Code lizenziert",
+          "body": "Administratoren, Projektleitende, Außendienst und Kunden sehen jeweils nur, was sie betrifft. Der Zugang selbst läuft über einlösbare Abonnementcodes – ganz ohne Zahlungsanbieter.",
+          "features": [
+            "Vier Rollen mit jeweils eigener Ansicht des Produkts",
+            "Abonnementstatus und Verlängerungsdatum auf einen Blick",
+            "Lizenzcodes werden in Chargen erzeugt und einmal pro Unternehmen eingelöst"
+          ],
+          "shots": [
+            {
+              "file": "team-users.jpg",
+              "alt": "Benutzerliste des Unternehmens mit Namen, E-Mail-Adressen, Rollen und Aktiv/Inaktiv-Status"
+            },
+            {
+              "file": "subscription-plan.jpg",
+              "alt": "Aktives Abonnement mit Verlängerungsdatum und einem Feld zum Einlösen eines Lizenzcodes"
+            },
+            {
+              "file": "license-batches.jpg",
+              "alt": "Liste der Lizenzchargen mit Stufe, Anzahl der Einlösungen und Erstellungsdatum"
+            }
+          ]
+        }
+      ]
     }
   },
   "pages": {
@@ -96,9 +350,9 @@
       },
       "proofBar": {
         "stats": [
-          { "value": "11", "label": "Sprachen in Produktion ausgeliefert" },
-          { "value": "5", "label": "Intern entwickelte Produkte" },
-          { "value": "Stockholm, Sweden", "label": "Ansässig in" },
+          { "value": "%%languagesShipped%%", "label": "Sprachen in Produktion ausgeliefert" },
+          { "value": "%%products.count%%", "label": "Intern entwickelte Produkte" },
+          { "value": "Stockholm, Schweden", "label": "Ansässig in" },
           { "value": "Design → Entwicklung → Support", "label": "Vorgehen" }
         ]
       },
@@ -107,8 +361,8 @@
         "title": "Vier Dinge, die wir besonders gut können",
         "cards": [
           { "icon": "globe", "title": "Mehrsprachige Webplattformen", "body": "Produktionswebsites, die in jedem Markt funktionieren, den Sie bedienen. Korrektes hreflang, RTL-Unterstützung, lokalisierte Inhaltsstruktur — keine nachträglich maschinenübersetzten Texte.", "builtWith": "Statische Seitengenerierung, CDN-Auslieferung, Ladezeiten unter einer Sekunde" },
-          { "icon": "lock", "title": "Sichere Kundenportale", "body": "Authentifizierte Portale für Dokumentenaustausch, Fallverfolgung und Kundenkommunikation. Rollenbasierter Zugriff, verschlüsselte Speicherung, Audit-Trails.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
-          { "icon": "code", "title": "Individuelle Produkte & SaaS", "body": "Vollständige Produktentwicklung, vom Konzept bis zum Launch. Echtzeitfunktionen, Abonnement-Abrechnung, Admin-Tools.", "seeLabel": "Siehe:", "seeText": "Global Reach — unsere eigene Plattform für Live-Übersetzungs-Zusammenarbeit", "seeLink": "global-reach" },
+          { "icon": "lock", "title": "Sichere Kundenportale", "body": "Authentifizierte Portale für Dokumentenaustausch, Fallverfolgung und Kundenkommunikation. Rollenbasierter Zugriff, serverseitig durchgesetzte Datenregeln, privater Dateispeicher und Aktivitätsprotokollierung im Mitgliederportal.", "builtWith": "React, Firebase Auth, Firestore, Cloud Storage" },
+          { "icon": "code", "title": "Individuelle Produkte & SaaS", "body": "Vollständige Produktentwicklung, vom Konzept bis zum Launch. Echtzeitfunktionen, Abonnement-Abrechnung, Admin-Tools.", "seeLabel": "Siehe:", "seeText": "Global Reach — unsere eigenen Live-Räume zum Lernen und Arbeiten, mit Echtzeit-Präsenz und gemeinsamen Sitzungsnotizen", "seeLink": "global-reach" },
           { "icon": "gear", "title": "Automatisierung & Integrationen", "body": "Verbinden Sie die Tools, die Sie bereits nutzen. Eliminieren Sie manuelle Doppelerfassung. Automatisieren Sie die Arbeitsabläufe, die die Woche Ihres Teams auffressen.", "builtWith": "APIs, Webhooks, serverlose Funktionen" }
         ]
       },
@@ -116,13 +370,13 @@
         "label": "Ausgewählte Arbeiten",
         "title": "Was wir gebaut haben",
         "items": [
-          { "type": "SaaS-Produkt (intern entwickelt)", "title": "NR-BOS", "featured": true, "featuredLabel": "Vorzeigeprodukt", "oneLiner": "Projektabwicklung, Feldeinsätze und Kundenberichte — alles auf einer Plattform, entwickelt und lizenziert von Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS-Produkt (intern entwickelt)", "title": "Global Reach", "oneLiner": "Live-Lern- und Arbeitsräume mit Echtzeit-Präsenzanzeige und gemeinsamen Sitzungsnotizen, minutengenau abgerechnet.", "link": "global-reach" },
-          { "type": "Sicheres Kundenportal", "title": "Nordic Riser Mitgliederportal", "oneLiner": "Ein authentifiziertes Portal für Dokumentenaustausch, Fallverfolgung, sichere Nachrichten und Zahlungen.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
-          { "type": "Mehrsprachige Marketingplattform", "title": "nordicriser.com", "oneLiner": "Eine elfsprachige Produktionswebsite mit RTL-Unterstützung, vollständiger Meta-Abdeckung und sauberen sprachspezifischen URLs.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
-          { "type": "Gesundheits-App", "title": "Telemedizin-App", "oneLiner": "Eine Telemedizin-Plattform, die wir von Grund auf gebaut haben — HD-Videokonsultationen, Terminbuchung und Chat während des Anrufs — bereit zur Anpassung für jede Gesundheitsmarke.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
-          { "type": "Apotheken-Abwicklungs-App", "title": "Apotheken-Plattform", "oneLiner": "Ein Apotheken-Abwicklungssystem, das wir gebaut haben und das Rezepte mit Bearbeitung und Lieferung verbindet, bereit zur Anpassung für jeden Betreiber.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
-          { "type": "Lieferapp (intern entwickelt)", "title": "On-Demand Delivery App", "oneLiner": "Eine anpassbare Lieferplattform für Bestellung, Disposition und Fahrer-Tracking für jedes Unternehmen.", "link": "work", "linkLabel": "Im Portfolio ansehen →" }
+          { "type": "SaaS-Produkt (intern entwickelt)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Vorzeigeprodukt", "oneLiner": "Projektabwicklung, Feldeinsätze und Kundenberichte — alles auf einer Plattform, entwickelt und lizenziert von Nordic Riser AB.", "link": "work/nr-bos" },
+          { "type": "SaaS-Produkt (intern entwickelt)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live-Räume zum Lernen und Arbeiten mit Echtzeit-Präsenz und gemeinsamen Sitzungsnotizen, mit Monatsplänen inklusive Sitzungsminuten-Kontingent – jederzeit aufladbar.", "link": "global-reach" },
+          { "type": "Sicheres Kundenportal (intern entwickelt)", "id": "member-portal", "title": "Nordic Riser Mitgliederportal", "oneLiner": "Ein authentifiziertes Portal für Dokumentenaustausch, Fallverfolgung, sichere Nachrichten und Zahlungen.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
+          { "type": "Mehrsprachige Marketingplattform (intern entwickelt)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Eine elfsprachige Produktionswebsite mit RTL-Unterstützung, vollständiger Meta-Abdeckung und sauberen sprachspezifischen URLs.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
+          { "type": "Gesundheits-App (intern entwickelt)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Eine Telemedizin-Plattform, die wir von Grund auf gebaut haben — HD-Videokonsultationen, Terminbuchung und Chat während des Anrufs — bereit zur Anpassung für jede Gesundheitsmarke.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
+          { "type": "Plattform für Apothekenabwicklung (intern entwickelt)", "id": "4ezone-pharmacy", "title": "%%products.items.5.name%%", "oneLiner": "Ein Apotheken-Abwicklungssystem, das wir gebaut haben und das Rezepte mit Bearbeitung und Lieferung verbindet, bereit zur Anpassung für jeden Betreiber.", "link": "work", "linkLabel": "Im Portfolio ansehen →" },
+          { "type": "Liefer-App (intern entwickelt)", "id": "delivery-app", "title": "On-Demand-Liefer-App", "oneLiner": "Eine anpassbare Lieferplattform für Bestellung, Disposition und Fahrer-Tracking für jedes Unternehmen.", "link": "work", "linkLabel": "Im Portfolio ansehen →" }
         ],
         "cta": "Alle Arbeiten ansehen",
         "ctaLink": "work"
@@ -134,18 +388,20 @@
         "bullets": [
           "Gemeinsame Sitzungsnotizen für die Live-Zusammenarbeit",
           "Echtzeit-Präsenzanzeige — sehen Sie, wer im Raum ist",
-          "Pläne ab 29 $/Monat, minutengenau abgerechnet"
+          "Monatspläne ab %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK) mit Sitzungsminuten-Kontingent – jederzeit aufladbar"
         ],
-        "cta": "Jetzt starten"
+        "cta": "Jetzt starten",
+        "priceBulletIndex": 2,
+        "priceBulletNoAmount": "Monatspläne mit Sitzungsminuten-Kontingent – jederzeit aufladbar"
       },
       "howWeWork": {
         "label": "Prozess",
         "title": "Vom Briefing zum Launch — und darüber hinaus",
         "steps": [
-          { "title": "Discovery", "body": "Wir erfassen, was Sie tatsächlich brauchen, bevor wir eine Zeile Code schreiben. Umfang, Nutzer, Rahmenbedingungen, Erfolgskriterien — dokumentiert und abgestimmt." },
+          { "title": "Analyse", "body": "Wir erfassen, was Sie tatsächlich brauchen, bevor wir eine Zeile Code schreiben. Umfang, Nutzer, Rahmenbedingungen, Erfolgskriterien — dokumentiert und abgestimmt." },
           { "title": "Design & Architektur", "body": "Interface-Design und technische Architektur laufen parallel. Sie sehen und genehmigen die Form der Lösung, bevor wir sie bauen." },
           { "title": "Entwicklung", "body": "Iterative Entwicklung mit funktionierenden Vorschauen in jeder Phase. Keine Blackbox-Stille über sechs Wochen." },
-          { "title": "Launch", "body": "Deployment, Domain- und SSL-Einrichtung, Analytics und Übergabedokumentation. Ihnen gehört alles." },
+          { "title": "Start", "body": "Deployment, Domain- und SSL-Einrichtung, Analytics und Übergabedokumentation. Ihnen gehört alles." },
           { "title": "Support", "body": "Laufende Wartung, Monitoring und Updates. Plattformen bleiben nicht von allein gesund." }
         ]
       },
@@ -170,7 +426,7 @@
               },
               {
                 "category": "Auth & Sicherheit",
-                "items": "Firebase Authentication, rollenbasierte Zugriffskontrolle, verschlüsselte Speicherung"
+                "items": "Firebase Authentication, rollenbasierte Zugriffskontrolle, serverseitig durchgesetzte Datenregeln"
               }
             ]
           },
@@ -198,7 +454,7 @@
         ],
         "practices": {
           "category": "Praktiken",
-          "items": "Git-Versionskontrolle, gestufte Deployments, DSGVO-konforme Datenverarbeitung"
+          "items": "Git-Versionskontrolle, gestufte Deployments, Datenverarbeitung mit Blick auf die DSGVO"
         }
       },
       "whyUs": {
@@ -248,6 +504,7 @@
           "link": "consulting"
         }
       },
+      "founder": { "label": "Der Gründer", "role": "Gründer & CEO", "linkedinLabel": "LinkedIn-Profil" },
       "whyWeExist": {
         "label": "Wo wir angefangen haben — unsere Beratungspraxis",
         "title": "Entstanden, um eine echte Lücke in der internationalen Beratung zu schließen",
@@ -356,13 +613,14 @@
         "errorText": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt eine E-Mail.",
         "submit": "Beratungsanfrage absenden →"
       },
-      "success": { "title": "Anfrage erhalten", "body": "Vielen Dank für Ihre Beratungsanfrage. Ein Mitglied unseres Beraterteams wird Ihre Angaben prüfen und sich innerhalb von 1–2 Werktagen bei Ihnen melden." },
+      "booking": {
+        "heading": "Lieber zuerst sprechen?",
+        "body": "Wählen Sie einen passenden Termin für ein kurzes Kennenlerngespräch.",
+        "button": "20-minütiges Gespräch buchen"
+      },
+      "success": { "title": "Anfrage erhalten", "body": "Vielen Dank für Ihre Anfrage. Wir prüfen Ihre Angaben und melden uns innerhalb von 1–2 Werktagen bei Ihnen." },
       "sidebar": {
         "directContactHeading": "Direkter Kontakt",
-        "phoneLabel": "Telefon",
-        "phoneValue": "[PHONE_NUMBER]",
-        "addressLabel": "Adresse",
-        "addressValue": "[STREET_ADDRESS], Stockholm, Schweden",
         "hoursLabel": "Bürozeiten",
         "hoursValue": "Montag – Freitag, 09:00 – 17:00 MEZ",
         "nextHeading": "Wie es weitergeht",
@@ -374,14 +632,6 @@
         ],
         "noteHeading": "Bitte beachten Sie",
         "noteBody": "Wir prüfen alle eingehenden Anfragen, bevor wir Beratungsgespräche bestätigen. Wir arbeiten mit Mandantinnen und Mandanten, deren Situation zu unseren Leistungen passt — sollte dies bei Ihnen nicht der Fall sein, informieren wir Sie entsprechend und empfehlen nach Möglichkeit eine geeignetere Anlaufstelle."
-      },
-      "closing": {
-        "label": "Warum ein strukturiertes Beratungsgespräch",
-        "title": "Wir bieten keine pauschalen Ratschläge",
-        "paragraphs": [
-          "Jedes Beratungsgespräch bei Nordic Riser AB beginnt mit einer gründlichen Bewertung Ihrer individuellen Situation. Wir bieten keine Standardantworten oder Ratschläge von der Stange. Bevor eine strategische Empfehlung ausgesprochen wird, nehmen wir uns die Zeit, Ihren beruflichen Hintergrund, Ihr Geschäftsmodell und Ihre langfristigen Ziele zu verstehen.",
-          "Wenn Sie es ernst meinen mit dem Aufbau einer rechtlich strukturierten Geschäftspräsenz in Europa und bereit sind, sich professionell auf den Prozess einzulassen, freuen wir uns auf Ihre Anfrage. Unsere Beratungsgespräche sind Arbeitssitzungen — keine Verkaufsgespräche."
-        ]
       }
     },
 
@@ -507,7 +757,35 @@
           { "name": "Laufende Beratung", "body": "Fortlaufende strategische Unterstützung nach Ihrer Erstansiedlung — für sich weiterentwickelnde geschäftliche Bedürfnisse, grenzüberschreitende Fragen oder Expansionsplanung." }
         ]
       },
-      "cta": { "title": "Besprechen Sie Ihre Anforderungen", "body": "Wenn Sie planen, eine Geschäftspräsenz in Europa aufzubauen, laden wir Sie zu einem Beratungsgespräch ein. Wir bewerten Ihre Situation und geben Ihnen einen klaren, strukturierten Überblick über den Weg und die für Ihre Ziele relevanten Leistungen." }
+      "deliverables": {
+        "label": "Was Sie erhalten",
+        "title": "Konkrete Ergebnisse aus jedem Mandat",
+        "sub": "Beratung von Nordic Riser liefert konkrete, verwertbare Ergebnisse – nicht nur ein Gespräch.",
+        "items": [
+          "Ein dokumentiertes strategisches Rahmenwerk, zugeschnitten auf Ihr Unternehmen, Ihre Ziele und Ihre Rahmenbedingungen",
+          "Ein strukturierter Businessplan oder eine Gründungsstrategie, wo relevant nach institutionellen Standards erstellt",
+          "Eine schriftliche Zusammenfassung der Empfehlungen und nächsten Schritte in jeder Phase des Mandats",
+          "Abstimmung mit qualifizierten Rechts-, Buchhaltungs- oder Fachleuten, wenn Ihre Situation es erfordert",
+          "Fortlaufende Beratung, während sich Ihr Unternehmen oder Ihre Umstände weiterentwickeln"
+        ]
+      },
+      "boundaries": {
+        "label": "Professionelle Grenzen",
+        "title": "Was wir sind – und was nicht",
+        "body": [
+          "Wir bieten keine Einwanderungsberatung und keine rechtliche Vertretung. Wir liefern den strategischen Beratungsrahmen, auf dessen Grundlage qualifizierte Fachleute wirksam arbeiten können.",
+          "Wo rechtliche, steuerliche oder regulatorische Fachkenntnisse nötig sind – wie so oft bei Umzügen und grenzüberschreitenden Fragen –, koordinieren wir die Einbindung qualifizierter Fachleute, die diese Arbeit im Rahmen ihrer eigenen Zulassung ausführen."
+        ]
+      },
+      "cta": { "title": "Besprechen Sie Ihre Anforderungen", "body": "Wenn Sie planen, eine Geschäftspräsenz in Europa aufzubauen, laden wir Sie zu einem Beratungsgespräch ein. Wir bewerten Ihre Situation und geben Ihnen einen klaren, strukturierten Überblick über den Weg und die für Ihre Ziele relevanten Leistungen." },
+      "closing": {
+        "label": "Warum ein strukturiertes Beratungsgespräch",
+        "title": "Wir bieten keine pauschalen Ratschläge",
+        "paragraphs": [
+          "Jedes Beratungsgespräch bei Nordic Riser AB beginnt mit einer gründlichen Bewertung Ihrer individuellen Situation. Wir bieten keine Standardantworten oder Ratschläge von der Stange. Bevor eine strategische Empfehlung ausgesprochen wird, nehmen wir uns die Zeit, Ihren beruflichen Hintergrund, Ihr Geschäftsmodell und Ihre langfristigen Ziele zu verstehen.",
+          "Wenn Sie es ernst meinen mit dem Aufbau einer rechtlich strukturierten Geschäftspräsenz in Europa und bereit sind, sich professionell auf den Prozess einzulassen, freuen wir uns auf Ihre Anfrage. Unsere Beratungsgespräche sind Arbeitssitzungen — keine Verkaufsgespräche."
+        ]
+      }
     },
     "itServices": {
       "meta": {
@@ -517,14 +795,78 @@
       "hero": { "label": "Dienstleistungen", "h1": "Webplattformen, Portale & individuelle Software", "body": "Mehrsprachige Websites, sichere Kundenportale, individuelle Produktentwicklung und Workflow-Automatisierung. Entwickelt in Stockholm, ausgeliefert weltweit." },
       "breadcrumb": "Dienstleistungen",
       "offeringsLabel": "Was wir entwickeln",
-      "offeringsTitle": "Vier Kernleistungen",
+      "offeringsTitle": "Fünf Kernleistungen",
       "offeringsSub": "Von der ersten Unternehmenswebsite bis zu den Systemen für den täglichen Betrieb entwickeln wir Technologie, die zu Größe und Entwicklungsstand Ihres Unternehmens passt.",
       "offerings": [
-        { "icon": "globe", "title": "Webplattformen und Unternehmenswebsites", "body": "Professionell gestaltete, mehrsprachig einsetzbare Websites, die Ihrem Unternehmen von Anfang an eine glaubwürdige, strukturierte Online-Präsenz verleihen." },
-        { "icon": "lock", "title": "Kunden- und Geschäftsportale", "body": "Sichere Mitglieder- und Kundenportale zur Verwaltung von Dokumenten, Kommunikation sowie Fall- oder Projektstatus an einem Ort." },
-        { "icon": "gear", "title": "Workflow-Automatisierung und Integrationen", "body": "Automatisierung wiederkehrender operativer Aufgaben und Integration zwischen den Tools, die Ihr Unternehmen bereits nutzt." },
-        { "icon": "wrench", "title": "Laufende Wartung und Support", "body": "Fortlaufender technischer Support, Updates und Monitoring nach dem Launch, damit Ihre Plattform mit dem Wachstum Ihres Unternehmens zuverlässig bleibt." }
+        {
+          "id": "web-platforms",
+          "icon": "globe",
+          "title": "Mehrsprachige Webplattformen",
+          "body": "Produktive Websites für jeden Markt, den Sie bedienen – mit echten Sprachversionen, Rechts-nach-links-Unterstützung wo nötig und schnellen Ladezeiten weltweit.",
+          "included": [
+            "Sprachspezifische URLs und hreflang für Suchmaschinen",
+            "Rechts-nach-links-Layouts für Arabisch, Urdu und ähnliche Sprachen",
+            "Strukturierte Inhalte, die sich leicht aktualisieren und erweitern lassen",
+            "Meta-Tags und Social-Media-Vorschauen in jeder Sprache"
+          ],
+          "stack": "Eleventy oder Next.js, CDN-Hosting, Git-basiertes Publishing"
+        },
+        {
+          "id": "portals",
+          "icon": "lock",
+          "title": "Sichere Kundenportale",
+          "body": "Portale mit Anmeldung, in denen Kunden Dokumente austauschen, ihren Fall oder ihr Projekt verfolgen und Ihrem Team schreiben – an einem Ort statt in E-Mail-Verläufen.",
+          "included": [
+            "Rollenbasierter Zugriff für Kunden, Mitarbeitende und Administratoren",
+            "Serverseitig durchgesetzte Datenregeln, sodass jeder Nutzer nur seine eigenen Daten sieht",
+            "Privater Dateispeicher für Dokumente und Uploads",
+            "Aktivitätsprotokollierung im Mitgliederportal"
+          ],
+          "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
+        },
+        {
+          "id": "products",
+          "icon": "code",
+          "title": "Individuelle Produkte & SaaS",
+          "body": "Vollständige Produktentwicklung vom Konzept bis zum Launch – für eine eigene Produktlinie.",
+          "included": [
+            "Produktdefinition und ein schrittweiser Entwicklungsplan",
+            "Abonnements und Abrechnung",
+            "Admin-Dashboards und interne Tools",
+            "Echtzeitfunktionen wie Live-Präsenz"
+          ],
+          "stack": "React, Next.js, NestJS, PostgreSQL, Firebase"
+        },
+        {
+          "id": "automation",
+          "icon": "gear",
+          "title": "Automatisierung & Integrationen",
+          "body": "Verbinden Sie die Tools, die Sie bereits nutzen, und entfernen Sie manuelle Doppeleingaben aus den Abläufen, die Ihrem Team die Woche rauben.",
+          "included": [
+            "Integrationen zwischen Website, CRM, Buchhaltung und E-Mail-Tools",
+            "Automatische Benachrichtigungen, Berichte und Datensynchronisation",
+            "Webhooks und geplante Jobs",
+            "Klare Dokumentation jedes automatisierten Schritts"
+          ],
+          "stack": "REST-APIs, Webhooks, Serverless Functions, geplante Jobs"
+        },
+        {
+          "id": "support",
+          "icon": "wrench",
+          "title": "Laufender Support",
+          "body": "Technischer Support, Updates und Monitoring nach dem Launch, damit Ihre Plattform zuverlässig bleibt, während Ihr Unternehmen wächst.",
+          "included": [
+            "Sicherheits- und Abhängigkeitsupdates",
+            "Monitoring und Fehlerbehebung",
+            "Bugfixes und kleine Verbesserungen",
+            "Verwaltung von Hosting und Domains"
+          ],
+          "stack": "Monitoring, Fehlertracking, verwaltetes Hosting (Vercel, Firebase, GitHub Pages)"
+        }
       ],
+      "offeringCta": "Über diesen Service sprechen",
+      "stackLabel": "Typischer Technologie-Stack",
+      "includedLabel": "Leistungsumfang",
       "howWeWorkLabel": "Wie wir arbeiten",
       "howWeWorkTitle": "Ein strukturierter Weg von der Idee zum Launch",
       "howWeWorkSub": "Dieselbe Sorgfalt, die wir in unseren Beratungsmandaten anwenden, übertragen wir auf die Planung und Entwicklung von Technologie.",
@@ -532,7 +874,7 @@
         { "title": "Entdecken", "body": "Wir bewerten Ihre unternehmerischen Bedürfnisse und erstellen einen klaren, schriftlichen Umfang sowie ein transparentes Angebot, bevor die Entwicklung beginnt." },
         { "title": "Design", "body": "Interface-Design und technische Architektur, ausgearbeitet und von Ihnen freigegeben, bevor wir eine Zeile Code schreiben." },
         { "title": "Entwicklung", "body": "Wir entwickeln in strukturierten Phasen mit regelmäßigen Abstimmungen, damit Sie stets wissen, wo das Projekt steht." },
-        { "title": "Launch", "body": "Bereitstellung, Domain- und SSL-Einrichtung sowie Übergabedokumentation. Sie besitzen den Code und alle Konten." },
+        { "title": "Start", "body": "Bereitstellung, Domain- und SSL-Einrichtung sowie Übergabedokumentation. Sie besitzen den Code und alle Konten." },
         { "title": "Weiterentwickeln", "body": "Nach dem Launch stehen wir weiterhin für Monitoring, Updates und laufende Verbesserungen zur Verfügung, während sich Ihre Anforderungen weiterentwickeln." }
       ],
       "capabilitiesLabel": "Was wir entwickeln können",
@@ -555,14 +897,15 @@
     "work": {
       "meta": {
         "title": "Unsere Arbeiten — Plattformen, Portale & Produkte — Nordic Riser AB",
-        "description": "Ausgewählte Projekte von Nordic Riser AB — darunter NR-BOS, unsere Vorzeigeplattform für Geschäftsprozesse, eine Echtzeit-Übersetzungsplattform und ein sicheres Kundenportal."
+        "description": "Ausgewählte Projekte von Nordic Riser AB — darunter NR-BOS, unsere Vorzeigeplattform für Geschäftsprozesse, Live-Räume zum Lernen und Arbeiten mit Echtzeit-Präsenz und gemeinsamen Sitzungsnotizen sowie ein sicheres Kundenportal."
       },
       "hero": { "label": "Ausgewählte Arbeiten", "h1": "Was wir gebaut haben", "body": "Plattformen, Portale und Produkte, die wir entworfen, entwickelt und ausgeliefert haben — einschließlich unserer eigenen." },
       "breadcrumb": "Arbeiten",
       "caseStudies": [
         {
           "type": "SaaS-Produkt (intern entwickelt)",
-          "title": "NR-BOS",
+          "id": "nr-bos",
+          "title": "%%products.items.0.name%%",
           "featured": true,
           "featuredLabel": "Vorzeigeprodukt",
           "challengeLabel": "Herausforderung",
@@ -578,20 +921,23 @@
         },
         {
           "type": "SaaS-Produkt (intern entwickelt)",
-          "title": "Global Reach",
+          "id": "global-reach",
+          "title": "%%products.items.1.name%%",
           "challengeLabel": "Herausforderung",
           "challenge": "Länderübergreifend arbeitende Teams brauchen einen gemeinsamen Raum, um live zu lernen oder zu arbeiten — ohne Anruf zu vereinbaren oder zwischen separaten Tools zu wechseln.",
           "buildLabel": "Umsetzung",
-          "build": "Offene Lern- und Arbeitsräume mit Live-Präsenzanzeige und gemeinsamen Sitzungsnotizen, minutengenau abgerechnet.",
+          "build": "Live-Räume zum Lernen und Arbeiten mit Echtzeit-Präsenz und gemeinsamen Sitzungsnotizen, mit Monatsplänen inklusive Sitzungsminuten-Kontingent – jederzeit aufladbar.",
           "stackLabel": "Technologie",
           "stack": ["React", "Firebase Realtime Database", "Abonnement-Abrechnung"],
           "resultLabel": "Ergebnis",
-          "result": "Live-Produkt mit kostenpflichtigen Plänen ab 29 $/Monat.",
+          "result": "Live-Produkt mit Monatsplänen ab %%pricing.globalReach.basic.eur%% € (%%pricing.globalReach.basic.sek%% SEK).",
+          "resultNoAmount": "Live-Produkt mit Monatsplänen.",
           "link": "global-reach",
           "linkLabel": "Zum Produkt"
         },
         {
-          "type": "Sicheres Kundenportal",
+          "type": "Sicheres Kundenportal (intern entwickelt)",
+          "id": "member-portal",
           "title": "Nordic Riser Mitgliederportal",
           "challengeLabel": "Herausforderung",
           "challenge": "Beratungsmandanten benötigten einen zentralen Ort für Dokumente, Fallstatus und Kommunikation — mit strikter Zugriffskontrolle.",
@@ -603,20 +949,22 @@
           "result": "Live unter portal.nordicriser.com mit eigener Domain und automatischem SSL."
         },
         {
-          "type": "Mehrsprachige Marketingplattform",
-          "title": "nordicriser.com",
+          "type": "Mehrsprachige Marketingplattform (intern entwickelt)",
+          "id": "nordicriser-com",
+          "title": "%%products.items.3.name%%",
           "challengeLabel": "Herausforderung",
           "challenge": "Unternehmerinnen und Unternehmer in Europa, dem Nahen Osten und Südasien in ihrer eigenen Sprache erreichen.",
           "buildLabel": "Umsetzung",
-          "build": "Elfsprachige Produktionswebsite mit sprachspezifischer URL-Struktur, RTL-Unterstützung für Arabisch und Urdu, vollständiger Meta- und Open-Graph-Abdeckung und einem DSGVO-konformen Datenschutzrahmen.",
+          "build": "Elfsprachige Produktionswebsite mit sprachspezifischer URL-Struktur, RTL-Unterstützung für Arabisch und Urdu, vollständiger Meta- und Open-Graph-Abdeckung und einem Datenschutzrahmen, der mit Blick auf die DSGVO entwickelt wurde.",
           "stackLabel": "Technologie",
           "stack": ["Statische Generierung", "CDN", "Strukturiertes i18n-Routing"],
           "resultLabel": "Ergebnis",
           "result": "Jede Seite in 11 Sprachen mit sauberen, indexierbaren URLs verfügbar."
         },
         {
-          "type": "Gesundheits-App",
-          "title": "Telemedizin-App",
+          "type": "Gesundheits-App (intern entwickelt)",
+          "id": "4edoctor",
+          "title": "%%products.items.4.name%%",
           "challengeLabel": "Herausforderung",
           "challenge": "Patientinnen und Patienten benötigten Zugang zu medizinischen Konsultationen — mit Ärzten, Psychologen und Pflegekräften — ohne Wartezeiten und Aufwand persönlicher Termine.",
           "buildLabel": "Umsetzung",
@@ -627,8 +975,9 @@
           "result": "Eine funktionierende Telemedizin-Plattform, von uns komplett entwickelt und bereit zur Anpassung für jede Gesundheitsmarke."
         },
         {
-          "type": "Apotheken-Abwicklungs-App",
-          "title": "Apotheken-Plattform",
+          "type": "Plattform für Apothekenabwicklung (intern entwickelt)",
+          "id": "4ezone-pharmacy",
+          "title": "%%products.items.5.name%%",
           "challengeLabel": "Herausforderung",
           "challenge": "Patienten mit einem ärztlichen Rezept hatten keine schnelle Möglichkeit, ihre Medikamente ausgeben und liefern zu lassen.",
           "buildLabel": "Umsetzung",
@@ -639,8 +988,9 @@
           "result": "Ein funktionierendes System, das Rezepte mit Apothekenabwicklung und Lieferung verbindet, von uns gebaut und bereit zur Anpassung für jeden Betreiber."
         },
         {
-          "type": "Lieferapp (intern entwickelt)",
-          "title": "On-Demand Delivery App",
+          "type": "Liefer-App (intern entwickelt)",
+          "id": "delivery-app",
+          "title": "On-Demand-Liefer-App",
           "challengeLabel": "Herausforderung",
           "challenge": "Unternehmen aus verschiedenen Branchen benötigten On-Demand-Lieferung — Bestellung, Disposition und Echtzeit-Tracking — ohne eigene Logistikinfrastruktur von Grund auf aufzubauen.",
           "buildLabel": "Umsetzung",
@@ -651,7 +1001,7 @@
           "result": "Eine wiederverwendbare Lieferplattform, bereit zur Anpassung und Bereitstellung für Kundenunternehmen."
         }
       ],
-      "note": "Das sind Systeme, die wir von Grund auf entworfen und gebaut haben — manche laufen heute als unsere eigenen Produkte, andere wurden für Kunden gebaut, die sie unter ihrer eigenen Marke betreiben.",
+      "note": "%%products.count%% Plattformen, die wir gebaut haben, betreiben und für Ihr Unternehmen anpassen können.",
       "cta": { "title": "Haben Sie ein Projekt im Kopf?", "body": "Erzählen Sie uns, was Sie bauen möchten. Wir melden uns mit einem klaren Umfang, einem realistischen Zeitplan und einem Festpreis zurück.", "cta": "Projekt starten" }
     },
     "nrBos": {
@@ -667,103 +1017,6 @@
       },
       "breadcrumb": "NR-BOS",
       "backLink": "Zurück zu Arbeiten",
-      "tour": [
-        {
-          "eyebrow": "Übersicht",
-          "title": "Ein Live-Blick auf jedes Projekt",
-          "body": "Portfolioweite Kennzahlen, Budget vs. Ist-Ausgaben und Teamauslastung — das Erste, was jeder morgens öffnet.",
-          "shots": [
-            {
-              "file": "dashboard-overview.jpg",
-              "caption": "Dashboard — Portfolio-Kennzahlen und Budget vs. Ist"
-            },
-            {
-              "file": "dashboard-team-workload.jpg",
-              "caption": "Dashboard — Teamauslastung nach Status"
-            }
-          ]
-        },
-        {
-          "eyebrow": "Projekte",
-          "title": "Jeder Auftrag, bis zur Aufgabe nachverfolgt",
-          "body": "Projekte haben ihr eigenes Budget, ihren Kunden und ihr Team. Die Arbeit innerhalb jedes Projekts läuft über ein vierspaltiges Board — zu erledigen, in Bearbeitung, Prüfung, erledigt.",
-          "shots": [
-            {
-              "file": "projects-list.jpg",
-              "caption": "Projekte — Portfolio auf einen Blick"
-            },
-            {
-              "file": "project-kanban.jpg",
-              "caption": "Projektdetail — Aufgaben-Board"
-            }
-          ]
-        },
-        {
-          "eyebrow": "Zeiterfassung",
-          "title": "Stunden einmal erfasst, überall vertrauenswürdig",
-          "body": "Ein Mitarbeiter im Feld startet und pausiert einen Timer vom Telefon vor Ort; das Büro korrigiert oder ergänzt Lücken in einer Wochenübersicht. Jeder Eintrag durchläuft eingereicht, genehmigt oder abgelehnt, bevor er sich auf irgendetwas nachgelagert auswirkt."
-        },
-        {
-          "eyebrow": "Budget",
-          "title": "Ausgaben nach Kategorie gegen das Budget verfolgt",
-          "body": "Jeder Kosteneintrag — Material, Arbeitskraft, Subunternehmer, Genehmigungen — läuft in Echtzeit gegen das Projektbudget. Die Arbeitskosten selbst werden aus genehmigten Zeiteinträgen gegen den zum Zeitpunkt der Arbeit gültigen Lohnsatz jedes Mitarbeiters abgeleitet, nicht von Hand eingegeben — und weil Sätze historisiert sind, schreibt eine Lohnerhöhung im nächsten Quartal niemals still um, was ein Auftrag letztes Quartal gekostet hat. Die meisten Tools überschreiben den Satz an Ort und Stelle und verfälschen so lautlos die Zahlen des letzten Quartals; dieses hier nicht.",
-          "shots": [
-            {
-              "file": "project-costs.jpg",
-              "caption": "Projektdetail — Kostenbuch"
-            }
-          ]
-        },
-        {
-          "eyebrow": "Feldarbeit",
-          "title": "Was vor Ort passiert ist, mit Beleg",
-          "body": "Außendienstteams protokollieren Fortschrittsnotizen und Fotos direkt vor Ort — inklusive gepaarter Vorher-/Nachher-Bilder für Arbeiten, die sich leicht beschreiben, aber schwer vorstellen lassen.",
-          "shots": [
-            {
-              "file": "field-report-notes.jpg",
-              "caption": "Feldberichte — Vor-Ort-Notizen und Fotos"
-            },
-            {
-              "file": "field-report-before-after.jpg",
-              "caption": "Feldbericht — Vorher / Nachher"
-            }
-          ]
-        },
-        {
-          "eyebrow": "Kundenberichte",
-          "title": "Ein gebrandetes PDF, mit einem Klick generiert",
-          "body": "Ziehen Sie die Aufgaben, Kosten und aktuellen Feldfotos eines Projekts in einen kundenfertigen PDF-Bericht — zunächst als Entwurf, dann als versendet markieren, sobald er bereit ist.",
-          "shots": [
-            {
-              "file": "client-report-generate.jpg",
-              "caption": "Erstellung eines Kundenberichts"
-            },
-            {
-              "file": "client-report-pdf.jpg",
-              "caption": "Erstellter Kundenbericht (PDF)"
-            }
-          ]
-        },
-        {
-          "eyebrow": "Team & Lizenzierung",
-          "title": "Rollenbasierter Zugriff, per Code lizenziert",
-          "body": "Admins, Projektleiter, Außendienstmitarbeiter und Kunden sehen jeweils nur, was ihnen gehört. Der Zugang selbst läuft über einlösbare Abonnementcodes, in Chargen ausgegeben — kein Zahlungsanbieter erforderlich.",
-          "shots": [
-            {
-              "file": "team-users.jpg",
-              "caption": "Benutzer — Unternehmensliste und Rollen"
-            },
-            {
-              "file": "subscription-plan.jpg",
-              "caption": "Abonnement — aktiver Plan"
-            },
-            {
-              "file": "license-batches.jpg",
-              "caption": "Lizenzchargen — Einlösecodes"
-            }
-          ]
-        }
-      ],
       "workflow": {
         "label": "So läuft es in der Praxis",
         "title": "Von der Planung zum Kundenbericht — ein vernetzter Ablauf",
@@ -977,11 +1230,12 @@
         "body": "Nehmen Sie an Live-Lern- und Arbeitsräumen mit Echtzeit-Präsenzanzeige und gemeinsamen Sitzungsnotizen teil — für die Zusammenarbeit über Zeitzonen und Sprachen hinweg.",
         "ctaPrimary": "Jetzt starten",
         "ctaSecondary": "So funktioniert es",
-        "trustLine": "Keine Kreditkarte nötig · Jederzeit kündbar · DSGVO-konform",
+        "trustLine": "Keine Kreditkarte nötig · Jederzeit kündbar · Mit Blick auf die DSGVO entwickelt",
         "earlyAccessBadge": "Jetzt im Early Access",
         "mockCaption": "Jetzt ausprobieren — Notiz eingeben und Präsenz live sehen",
         "visual": {
           "notesLabel": "Gemeinsame Sitzungsnotizen",
+          "illustrativeLabel": "Illustrative Vorschau",
           "demoPlaceholder": "Hier eine Notiz eingeben…",
           "demoAriaLabel": "Das gemeinsame Notizfeld ausprobieren (nur Demo — wird nicht gespeichert)",
           "participants": [
@@ -1035,10 +1289,10 @@
       "plansTitle": "Einfache Pläne, transparente Preise",
       "plansSub": "Jeder Plan umfasst vollen Zugriff auf Räume und gemeinsame Notizen — die Pläne unterscheiden sich nur im monatlichen Sitzungsminutenkontingent.",
       "plans": [
-        {"name": "Basic", "price": "29", "period": "/ Monat", "features": ["2 Stunden Live-Sitzungen / Monat", "Voller Zugriff auf Räume und gemeinsame Notizen", "Unbegrenzt gespeicherte Sitzungsnotizen"], "popular": false},
-        {"name": "Pro", "price": "79", "period": "/ Monat", "features": ["10 Stunden Live-Sitzungen / Monat", "Prioritäts-Support", "Alle Basic-Funktionen"], "popular": true}
+        {"name": "Basic", "id": "basic", "period": "/ Monat", "features": ["2 Stunden Live-Sitzungen / Monat", "Voller Zugriff auf Räume und gemeinsame Notizen", "Unbegrenzt gespeicherte Sitzungsnotizen"], "popular": false},
+        {"name": "Pro", "id": "pro", "period": "/ Monat", "features": ["10 Stunden Live-Sitzungen / Monat", "Prioritäts-Support", "Alle Basic-Funktionen"], "popular": true}
       ],
-      "_syncNote": "Plan names/prices/session-minute allowances mirror nordic-riser-portal's DEFAULT_PLANS as of 2026-09-09 — there is no free tier in the real product; Basic is the entry plan. Keep in sync manually if the portal's plans change.",
+      "_syncNote": "Plan names and session-minute allowances mirror nordic-riser-portal DEFAULT_PLANS (2026-09-09); there is no free tier. Prices are NOT here: they come from src/_data/facts.json (pricing.globalReach), formatted per language by common.priceFormat.",
       "limitNote": "Benötigen Sie mehr Sitzungsminuten, als Ihr Plan umfasst? Sie können Ihr Konto jederzeit aufladen.",
       "faqLabel": "Häufige Fragen",
       "faqTitle": "Häufige Fragen",
@@ -1047,11 +1301,11 @@
         { "q": "Was passiert, wenn meine monatlichen Minuten aufgebraucht sind?", "a": "Ihre Räume und gemeinsamen Notizen bleiben vollständig zugänglich. Um eine neue zeitlich begrenzte Sitzung zu starten, müssen Sie aufladen oder auf Ihren nächsten Abrechnungszeitraum warten." },
         { "q": "Was passiert mit nicht genutzten zusätzlichen Minuten?", "a": "Zusätzliche Minuten verfallen nicht, solange Ihr Abonnement aktiv bleibt — sie werden in den nächsten Abrechnungszeitraum übertragen, bis Sie sie nutzen." },
         { "q": "Welche Sprachen werden unterstützt?", "a": "Volle Oberflächenunterstützung für Englisch, Schwedisch, Deutsch, Französisch, Spanisch, Italienisch, Polnisch, Niederländisch, Portugiesisch, Urdu und Arabisch." },
-        { "q": "Sind meine Daten privat?", "a": "Ja — Ihre Sitzungsdaten werden gemäß unserer DSGVO-konformen Datenschutzerklärung behandelt, die genau festlegt, was wir erheben und warum." }
+        { "q": "Sind meine Daten privat?", "a": "Ja — Ihre Sitzungsdaten werden gemäß unserer Datenschutzerklärung behandelt, die mit Blick auf die DSGVO verfasst ist und genau festlegt, was wir erheben und warum." }
       ],
       "emailCapture": { "title": "Noch nicht bereit?", "body": "Lassen Sie sich benachrichtigen, wenn neue Sprachen verfügbar sind.", "placeholder": "Ihre E-Mail-Adresse", "consent": "Ich stimme zu, bezüglich Global Reach kontaktiert zu werden, und akzeptiere die", "privacyLinkLabel": "Datenschutzerklärung", "successText": "Danke – wir benachrichtigen Sie per E-Mail, sobald Ihre Sprache verfügbar ist.", "errorText": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.", "button": "Benachrichtigen" },
       "stickyBar": { "text": "Bereit, mit der Zusammenarbeit zu beginnen?", "cta": "Jetzt starten" },
-      "cta": { "title": "Beginnen Sie noch heute", "body": "Erstellen Sie Ihr Konto — keine Kreditkarte nötig — und treten Sie in wenigen Minuten Ihrem ersten Raum bei.", "trustLine": "Keine Kreditkarte nötig · Jederzeit kündbar · DSGVO-konform" }
+      "cta": { "title": "Beginnen Sie noch heute", "body": "Erstellen Sie Ihr Konto — keine Kreditkarte nötig — und treten Sie in wenigen Minuten Ihrem ersten Raum bei.", "trustLine": "Keine Kreditkarte nötig · Jederzeit kündbar · Mit Blick auf die DSGVO entwickelt" }
     },
     "portal": {
       "hero": { "label": "Kundenzugang", "h1": "Mitgliederportal", "body": "Sicherer Zugang für registrierte Mandantinnen und Mandanten von Nordic Riser AB zur Verwaltung ihres Mandats, ihrer Dokumente und ihrer Kommunikation." },

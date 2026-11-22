@@ -129,29 +129,79 @@
 <section class="section">
   <div class="section-inner" data-animate>
     <span class="section-label">Co budujemy</span>
-    <h2 class="section-title">Cztery kluczowe usługi</h2>
+    <h2 class="section-title">Pięć kluczowych usług</h2>
     <p class="section-sub">Od pierwszej strony internetowej firmy po systemy obsługujące codzienną działalność — budujemy technologię dopasowaną do skali i etapu rozwoju Twojej firmy.</p>
-    <div class="services-grid">
-      <div class="service-card">
+    <div class="service-details">
+      <article class="service-card service-detail" id="web-platforms">
         <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17"/><path d="M12 3.5c2.5 2.3 3.8 5.2 3.8 8.5s-1.3 6.2-3.8 8.5c-2.5-2.3-3.8-5.2-3.8-8.5S9.5 5.8 12 3.5Z"/></svg></div>
-        <h3>Platformy internetowe i strony firmowe</h3>
-        <p>Profesjonalnie zaprojektowane, gotowe na wielojęzyczność strony internetowe, które od pierwszego dnia nadają Twojej firmie wiarygodną, ustrukturyzowaną obecność online.</p>
-      </div>
-      <div class="service-card">
+        <h3>Wielojęzyczne platformy internetowe</h3>
+        <p>Produkcyjne strony internetowe tworzone dla każdego rynku, na którym działasz – z prawdziwymi wersjami językowymi, obsługą pisma od prawej do lewej tam, gdzie to potrzebne, i szybkim ładowaniem na całym świecie.</p>
+        <h4 class="service-detail-label">Co obejmuje usługa</h4>
+        <ul class="service-detail-list">
+          <li>Osobne adresy URL dla języków i hreflang dla wyszukiwarek</li>
+          <li>Układy od prawej do lewej dla arabskiego, urdu i podobnych języków</li>
+          <li>Uporządkowana treść, którą łatwo aktualizować i rozbudowywać</li>
+          <li>Metatagi i podglądy udostępnień w mediach społecznościowych w każdym języku</li>
+        </ul>
+        <p class="service-detail-stack"><strong>Typowe technologie:</strong> Eleventy lub Next.js, hosting CDN, publikacja oparta na Git</p>
+        <a href="/pl/contact/" class="service-detail-cta" data-analytics-event="service_cta_web-platforms">Porozmawiajmy o tej usłudze →</a>
+      </article>
+      <article class="service-card service-detail" id="portals">
         <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/><circle cx="12" cy="15.5" r="1.4"/></svg></div>
-        <h3>Portale klienta i biznesowe</h3>
-        <p>Bezpieczne portale dla klientów i członków umożliwiające zarządzanie dokumentami, komunikacją oraz statusem sprawy lub projektu w jednym miejscu.</p>
-      </div>
-      <div class="service-card">
+        <h3>Bezpieczne portale klienta</h3>
+        <p>Portale z logowaniem, w których klienci wymieniają dokumenty, śledzą swoją sprawę lub projekt i piszą do Twojego zespołu – w jednym miejscu zamiast w wątkach e-mail.</p>
+        <h4 class="service-detail-label">Co obejmuje usługa</h4>
+        <ul class="service-detail-list">
+          <li>Dostęp oparty na rolach dla klientów, pracowników i administratorów</li>
+          <li>Reguły dostępu do danych egzekwowane po stronie serwera, aby każdy użytkownik widział tylko własne dane</li>
+          <li>Prywatne przechowywanie dokumentów i przesłanych plików</li>
+          <li>Rejestrowanie aktywności w Portalu Członkowskim</li>
+        </ul>
+        <p class="service-detail-stack"><strong>Typowe technologie:</strong> React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions</p>
+        <a href="/pl/contact/" class="service-detail-cta" data-analytics-event="service_cta_portals">Porozmawiajmy o tej usłudze →</a>
+      </article>
+      <article class="service-card service-detail" id="products">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 8 4.5 12 9 16"/><path d="M15 8l4.5 4-4.5 4"/></svg></div>
+        <h3>Produkty na zamówienie i SaaS</h3>
+        <p>Kompleksowe tworzenie produktu – od koncepcji do wdrożenia – dla Twojej własnej linii produktów.</p>
+        <h4 class="service-detail-label">Co obejmuje usługa</h4>
+        <ul class="service-detail-list">
+          <li>Określenie zakresu produktu i etapowy plan prac</li>
+          <li>Plany subskrypcyjne i rozliczenia</li>
+          <li>Panele administracyjne i narzędzia wewnętrzne</li>
+          <li>Funkcje czasu rzeczywistego, np. obecność na żywo</li>
+        </ul>
+        <p class="service-detail-stack"><strong>Typowe technologie:</strong> React, Next.js, NestJS, PostgreSQL, Firebase</p>
+        <a href="/pl/contact/" class="service-detail-cta" data-analytics-event="service_cta_products">Porozmawiajmy o tej usłudze →</a>
+      </article>
+      <article class="service-card service-detail" id="automation">
         <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 3.5v2.4M12 18.1v2.4M20.5 12h-2.4M5.9 12H3.5M17.7 6.3l-1.7 1.7M8 16l-1.7 1.7M17.7 17.7 16 16M8 8 6.3 6.3"/></svg></div>
-        <h3>Automatyzacja procesów i integracje</h3>
-        <p>Automatyzacja powtarzalnych zadań operacyjnych oraz integracja narzędzi, z których już korzysta Twoja firma.</p>
-      </div>
-      <div class="service-card">
+        <h3>Automatyzacja i integracje</h3>
+        <p>Połącz narzędzia, których już używasz, i wyeliminuj ręczne przepisywanie danych z procesów, które zajmują Twojemu zespołowi cały tydzień.</p>
+        <h4 class="service-detail-label">Co obejmuje usługa</h4>
+        <ul class="service-detail-list">
+          <li>Integracje między stroną, CRM, księgowością i narzędziami e-mail</li>
+          <li>Automatyczne powiadomienia, raporty i synchronizacja danych</li>
+          <li>Webhooki i zadania harmonogramowane</li>
+          <li>Przejrzysta dokumentacja każdego zautomatyzowanego kroku</li>
+        </ul>
+        <p class="service-detail-stack"><strong>Typowe technologie:</strong> API REST, webhooki, funkcje serverless, zadania harmonogramowane</p>
+        <a href="/pl/contact/" class="service-detail-cta" data-analytics-event="service_cta_automation">Porozmawiajmy o tej usłudze →</a>
+      </article>
+      <article class="service-card service-detail" id="support">
         <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 6.5a4 4 0 0 0-5.4 4.9L4 16.5 7.5 20l5.1-5.1a4 4 0 0 0 4.9-5.4l-2.9 2.9-2.6-.6-.6-2.6 2.9-2.9Z"/></svg></div>
-        <h3>Bieżące utrzymanie i wsparcie</h3>
-        <p>Ciągłe wsparcie techniczne, aktualizacje oraz monitoring po uruchomieniu, dzięki czemu Twoja platforma pozostaje niezawodna wraz z rozwojem firmy.</p>
-      </div>
+        <h3>Stałe wsparcie</h3>
+        <p>Wsparcie techniczne, aktualizacje i monitoring po wdrożeniu, aby Twoja platforma pozostała niezawodna, gdy firma się rozwija.</p>
+        <h4 class="service-detail-label">Co obejmuje usługa</h4>
+        <ul class="service-detail-list">
+          <li>Aktualizacje bezpieczeństwa i zależności</li>
+          <li>Monitoring i rozwiązywanie problemów</li>
+          <li>Poprawki błędów i drobne ulepszenia</li>
+          <li>Zarządzanie hostingiem i domenami</li>
+        </ul>
+        <p class="service-detail-stack"><strong>Typowe technologie:</strong> Monitoring, śledzenie błędów, zarządzany hosting (Vercel, Firebase, GitHub Pages)</p>
+        <a href="/pl/contact/" class="service-detail-cta" data-analytics-event="service_cta_support">Porozmawiajmy o tej usłudze →</a>
+      </article>
     </div>
   </div>
 </section>
@@ -245,17 +295,19 @@
       <div class="footer-address">
         <strong>Siedziba zarejestrowana</strong>
         Nordic Riser AB<br>
-        Stockholm, Sweden<br>
-        <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
+Szwecja<br>
+E-mail <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
       </div>
     </div>
     <div class="footer-services-group">
       <div class="footer-col">
         <h4>Usługi</h4>
         <ul>
-          <li><a href="/pl/services/">Platformy internetowe i portale</a></li>
-          <li><a href="/pl/services/">Automatyzacja i integracje</a></li>
-          <li><a href="/pl/services/">Bieżące wsparcie</a></li>
+          <li><a href="/pl/services/#web-platforms">Wielojęzyczne platformy internetowe</a></li>
+          <li><a href="/pl/services/#portals">Bezpieczne portale klienta</a></li>
+          <li><a href="/pl/services/#products">Produkty na zamówienie i SaaS</a></li>
+          <li><a href="/pl/services/#automation">Automatyzacja i integracje</a></li>
+          <li><a href="/pl/services/#support">Stałe wsparcie</a></li>
           <li><a href="/pl/contact/">Poproś o wycenę</a></li>
           <li><a href="/pl/work/">Realizacje</a></li>
         </ul>
@@ -263,8 +315,8 @@
       <div class="footer-col">
         <h4>Global Reach</h4>
         <ul>
-          <li><a href="/pl/global-reach/">Jak to działa</a></li>
-          <li><a href="/pl/global-reach/">Plany i cennik</a></li>
+          <li><a href="/pl/global-reach/#how-it-works">Jak to działa</a></li>
+          <li><a href="/pl/global-reach/#pricing">Plany i cennik</a></li>
           <li><a href="https://portal.nordicriser.com">Rozpocznij</a></li>
         </ul>
       </div>
@@ -297,7 +349,7 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <span>© 2026 Nordic Riser AB. Wszelkie prawa zastrzeżone. Stockholm, Sweden.</span>
+    <span>© 2026 Nordic Riser AB. Wszelkie prawa zastrzeżone. Sztokholm, Szwecja.</span>
     <ul class="footer-bottom-links">
       <li><a href="/pl/legal/privacy/">Polityka prywatności</a></li>
       <li><a href="/pl/legal/terms/">Regulamin</a></li>

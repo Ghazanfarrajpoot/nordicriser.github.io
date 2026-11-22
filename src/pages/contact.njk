@@ -55,8 +55,8 @@ pageSlug: contact
         </div>
 
         <div class="field">
-          <label for="businessType">{{ f.businessType }} <span class="required">*</span></label>
-          <select id="businessType" name="businessType" required>
+          <label for="businessType">{{ f.businessType }}</label>
+          <select id="businessType" name="businessType">
             {%- for opt in f.businessTypeOptions %}
             <option value="{{ opt.value }}"{% if loop.first %} disabled selected{% endif %}>{{ opt.label }}</option>
             {%- endfor %}
@@ -110,6 +110,14 @@ pageSlug: contact
     </div>
 
     <div class="contact-sidebar">
+      {%- set bk = p.booking or locales.en.pages.contact.booking %}
+      {%- if facts.urls.booking | filled %}
+      <div class="sidebar-card sidebar-booking">
+        <h3>{{ bk.heading }}</h3>
+        <p>{{ bk.body }}</p>
+        <a href="{{ facts.urls.booking }}" class="btn-primary" target="_blank" rel="noopener" data-analytics-event="book_call_cta">{{ icons.icon('calendar') }} {{ bk.button }}</a>
+      </div>
+      {%- endif %}
       <div class="sidebar-card">
         <h3>{{ p.sidebar.directContactHeading }}</h3>
         <div class="contact-detail">
@@ -117,24 +125,31 @@ pageSlug: contact
             <div class="detail-icon">{{ icons.icon('mail') }}</div>
             <div class="detail-text">
               <span>{{ t.common.emailLabel }}</span>
-              <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
+              <a href="mailto:{{ facts.company.email }}">{{ facts.company.email }}</a>
             </div>
           </div>
-          {%- if "[PHONE_NUMBER]" not in p.sidebar.phoneValue %}
+          {%- if facts.company.phone | filled %}
           <div class="contact-detail-item">
             <div class="detail-icon">{{ icons.icon('phone') }}</div>
             <div class="detail-text">
-              <span>{{ p.sidebar.phoneLabel }}</span>
-              <p>{{ p.sidebar.phoneValue }}</p>
+              <span>{{ t.common.company.phone }}</span>
+              <a href="tel:{{ facts.company.phone | replace(' ', '') }}">{{ facts.company.phone }}</a>
             </div>
           </div>
           {%- endif %}
-          {%- if "[STREET_ADDRESS]" not in p.sidebar.addressValue %}
           <div class="contact-detail-item">
             <div class="detail-icon">{{ icons.icon('pin') }}</div>
             <div class="detail-text">
-              <span>{{ p.sidebar.addressLabel }}</span>
-              <p>{{ p.sidebar.addressValue }}</p>
+              <span>{{ t.common.company.address }}</span>
+              <p>{{ facts.company.name }}<br>{% if facts.company.address | filled %}{{ facts.company.address }}<br>{% endif %}{{ t.common.company.country }}</p>
+            </div>
+          </div>
+          {%- if (facts.company.orgNumber | filled) or (facts.company.vatNumber | filled) %}
+          <div class="contact-detail-item">
+            <div class="detail-icon">{{ icons.icon('briefcase') }}</div>
+            <div class="detail-text">
+              <span>{{ t.common.company.registration }}</span>
+              <p>{% if facts.company.orgNumber | filled %}{{ t.common.company.orgNr }} {{ facts.company.orgNumber }}<br>{% endif %}{% if facts.company.vatNumber | filled %}{{ t.common.company.vat }} {{ facts.company.vatNumber }}{% endif %}</p>
             </div>
           </div>
           {%- endif %}
@@ -174,12 +189,3 @@ pageSlug: contact
   </div>
 </section>
 
-<section class="closing-section">
-  <div class="closing-inner" data-animate>
-    <span class="section-label">{{ p.closing.label }}</span>
-    <h2>{{ p.closing.title }}</h2>
-    {%- for para in p.closing.paragraphs %}
-    <p>{{ para }}</p>
-    {%- endfor %}
-  </div>
-</section>
