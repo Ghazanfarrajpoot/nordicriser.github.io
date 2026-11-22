@@ -506,6 +506,7 @@
           "link": "consulting"
         }
       },
+      "founder": { "label": "Grundaren", "role": "Grundare & vd", "linkedinLabel": "LinkedIn-profil" },
       "whyWeExist": {
         "label": "Var vi började — vår konsultverksamhet",
         "title": "Byggda för att fylla ett verkligt behov inom internationell rådgivning",

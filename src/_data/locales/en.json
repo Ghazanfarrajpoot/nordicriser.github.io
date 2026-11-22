@@ -486,6 +486,7 @@
           "link": "consulting"
         }
       },
+      "founder": { "label": "The Founder", "role": "Founder & CEO", "linkedinLabel": "LinkedIn profile" },
       "whyWeExist": {
         "label": "Where We Started — Our Consulting Practice",
         "title": "Built to Address a Genuine Gap in International Advisory",

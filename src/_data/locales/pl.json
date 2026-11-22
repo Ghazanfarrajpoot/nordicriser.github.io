@@ -502,6 +502,7 @@
           "link": "consulting"
         }
       },
+      "founder": { "label": "Założyciel", "role": "Założyciel i CEO", "linkedinLabel": "Profil na LinkedIn" },
       "whyWeExist": {
         "label": "Od Czego Zaczęliśmy — Nasza Praktyka Doradcza",
         "title": "Stworzeni, by wypełnić realną lukę w doradztwie międzynarodowym",

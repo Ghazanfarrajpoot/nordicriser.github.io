@@ -70,5 +70,13 @@
         "sek": "[SEK_PRO]"
       }
     }
+  },
+  "founder": {
+    "name": "Ghazanfar Bashir Rajpoot",
+    "photo": "[FOUNDER_PHOTO]",
+    "_photoNote": "Set to a site path such as /assets/img/founder.jpg once the file exists in src/; until then the About page shows a monogram.",
+    "bio": "[FOUNDER_BIO]",
+    "_bioNote": "Three lines, English. Add a translated bio per language as pages.about.founder.bio in each locale file; the page uses it when present.",
+    "linkedin": "[LINKEDIN_URL]"
   }
 }

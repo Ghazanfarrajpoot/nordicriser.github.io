@@ -66,6 +66,38 @@ pageSlug: about
 </section>
 
 <section class="section">
+  <div class="section-inner-narrow" data-animate>
+    <span class="section-label">{{ p.missionBlock.label }}</span>
+    <div class="mission-block">
+      <span class="mission-label">{{ p.missionBlock.missionLabel }}</span>
+      <h2>{{ p.missionBlock.statement }}</h2>
+    </div>
+  </div>
+</section>
+
+{%- set founder = p.founder or locales.en.pages.about.founder %}
+<section class="section section-alt" id="founder">
+  <div class="section-inner" data-animate>
+    <span class="section-label">{{ founder.label }}</span>
+    <div class="founder-card">
+      <div class="founder-photo">
+        {%- if facts.founder.photo | siteFileExists %}
+        <img src="{{ facts.founder.photo }}" alt="{{ facts.founder.name }}" width="240" height="240" loading="lazy">
+        {%- else %}
+        <span class="founder-monogram" aria-hidden="true">GR</span>
+        {%- endif %}
+      </div>
+      <div class="founder-text">
+        <h2 class="founder-name">{{ facts.founder.name }}</h2>
+        <p class="founder-role">{{ founder.role }}</p>
+        <p class="founder-bio">{{ founder.bio or facts.founder.bio }}</p>
+        <a class="founder-linkedin" href="{{ facts.founder.linkedin }}" target="_blank" rel="noopener">{{ founder.linkedinLabel }} →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
   <div class="section-inner" data-animate>
     <span class="section-label">{{ p.whyWeExist.label }}</span>
     <h2 class="section-title">{{ p.whyWeExist.title }}</h2>
@@ -122,16 +154,6 @@ pageSlug: about
         <p>{{ item.body }}</p>
       </div>
       {%- endfor %}
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-inner-narrow" data-animate>
-    <span class="section-label">{{ p.missionBlock.label }}</span>
-    <div class="mission-block">
-      <span class="mission-label">{{ p.missionBlock.missionLabel }}</span>
-      <h2>{{ p.missionBlock.statement }}</h2>
     </div>
   </div>
 </section>

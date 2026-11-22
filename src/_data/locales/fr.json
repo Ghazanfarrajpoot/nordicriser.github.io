@@ -502,6 +502,7 @@
           "link": "consulting"
         }
       },
+      "founder": { "label": "Le fondateur", "role": "Fondateur et PDG", "linkedinLabel": "Profil LinkedIn" },
       "whyWeExist": {
         "label": "D'où nous venons — notre activité de conseil",
         "title": "Conçus pour combler une véritable lacune du conseil international",
