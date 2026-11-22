@@ -27,7 +27,7 @@
   },
   "nav": {
     "home": "Home",
-    "consulting": "Consulting",
+    "consulting": "Advies",
     "itServices": "Diensten",
     "work": "Werk",
     "nrBos": "NR-BOS",
@@ -46,7 +46,7 @@
     "disclaimer": "Nordic Riser AB levert uitsluitend strategische adviesdiensten. Wij bieden geen juridische vertegenwoordiging, immigratieadvies of garanties op resultaat. Alle beslissingen liggen bij de bevoegde autoriteiten. Compliance staat voorop in alles wat wij doen.",
     "copyright": "© 2026 Nordic Riser AB. Alle rechten voorbehouden. Stockholm, Zweden.",
     "divisions": {
-      "consultingHeading": "Consulting",
+      "consultingHeading": "Advies",
       "consultingLinks": [
         { "label": "Bedrijfsvestiging", "anchor": "establishment" },
         { "label": "Bedrijfsoprichting", "anchor": "formation" },
@@ -64,8 +64,8 @@
       ],
       "globalReachHeading": "Global Reach",
       "globalReachLinks": [
-        { "label": "Hoe het werkt" },
-        { "label": "Abonnementen & prijzen" },
+        { "label": "Hoe het werkt", "anchor": "#how-it-works" },
+        { "label": "Abonnementen & prijzen", "anchor": "#pricing" },
         { "label": "Aan de slag", "external": "https://portal.nordicriser.com" }
       ]
     },
@@ -82,6 +82,248 @@
       "dpa": "Verwerkersovereenkomst",
       "subprocessors": "Subverwerkers",
       "security": "Beveiliging"
+    }
+  },
+  "productOverviews": {
+    "nrBos": {
+      "id": "nr-bos",
+      "eyebrow": "Live product",
+      "title": "Ontdek NR-BOS",
+      "body": "Open de interactieve rondleiding – tien panelen, echte schermen uit het live product.",
+      "cta": "Open de rondleiding",
+      "modalId": "Eigen product · NR-BOS",
+      "modalTitle": "NR-BOS – Interactieve rondleiding",
+      "closeLabel": "Sluiten",
+      "tabsLabel": "Functiecategorieën van NR-BOS",
+      "sliderBeforeLabel": "Voor",
+      "sliderAfterLabel": "Na",
+      "sliderNote": "Sleep om te vergelijken – een echt voor/na-paar uit een werkrapport.",
+      "panels": [
+        {
+          "slug": "dashboard",
+          "icon": "chart",
+          "tabLabel": "Dashboard",
+          "eyebrow": "Overzicht",
+          "title": "Al uw projecten, live in beeld",
+          "body": "Kerncijfers voor de hele portefeuille, budget versus werkelijke uitgaven en voortgang – het eerste wat iedereen ’s ochtends opent.",
+          "features": [
+            "Totaal aantal en actieve projecten, in realtime bijgewerkt",
+            "Voortgangspercentage over de hele portefeuille, automatisch bijgehouden wanneer taken worden afgerond",
+            "Budget en werkelijke kosten naast elkaar",
+            "Winstmarge en rentabiliteit, berekend uit budget en werkelijke kosten – nog niet gekoppeld aan gefactureerde omzet"
+          ],
+          "shots": [
+            {
+              "file": "dashboard-overview.jpg",
+              "alt": "NR-BOS-dashboard met aantal projecten, voortgangspercentage, winstmarge, budget versus werkelijke kosten en een cirkeldiagram van projecten per status"
+            }
+          ]
+        },
+        {
+          "slug": "projects",
+          "icon": "clipboard",
+          "tabLabel": "Projecten",
+          "eyebrow": "Uitvoering",
+          "title": "Elke klus, gevolgd tot op de taak",
+          "body": "Projecten hebben een eigen budget, klant en team. Het werk binnen elk project loopt via een bord met vier kolommen.",
+          "features": [
+            "Te doen, bezig, review, klaar – één bord per project",
+            "Elke taak heeft een verantwoordelijke, een deadline en geschatte uren",
+            "Projectstatus – planning, actief, gepauzeerd, afgerond – in één oogopslag",
+            "Werkorders met prioriteit en geplande datum, zichtbaar in een dag-, week- of maandkalender"
+          ],
+          "shots": [
+            {
+              "file": "projects-list.jpg",
+              "alt": "Lijst van vier NR-BOS-projecten met statuslabels – actief, gepauzeerd, planning en afgerond"
+            },
+            {
+              "file": "project-kanban.jpg",
+              "alt": "Kanbanbord van een project met taken in de kolommen Te doen, Bezig, Review en Klaar"
+            }
+          ]
+        },
+        {
+          "slug": "work-orders",
+          "icon": "pin",
+          "tabLabel": "Werkorders",
+          "eyebrow": "Planning",
+          "title": "Elke opdracht ingepland, toegewezen en gevolgd",
+          "body": "Werkorders hebben een prioriteit, een locatie en een tijdvak – weergegeven in een dag-, week- of maandkalender zodat er niets tussen wal en schip valt.",
+          "features": [
+            "Vier prioriteitsniveaus, van Laag tot Urgent, in één oogopslag",
+            "Een volledige statuscyclus – van Concept via Ingepland, Toegewezen, Bezig en Review tot Afgerond",
+            "Optioneel gekoppelde checklistsjabloon, zodat buitendienstteams elke keer dezelfde stappen volgen"
+          ],
+          "shots": [
+            {
+              "file": "work-orders-list.jpg",
+              "alt": "Lijst van NR-BOS-werkorders met prioriteits- en statuslabels"
+            },
+            {
+              "file": "schedule-month.jpg",
+              "alt": "Maandkalender met werkorders die in september zijn ingepland"
+            }
+          ]
+        },
+        {
+          "slug": "time-tracking",
+          "icon": "clock",
+          "tabLabel": "Uren & goedkeuringen",
+          "eyebrow": "Uren in het veld",
+          "title": "Uren één keer geboekt, goedgekeurd voordat ze meetellen",
+          "body": "Een weekoverzicht om tijd per project te boeken en een aparte goedkeuringswachtrij, gegroepeerd per medewerker en week – niets komt ongecontroleerd in de salarisadministratie of kostenrapportage.",
+          "features": [
+            "Tijd per project en per dag boeken, direct in het weekoverzicht",
+            "Week met één klik indienen; een leidinggevende keurt goed of af met een reden",
+            "Goedkeuringen gegroepeerd per medewerker en week, met lopende totalen"
+          ],
+          "shots": [
+            {
+              "file": "time-weekly-grid.jpg",
+              "alt": "Wekelijkse urenstaat met per dag geboekte uren voor een project"
+            },
+            {
+              "file": "time-approvals.jpg",
+              "alt": "Goedkeuringswachtrij voor uren, gegroepeerd per medewerker en week, met lopende totalen"
+            }
+          ]
+        },
+        {
+          "slug": "checklists",
+          "icon": "check",
+          "tabLabel": "Checklists",
+          "eyebrow": "Vaste stappen",
+          "title": "Dezelfde stappen, elke keer, bij elke klus",
+          "body": "Herbruikbare checklistsjablonen worden aan een werkorder gekoppeld, zodat buitendienstteams dezelfde stappen uitvoeren – en kunnen aantonen dat ze die hebben uitgevoerd – ongeacht wie er op locatie is.",
+          "features": [
+            "Selectievakjes of vrije tekstvelden, elk verplicht of optioneel",
+            "Eén sjabloon, te hergebruiken voor zoveel werkorders als nodig",
+            "Direct gekoppeld bij het aanmaken van een werkorder"
+          ],
+          "shots": [
+            {
+              "file": "checklists-list.jpg",
+              "alt": "Lijst met checklistsjablonen met aantal items en actieve status"
+            },
+            {
+              "file": "checklist-editor.jpg",
+              "alt": "Editor voor checklistsjablonen met als verplicht gemarkeerde selectievakjes en tekstitems"
+            }
+          ]
+        },
+        {
+          "slug": "field-reporting",
+          "icon": "wrench",
+          "tabLabel": "Werkrapporten",
+          "eyebrow": "Op locatie",
+          "title": "Wat er op locatie gebeurde, met bewijs",
+          "body": "Buitendienstteams leggen voortgangsnotities en foto’s direct vanaf de locatie vast – inclusief voor/na-paren voor werk dat makkelijk te beschrijven maar lastig voor te stellen is.",
+          "features": [
+            "Notities gekoppeld aan een specifieke taak, met tijdstempel en geotag",
+            "Voor-, na- en algemene foto’s in elk rapport",
+            "Sleep de schuifregelaar hieronder – een echt voor/na-paar uit een werkrapport"
+          ],
+          "shots": [
+            {
+              "file": "field-report-notes.jpg",
+              "alt": "Item in een werkrapport met een notitie met tijdstempel en een bijgevoegde foto"
+            }
+          ]
+        },
+        {
+          "slug": "client-reports",
+          "icon": "folder",
+          "tabLabel": "Klantrapporten",
+          "eyebrow": "Voor de klant",
+          "title": "Een pdf in uw huisstijl, met één klik gemaakt",
+          "body": "Bundel de taken, kosten en recente locatiefoto’s van een project in een pdf-rapport voor de klant – eerst als concept, daarna gemarkeerd als verzonden.",
+          "features": [
+            "Opmerkingenveld voor een geschreven voortgangstoelichting",
+            "Conceptstatus totdat het rapport klaar is voor de klant",
+            "De gegenereerde pdf bevat automatisch recente foto’s uit werkrapporten"
+          ],
+          "shots": [
+            {
+              "file": "client-report-generate.jpg",
+              "alt": "Dialoogvenster ‘Klantrapport genereren’ met een opmerkingenveld voor de tekst aan de klant"
+            },
+            {
+              "file": "client-report-pdf.jpg",
+              "alt": "Gegenereerd klantrapport als pdf met bedrijfsgegevens, projectinformatie en taakstatus"
+            }
+          ]
+        },
+        {
+          "slug": "analytics",
+          "icon": "target",
+          "tabLabel": "Analyses",
+          "eyebrow": "Team & uitgaven",
+          "title": "Waar de tijd en het geld naartoe gaan",
+          "body": "Werkdruk van het team per status en een volledig kostenoverzicht per categorie – de cijfers achter het dashboard.",
+          "features": [
+            "Werkdrukgrafiek per persoon, verdeeld over te doen, bezig, review en klaar",
+            "Kosten per categorie – materialen, arbeid, onderaannemers, vergunningen",
+            "Resterend budget automatisch berekend bij elke geboekte kostenpost"
+          ],
+          "shots": [
+            {
+              "file": "dashboard-team-workload.jpg",
+              "alt": "Grafiek van de werkdruk van het team met het aantal taken per status voor elk teamlid"
+            },
+            {
+              "file": "project-costs.jpg",
+              "alt": "Kostenoverzicht met gedateerde posten per categorie, lopend budget en resterend saldo"
+            }
+          ]
+        },
+        {
+          "slug": "integrations",
+          "icon": "link",
+          "tabLabel": "Integraties",
+          "eyebrow": "Koppel uw systemen",
+          "title": "Uitgaande webhooks, ondertekend en gebeurtenisgestuurd",
+          "body": "NR-BOS stuurt een ondertekend bericht naar uw endpoint zodra een door u gekozen gebeurtenis plaatsvindt – een afgeronde werkorder, een goedgekeurde urenboeking – zonder dat u hoeft te pollen.",
+          "features": [
+            "Kies bij welke gebeurtenistypen elke webhook moet afgaan",
+            "Pauzeer een abonnement zonder het te verwijderen",
+            "Elk bericht is ondertekend, zodat uw endpoint kan controleren dat het echt van NR-BOS komt"
+          ],
+          "shots": [
+            {
+              "file": "integrations-webhooks.jpg",
+              "alt": "Actief uitgaand webhookabonnement met geselecteerde gebeurtenistypen"
+            }
+          ]
+        },
+        {
+          "slug": "licensing",
+          "icon": "lock",
+          "tabLabel": "Team & licenties",
+          "eyebrow": "Toegang & facturatie",
+          "title": "Toegang op basis van rollen, licentie via code",
+          "body": "Beheerders, projectleiders, buitendienstmedewerkers en klanten zien alleen wat voor hen bedoeld is. De toegang zelf werkt met inwisselbare abonnementscodes – zonder betaalprovider.",
+          "features": [
+            "Vier rollen, elk met een eigen weergave van het product",
+            "Abonnementsstatus en verlengingsdatum in één oogopslag",
+            "Licentiecodes in batches gegenereerd en één keer per bedrijf ingewisseld"
+          ],
+          "shots": [
+            {
+              "file": "team-users.jpg",
+              "alt": "Gebruikerslijst van het bedrijf met namen, e-mailadressen, rollen en status actief/inactief"
+            },
+            {
+              "file": "subscription-plan.jpg",
+              "alt": "Actief abonnement met verlengingsdatum en een veld om een licentiecode in te wisselen"
+            },
+            {
+              "file": "license-batches.jpg",
+              "alt": "Lijst met licentiebatches met niveau, aantal inwisselingen en aanmaakdatum"
+            }
+          ]
+        }
+      ]
     }
   },
   "pages": {
@@ -103,7 +345,7 @@
         "items": [
           { "tag": "Software", "icon": "code", "variant": "it", "title": "Wij Bouwen de Technologie", "body": "Systemen op maat, SaaS-producten, veilige portalen, automatisering en API's — intern ontworpen en gebouwd, niet uitbesteed.", "cta": "Start een Softwareproject", "link": "services" },
           { "tag": "NR-BOS", "icon": "gear", "variant": "global", "title": "Wij Runnen de Operatie", "body": "Ons vlaggenschipproduct voor projectlevering, veldwerk en klantrapportage. Operaties op ondernemingsniveau zonder de complexiteit van een traditioneel ERP-systeem.", "cta": "Ontdek NR-BOS", "link": "work/nr-bos" },
-          { "tag": "Consulting", "icon": "handshake", "variant": "consulting", "title": "Wij Begeleiden de Expansie", "body": "Advies voor internationale ondernemers en bedrijven die compliant bedrijfsstructuren opzetten en beheren in Europa.", "cta": "Boek een Consult", "link": "consulting" }
+          { "tag": "Advies", "icon": "handshake", "variant": "consulting", "title": "Wij Begeleiden de Expansie", "body": "Advies voor internationale ondernemers en bedrijven die compliant bedrijfsstructuren opzetten en beheren in Europa.", "cta": "Boek een Consult", "link": "consulting" }
         ]
       },
       "proofBar": {
@@ -254,7 +496,7 @@
           "link": "services"
         },
         "consulting": {
-          "title": "Consulting",
+          "title": "Advies",
           "body": "Bedrijfsvestiging en grensoverschrijdend advies voor internationale ondernemers — onze oorspronkelijke praktijk, vandaag nog steeds actief.",
           "cta": "Ontdek Consulting",
           "link": "consulting"
@@ -391,8 +633,8 @@
     },
 
     "consulting": {
-      "hero": { "label": "Consulting", "h1": "Strategisch Advies voor Internationale Bedrijfsvestiging", "body": "Wij bieden gestructureerd, professioneel advies op vijf kerngebieden — elk ontworpen om ondernemers en professionals te ondersteunen bij het opbouwen van een compliant bedrijfsaanwezigheid in Europa." },
-      "breadcrumb": "Consulting",
+      "hero": { "label": "Advies", "h1": "Strategisch Advies voor Internationale Bedrijfsvestiging", "body": "Wij bieden gestructureerd, professioneel advies op vijf kerngebieden — elk ontworpen om ondernemers en professionals te ondersteunen bij het opbouwen van een compliant bedrijfsaanwezigheid in Europa." },
+      "breadcrumb": "Advies",
       "servicesLabel": "Wat Wij Bieden",
       "servicesTitle": "Vijf Kerngebieden van Dienstverlening",
       "servicesSub": "Elke dienst die wij leveren, wordt uitgevoerd volgens een gestructureerde consultingmethodologie — individueel beoordeeld, formeel gedocumenteerd en waar nodig gecoördineerd met gekwalificeerde professionele partners.",
@@ -510,6 +752,26 @@
           { "name": "Eerste Consult", "body": "Een gestructureerde beoordeling van uw situatie, doelstellingen en het meest haalbare traject, met een schriftelijke samenvatting van de aanbevelingen." },
           { "name": "Volledig Traject", "body": "End-to-end strategische ondersteuning op het gebied van bedrijfsstructuur, documentatie en relocatieplanning, gecoördineerd met professionele partners." },
           { "name": "Doorlopend Advies", "body": "Voortgezette strategische ondersteuning na uw eerste vestiging — voor evoluerende bedrijfsbehoeften, grensoverschrijdende vraagstukken of expansieplanning." }
+        ]
+      },
+      "deliverables": {
+        "label": "Wat u ontvangt",
+        "title": "Concrete resultaten uit elke opdracht",
+        "sub": "Advies van Nordic Riser levert specifieke, bruikbare resultaten op – niet alleen een gesprek.",
+        "items": [
+          "Een gedocumenteerd strategisch kader, specifiek voor uw bedrijf, doelstellingen en randvoorwaarden",
+          "Een gestructureerd ondernemingsplan of oprichtingsstrategie, waar relevant opgesteld volgens institutionele normen",
+          "Een schriftelijke samenvatting van aanbevelingen en vervolgstappen in elke fase van de opdracht",
+          "Afstemming met gekwalificeerde juridische, boekhoudkundige of gespecialiseerde professionals wanneer uw situatie dat vraagt",
+          "Doorlopende advisering naarmate uw bedrijf of omstandigheden veranderen"
+        ]
+      },
+      "boundaries": {
+        "label": "Professionele grenzen",
+        "title": "Wat wij wel – en niet – zijn",
+        "body": [
+          "Wij geven geen immigratieadvies en bieden geen juridische vertegenwoordiging. Wij leveren het strategische adviskader waarbinnen gekwalificeerde specialisten effectief kunnen werken.",
+          "Waar juridische, fiscale of regelgevende specialistische inbreng nodig is – zoals vaak bij relocatie en grensoverschrijdende zaken – coördineren wij de inzet van gekwalificeerde professionals, die dat werk binnen hun eigen bevoegdheid uitvoeren."
         ]
       },
       "cta": { "title": "Bespreek Uw Behoeften", "body": "Als u van plan bent een bedrijfsaanwezigheid in Europa op te zetten, nodigen wij u uit voor een consult. Wij beoordelen uw situatie en bieden een helder, gestructureerd overzicht van het traject en de diensten die relevant zijn voor uw doelstellingen." },

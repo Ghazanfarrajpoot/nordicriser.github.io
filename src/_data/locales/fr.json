@@ -64,8 +64,8 @@
       ],
       "globalReachHeading": "Global Reach",
       "globalReachLinks": [
-        { "label": "Comment ça marche" },
-        { "label": "Offres & tarifs" },
+        { "label": "Comment ça marche", "anchor": "#how-it-works" },
+        { "label": "Offres & tarifs", "anchor": "#pricing" },
         { "label": "Commencer", "external": "https://portal.nordicriser.com" }
       ]
     },
@@ -82,6 +82,248 @@
       "dpa": "Accord de traitement des données",
       "subprocessors": "Sous-traitants",
       "security": "Sécurité"
+    }
+  },
+  "productOverviews": {
+    "nrBos": {
+      "id": "nr-bos",
+      "eyebrow": "Produit en service",
+      "title": "Découvrir NR-BOS",
+      "body": "Ouvrez la visite interactive – dix volets, de vrais écrans du produit en service.",
+      "cta": "Ouvrir la visite",
+      "modalId": "Produit maison · NR-BOS",
+      "modalTitle": "NR-BOS – Visite interactive",
+      "closeLabel": "Fermer",
+      "tabsLabel": "Catégories de fonctionnalités NR-BOS",
+      "sliderBeforeLabel": "Avant",
+      "sliderAfterLabel": "Après",
+      "sliderNote": "Faites glisser pour comparer – une vraie paire avant/après issue d’un rapport de chantier.",
+      "panels": [
+        {
+          "slug": "dashboard",
+          "icon": "chart",
+          "tabLabel": "Tableau de bord",
+          "eyebrow": "Vue d’ensemble",
+          "title": "Tous vos projets, en direct",
+          "body": "Indicateurs de tout le portefeuille, budget vs dépenses réelles et avancement – la première chose que l’on ouvre chaque matin.",
+          "features": [
+            "Nombre total de projets et de projets actifs, mis à jour en temps réel",
+            "Taux d’avancement sur l’ensemble du portefeuille, suivi automatiquement à mesure que les tâches se terminent",
+            "Budget et coût réel, côte à côte",
+            "Marge et rentabilité, calculées à partir du budget et du coût réel – pas encore liées au chiffre d’affaires facturé"
+          ],
+          "shots": [
+            {
+              "file": "dashboard-overview.jpg",
+              "alt": "Tableau de bord NR-BOS affichant le nombre de projets, le taux d’avancement, la marge, le budget vs coût réel et un graphique circulaire des projets par statut"
+            }
+          ]
+        },
+        {
+          "slug": "projects",
+          "icon": "clipboard",
+          "tabLabel": "Projets",
+          "eyebrow": "Réalisation",
+          "title": "Chaque chantier, suivi jusqu’à la tâche",
+          "body": "Chaque projet a son budget, son client et son équipe. Le travail s’organise sur un tableau à quatre colonnes.",
+          "features": [
+            "À faire, en cours, en revue, terminé – un tableau par projet",
+            "Chaque tâche a un responsable, une échéance et des heures estimées",
+            "Statut du projet – planification, actif, en pause, terminé – visible d’un coup d’œil",
+            "Ordres de travail avec priorité et date planifiée, visibles sur un calendrier jour, semaine ou mois"
+          ],
+          "shots": [
+            {
+              "file": "projects-list.jpg",
+              "alt": "Liste de quatre projets NR-BOS avec badges de statut – actif, en pause, planification et terminé"
+            },
+            {
+              "file": "project-kanban.jpg",
+              "alt": "Tableau Kanban d’un projet avec des tâches dans les colonnes À faire, En cours, En revue et Terminé"
+            }
+          ]
+        },
+        {
+          "slug": "work-orders",
+          "icon": "pin",
+          "tabLabel": "Ordres de travail",
+          "eyebrow": "Planification",
+          "title": "Chaque intervention planifiée, affectée et suivie",
+          "body": "Les ordres de travail ont une priorité, un lieu d’intervention et un créneau – affichés sur un calendrier jour, semaine ou mois pour que rien ne soit oublié.",
+          "features": [
+            "Quatre niveaux de priorité, de Faible à Urgent, visibles d’un coup d’œil",
+            "Un cycle de statuts complet – de Brouillon à Planifié, Affecté, En cours, En revue et Terminé",
+            "Modèle de checklist joint en option, pour que les équipes terrain suivent toujours les mêmes étapes"
+          ],
+          "shots": [
+            {
+              "file": "work-orders-list.jpg",
+              "alt": "Liste des ordres de travail NR-BOS avec badges de priorité et de statut"
+            },
+            {
+              "file": "schedule-month.jpg",
+              "alt": "Calendrier mensuel montrant les ordres de travail planifiés en septembre"
+            }
+          ]
+        },
+        {
+          "slug": "time-tracking",
+          "icon": "clock",
+          "tabLabel": "Temps & validations",
+          "eyebrow": "Heures terrain",
+          "title": "Des heures saisies une fois, validées avant d’être comptées",
+          "body": "Une grille hebdomadaire pour saisir le temps par projet et une file de validation dédiée, groupée par salarié et par semaine – rien n’arrive en paie ou en reporting des coûts sans validation.",
+          "features": [
+            "Saisie du temps par projet et par jour, directement dans la grille hebdomadaire",
+            "Soumission de la semaine en un clic ; un responsable valide ou refuse avec un motif",
+            "Validations groupées par salarié et par semaine, avec totaux cumulés"
+          ],
+          "shots": [
+            {
+              "file": "time-weekly-grid.jpg",
+              "alt": "Feuille de temps hebdomadaire avec les heures saisies par jour pour un projet"
+            },
+            {
+              "file": "time-approvals.jpg",
+              "alt": "File de validation des temps groupée par salarié et par semaine, avec totaux cumulés"
+            }
+          ]
+        },
+        {
+          "slug": "checklists",
+          "icon": "check",
+          "tabLabel": "Checklists",
+          "eyebrow": "Étapes standardisées",
+          "title": "Les mêmes étapes, à chaque fois, sur chaque chantier",
+          "body": "Des modèles de checklist réutilisables se joignent à un ordre de travail, pour que les équipes terrain réalisent – et puissent prouver qu’elles ont réalisé – les mêmes étapes, quel que soit l’intervenant.",
+          "features": [
+            "Cases à cocher ou champs de texte libre, chacun obligatoire ou facultatif",
+            "Un même modèle réutilisé sur autant d’ordres de travail que nécessaire",
+            "Joint directement à la création de l’ordre de travail"
+          ],
+          "shots": [
+            {
+              "file": "checklists-list.jpg",
+              "alt": "Liste des modèles de checklist avec nombre d’éléments et statut actif"
+            },
+            {
+              "file": "checklist-editor.jpg",
+              "alt": "Éditeur de modèle de checklist avec cases à cocher et champs texte marqués obligatoires"
+            }
+          ]
+        },
+        {
+          "slug": "field-reporting",
+          "icon": "wrench",
+          "tabLabel": "Rapports de chantier",
+          "eyebrow": "Sur site",
+          "title": "Ce qui s’est passé sur site, preuves à l’appui",
+          "body": "Les équipes terrain saisissent notes d’avancement et photos directement depuis le chantier – y compris des paires avant/après pour les travaux faciles à décrire mais difficiles à visualiser.",
+          "features": [
+            "Notes liées à une tâche précise, horodatées et géolocalisées",
+            "Photos avant, après et générales dans chaque rapport",
+            "Faites glisser le curseur ci-dessous – une vraie paire avant/après issue d’un rapport de chantier"
+          ],
+          "shots": [
+            {
+              "file": "field-report-notes.jpg",
+              "alt": "Entrée de rapport de chantier avec une note horodatée et une photo jointe"
+            }
+          ]
+        },
+        {
+          "slug": "client-reports",
+          "icon": "folder",
+          "tabLabel": "Rapports clients",
+          "eyebrow": "Pour vos clients",
+          "title": "Un PDF à vos couleurs, généré en un clic",
+          "body": "Rassemblez les tâches, les coûts et les photos récentes d’un projet dans un rapport PDF prêt pour le client – d’abord en brouillon, puis marqué comme envoyé.",
+          "features": [
+            "Champ de commentaire pour un compte rendu d’avancement rédigé",
+            "Statut brouillon jusqu’à ce que le rapport soit prêt pour le client",
+            "Le PDF généré intègre automatiquement les photos récentes des rapports de chantier"
+          ],
+          "shots": [
+            {
+              "file": "client-report-generate.jpg",
+              "alt": "Boîte de dialogue « Générer un rapport client » avec un champ de commentaire destiné au client"
+            },
+            {
+              "file": "client-report-pdf.jpg",
+              "alt": "Rapport client PDF généré avec les informations de l’entreprise, du projet et l’état des tâches"
+            }
+          ]
+        },
+        {
+          "slug": "analytics",
+          "icon": "target",
+          "tabLabel": "Analyses",
+          "eyebrow": "Équipe & dépenses",
+          "title": "Où vont le temps et l’argent",
+          "body": "La charge de l’équipe par statut et un registre complet des coûts par catégorie – les chiffres derrière le tableau de bord.",
+          "features": [
+            "Graphique de charge par personne, réparti entre à faire, en cours, en revue et terminé",
+            "Dépenses par catégorie – matériaux, main-d’œuvre, sous-traitance, permis",
+            "Budget restant calculé automatiquement à chaque dépense saisie"
+          ],
+          "shots": [
+            {
+              "file": "dashboard-team-workload.jpg",
+              "alt": "Graphique de charge de l’équipe montrant le nombre de tâches par statut pour chaque membre"
+            },
+            {
+              "file": "project-costs.jpg",
+              "alt": "Registre des coûts avec écritures datées par catégorie, budget cumulé et solde restant"
+            }
+          ]
+        },
+        {
+          "slug": "integrations",
+          "icon": "link",
+          "tabLabel": "Intégrations",
+          "eyebrow": "Connectez vos outils",
+          "title": "Webhooks sortants, signés et déclenchés par événement",
+          "body": "NR-BOS envoie un message signé à votre point de terminaison dès qu’un événement choisi se produit – un ordre de travail terminé, une saisie de temps validée – sans interrogation régulière.",
+          "features": [
+            "Choisissez les types d’événements qui déclenchent chaque webhook",
+            "Mettez un abonnement en pause sans le supprimer",
+            "Chaque message est signé, pour que votre point de terminaison vérifie qu’il provient bien de NR-BOS"
+          ],
+          "shots": [
+            {
+              "file": "integrations-webhooks.jpg",
+              "alt": "Abonnement webhook sortant actif avec les types d’événements sélectionnés"
+            }
+          ]
+        },
+        {
+          "slug": "licensing",
+          "icon": "lock",
+          "tabLabel": "Équipe & licences",
+          "eyebrow": "Accès & facturation",
+          "title": "Accès par rôle, licence par code",
+          "body": "Administrateurs, chefs de projet, équipes terrain et clients ne voient que ce qui les concerne. L’accès repose sur des codes d’abonnement à usage unique – sans prestataire de paiement.",
+          "features": [
+            "Quatre rôles, chacun avec sa propre vue du produit",
+            "Statut de l’abonnement et date de renouvellement visibles d’un coup d’œil",
+            "Codes de licence générés par lots et activés une fois par entreprise"
+          ],
+          "shots": [
+            {
+              "file": "team-users.jpg",
+              "alt": "Liste des utilisateurs de l’entreprise avec noms, e-mails, rôles et statut actif/inactif"
+            },
+            {
+              "file": "subscription-plan.jpg",
+              "alt": "Abonnement actif avec date de renouvellement et champ d’activation d’un code de licence"
+            },
+            {
+              "file": "license-batches.jpg",
+              "alt": "Liste des lots de licences avec niveau, nombre d’activations et date de création"
+            }
+          ]
+        }
+      ]
     }
   },
   "pages": {
@@ -510,6 +752,26 @@
           { "name": "Consultation initiale", "body": "Une évaluation structurée de votre situation, de vos objectifs et de la voie la plus viable à suivre, accompagnée d'une synthèse écrite des recommandations." },
           { "name": "Mission complète", "body": "Un accompagnement stratégique de bout en bout couvrant la structure d'entreprise, la documentation et la planification de la relocalisation, coordonné avec des partenaires professionnels." },
           { "name": "Conseil continu", "body": "Un accompagnement stratégique poursuivi après votre établissement initial — pour répondre à l'évolution de vos besoins d'entreprise, à des questions transfrontalières ou à une planification d'expansion." }
+        ]
+      },
+      "deliverables": {
+        "label": "Ce que vous recevez",
+        "title": "Des livrables concrets à chaque mission",
+        "sub": "Le conseil de Nordic Riser produit des livrables précis et exploitables – pas seulement une conversation.",
+        "items": [
+          "Un cadre stratégique documenté, propre à votre activité, à vos objectifs et à vos contraintes",
+          "Un business plan structuré ou une stratégie de création, établi selon des standards institutionnels lorsque c’est pertinent",
+          "Une synthèse écrite des recommandations et des prochaines étapes à chaque phase de la mission",
+          "Une coordination avec des professionnels qualifiés – juristes, experts-comptables ou spécialistes – lorsque votre situation l’exige",
+          "Un accompagnement continu à mesure que votre activité ou votre situation évolue"
+        ]
+      },
+      "boundaries": {
+        "label": "Limites professionnelles",
+        "title": "Ce que nous sommes – et ce que nous ne sommes pas",
+        "body": [
+          "Nous ne fournissons ni conseil en immigration ni représentation juridique. Nous apportons le cadre de conseil stratégique sur lequel des spécialistes qualifiés peuvent s’appuyer efficacement.",
+          "Lorsqu’une expertise juridique, fiscale ou réglementaire est nécessaire – comme c’est souvent le cas pour une relocalisation ou des questions transfrontalières –, nous coordonnons l’intervention de professionnels qualifiés, qui réalisent ce travail dans le cadre de leur propre habilitation."
         ]
       },
       "cta": { "title": "Discutons de vos besoins", "body": "Si vous envisagez d'établir une présence commerciale en Europe, nous vous invitons à organiser une consultation. Nous évaluerons votre situation et vous fournirons une vision claire et structurée de la voie à suivre et des services pertinents pour vos objectifs." },

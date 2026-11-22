@@ -64,8 +64,8 @@
       ],
       "globalReachHeading": "Global Reach",
       "globalReachLinks": [
-        { "label": "So funktioniert es" },
-        { "label": "Pläne & Preise" },
+        { "label": "So funktioniert es", "anchor": "#how-it-works" },
+        { "label": "Pläne & Preise", "anchor": "#pricing" },
         { "label": "Jetzt starten", "external": "https://portal.nordicriser.com" }
       ]
     },
@@ -82,6 +82,248 @@
       "dpa": "Auftragsverarbeitungsvertrag",
       "subprocessors": "Unterauftragsverarbeiter",
       "security": "Sicherheit"
+    }
+  },
+  "productOverviews": {
+    "nrBos": {
+      "id": "nr-bos",
+      "eyebrow": "Live-Produkt",
+      "title": "NR-BOS entdecken",
+      "body": "Öffnen Sie die interaktive Tour – zehn Bereiche, echte Ansichten aus dem Live-Produkt.",
+      "cta": "Tour öffnen",
+      "modalId": "Eigenes Produkt · NR-BOS",
+      "modalTitle": "NR-BOS – Interaktive Tour",
+      "closeLabel": "Schließen",
+      "tabsLabel": "NR-BOS-Funktionsbereiche",
+      "sliderBeforeLabel": "Vorher",
+      "sliderAfterLabel": "Nachher",
+      "sliderNote": "Ziehen zum Vergleichen – ein echtes Vorher/Nachher-Paar aus einem Baustellenbericht.",
+      "panels": [
+        {
+          "slug": "dashboard",
+          "icon": "chart",
+          "tabLabel": "Dashboard",
+          "eyebrow": "Überblick",
+          "title": "Alle Projekte auf einen Blick, live",
+          "body": "Portfolioweite Kennzahlen, Budget vs. Ist-Kosten und Fertigstellungsgrad – das Erste, was morgens geöffnet wird.",
+          "features": [
+            "Gesamtzahl und aktive Projekte, in Echtzeit aktualisiert",
+            "Fertigstellungsgrad über das gesamte Portfolio, automatisch ermittelt, sobald Aufgaben abgeschlossen werden",
+            "Budget und Ist-Kosten nebeneinander",
+            "Gewinnmarge und Rentabilität, berechnet aus Budget und Ist-Kosten – noch nicht mit fakturierten Umsätzen verknüpft"
+          ],
+          "shots": [
+            {
+              "file": "dashboard-overview.jpg",
+              "alt": "NR-BOS-Dashboard mit Projektanzahl, Fertigstellungsgrad, Gewinnmarge, Budget vs. Ist-Kosten und einem Kreisdiagramm der Projekte nach Status"
+            }
+          ]
+        },
+        {
+          "slug": "projects",
+          "icon": "clipboard",
+          "tabLabel": "Projekte",
+          "eyebrow": "Umsetzung",
+          "title": "Jeder Auftrag, bis zur einzelnen Aufgabe verfolgt",
+          "body": "Projekte haben ihr eigenes Budget, ihren Kunden und ihr Team. Die Arbeit in jedem Projekt läuft auf einem Board mit vier Spalten.",
+          "features": [
+            "Offen, in Arbeit, in Prüfung, erledigt – ein Board pro Projekt",
+            "Jede Aufgabe hat eine verantwortliche Person, ein Fälligkeitsdatum und geschätzte Stunden",
+            "Projektstatus – Planung, aktiv, pausiert, abgeschlossen – auf einen Blick",
+            "Arbeitsaufträge mit Priorität und Termin, im Tages-, Wochen- oder Monatskalender sichtbar"
+          ],
+          "shots": [
+            {
+              "file": "projects-list.jpg",
+              "alt": "Liste mit vier NR-BOS-Projekten und Status-Badges – aktiv, pausiert, Planung und abgeschlossen"
+            },
+            {
+              "file": "project-kanban.jpg",
+              "alt": "Kanban-Board eines Projekts mit Aufgaben in den Spalten Offen, In Arbeit, Prüfung und Erledigt"
+            }
+          ]
+        },
+        {
+          "slug": "work-orders",
+          "icon": "pin",
+          "tabLabel": "Arbeitsaufträge",
+          "eyebrow": "Disposition",
+          "title": "Jeder Auftrag disponiert, terminiert und verfolgt",
+          "body": "Arbeitsaufträge haben eine Priorität, einen Einsatzort und ein Zeitfenster – dargestellt im Tages-, Wochen- oder Monatskalender, damit nichts untergeht.",
+          "features": [
+            "Vier Prioritätsstufen, von Niedrig bis Dringend, auf einen Blick",
+            "Ein vollständiger Status-Lebenszyklus – von Entwurf über Terminiert, Zugewiesen, In Arbeit und Prüfung bis Abgeschlossen",
+            "Optional angehängte Checklistenvorlage, damit Außendienstteams jedes Mal dieselben Schritte befolgen"
+          ],
+          "shots": [
+            {
+              "file": "work-orders-list.jpg",
+              "alt": "Liste von NR-BOS-Arbeitsaufträgen mit Prioritäts- und Status-Badges"
+            },
+            {
+              "file": "schedule-month.jpg",
+              "alt": "Monatskalender mit den im September geplanten Arbeitsaufträgen"
+            }
+          ]
+        },
+        {
+          "slug": "time-tracking",
+          "icon": "clock",
+          "tabLabel": "Zeit & Freigaben",
+          "eyebrow": "Arbeitsstunden",
+          "title": "Stunden einmal erfasst, vor der Verrechnung freigegeben",
+          "body": "Ein Wochenraster zur Zeiterfassung pro Projekt und eine eigene Freigabeliste nach Mitarbeitenden und Wochen – nichts gelangt ungeprüft in die Lohnabrechnung oder das Kostenreporting.",
+          "features": [
+            "Zeit pro Projekt und Tag direkt im Wochenraster erfassen",
+            "Woche mit einem Klick einreichen; eine Führungskraft gibt frei oder lehnt mit Begründung ab",
+            "Freigaben gruppiert nach Mitarbeitenden und Wochen, mit laufenden Summen"
+          ],
+          "shots": [
+            {
+              "file": "time-weekly-grid.jpg",
+              "alt": "Wöchentlicher Stundenzettel mit tageweise erfassten Stunden für ein Projekt"
+            },
+            {
+              "file": "time-approvals.jpg",
+              "alt": "Freigabeliste für Zeiten, gruppiert nach Mitarbeitenden und Wochen, mit laufenden Summen"
+            }
+          ]
+        },
+        {
+          "slug": "checklists",
+          "icon": "check",
+          "tabLabel": "Checklisten",
+          "eyebrow": "Einheitliche Schritte",
+          "title": "Dieselben Schritte, jedes Mal, bei jedem Auftrag",
+          "body": "Wiederverwendbare Checklistenvorlagen werden an einen Arbeitsauftrag angehängt, sodass Außendienstteams dieselben Schritte erledigen – und nachweisen können –, egal wer vor Ort ist.",
+          "features": [
+            "Kontrollkästchen oder Freitextpunkte, jeweils als Pflicht oder optional markiert",
+            "Eine Vorlage, wiederverwendbar für beliebig viele Arbeitsaufträge",
+            "Direkt beim Anlegen eines Arbeitsauftrags angehängt"
+          ],
+          "shots": [
+            {
+              "file": "checklists-list.jpg",
+              "alt": "Liste der Checklistenvorlagen mit Anzahl der Punkte und Aktiv-Status"
+            },
+            {
+              "file": "checklist-editor.jpg",
+              "alt": "Editor für Checklistenvorlagen mit als Pflicht markierten Kontrollkästchen- und Textpunkten"
+            }
+          ]
+        },
+        {
+          "slug": "field-reporting",
+          "icon": "wrench",
+          "tabLabel": "Baustellenberichte",
+          "eyebrow": "Vor Ort",
+          "title": "Was vor Ort passiert ist – mit Nachweis",
+          "body": "Außendienstteams erfassen Fortschrittsnotizen und Fotos direkt vor Ort – einschließlich Vorher/Nachher-Paaren für Arbeiten, die leicht zu beschreiben, aber schwer vorzustellen sind.",
+          "features": [
+            "Notizen zu einer bestimmten Aufgabe, mit Zeitstempel und Geotag",
+            "Vorher-, Nachher- und allgemeine Fotos in jedem Bericht",
+            "Ziehen Sie den Schieberegler unten – ein echtes Vorher/Nachher-Paar aus einem Baustellenbericht"
+          ],
+          "shots": [
+            {
+              "file": "field-report-notes.jpg",
+              "alt": "Eintrag in einem Baustellenbericht mit zeitgestempelter Notiz und angehängtem Foto"
+            }
+          ]
+        },
+        {
+          "slug": "client-reports",
+          "icon": "folder",
+          "tabLabel": "Kundenberichte",
+          "eyebrow": "Für Kunden",
+          "title": "Ein gebrandetes PDF, mit einem Klick erstellt",
+          "body": "Aufgaben, Kosten und aktuelle Baustellenfotos eines Projekts in einem kundenfertigen PDF-Bericht bündeln – zuerst als Entwurf, dann als versendet markieren.",
+          "features": [
+            "Kommentarfeld für einen schriftlichen Fortschrittsbericht",
+            "Entwurfsstatus, bis der Bericht für den Kunden bereit ist",
+            "Das erzeugte PDF bindet aktuelle Fotos aus Baustellenberichten automatisch ein"
+          ],
+          "shots": [
+            {
+              "file": "client-report-generate.jpg",
+              "alt": "Dialog „Kundenbericht erstellen“ mit Kommentarfeld für den Text an den Kunden"
+            },
+            {
+              "file": "client-report-pdf.jpg",
+              "alt": "Erstellter Kundenbericht als PDF mit Unternehmensdaten, Projektinformationen und Aufgabenstatus"
+            }
+          ]
+        },
+        {
+          "slug": "analytics",
+          "icon": "target",
+          "tabLabel": "Auswertungen",
+          "eyebrow": "Team & Kosten",
+          "title": "Wohin Zeit und Geld fließen",
+          "body": "Teamauslastung nach Status und ein vollständiges Kostenbuch nach Kategorien – die Zahlen hinter dem Dashboard.",
+          "features": [
+            "Auslastungsdiagramm pro Person nach offen, in Arbeit, in Prüfung und erledigt",
+            "Kostenbuchungen nach Kategorie – Material, Arbeit, Subunternehmer, Genehmigungen",
+            "Restbudget wird bei jeder Kostenbuchung automatisch berechnet"
+          ],
+          "shots": [
+            {
+              "file": "dashboard-team-workload.jpg",
+              "alt": "Diagramm der Teamauslastung mit Aufgabenanzahl nach Status für jedes Teammitglied"
+            },
+            {
+              "file": "project-costs.jpg",
+              "alt": "Kostenbuch mit datierten Einträgen nach Kategorie, laufendem Budget und Restbetrag"
+            }
+          ]
+        },
+        {
+          "slug": "integrations",
+          "icon": "link",
+          "tabLabel": "Integrationen",
+          "eyebrow": "Ihre Systeme verbinden",
+          "title": "Ausgehende Webhooks, signiert und ereignisgesteuert",
+          "body": "NR-BOS sendet eine signierte Nachricht an Ihren Endpunkt, sobald ein ausgewähltes Ereignis eintritt – ein abgeschlossener Arbeitsauftrag, eine freigegebene Zeiterfassung – ganz ohne Abfragen.",
+          "features": [
+            "Wählen Sie, bei welchen Ereignistypen jeder Webhook auslöst",
+            "Ein Abonnement pausieren, ohne es zu löschen",
+            "Jede Nachricht ist signiert, damit Ihr Endpunkt prüfen kann, dass sie wirklich von NR-BOS stammt"
+          ],
+          "shots": [
+            {
+              "file": "integrations-webhooks.jpg",
+              "alt": "Aktives Webhook-Abonnement mit ausgewählten Ereignistypen"
+            }
+          ]
+        },
+        {
+          "slug": "licensing",
+          "icon": "lock",
+          "tabLabel": "Team & Lizenzen",
+          "eyebrow": "Zugriff & Abrechnung",
+          "title": "Rollenbasierter Zugriff, per Code lizenziert",
+          "body": "Administratoren, Projektleitende, Außendienst und Kunden sehen jeweils nur, was sie betrifft. Der Zugang selbst läuft über einlösbare Abonnementcodes – ganz ohne Zahlungsanbieter.",
+          "features": [
+            "Vier Rollen mit jeweils eigener Ansicht des Produkts",
+            "Abonnementstatus und Verlängerungsdatum auf einen Blick",
+            "Lizenzcodes werden in Chargen erzeugt und einmal pro Unternehmen eingelöst"
+          ],
+          "shots": [
+            {
+              "file": "team-users.jpg",
+              "alt": "Benutzerliste des Unternehmens mit Namen, E-Mail-Adressen, Rollen und Aktiv/Inaktiv-Status"
+            },
+            {
+              "file": "subscription-plan.jpg",
+              "alt": "Aktives Abonnement mit Verlängerungsdatum und einem Feld zum Einlösen eines Lizenzcodes"
+            },
+            {
+              "file": "license-batches.jpg",
+              "alt": "Liste der Lizenzchargen mit Stufe, Anzahl der Einlösungen und Erstellungsdatum"
+            }
+          ]
+        }
+      ]
     }
   },
   "pages": {
@@ -154,10 +396,10 @@
         "label": "Prozess",
         "title": "Vom Briefing zum Launch — und darüber hinaus",
         "steps": [
-          { "title": "Discovery", "body": "Wir erfassen, was Sie tatsächlich brauchen, bevor wir eine Zeile Code schreiben. Umfang, Nutzer, Rahmenbedingungen, Erfolgskriterien — dokumentiert und abgestimmt." },
+          { "title": "Analyse", "body": "Wir erfassen, was Sie tatsächlich brauchen, bevor wir eine Zeile Code schreiben. Umfang, Nutzer, Rahmenbedingungen, Erfolgskriterien — dokumentiert und abgestimmt." },
           { "title": "Design & Architektur", "body": "Interface-Design und technische Architektur laufen parallel. Sie sehen und genehmigen die Form der Lösung, bevor wir sie bauen." },
           { "title": "Entwicklung", "body": "Iterative Entwicklung mit funktionierenden Vorschauen in jeder Phase. Keine Blackbox-Stille über sechs Wochen." },
-          { "title": "Launch", "body": "Deployment, Domain- und SSL-Einrichtung, Analytics und Übergabedokumentation. Ihnen gehört alles." },
+          { "title": "Start", "body": "Deployment, Domain- und SSL-Einrichtung, Analytics und Übergabedokumentation. Ihnen gehört alles." },
           { "title": "Support", "body": "Laufende Wartung, Monitoring und Updates. Plattformen bleiben nicht von allein gesund." }
         ]
       },
@@ -512,6 +754,26 @@
           { "name": "Laufende Beratung", "body": "Fortlaufende strategische Unterstützung nach Ihrer Erstansiedlung — für sich weiterentwickelnde geschäftliche Bedürfnisse, grenzüberschreitende Fragen oder Expansionsplanung." }
         ]
       },
+      "deliverables": {
+        "label": "Was Sie erhalten",
+        "title": "Konkrete Ergebnisse aus jedem Mandat",
+        "sub": "Beratung von Nordic Riser liefert konkrete, verwertbare Ergebnisse – nicht nur ein Gespräch.",
+        "items": [
+          "Ein dokumentiertes strategisches Rahmenwerk, zugeschnitten auf Ihr Unternehmen, Ihre Ziele und Ihre Rahmenbedingungen",
+          "Ein strukturierter Businessplan oder eine Gründungsstrategie, wo relevant nach institutionellen Standards erstellt",
+          "Eine schriftliche Zusammenfassung der Empfehlungen und nächsten Schritte in jeder Phase des Mandats",
+          "Abstimmung mit qualifizierten Rechts-, Buchhaltungs- oder Fachleuten, wenn Ihre Situation es erfordert",
+          "Fortlaufende Beratung, während sich Ihr Unternehmen oder Ihre Umstände weiterentwickeln"
+        ]
+      },
+      "boundaries": {
+        "label": "Professionelle Grenzen",
+        "title": "Was wir sind – und was nicht",
+        "body": [
+          "Wir bieten keine Einwanderungsberatung und keine rechtliche Vertretung. Wir liefern den strategischen Beratungsrahmen, auf dessen Grundlage qualifizierte Fachleute wirksam arbeiten können.",
+          "Wo rechtliche, steuerliche oder regulatorische Fachkenntnisse nötig sind – wie so oft bei Umzügen und grenzüberschreitenden Fragen –, koordinieren wir die Einbindung qualifizierter Fachleute, die diese Arbeit im Rahmen ihrer eigenen Zulassung ausführen."
+        ]
+      },
       "cta": { "title": "Besprechen Sie Ihre Anforderungen", "body": "Wenn Sie planen, eine Geschäftspräsenz in Europa aufzubauen, laden wir Sie zu einem Beratungsgespräch ein. Wir bewerten Ihre Situation und geben Ihnen einen klaren, strukturierten Überblick über den Weg und die für Ihre Ziele relevanten Leistungen." },
       "closing": {
         "label": "Warum ein strukturiertes Beratungsgespräch",
@@ -609,7 +871,7 @@
         { "title": "Entdecken", "body": "Wir bewerten Ihre unternehmerischen Bedürfnisse und erstellen einen klaren, schriftlichen Umfang sowie ein transparentes Angebot, bevor die Entwicklung beginnt." },
         { "title": "Design", "body": "Interface-Design und technische Architektur, ausgearbeitet und von Ihnen freigegeben, bevor wir eine Zeile Code schreiben." },
         { "title": "Entwicklung", "body": "Wir entwickeln in strukturierten Phasen mit regelmäßigen Abstimmungen, damit Sie stets wissen, wo das Projekt steht." },
-        { "title": "Launch", "body": "Bereitstellung, Domain- und SSL-Einrichtung sowie Übergabedokumentation. Sie besitzen den Code und alle Konten." },
+        { "title": "Start", "body": "Bereitstellung, Domain- und SSL-Einrichtung sowie Übergabedokumentation. Sie besitzen den Code und alle Konten." },
         { "title": "Weiterentwickeln", "body": "Nach dem Launch stehen wir weiterhin für Monitoring, Updates und laufende Verbesserungen zur Verfügung, während sich Ihre Anforderungen weiterentwickeln." }
       ],
       "capabilitiesLabel": "Was wir entwickeln können",

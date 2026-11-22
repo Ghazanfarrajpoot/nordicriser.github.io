@@ -64,8 +64,8 @@
       ],
       "globalReachHeading": "Global Reach",
       "globalReachLinks": [
-        { "label": "Jak to działa" },
-        { "label": "Plany i cennik" },
+        { "label": "Jak to działa", "anchor": "#how-it-works" },
+        { "label": "Plany i cennik", "anchor": "#pricing" },
         { "label": "Rozpocznij", "external": "https://portal.nordicriser.com" }
       ]
     },
@@ -82,6 +82,248 @@
       "dpa": "Umowa powierzenia przetwarzania danych",
       "subprocessors": "Podprzetwarzający",
       "security": "Bezpieczeństwo"
+    }
+  },
+  "productOverviews": {
+    "nrBos": {
+      "id": "nr-bos",
+      "eyebrow": "Działający produkt",
+      "title": "Poznaj NR-BOS",
+      "body": "Otwórz interaktywną prezentację – dziesięć paneli z prawdziwymi ekranami działającego produktu.",
+      "cta": "Otwórz prezentację",
+      "modalId": "Własny produkt · NR-BOS",
+      "modalTitle": "NR-BOS – interaktywna prezentacja",
+      "closeLabel": "Zamknij",
+      "tabsLabel": "Kategorie funkcji NR-BOS",
+      "sliderBeforeLabel": "Przed",
+      "sliderAfterLabel": "Po",
+      "sliderNote": "Przeciągnij, aby porównać – prawdziwa para zdjęć przed/po z raportu z budowy.",
+      "panels": [
+        {
+          "slug": "dashboard",
+          "icon": "chart",
+          "tabLabel": "Pulpit",
+          "eyebrow": "Przegląd",
+          "title": "Wszystkie projekty na żywo",
+          "body": "Wskaźniki dla całego portfela, budżet a rzeczywiste wydatki oraz stopień realizacji – to pierwsze, co każdy otwiera rano.",
+          "features": [
+            "Łączna liczba projektów i projektów aktywnych, aktualizowana w czasie rzeczywistym",
+            "Procent realizacji całego portfela, liczony automatycznie w miarę zamykania zadań",
+            "Budżet i koszt rzeczywisty obok siebie",
+            "Marża i rentowność liczone z budżetu i kosztu rzeczywistego – jeszcze niepowiązane z zafakturowanymi przychodami"
+          ],
+          "shots": [
+            {
+              "file": "dashboard-overview.jpg",
+              "alt": "Pulpit NR-BOS z liczbą projektów, procentem realizacji, marżą, budżetem wobec kosztu rzeczywistego i wykresem kołowym projektów według statusu"
+            }
+          ]
+        },
+        {
+          "slug": "projects",
+          "icon": "clipboard",
+          "tabLabel": "Projekty",
+          "eyebrow": "Realizacja",
+          "title": "Każde zlecenie śledzone do poziomu zadania",
+          "body": "Każdy projekt ma własny budżet, klienta i zespół. Praca w projekcie toczy się na tablicy z czterema kolumnami.",
+          "features": [
+            "Do zrobienia, w toku, do przeglądu, gotowe – jedna tablica na projekt",
+            "Każde zadanie ma osobę odpowiedzialną, termin i szacowaną liczbę godzin",
+            "Status projektu – planowanie, aktywny, wstrzymany, zakończony – widoczny od razu",
+            "Zlecenia robocze z priorytetem i zaplanowaną datą, widoczne w kalendarzu dziennym, tygodniowym lub miesięcznym"
+          ],
+          "shots": [
+            {
+              "file": "projects-list.jpg",
+              "alt": "Lista czterech projektów NR-BOS z oznaczeniami statusu – aktywny, wstrzymany, planowanie i zakończony"
+            },
+            {
+              "file": "project-kanban.jpg",
+              "alt": "Tablica Kanban projektu z zadaniami w kolumnach Do zrobienia, W toku, Do przeglądu i Gotowe"
+            }
+          ]
+        },
+        {
+          "slug": "work-orders",
+          "icon": "pin",
+          "tabLabel": "Zlecenia robocze",
+          "eyebrow": "Dyspozycja",
+          "title": "Każde zlecenie przydzielone, zaplanowane i śledzone",
+          "body": "Zlecenia robocze mają priorytet, lokalizację i przedział czasowy – wyświetlane w kalendarzu dziennym, tygodniowym lub miesięcznym, by nic nie umknęło.",
+          "features": [
+            "Cztery poziomy priorytetu, od Niskiego do Pilnego, widoczne od razu",
+            "Pełny cykl statusów – od Szkicu przez Zaplanowane, Przydzielone, W toku i Do przeglądu po Zakończone",
+            "Opcjonalnie dołączony szablon listy kontrolnej, aby ekipy w terenie zawsze wykonywały te same kroki"
+          ],
+          "shots": [
+            {
+              "file": "work-orders-list.jpg",
+              "alt": "Lista zleceń roboczych NR-BOS z oznaczeniami priorytetu i statusu"
+            },
+            {
+              "file": "schedule-month.jpg",
+              "alt": "Kalendarz miesięczny ze zleceniami roboczymi zaplanowanymi na wrzesień"
+            }
+          ]
+        },
+        {
+          "slug": "time-tracking",
+          "icon": "clock",
+          "tabLabel": "Czas i akceptacje",
+          "eyebrow": "Godziny w terenie",
+          "title": "Godziny wpisane raz i zatwierdzone, zanim się liczą",
+          "body": "Tygodniowa siatka do rejestrowania czasu na projekt i osobna kolejka akceptacji pogrupowana według pracownika i tygodnia – nic nie trafia do płac ani raportów kosztów bez zatwierdzenia.",
+          "features": [
+            "Wpisuj czas na projekt i dzień bezpośrednio w siatce tygodniowej",
+            "Wyślij tydzień jednym kliknięciem; kierownik zatwierdza lub odrzuca z podaniem powodu",
+            "Akceptacje pogrupowane według pracownika i tygodnia, z bieżącymi sumami"
+          ],
+          "shots": [
+            {
+              "file": "time-weekly-grid.jpg",
+              "alt": "Tygodniowa karta czasu pracy z godzinami wpisanymi dla projektu według dni"
+            },
+            {
+              "file": "time-approvals.jpg",
+              "alt": "Kolejka akceptacji czasu pracy pogrupowana według pracownika i tygodnia, z bieżącymi sumami"
+            }
+          ]
+        },
+        {
+          "slug": "checklists",
+          "icon": "check",
+          "tabLabel": "Listy kontrolne",
+          "eyebrow": "Standardowe kroki",
+          "title": "Te same kroki, za każdym razem, przy każdym zleceniu",
+          "body": "Szablony list kontrolnych wielokrotnego użytku dołącza się do zlecenia roboczego, aby ekipy w terenie wykonały – i mogły udowodnić, że wykonały – te same kroki, niezależnie od tego, kto jest na miejscu.",
+          "features": [
+            "Pola wyboru lub pola tekstowe, każde oznaczone jako wymagane lub opcjonalne",
+            "Jeden szablon używany w dowolnej liczbie zleceń",
+            "Dołączany bezpośrednio przy tworzeniu zlecenia roboczego"
+          ],
+          "shots": [
+            {
+              "file": "checklists-list.jpg",
+              "alt": "Lista szablonów list kontrolnych z liczbą pozycji i statusem aktywności"
+            },
+            {
+              "file": "checklist-editor.jpg",
+              "alt": "Edytor szablonu listy kontrolnej z polami wyboru i tekstowymi oznaczonymi jako wymagane"
+            }
+          ]
+        },
+        {
+          "slug": "field-reporting",
+          "icon": "wrench",
+          "tabLabel": "Raporty z budowy",
+          "eyebrow": "Na miejscu",
+          "title": "Co wydarzyło się na budowie – z dowodami",
+          "body": "Ekipy w terenie dodają notatki o postępach i zdjęcia prosto z budowy – także pary zdjęć przed/po dla prac, które łatwo opisać, ale trudno sobie wyobrazić.",
+          "features": [
+            "Notatki powiązane z konkretnym zadaniem, z datą, godziną i geolokalizacją",
+            "Zdjęcia przed, po oraz ogólne w każdym raporcie",
+            "Przeciągnij suwak poniżej – prawdziwa para zdjęć przed/po z raportu z budowy"
+          ],
+          "shots": [
+            {
+              "file": "field-report-notes.jpg",
+              "alt": "Wpis w raporcie z budowy z notatką opatrzoną datą i godziną oraz dołączonym zdjęciem"
+            }
+          ]
+        },
+        {
+          "slug": "client-reports",
+          "icon": "folder",
+          "tabLabel": "Raporty dla klientów",
+          "eyebrow": "Dla klienta",
+          "title": "Firmowy PDF generowany jednym kliknięciem",
+          "body": "Zbierz zadania, koszty i najnowsze zdjęcia z budowy w raport PDF gotowy dla klienta – najpierw jako szkic, potem oznaczony jako wysłany.",
+          "features": [
+            "Pole komentarza na opisowe podsumowanie postępów",
+            "Status szkicu, dopóki raport nie jest gotowy dla klienta",
+            "Wygenerowany PDF automatycznie zawiera najnowsze zdjęcia z raportów z budowy"
+          ],
+          "shots": [
+            {
+              "file": "client-report-generate.jpg",
+              "alt": "Okno „Generuj raport dla klienta” z polem komentarza na tekst dla klienta"
+            },
+            {
+              "file": "client-report-pdf.jpg",
+              "alt": "Wygenerowany raport PDF dla klienta z danymi firmy, informacjami o projekcie i statusem zadań"
+            }
+          ]
+        },
+        {
+          "slug": "analytics",
+          "icon": "target",
+          "tabLabel": "Analizy",
+          "eyebrow": "Zespół i wydatki",
+          "title": "Na co idzie czas i pieniądze",
+          "body": "Obciążenie zespołu według statusu i pełna ewidencja kosztów według kategorii – liczby stojące za pulpitem.",
+          "features": [
+            "Wykres obciążenia na osobę w podziale na do zrobienia, w toku, do przeglądu i gotowe",
+            "Koszty według kategorii – materiały, robocizna, podwykonawcy, pozwolenia",
+            "Pozostały budżet liczony automatycznie przy każdym wpisie kosztu"
+          ],
+          "shots": [
+            {
+              "file": "dashboard-team-workload.jpg",
+              "alt": "Wykres obciążenia zespołu z liczbą zadań według statusu dla każdej osoby"
+            },
+            {
+              "file": "project-costs.jpg",
+              "alt": "Ewidencja kosztów z datowanymi wpisami według kategorii, bieżącym budżetem i pozostałym saldem"
+            }
+          ]
+        },
+        {
+          "slug": "integrations",
+          "icon": "link",
+          "tabLabel": "Integracje",
+          "eyebrow": "Połącz swoje narzędzia",
+          "title": "Wychodzące webhooki – podpisane i wyzwalane zdarzeniami",
+          "body": "NR-BOS wysyła podpisaną wiadomość do Twojego punktu końcowego w chwili, gdy wystąpi wybrane zdarzenie – zakończone zlecenie robocze, zatwierdzony wpis czasu – bez potrzeby odpytywania.",
+          "features": [
+            "Wybierz, przy jakich typach zdarzeń ma się uruchamiać każdy webhook",
+            "Wstrzymaj subskrypcję bez jej usuwania",
+            "Każda wiadomość jest podpisana, więc Twój punkt końcowy może sprawdzić, że naprawdę pochodzi z NR-BOS"
+          ],
+          "shots": [
+            {
+              "file": "integrations-webhooks.jpg",
+              "alt": "Aktywna subskrypcja wychodzącego webhooka z wybranymi typami zdarzeń"
+            }
+          ]
+        },
+        {
+          "slug": "licensing",
+          "icon": "lock",
+          "tabLabel": "Zespół i licencje",
+          "eyebrow": "Dostęp i rozliczenia",
+          "title": "Dostęp oparty na rolach, licencja na kod",
+          "body": "Administratorzy, kierownicy projektów, pracownicy terenowi i klienci widzą tylko to, co ich dotyczy. Sam dostęp działa na podstawie kodów subskrypcyjnych do aktywacji – bez operatora płatności.",
+          "features": [
+            "Cztery role, każda z innym widokiem produktu",
+            "Status subskrypcji i data odnowienia widoczne od razu",
+            "Kody licencyjne generowane w partiach i aktywowane raz na firmę"
+          ],
+          "shots": [
+            {
+              "file": "team-users.jpg",
+              "alt": "Lista użytkowników firmy z imionami i nazwiskami, adresami e-mail, rolami i statusem aktywny/nieaktywny"
+            },
+            {
+              "file": "subscription-plan.jpg",
+              "alt": "Aktywna subskrypcja z datą odnowienia i polem do aktywacji kodu licencyjnego"
+            },
+            {
+              "file": "license-batches.jpg",
+              "alt": "Lista partii licencji z poziomem, liczbą aktywacji i datą utworzenia"
+            }
+          ]
+        }
+      ]
     }
   },
   "pages": {
@@ -510,6 +752,26 @@
           { "name": "Wstępna konsultacja", "body": "Ustrukturyzowana ocena Twojej sytuacji, celów oraz najbardziej realnej ścieżki działania, wraz z pisemnym podsumowaniem rekomendacji." },
           { "name": "Pełne zlecenie", "body": "Kompleksowe wsparcie strategiczne obejmujące strukturę biznesową, dokumentację i planowanie relokacji, koordynowane z partnerami profesjonalnymi." },
           { "name": "Bieżące doradztwo", "body": "Ciągłe wsparcie strategiczne po wstępnym założeniu działalności — w związku z ewoluującymi potrzebami biznesowymi, kwestiami transgranicznymi lub planowaniem ekspansji." }
+        ]
+      },
+      "deliverables": {
+        "label": "Co otrzymujesz",
+        "title": "Konkretne rezultaty z każdego zlecenia",
+        "sub": "Doradztwo Nordic Riser daje konkretne, użyteczne rezultaty – nie tylko rozmowę.",
+        "items": [
+          "Udokumentowane ramy strategiczne dopasowane do Twojej firmy, celów i ograniczeń",
+          "Uporządkowany biznesplan lub strategię założenia firmy, przygotowane zgodnie ze standardami instytucjonalnymi tam, gdzie to istotne",
+          "Pisemne podsumowanie rekomendacji i kolejnych kroków na każdym etapie współpracy",
+          "Koordynację z wykwalifikowanymi prawnikami, księgowymi lub innymi specjalistami, gdy wymaga tego Twoja sytuacja",
+          "Stałe wsparcie doradcze w miarę rozwoju Twojej firmy lub zmiany okoliczności"
+        ]
+      },
+      "boundaries": {
+        "label": "Granice zawodowe",
+        "title": "Czym jesteśmy – a czym nie",
+        "body": [
+          "Nie udzielamy porad imigracyjnych ani nie zapewniamy reprezentacji prawnej. Zapewniamy strategiczne ramy doradcze, na podstawie których wykwalifikowani specjaliści mogą skutecznie działać.",
+          "Gdy potrzebna jest wiedza specjalistów z zakresu prawa, podatków lub regulacji – co często zdarza się przy relokacji i sprawach transgranicznych – koordynujemy współpracę z wykwalifikowanymi profesjonalistami, którzy wykonują tę pracę w ramach własnych uprawnień."
         ]
       },
       "cta": { "title": "Omów swoje wymagania", "body": "Jeśli planujesz założenie działalności gospodarczej w Europie, zapraszamy do umówienia konsultacji. Ocenimy Twoją sytuację i przedstawimy jasny, ustrukturyzowany obraz ścieżki oraz usług odpowiednich dla Twoich celów." },

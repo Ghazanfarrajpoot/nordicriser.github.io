@@ -68,8 +68,8 @@
       ],
       "globalReachHeading": "Global Reach",
       "globalReachLinks": [
-        { "label": "Så fungerar det" },
-        { "label": "Planer & priser" },
+        { "label": "Så fungerar det", "anchor": "#how-it-works" },
+        { "label": "Planer & priser", "anchor": "#pricing" },
         { "label": "Kom igång", "external": "https://portal.nordicriser.com" }
       ]
     },
@@ -1522,6 +1522,26 @@
           { "name": "Inledande konsultation", "body": "En strukturerad bedömning av din situation, dina mål och den mest genomförbara vägen framåt, med en skriftlig sammanfattning av rekommendationer." },
           { "name": "Fullständigt uppdrag", "body": "Heltäckande strategiskt stöd inom bolagsstruktur, dokumentation och flyttplanering, samordnat med professionella partners." },
           { "name": "Löpande rådgivning", "body": "Fortsatt strategiskt stöd efter din inledande etablering — för föränderliga affärsbehov, gränsöverskridande frågor eller expansionsplanering." }
+        ]
+      },
+      "deliverables": {
+        "label": "Det här får du",
+        "title": "Konkreta resultat från varje uppdrag",
+        "sub": "Rådgivning från Nordic Riser ger specifika, användbara resultat – inte bara ett samtal.",
+        "items": [
+          "Ett dokumenterat strategiskt ramverk anpassat efter din verksamhet, dina mål och dina förutsättningar",
+          "En strukturerad affärsplan eller etableringsstrategi, upprättad enligt institutionell standard där det är relevant",
+          "En skriftlig sammanfattning av rekommendationer och nästa steg i varje fas av uppdraget",
+          "Samordning med kvalificerade jurister, redovisningskonsulter eller andra specialister när din situation kräver det",
+          "Fortsatt rådgivning i takt med att din verksamhet eller dina förutsättningar förändras"
+        ]
+      },
+      "boundaries": {
+        "label": "Professionella gränser",
+        "title": "Vad vi är – och inte är",
+        "body": [
+          "Vi ger inte migrationsrådgivning eller juridiskt ombud. Vi tillhandahåller det strategiska rådgivningsramverk som kvalificerade specialister sedan kan arbeta utifrån.",
+          "När juridisk, skattemässig eller regulatorisk specialistkompetens behövs – vilket ofta är fallet vid relocation och gränsöverskridande frågor – samordnar vi kontakten med kvalificerade yrkespersoner, som utför det arbetet inom ramen för sin egen behörighet."
         ]
       },
       "cta": { "title": "Diskutera dina behov", "body": "Om du planerar att etablera en verksamhet i Europa bjuder vi in dig till en konsultation. Vi kommer att bedöma din situation och ge dig en tydlig, strukturerad översikt över vägen framåt och de tjänster som är relevanta för dina mål." },
