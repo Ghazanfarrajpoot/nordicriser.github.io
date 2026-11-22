@@ -52,7 +52,9 @@ pageSlug: legal/privacy
 
   <div class="doc-body">
     <div class="updated-badge">{{ icons.icon('calendar') }} {{ p.updatedBadge }}</div>
-    {%- if p.whatChanged %}
+    {%- if p.whatChangedSummary %}
+    <div class="info-box what-changed"><p>{{ p.whatChangedSummary }} <a href="#change-history">{{ p.changeHistory.title }} ↓</a></p></div>
+    {%- elif p.whatChanged %}
     <div class="info-box what-changed"><p>{{ p.whatChanged }}</p></div>
     {%- endif %}
 
@@ -181,6 +183,17 @@ pageSlug: legal/privacy
         <a href="mailto:info@nordicriser.com">info@nordicriser.com</a>
       </div>
     </div>
+
+    {%- if p.changeHistory %}
+    <details class="doc-section change-history" id="change-history">
+      <summary><h2>{{ p.changeHistory.title }}</h2></summary>
+      <ul>
+        {%- for item in p.changeHistory.items %}
+        <li>{{ item }}</li>
+        {%- endfor %}
+      </ul>
+    </details>
+    {%- endif %}
 
   </div>
 </div>

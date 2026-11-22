@@ -624,7 +624,19 @@
       "hero": { "label": "Legal", "h1": "Privacy Policy", "body": "How Nordic Riser AB collects, uses, and protects your personal information in accordance with the EU General Data Protection Regulation (GDPR)." },
       "breadcrumb": "Privacy Policy",
       "updatedBadge": "Last Updated: 11 November 2026",
-      "whatChanged": "What changed in this update: this policy previously covered our consulting business only. It now also covers the Member Portal, NR-BOS, and Global Reach. We added a Controller vs. Processor section, a full named Sub-processor list, an explicit disclosure of the AI provider used in NR-BOS, and split the Cookies section between the marketing site and our authenticated products. A Terms of Service and a Data Processing Agreement are published alongside this policy for the first time — see the Legal index. We also corrected Section 4.5: Global Reach does not have a chat feature, so the data it processes is session and usage data, not chat messages — see the Sub-processors page for a related correction. We then updated Section 6.4: NR-BOS now pseudonymizes team member names before sending project data to our AI provider, so the AI sees a generic label instead of a real name. Most recently, we added Section 6.5: the secure portal messaging's \"Translate\" button sends message text to Google Cloud's Translation API, which was not previously disclosed — see the Sub-processors page for the corresponding entry.",
+      "whatChangedSummary": "What changed in this update: we added Section 6.5, which discloses that the Member Portal’s “Translate” button sends message text to Google Cloud’s Translation API. Earlier changes are listed in the Change history at the end of this page.",
+      "changeHistory": {
+        "title": "Change history",
+        "items": [
+          "Scope widened: this policy previously covered our consulting business only. It now also covers the Member Portal, NR-BOS and Global Reach.",
+          "Added a Controller vs. Processor section, a full named Sub-processor list, and an explicit disclosure of the AI provider used in NR-BOS.",
+          "Split the Cookies section between the marketing site and our authenticated products.",
+          "Published a Terms of Service and a Data Processing Agreement alongside this policy for the first time (see the Legal index).",
+          "Corrected Section 4.5: Global Reach does not have a chat feature, so the data it processes is session and usage data, not chat messages (see the Sub-processors page for a related correction).",
+          "Updated Section 6.4: NR-BOS now pseudonymizes team member names before sending project data to our AI provider, so the AI sees a generic label instead of a real name.",
+          "Added Section 6.5: the secure portal messaging’s “Translate” button sends message text to Google Cloud’s Translation API, which was not previously disclosed (see the Sub-processors page for the corresponding entry)."
+        ]
+      },
       "translationNotice": "This page has been machine-translated. In case of any discrepancy, the English version is authoritative. Contact us with questions.",
       "tocLabel": "Contents",
       "toc": [

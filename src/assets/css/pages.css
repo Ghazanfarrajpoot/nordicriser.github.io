@@ -692,3 +692,8 @@ a.right-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); 
   .founder-photo img, .founder-monogram { width: 160px; height: 160px; }
 }
 
+/* Privacy: collapsible change history */
+.change-history summary { cursor: pointer; list-style: revert; }
+.change-history summary h2 { display: inline; }
+.change-history ul { margin-top: 1rem; display: grid; gap: 0.5rem; }
+
