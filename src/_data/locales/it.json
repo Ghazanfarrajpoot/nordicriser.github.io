@@ -371,7 +371,7 @@
         "title": "Cosa Abbiamo Costruito",
         "items": [
           { "type": "Prodotto SaaS (Interno)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Prodotto di Punta", "oneLiner": "Consegna dei progetti, operazioni sul campo e reportistica per i clienti — tutto su un'unica piattaforma, sviluppata e concessa in licenza da Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "Prodotto SaaS (Interno)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Stanze live per studio e lavoro con presenza in tempo reale e note di sessione condivise, con piani mensili che includono un’allocazione di minuti di sessione, ricaricabili in qualsiasi momento.", "link": "global-reach" },
+          { "type": "Prodotto SaaS (Interno)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Stanze live per studio e lavoro con presenza in tempo reale e note di sessione condivise, con piani mensili che includono un’allocazione di minuti di sessione, prezzi su richiesta.", "link": "global-reach" },
           { "type": "Portale Clienti Sicuro (Interno)", "id": "member-portal", "title": "Portale Membri Nordic Riser", "oneLiner": "Un portale autenticato per lo scambio di documenti, il monitoraggio delle pratiche, la messaggistica sicura e i pagamenti.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
           { "type": "Piattaforma di Marketing Multilingue (Interna)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Un sito di produzione in undici lingue con supporto RTL, copertura meta completa e URL puliti per ogni lingua.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
           { "type": "App Sanitaria (Interna)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Una piattaforma di telemedicina costruita da noi da zero — consulti video in HD, prenotazione degli appuntamenti e chat durante la chiamata — pronta per essere personalizzata per qualsiasi marchio sanitario.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
@@ -392,7 +392,7 @@
         ],
         "cta": "Inizia",
         "priceBulletIndex": 2,
-        "priceBulletNoAmount": "Piani mensili con un’allocazione di minuti di sessione, ricaricabili in qualsiasi momento"
+        "priceBulletNoAmount": "Piani mensili con un’allocazione di minuti di sessione, prezzi su richiesta"
       },
       "howWeWork": {
         "label": "Processo",
@@ -443,7 +443,7 @@
               },
               {
                 "category": "Archiviazione e reportistica",
-                "items": "Archiviazione oggetti compatibile con S3, report PDF renderizzati lato server"
+                "items": "Archiviazione oggetti privata (compatibile con S3), report PDF renderizzati lato server"
               },
               {
                 "category": "Autenticazione & Sicurezza",
@@ -454,7 +454,7 @@
         ],
         "practices": {
           "category": "Pratiche",
-          "items": "Controllo versione Git, distribuzioni graduali, gestione dei dati progettata tenendo conto del GDPR"
+          "items": "Controllo versione Git, distribuzioni graduali, gestione dei dati attenta al GDPR"
         }
       },
       "whyUs": {
@@ -911,7 +911,7 @@
           "challengeLabel": "Sfida",
           "challenge": "Le aziende hanno bisogno di strumenti operativi di livello enterprise — monitoraggio progetti, rapporti sul campo, controllo dei costi, report ai clienti — senza il costo e la complessità di sistemi come SAP.",
           "buildLabel": "Realizzazione",
-          "build": "Una piattaforma di operazioni aziendali basata su abbonamento che copre progetti, bacheche attività, controllo del budget, rapporti sul campo con documentazione fotografica, approfondimenti su rischi e costi assistiti dall'IA e report PDF personalizzati per i clienti.",
+          "build": "Una piattaforma di operazioni aziendali basata su abbonamento che copre progetti, bacheche attività, controllo del budget, rapporti sul campo con documentazione fotografica e report PDF personalizzati per i clienti.",
           "stackLabel": "Tecnologia",
           "stack": ["Next.js", "NestJS", "PostgreSQL"],
           "resultLabel": "Risultato",
@@ -926,7 +926,7 @@
           "challengeLabel": "Sfida",
           "challenge": "I team che lavorano oltre confine hanno bisogno di uno spazio condiviso per studiare o lavorare insieme dal vivo, senza prenotare una chiamata o usare strumenti separati.",
           "buildLabel": "Realizzazione",
-          "build": "Stanze live per studio e lavoro con presenza in tempo reale e note di sessione condivise, con piani mensili che includono un’allocazione di minuti di sessione, ricaricabili in qualsiasi momento.",
+          "build": "Stanze live per studio e lavoro con presenza in tempo reale e note di sessione condivise, con piani mensili che includono un’allocazione di minuti di sessione, prezzi su richiesta.",
           "stackLabel": "Tecnologia",
           "stack": ["React", "Firebase Realtime Database", "Fatturazione in abbonamento"],
           "resultLabel": "Risultato",
@@ -1007,12 +1007,12 @@
     "nrBos": {
       "meta": {
         "title": "NR-BOS — Sistema Operativo Aziendale — Nordic Riser AB",
-        "description": "Dentro NR-BOS: tracciamento di progetti e attività, controllo del budget, report di campo con foto, insight assistiti dall'IA, report PDF brandizzati per i clienti e licenze basate su codice."
+        "description": "Dentro NR-BOS: tracciamento di progetti e attività, controllo del budget, report di campo con foto, report PDF brandizzati per i clienti e licenze basate su codice."
       },
       "hero": {
         "label": "NR-BOS",
         "h1": "Il sistema operativo aziendale per le imprese guidate da progetti",
-        "tagline": "Pianifica. Esegui. Monitora. Rendiconta. Analizza.",
+        "tagline": "Pianifica. Esegui. Monitora. Rendiconta.",
         "body": "Gestisci progetti, operazioni sul campo, costi, team e reportistica clienti da un'unica piattaforma connessa. Costruito e utilizzato prima internamente presso Nordic Riser — le schermate qui sotto provengono da quell'ambiente reale, popolato con dati di progetto di esempio."
       },
       "breadcrumb": "NR-BOS",
@@ -1046,8 +1046,8 @@
             "body": "KPI di portafoglio, carico di lavoro e budget vs effettivo si aggiornano automaticamente man mano che arrivano i dati."
           },
           {
-            "title": "Analizza",
-            "body": "Su richiesta, l'IA legge i dati di progetto aggiornati e restituisce un briefing su rischio, costo e produttività — supporto alla decisione, non un'azione autonoma."
+            "title": "Analizza (in arrivo)",
+            "body": "Previsto: un briefing IA su richiesta su rischio, costo e produttività — supporto alla decisione, non un'azione autonoma. L'assistente IA è in pausa mentre viene rielaborato."
           },
           {
             "title": "Rendiconta",
@@ -1267,10 +1267,10 @@
         "title": "Funziona Insieme a Google Classroom",
         "intro": "Classroom è pensato per i compiti e le lezioni. Global Reach è pensato per i momenti che devono accadere dal vivo.",
         "classroomHeading": "Google Classroom",
-        "classroomBody": "Gestisce compiti, feedback e valutazioni con i tuoi tempi. Una sessione dal vivo richiede comunque di abbinarlo a uno strumento video separato — Classroom di per sé non ha una chat dal vivo né un pannello di note condivise integrato.",
+        "classroomBody": "Gestisce compiti, feedback e valutazioni con i tuoi tempi.",
         "grHeading": "Global Reach",
         "grBody": "Una sala dal vivo con presenza in tempo reale e note condivise, pronta nel momento in cui due persone devono lavorare insieme — nulla da configurare, nessun corso da creare prima.",
-        "note": "Usa Classroom per i compiti e le lezioni. Usa Global Reach per la sessione dal vivo che le accompagna."
+        "note": "Usa Classroom per compiti e lezioni, Global Reach per la sessione dal vivo che li accompagna."
       },
       "useCasesLabel": "A Chi È Rivolto",
       "useCasesTitle": "Pensato per la Collaborazione Transfrontaliera",

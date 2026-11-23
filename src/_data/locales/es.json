@@ -371,7 +371,7 @@
         "title": "Lo Que Hemos Construido",
         "items": [
           { "type": "Producto SaaS (Interno)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Producto Insignia", "oneLiner": "Entrega de proyectos, operaciones de campo e informes al cliente — todo en una sola plataforma, creada y licenciada por Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "Producto SaaS (Interno)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Salas de estudio y trabajo en directo con presencia en tiempo real y notas de sesión compartidas, con planes mensuales que incluyen una asignación de minutos de sesión, recargables en cualquier momento.", "link": "global-reach" },
+          { "type": "Producto SaaS (Interno)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Salas de estudio y trabajo en directo con presencia en tiempo real y notas de sesión compartidas, con planes mensuales que incluyen una asignación de minutos de sesión, precios bajo petición.", "link": "global-reach" },
           { "type": "Portal de Cliente Seguro (Interno)", "id": "member-portal", "title": "Portal de Miembros de Nordic Riser", "oneLiner": "Un portal autenticado para el intercambio de documentos, seguimiento de casos, mensajería segura y pagos.", "link": "work", "linkLabel": "Ver en nuestros trabajos →" },
           { "type": "Plataforma de Marketing Multilingüe (Interna)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Un sitio de producción en once idiomas con soporte RTL, cobertura meta completa y URLs limpias por idioma.", "link": "work", "linkLabel": "Ver en nuestros trabajos →" },
           { "type": "Aplicación de Salud (Interna)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Una plataforma de telemedicina que construimos de principio a fin — consultas por video en HD, reserva de citas y chat durante la llamada — lista para personalizarse para cualquier marca de salud.", "link": "work", "linkLabel": "Ver en nuestros trabajos →" },
@@ -392,7 +392,7 @@
         ],
         "cta": "Comenzar",
         "priceBulletIndex": 2,
-        "priceBulletNoAmount": "Planes mensuales con una asignación de minutos de sesión, recargables en cualquier momento"
+        "priceBulletNoAmount": "Planes mensuales con una asignación de minutos de sesión, precios bajo petición"
       },
       "howWeWork": {
         "label": "Proceso",
@@ -443,7 +443,7 @@
               },
               {
                 "category": "Almacenamiento e informes",
-                "items": "Almacenamiento de objetos compatible con S3, informes PDF renderizados en el servidor"
+                "items": "Almacenamiento de objetos privado (compatible con S3), informes PDF renderizados en el servidor"
               },
               {
                 "category": "Autenticación y Seguridad",
@@ -454,7 +454,7 @@
         ],
         "practices": {
           "category": "Prácticas",
-          "items": "Control de versiones con Git, despliegues escalonados, manejo de datos diseñado teniendo en cuenta el RGPD"
+          "items": "Control de versiones con Git, despliegues escalonados, manejo de datos consciente del RGPD"
         }
       },
       "whyUs": {
@@ -911,7 +911,7 @@
           "challengeLabel": "Desafío",
           "challenge": "Las empresas necesitan herramientas de gestión de nivel empresarial — seguimiento de proyectos, informes de campo, control de costes, informes al cliente — sin el coste y la complejidad de sistemas como SAP.",
           "buildLabel": "Construcción",
-          "build": "Una plataforma de operaciones empresariales basada en suscripción que cubre proyectos, tableros de tareas, control de presupuesto, informes de campo con documentación fotográfica, información de riesgos y costes asistida por IA, e informes en PDF personalizados para clientes.",
+          "build": "Una plataforma de operaciones empresariales basada en suscripción que cubre proyectos, tableros de tareas, control de presupuesto, informes de campo con documentación fotográfica e informes en PDF personalizados para clientes.",
           "stackLabel": "Tecnología",
           "stack": ["Next.js", "NestJS", "PostgreSQL"],
           "resultLabel": "Resultado",
@@ -926,7 +926,7 @@
           "challengeLabel": "Desafío",
           "challenge": "Los equipos que trabajan a través de fronteras necesitan un espacio compartido para estudiar o trabajar juntos en vivo, sin reservar una llamada ni usar herramientas separadas.",
           "buildLabel": "Construcción",
-          "build": "Salas de estudio y trabajo en directo con presencia en tiempo real y notas de sesión compartidas, con planes mensuales que incluyen una asignación de minutos de sesión, recargables en cualquier momento.",
+          "build": "Salas de estudio y trabajo en directo con presencia en tiempo real y notas de sesión compartidas, con planes mensuales que incluyen una asignación de minutos de sesión, precios bajo petición.",
           "stackLabel": "Tecnología",
           "stack": ["React", "Firebase Realtime Database", "Facturación por suscripción"],
           "resultLabel": "Resultado",
@@ -1007,12 +1007,12 @@
     "nrBos": {
       "meta": {
         "title": "NR-BOS — Sistema Operativo de Negocio — Nordic Riser AB",
-        "description": "Dentro de NR-BOS: seguimiento de proyectos y tareas, control presupuestario, informes de campo con fotos, información asistida por IA, informes PDF de marca para clientes y licencias basadas en código."
+        "description": "Dentro de NR-BOS: seguimiento de proyectos y tareas, control presupuestario, informes de campo con fotos, informes PDF de marca para clientes y licencias basadas en código."
       },
       "hero": {
         "label": "NR-BOS",
         "h1": "El sistema operativo de negocio para empresas orientadas a proyectos",
-        "tagline": "Planificar. Ejecutar. Supervisar. Informar. Analizar.",
+        "tagline": "Planificar. Ejecutar. Supervisar. Informar.",
         "body": "Gestione proyectos, operaciones de campo, costes, equipos e informes de cliente desde una sola plataforma conectada. Construido y usado primero internamente en Nordic Riser — las capturas de abajo provienen de ese entorno real, con datos de proyecto de ejemplo."
       },
       "breadcrumb": "NR-BOS",
@@ -1046,8 +1046,8 @@
             "body": "Los indicadores de cartera, la carga de trabajo y el presupuesto frente a lo real se actualizan automáticamente a medida que llegan los datos."
           },
           {
-            "title": "Analizar",
-            "body": "Bajo demanda, la IA lee los datos actualizados del proyecto y devuelve un informe de riesgo, coste y productividad — apoyo a la decisión, no una acción autónoma."
+            "title": "Analizar (próximamente)",
+            "body": "Previsto: un informe de IA bajo demanda sobre riesgo, coste y productividad — apoyo a la decisión, no una acción autónoma. El asistente de IA está en pausa mientras se rediseña."
           },
           {
             "title": "Informar",
@@ -1267,10 +1267,10 @@
         "title": "Funciona Junto a Google Classroom",
         "intro": "Classroom está pensado para el contenido del curso. Global Reach está pensado para los momentos que necesitan ocurrir en vivo.",
         "classroomHeading": "Google Classroom",
-        "classroomBody": "Gestiona tareas, comentarios y calificaciones a su propio ritmo. Una sesión en vivo sigue requiriendo combinarlo con una herramienta de video aparte — Classroom en sí no tiene chat en vivo ni un panel de notas compartidas integrado.",
+        "classroomBody": "Gestiona tareas, comentarios y calificaciones a su propio ritmo.",
         "grHeading": "Global Reach",
         "grBody": "Una sala en vivo con presencia en tiempo real y notas compartidas, lista en el momento en que dos personas necesitan trabajar juntas — sin nada que configurar, sin crear un curso antes.",
-        "note": "Use Classroom para el contenido del curso. Use Global Reach para la sesión en vivo que lo acompaña."
+        "note": "Use Classroom para el contenido del curso, Global Reach para la sesión en vivo que lo acompaña."
       },
       "useCasesLabel": "Para Quién Es",
       "useCasesTitle": "Diseñado para la Colaboración Transfronteriza",
