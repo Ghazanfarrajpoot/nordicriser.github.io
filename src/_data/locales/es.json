@@ -374,8 +374,8 @@
           { "type": "Producto SaaS (Interno)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Salas de estudio y trabajo en directo con presencia en tiempo real y notas de sesión compartidas, con planes mensuales que incluyen una asignación de minutos de sesión, precios bajo petición.", "link": "global-reach" },
           { "type": "Portal de Cliente Seguro (Interno)", "id": "member-portal", "title": "Portal de Miembros de Nordic Riser", "oneLiner": "Un portal autenticado para el intercambio de documentos, seguimiento de casos, mensajería segura y pagos.", "link": "work", "linkLabel": "Ver en nuestros trabajos →" },
           { "type": "Plataforma de Marketing Multilingüe (Interna)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Un sitio de producción en once idiomas con soporte RTL, cobertura meta completa y URLs limpias por idioma.", "link": "work", "linkLabel": "Ver en nuestros trabajos →" },
-          { "type": "Aplicación de Salud (Interna)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Una plataforma de telemedicina que construimos de principio a fin — consultas por video en HD, reserva de citas y chat durante la llamada — lista para personalizarse para cualquier marca de salud.", "link": "work", "linkLabel": "Ver en nuestros trabajos →" },
-          { "type": "Plataforma de Gestión Farmacéutica (Interna)", "id": "4ezone-pharmacy", "title": "%%products.items.5.name%%", "oneLiner": "Un sistema de gestión farmacéutica que construimos, conectando recetas con la gestión y la entrega, listo para personalizarse para cualquier operador.", "link": "work", "linkLabel": "Ver en nuestros trabajos →" },
+          { "type": "Aplicación de Salud (Interna)", "id": "telemedicine-app", "title": "App de telemedicina", "oneLiner": "Una plataforma de telemedicina que construimos de principio a fin — consultas por video en HD, reserva de citas y chat durante la llamada — lista para personalizarse para cualquier marca de salud.", "link": "work", "linkLabel": "Ver en nuestros trabajos →" },
+          { "type": "Plataforma de Gestión Farmacéutica (Interna)", "id": "pharmacy-app", "title": "App de farmacia", "oneLiner": "Un sistema de gestión farmacéutica que construimos, conectando recetas con la gestión y la entrega, listo para personalizarse para cualquier operador.", "link": "work", "linkLabel": "Ver en nuestros trabajos →" },
           { "type": "Aplicación de Reparto (Interna)", "id": "delivery-app", "title": "Aplicación de reparto a demanda", "oneLiner": "Una plataforma de reparto personalizable para pedidos, despacho y seguimiento de repartidores, apta para cualquier negocio.", "link": "work", "linkLabel": "Ver en nuestros trabajos →" }
         ],
         "cta": "Ver Todo el Trabajo",
@@ -504,7 +504,6 @@
           "link": "consulting"
         }
       },
-      "founder": { "label": "El fundador", "role": "Fundador y CEO", "linkedinLabel": "Perfil de LinkedIn" },
       "whyWeExist": {
         "label": "Dónde Empezamos — Nuestra Práctica de Consultoría",
         "title": "Creados para Cubrir una Carencia Real en la Asesoría Internacional",
@@ -820,7 +819,7 @@
             "Acceso por roles para clientes, personal y administradores",
             "Reglas de datos aplicadas en el servidor, para que cada usuario solo vea sus propios registros",
             "Almacenamiento privado de documentos y archivos subidos",
-            "Registro de actividad en el Portal de Miembros"
+            "Registro de actividad y pista de auditoría"
           ],
           "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
         },
@@ -963,8 +962,8 @@
         },
         {
           "type": "Aplicación de Salud (Interna)",
-          "id": "4edoctor",
-          "title": "%%products.items.4.name%%",
+          "id": "telemedicine-app",
+          "title": "App de telemedicina",
           "challengeLabel": "Desafío",
           "challenge": "Los pacientes necesitaban acceso a consultas médicas — con médicos, psicólogos y enfermeros — sin las esperas y la fricción de las visitas presenciales.",
           "buildLabel": "Construcción",
@@ -976,8 +975,8 @@
         },
         {
           "type": "Plataforma de Gestión Farmacéutica (Interna)",
-          "id": "4ezone-pharmacy",
-          "title": "%%products.items.5.name%%",
+          "id": "pharmacy-app",
+          "title": "App de farmacia",
           "challengeLabel": "Desafío",
           "challenge": "Los pacientes con una receta médica no tenían una forma rápida de que su medicamento fuera surtido y entregado.",
           "buildLabel": "Construcción",

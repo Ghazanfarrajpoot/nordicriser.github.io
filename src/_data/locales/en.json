@@ -380,8 +380,8 @@
           { "type": "SaaS Product (In-House)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live study and work rooms with real-time presence and shared session notes, on monthly plans with a session-minute allowance — pricing on request.", "link": "global-reach" },
           { "type": "Secure Client Portal (In-House)", "id": "member-portal", "title": "Nordic Riser Member Portal", "oneLiner": "An authenticated portal for document exchange, case tracking, secure messaging, and payments.", "link": "work", "linkLabel": "See in our work →" },
           { "type": "Multilingual Marketing Platform (In-House)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "An eleven-language production site with RTL support, full meta coverage, and clean per-language URLs.", "link": "work", "linkLabel": "See in our work →" },
-          { "type": "Healthcare App (In-House)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "A telemedicine platform we built end-to-end — HD video consultations, appointment booking, and in-call chat — ready to customize for any healthcare brand.", "link": "work", "linkLabel": "See in our work →" },
-          { "type": "Pharmacy Fulfillment Platform (In-House)", "id": "4ezone-pharmacy", "title": "%%products.items.5.name%%", "oneLiner": "A pharmacy fulfillment system we built linking prescriptions to processing and delivery, ready to customize for any operator.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Healthcare App (In-House)", "id": "telemedicine-app", "title": "%%products.items.4.name%%", "oneLiner": "A telemedicine platform we built end-to-end — HD video consultations, appointment booking, and in-call chat — ready to customize for any healthcare brand.", "link": "work", "linkLabel": "See in our work →" },
+          { "type": "Pharmacy Fulfillment Platform (In-House)", "id": "pharmacy-app", "title": "%%products.items.5.name%%", "oneLiner": "A pharmacy fulfillment system we built linking prescriptions to processing and delivery, ready to customize for any operator.", "link": "work", "linkLabel": "See in our work →" },
           { "type": "Delivery App (In-House)", "id": "delivery-app", "title": "On-Demand Delivery App", "oneLiner": "A customizable delivery platform covering ordering, dispatch, and rider tracking for any business.", "link": "work", "linkLabel": "See in our work →" }
         ],
         "cta": "See All Work",
@@ -488,7 +488,6 @@
           "link": "consulting"
         }
       },
-      "founder": { "label": "The Founder", "role": "Founder & CEO", "linkedinLabel": "LinkedIn profile" },
       "whyWeExist": {
         "label": "Where We Started — Our Consulting Practice",
         "title": "Built to Address a Genuine Gap in International Advisory",
@@ -1252,7 +1251,7 @@
             "Role-based access for clients, staff and administrators",
             "Server-enforced data rules, so each user sees only their own records",
             "Private file storage for documents and uploads",
-            "Activity logging in the Member Portal"
+            "Activity logging and audit trail"
           ],
           "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
         },
@@ -1395,7 +1394,7 @@
         },
         {
           "type": "Healthcare App (In-House)",
-          "id": "4edoctor",
+          "id": "telemedicine-app",
           "title": "%%products.items.4.name%%",
           "challengeLabel": "Challenge",
           "challenge": "Patients needed access to medical consultations — with doctors, psychologists, and nurses — without the wait times and friction of in-person visits.",
@@ -1408,7 +1407,7 @@
         },
         {
           "type": "Pharmacy Fulfillment Platform (In-House)",
-          "id": "4ezone-pharmacy",
+          "id": "pharmacy-app",
           "title": "%%products.items.5.name%%",
           "challengeLabel": "Challenge",
           "challenge": "Patients with a doctor's prescription had no fast way to get their medicine fulfilled and delivered.",

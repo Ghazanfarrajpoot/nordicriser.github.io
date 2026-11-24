@@ -41,14 +41,14 @@
         "image": "/assets/img/work/nordicriser-com.jpg"
       },
       {
-        "id": "4edoctor",
-        "name": "4eDoctor",
-        "image": "/assets/img/work/4edoctor.jpg"
+        "id": "telemedicine-app",
+        "name": "Telemedicine App",
+        "image": "/assets/img/work/telemedicine-app.jpg"
       },
       {
-        "id": "4ezone-pharmacy",
-        "name": "4eZone Pharmacy",
-        "image": "/assets/img/work/4ezone-pharmacy.jpg"
+        "id": "pharmacy-app",
+        "name": "Pharmacy App",
+        "image": "/assets/img/work/pharmacy-app.jpg"
       },
       {
         "id": "delivery-app",
@@ -72,13 +72,5 @@
         "sek": "[SEK_PRO]"
       }
     }
-  },
-  "founder": {
-    "name": "Ghazanfar Bashir Rajpoot",
-    "photo": "[FOUNDER_PHOTO]",
-    "_photoNote": "Set to a site path such as /assets/img/founder.jpg once the file exists in src/; until then the About page shows a monogram.",
-    "bio": "[FOUNDER_BIO]",
-    "_bioNote": "Three lines, English. Add a translated bio per language as pages.about.founder.bio in each locale file; the page uses it when present.",
-    "linkedin": "[LINKEDIN_URL]"
   }
 }

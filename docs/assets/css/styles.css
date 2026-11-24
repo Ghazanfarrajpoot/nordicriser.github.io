@@ -758,6 +758,13 @@ img { display: block; max-width: 100%; }
   transform: translateY(0);
 }
 
+.hero-inner[data-animate],
+.page-hero-inner[data-animate] { opacity: 1; transform: none; transition: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  [data-animate] { opacity: 1; transform: none; transition: none; }
+}
+
 [data-animate-delay="1"] { transition-delay: 0.1s; }
 [data-animate-delay="2"] { transition-delay: 0.2s; }
 [data-animate-delay="3"] { transition-delay: 0.3s; }
@@ -772,8 +779,8 @@ img { display: block; max-width: 100%; }
 [dir="rtl"] .group-sidebar { border-right: none; border-left: 1px solid var(--border); }
 [dir="rtl"] .group-card { border-left: none; border-right: 4px solid transparent; }
 [dir="rtl"] .group-card:hover { border-right-color: var(--navy); transform: translateX(-4px); }
-[dir="rtl"] .service-card[id] { border-left: none; border-right: 4px solid transparent; }
-[dir="rtl"] .service-card[id]:hover { border-right-color: var(--gold); }
+[dir="rtl"] .services-list .service-card[id] { border-left: none; border-right: 4px solid transparent; }
+[dir="rtl"] .services-list .service-card[id]:hover { border-right-color: var(--gold); }
 [dir="rtl"] .info-box { border-left: none; border-right: 3px solid var(--gold); border-radius: 6px 0 0 6px; }
 [dir="rtl"] .toc-list a { border-left: none; border-right: 2px solid transparent; }
 [dir="rtl"] .toc-list a:hover { border-right-color: var(--gold); }
@@ -836,15 +843,37 @@ img { display: block; max-width: 100%; }
 }
 
 /* ── Services page: detailed offering cards (anchors #web-platforms …) ── */
-.service-details { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+/* Six tracks, each card spans two: three per row, and a short last row
+   (five offerings leave two) sits centred instead of hugging one side. */
+.service-details { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 1.5rem; }
+.service-details > .service-detail { grid-column: span 2; }
+.service-details > .service-detail:nth-child(3n+1):nth-last-child(2) { grid-column: 2 / span 2; }
+.service-details > .service-detail:nth-child(3n+1):last-child { grid-column: 3 / span 2; }
 .service-detail { display: flex; flex-direction: column; scroll-margin-top: 96px; }
+.service-detail > p { flex-grow: 0; }
+@media (max-width: 1024px) {
+  .service-details { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .service-details > .service-detail,
+  .service-details > .service-detail:nth-child(3n+1):nth-last-child(2),
+  .service-details > .service-detail:nth-child(3n+1):last-child { grid-column: span 2; }
+  .service-details > .service-detail:nth-child(odd):last-child { grid-column: 2 / span 2; }
+}
+@media (max-width: 768px) {
+  .service-details { grid-template-columns: 1fr; }
+  .service-details > .service-detail,
+  .service-details > .service-detail:nth-child(3n+1):nth-last-child(2),
+  .service-details > .service-detail:nth-child(3n+1):last-child,
+  .service-details > .service-detail:nth-child(odd):last-child { grid-column: auto; }
+}
 .service-detail-label { font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold-hover); margin: 1.1rem 0 0.5rem; }
 .service-detail-list { margin: 0 0 1rem; padding-inline-start: 1.1rem; display: grid; gap: 0.35rem; }
-.service-detail-list li { line-height: 1.5; }
-.service-detail-stack { font-size: 0.9rem; color: var(--text-light, #555); margin: 0 0 1.25rem; }
+.service-detail-list li { line-height: 1.5; list-style: disc; font-size: 0.9rem; color: var(--muted); }
+.service-detail-list li::marker { color: var(--gold-hover); }
+.service-detail-stack { font-size: 0.9rem; color: var(--text-light, #555); margin: 0 0 1.25rem; line-height: 1.6; }
+.service-detail-stack strong { color: var(--navy); margin-inline-end: 0.25rem; }
 .service-detail-cta { margin-top: auto; font-weight: 600; color: var(--navy); text-decoration: none; }
 .service-detail-cta:hover { color: var(--gold-hover); text-decoration: underline; }
 [dir="rtl"] .service-detail-cta { direction: rtl; }
 
-/* Work page: project cards are anchor targets (#nr-bos, #4edoctor, ...) */
+/* Work page: project cards are anchor targets (#nr-bos, #telemedicine-app, ...) */
 .case-study-card[id] { scroll-margin-top: 96px; }

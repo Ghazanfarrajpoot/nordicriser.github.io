@@ -374,8 +374,8 @@
           { "type": "Produit SaaS (interne)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Des salles d’étude et de travail en direct avec présence en temps réel et notes de session partagées, avec des formules mensuelles incluant un quota de minutes de session, tarifs sur demande.", "link": "global-reach" },
           { "type": "Portail client sécurisé (interne)", "id": "member-portal", "title": "Portail Membre Nordic Riser", "oneLiner": "Un portail authentifié pour l'échange de documents, le suivi des dossiers, la messagerie sécurisée et les paiements.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
           { "type": "Plateforme marketing multilingue (interne)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Un site de production en onze langues avec prise en charge RTL, couverture méta complète et URL propres par langue.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
-          { "type": "Application de santé (interne)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Une plateforme de télémédecine que nous avons construite de bout en bout — consultations vidéo HD, prise de rendez-vous et chat pendant l'appel — prête à être personnalisée pour toute marque de santé.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
-          { "type": "Plateforme de préparation pharmaceutique (interne)", "id": "4ezone-pharmacy", "title": "%%products.items.5.name%%", "oneLiner": "Un système de traitement pharmaceutique que nous avons construit, reliant les ordonnances au traitement et à la livraison, prêt à être personnalisé pour tout opérateur.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
+          { "type": "Application de santé (interne)", "id": "telemedicine-app", "title": "Application de télémédecine", "oneLiner": "Une plateforme de télémédecine que nous avons construite de bout en bout — consultations vidéo HD, prise de rendez-vous et chat pendant l'appel — prête à être personnalisée pour toute marque de santé.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
+          { "type": "Plateforme de préparation pharmaceutique (interne)", "id": "pharmacy-app", "title": "Application pharmacie", "oneLiner": "Un système de traitement pharmaceutique que nous avons construit, reliant les ordonnances au traitement et à la livraison, prêt à être personnalisé pour tout opérateur.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
           { "type": "Application de livraison (interne)", "id": "delivery-app", "title": "Application de livraison à la demande", "oneLiner": "Une plateforme de livraison personnalisable pour la commande, la répartition et le suivi des livreurs, pour tout type d'entreprise.", "link": "work", "linkLabel": "Voir dans nos réalisations →" }
         ],
         "cta": "Voir toutes les réalisations",
@@ -504,7 +504,6 @@
           "link": "consulting"
         }
       },
-      "founder": { "label": "Le fondateur", "role": "Fondateur et PDG", "linkedinLabel": "Profil LinkedIn" },
       "whyWeExist": {
         "label": "D'où nous venons — notre activité de conseil",
         "title": "Conçus pour combler une véritable lacune du conseil international",
@@ -820,7 +819,7 @@
             "Accès par rôle pour les clients, le personnel et les administrateurs",
             "Des règles de données appliquées côté serveur, pour que chaque utilisateur ne voie que ses propres données",
             "Stockage privé des documents et fichiers téléversés",
-            "Journalisation de l’activité dans le Portail Membres"
+            "Journalisation de l’activité et piste d’audit"
           ],
           "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
         },
@@ -963,8 +962,8 @@
         },
         {
           "type": "Application de santé (interne)",
-          "id": "4edoctor",
-          "title": "%%products.items.4.name%%",
+          "id": "telemedicine-app",
+          "title": "Application de télémédecine",
           "challengeLabel": "Défi",
           "challenge": "Les patients avaient besoin d'accéder à des consultations médicales — avec des médecins, des psychologues et des infirmiers — sans les délais d'attente et les contraintes des visites en personne.",
           "buildLabel": "Réalisation",
@@ -976,8 +975,8 @@
         },
         {
           "type": "Plateforme de préparation pharmaceutique (interne)",
-          "id": "4ezone-pharmacy",
-          "title": "%%products.items.5.name%%",
+          "id": "pharmacy-app",
+          "title": "Application pharmacie",
           "challengeLabel": "Défi",
           "challenge": "Les patients munis d'une ordonnance n'avaient aucun moyen rapide de faire préparer et livrer leurs médicaments.",
           "buildLabel": "Réalisation",

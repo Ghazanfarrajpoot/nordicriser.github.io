@@ -453,14 +453,16 @@ a.right-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); 
 
 /* ── CONSULTING: SERVICE LIST (from former services.html) ── */
 .services-list { display: flex; flex-direction: column; gap: 2rem; }
-.service-card[id] {
+/* Scoped to .services-list: /services/ cards are also .service-card[id]
+   and must not pick up this two-column row layout. */
+.services-list .service-card[id] {
   border-left: 4px solid transparent;
   padding: 2.5rem;
   display: grid; grid-template-columns: 72px 1fr;
   scroll-margin-top: 100px; gap: 2rem; align-items: start;
 }
-.service-card[id]:hover { background: #f8faff; box-shadow: 0 4px 24px rgba(27, 42, 74, 0.10); border-left-color: var(--gold); border-top-color: transparent; }
-.service-card[id]:hover .service-number { background: var(--navy); color: var(--white); }
+.services-list .service-card[id]:hover { background: #f8faff; box-shadow: 0 4px 24px rgba(27, 42, 74, 0.10); border-left-color: var(--gold); border-top-color: transparent; }
+.services-list .service-card[id]:hover .service-number { background: var(--navy); color: var(--white); }
 .service-number {
   width: 56px; height: 56px; background: rgba(27, 42, 74,0.07); color: rgba(27, 42, 74,0.4);
   border-radius: 10px; display: flex; align-items: center; justify-content: center;
@@ -599,7 +601,7 @@ a.right-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); 
   .content-wrap { padding: 2.5rem 1.25rem 4rem; }
   .data-table { font-size: 0.82rem; }
   .data-table th, .data-table td { padding: 0.7rem 0.85rem; }
-  .service-card[id] { grid-template-columns: 1fr; gap: 1.25rem; }
+  .services-list .service-card[id] { grid-template-columns: 1fr; gap: 1.25rem; }
   .service-number { width: 48px; height: 48px; font-size: 1rem; }
   .group-content { padding: 1.75rem; }
   .main { padding: 3rem 1.25rem; }
@@ -678,19 +680,6 @@ a.right-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); 
 .sidebar-booking p { margin: 0.4rem 0 1rem; }
 .sidebar-booking .btn-primary { display: inline-flex; align-items: center; gap: 0.5rem; }
 .sidebar-booking .btn-primary svg { width: 1.1em; height: 1.1em; }
-
-/* About: founder */
-.founder-card { display: grid; grid-template-columns: 200px 1fr; gap: 2rem; align-items: center; margin-top: 1.25rem; }
-.founder-photo img, .founder-monogram { width: 200px; height: 200px; border-radius: 50%; display: block; object-fit: cover; }
-.founder-monogram { display: flex; align-items: center; justify-content: center; background: var(--navy); color: var(--gold); font-size: 3rem; letter-spacing: 0.08em; font-weight: 600; }
-.founder-name { margin: 0; }
-.founder-role { margin: 0.25rem 0 0.9rem; color: var(--gold-hover); font-weight: 600; }
-.founder-bio { max-width: 60ch; }
-.founder-linkedin { font-weight: 600; color: var(--navy); }
-@media (max-width: 640px) {
-  .founder-card { grid-template-columns: 1fr; justify-items: center; text-align: center; }
-  .founder-photo img, .founder-monogram { width: 160px; height: 160px; }
-}
 
 /* Privacy: collapsible change history */
 .change-history summary { cursor: pointer; list-style: revert; }

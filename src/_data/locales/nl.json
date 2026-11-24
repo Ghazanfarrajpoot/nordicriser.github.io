@@ -374,8 +374,8 @@
           { "type": "SaaS-product (Intern)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities, met maandabonnementen inclusief sessieminuten – prijs op aanvraag.", "link": "global-reach" },
           { "type": "Veilig Klantportaal (Intern)", "id": "member-portal", "title": "Nordic Riser Ledenportaal", "oneLiner": "Een geauthenticeerd portaal voor documentuitwisseling, zaakopvolging, veilige berichten en betalingen.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
           { "type": "Meertalig Marketingplatform (Intern)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Een productiesite in elf talen met RTL-ondersteuning, volledige metadekking en schone URL's per taal.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
-          { "type": "Zorg-app (Intern)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Een telemedicineplatform dat we volledig zelf hebben gebouwd — HD-videoconsulten, afsprakenplanning en chat tijdens het gesprek — klaar om aan te passen voor elk zorgmerk.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
-          { "type": "Apotheekverwerkingsplatform (Intern)", "id": "4ezone-pharmacy", "title": "%%products.items.5.name%%", "oneLiner": "Een apotheekverwerkingssysteem dat we hebben gebouwd en dat recepten koppelt aan verwerking en bezorging, klaar om aan te passen voor elke exploitant.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
+          { "type": "Zorg-app (Intern)", "id": "telemedicine-app", "title": "Telemedicine-app", "oneLiner": "Een telemedicineplatform dat we volledig zelf hebben gebouwd — HD-videoconsulten, afsprakenplanning en chat tijdens het gesprek — klaar om aan te passen voor elk zorgmerk.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
+          { "type": "Apotheekverwerkingsplatform (Intern)", "id": "pharmacy-app", "title": "Apotheek-app", "oneLiner": "Een apotheekverwerkingssysteem dat we hebben gebouwd en dat recepten koppelt aan verwerking en bezorging, klaar om aan te passen voor elke exploitant.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
           { "type": "Bezorgapp (Intern)", "id": "delivery-app", "title": "On-demand bezorgapp", "oneLiner": "Een aanpasbaar bezorgplatform voor bestellen, dispatch en bezorgertracking, geschikt voor elk bedrijf.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" }
         ],
         "cta": "Bekijk Al Ons Werk",
@@ -504,7 +504,6 @@
           "link": "consulting"
         }
       },
-      "founder": { "label": "De oprichter", "role": "Oprichter & CEO", "linkedinLabel": "LinkedIn-profiel" },
       "whyWeExist": {
         "label": "Waar Wij Begonnen — Onze Consultingpraktijk",
         "title": "Ontworpen om een Reële Leemte in Internationaal Advies te Vullen",
@@ -820,7 +819,7 @@
             "Toegang op basis van rollen voor klanten, medewerkers en beheerders",
             "Gegevensregels die op de server worden afgedwongen, zodat elke gebruiker alleen zijn eigen gegevens ziet",
             "Privéopslag voor documenten en uploads",
-            "Activiteitenregistratie in het Ledenportaal"
+            "Activiteitenregistratie en audittrail"
           ],
           "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
         },
@@ -963,8 +962,8 @@
         },
         {
           "type": "Zorg-app (Intern)",
-          "id": "4edoctor",
-          "title": "%%products.items.4.name%%",
+          "id": "telemedicine-app",
+          "title": "Telemedicine-app",
           "challengeLabel": "Uitdaging",
           "challenge": "Patiënten hadden toegang nodig tot medische consulten — met artsen, psychologen en verpleegkundigen — zonder de wachttijden en frictie van fysieke bezoeken.",
           "buildLabel": "Bouw",
@@ -976,8 +975,8 @@
         },
         {
           "type": "Apotheekverwerkingsplatform (Intern)",
-          "id": "4ezone-pharmacy",
-          "title": "%%products.items.5.name%%",
+          "id": "pharmacy-app",
+          "title": "Apotheek-app",
           "challengeLabel": "Uitdaging",
           "challenge": "Patiënten met een doktersrecept hadden geen snelle manier om hun medicatie te laten verwerken en bezorgen.",
           "buildLabel": "Bouw",
