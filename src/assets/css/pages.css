@@ -679,19 +679,6 @@ a.right-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); 
 .sidebar-booking .btn-primary { display: inline-flex; align-items: center; gap: 0.5rem; }
 .sidebar-booking .btn-primary svg { width: 1.1em; height: 1.1em; }
 
-/* About: founder */
-.founder-card { display: grid; grid-template-columns: 200px 1fr; gap: 2rem; align-items: center; margin-top: 1.25rem; }
-.founder-photo img, .founder-monogram { width: 200px; height: 200px; border-radius: 50%; display: block; object-fit: cover; }
-.founder-monogram { display: flex; align-items: center; justify-content: center; background: var(--navy); color: var(--gold); font-size: 3rem; letter-spacing: 0.08em; font-weight: 600; }
-.founder-name { margin: 0; }
-.founder-role { margin: 0.25rem 0 0.9rem; color: var(--gold-hover); font-weight: 600; }
-.founder-bio { max-width: 60ch; }
-.founder-linkedin { font-weight: 600; color: var(--navy); }
-@media (max-width: 640px) {
-  .founder-card { grid-template-columns: 1fr; justify-items: center; text-align: center; }
-  .founder-photo img, .founder-monogram { width: 160px; height: 160px; }
-}
-
 /* Privacy: collapsible change history */
 .change-history summary { cursor: pointer; list-style: revert; }
 .change-history summary h2 { display: inline; }
