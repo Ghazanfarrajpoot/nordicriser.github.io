@@ -481,11 +481,29 @@ a.right-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); 
 .includes-list span { font-size: 0.825rem; font-weight: 500; color: var(--navy); background: var(--sky); border: 1px solid var(--border); border-radius: 20px; padding: 0.3rem 0.85rem; }
 
 /* ── CONSULTING: APPROACH STRIP / ENGAGEMENT MODEL ── */
+/* The 1px gap shows the border colour as dividers, so every cell must be
+   filled: auto-fit wrapped five steps as 4 + 1 and left three grey cells.
+   Five across on wide screens; 3 + 2 (last row stretched) on tablets;
+   one column on phones. */
 .approach-strip {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  display: grid; grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 8px; overflow: hidden;
 }
-.approach-item { background: var(--white); padding: 2rem 1.75rem; transition: background 0.3s ease, box-shadow 0.3s ease; }
+@media (max-width: 1024px) {
+  .approach-strip { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .approach-strip > .approach-item { grid-column: span 2; }
+  .approach-strip > .approach-item:nth-child(3n+1):nth-last-child(2),
+  .approach-strip > .approach-item:nth-child(3n+1):nth-last-child(2) + .approach-item { grid-column: span 3; }
+  .approach-strip > .approach-item:nth-child(3n+1):last-child { grid-column: 1 / -1; }
+}
+@media (max-width: 640px) {
+  .approach-strip { grid-template-columns: 1fr; }
+  .approach-strip > .approach-item,
+  .approach-strip > .approach-item:nth-child(3n+1):nth-last-child(2),
+  .approach-strip > .approach-item:nth-child(3n+1):nth-last-child(2) + .approach-item,
+  .approach-strip > .approach-item:nth-child(3n+1):last-child { grid-column: auto; }
+}
+.approach-item { background: var(--white); padding: 2rem 1.5rem; transition: background 0.3s ease, box-shadow 0.3s ease; }
 .approach-item:hover { background: #f8faff; box-shadow: inset 0 0 0 1px rgba(27, 42, 74,0.08); }
 .approach-item .icon { font-size: 1.5rem; margin-bottom: 0.85rem; display: block; }
 .approach-item h4 { font-size: 0.95rem; font-weight: 700; color: var(--navy); margin-bottom: 0.4rem; }
