@@ -374,8 +374,8 @@
           { "type": "Produto SaaS (Interno)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Salas de estudo e trabalho ao vivo com presença em tempo real e notas de sessão partilhadas, com planos mensais que incluem uma atribuição de minutos de sessão, preços sob consulta.", "link": "global-reach" },
           { "type": "Portal de Cliente Seguro (Interno)", "id": "member-portal", "title": "Portal de Membros Nordic Riser", "oneLiner": "Um portal autenticado para partilha de documentos, acompanhamento de processos, mensagens seguras e pagamentos.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
           { "type": "Plataforma de Marketing Multilingue (Interna)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Um site de produção em onze idiomas com suporte RTL, cobertura completa de metadados e URLs limpos por idioma.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
-          { "type": "Aplicação de Saúde (Interna)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Uma plataforma de telemedicina que construímos do início ao fim — consultas por vídeo em HD, marcação de consultas e chat durante a chamada — pronta a personalizar para qualquer marca de saúde.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
-          { "type": "Plataforma de Processamento Farmacêutico (Interna)", "id": "4ezone-pharmacy", "title": "%%products.items.5.name%%", "oneLiner": "Um sistema de processamento farmacêutico que construímos, ligando receitas ao processamento e à entrega, pronto a personalizar para qualquer operador.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
+          { "type": "Aplicação de Saúde (Interna)", "id": "telemedicine-app", "title": "App de telemedicina", "oneLiner": "Uma plataforma de telemedicina que construímos do início ao fim — consultas por vídeo em HD, marcação de consultas e chat durante a chamada — pronta a personalizar para qualquer marca de saúde.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
+          { "type": "Plataforma de Processamento Farmacêutico (Interna)", "id": "pharmacy-app", "title": "App de farmácia", "oneLiner": "Um sistema de processamento farmacêutico que construímos, ligando receitas ao processamento e à entrega, pronto a personalizar para qualquer operador.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" },
           { "type": "Aplicação de Entrega (Interna)", "id": "delivery-app", "title": "Aplicação de entregas a pedido", "oneLiner": "Uma plataforma de entrega personalizável para pedidos, despacho e rastreamento de estafetas, adequada a qualquer negócio.", "link": "work", "linkLabel": "Ver nos nossos trabalhos →" }
         ],
         "cta": "Ver Todo o Nosso Trabalho",
@@ -962,8 +962,8 @@
         },
         {
           "type": "Aplicação de Saúde (Interna)",
-          "id": "4edoctor",
-          "title": "%%products.items.4.name%%",
+          "id": "telemedicine-app",
+          "title": "App de telemedicina",
           "challengeLabel": "Desafio",
           "challenge": "Os pacientes precisavam de acesso a consultas médicas — com médicos, psicólogos e enfermeiros — sem os tempos de espera e o atrito das consultas presenciais.",
           "buildLabel": "Construção",
@@ -975,8 +975,8 @@
         },
         {
           "type": "Plataforma de Processamento Farmacêutico (Interna)",
-          "id": "4ezone-pharmacy",
-          "title": "%%products.items.5.name%%",
+          "id": "pharmacy-app",
+          "title": "App de farmácia",
           "challengeLabel": "Desafio",
           "challenge": "Os pacientes com uma receita médica não tinham uma forma rápida de fazer com que o seu medicamento fosse preparado e entregue.",
           "buildLabel": "Construção",

@@ -41,14 +41,14 @@
         "image": "/assets/img/work/nordicriser-com.jpg"
       },
       {
-        "id": "4edoctor",
-        "name": "4eDoctor",
-        "image": "/assets/img/work/4edoctor.jpg"
+        "id": "telemedicine-app",
+        "name": "Telemedicine App",
+        "image": "/assets/img/work/telemedicine-app.jpg"
       },
       {
-        "id": "4ezone-pharmacy",
-        "name": "4eZone Pharmacy",
-        "image": "/assets/img/work/4ezone-pharmacy.jpg"
+        "id": "pharmacy-app",
+        "name": "Pharmacy App",
+        "image": "/assets/img/work/pharmacy-app.jpg"
       },
       {
         "id": "delivery-app",

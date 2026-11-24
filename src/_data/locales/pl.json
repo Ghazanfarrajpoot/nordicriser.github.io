@@ -374,8 +374,8 @@
           { "type": "Produkt SaaS (Wewnętrzny)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Pokoje do nauki i pracy na żywo z obecnością w czasie rzeczywistym i wspólnymi notatkami z sesji, w planach miesięcznych z limitem minut sesji – cena na zapytanie.", "link": "global-reach" },
           { "type": "Bezpieczny Portal Klienta (Wewnętrzny)", "id": "member-portal", "title": "Portal Członków Nordic Riser", "oneLiner": "Uwierzytelniony portal do wymiany dokumentów, śledzenia spraw, bezpiecznej komunikacji i płatności.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
           { "type": "Wielojęzyczna Platforma Marketingowa (Wewnętrzna)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Jedenastojęzyczna strona produkcyjna ze wsparciem RTL, pełnym pokryciem meta i czystymi adresami URL dla każdego języka.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
-          { "type": "Aplikacja Zdrowotna (Wewnętrzna)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Platforma telemedyczna, którą zbudowaliśmy od podstaw — konsultacje wideo w HD, rezerwacja wizyt i czat podczas rozmowy — gotowa do dostosowania dla dowolnej marki medycznej.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
-          { "type": "Platforma Realizacji Recept (Wewnętrzna)", "id": "4ezone-pharmacy", "title": "%%products.items.5.name%%", "oneLiner": "System realizacji recept, który zbudowaliśmy, łączący recepty z przetwarzaniem i dostawą, gotowy do dostosowania dla dowolnego operatora.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
+          { "type": "Aplikacja Zdrowotna (Wewnętrzna)", "id": "telemedicine-app", "title": "Aplikacja telemedyczna", "oneLiner": "Platforma telemedyczna, którą zbudowaliśmy od podstaw — konsultacje wideo w HD, rezerwacja wizyt i czat podczas rozmowy — gotowa do dostosowania dla dowolnej marki medycznej.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
+          { "type": "Platforma Realizacji Recept (Wewnętrzna)", "id": "pharmacy-app", "title": "Aplikacja apteczna", "oneLiner": "System realizacji recept, który zbudowaliśmy, łączący recepty z przetwarzaniem i dostawą, gotowy do dostosowania dla dowolnego operatora.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
           { "type": "Aplikacja Dostawcza (Wewnętrzna)", "id": "delivery-app", "title": "Aplikacja do dostaw na żądanie", "oneLiner": "Konfigurowalna platforma dostawcza do zamawiania, dyspozycji i śledzenia kurierów dla dowolnej firmy.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" }
         ],
         "cta": "Zobacz Wszystkie Realizacje",
@@ -962,8 +962,8 @@
         },
         {
           "type": "Aplikacja Zdrowotna (Wewnętrzna)",
-          "id": "4edoctor",
-          "title": "%%products.items.4.name%%",
+          "id": "telemedicine-app",
+          "title": "Aplikacja telemedyczna",
           "challengeLabel": "Wyzwanie",
           "challenge": "Pacjenci potrzebowali dostępu do konsultacji medycznych — z lekarzami, psychologami i pielęgniarkami — bez czasu oczekiwania i utrudnień związanych z wizytami osobistymi.",
           "buildLabel": "Realizacja",
@@ -975,8 +975,8 @@
         },
         {
           "type": "Platforma Realizacji Recept (Wewnętrzna)",
-          "id": "4ezone-pharmacy",
-          "title": "%%products.items.5.name%%",
+          "id": "pharmacy-app",
+          "title": "Aplikacja apteczna",
           "challengeLabel": "Wyzwanie",
           "challenge": "Pacjenci posiadający receptę lekarską nie mieli szybkiego sposobu na zrealizowanie i dostarczenie leków.",
           "buildLabel": "Realizacja",

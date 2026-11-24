@@ -374,8 +374,8 @@
           { "type": "Prodotto SaaS (Interno)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Stanze live per studio e lavoro con presenza in tempo reale e note di sessione condivise, con piani mensili che includono un’allocazione di minuti di sessione, prezzi su richiesta.", "link": "global-reach" },
           { "type": "Portale Clienti Sicuro (Interno)", "id": "member-portal", "title": "Portale Membri Nordic Riser", "oneLiner": "Un portale autenticato per lo scambio di documenti, il monitoraggio delle pratiche, la messaggistica sicura e i pagamenti.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
           { "type": "Piattaforma di Marketing Multilingue (Interna)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Un sito di produzione in undici lingue con supporto RTL, copertura meta completa e URL puliti per ogni lingua.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
-          { "type": "App Sanitaria (Interna)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Una piattaforma di telemedicina costruita da noi da zero — consulti video in HD, prenotazione degli appuntamenti e chat durante la chiamata — pronta per essere personalizzata per qualsiasi marchio sanitario.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
-          { "type": "Piattaforma di Evasione Farmaceutica (Interna)", "id": "4ezone-pharmacy", "title": "%%products.items.5.name%%", "oneLiner": "Un sistema di evasione farmaceutica costruito da noi che collega le prescrizioni all'elaborazione e alla consegna, pronto per essere personalizzato per qualsiasi operatore.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
+          { "type": "App Sanitaria (Interna)", "id": "telemedicine-app", "title": "App di telemedicina", "oneLiner": "Una piattaforma di telemedicina costruita da noi da zero — consulti video in HD, prenotazione degli appuntamenti e chat durante la chiamata — pronta per essere personalizzata per qualsiasi marchio sanitario.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
+          { "type": "Piattaforma di Evasione Farmaceutica (Interna)", "id": "pharmacy-app", "title": "App per farmacia", "oneLiner": "Un sistema di evasione farmaceutica costruito da noi che collega le prescrizioni all'elaborazione e alla consegna, pronto per essere personalizzato per qualsiasi operatore.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" },
           { "type": "App di Consegna (Interna)", "id": "delivery-app", "title": "App di consegna su richiesta", "oneLiner": "Una piattaforma di consegna personalizzabile per ordini, dispacciamento e tracciamento dei fattorini, adatta a qualsiasi attività.", "link": "work", "linkLabel": "Vedi nei nostri lavori →" }
         ],
         "cta": "Vedi Tutti i Lavori",
@@ -962,8 +962,8 @@
         },
         {
           "type": "App Sanitaria (Interna)",
-          "id": "4edoctor",
-          "title": "%%products.items.4.name%%",
+          "id": "telemedicine-app",
+          "title": "App di telemedicina",
           "challengeLabel": "Sfida",
           "challenge": "I pazienti avevano bisogno di accedere a consulti medici — con medici, psicologi e infermieri — senza le attese e la frizione delle visite in presenza.",
           "buildLabel": "Realizzazione",
@@ -975,8 +975,8 @@
         },
         {
           "type": "Piattaforma di Evasione Farmaceutica (Interna)",
-          "id": "4ezone-pharmacy",
-          "title": "%%products.items.5.name%%",
+          "id": "pharmacy-app",
+          "title": "App per farmacia",
           "challengeLabel": "Sfida",
           "challenge": "I pazienti con una prescrizione medica non avevano un modo rapido per farsi preparare e consegnare i farmaci.",
           "buildLabel": "Realizzazione",

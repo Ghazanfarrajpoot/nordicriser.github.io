@@ -846,5 +846,5 @@ img { display: block; max-width: 100%; }
 .service-detail-cta:hover { color: var(--gold-hover); text-decoration: underline; }
 [dir="rtl"] .service-detail-cta { direction: rtl; }
 
-/* Work page: project cards are anchor targets (#nr-bos, #4edoctor, ...) */
+/* Work page: project cards are anchor targets (#nr-bos, #telemedicine-app, ...) */
 .case-study-card[id] { scroll-margin-top: 96px; }

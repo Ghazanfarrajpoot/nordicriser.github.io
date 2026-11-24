@@ -378,8 +378,8 @@
           { "type": "SaaS-produkt (internt byggd)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live-rum för studier och arbete med närvaro i realtid och delade sessionsanteckningar, med månadsabonnemang som inkluderar sessionsminuter – pris på förfrågan.", "link": "global-reach" },
           { "type": "Säker kundportal (internt byggd)", "id": "member-portal", "title": "Nordic Riser Medlemsportal", "oneLiner": "En autentiserad portal för dokumentutbyte, ärendespårning, säker meddelandehantering och betalningar.", "link": "work", "linkLabel": "Se i vårt arbete →" },
           { "type": "Flerspråkig marknadsföringsplattform (internt byggd)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "En elvaspråkig produktionswebbplats med RTL-stöd, fullständig metatäckning och rena URL:er per språk.", "link": "work", "linkLabel": "Se i vårt arbete →" },
-          { "type": "Vårdapp (internt byggd)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "En telemedicinplattform vi byggt från grunden — HD-videokonsultationer, tidsbokning och chatt under samtal — redo att anpassas för valfritt vårdvarumärke.", "link": "work", "linkLabel": "Se i vårt arbete →" },
-          { "type": "Plattform för apoteksexpediering (internt byggd)", "id": "4ezone-pharmacy", "title": "%%products.items.5.name%%", "oneLiner": "Ett apoteksexpedieringssystem vi byggt som kopplar recept till hantering och leverans, redo att anpassas för valfri aktör.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Vårdapp (internt byggd)", "id": "telemedicine-app", "title": "Telemedicinapp", "oneLiner": "En telemedicinplattform vi byggt från grunden — HD-videokonsultationer, tidsbokning och chatt under samtal — redo att anpassas för valfritt vårdvarumärke.", "link": "work", "linkLabel": "Se i vårt arbete →" },
+          { "type": "Plattform för apoteksexpediering (internt byggd)", "id": "pharmacy-app", "title": "Apoteksapp", "oneLiner": "Ett apoteksexpedieringssystem vi byggt som kopplar recept till hantering och leverans, redo att anpassas för valfri aktör.", "link": "work", "linkLabel": "Se i vårt arbete →" },
           { "type": "Leveransapp (internt byggd)", "id": "delivery-app", "title": "Leveransapp på begäran", "oneLiner": "En anpassningsbar leveransplattform för beställning, dirigering och budspårning för alla typer av företag.", "link": "work", "linkLabel": "Se i vårt arbete →" }
         ],
         "cta": "Se allt arbete",
@@ -1732,8 +1732,8 @@
         },
         {
           "type": "Vårdapp (internt byggd)",
-          "id": "4edoctor",
-          "title": "%%products.items.4.name%%",
+          "id": "telemedicine-app",
+          "title": "Telemedicinapp",
           "challengeLabel": "Utmaning",
           "challenge": "Patienter behövde tillgång till läkarkonsultationer — med läkare, psykologer och sjuksköterskor — utan väntetider och friktion från fysiska besök.",
           "buildLabel": "Bygge",
@@ -1745,8 +1745,8 @@
         },
         {
           "type": "Plattform för apoteksexpediering (internt byggd)",
-          "id": "4ezone-pharmacy",
-          "title": "%%products.items.5.name%%",
+          "id": "pharmacy-app",
+          "title": "Apoteksapp",
           "challengeLabel": "Utmaning",
           "challenge": "Patienter med recept från läkare hade inget snabbt sätt att få sin medicin expedierad och levererad.",
           "buildLabel": "Bygge",
