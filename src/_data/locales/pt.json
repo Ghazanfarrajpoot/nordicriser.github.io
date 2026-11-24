@@ -819,7 +819,7 @@
             "Acesso baseado em funções para clientes, equipa e administradores",
             "Regras de dados aplicadas no servidor, para que cada utilizador veja apenas os seus próprios registos",
             "Armazenamento privado de documentos e ficheiros carregados",
-            "Registo de atividade no Portal de Membros"
+            "Registo de atividade e trilho de auditoria"
           ],
           "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
         },

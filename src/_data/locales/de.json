@@ -819,7 +819,7 @@
             "Rollenbasierter Zugriff für Kunden, Mitarbeitende und Administratoren",
             "Serverseitig durchgesetzte Datenregeln, sodass jeder Nutzer nur seine eigenen Daten sieht",
             "Privater Dateispeicher für Dokumente und Uploads",
-            "Aktivitätsprotokollierung im Mitgliederportal"
+            "Aktivitätsprotokollierung und Audit-Trail"
           ],
           "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
         },

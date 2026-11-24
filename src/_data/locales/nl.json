@@ -819,7 +819,7 @@
             "Toegang op basis van rollen voor klanten, medewerkers en beheerders",
             "Gegevensregels die op de server worden afgedwongen, zodat elke gebruiker alleen zijn eigen gegevens ziet",
             "Privéopslag voor documenten en uploads",
-            "Activiteitenregistratie in het Ledenportaal"
+            "Activiteitenregistratie en audittrail"
           ],
           "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
         },

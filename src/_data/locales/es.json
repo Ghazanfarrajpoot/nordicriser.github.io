@@ -819,7 +819,7 @@
             "Acceso por roles para clientes, personal y administradores",
             "Reglas de datos aplicadas en el servidor, para que cada usuario solo vea sus propios registros",
             "Almacenamiento privado de documentos y archivos subidos",
-            "Registro de actividad en el Portal de Miembros"
+            "Registro de actividad y pista de auditoría"
           ],
           "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
         },

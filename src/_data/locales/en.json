@@ -1251,7 +1251,7 @@
             "Role-based access for clients, staff and administrators",
             "Server-enforced data rules, so each user sees only their own records",
             "Private file storage for documents and uploads",
-            "Activity logging in the Member Portal"
+            "Activity logging and audit trail"
           ],
           "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
         },

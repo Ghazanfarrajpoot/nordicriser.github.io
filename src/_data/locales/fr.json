@@ -819,7 +819,7 @@
             "Accès par rôle pour les clients, le personnel et les administrateurs",
             "Des règles de données appliquées côté serveur, pour que chaque utilisateur ne voie que ses propres données",
             "Stockage privé des documents et fichiers téléversés",
-            "Journalisation de l’activité dans le Portail Membres"
+            "Journalisation de l’activité et piste d’audit"
           ],
           "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
         },

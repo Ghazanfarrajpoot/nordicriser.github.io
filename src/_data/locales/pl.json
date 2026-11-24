@@ -819,7 +819,7 @@
             "Dostęp oparty na rolach dla klientów, pracowników i administratorów",
             "Reguły dostępu do danych egzekwowane po stronie serwera, aby każdy użytkownik widział tylko własne dane",
             "Prywatne przechowywanie dokumentów i przesłanych plików",
-            "Rejestrowanie aktywności w Portalu Członkowskim"
+            "Rejestrowanie aktywności i ścieżka audytu"
           ],
           "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
         },

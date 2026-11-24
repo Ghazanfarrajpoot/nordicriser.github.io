@@ -1589,7 +1589,7 @@
             "Rollbaserad åtkomst för kunder, personal och administratörer",
             "Dataregler som upprätthålls på servern, så att varje användare bara ser sina egna uppgifter",
             "Privat fillagring för dokument och uppladdningar",
-            "Aktivitetsloggning i medlemsportalen"
+            "Aktivitetsloggning och revisionsspår"
           ],
           "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
         },

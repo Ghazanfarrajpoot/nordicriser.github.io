@@ -819,7 +819,7 @@
             "Accesso basato sui ruoli per clienti, personale e amministratori",
             "Regole sui dati applicate lato server, così ogni utente vede solo i propri dati",
             "Archiviazione privata di documenti e file caricati",
-            "Registrazione delle attività nel Portale Membri"
+            "Registrazione delle attività e audit trail"
           ],
           "stack": "React, Firebase Authentication, Firestore, Cloud Storage, Cloud Functions"
         },
