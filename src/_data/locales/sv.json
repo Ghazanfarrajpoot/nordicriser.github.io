@@ -375,7 +375,7 @@
         "title": "Vad vi har byggt",
         "items": [
           { "type": "SaaS-produkt (internt byggd)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Flaggskeppsprodukt", "oneLiner": "Projektleverans, fältarbete och kundrapportering — allt på en plattform, byggd och licensierad av Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS-produkt (internt byggd)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live-rum för studier och arbete med närvaro i realtid och delade sessionsanteckningar, med månadsabonnemang som inkluderar sessionsminuter – fyll på när du vill.", "link": "global-reach" },
+          { "type": "SaaS-produkt (internt byggd)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live-rum för studier och arbete med närvaro i realtid och delade sessionsanteckningar, med månadsabonnemang som inkluderar sessionsminuter – pris på förfrågan.", "link": "global-reach" },
           { "type": "Säker kundportal (internt byggd)", "id": "member-portal", "title": "Nordic Riser Medlemsportal", "oneLiner": "En autentiserad portal för dokumentutbyte, ärendespårning, säker meddelandehantering och betalningar.", "link": "work", "linkLabel": "Se i vårt arbete →" },
           { "type": "Flerspråkig marknadsföringsplattform (internt byggd)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "En elvaspråkig produktionswebbplats med RTL-stöd, fullständig metatäckning och rena URL:er per språk.", "link": "work", "linkLabel": "Se i vårt arbete →" },
           { "type": "Vårdapp (internt byggd)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "En telemedicinplattform vi byggt från grunden — HD-videokonsultationer, tidsbokning och chatt under samtal — redo att anpassas för valfritt vårdvarumärke.", "link": "work", "linkLabel": "Se i vårt arbete →" },
@@ -396,7 +396,7 @@
         ],
         "cta": "Kom igång",
         "priceBulletIndex": 2,
-        "priceBulletNoAmount": "Månadsabonnemang med sessionsminuter som ingår – fyll på när du vill"
+        "priceBulletNoAmount": "Månadsabonnemang med sessionsminuter som ingår – pris på förfrågan"
       },
       "howWeWork": {
         "label": "Process",
@@ -447,7 +447,7 @@
               },
               {
                 "category": "Lagring & rapportering",
-                "items": "S3-kompatibel objektlagring, serverrenderade PDF-rapporter"
+                "items": "Privat objektlagring (S3-kompatibel), serverrenderade PDF-rapporter"
               },
               {
                 "category": "Autentisering & säkerhet",
@@ -458,7 +458,7 @@
         ],
         "practices": {
           "category": "Arbetssätt",
-          "items": "Git-versionshantering, stegvisa driftsättningar, datahantering byggd med GDPR i åtanke"
+          "items": "Git-versionshantering, stegvisa driftsättningar, GDPR-medveten datahantering"
         }
       },
       "whyUs": {
@@ -645,7 +645,7 @@
         "body": "Hur Nordic Riser AB samlar in, använder och skyddar dina personuppgifter i enlighet med EU:s dataskyddsförordning (GDPR)."
       },
       "breadcrumb": "Integritetspolicy",
-      "updatedBadge": "Senast uppdaterad: 11 november 2026",
+      "updatedBadge": "Senast uppdaterad: 23 november 2026",
       "whatChanged": "Vad som ändrats i denna uppdatering: policyn omfattade tidigare enbart vår konsultverksamhet. Den täcker nu även Medlemsportalen, NR-BOS och Global Reach. Vi har lagt till ett avsnitt om personuppgiftsansvarig kontra personuppgiftsbiträde, en fullständig namngiven förteckning över underbiträden, en uttrycklig redogörelse för vilken AI-leverantör som används i NR-BOS, samt delat upp avsnittet om cookies mellan marknadsföringswebbplatsen och våra inloggningsbaserade produkter. Användarvillkor och ett personuppgiftsbiträdesavtal publiceras tillsammans med denna policy för första gången — se juridiksidan. Vi har lagt till avsnitt 6.5: den säkra portalmeddelandefunktionens översättningsknapp skickar meddelandetext till Google Clouds Translation API, vilket inte tidigare var redovisat — se sidan om underbiträden för motsvarande post. Vi har också korrigerat avsnitt 6.4: NR-BOS pseudonymiserar numera teammedlemmars namn innan projektdata skickas till vår AI-leverantör, så AI:n ser en generisk etikett i stället för ett riktigt namn — avsnittet beskrev tidigare felaktigt att ingen sådan maskering görs.",
       "translationNotice": "Denna sida är professionellt översatt till svenska och granskad av oss. Vid eventuella avvikelser gäller den engelska versionen. Kontakta oss om du har frågor.",
       "tocLabel": "Innehåll",
@@ -817,7 +817,7 @@
             },
             {
               "title": "6.4 AI-behandling i NR-BOS",
-              "intro": "NR-BOS innehåller en valfri AI-assistent som genererar insikter om risk, kostnad och produktivitet utifrån ett projekts data. Vi beskriver detta rakt på sak, inklusive de delar som ännu inte är så skyddande som vi skulle önska, snarare än att beskriva ett skydd som faktiskt inte finns på plats:",
+              "intro": "AI-assistenten är för närvarande pausad, och ingen projektdata skickas till DeepSeek medan den är pausad. NR-BOS innehåller en valfri AI-assistent som genererar insikter om risk, kostnad och produktivitet utifrån ett projekts data. Vi beskriver detta rakt på sak, inklusive de delar som ännu inte är så skyddande som vi skulle önska, snarare än att beskriva ett skydd som faktiskt inte finns på plats:",
               "list": [
                 "När denna funktion används skickas relevant projektdata — inklusive projekt- och företagsnamn, budgetsiffror, uppgiftsdetaljer och kostnadsposter — till vår AI-leverantör, DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.), för att generera analysen. Teammedlemmar identifieras med en generisk etikett per projekt (t.ex. ”Medlem A”), inte med namn.",
                 "Vi pseudonymiserar teammedlemmars namn innan denna data överförs — AI:n tar aldrig emot ett riktigt namn, bara den generiska etiketten. Projekt- och företagsnamn samt kostnads-/budgetsiffror pseudonymiseras inte, eftersom analysen faktiskt är beroende av dem. Om detta har betydelse för hur du använder NR-BOS, kontakta oss eller din NR-BOS-administratör — en kund som driver NR-BOS som personuppgiftsansvarig kan begränsa användningen av AI-assistenten i sin egen installation.",
@@ -1007,7 +1007,7 @@
         "body": "Varje tredje part vi använder för att behandla personuppgifter för din räkning — vad de gör, vilka uppgifter de hanterar, var de finns och hur överföringen skyddas."
       },
       "breadcrumb": "Underbiträden",
-      "updatedBadge": "Senast uppdaterad: 11 november 2026",
+      "updatedBadge": "Senast uppdaterad: 23 november 2026",
       "translationNotice": "Denna sida är professionellt översatt till svenska och granskad av oss. Vid eventuella avvikelser gäller den engelska versionen. Kontakta oss om du har frågor.",
       "intro": [
         "Denna förteckning finns för att uppfylla artikel 13.1 f i GDPR direkt — inte bara för att säga att skyddsåtgärder finns, utan för att namnge vem de gäller. Vi håller den aktuell och uppdaterar datumet nedan varje gång den ändras.",
@@ -1033,7 +1033,7 @@
           ],
           [
             "DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.)",
-            "AI-genererad analys av risk, kostnad och produktivitet i NR-BOS (valfri funktion)",
+            "AI-genererad analys av risk, kostnad och produktivitet i NR-BOS (valfri funktion) — för närvarande pausad; ingen projektdata skickas till DeepSeek under pausen",
             "Projekt- och företagsnamn, budgetsiffror, uppgiftsdetaljer, kostnadsposter samt generiska etiketter per projekt för teammedlemmar (riktiga namn pseudonymiseras före överföring)",
             "Kina",
             "Standardavtalsklausuler (modulen för överföring mellan personuppgiftsansvarig och personuppgiftsbiträde). Kina saknar beslut om adekvat skyddsnivå från EU-kommissionen — se integritetspolicyns avsnitt 6.4 för den fullständiga redogörelsen",
@@ -1681,7 +1681,7 @@
           "challengeLabel": "Utmaning",
           "challenge": "Företag behöver verksamhetsverktyg i företagsklass — projektuppföljning, fältrapporter, kostnadskontroll, kundrapporter — utan kostnaden och komplexiteten hos system som SAP.",
           "buildLabel": "Bygge",
-          "build": "En prenumerationsbaserad plattform för affärsverksamhet med projekt, uppgiftstavlor, budgetuppföljning, fältrapporter med fotodokumentation, AI-assisterade risk- och kostnadsinsikter samt varumärkesanpassade PDF-kundrapporter.",
+          "build": "En prenumerationsbaserad plattform för affärsverksamhet med projekt, uppgiftstavlor, budgetuppföljning, fältrapporter med fotodokumentation samt varumärkesanpassade PDF-kundrapporter.",
           "stackLabel": "Teknikstack",
           "stack": ["Next.js", "NestJS", "PostgreSQL"],
           "resultLabel": "Resultat",
@@ -1696,7 +1696,7 @@
           "challengeLabel": "Utmaning",
           "challenge": "Team som arbetar över gränser behöver ett delat utrymme för att studera eller arbeta tillsammans live, utan att boka ett samtal eller växla mellan separata verktyg.",
           "buildLabel": "Bygge",
-          "build": "Live-rum för studier och arbete med närvaro i realtid och delade sessionsanteckningar, med månadsabonnemang som inkluderar sessionsminuter – fyll på när du vill.",
+          "build": "Live-rum för studier och arbete med närvaro i realtid och delade sessionsanteckningar, med månadsabonnemang som inkluderar sessionsminuter – pris på förfrågan.",
           "stackLabel": "Teknikstack",
           "stack": ["React", "Firebase Realtime Database", "Prenumerationsfakturering"],
           "resultLabel": "Resultat",
@@ -1755,7 +1755,7 @@
           "stackLabel": "Teknikstack",
           "stack": ["React", "Node.js", "MongoDB"],
           "resultLabel": "Resultat",
-          "result": "Live system som kopplar recept till apoteksexpediering och leverans."
+          "result": "Ett fungerande system som kopplar recept till apoteksexpediering och leverans, byggt av oss och redo att anpassas för valfri aktör."
         },
         {
           "type": "Leveransapp (internt byggd)",
@@ -1777,12 +1777,12 @@
     "nrBos": {
       "meta": {
         "title": "NR-BOS — Affärssystemet — Nordic Riser AB",
-        "description": "Inuti NR-BOS: projekt- och uppgiftsspårning, budgetkontroll, fältrapporter med foton, AI-assisterade insikter, varumärkesanpassade PDF-rapporter till kund, och kodbaserad licensiering."
+        "description": "Inuti NR-BOS: projekt- och uppgiftsspårning, budgetkontroll, fältrapporter med foton, varumärkesanpassade PDF-rapporter till kund, och kodbaserad licensiering."
       },
       "hero": {
         "label": "NR-BOS",
         "h1": "Affärssystemet för projektdrivna företag",
-        "tagline": "Planera. Genomför. Följ upp. Rapportera. Analysera.",
+        "tagline": "Planera. Genomför. Följ upp. Rapportera.",
         "body": "Driv projekt, fältarbete, kostnader, team och kundrapportering från en sammankopplad plattform. Byggt och använt internt hos Nordic Riser först — skärmbilderna nedan är från den skarpa driften, fyllda med exempeldata."
       },
       "breadcrumb": "NR-BOS",
@@ -1816,8 +1816,8 @@
             "body": "Portföljens nyckeltal, beläggning och budget mot utfall uppdateras automatiskt allteftersom data kommer in."
           },
           {
-            "title": "Analysera",
-            "body": "På begäran läser AI den uppdaterade projektdatan och returnerar en risk-, kostnads- och produktivitetsrapport — beslutsstöd, inte en autonom åtgärd."
+            "title": "Analysera (kommer snart)",
+            "body": "Planerat: en AI-rapport på begäran om risk, kostnad och produktivitet — beslutsstöd, inte en autonom åtgärd. AI-assistenten är pausad medan den omarbetas."
           },
           {
             "title": "Rapportera",
@@ -2037,10 +2037,10 @@
         "title": "Fungerar tillsammans med Google Classroom",
         "intro": "Classroom är byggt för kursinnehåll. Global Reach är byggt för stunderna som måste ske live.",
         "classroomHeading": "Google Classroom",
-        "classroomBody": "Hanterar uppgifter, feedback och betygssättning i din egen takt. En live-session kräver fortfarande att man kopplar ihop det med ett separat videoverktyg — Classroom i sig har ingen inbyggd livechatt eller delad anteckningspanel.",
+        "classroomBody": "Hanterar uppgifter, feedback och betygssättning i din egen takt.",
         "grHeading": "Global Reach",
         "grBody": "Ett direktsänt rum med närvaro i realtid och delade anteckningar, redo i stunden när två personer behöver arbeta tillsammans — inget att konfigurera, ingen kurs att skapa först.",
-        "note": "Använd Classroom för kursinnehållet. Använd Global Reach för den live-session som hör till."
+        "note": "Använd Classroom för kursinnehållet, Global Reach för den live-session som hör till."
       },
       "useCasesLabel": "Vem det är till för",
       "useCasesTitle": "Byggt för gränsöverskridande samarbete",

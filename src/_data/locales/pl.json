@@ -371,7 +371,7 @@
         "title": "Co Zbudowaliśmy",
         "items": [
           { "type": "Produkt SaaS (Wewnętrzny)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Produkt Flagowy", "oneLiner": "Realizacja projektów, praca w terenie i raportowanie dla klientów — wszystko na jednej platformie, zbudowanej i licencjonowanej przez Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "Produkt SaaS (Wewnętrzny)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Pokoje do nauki i pracy na żywo z obecnością w czasie rzeczywistym i wspólnymi notatkami z sesji, w planach miesięcznych z limitem minut sesji – z możliwością doładowania w dowolnym momencie.", "link": "global-reach" },
+          { "type": "Produkt SaaS (Wewnętrzny)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Pokoje do nauki i pracy na żywo z obecnością w czasie rzeczywistym i wspólnymi notatkami z sesji, w planach miesięcznych z limitem minut sesji – cena na zapytanie.", "link": "global-reach" },
           { "type": "Bezpieczny Portal Klienta (Wewnętrzny)", "id": "member-portal", "title": "Portal Członków Nordic Riser", "oneLiner": "Uwierzytelniony portal do wymiany dokumentów, śledzenia spraw, bezpiecznej komunikacji i płatności.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
           { "type": "Wielojęzyczna Platforma Marketingowa (Wewnętrzna)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Jedenastojęzyczna strona produkcyjna ze wsparciem RTL, pełnym pokryciem meta i czystymi adresami URL dla każdego języka.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
           { "type": "Aplikacja Zdrowotna (Wewnętrzna)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Platforma telemedyczna, którą zbudowaliśmy od podstaw — konsultacje wideo w HD, rezerwacja wizyt i czat podczas rozmowy — gotowa do dostosowania dla dowolnej marki medycznej.", "link": "work", "linkLabel": "Zobacz w naszych realizacjach →" },
@@ -392,7 +392,7 @@
         ],
         "cta": "Rozpocznij",
         "priceBulletIndex": 2,
-        "priceBulletNoAmount": "Plany miesięczne z limitem minut sesji – z możliwością doładowania w dowolnym momencie"
+        "priceBulletNoAmount": "Plany miesięczne z limitem minut sesji – cena na zapytanie"
       },
       "howWeWork": {
         "label": "Proces",
@@ -443,7 +443,7 @@
               },
               {
                 "category": "Przechowywanie i raportowanie",
-                "items": "Przechowywanie obiektów kompatybilne z S3, raporty PDF renderowane po stronie serwera"
+                "items": "Prywatne przechowywanie obiektów (kompatybilne z S3), raporty PDF renderowane po stronie serwera"
               },
               {
                 "category": "Uwierzytelnianie i Bezpieczeństwo",
@@ -454,7 +454,7 @@
         ],
         "practices": {
           "category": "Praktyki",
-          "items": "Kontrola wersji Git, etapowe wdrożenia, przetwarzanie danych projektowane z myślą o RODO"
+          "items": "Kontrola wersji Git, etapowe wdrożenia, przetwarzanie danych z uwzględnieniem RODO"
         }
       },
       "whyUs": {
@@ -911,7 +911,7 @@
           "challengeLabel": "Wyzwanie",
           "challenge": "Firmy potrzebują narzędzi operacyjnych klasy korporacyjnej — śledzenia projektów, raportów terenowych, kontroli kosztów, raportów dla klientów — bez kosztów i złożoności systemów takich jak SAP.",
           "buildLabel": "Realizacja",
-          "build": "Platforma operacji biznesowych oparta na subskrypcji, obejmująca projekty, tablice zadań, kontrolę budżetu, raporty terenowe z dokumentacją fotograficzną, wnioski dotyczące ryzyka i kosztów wspomagane przez AI oraz markowe raporty PDF dla klientów.",
+          "build": "Platforma operacji biznesowych oparta na subskrypcji, obejmująca projekty, tablice zadań, kontrolę budżetu, raporty terenowe z dokumentacją fotograficzną oraz markowe raporty PDF dla klientów.",
           "stackLabel": "Technologia",
           "stack": ["Next.js", "NestJS", "PostgreSQL"],
           "resultLabel": "Rezultat",
@@ -926,7 +926,7 @@
           "challengeLabel": "Wyzwanie",
           "challenge": "Zespoły pracujące ponad granicami potrzebują wspólnej przestrzeni, aby uczyć się lub pracować razem na żywo, bez rezerwowania rozmowy czy przełączania się między osobnymi narzędziami.",
           "buildLabel": "Realizacja",
-          "build": "Pokoje do nauki i pracy na żywo z obecnością w czasie rzeczywistym i wspólnymi notatkami z sesji, w planach miesięcznych z limitem minut sesji – z możliwością doładowania w dowolnym momencie.",
+          "build": "Pokoje do nauki i pracy na żywo z obecnością w czasie rzeczywistym i wspólnymi notatkami z sesji, w planach miesięcznych z limitem minut sesji – cena na zapytanie.",
           "stackLabel": "Technologia",
           "stack": ["React", "Firebase Realtime Database", "Rozliczenia subskrypcyjne"],
           "resultLabel": "Rezultat",
@@ -1007,12 +1007,12 @@
     "nrBos": {
       "meta": {
         "title": "NR-BOS — System Operacyjny Biznesu — Nordic Riser AB",
-        "description": "Wewnątrz NR-BOS: śledzenie projektów i zadań, kontrola budżetu, raporty terenowe ze zdjęciami, wnioski wspierane przez AI, markowe raporty PDF dla klientów oraz licencjonowanie oparte na kodach."
+        "description": "Wewnątrz NR-BOS: śledzenie projektów i zadań, kontrola budżetu, raporty terenowe ze zdjęciami, markowe raporty PDF dla klientów oraz licencjonowanie oparte na kodach."
       },
       "hero": {
         "label": "NR-BOS",
         "h1": "System operacyjny biznesu dla firm nastawionych na projekty",
-        "tagline": "Planuj. Realizuj. Monitoruj. Raportuj. Analizuj.",
+        "tagline": "Planuj. Realizuj. Monitoruj. Raportuj.",
         "body": "Prowadź projekty, operacje terenowe, koszty, zespoły i raportowanie dla klientów z jednej połączonej platformy. Zbudowany i najpierw używany wewnętrznie w Nordic Riser — poniższe zrzuty ekranu pochodzą z tego działającego środowiska, wypełnionego przykładowymi danymi projektu."
       },
       "breadcrumb": "NR-BOS",
@@ -1046,8 +1046,8 @@
             "body": "Wskaźniki portfela, obciążenie i budżet vs rzeczywistość aktualizują się automatycznie w miarę napływu danych."
           },
           {
-            "title": "Analizuj",
-            "body": "Na żądanie AI odczytuje zaktualizowane dane projektu i zwraca briefing dotyczący ryzyka, kosztów i produktywności — wsparcie decyzji, a nie autonomiczne działanie."
+            "title": "Analizuj (wkrótce)",
+            "body": "Planowane: briefing AI na żądanie dotyczący ryzyka, kosztów i produktywności — wsparcie decyzji, a nie autonomiczne działanie. Asystent AI jest wstrzymany na czas przebudowy."
           },
           {
             "title": "Raportuj",
@@ -1267,10 +1267,10 @@
         "title": "Działa Razem z Google Classroom",
         "intro": "Classroom jest stworzony do materiału kursowego. Global Reach jest stworzony do chwil, które muszą dziać się na żywo.",
         "classroomHeading": "Google Classroom",
-        "classroomBody": "Zarządza zadaniami, opiniami i ocenami we własnym tempie. Sesja na żywo wciąż wymaga połączenia go z osobnym narzędziem wideo — sam Classroom nie ma wbudowanego czatu na żywo ani wspólnego panelu notatek.",
+        "classroomBody": "Zarządza zadaniami, opiniami i ocenami we własnym tempie.",
         "grHeading": "Global Reach",
         "grBody": "Pokój na żywo z obecnością w czasie rzeczywistym i wspólnymi notatkami, gotowy w chwili, gdy dwie osoby muszą zacząć razem pracować — nic do skonfigurowania, żadnego kursu do wcześniejszego utworzenia.",
-        "note": "Używaj Classroom do materiału kursowego. Używaj Global Reach do towarzyszącej mu sesji na żywo."
+        "note": "Używaj Classroom do materiału kursowego, a Global Reach do towarzyszącej mu sesji na żywo."
       },
       "useCasesLabel": "Dla kogo",
       "useCasesTitle": "Stworzone do współpracy ponad granicami",

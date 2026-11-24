@@ -371,7 +371,7 @@
         "title": "Wat Wij Hebben Gebouwd",
         "items": [
           { "type": "SaaS-product (Intern)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Vlaggenschipproduct", "oneLiner": "Projectuitvoering, veldwerk en klantrapportages — alles op één platform, gebouwd en gelicentieerd door Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS-product (Intern)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities, met maandabonnementen inclusief sessieminuten – op elk moment bij te vullen.", "link": "global-reach" },
+          { "type": "SaaS-product (Intern)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities, met maandabonnementen inclusief sessieminuten – prijs op aanvraag.", "link": "global-reach" },
           { "type": "Veilig Klantportaal (Intern)", "id": "member-portal", "title": "Nordic Riser Ledenportaal", "oneLiner": "Een geauthenticeerd portaal voor documentuitwisseling, zaakopvolging, veilige berichten en betalingen.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
           { "type": "Meertalig Marketingplatform (Intern)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Een productiesite in elf talen met RTL-ondersteuning, volledige metadekking en schone URL's per taal.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
           { "type": "Zorg-app (Intern)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Een telemedicineplatform dat we volledig zelf hebben gebouwd — HD-videoconsulten, afsprakenplanning en chat tijdens het gesprek — klaar om aan te passen voor elk zorgmerk.", "link": "work", "linkLabel": "Bekijk in ons portfolio →" },
@@ -392,7 +392,7 @@
         ],
         "cta": "Aan de slag",
         "priceBulletIndex": 2,
-        "priceBulletNoAmount": "Maandabonnementen inclusief sessieminuten – op elk moment bij te vullen"
+        "priceBulletNoAmount": "Maandabonnementen inclusief sessieminuten – prijs op aanvraag"
       },
       "howWeWork": {
         "label": "Proces",
@@ -443,7 +443,7 @@
               },
               {
                 "category": "Opslag & rapportage",
-                "items": "S3-compatibele objectopslag, server-gerenderde PDF-rapporten"
+                "items": "Privé-objectopslag (S3-compatibel), server-gerenderde PDF-rapporten"
               },
               {
                 "category": "Authenticatie & Beveiliging",
@@ -454,7 +454,7 @@
         ],
         "practices": {
           "category": "Werkwijzen",
-          "items": "Git-versiebeheer, gefaseerde implementaties, gegevensverwerking ontworpen met de AVG in gedachten"
+          "items": "Git-versiebeheer, gefaseerde implementaties, AVG-bewuste gegevensverwerking"
         }
       },
       "whyUs": {
@@ -911,7 +911,7 @@
           "challengeLabel": "Uitdaging",
           "challenge": "Bedrijven hebben operationele tools op ondernemingsniveau nodig — projectopvolging, veldrapportages, kostenbeheersing, klantrapportages — zonder de kosten en complexiteit van systemen zoals SAP.",
           "buildLabel": "Bouw",
-          "build": "Een op abonnementen gebaseerd bedrijfsoperationeel platform met projecten, takenborden, budgetbeheer, veldrapportages met fotodocumentatie, AI-ondersteunde risico- en kosteninzichten, en gebrande PDF-klantrapporten.",
+          "build": "Een op abonnementen gebaseerd bedrijfsoperationeel platform met projecten, takenborden, budgetbeheer, veldrapportages met fotodocumentatie en gebrande PDF-klantrapporten.",
           "stackLabel": "Techniek",
           "stack": ["Next.js", "NestJS", "PostgreSQL"],
           "resultLabel": "Resultaat",
@@ -926,7 +926,7 @@
           "challengeLabel": "Uitdaging",
           "challenge": "Teams die grensoverschrijdend werken hebben een gedeelde ruimte nodig om live samen te studeren of te werken, zonder een gesprek te boeken of te schakelen tussen losse tools.",
           "buildLabel": "Bouw",
-          "build": "Live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities, met maandabonnementen inclusief sessieminuten – op elk moment bij te vullen.",
+          "build": "Live studie- en werkruimtes met realtime aanwezigheid en gedeelde sessienotities, met maandabonnementen inclusief sessieminuten – prijs op aanvraag.",
           "stackLabel": "Techniek",
           "stack": ["React", "Firebase Realtime Database", "Abonnementsfacturering"],
           "resultLabel": "Resultaat",
@@ -1007,12 +1007,12 @@
     "nrBos": {
       "meta": {
         "title": "NR-BOS — Bedrijfsbesturingssysteem — Nordic Riser AB",
-        "description": "Binnen NR-BOS: project- en taaktracking, budgetbeheersing, veldrapporten met foto's, AI-ondersteunde inzichten, gebrandmerkte PDF-rapporten voor klanten en codegebaseerde licentiëring."
+        "description": "Binnen NR-BOS: project- en taaktracking, budgetbeheersing, veldrapporten met foto's, gebrandmerkte PDF-rapporten voor klanten en codegebaseerde licentiëring."
       },
       "hero": {
         "label": "NR-BOS",
         "h1": "Het bedrijfsbesturingssysteem voor projectgedreven bedrijven",
-        "tagline": "Plan. Voer uit. Bewaak. Rapporteer. Analyseer.",
+        "tagline": "Plan. Voer uit. Bewaak. Rapporteer.",
         "body": "Beheer projecten, veldwerk, kosten, teams en klantrapportage vanaf één verbonden platform. Eerst intern gebouwd en gebruikt bij Nordic Riser — de screenshots hieronder komen uit die live omgeving, gevuld met voorbeeldprojectgegevens."
       },
       "breadcrumb": "NR-BOS",
@@ -1046,8 +1046,8 @@
             "body": "Portefeuille-KPI's, belasting en budget vs. werkelijk werken automatisch bij zodra gegevens binnenkomen."
           },
           {
-            "title": "Analyseren",
-            "body": "Op aanvraag leest AI de bijgewerkte projectgegevens en levert een risico-, kosten- en productiviteitsbriefing — beslissingsondersteuning, geen autonome actie."
+            "title": "Analyseren (binnenkort)",
+            "body": "Gepland: een AI-briefing op aanvraag over risico, kosten en productiviteit — beslissingsondersteuning, geen autonome actie. De AI-assistent is gepauzeerd terwijl hij wordt herzien."
           },
           {
             "title": "Rapporteren",
@@ -1267,10 +1267,10 @@
         "title": "Werkt Samen met Google Classroom",
         "intro": "Classroom is gemaakt voor lesstof. Global Reach is gemaakt voor de momenten die live moeten gebeuren.",
         "classroomHeading": "Google Classroom",
-        "classroomBody": "Beheert opdrachten, feedback en beoordelingen in uw eigen tempo. Voor een live sessie moet u het nog steeds combineren met een apart videotool — Classroom zelf heeft geen ingebouwde live chat of gedeeld notitiepaneel.",
+        "classroomBody": "Beheert opdrachten, feedback en beoordelingen in uw eigen tempo.",
         "grHeading": "Global Reach",
         "grBody": "Een live ruimte met realtime aanwezigheid en gedeelde notities, klaar op het moment dat twee mensen moeten samenwerken — niets te configureren, geen cursus vooraf aan te maken.",
-        "note": "Gebruik Classroom voor de lesstof. Gebruik Global Reach voor de live sessie die erbij past."
+        "note": "Gebruik Classroom voor de lesstof, Global Reach voor de live sessie die erbij hoort."
       },
       "useCasesLabel": "Voor Wie Het Is",
       "useCasesTitle": "Ontworpen voor Grensoverschrijdende Samenwerking",

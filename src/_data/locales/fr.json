@@ -371,7 +371,7 @@
         "title": "Ce que nous avons construit",
         "items": [
           { "type": "Produit SaaS (interne)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Produit Phare", "oneLiner": "Livraison de projets, opérations de terrain et rapports client — le tout sur une seule plateforme, conçue et licenciée par Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "Produit SaaS (interne)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Des salles d’étude et de travail en direct avec présence en temps réel et notes de session partagées, avec des formules mensuelles incluant un quota de minutes de session, rechargeables à tout moment.", "link": "global-reach" },
+          { "type": "Produit SaaS (interne)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Des salles d’étude et de travail en direct avec présence en temps réel et notes de session partagées, avec des formules mensuelles incluant un quota de minutes de session, tarifs sur demande.", "link": "global-reach" },
           { "type": "Portail client sécurisé (interne)", "id": "member-portal", "title": "Portail Membre Nordic Riser", "oneLiner": "Un portail authentifié pour l'échange de documents, le suivi des dossiers, la messagerie sécurisée et les paiements.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
           { "type": "Plateforme marketing multilingue (interne)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "Un site de production en onze langues avec prise en charge RTL, couverture méta complète et URL propres par langue.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
           { "type": "Application de santé (interne)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "Une plateforme de télémédecine que nous avons construite de bout en bout — consultations vidéo HD, prise de rendez-vous et chat pendant l'appel — prête à être personnalisée pour toute marque de santé.", "link": "work", "linkLabel": "Voir dans nos réalisations →" },
@@ -392,7 +392,7 @@
         ],
         "cta": "Commencer",
         "priceBulletIndex": 2,
-        "priceBulletNoAmount": "Formules mensuelles avec un quota de minutes de session, rechargeables à tout moment"
+        "priceBulletNoAmount": "Formules mensuelles avec un quota de minutes de session, tarifs sur demande"
       },
       "howWeWork": {
         "label": "Processus",
@@ -443,7 +443,7 @@
               },
               {
                 "category": "Stockage et rapports",
-                "items": "Stockage d'objets compatible S3, rapports PDF générés côté serveur"
+                "items": "Stockage d'objets privé (compatible S3), rapports PDF générés côté serveur"
               },
               {
                 "category": "Authentification & sécurité",
@@ -454,7 +454,7 @@
         ],
         "practices": {
           "category": "Pratiques",
-          "items": "Contrôle de version Git, déploiements par étapes, traitement des données conçu en tenant compte du RGPD"
+          "items": "Contrôle de version Git, déploiements par étapes, traitement des données attentif au RGPD"
         }
       },
       "whyUs": {
@@ -911,7 +911,7 @@
           "challengeLabel": "Défi",
           "challenge": "Les entreprises ont besoin d'outils de gestion de niveau professionnel — suivi de projets, rapports de terrain, contrôle des coûts, rapports client — sans le coût ni la complexité de systèmes comme SAP.",
           "buildLabel": "Réalisation",
-          "build": "Une plateforme d'opérations commerciales par abonnement couvrant les projets, les tableaux de tâches, le suivi budgétaire, les rapports de terrain avec documentation photo, des analyses de risques et de coûts assistées par IA, et des rapports client PDF personnalisés.",
+          "build": "Une plateforme d'opérations commerciales par abonnement couvrant les projets, les tableaux de tâches, le suivi budgétaire, les rapports de terrain avec documentation photo, et des rapports client PDF personnalisés.",
           "stackLabel": "Technologie",
           "stack": ["Next.js", "NestJS", "PostgreSQL"],
           "resultLabel": "Résultat",
@@ -926,7 +926,7 @@
           "challengeLabel": "Défi",
           "challenge": "Les équipes qui travaillent au-delà des frontières ont besoin d'un espace partagé pour étudier ou travailler ensemble en direct, sans réserver un appel ni jongler avec des outils séparés.",
           "buildLabel": "Réalisation",
-          "build": "Des salles d’étude et de travail en direct avec présence en temps réel et notes de session partagées, avec des formules mensuelles incluant un quota de minutes de session, rechargeables à tout moment.",
+          "build": "Des salles d’étude et de travail en direct avec présence en temps réel et notes de session partagées, avec des formules mensuelles incluant un quota de minutes de session, tarifs sur demande.",
           "stackLabel": "Technologie",
           "stack": ["React", "Firebase Realtime Database", "Facturation par abonnement"],
           "resultLabel": "Résultat",
@@ -1007,12 +1007,12 @@
     "nrBos": {
       "meta": {
         "title": "NR-BOS — Système d'exploitation d'entreprise — Nordic Riser AB",
-        "description": "Dans NR-BOS : suivi des projets et des tâches, contrôle budgétaire, rapports de terrain avec photos, analyses assistées par IA, rapports PDF de marque pour les clients, et licences par code."
+        "description": "Dans NR-BOS : suivi des projets et des tâches, contrôle budgétaire, rapports de terrain avec photos, rapports PDF de marque pour les clients, et licences par code."
       },
       "hero": {
         "label": "NR-BOS",
         "h1": "Le système d'exploitation d'entreprise pour les sociétés pilotées par projets",
-        "tagline": "Planifier. Exécuter. Suivre. Rapporter. Analyser.",
+        "tagline": "Planifier. Exécuter. Suivre. Rapporter.",
         "body": "Pilotez projets, opérations de terrain, coûts, équipes et rapports clients depuis une seule plateforme connectée. D'abord construit et utilisé en interne chez Nordic Riser — les captures ci-dessous proviennent de cet environnement réel, alimenté par des données de projet d'exemple."
       },
       "breadcrumb": "NR-BOS",
@@ -1046,8 +1046,8 @@
             "body": "Les indicateurs du portefeuille, la charge et le budget vs réel se mettent à jour automatiquement à mesure que les données arrivent."
           },
           {
-            "title": "Analyser",
-            "body": "Sur demande, l'IA lit les données de projet mises à jour et renvoie un briefing sur le risque, le coût et la productivité — une aide à la décision, pas une action autonome."
+            "title": "Analyser (bientôt disponible)",
+            "body": "Prévu : un briefing IA à la demande sur le risque, le coût et la productivité — une aide à la décision, pas une action autonome. L'assistant IA est en pause pendant sa refonte."
           },
           {
             "title": "Rapporter",
@@ -1267,10 +1267,10 @@
         "title": "Fonctionne Avec Google Classroom",
         "intro": "Classroom est conçu pour les cours. Global Reach est conçu pour les moments qui doivent se passer en direct.",
         "classroomHeading": "Google Classroom",
-        "classroomBody": "Gère les devoirs, les retours et les notes à votre propre rythme. Une session en direct nécessite toujours de l'associer à un outil vidéo séparé — Classroom lui-même n'a pas de chat en direct ni de panneau de notes partagées intégré.",
+        "classroomBody": "Gère les devoirs, les retours et les notes à votre propre rythme.",
         "grHeading": "Global Reach",
         "grBody": "Un salon en direct avec présence en temps réel et notes partagées, prêt dès que deux personnes doivent travailler ensemble — rien à configurer, aucun cours à créer au préalable.",
-        "note": "Utilisez Classroom pour les cours. Utilisez Global Reach pour la session en direct qui l'accompagne."
+        "note": "Utilisez Classroom pour les cours, Global Reach pour la session en direct qui les accompagne."
       },
       "useCasesLabel": "Pour qui",
       "useCasesTitle": "Conçu pour la collaboration transfrontalière",

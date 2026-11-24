@@ -377,7 +377,7 @@
         "title": "What We've Built",
         "items": [
           { "type": "SaaS Product (In-House)", "id": "nr-bos", "title": "%%products.items.0.name%%", "featured": true, "featuredLabel": "Flagship Product", "oneLiner": "Project delivery, field operations, and client reporting — run from one platform, built and licensed by Nordic Riser AB.", "link": "work/nr-bos" },
-          { "type": "SaaS Product (In-House)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live study and work rooms with real-time presence and shared session notes, on monthly plans with a session-minute allowance — top up anytime.", "link": "global-reach" },
+          { "type": "SaaS Product (In-House)", "id": "global-reach", "title": "%%products.items.1.name%%", "oneLiner": "Live study and work rooms with real-time presence and shared session notes, on monthly plans with a session-minute allowance — pricing on request.", "link": "global-reach" },
           { "type": "Secure Client Portal (In-House)", "id": "member-portal", "title": "Nordic Riser Member Portal", "oneLiner": "An authenticated portal for document exchange, case tracking, secure messaging, and payments.", "link": "work", "linkLabel": "See in our work →" },
           { "type": "Multilingual Marketing Platform (In-House)", "id": "nordicriser-com", "title": "%%products.items.3.name%%", "oneLiner": "An eleven-language production site with RTL support, full meta coverage, and clean per-language URLs.", "link": "work", "linkLabel": "See in our work →" },
           { "type": "Healthcare App (In-House)", "id": "4edoctor", "title": "%%products.items.4.name%%", "oneLiner": "A telemedicine platform we built end-to-end — HD video consultations, appointment booking, and in-call chat — ready to customize for any healthcare brand.", "link": "work", "linkLabel": "See in our work →" },
@@ -398,7 +398,7 @@
         ],
         "cta": "Get Started",
         "priceBulletIndex": 2,
-        "priceBulletNoAmount": "Monthly plans with a session-minute allowance — top up anytime"
+        "priceBulletNoAmount": "Monthly plans with a session-minute allowance — pricing on request"
       },
       "howWeWork": {
         "label": "Process",
@@ -429,12 +429,12 @@
             "items": [
               { "category": "Frontend", "items": "Next.js 15, React 19" },
               { "category": "Backend & Data", "items": "NestJS, PostgreSQL, Prisma ORM" },
-              { "category": "Storage & Reporting", "items": "S3-compatible object storage, server-rendered PDF reports" },
+              { "category": "Storage & Reporting", "items": "Private object storage (S3-compatible), server-rendered PDF reports" },
               { "category": "Auth & Security", "items": "JWT authentication, role-based access control per company" }
             ]
           }
         ],
-        "practices": { "category": "Practices", "items": "Git version control, staged deployments, data handling built with GDPR in mind" }
+        "practices": { "category": "Practices", "items": "Git version control, staged deployments, GDPR-aware data handling" }
       },
       "whyUs": {
         "label": "Why Nordic Riser",
@@ -625,8 +625,8 @@
     "privacy": {
       "hero": { "label": "Legal", "h1": "Privacy Policy", "body": "How Nordic Riser AB collects, uses, and protects your personal information in accordance with the EU General Data Protection Regulation (GDPR)." },
       "breadcrumb": "Privacy Policy",
-      "updatedBadge": "Last Updated: 11 November 2026",
-      "whatChangedSummary": "What changed in this update: we added Section 6.5, which discloses that the Member Portal’s “Translate” button sends message text to Google Cloud’s Translation API. Earlier changes are listed in the Change history at the end of this page.",
+      "updatedBadge": "Last Updated: 23 November 2026",
+      "whatChangedSummary": "What changed in this update: Section 6.4 now states that the NR-BOS AI Assistant is currently paused, and that no project data is sent to DeepSeek while it is paused. Earlier changes are listed in the Change history at the end of this page.",
       "changeHistory": {
         "title": "Change history",
         "items": [
@@ -636,7 +636,8 @@
           "Published a Terms of Service and a Data Processing Agreement alongside this policy for the first time (see the Legal index).",
           "Corrected Section 4.5: Global Reach does not have a chat feature, so the data it processes is session and usage data, not chat messages (see the Sub-processors page for a related correction).",
           "Updated Section 6.4: NR-BOS now pseudonymizes team member names before sending project data to our AI provider, so the AI sees a generic label instead of a real name.",
-          "Added Section 6.5: the secure portal messaging’s “Translate” button sends message text to Google Cloud’s Translation API, which was not previously disclosed (see the Sub-processors page for the corresponding entry)."
+          "Added Section 6.5: the secure portal messaging’s “Translate” button sends message text to Google Cloud’s Translation API, which was not previously disclosed (see the Sub-processors page for the corresponding entry).",
+          "Updated Section 6.4: the NR-BOS AI Assistant is currently paused, and no project data is sent to DeepSeek while it is paused."
         ]
       },
       "translationNotice": "This page has been machine-translated. In case of any discrepancy, the English version is authoritative. Contact us with questions.",
@@ -714,7 +715,7 @@
           ], "outro": "All third parties are required to maintain appropriate security measures and are permitted to process your data only as directed by us and within the scope of their professional obligations." },
           { "title": "6.2 Legal Requirements", "intro": "We may disclose your personal information when required to do so by law, regulation, legal process, or a legitimate governmental request." },
           { "title": "6.3 International Data Transfers", "intro": "Where personal data is transferred outside the EU/EEA, we ensure an appropriate transfer mechanism — typically the European Commission's Standard Contractual Clauses — is in place before any such transfer takes place. Section 7 lists every sub-processor we use, including where each one is located and which transfer mechanism applies. One of those transfers, described in full below, is to a company based in China, a jurisdiction without an EU adequacy decision." },
-          { "title": "6.4 AI Processing in NR-BOS", "intro": "NR-BOS includes an optional AI Assistant that generates risk, cost, and productivity insights from a project's data. We are describing this plainly, including the parts that are not yet as protective as we'd like, rather than describing a safeguard that isn't actually in place:", "list": [
+          { "title": "6.4 AI Processing in NR-BOS", "intro": "The AI Assistant is currently paused, and no project data is sent to DeepSeek while it is paused. NR-BOS includes an optional AI Assistant that generates risk, cost, and productivity insights from a project's data. We are describing this plainly, including the parts that are not yet as protective as we'd like, rather than describing a safeguard that isn't actually in place:", "list": [
             "When this feature is used, the relevant project data — including project and company names, budget figures, task details, and cost entries — is sent to our AI provider, DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.), to generate the analysis. Team members are identified by a generic per-project label (e.g. \"Member A\"), not by name.",
             "We pseudonymize team member names before this data is transmitted — the AI never receives a real name, only the generic label. Project and company names, and cost/budget figures, are not pseudonymized, since the analysis genuinely depends on them. If this matters to how you use NR-BOS, contact us or your NR-BOS administrator — a client operating NR-BOS as controller can restrict use of the AI Assistant for their own deployment.",
             "DeepSeek's own API data policy states that data submitted through its API is not used to train its models. This is DeepSeek's representation, not a guarantee we independently audit.",
@@ -796,7 +797,7 @@
       "meta": { "title": "Sub-processors — Nordic Riser AB", "description": "The named third parties who process personal data on Nordic Riser AB's behalf across the website, Member Portal, NR-BOS, and Global Reach." },
       "hero": { "label": "Legal", "h1": "Sub-processors", "body": "Every third party we use to process personal data on your behalf — what they do, what data they touch, where they're located, and how the transfer is safeguarded." },
       "breadcrumb": "Sub-processors",
-      "updatedBadge": "Last Updated: 11 November 2026",
+      "updatedBadge": "Last Updated: 23 November 2026",
       "translationNotice": "This page has been machine-translated. In case of any discrepancy, the English version is authoritative. Contact us with questions.",
       "intro": [
         "This list exists to satisfy Article 13(1)(f) of the GDPR directly — not just to say safeguards exist, but to name who they're with. We keep it current and update the date below whenever it changes.",
@@ -815,7 +816,7 @@
           ],
           [
             "DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.)",
-            "AI-generated risk, cost, and productivity analysis in NR-BOS (optional feature)",
+            "AI-generated risk, cost, and productivity analysis in NR-BOS (optional feature) — currently paused; no project data is sent to DeepSeek while paused",
             "Project and company names, budget figures, task details, cost entries, and generic per-project labels for team members (real names are pseudonymized before transmission)",
             "China",
             "Standard Contractual Clauses (controller-to-processor module). China has no European Commission adequacy decision — see Privacy Policy Section 6.4 for the full disclosure",
@@ -1342,7 +1343,7 @@
           "challengeLabel": "Challenge",
           "challenge": "Businesses need enterprise-grade operations tooling — project tracking, field reporting, cost control, client reporting — without the cost and complexity of systems like SAP.",
           "buildLabel": "Build",
-          "build": "A subscription-based business operations platform covering projects, task boards, budget tracking, field reports with photo documentation, AI-assisted risk and cost insights, and branded PDF client reports.",
+          "build": "A subscription-based business operations platform covering projects, task boards, budget tracking, field reports with photo documentation, and branded PDF client reports.",
           "stackLabel": "Stack",
           "stack": ["Next.js", "NestJS", "PostgreSQL"],
           "resultLabel": "Result",
@@ -1357,7 +1358,7 @@
           "challengeLabel": "Challenge",
           "challenge": "Teams working across borders need a shared space to study or work together live, without booking a call or juggling separate tools.",
           "buildLabel": "Build",
-          "build": "Live study and work rooms with real-time presence and shared session notes, on monthly plans with a session-minute allowance — top up anytime.",
+          "build": "Live study and work rooms with real-time presence and shared session notes, on monthly plans with a session-minute allowance — pricing on request.",
           "stackLabel": "Stack",
           "stack": ["React", "Firebase Realtime Database", "Subscription billing"],
           "resultLabel": "Result",
@@ -1438,12 +1439,12 @@
     "nrBos": {
       "meta": {
         "title": "NR-BOS — Business Operating System — Nordic Riser AB",
-        "description": "Inside NR-BOS: project and task tracking, budget control, field reports with photos, AI-assisted insights, branded client PDF reports, and code-based licensing."
+        "description": "Inside NR-BOS: project and task tracking, budget control, field reports with photos, branded client PDF reports, and code-based licensing."
       },
       "hero": {
         "label": "NR-BOS",
         "h1": "The Business Operating System for Project-Driven Companies",
-        "tagline": "Plan. Execute. Monitor. Report. Analyse.",
+        "tagline": "Plan. Execute. Monitor. Report.",
         "body": "Run projects, field operations, costs, teams, and client reporting from one connected platform. Built and run in-house at Nordic Riser first — the screenshots below are from that live build, seeded with example project data."
       },
       "breadcrumb": "NR-BOS",
@@ -1458,7 +1459,7 @@
           { "title": "Capture", "body": "Field crews log site notes, photos, a timestamp, and location straight from the job." },
           { "title": "Review", "body": "The task moves through the board's Review stage before it's marked done." },
           { "title": "Monitor", "body": "Portfolio KPIs, workload, and budget-vs-actual refresh automatically as the data comes in." },
-          { "title": "Analyse", "body": "On demand, AI reads the updated project data and returns a risk, cost, and productivity briefing — decision support, not an autonomous action." },
+          { "title": "Analyse (coming soon)", "body": "Planned: an on-demand AI briefing on risk, cost, and productivity — decision support, not an autonomous action. The AI Assistant is paused while it is reworked." },
           { "title": "Report", "body": "A branded PDF pulls in the project's tasks, costs, and recent field photos." },
           { "title": "Client", "body": "The client sees the report — and, on their own login, only what's theirs." }
         ]
@@ -1605,10 +1606,10 @@
         "title": "Works Alongside Google Classroom",
         "intro": "Classroom is built for coursework. Global Reach is built for the moments that need to happen live.",
         "classroomHeading": "Google Classroom",
-        "classroomBody": "Manages assignments, feedback, and grading on your own schedule. Running a live session still means pairing it with a separate video tool — Classroom itself has no built-in live chat or shared notes panel.",
+        "classroomBody": "Manages assignments, feedback, and grading on your own schedule.",
         "grHeading": "Global Reach",
         "grBody": "A live room with real-time presence and shared notes, ready the moment two people need to work together — nothing to configure, no course to set up first.",
-        "note": "Use Classroom for the coursework. Use Global Reach for the live session that goes with it."
+        "note": "Use Classroom for coursework, Global Reach for the live session that goes with it."
       },
       "useCasesLabel": "Who It's For",
       "useCasesTitle": "Built for Cross-Border Collaboration",
